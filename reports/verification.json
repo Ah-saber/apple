@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "training_exit": {
+    "exit_code": 0,
+    "hard_timeout": false,
+    "elapsed_seconds": 8839.43167268904
+  },
+  "completed": {
+    "status": "completed",
+    "steps": 200000,
+    "reason": "max_steps",
+    "best": {
+      "step": 126000,
+      "path": "checkpoints/step_000126000.pt",
+      "sha256": "1c8c07024af6855c7a988ed00d6ab52fa5e9beec9390b00ac8f1cf4e0ab7e541",
+      "val_macro_psnr": 32.689030673151805
+    },
+    "last": {
+      "step": 200000,
+      "path": "checkpoints/step_000200000.pt",
+      "sha256": "9543ca5401a6b8b04ff89acfd4f34bc92ea50bc29e3a6ceb35777628ea6f1cbf"
+    },
+    "finished_at_server_utc": "2026-09-23T12:40:09.225779+00:00"
+  },
+  "checkpoints_verified": 101,
+  "visual_review": "human review pending; media decoding alone does not establish quality"
+}

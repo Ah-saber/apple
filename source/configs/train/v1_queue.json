@@ -1,0 +1,27 @@
+{
+  "version": "aug_midgt_v1_20260922",
+  "gpu_uuid": "GPU-7e9093df-d21b-0d14-a009-078bf6dd94f1",
+  "jobs": [
+    {
+      "name": "day",
+      "config": "configs/train/v1_day.json",
+      "run": "/data/zhangbenzhuang/huawei_sr/runs/AUG-MIDGT-V1-20260922-DAY"
+    },
+    {
+      "name": "light_medium",
+      "config": "configs/train/v1_light_medium.json",
+      "run": "/data/zhangbenzhuang/huawei_sr/runs/AUG-MIDGT-V1-20260922-LIGHT_MEDIUM"
+    },
+    {
+      "name": "heavy",
+      "config": "configs/train/v1_heavy.json",
+      "run": "/data/zhangbenzhuang/huawei_sr/runs/AUG-MIDGT-V1-20260922-HEAVY"
+    },
+    {
+      "name": "night",
+      "config": "configs/train/v1_night.json",
+      "run": "/data/zhangbenzhuang/huawei_sr/runs/AUG-MIDGT-V1-20260922-NIGHT"
+    }
+  ],
+  "policy": "serial, all preflights before training, stop on failure, no automatic restart"
+}

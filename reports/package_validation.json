@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "normalization_byte_equal": true,
+  "packaged_cli_cpu_repeat_byte_equal": true,
+  "reference_outputs": [
+    {
+      "scene": "weather_light",
+      "model": "best_126000",
+      "input_sha256": "8dc1265c70074e6c7819cf96c5a1f503b63becf48d63df3f7705503efeaa6e78",
+      "output_sha256": "c140225220236fc824c74d6fc37594d5e4a03bae4e674c64db64eccd57cdfebe",
+      "min": -0.01704668626189232,
+      "max": 1.5745151042938232
+    },
+    {
+      "scene": "weather_light",
+      "model": "last_200000",
+      "input_sha256": "8dc1265c70074e6c7819cf96c5a1f503b63becf48d63df3f7705503efeaa6e78",
+      "output_sha256": "14a3690ef698b6a193726e5f670aca90fac34b7674e92bbef160bbd80ca1e2ec",
+      "min": -0.011614400893449783,
+      "max": 1.5781011581420898
+    },
+    {
+      "scene": "weather_light",
+      "model": "baseline_8000",
+      "input_sha256": "8dc1265c70074e6c7819cf96c5a1f503b63becf48d63df3f7705503efeaa6e78",
+      "output_sha256": "1bceef7966fff7459082017e9943a8b01a6d44da1c22acafbbfea1787f209cf9",
+      "min": -0.0474947914481163,
+      "max": 1.4717938899993896
+    },
+    {
+      "scene": "weather_medium",
+      "model": "best_126000",
+      "input_sha256": "5c84e20e3b74c20e907d696397f2c188abcb9fd541bb72ab9f01cbc4ee52c58e",
+      "output_sha256": "8f12b0ebbdb082db88666503e1d5e607f2fd66f8b6518365439f9eba84c72c75",
+      "min": -0.02285871095955372,
+      "max": 1.762501835823059
+    },
+    {
+      "scene": "weather_medium",
+      "model": "last_200000",
+      "input_sha256": "5c84e20e3b74c20e907d696397f2c188abcb9fd541bb72ab9f01cbc4ee52c58e",
+      "output_sha256": "79e682675ad2edf8ad3fe9101632ad5b4f506c19fc4b5342194c49e889fd08f7",
+      "min": -0.021885598078370094,
+      "max": 1.7779239416122437
+    },
+    {
+      "scene": "weather_medium",
+      "model": "baseline_8000",
+      "input_sha256": "5c84e20e3b74c20e907d696397f2c188abcb9fd541bb72ab9f01cbc4ee52c58e",
+      "output_sha256": "afdb6b3e12013426f8db45c3ae13606226711e45b50cc1c437c431d34a2fde89",
+      "min": -0.04654405266046524,
+      "max": 1.6425445079803467
+    }
+  ],
+  "calibration_count": 12,
+  "board_status": "unconverted and unmeasured"
+}

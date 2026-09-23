@@ -1,0 +1,246 @@
+{
+  "count": 12,
+  "policy": "one frozen training frame per full-frame allowed training sequence; spatial ROI sequences excluded; preliminary quantization calibration only",
+  "samples": [
+    {
+      "path": "calibration/inputs/000_weather_light.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000000@train",
+      "scene": "weather_light",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/raw_u16.npy",
+      "source_raw_sha256": "dda2b850a9e97c5c7565696f2d45c78213eed87048561025ee36410dd158e172",
+      "normalization": {
+        "offset": 5114.8233385185895,
+        "middle_offset": 5116.094331995696,
+        "scale": 208.99169921875
+      },
+      "range": [
+        -0.04221814498305321,
+        1.0630888938903809
+      ],
+      "sha256": "a7dfa6fe1c1860b7e7c529bd76c9a089c000b237fa8b25e30858e0be7b1a04fc"
+    },
+    {
+      "path": "calibration/inputs/001_weather_medium.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000000@train",
+      "scene": "weather_medium",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/raw_u16.npy",
+      "source_raw_sha256": "10040dee04df6eecf4ea87ed4ec89fcd2a0eb50efe1a348ed8457aa0b0f4887c",
+      "normalization": {
+        "offset": 5102.798742464831,
+        "middle_offset": 5104.968331292917,
+        "scale": 179.625
+      },
+      "range": [
+        -0.03785012289881706,
+        1.3094011545181274
+      ],
+      "sha256": "44ff34452432b383b95ebca6706f8d149ff42540c8c5f19caab570e2ff9617af"
+    },
+    {
+      "path": "calibration/inputs/002_weather_light.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000000@train",
+      "scene": "weather_light",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/raw_u16.npy",
+      "source_raw_sha256": "2c0fbd1ddc2968b315352bfa11ccc5cd83fc39f2fa556b09584fb834945c6501",
+      "normalization": {
+        "offset": 5105.504647545963,
+        "middle_offset": 5105.239921759516,
+        "scale": 165.75
+      },
+      "range": [
+        -0.04527832940220833,
+        1.698311448097229
+      ],
+      "sha256": "7b8525e56e2ef074435d20441add647b07c9c3fa5994bd946b9294de3b26a20e"
+    },
+    {
+      "path": "calibration/inputs/003_weather_light.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+      "scene": "weather_light",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/raw_u16.npy",
+      "source_raw_sha256": "e70bed4bed2e762ed4cf853e79d033e545a035daca86efa691dbe33e08154b2e",
+      "normalization": {
+        "offset": 5064.203744389117,
+        "middle_offset": 5063.688288111985,
+        "scale": 144.7998046875
+      },
+      "range": [
+        -0.04284268990159035,
+        1.7665519714355469
+      ],
+      "sha256": "67f5414f123a9220ccd4f267050a143c17ebed136f72d457d754ac4fd7e21aaf"
+    },
+    {
+      "path": "calibration/inputs/004_weather_light.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000000@train",
+      "scene": "weather_light",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/raw_u16.npy",
+      "source_raw_sha256": "51351148c69cb791275c3ad4045dccce631c036c97c83d8faca6abdad6821937",
+      "normalization": {
+        "offset": 5064.525356791119,
+        "middle_offset": 5063.557244012455,
+        "scale": 138.783203125
+      },
+      "range": [
+        -0.025402141734957695,
+        1.711119294166565
+      ],
+      "sha256": "df331a14db3cfb08be68f2d450496b2b1baa36df5339e41f71435ba58c5bd91f"
+    },
+    {
+      "path": "calibration/inputs/005_weather_light.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000000@train",
+      "scene": "weather_light",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/raw_u16.npy",
+      "source_raw_sha256": "767d2ddb36bb8402bea22555f8f3f4946e587f249836e4facdde0092558802f5",
+      "normalization": {
+        "offset": 5050.078614898871,
+        "middle_offset": 5049.958819379757,
+        "scale": 144.8916015625
+      },
+      "range": [
+        -0.02814941108226776,
+        1.559244155883789
+      ],
+      "sha256": "7c01efe99ecb07a88fafff1dddd454e97f0c0ed05567910d39de8f0658b753ed"
+    },
+    {
+      "path": "calibration/inputs/006_weather_medium.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000000@train",
+      "scene": "weather_medium",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/raw_u16.npy",
+      "source_raw_sha256": "8dea9471ff8fea9715ea89aa5e2e143c49203ed7550ddabda78d5c4114214460",
+      "normalization": {
+        "offset": 5058.593933100452,
+        "middle_offset": 5058.165234209051,
+        "scale": 130.78369140625
+      },
+      "range": [
+        -0.042771004140377045,
+        1.5858724117279053
+      ],
+      "sha256": "db756b2ade1fdf419055746c688fc73d78b3c70c84c2cedfcf81a05ca8929a19"
+    },
+    {
+      "path": "calibration/inputs/007_weather_medium.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+      "scene": "weather_medium",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/raw_u16.npy",
+      "source_raw_sha256": "45a05821015f8ada81676c8bbd1900258dd3ddab8dd078219af93435f1251690",
+      "normalization": {
+        "offset": 5057.720466775944,
+        "middle_offset": 5058.083060450604,
+        "scale": 124.44189453125
+      },
+      "range": [
+        -0.062042634934186935,
+        1.858532428741455
+      ],
+      "sha256": "0af2d87f92beb128622b87b24dab25c4acfb8c1a78e0f212cd502be80d9c115e"
+    },
+    {
+      "path": "calibration/inputs/008_weather_medium.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000000@train",
+      "scene": "weather_medium",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/raw_u16.npy",
+      "source_raw_sha256": "ac308f07b86d08a3f6378456f0cea2a8485b4d4420d92921beaf97c2cc74ca16",
+      "normalization": {
+        "offset": 5040.725412146151,
+        "middle_offset": 5041.7742363372445,
+        "scale": 179.5023325195325
+      },
+      "range": [
+        -0.0820356234908104,
+        1.8232320547103882
+      ],
+      "sha256": "f012d5833606668d8b0c68256a5b3acebeddac09ede11dec5f85a14a833b1860"
+    },
+    {
+      "path": "calibration/inputs/009_weather_medium.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000000@train",
+      "scene": "weather_medium",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/raw_u16.npy",
+      "source_raw_sha256": "27cc5fe0ce2bed3764c2c2e9bc02c3984e3910e9daa55a9fc618e4877c63e5e3",
+      "normalization": {
+        "offset": 4981.189291081239,
+        "middle_offset": 4981.072278789093,
+        "scale": 158.2357309570316
+      },
+      "range": [
+        -0.03911539539694786,
+        1.7683144807815552
+      ],
+      "sha256": "8bf704f5aa16f6723c34feda21e26d9d901c809fcac0713e61cbdde2fe99b4ad"
+    },
+    {
+      "path": "calibration/inputs/010_weather_medium.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000000@train",
+      "scene": "weather_medium",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/raw_u16.npy",
+      "source_raw_sha256": "de424a01a751a53b8026b276fd3250b8c722e8e27804233e61ee951191d3f655",
+      "normalization": {
+        "offset": 4979.416322323739,
+        "middle_offset": 4977.945282921254,
+        "scale": 148.0106333007816
+      },
+      "range": [
+        -0.03659537062048912,
+        1.0714330673217773
+      ],
+      "sha256": "3d4fecc6a6e87c3ec698debd24e10541dd9c2ceea4ca3ef6adf9eb638838cbb4"
+    },
+    {
+      "path": "calibration/inputs/011_weather_medium.f32",
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000000@train",
+      "scene": "weather_medium",
+      "split": "train",
+      "sequence": "vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001",
+      "frame": 0,
+      "source_raw": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/raw_u16.npy",
+      "source_raw_sha256": "7008434ccedd404f9bc6f2b4fe708c2e8c0c39002168521a327047823eef0f6b",
+      "normalization": {
+        "offset": 4988.853083884915,
+        "middle_offset": 4988.871566558083,
+        "scale": 136.7333984375
+      },
+      "range": [
+        -0.042806126177310944,
+        1.9830340147018433
+      ],
+      "sha256": "cbcf483ebe82a7c7bcc17b8864828f0f95bdb0433d35d90201a2a502bc63cba5"
+    }
+  ]
+}

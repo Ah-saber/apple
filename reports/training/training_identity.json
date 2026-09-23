@@ -1,0 +1,30 @@
+{
+  "code_commit": "3991c4d5c5eff0d7246009215d0560e487271e52",
+  "worktree": "/data/zhangbenzhuang/huawei_sr/code/worktrees/ss928-s03-full-20260923",
+  "data_lock_sha256": "fb0f6d31a77a3de68e240a72ea906814446b8c8829194ad50366367d2d0f93e9",
+  "target_cache_index_sha256": "56808a1f2f19d7ab58fd234c17f5d582f5f029fb1dd28f73351a3a9ae246aa70",
+  "middle_gt_index_sha256": "9c414c52678b546ffdc501540e15a9d7dd13acb65de95f0c14acd5698a8c6cae",
+  "sequence_normalization_sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559",
+  "augmentation": true,
+  "auxiliary_raw_weight": 0.1,
+  "selected_data_sha256": "fe4023db04dd510503c399e06453cf7ffd565038a65c1b3ba58c6b2626b498cf",
+  "scene_ids": [
+    "weather_light",
+    "weather_medium"
+  ],
+  "train_crop_hr": [
+    768,
+    768
+  ],
+  "train_crop_lr": [
+    256,
+    256
+  ],
+  "started_at_server_utc": "2026-09-23T10:13:03.760624+00:00",
+  "gpu_uuid": "GPU-7e9093df-d21b-0d14-a009-078bf6dd94f1",
+  "torch": "2.7.0+cu128",
+  "parameter_count": 59628,
+  "max_wall_seconds": 21600.0,
+  "clock_basis": "monotonic duration, host-calculated budget",
+  "initialization": "/data/zhangbenzhuang/huawei_sr/runs/SS928-S03-FULL-20260923-LIGHT_MEDIUM-200K/checkpoints/step_000008000.pt"
+}

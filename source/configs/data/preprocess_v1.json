@@ -1,0 +1,36 @@
+{
+  "version": "preprocess_v1",
+  "scale": 3,
+  "train_crop_hr": 384,
+  "validation_crop_tlhw": [
+    2,
+    0,
+    1020,
+    1278
+  ],
+  "raw_normalization": {
+    "kind": "fixed_affine",
+    "offset": 5101.930330358503,
+    "scale": 112.98028490056264,
+    "estimated_from": "train split only; full original RAW pixels",
+    "fit_pixels": 8846049280,
+    "clipping": false
+  },
+  "raw_downsample": "nonoverlapping 3x3 area mean in float32 DN before normalization",
+  "target_normalization": "float32 / 255",
+  "geometric_augmentation": "aligned random crop only",
+  "seed": 928,
+  "domain_sampling": "equal domain then equal sequence then uniform frame",
+  "data_loader": {
+    "persistent_workers": false,
+    "set_epoch_before_new_workers": true
+  },
+  "inference_raw_hw": [
+    1024,
+    1280
+  ],
+  "inference_output_hw": [
+    3072,
+    3840
+  ]
+}

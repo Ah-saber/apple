@@ -1,0 +1,8 @@
+{
+  "max_abs": 0.0,
+  "mae": 0.0,
+  "rmse": 0.0,
+  "mean_bias": 0.0,
+  "psnr_range1_unclipped": "inf",
+  "meaning": "相对同权重 CPU ONNX 的部署误差，未裁剪；无 GT 质量含义。阈值需另行约定。"
+}

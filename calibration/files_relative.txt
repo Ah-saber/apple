@@ -1,0 +1,12 @@
+calibration/inputs/000_weather_light.f32
+calibration/inputs/001_weather_medium.f32
+calibration/inputs/002_weather_light.f32
+calibration/inputs/003_weather_light.f32
+calibration/inputs/004_weather_light.f32
+calibration/inputs/005_weather_light.f32
+calibration/inputs/006_weather_medium.f32
+calibration/inputs/007_weather_medium.f32
+calibration/inputs/008_weather_medium.f32
+calibration/inputs/009_weather_medium.f32
+calibration/inputs/010_weather_medium.f32
+calibration/inputs/011_weather_medium.f32

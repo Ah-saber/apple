@@ -1,0 +1,1 @@
+model_sha256,om_sha256,input_sha256,device,tool_version,concurrent_load,warmup_count,repeat,frame_index,offline_calibration_ms,normalize_ms,input_copy_layout_ms,npu_synchronized_ms,output_copy_layout_ms,uint8_ms,end_to_end_ms,file_io_ms

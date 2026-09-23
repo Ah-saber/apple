@@ -1,0 +1,27 @@
+{
+  "task": "TASK-021",
+  "gpu_uuid": "GPU-7e9093df-d21b-0d14-a009-078bf6dd94f1",
+  "gpu_physical_index": 0,
+  "gpu_wait_seconds": 21600,
+  "baseline": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-019-004",
+  "jobs": [
+    {
+      "name": "day",
+      "config": "configs/train/b0_day_p256_d1.json",
+      "run": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-021-002",
+      "finish": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-021-005"
+    },
+    {
+      "name": "light_medium",
+      "config": "configs/train/b0_light_medium_p256_d1.json",
+      "run": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-021-003",
+      "finish": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-021-006"
+    },
+    {
+      "name": "heavy",
+      "config": "configs/train/b0_heavy_p256_d1.json",
+      "run": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-021-004",
+      "finish": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-021-007"
+    }
+  ]
+}

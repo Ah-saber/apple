@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+*.om
+*.bin
+*.tmp
+*_comparison.json
+*_output.f32
+!samples/weather_light/best_126000_output.f32
+!samples/weather_medium/best_126000_output.f32

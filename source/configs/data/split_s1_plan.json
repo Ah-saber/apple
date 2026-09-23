@@ -1,0 +1,32 @@
+{
+  "version": "split_s1",
+  "dataset": "dataset_d1",
+  "user_decision": "2026-09-22: all seven teacher profiles need validation/test; scarce profiles use spatial development; keep evaluation small",
+  "frames_per_scene_per_eval_split": 12,
+  "independent_group_assignments": {
+    "normal_capture_00": "test",
+    "normal_capture_01": "val",
+    "adverse_capture_00": "val",
+    "adverse_capture_01": "test",
+    "adverse_capture_07": "val",
+    "adverse_capture_08": "test",
+    "night_capture_00": "val",
+    "night_capture_02": "test"
+  },
+  "other_groups": "train",
+  "spatial_scenes": ["weather_heavy_c32", "night_special"],
+  "spatial_train_roi_tlhw": [0, 256, 1024, 768],
+  "spatial_eval_crops_tlhw": {
+    "val": [2, 0, 1020, 192],
+    "test": [2, 1088, 1020, 192]
+  },
+  "minimum_horizontal_guard_hr_pixels": 64,
+  "restrict_all_training_sequences_in_spatial_capture_groups": true,
+  "independent_eval_crop_tlhw": [2, 0, 1020, 1278],
+  "independent_eval_sequence_selection": "lexicographically first sequence of scene within held-out groups",
+  "frame_selection": "uniform deterministic indices including endpoints; spatial profiles distribute budget equally over their sequences",
+  "unused_heldout_frames": "reserved, never returned to training",
+  "spatial_teacher_limit": "teachers used full clips and global statistics; spatial scores are development only",
+  "evaluation_batch_size": 1,
+  "reporting": "report each scene and scope separately; optional equal-scene macro, not a frame-weighted pooled score"
+}

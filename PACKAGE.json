@@ -1,0 +1,28 @@
+{
+  "name": "SS928-S03-DEPLOY-20260923-v2",
+  "default_model": "best_126000",
+  "models": [
+    {
+      "name": "best_126000",
+      "step": 126000,
+      "checkpoint_sha256": "1c8c07024af6855c7a988ed00d6ab52fa5e9beec9390b00ac8f1cf4e0ab7e541",
+      "onnx_sha256": "798b12561d510e4f3575ac7a43f2d18ea2e782ff29a2ffafedd96a8bc08333f9"
+    },
+    {
+      "name": "last_200000",
+      "step": 200000,
+      "checkpoint_sha256": "9543ca5401a6b8b04ff89acfd4f34bc92ea50bc29e3a6ceb35777628ea6f1cbf",
+      "onnx_sha256": "f3a19d28bbf3bc44d80c930bbeda036d55cfd5a9c2a6b7d19d15d36d1690c4fd"
+    },
+    {
+      "name": "baseline_8000",
+      "step": 8000,
+      "checkpoint_sha256": "a766c379268dc64df8aef52203b42f9132c0b2b5daf2fb0bc5588bf9ce5f0cf6",
+      "onnx_sha256": "2b8ecb00b3ad682306d0b0b7ac2497ad6bc67a7fc013f66a41061391ca0d70f1"
+    }
+  ],
+  "source_run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-S03-FULL-20260923-LIGHT_MEDIUM-200K",
+  "analysis_run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-S03-FULL-20260923-ANALYSIS",
+  "normalization_sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559",
+  "status": "CPU verified; SS928 conversion and timing pending"
+}

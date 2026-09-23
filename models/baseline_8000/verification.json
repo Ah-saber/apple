@@ -1,0 +1,53 @@
+{
+  "status": "passed_cpu_parity",
+  "hierarchical_pooling": true,
+  "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-STUDENT-V2-20260923-S03-LIGHT_MEDIUM-8K/checkpoints/step_000008000.pt",
+  "checkpoint_sha256": "a766c379268dc64df8aef52203b42f9132c0b2b5daf2fb0bc5588bf9ce5f0cf6",
+  "selection": "fixed8000 equal-budget ablation; not final selected release",
+  "onnx_sha256": "2b8ecb00b3ad682306d0b0b7ac2497ad6bc67a7fc013f66a41061391ca0d70f1",
+  "opset": 17,
+  "operator_counts": {
+    "SpaceToDepth": 1,
+    "Conv": 10,
+    "Relu": 4,
+    "AveragePool": 4,
+    "Constant": 10,
+    "Div": 2,
+    "Erf": 2,
+    "Add": 4,
+    "Mul": 4,
+    "Shape": 1,
+    "Slice": 1,
+    "Concat": 1,
+    "Resize": 1,
+    "Cast": 1,
+    "DepthToSpace": 2
+  },
+  "checks": [
+    {
+      "input": "random_normal_seed928",
+      "max_abs": 3.5762786865234375e-06,
+      "mae": 2.38772296778845e-07,
+      "rmse": 3.129809651834353e-07
+    },
+    {
+      "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-20-19_001/000000@val",
+      "max_abs": 1.6689300537109375e-06,
+      "mae": 1.1226718761297763e-07,
+      "rmse": 1.4842698749712558e-07
+    },
+    {
+      "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/000000@val",
+      "max_abs": 2.384185791015625e-06,
+      "mae": 1.1504692048233485e-07,
+      "rmse": 1.5302125952802262e-07
+    }
+  ],
+  "seconds": 1.438270804937929,
+  "SS928": "not converted or measured; actual-shape AvgPool/Resize/reference graph compatibility pending",
+  "versions": {
+    "torch": "2.7.0+cu128",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.20.1"
+  }
+}

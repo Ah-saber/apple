@@ -1,0 +1,77 @@
+{
+  "model": "RT4KSR_B0_night_AugMidGT_v1",
+  "channels": 24,
+  "blocks": 4,
+  "scale": 3,
+  "dataset": "dataset_d1",
+  "data_root": "/data/zhangbenzhuang/huawei_sr/data",
+  "target_cache_root": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-019-002/targets",
+  "scene_ids": [
+    "night_ordinary",
+    "night_special"
+  ],
+  "expected_split_counts": {
+    "train": {
+      "night_ordinary": 180,
+      "night_special": 120
+    },
+    "val": {
+      "night_ordinary": 12,
+      "night_special": 12
+    },
+    "test": {
+      "night_ordinary": 12,
+      "night_special": 12
+    }
+  },
+  "seed": 928,
+  "batch_size": 16,
+  "workers": 4,
+  "loss": "display_L1 + auxiliary_raw_weight * normalized_middle_RAW_L1",
+  "optimizer": "Adam",
+  "lr": 0.0002,
+  "min_lr": 2e-06,
+  "warmup_steps": 200,
+  "max_steps": 200000,
+  "max_wall_seconds": 21600,
+  "amp": "bfloat16",
+  "gradient_clip_norm": 1,
+  "log_every": 50,
+  "validation_every": 2000,
+  "early_validation_steps": [
+    500
+  ],
+  "test_every": 10000,
+  "early_test_steps": [
+    2000
+  ],
+  "checkpoint_every": 2000,
+  "selection": "highest equal-two-night-scene validation macro PSNR; never test",
+  "metrics": {
+    "range": [
+      0,
+      1
+    ],
+    "clip_prediction": true,
+    "uint8_rounding": false,
+    "hr_border": 3,
+    "ssim_gaussian_window": 11,
+    "ssim_sigma": 1.5,
+    "ssim_population_covariance": true
+  },
+  "gpu_uuid": "GPU-7e9093df-d21b-0d14-a009-078bf6dd94f1",
+  "gpu_physical_index": 0,
+  "train_crop_hr": [
+    768,
+    768
+  ],
+  "geometric_augmentation": true,
+  "augmentation_protocol": "uniform eight exact rot90/flip transforms after aligned crop; shared RAW/display/middle; train only",
+  "auxiliary_raw_weight": 0.1,
+  "initialization": "random; same seed and original B0 main-weight initialization as baseline",
+  "auxiliary_resolution": "input RAW grid: area3 of aligned denoised HR RAW crop",
+  "auxiliary_attachment": "shared body output before ISP tail; residual conv + pixelshuffle2; removed at inference",
+  "version": "aug_midgt_v1_20260922",
+  "middle_gt_root": "/data/zhangbenzhuang/huawei_sr/runs/MIDGT-TRAIN-V1-20260922",
+  "middle_gt_index_sha256": "9c414c52678b546ffdc501540e15a9d7dd13acb65de95f0c14acd5698a8c6cae"
+}

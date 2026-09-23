@@ -1,0 +1,85 @@
+{
+  "model": "RT4KSR_B0_GlobalReference_Student_s01",
+  "channels": 24,
+  "blocks": 4,
+  "scale": 3,
+  "dataset": "dataset_d1",
+  "data_root": "/data/zhangbenzhuang/huawei_sr/data",
+  "target_cache_root": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-019-002/targets",
+  "scene_ids": [
+    "weather_light",
+    "weather_medium"
+  ],
+  "expected_split_counts": {
+    "train": {
+      "weather_light": 600,
+      "weather_medium": 1440
+    },
+    "val": {
+      "weather_light": 12,
+      "weather_medium": 12
+    },
+    "test": {
+      "weather_light": 12,
+      "weather_medium": 12
+    }
+  },
+  "seed": 928,
+  "batch_size": 16,
+  "workers": 4,
+  "loss": "display_L1 + auxiliary_raw_weight * normalized_middle_RAW_L1",
+  "optimizer": "Adam",
+  "lr": 0.0002,
+  "min_lr": 2e-06,
+  "warmup_steps": 200,
+  "max_steps": 8000,
+  "max_wall_seconds": 3600,
+  "amp": "bfloat16",
+  "gradient_clip_norm": 1,
+  "log_every": 50,
+  "validation_every": 2000,
+  "early_validation_steps": [
+    500
+  ],
+  "test_every": 8000,
+  "early_test_steps": [],
+  "checkpoint_every": 2000,
+  "selection": "highest equal-selected-scene validation macro PSNR; never test",
+  "metrics": {
+    "range": [
+      0,
+      1
+    ],
+    "clip_prediction": true,
+    "uint8_rounding": false,
+    "hr_border": 3,
+    "ssim_gaussian_window": 11,
+    "ssim_sigma": 1.5,
+    "ssim_population_covariance": true
+  },
+  "gpu_uuid": "GPU-7e9093df-d21b-0d14-a009-078bf6dd94f1",
+  "gpu_physical_index": 0,
+  "train_crop_hr": [
+    768,
+    768
+  ],
+  "sampling": "equal original scenes, then equal sequences, then uniform frames; replacement",
+  "geometric_augmentation": true,
+  "augmentation_protocol": "uniform eight exact rot90/flip transforms after aligned crop; shared RAW/display/middle; train only",
+  "auxiliary_raw_weight": 0.1,
+  "initialization": "Random seed928; retained tensors identical to baseline initialization after exact output-phase permutation. No teacher distillation.",
+  "auxiliary_resolution": "input RAW grid: area3 of aligned denoised HR RAW crop",
+  "auxiliary_attachment": "shared body output before ISP tail; residual conv + pixelshuffle2; removed at inference",
+  "version": "ss928_student_v1_20260923_s01",
+  "middle_gt_root": "/data/zhangbenzhuang/huawei_sr/runs/MIDGT-TRAIN-V1-20260922",
+  "middle_gt_index_sha256": "9c414c52678b546ffdc501540e15a9d7dd13acb65de95f0c14acd5698a8c6cae",
+  "lr_schedule_steps": 200000,
+  "pilot_skip_deployment": true,
+  "sequence_normalization_index": "/data/zhangbenzhuang/huawei_sr/runs/FRAME-SEQNORM-V1-20260923-CALIBRATION/index.json",
+  "sequence_normalization_sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559",
+  "global_reference": true,
+  "cuda_memory_limit_gib": 3.5,
+  "normalization": "none",
+  "activation": "gelu",
+  "shuffle_mode": "split23"
+}
