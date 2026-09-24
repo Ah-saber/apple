@@ -1,6 +1,11 @@
 {
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 124,
+      "sha256": "2a8e8a37f19948ab12622ae6e5caa51853bb2ddbc07d9073017817e41055a21a"
+    },
+    {
       "path": "DEPLOYMENT.md",
       "bytes": 5245,
       "sha256": "ee15f6b0e63222be5a100804d5b0f25923a4c808bc3c5a454b0c3c8b48e0c252"

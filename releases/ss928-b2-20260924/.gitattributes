@@ -1,0 +1,6 @@
+# Preserve exact checksum bytes across Windows/Linux checkouts.
+* -text
+*.u16 binary
+*.f32 binary
+*.onnx binary
+*.pt binary
