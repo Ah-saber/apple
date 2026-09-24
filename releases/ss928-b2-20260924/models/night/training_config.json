@@ -1,0 +1,89 @@
+{
+  "model": "CrossScene_night_speed_b2",
+  "channels": 16,
+  "blocks": 2,
+  "scale": 3,
+  "dataset": "dataset_d1",
+  "data_root": "/data/zhangbenzhuang/huawei_sr/data",
+  "target_cache_root": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-019-002/targets",
+  "scene_ids": [
+    "night_ordinary",
+    "night_special"
+  ],
+  "expected_split_counts": {
+    "train": {
+      "night_ordinary": 180,
+      "night_special": 120
+    },
+    "val": {
+      "night_ordinary": 12,
+      "night_special": 12
+    },
+    "test": {
+      "night_ordinary": 12,
+      "night_special": 12
+    }
+  },
+  "seed": 928,
+  "batch_size": 16,
+  "workers": 4,
+  "loss": "display_L1 + auxiliary_raw_weight * normalized_middle_RAW_L1",
+  "optimizer": "Adam",
+  "lr": 0.0002,
+  "min_lr": 2e-06,
+  "warmup_steps": 200,
+  "max_steps": 12000,
+  "max_wall_seconds": 3600,
+  "amp": "bfloat16",
+  "gradient_clip_norm": 1,
+  "log_every": 50,
+  "validation_every": 2000,
+  "early_validation_steps": [
+    500
+  ],
+  "test_every": 12000,
+  "early_test_steps": [],
+  "checkpoint_every": 2000,
+  "selection": "highest equal-two-night-scene validation macro PSNR; never test",
+  "metrics": {
+    "range": [
+      0,
+      1
+    ],
+    "clip_prediction": true,
+    "uint8_rounding": false,
+    "hr_border": 3,
+    "ssim_gaussian_window": 11,
+    "ssim_sigma": 1.5,
+    "ssim_population_covariance": true
+  },
+  "gpu_uuid": "GPU-655fc72e-3e1f-236c-ee8b-5ee23e9bd264",
+  "gpu_physical_index": 1,
+  "train_crop_hr": [
+    768,
+    768
+  ],
+  "geometric_augmentation": true,
+  "augmentation_protocol": "uniform eight exact rot90/flip transforms after aligned crop; shared RAW/display/middle; train only",
+  "auxiliary_raw_weight": 0.1,
+  "initialization": "Random seed928; original supervision 8000 steps, then alternating original/native for 4000 steps; matched quality-cross schedule and frozen 200k LR.",
+  "auxiliary_resolution": "input RAW grid: area3 of aligned denoised HR RAW crop",
+  "auxiliary_attachment": "shared body output before ISP tail; residual convolution + pixelshuffle4; removed at inference",
+  "version": "speed_cross_20260924_night",
+  "middle_gt_root": "/data/zhangbenzhuang/huawei_sr/runs/MIDGT-TRAIN-V1-20260922",
+  "middle_gt_index_sha256": "9c414c52678b546ffdc501540e15a9d7dd13acb65de95f0c14acd5698a8c6cae",
+  "lr_schedule_steps": 200000,
+  "pilot_skip_deployment": true,
+  "cuda_memory_limit_gib": 2.5,
+  "global_reference": true,
+  "sequence_normalization_index": "/data/zhangbenzhuang/huawei_sr/runs/SS928-CROSS-SCENE-20260923-CALIBRATION/index.json",
+  "sequence_normalization_sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54",
+  "normalization": "none",
+  "activation": "relu",
+  "shuffle_mode": "split223",
+  "packing_factor": 4,
+  "output_kernel": 1,
+  "native_training_mode": "mixed",
+  "native_crop_sampling": "uniform",
+  "native_start_step": 8000
+}

@@ -1,0 +1,53 @@
+{
+  "status": "passed_cpu_parity",
+  "hierarchical_pooling": true,
+  "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-CROSS-20260924-NIGHT-B2-12K/checkpoints/step_000010000.pt",
+  "checkpoint_sha256": "c8895e6d443bc7da29becba70ff9e632920fe6dd7017e7c33e60b2c84e4c4cc3",
+  "selection": "validation native PSNR selection; research candidate pending SS928",
+  "onnx_sha256": "32e44cc2e693c53a2f82eab1ed4190bedee3fa4e861208e0b4e58bf179d4e962",
+  "opset": 17,
+  "operator_counts": {
+    "SpaceToDepth": 1,
+    "Conv": 8,
+    "Relu": 2,
+    "AveragePool": 4,
+    "Constant": 10,
+    "Div": 2,
+    "Erf": 2,
+    "Add": 4,
+    "Mul": 4,
+    "Shape": 1,
+    "Slice": 1,
+    "Concat": 1,
+    "Resize": 1,
+    "Cast": 1,
+    "DepthToSpace": 3
+  },
+  "checks": [
+    {
+      "input": "random_normal_seed928",
+      "max_abs": 3.5762786865234375e-06,
+      "mae": 2.793966409679007e-07,
+      "rmse": 3.664313357695642e-07
+    },
+    {
+      "input": "night/raw_20260805_192507/000000@val",
+      "max_abs": 1.3709068298339844e-06,
+      "mae": 1.3869102797503222e-07,
+      "rmse": 1.8089510276638197e-07
+    }
+  ],
+  "skipped_spatial_scenes": [
+    {
+      "scene": "night_special",
+      "reason": "Only spatial-heldout ROI validation exists; full-frame deployment quality unvalidated. No external ROI pixels used."
+    }
+  ],
+  "seconds": 0.6822273582220078,
+  "SS928": "not converted or measured; actual-shape AvgPool/Resize/reference graph compatibility pending",
+  "versions": {
+    "torch": "2.7.0+cu128",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.20.1"
+  }
+}

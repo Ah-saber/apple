@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "trained_weight_hashes": true,
+  "normalization_hashes": true,
+  "middle_gt_hashes": true,
+  "onnx_hashes": true,
+  "cpu_onnx_parity": true,
+  "board_measured": false
+}

@@ -1,0 +1,99 @@
+{
+  "release": "ss928-b2-20260924",
+  "input": {
+    "name": "raw",
+    "dtype": "float32",
+    "shape": [
+      1,
+      1,
+      1024,
+      1280
+    ],
+    "bytes": 5242880
+  },
+  "output": {
+    "name": "display",
+    "dtype": "float32",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "bytes": 47185920
+  },
+  "architecture": {
+    "channels": 16,
+    "blocks": 2,
+    "packing_factor": 4,
+    "output_kernel": 1,
+    "shuffle_mode": "split223",
+    "global_reference": true,
+    "auxiliary_at_inference": false
+  },
+  "models": {
+    "day": {
+      "onnx": "models/day/student_raw_x3_1024x1280.onnx",
+      "onnx_sha256": "9d700f9df34abbecd0668ee45b0f0e7ae6f117fe4505e494a37428019eb3bd92",
+      "checkpoint_sha256": "addc6c29fd31d3abb563822d0fb7492b7597125cf53f0d0d102d9137fd079393",
+      "step": 10000,
+      "scenes": [
+        "day_normal"
+      ],
+      "normalization_index": "normalization/cross_scene.json",
+      "normalization_sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54",
+      "theoretical_ss928_ms": 15.218534,
+      "SS928_measured": false,
+      "source_run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-CROSS-20260924-DAY-B2-12K"
+    },
+    "light_medium": {
+      "onnx": "models/light_medium/student_raw_x3_1024x1280.onnx",
+      "onnx_sha256": "80d1ee80360583d68f466429470951c9e642b126d36460acf49a19c17e0a89d8",
+      "checkpoint_sha256": "4377365630307a6e3fee4411357c22cee4d8d36e3581914660e5c2e64aab571b",
+      "step": 8000,
+      "scenes": [
+        "weather_light",
+        "weather_medium"
+      ],
+      "normalization_index": "normalization/light_medium.json",
+      "normalization_sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559",
+      "theoretical_ss928_ms": 15.031485,
+      "SS928_measured": false,
+      "source_run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B2-8K"
+    },
+    "heavy": {
+      "onnx": "models/heavy/student_raw_x3_1024x1280.onnx",
+      "onnx_sha256": "285624377d80f761b2f51faa6286f873b9ff3a6a8c63fa89bb3b881774820b5a",
+      "checkpoint_sha256": "6d7f9046ea62aedbc96a9d8dece8c432c198c08a3ae9a87e35bb3f57e4e98501",
+      "step": 12000,
+      "scenes": [
+        "weather_heavy",
+        "weather_heavy_c32"
+      ],
+      "normalization_index": "normalization/cross_scene.json",
+      "normalization_sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54",
+      "theoretical_ss928_ms": 15.480949,
+      "SS928_measured": false,
+      "source_run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-CROSS-20260924-HEAVY-B2-12K"
+    },
+    "night": {
+      "onnx": "models/night/student_raw_x3_1024x1280.onnx",
+      "onnx_sha256": "32e44cc2e693c53a2f82eab1ed4190bedee3fa4e861208e0b4e58bf179d4e962",
+      "checkpoint_sha256": "c8895e6d443bc7da29becba70ff9e632920fe6dd7017e7c33e60b2c84e4c4cc3",
+      "step": 10000,
+      "scenes": [
+        "night_ordinary",
+        "night_special"
+      ],
+      "normalization_index": "normalization/cross_scene.json",
+      "normalization_sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54",
+      "theoretical_ss928_ms": 15.121607,
+      "SS928_measured": false,
+      "source_run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-CROSS-20260924-NIGHT-B2-12K"
+    }
+  },
+  "training_commit": "9c7e1d0",
+  "inference_source_base_commit": "3318780",
+  "status": "deployment experiment; quality not accepted; SS928 untested",
+  "calibration_limit": "Only full-frame training ROIs included; C32 and special-night spatial calibration not represented. Recheck their quantization/whole-frame quality separately."
+}

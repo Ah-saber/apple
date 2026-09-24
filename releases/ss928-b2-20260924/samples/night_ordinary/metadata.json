@@ -1,0 +1,56 @@
+{
+  "group": "night",
+  "split": "val",
+  "record": {
+    "sample_id": "night/raw_20260805_192507/000000@val",
+    "domain": "night",
+    "sequence_id": "raw_20260805_192507",
+    "frame_id": 0,
+    "group_id": "night_capture_00",
+    "raw": {
+      "path": "decoded/raw_v1/night/raw_20260805_192507/raw_u16.npy",
+      "index": 0,
+      "format_id": "NIGHT-YRAW-U16LE-V1"
+    },
+    "target": {
+      "path": "targets/v8_snapshot_20260921/night/raw_20260805_192507/000000.png",
+      "sha256": "67ea185458a4671e21d3cc74d08700201710fd1fc0bc5c760b1f74ba19b989af",
+      "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_192507/enhanced/0000.png",
+      "source_sha256": "67ea185458a4671e21d3cc74d08700201710fd1fc0bc5c760b1f74ba19b989af",
+      "teacher_version": "v5.1",
+      "source_experiment": "EXP-TASK-010-N51",
+      "frame_id": 0
+    },
+    "pair_status": "source_identity_and_index_verified",
+    "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+    "source_sample_id": "night/raw_20260805_192507/000000",
+    "split": "val",
+    "scene_id": "night_ordinary",
+    "evaluation_scope": "capture_group_development",
+    "eval_crop_tlhw": [
+      2,
+      0,
+      1020,
+      1278
+    ]
+  },
+  "normalization": {
+    "offset": 5291.667384384473,
+    "middle_offset": 5291.1500317200025,
+    "scale": 88.56689453125
+  },
+  "normalization_index_sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54",
+  "raw_sha256": "d5a16c9fa6cce9e150e14ac91c2fc53309f9669f30f74892a9d468ec1bd28879",
+  "input_shape": [
+    1,
+    1,
+    1024,
+    1280
+  ],
+  "normalized_input_sha256": "8133d81daa60f248906939be66c0916bf5cd7cc94b4edb83cbc580bda74bdedd",
+  "input_range": [
+    -0.43659067153930664,
+    1.0989718437194824
+  ],
+  "reference_output": "Generate CPU ONNX output from this release; old S03 expected output is invalid."
+}

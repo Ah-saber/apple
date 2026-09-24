@@ -1,0 +1,890 @@
+{
+  "status": "passed",
+  "groups": [
+    {
+      "group": "day",
+      "complete_steps": 12000,
+      "selected_step": 10000,
+      "checkpoint_hashes": "passed",
+      "normalization_and_gt_hashes": "passed",
+      "independent_selected_metrics": "passed",
+      "samples": 24,
+      "video_count": 2,
+      "video_frames": 240,
+      "memory_peak_gib": 0.33998823165893555
+    },
+    {
+      "group": "heavy",
+      "complete_steps": 12000,
+      "selected_step": 12000,
+      "checkpoint_hashes": "passed",
+      "normalization_and_gt_hashes": "passed",
+      "independent_selected_metrics": "passed",
+      "samples": 48,
+      "video_count": 6,
+      "video_frames": 720,
+      "memory_peak_gib": 0.343930721282959
+    },
+    {
+      "group": "night",
+      "complete_steps": 12000,
+      "selected_step": 10000,
+      "checkpoint_hashes": "passed",
+      "normalization_and_gt_hashes": "passed",
+      "independent_selected_metrics": "passed",
+      "samples": 48,
+      "video_count": 4,
+      "video_frames": 360,
+      "memory_peak_gib": 0.343930721282959
+    }
+  ],
+  "preflight": {
+    "status": "passed",
+    "groups": [
+      {
+        "group": "day",
+        "sequence_checks": [
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              558,
+              694,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              6,
+              100,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              429,
+              770,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              151,
+              409,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              284,
+              216,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              341,
+              886,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              323,
+              411,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              147,
+              715,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              609,
+              274,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              747,
+              84,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              504,
+              344,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              9,
+              195,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              250,
+              203,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              766,
+              481,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              385,
+              490,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              531,
+              918,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              31,
+              347,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              95,
+              817,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              748,
+              179,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              192,
+              932,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              754,
+              984,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              518,
+              1003,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              397,
+              491,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              609,
+              862,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              243,
+              994,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              176,
+              965,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              23,
+              595,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              81,
+              977,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              419,
+              181,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              92,
+              492,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              523,
+              344,
+              256,
+              256
+            ]
+          }
+        ],
+        "losses": [
+          {
+            "step": 7999,
+            "native": false,
+            "loss": 0.4033306837081909,
+            "display": 0.4033306837081909,
+            "aux": 0.0
+          },
+          {
+            "step": 8000,
+            "native": false,
+            "loss": 0.3969549238681793,
+            "display": 0.3969549238681793,
+            "aux": 0.0
+          },
+          {
+            "step": 8001,
+            "native": false,
+            "loss": 0.3903241753578186,
+            "display": 0.3903241753578186,
+            "aux": 0.0
+          },
+          {
+            "step": 8002,
+            "native": true,
+            "loss": 0.3521478474140167,
+            "display": 0.3521478474140167,
+            "aux": 0.0
+          }
+        ],
+        "peak_gib": 0.22768831253051758
+      },
+      {
+        "group": "heavy",
+        "sequence_checks": [
+          {
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-26-52_001/000000@train",
+            "allowed_region": [
+              0,
+              256,
+              1024,
+              768
+            ],
+            "native_crop": [
+              648,
+              301,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-54-27_001/000000@train",
+            "allowed_region": [
+              0,
+              256,
+              1024,
+              768
+            ],
+            "native_crop": [
+              116,
+              767,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/000000@train",
+            "allowed_region": [
+              0,
+              256,
+              1024,
+              768
+            ],
+            "native_crop": [
+              268,
+              617,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              102,
+              967,
+              256,
+              256
+            ]
+          }
+        ],
+        "losses": [
+          {
+            "step": 7999,
+            "native": false,
+            "loss": 0.479976087808609,
+            "display": 0.4788830578327179,
+            "aux": 0.010930228047072887
+          },
+          {
+            "step": 8000,
+            "native": false,
+            "loss": 0.4756543040275574,
+            "display": 0.4742397665977478,
+            "aux": 0.014145449735224247
+          },
+          {
+            "step": 8001,
+            "native": false,
+            "loss": 0.4563303291797638,
+            "display": 0.4549497961997986,
+            "aux": 0.01380547508597374
+          },
+          {
+            "step": 8002,
+            "native": true,
+            "loss": 0.4419269859790802,
+            "display": 0.4409336447715759,
+            "aux": 0.009933490306138992
+          }
+        ],
+        "peak_gib": 0.23626184463500977
+      },
+      {
+        "group": "night",
+        "sequence_checks": [
+          {
+            "sample": "night/raw_20260805_195608/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              719,
+              84,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "night/raw_20260805_195715/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              163,
+              744,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "night/raw_20260805_200247/000000@train",
+            "allowed_region": [
+              0,
+              0,
+              1024,
+              1280
+            ],
+            "native_crop": [
+              203,
+              610,
+              256,
+              256
+            ]
+          },
+          {
+            "sample": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+            "allowed_region": [
+              0,
+              256,
+              1024,
+              768
+            ],
+            "native_crop": [
+              494,
+              367,
+              256,
+              256
+            ]
+          }
+        ],
+        "losses": [
+          {
+            "step": 7999,
+            "native": false,
+            "loss": 0.4694681465625763,
+            "display": 0.46887144446372986,
+            "aux": 0.005967129021883011
+          },
+          {
+            "step": 8000,
+            "native": false,
+            "loss": 0.4587711691856384,
+            "display": 0.4580968916416168,
+            "aux": 0.006742700468748808
+          },
+          {
+            "step": 8001,
+            "native": false,
+            "loss": 0.4562532603740692,
+            "display": 0.45563241839408875,
+            "aux": 0.006208555772900581
+          },
+          {
+            "step": 8002,
+            "native": true,
+            "loss": 0.3947097659111023,
+            "display": 0.39401593804359436,
+            "aux": 0.006938199046999216
+          }
+        ],
+        "peak_gib": 0.23626184463500977
+      }
+    ],
+    "environment": "/data/zhangbenzhuang/miniconda3/envs/restormer/bin/python",
+    "torch": "2.7.0+cu128"
+  },
+  "protocol_verification": {
+    "status": "passed",
+    "groups": [
+      {
+        "group": "day",
+        "config_changes_vs_mixed": {
+          "initialization": {
+            "before": "Random seed928; same original scene data, loss, augmentation and 200k LR prefix. No warm-start or distillation.",
+            "after": "Random seed928; original supervision 8000 steps, then alternating original/native for 4000 steps; matched quality-cross schedule and frozen 200k LR."
+          },
+          "output_kernel": {
+            "before": 3,
+            "after": 1
+          },
+          "blocks": {
+            "before": 4,
+            "after": 2
+          },
+          "model": {
+            "before": "CrossScene_day_s03",
+            "after": "CrossScene_day_speed_b2"
+          },
+          "version": {
+            "before": "quality_cross_day_mixed_uniform",
+            "after": "speed_cross_20260924_day"
+          },
+          "native_start_step": {
+            "before": null,
+            "after": 8000
+          },
+          "packing_factor": {
+            "before": 2,
+            "after": 4
+          },
+          "shuffle_mode": {
+            "before": "split23",
+            "after": "split223"
+          }
+        },
+        "original_path_tensor_checks": 93,
+        "epochs": [
+          0,
+          1,
+          7
+        ],
+        "original_steps": 10000,
+        "native_steps": 2000
+      },
+      {
+        "group": "heavy",
+        "config_changes_vs_mixed": {
+          "initialization": {
+            "before": "Random seed928; same original scene data, loss, augmentation and 200k LR prefix. No warm-start or distillation.",
+            "after": "Random seed928; original supervision 8000 steps, then alternating original/native for 4000 steps; matched quality-cross schedule and frozen 200k LR."
+          },
+          "output_kernel": {
+            "before": 3,
+            "after": 1
+          },
+          "auxiliary_attachment": {
+            "before": "shared body output before ISP tail; residual conv + pixelshuffle2; removed at inference",
+            "after": "shared body output before ISP tail; residual convolution + pixelshuffle4; removed at inference"
+          },
+          "blocks": {
+            "before": 4,
+            "after": 2
+          },
+          "model": {
+            "before": "CrossScene_heavy_s03",
+            "after": "CrossScene_heavy_speed_b2"
+          },
+          "version": {
+            "before": "quality_cross_heavy_mixed_uniform",
+            "after": "speed_cross_20260924_heavy"
+          },
+          "native_start_step": {
+            "before": null,
+            "after": 8000
+          },
+          "packing_factor": {
+            "before": 2,
+            "after": 4
+          },
+          "shuffle_mode": {
+            "before": "split23",
+            "after": "split223"
+          }
+        },
+        "original_path_tensor_checks": 12,
+        "epochs": [
+          0,
+          1,
+          7
+        ],
+        "original_steps": 10000,
+        "native_steps": 2000
+      },
+      {
+        "group": "night",
+        "config_changes_vs_mixed": {
+          "initialization": {
+            "before": "Random seed928; same original scene data, loss, augmentation and 200k LR prefix. No warm-start or distillation.",
+            "after": "Random seed928; original supervision 8000 steps, then alternating original/native for 4000 steps; matched quality-cross schedule and frozen 200k LR."
+          },
+          "output_kernel": {
+            "before": 3,
+            "after": 1
+          },
+          "auxiliary_attachment": {
+            "before": "shared body output before ISP tail; residual conv + pixelshuffle2; removed at inference",
+            "after": "shared body output before ISP tail; residual convolution + pixelshuffle4; removed at inference"
+          },
+          "blocks": {
+            "before": 4,
+            "after": 2
+          },
+          "model": {
+            "before": "CrossScene_night_s03",
+            "after": "CrossScene_night_speed_b2"
+          },
+          "version": {
+            "before": "quality_cross_night_mixed_uniform",
+            "after": "speed_cross_20260924_night"
+          },
+          "native_start_step": {
+            "before": null,
+            "after": 8000
+          },
+          "packing_factor": {
+            "before": 2,
+            "after": 4
+          },
+          "shuffle_mode": {
+            "before": "split23",
+            "after": "split223"
+          }
+        },
+        "original_path_tensor_checks": 12,
+        "epochs": [
+          0,
+          1,
+          7
+        ],
+        "original_steps": 10000,
+        "native_steps": 2000
+      }
+    ]
+  },
+  "limitations": "No SS928 measurements, no true3xGT, one seed; quality not automatically accepted."
+}

@@ -1,0 +1,53 @@
+{
+  "status": "passed_cpu_parity",
+  "hierarchical_pooling": true,
+  "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-CROSS-20260924-HEAVY-B2-12K/checkpoints/step_000012000.pt",
+  "checkpoint_sha256": "6d7f9046ea62aedbc96a9d8dece8c432c198c08a3ae9a87e35bb3f57e4e98501",
+  "selection": "validation native PSNR selection; research candidate pending SS928",
+  "onnx_sha256": "285624377d80f761b2f51faa6286f873b9ff3a6a8c63fa89bb3b881774820b5a",
+  "opset": 17,
+  "operator_counts": {
+    "SpaceToDepth": 1,
+    "Conv": 8,
+    "Relu": 2,
+    "AveragePool": 4,
+    "Constant": 10,
+    "Div": 2,
+    "Erf": 2,
+    "Add": 4,
+    "Mul": 4,
+    "Shape": 1,
+    "Slice": 1,
+    "Concat": 1,
+    "Resize": 1,
+    "Cast": 1,
+    "DepthToSpace": 3
+  },
+  "checks": [
+    {
+      "input": "random_normal_seed928",
+      "max_abs": 2.7418136596679688e-06,
+      "mae": 2.116488818462254e-07,
+      "rmse": 2.7666276540640367e-07
+    },
+    {
+      "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-25-30_001/000000@val",
+      "max_abs": 1.6093254089355469e-06,
+      "mae": 1.430365790339431e-07,
+      "rmse": 1.8857858036122201e-07
+    }
+  ],
+  "skipped_spatial_scenes": [
+    {
+      "scene": "weather_heavy_c32",
+      "reason": "Only spatial-heldout ROI validation exists; full-frame deployment quality unvalidated. No external ROI pixels used."
+    }
+  ],
+  "seconds": 0.7140829060226679,
+  "SS928": "not converted or measured; actual-shape AvgPool/Resize/reference graph compatibility pending",
+  "versions": {
+    "torch": "2.7.0+cu128",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.20.1"
+  }
+}

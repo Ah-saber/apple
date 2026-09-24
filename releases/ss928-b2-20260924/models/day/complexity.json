@@ -1,0 +1,40 @@
+{
+  "conv_macs": 950255616,
+  "conv_layers": [
+    {
+      "name": "/head/head.0/Conv",
+      "macs": 188743680
+    },
+    {
+      "name": "/body/body.0/conv1/rep_conv/Conv",
+      "macs": 188743680
+    },
+    {
+      "name": "/body/body.1/conv1/rep_conv/Conv",
+      "macs": 188743680
+    },
+    {
+      "name": "/encoder/encoder.0/Conv",
+      "macs": 442368
+    },
+    {
+      "name": "/encoder/encoder.2/Conv",
+      "macs": 5308416
+    },
+    {
+      "name": "/project/Conv",
+      "macs": 786432
+    },
+    {
+      "name": "/tail/tail.1/rep_conv/Conv",
+      "macs": 188743680
+    },
+    {
+      "name": "/upsample/upsample.0/Conv",
+      "macs": 188743680
+    }
+  ],
+  "parameter_count": 13364,
+  "float32_output_bytes": 47185920,
+  "reference_resized_float32_bytes": 5242880
+}

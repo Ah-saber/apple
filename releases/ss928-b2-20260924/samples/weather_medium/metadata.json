@@ -1,0 +1,56 @@
+{
+  "group": "light_medium",
+  "split": "val",
+  "record": {
+    "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/000000@val",
+    "domain": "adverse",
+    "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001",
+    "frame_id": 0,
+    "group_id": "adverse_capture_00",
+    "raw": {
+      "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/raw_u16.npy",
+      "index": 0,
+      "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+    },
+    "target": {
+      "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/000000.png",
+      "sha256": "d601fcd13245bd70a88cba63e9379ed26fbe2312c5ed96365d0b7a76d138f4c1",
+      "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/enhanced/0000.png",
+      "source_sha256": "d601fcd13245bd70a88cba63e9379ed26fbe2312c5ed96365d0b7a76d138f4c1",
+      "teacher_version": "v6",
+      "source_experiment": "EXP-TASK-013-W6A",
+      "frame_id": 0
+    },
+    "pair_status": "source_identity_and_index_verified",
+    "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+    "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/000000",
+    "split": "val",
+    "scene_id": "weather_medium",
+    "evaluation_scope": "capture_group_development",
+    "eval_crop_tlhw": [
+      2,
+      0,
+      1020,
+      1278
+    ]
+  },
+  "normalization": {
+    "offset": 5159.320946384072,
+    "middle_offset": 5157.315831447244,
+    "scale": 128.05810546875
+  },
+  "normalization_index_sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559",
+  "raw_sha256": "1924a9c92d1a29665a4e356cde76cf4abb2304123b11bfb24023106591673dd8",
+  "input_shape": [
+    1,
+    1,
+    1024,
+    1280
+  ],
+  "normalized_input_sha256": "5c84e20e3b74c20e907d696397f2c188abcb9fd541bb72ab9f01cbc4ee52c58e",
+  "input_range": [
+    -0.07278571277856827,
+    2.09029483795166
+  ],
+  "reference_output": "Generate CPU ONNX output from this release; old S03 expected output is invalid."
+}

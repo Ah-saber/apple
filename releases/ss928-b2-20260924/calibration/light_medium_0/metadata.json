@@ -1,0 +1,56 @@
+{
+  "group": "light_medium",
+  "split": "train",
+  "record": {
+    "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000000@train",
+    "domain": "adverse",
+    "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001",
+    "frame_id": 0,
+    "group_id": "adverse_capture_02",
+    "raw": {
+      "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/raw_u16.npy",
+      "index": 0,
+      "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+    },
+    "target": {
+      "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000000.png",
+      "sha256": "aad59efec556f44ad9671ec9a61bbaabb27a0249e8e11b58cc17278bf2a538b5",
+      "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/enhanced/0000.png",
+      "source_sha256": "aad59efec556f44ad9671ec9a61bbaabb27a0249e8e11b58cc17278bf2a538b5",
+      "teacher_version": "v6",
+      "source_experiment": "EXP-TASK-013-W6B",
+      "frame_id": 0
+    },
+    "pair_status": "source_identity_and_index_verified",
+    "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+    "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000000",
+    "split": "train",
+    "scene_id": "weather_light",
+    "evaluation_scope": "training",
+    "train_roi_tlhw": [
+      0,
+      0,
+      1024,
+      1280
+    ]
+  },
+  "normalization": {
+    "offset": 5114.8233385185895,
+    "middle_offset": 5116.094331995696,
+    "scale": 208.99169921875
+  },
+  "normalization_index_sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559",
+  "raw_sha256": "9e4e86319bf51f5a9f14f2a3b2f77dd325a24d89fbe45a8e675a80293d591c5c",
+  "input_shape": [
+    1,
+    1,
+    1024,
+    1280
+  ],
+  "normalized_input_sha256": "a7dfa6fe1c1860b7e7c529bd76c9a089c000b237fa8b25e30858e0be7b1a04fc",
+  "input_range": [
+    -0.04221814498305321,
+    1.0630888938903809
+  ],
+  "reference_output": "Generate CPU ONNX output from this release; old S03 expected output is invalid."
+}

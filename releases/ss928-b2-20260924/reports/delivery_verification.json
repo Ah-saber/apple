@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "normalized_inputs": 12,
+  "checks": [
+    {
+      "group": "day",
+      "sample": "day_normal",
+      "raw_normalization_exact": true,
+      "cli_inference_exact": true,
+      "output_sha256": "6e533dba5b03fb78b06af535910ea1cade25e6e7cedf12275f8c016fae20c9c6",
+      "range": [
+        -0.4232724905014038,
+        1.3459124565124512
+      ]
+    },
+    {
+      "group": "night",
+      "sample": "night_ordinary",
+      "raw_normalization_exact": true,
+      "cli_inference_exact": true,
+      "output_sha256": "438e1b2f7ca8a796a3f888844abd95e72428e9d175ac32a61045a7edcdcd1f3c",
+      "range": [
+        -0.23510412871837616,
+        1.3020343780517578
+      ]
+    },
+    {
+      "group": "heavy",
+      "sample": "weather_heavy",
+      "raw_normalization_exact": true,
+      "cli_inference_exact": true,
+      "output_sha256": "d4e4e6d2d20faa9dc5eaeed511de78cd0d0568934d0b0bb9e373ca46fa55a166",
+      "range": [
+        -0.4441892206668854,
+        1.2532793283462524
+      ]
+    },
+    {
+      "group": "light_medium",
+      "sample": "weather_light",
+      "raw_normalization_exact": true,
+      "cli_inference_exact": true,
+      "output_sha256": "15c8a82b45c9ffa4189f9a28d7f1d490c429508a51b1b91510cffcfb868a0453",
+      "range": [
+        -0.022111833095550537,
+        1.72988760471344
+      ]
+    },
+    {
+      "group": "light_medium",
+      "sample": "weather_medium",
+      "raw_normalization_exact": true,
+      "cli_inference_exact": true,
+      "output_sha256": "fc952cee9f404fd7d0c8eb1967ffbd5184a89c801ff9227942208bda4b826188",
+      "range": [
+        -0.049729421734809875,
+        1.9664524793624878
+      ]
+    },
+    {
+      "group": "day",
+      "reexport": {
+        "status": "passed",
+        "group": "day",
+        "checks": [
+          {
+            "input": "random_seed928",
+            "max_abs": 6.67572021484375e-06
+          },
+          {
+            "input": "/data/zhangbenzhuang/huawei_sr/code/worktrees/ss928-publish-four-scenes-20260924/releases/ss928-b2-20260924/work/inputs/samples/day_normal.f32",
+            "max_abs": 2.0265579223632812e-06
+          }
+        ],
+        "checkpoint_sha256": "addc6c29fd31d3abb563822d0fb7492b7597125cf53f0d0d102d9137fd079393",
+        "onnx_sha256": "f9630932dac6ea0eea1817d04421a9e225144f74d8b8c66f2544f6f7394d354a",
+        "note": "Different exporter versions may change graph bytes; new graph needs SS928 conversion and parity checks.",
+        "max_abs_vs_shipped_onnx": 0.0
+      }
+    },
+    {
+      "group": "light_medium",
+      "reexport": {
+        "status": "passed",
+        "group": "light_medium",
+        "checks": [
+          {
+            "input": "random_seed928",
+            "max_abs": 2.1457672119140625e-06
+          },
+          {
+            "input": "/data/zhangbenzhuang/huawei_sr/code/worktrees/ss928-publish-four-scenes-20260924/releases/ss928-b2-20260924/work/inputs/samples/weather_light.f32",
+            "max_abs": 1.4901161193847656e-06
+          }
+        ],
+        "checkpoint_sha256": "4377365630307a6e3fee4411357c22cee4d8d36e3581914660e5c2e64aab571b",
+        "onnx_sha256": "18d231e13218c22c46d34079044c03e8a5e2d82320cfa5169bca957e07a64ba6",
+        "note": "Different exporter versions may change graph bytes; new graph needs SS928 conversion and parity checks.",
+        "max_abs_vs_shipped_onnx": 0.0
+      }
+    },
+    {
+      "group": "heavy",
+      "reexport": {
+        "status": "passed",
+        "group": "heavy",
+        "checks": [
+          {
+            "input": "random_seed928",
+            "max_abs": 2.7418136596679688e-06
+          },
+          {
+            "input": "/data/zhangbenzhuang/huawei_sr/code/worktrees/ss928-publish-four-scenes-20260924/releases/ss928-b2-20260924/work/inputs/samples/weather_heavy.f32",
+            "max_abs": 1.6093254089355469e-06
+          }
+        ],
+        "checkpoint_sha256": "6d7f9046ea62aedbc96a9d8dece8c432c198c08a3ae9a87e35bb3f57e4e98501",
+        "onnx_sha256": "165fbe0414b0bbd091a4630a8f67dcdd380e21ca7110ccf6d29f742f1e6e7aa9",
+        "note": "Different exporter versions may change graph bytes; new graph needs SS928 conversion and parity checks.",
+        "max_abs_vs_shipped_onnx": 0.0
+      }
+    },
+    {
+      "group": "night",
+      "reexport": {
+        "status": "passed",
+        "group": "night",
+        "checks": [
+          {
+            "input": "random_seed928",
+            "max_abs": 3.5762786865234375e-06
+          },
+          {
+            "input": "/data/zhangbenzhuang/huawei_sr/code/worktrees/ss928-publish-four-scenes-20260924/releases/ss928-b2-20260924/work/inputs/samples/night_ordinary.f32",
+            "max_abs": 1.3709068298339844e-06
+          }
+        ],
+        "checkpoint_sha256": "c8895e6d443bc7da29becba70ff9e632920fe6dd7017e7c33e60b2c84e4c4cc3",
+        "onnx_sha256": "407b1490a175d4c3885120d3ec45fd551eafa4acde782b30902c2e42469120fe",
+        "note": "Different exporter versions may change graph bytes; new graph needs SS928 conversion and parity checks.",
+        "max_abs_vs_shipped_onnx": 0.0
+      }
+    }
+  ],
+  "compare_nonzero_error_detected": true,
+  "malformed_output_rejected": true,
+  "sequence_frame_parameter_selection": true,
+  "ATC": "shell syntax checked; real toolchain and SS928 unavailable; not executed",
+  "onnxruntime": "1.20.1"
+}

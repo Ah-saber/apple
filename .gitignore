@@ -8,3 +8,6 @@ __pycache__/
 *_output.f32
 !samples/weather_light/best_126000_output.f32
 !samples/weather_medium/best_126000_output.f32
+
+# Generated deployment experiment output
+releases/ss928-b2-20260924/work/

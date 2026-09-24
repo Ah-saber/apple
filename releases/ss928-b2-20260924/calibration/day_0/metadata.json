@@ -1,0 +1,56 @@
+{
+  "group": "day",
+  "split": "train",
+  "record": {
+    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000000@train",
+    "domain": "normal",
+    "sequence_id": "vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001",
+    "frame_id": 0,
+    "group_id": "normal_capture_02",
+    "raw": {
+      "path": "decoded/raw_v1/normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/raw_u16.npy",
+      "index": 0,
+      "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+    },
+    "target": {
+      "path": "targets/camera_jpeg_v1/normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000000.png",
+      "sha256": "7b1f0f7f818e8b453e2458fff370c083108adb9c4d50185c5fe6bfc1ffad17d4",
+      "source_path": "jpeg_weather_normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001.raw/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001_0.jpg",
+      "source_sha256": "960242070220364e6c3222fb7bb75e4603c81343bb6d44e134f43b66e2879111",
+      "teacher_version": "camera_jpeg_v1",
+      "source_experiment": null,
+      "frame_id": 0
+    },
+    "pair_status": "source_identity_and_index_verified",
+    "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+    "source_sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000000",
+    "split": "train",
+    "scene_id": "day_normal",
+    "evaluation_scope": "training",
+    "train_roi_tlhw": [
+      0,
+      0,
+      1024,
+      1280
+    ]
+  },
+  "normalization": {
+    "offset": 4840.1188828497725,
+    "middle_offset": 4841.289421912988,
+    "scale": 924.2934257812731
+  },
+  "normalization_index_sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54",
+  "raw_sha256": "3164d0f73b99b7c26a55891be3984d92b55012cd65bc72bb375860d7db0e30ec",
+  "input_shape": [
+    1,
+    1,
+    1024,
+    1280
+  ],
+  "normalized_input_sha256": "242ed1ed07e9547a65455c5e6abd90847dda7ca0012d7f3aeb5e2e43d9d47063",
+  "input_range": [
+    -0.29116150736808777,
+    1.1629222631454468
+  ],
+  "reference_output": "Generate CPU ONNX output from this release; old S03 expected output is invalid."
+}

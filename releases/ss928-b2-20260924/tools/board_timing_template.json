@@ -1,0 +1,48 @@
+{
+  "model": null,
+  "onnx_sha256": null,
+  "compiled_model_sha256": null,
+  "precision": null,
+  "input_shape": [
+    1,
+    1,
+    1024,
+    1280
+  ],
+  "output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "warmup_count": 50,
+  "timed_count": 200,
+  "repeats": 3,
+  "model_only_ms": {
+    "mean": null,
+    "p50": null,
+    "p95": null,
+    "max": null,
+    "per_frame": []
+  },
+  "modules_ms": {},
+  "normalization_ms": null,
+  "host_to_device_ms": null,
+  "device_to_host_ms": null,
+  "uint8_conversion_ms": null,
+  "total_pipeline_ms": null,
+  "device_status": null,
+  "notes": "Report fused tasks together; do not invent separate module timings.",
+  "group": null,
+  "atc_version": null,
+  "sdk_version": null,
+  "input_sha256": null,
+  "rounds": [],
+  "model_load_ms": null,
+  "first_inference_ms": null,
+  "offline_sequence_calibration_ms": null,
+  "input_layout_ms": null,
+  "output_layout_ms": null,
+  "file_io_ms": null,
+  "cpu_comparison": null
+}

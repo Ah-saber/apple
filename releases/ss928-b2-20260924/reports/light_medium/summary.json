@@ -1,0 +1,4408 @@
+{
+  "b3": {
+    "means": {
+      "val": {
+        "old": {
+          "native": {
+            "psnr": 30.602553192732493,
+            "ssim": 0.9612415044771644,
+            "bias_gray": 0.6805251215895016
+          },
+          "crop": {
+            "psnr": 30.832506319278213,
+            "ssim": 0.9380761856569603,
+            "bias_gray": 2.2339631021022797
+          }
+        },
+        "reference": {
+          "native": {
+            "psnr": 30.14787598847665,
+            "ssim": 0.9407702199129437,
+            "bias_gray": 0.09123870233694711
+          },
+          "crop": {
+            "psnr": 27.0947583727335,
+            "ssim": 0.7779440369191458,
+            "bias_gray": 0.9590164025624593
+          }
+        },
+        "s03": {
+          "native": {
+            "psnr": 29.898478806760203,
+            "ssim": 0.9517962304721044,
+            "bias_gray": 0.7605684871474903
+          },
+          "crop": {
+            "psnr": 27.117123377802244,
+            "ssim": 0.7857411033411659,
+            "bias_gray": 1.7571520109971364
+          }
+        }
+      },
+      "test": {
+        "old": {
+          "native": {
+            "psnr": 31.35743344704838,
+            "ssim": 0.9678118149334186,
+            "bias_gray": 0.8563670714696248
+          },
+          "crop": {
+            "psnr": 31.31043975265824,
+            "ssim": 0.9461613680629448,
+            "bias_gray": 2.780632009108861
+          }
+        },
+        "reference": {
+          "native": {
+            "psnr": 30.783861061994724,
+            "ssim": 0.9485068250568418,
+            "bias_gray": 1.214941995839278
+          },
+          "crop": {
+            "psnr": 27.692980642302487,
+            "ssim": 0.8000112796006194,
+            "bias_gray": 2.498755643765132
+          }
+        },
+        "s03": {
+          "native": {
+            "psnr": 30.510155809294588,
+            "ssim": 0.9572462136083686,
+            "bias_gray": 1.9619036515553794
+          },
+          "crop": {
+            "psnr": 27.730385110940766,
+            "ssim": 0.8080212984176451,
+            "bias_gray": 3.3781833946704865
+          }
+        }
+      }
+    },
+    "scenes": {
+      "val": {
+        "weather_light": {
+          "old_crop": {
+            "psnr": 30.93337737246814,
+            "ssim": 0.9397815857343318,
+            "bias_gray": 2.655755897363027
+          },
+          "old_native": {
+            "psnr": 30.832815614508917,
+            "ssim": 0.9633659247470329,
+            "bias_gray": 1.1012422641118367
+          },
+          "reference_crop": {
+            "psnr": 27.320980731652735,
+            "ssim": 0.7841057048672729,
+            "bias_gray": 1.4866772989432018
+          },
+          "reference_native": {
+            "psnr": 30.414138770079376,
+            "ssim": 0.9426082029995868,
+            "bias_gray": 0.5925662070512772
+          },
+          "s03_crop": {
+            "psnr": 27.29908685430597,
+            "ssim": 0.7917399284868388,
+            "bias_gray": 2.365185777346293
+          },
+          "s03_native": {
+            "psnr": 30.071150104969533,
+            "ssim": 0.9533722589080154,
+            "bias_gray": 1.2947366933027904
+          }
+        },
+        "weather_medium": {
+          "old_crop": {
+            "psnr": 30.731635266088286,
+            "ssim": 0.9363707855795887,
+            "bias_gray": 1.8121703068415325
+          },
+          "old_native": {
+            "psnr": 30.37229077095607,
+            "ssim": 0.9591170842072959,
+            "bias_gray": 0.25980797906716663
+          },
+          "reference_crop": {
+            "psnr": 26.868536013814268,
+            "ssim": 0.7717823689710187,
+            "bias_gray": 0.4313555061817169
+          },
+          "reference_native": {
+            "psnr": 29.881613206873926,
+            "ssim": 0.9389322368263006,
+            "bias_gray": -0.41008880237738293
+          },
+          "s03_crop": {
+            "psnr": 26.93515990129852,
+            "ssim": 0.7797422781954929,
+            "bias_gray": 1.1491182446479797
+          },
+          "s03_native": {
+            "psnr": 29.72580750855087,
+            "ssim": 0.9502202020361935,
+            "bias_gray": 0.22640028099219003
+          }
+        }
+      },
+      "test": {
+        "weather_light": {
+          "old_crop": {
+            "psnr": 31.0963179496645,
+            "ssim": 0.9460918639900866,
+            "bias_gray": 3.193575084209442
+          },
+          "old_native": {
+            "psnr": 31.244493072977132,
+            "ssim": 0.9677904487333749,
+            "bias_gray": 1.357235809167226
+          },
+          "reference_crop": {
+            "psnr": 27.631252292509107,
+            "ssim": 0.8006734113118613,
+            "bias_gray": 2.78327214717865
+          },
+          "reference_native": {
+            "psnr": 30.647086771106768,
+            "ssim": 0.9481952745226988,
+            "bias_gray": 1.595868706703186
+          },
+          "s03_crop": {
+            "psnr": 27.61568865279115,
+            "ssim": 0.8081401047545173,
+            "bias_gray": 3.7317922711372375
+          },
+          "s03_native": {
+            "psnr": 30.319369279109836,
+            "ssim": 0.9568639305758162,
+            "bias_gray": 2.3722851276397705
+          }
+        },
+        "weather_medium": {
+          "old_crop": {
+            "psnr": 31.52456155565198,
+            "ssim": 0.9462308721358031,
+            "bias_gray": 2.3676889340082803
+          },
+          "old_native": {
+            "psnr": 31.470373821119622,
+            "ssim": 0.9678331811334623,
+            "bias_gray": 0.3554983337720235
+          },
+          "reference_crop": {
+            "psnr": 27.75470899209587,
+            "ssim": 0.7993491478893774,
+            "bias_gray": 2.2142391403516135
+          },
+          "reference_native": {
+            "psnr": 30.92063535288268,
+            "ssim": 0.9488183755909847,
+            "bias_gray": 0.8340152849753698
+          },
+          "s03_crop": {
+            "psnr": 27.84508156909038,
+            "ssim": 0.8079024920807729,
+            "bias_gray": 3.0245745182037354
+          },
+          "s03_native": {
+            "psnr": 30.70094233947934,
+            "ssim": 0.9576284966409209,
+            "bias_gray": 1.551522175470988
+          }
+        }
+      }
+    },
+    "timing": {
+      "old": {
+        "mean_ms": 0.9355995197097461,
+        "p95_ms": 0.9437808096408844,
+        "p50_ms": 0.929392009973526,
+        "max_ms": 3.253119945526123
+      },
+      "reference": {
+        "mean_ms": 0.4003428269426028,
+        "p95_ms": 0.40323200821876526,
+        "p50_ms": 0.4004319906234741,
+        "max_ms": 0.4052479863166809
+      },
+      "s03": {
+        "mean_ms": 0.36899514680107437,
+        "p95_ms": 0.37145599722862244,
+        "p50_ms": 0.36931198835372925,
+        "max_ms": 0.3750399947166443
+      }
+    },
+    "modules_ms": {
+      "old": {
+        "model.down": 0.008137599960900844,
+        "model.head.0": 0.056859199330210684,
+        "model.body.0.norm": 0.00043040000891778616,
+        "model.body.0.conv1.rep_conv": 0.09988960064947605,
+        "model.body.0.act": 0.012785600032657385,
+        "model.body.1.norm": 0.0007472000070265494,
+        "model.body.1.conv1.rep_conv": 0.10140640065073966,
+        "model.body.1.act": 0.011652799975126981,
+        "model.body.2.norm": 0.00046240001247497273,
+        "model.body.2.conv1.rep_conv": 0.10250079929828644,
+        "model.body.2.act": 0.012291199946776032,
+        "model.body.3.norm": 0.001136000012047589,
+        "model.body.3.conv1.rep_conv": 0.1076736006885767,
+        "model.body.3.act": 0.01811999985948205,
+        "thumbnail_pool.0": 0.010246399883180856,
+        "thumbnail_pool.1": 0.005731199984438717,
+        "model.global_reference.encoder.0": 0.0077103999676182864,
+        "model.global_reference.encoder.1": 0.0035888000391423704,
+        "model.global_reference.encoder.2": 0.01351839997805655,
+        "model.global_reference.encoder.3": 0.003644800023175776,
+        "reference_pool.0": 0.009336000005714596,
+        "reference_pool.1": 0.006619199994020164,
+        "model.global_reference.project": 0.007603199989534915,
+        "reference_resize": 0.01807359978556633,
+        "model.tail.0": 0.00035520000383257864,
+        "model.tail.1.rep_conv": 0.10037599913775921,
+        "model.upsample.0": 0.21699999868869782,
+        "model.upsample.1": 0.02624480053782463,
+        "model.upsample.2": 0.026452800445258617
+      },
+      "reference": {
+        "model.down": 0.008550400100648402,
+        "model.head.0": 0.03887200001627207,
+        "model.body.0.norm": 0.0003600000054575503,
+        "model.body.0.conv1.rep_conv": 0.03299039974808693,
+        "model.body.0.act": 0.004156799986958504,
+        "model.body.1.norm": 0.0013104000128805638,
+        "model.body.1.conv1.rep_conv": 0.03729600012302399,
+        "model.body.1.act": 0.0041007999097928405,
+        "model.body.2.norm": 0.0009744000155478716,
+        "model.body.2.conv1.rep_conv": 0.037158400006592276,
+        "model.body.2.act": 0.0040463999612256885,
+        "model.body.3.norm": 0.0005151999997906387,
+        "model.body.3.conv1.rep_conv": 0.03720959946513176,
+        "model.body.3.act": 0.00409439995419234,
+        "thumbnail_pool.0": 0.00487359999679029,
+        "thumbnail_pool.1": 0.008766399999149143,
+        "model.global_reference.encoder.0": 0.015568000078201295,
+        "model.global_reference.encoder.1": 0.009363200003281235,
+        "model.global_reference.encoder.2": 0.017809600103646517,
+        "model.global_reference.encoder.3": 0.008940799999982119,
+        "reference_pool.0": 0.01067039999179542,
+        "reference_pool.1": 0.008830399997532368,
+        "model.global_reference.project": 0.01585599989630282,
+        "reference_resize": 0.013844800041988492,
+        "model.tail.0": 0.005505599989555776,
+        "model.tail.1.rep_conv": 0.03704320043325424,
+        "model.upsample.0": 0.08461599834263325,
+        "model.upsample.1": 0.02622399991378188,
+        "model.upsample.2": 0.02627040073275566,
+        "model.upsample.3": 0.02626880072057247
+      },
+      "s03": {
+        "model.down": 0.008150399988517165,
+        "model.head.0": 0.03900160007178784,
+        "model.body.0.norm": 0.00035360000329092144,
+        "model.body.0.conv1.rep_conv": 0.033718399796634914,
+        "model.body.0.act": 0.004271999921184033,
+        "model.body.1.norm": 0.0013072000117972493,
+        "model.body.1.conv1.rep_conv": 0.037380800023674964,
+        "model.body.1.act": 0.004132799990475178,
+        "model.body.2.norm": 0.0013472000136971474,
+        "model.body.2.conv1.rep_conv": 0.037606400065124036,
+        "model.body.2.act": 0.004166399943642318,
+        "thumbnail_pool.0": 0.004164799954742194,
+        "thumbnail_pool.1": 0.008723199926316738,
+        "model.global_reference.encoder.0": 0.0156464000698179,
+        "model.global_reference.encoder.1": 0.009600000083446502,
+        "model.global_reference.encoder.2": 0.018124799896031617,
+        "model.global_reference.encoder.3": 0.008974400022998453,
+        "reference_pool.0": 0.010617599915713071,
+        "reference_pool.1": 0.008931199926882983,
+        "model.global_reference.project": 0.01550399991683662,
+        "reference_resize": 0.014481600048020482,
+        "model.tail.0": 0.0057839999673888086,
+        "model.tail.1.rep_conv": 0.036897599883377555,
+        "model.upsample.0": 0.08493119776248932,
+        "model.upsample.1": 0.026295999903231858,
+        "model.upsample.2": 0.026265600696206093,
+        "model.upsample.3": 0.026267200708389282
+      }
+    },
+    "identities": {
+      "old": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM/checkpoints/step_000010000.pt",
+        "sha256": "8d08697cc91e6682018cb59b6ffe93853a86c012bfeacad33723004b65409c3b",
+        "step": 10000
+      },
+      "reference": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B4-8K/checkpoints/step_000004000.pt",
+        "sha256": "b06a2d451368670f319be32e98585a22790fd9be389aebb340097d6d01566959",
+        "step": 4000
+      },
+      "s03": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B3-8K/checkpoints/step_000004000.pt",
+        "sha256": "57afd957f42af2266320ca329b0f38e7bb2a99f57fa523caf993506e3220c4ad",
+        "step": 4000
+      }
+    },
+    "export": {
+      "status": "passed_cpu_parity",
+      "hierarchical_pooling": true,
+      "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B3-8K/checkpoints/step_000004000.pt",
+      "checkpoint_sha256": "57afd957f42af2266320ca329b0f38e7bb2a99f57fa523caf993506e3220c4ad",
+      "selection": "validation native PSNR selection; research candidate pending SS928",
+      "onnx_sha256": "2208f510172d24387649880e5bb8d00eb07c922b860e4818bec624e44edf8311",
+      "opset": 17,
+      "operator_counts": {
+        "SpaceToDepth": 1,
+        "Conv": 9,
+        "Relu": 3,
+        "AveragePool": 4,
+        "Constant": 10,
+        "Div": 2,
+        "Erf": 2,
+        "Add": 4,
+        "Mul": 4,
+        "Shape": 1,
+        "Slice": 1,
+        "Concat": 1,
+        "Resize": 1,
+        "Cast": 1,
+        "DepthToSpace": 3
+      },
+      "checks": [
+        {
+          "input": "random_normal_seed928",
+          "max_abs": 3.159046173095703e-06,
+          "mae": 1.6941110765257695e-07,
+          "rmse": 2.28670284188891e-07
+        },
+        {
+          "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-20-19_001/000000@val",
+          "max_abs": 1.6689300537109375e-06,
+          "mae": 1.1030841158277127e-07,
+          "rmse": 1.4554059738339447e-07
+        },
+        {
+          "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/000000@val",
+          "max_abs": 1.4901161193847656e-06,
+          "mae": 1.1208902468591575e-07,
+          "rmse": 1.4854889000848628e-07
+        }
+      ],
+      "seconds": 0.8967223130166531,
+      "SS928": "not converted or measured; actual-shape AvgPool/Resize/reference graph compatibility pending",
+      "versions": {
+        "torch": "2.7.0+cu128",
+        "onnx": "1.17.0",
+        "onnxruntime": "1.20.1"
+      }
+    },
+    "detail_checks": [
+      {
+        "model": "old",
+        "identity": {
+          "key": "old",
+          "label": "S03 quality10k",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM/checkpoints/step_000010000.pt",
+          "step": 10000,
+          "sha256": "8d08697cc91e6682018cb59b6ffe93853a86c012bfeacad33723004b65409c3b"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 31.171539276619693,
+            "ssim": 0.9661811292035103,
+            "bias": -2.688885562121868
+          },
+          "weather_medium": {
+            "psnr": 29.924880556739865,
+            "ssim": 0.9641434660434492,
+            "bias": -2.0105946362018585
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 32.70807054561406,
+            "ssim": 0.9748935706693973,
+            "bias": -4.4957780838012695
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 31.18285594659084,
+            "ssim": 0.9677553505340429,
+            "bias": -1.2904373407363892
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 30.727769386234385,
+            "ssim": 0.964133025267514,
+            "bias": -0.7461886405944824
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 29.73874036436872,
+            "ssim": 0.9621889130071056,
+            "bias": -1.4782530069351196
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 29.994821616243357,
+            "ssim": 0.9670557789300664,
+            "bias": -2.929396629333496
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 33.98869779760836,
+            "ssim": 0.9778200053220611,
+            "bias": -1.8441503047943115
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 30.792000938706785,
+            "ssim": 0.9648086200894368,
+            "bias": -1.8134942054748535
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 31.941168106859934,
+            "ssim": 0.9661576831419835,
+            "bias": -0.21746951341629028
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 29.22335784021115,
+            "ssim": 0.963406327196016,
+            "bias": -4.259772777557373
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 26.183969266021556,
+            "ssim": 0.9408637149606155,
+            "bias": -10.990285873413086
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 32.578005358871245,
+            "ssim": 0.9746425424136684,
+            "bias": -0.3724050223827362
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 34.9990141521059,
+            "ssim": 0.9704480189102149,
+            "bias": -1.8289953470230103
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 30.414746765162064,
+            "ssim": 0.9673136512889657,
+            "bias": -0.5232232809066772
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 32.82889591754119,
+            "ssim": 0.9649854875955445,
+            "bias": 1.0306967496871948
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 27.281864858876645,
+            "ssim": 0.9489002097062904,
+            "bias": -6.83601188659668
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 30.55209855307841,
+            "ssim": 0.9708849885356221,
+            "bias": -3.7382731437683105
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 30.24064585619434,
+            "ssim": 0.972968097139209,
+            "bias": -4.538558006286621
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 30.964050585355125,
+            "ssim": 0.9686527308503824,
+            "bias": 0.9893515110015869
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 29.86667173844555,
+            "ssim": 0.9664372736479085,
+            "bias": 2.537504196166992
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 28.116924969258854,
+            "ssim": 0.9616707788887854,
+            "bias": -7.9547905921936035
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 29.475034438312893,
+            "ssim": 0.9649628077696315,
+            "bias": -6.261619567871094
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 29.48275153228507,
+            "ssim": 0.9608519674641126,
+            "bias": 1.2364498376846313
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 29.42419177767441,
+            "ssim": 0.9635369492352948,
+            "bias": -3.0913455486297607
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 30.45068968869376,
+            "ssim": 0.9585566503996453,
+            "bias": 3.022684097290039
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 30.98293341292475,
+            "bias_gray": 1.0891015529632568,
+            "phase12_mean_range_gray": 1.3134994506835938,
+            "within3x_cell_rms_gray": 2.0972816944122314,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 30.259960074094224,
+            "bias_gray": 0.2393343299627304,
+            "phase12_mean_range_gray": 1.436065673828125,
+            "within3x_cell_rms_gray": 2.1933767795562744,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      },
+      {
+        "model": "reference",
+        "identity": {
+          "key": "reference",
+          "label": "Pack4 B4 4000",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B4-8K",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B4-8K/checkpoints/step_000004000.pt",
+          "step": 4000,
+          "sha256": "b06a2d451368670f319be32e98585a22790fd9be389aebb340097d6d01566959"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 30.25690150684746,
+            "ssim": 0.9429788528308917,
+            "bias": -3.4569009194771447
+          },
+          "weather_medium": {
+            "psnr": 28.767880591193276,
+            "ssim": 0.9363573258659504,
+            "bias": -3.009290652970473
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 33.13894002136995,
+            "ssim": 0.963940765126703,
+            "bias": -4.211733818054199
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 30.498431162749853,
+            "ssim": 0.9526986382148054,
+            "bias": -0.7714939117431641
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 29.274609278027818,
+            "ssim": 0.9313294696457282,
+            "bias": -3.1874449253082275
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 28.964742274666637,
+            "ssim": 0.9437671985235915,
+            "bias": -2.1173951625823975
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 28.33766388854049,
+            "ssim": 0.9302715977402131,
+            "bias": -4.672382354736328
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 33.47455929225069,
+            "ssim": 0.9624427883907277,
+            "bias": -1.4788882732391357
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 30.059903210117564,
+            "ssim": 0.9459257086405095,
+            "bias": -1.6814029216766357
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 30.235993349947314,
+            "ssim": 0.9405858177392434,
+            "bias": -2.3277997970581055
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 27.587073317586615,
+            "ssim": 0.9265063708235908,
+            "bias": -5.95377254486084
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 25.345109353788267,
+            "ssim": 0.9152086063276422,
+            "bias": -12.204710006713867
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 31.966304518823815,
+            "ssim": 0.9507378617852767,
+            "bias": -0.521656334400177
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 34.19948841430053,
+            "ssim": 0.9523314110126684,
+            "bias": -2.354130983352661
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 29.49853902330867,
+            "ssim": 0.9385669042399061,
+            "bias": -0.8449664115905762
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 31.662723803096014,
+            "ssim": 0.9415923525612955,
+            "bias": -0.506609320640564
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 26.010528374741995,
+            "ssim": 0.9159656493584015,
+            "bias": -8.657662391662598
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 29.573893163790814,
+            "ssim": 0.9519720632228238,
+            "bias": -4.788283348083496
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 29.043678825062294,
+            "ssim": 0.9508681608100356,
+            "bias": -5.331538200378418
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 29.31842648868816,
+            "ssim": 0.9405518219689761,
+            "bias": -0.9002954959869385
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 28.55899601996405,
+            "ssim": 0.9286351283479409,
+            "bias": 1.6831945180892944
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 27.251497383539864,
+            "ssim": 0.941732745021399,
+            "bias": -8.953463554382324
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 28.148867933098252,
+            "ssim": 0.9389160854315202,
+            "bias": -7.132258892059326
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 27.788639888312233,
+            "ssim": 0.9258929007269326,
+            "bias": 0.27126815915107727
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 28.59137629668341,
+            "ssim": 0.9367823902886332,
+            "bias": -3.376619577407837
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 29.7673998940336,
+            "ssim": 0.9248117084135432,
+            "bias": 2.4257466793060303
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 30.586966908489636,
+            "bias_gray": 0.576177179813385,
+            "phase12_mean_range_gray": 4.7016448974609375,
+            "within3x_cell_rms_gray": 2.059335708618164,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 29.782716692088798,
+            "bias_gray": -0.4191840589046478,
+            "phase12_mean_range_gray": 4.73687744140625,
+            "within3x_cell_rms_gray": 2.176985263824463,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      },
+      {
+        "model": "s03",
+        "identity": {
+          "key": "s03",
+          "label": "Pack4 B3 4000",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B3-8K",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B3-8K/checkpoints/step_000004000.pt",
+          "step": 4000,
+          "sha256": "57afd957f42af2266320ca329b0f38e7bb2a99f57fa523caf993506e3220c4ad"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 30.108761699238546,
+            "ssim": 0.9504345957885573,
+            "bias": -2.8108871753017106
+          },
+          "weather_medium": {
+            "psnr": 28.56507983726402,
+            "ssim": 0.9475308317599128,
+            "bias": -3.074910175986588
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 32.916669139097145,
+            "ssim": 0.9685552567758888,
+            "bias": -3.8456852436065674
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 30.03081529295976,
+            "ssim": 0.9576308862959458,
+            "bias": -0.378400981426239
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 29.8604216847978,
+            "ssim": 0.9443813835389122,
+            "bias": -2.038450241088867
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 29.299003066715873,
+            "ssim": 0.9531975368165553,
+            "bias": -1.5208121538162231
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 28.068964728406588,
+            "ssim": 0.9406039490323653,
+            "bias": -4.629359245300293
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 32.124025167650785,
+            "ssim": 0.9646715629118141,
+            "bias": -0.7735345363616943
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 30.44576346926306,
+            "ssim": 0.95452313281036,
+            "bias": -0.915783166885376
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 30.848824072788908,
+            "ssim": 0.9500446007663239,
+            "bias": -0.28449949622154236
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 27.82190706816063,
+            "ssim": 0.9376701851212567,
+            "bias": -4.832118511199951
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 24.522000349492636,
+            "ssim": 0.9187257504682834,
+            "bias": -13.235394477844238
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 31.355508509351132,
+            "ssim": 0.9574711210466987,
+            "bias": 0.6633797287940979
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 34.011237842178296,
+            "ssim": 0.9577397838782846,
+            "bias": -1.9399877786636353
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 29.19746031152107,
+            "ssim": 0.9467239650382784,
+            "bias": 0.05816975608468056
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 31.917335724452624,
+            "ssim": 0.9526884233834855,
+            "bias": 0.5916955471038818
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 26.064328210229434,
+            "ssim": 0.9341513328394581,
+            "bias": -7.284867286682129
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 30.09492298073682,
+            "ssim": 0.9601897254238364,
+            "bias": -4.068073272705078
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 28.617752838907087,
+            "ssim": 0.9569383011052984,
+            "bias": -5.829167366027832
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 29.145915786367244,
+            "ssim": 0.9511300931987605,
+            "bias": -0.08166557550430298
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 28.143060077615626,
+            "ssim": 0.9432091704157399,
+            "bias": 2.0445852279663086
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 27.062219144706503,
+            "ssim": 0.9489971869772136,
+            "bias": -9.200355529785156
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 27.031450775090025,
+            "ssim": 0.9453428656840897,
+            "bias": -8.709770202636719
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 27.70097948623979,
+            "ssim": 0.9397311580281669,
+            "bias": -0.8526139259338379
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 27.871216672451528,
+            "ssim": 0.9489442071186517,
+            "bias": -4.590303421020508
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 29.93431603885047,
+            "ssim": 0.9423235519059748,
+            "bias": 1.0234439373016357
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 30.214249945497606,
+            "bias_gray": 1.2754781246185303,
+            "phase12_mean_range_gray": 2.0361175537109375,
+            "within3x_cell_rms_gray": 2.0501766204833984,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 29.633097405950505,
+            "bias_gray": 0.20646019279956818,
+            "phase12_mean_range_gray": 2.0742568969726562,
+            "within3x_cell_rms_gray": 2.167642116546631,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      }
+    ],
+    "board_estimate_ms_heuristic": 16.170167577188906,
+    "speed_ratio": 2.535533401511453,
+    "gpu_reference_p95_pass": true,
+    "historical_ratio_estimate_ms": 16.54663230080295,
+    "theoretical_target_pass": true,
+    "board_measured": false,
+    "comparison": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B3-COMPARISON"
+  },
+  "b2": {
+    "means": {
+      "val": {
+        "old": {
+          "native": {
+            "psnr": 30.602553192732493,
+            "ssim": 0.9612415044771644,
+            "bias_gray": 0.6805251215895016
+          },
+          "crop": {
+            "psnr": 30.832506319278213,
+            "ssim": 0.9380761856569603,
+            "bias_gray": 2.2339631021022797
+          }
+        },
+        "reference": {
+          "native": {
+            "psnr": 30.14787598847665,
+            "ssim": 0.9407702199129437,
+            "bias_gray": 0.09123870233694711
+          },
+          "crop": {
+            "psnr": 27.0947583727335,
+            "ssim": 0.7779440369191458,
+            "bias_gray": 0.9590164025624593
+          }
+        },
+        "s03": {
+          "native": {
+            "psnr": 30.110131722012635,
+            "ssim": 0.9565234859687933,
+            "bias_gray": 2.413601890206337
+          },
+          "crop": {
+            "psnr": 27.631920140880908,
+            "ssim": 0.8180123391281132,
+            "bias_gray": 3.340257247289022
+          }
+        }
+      },
+      "test": {
+        "old": {
+          "native": {
+            "psnr": 31.35743344704838,
+            "ssim": 0.9678118149334186,
+            "bias_gray": 0.8563670714696248
+          },
+          "crop": {
+            "psnr": 31.31043975265824,
+            "ssim": 0.9461613680629448,
+            "bias_gray": 2.780632009108861
+          }
+        },
+        "reference": {
+          "native": {
+            "psnr": 30.783861061994724,
+            "ssim": 0.9485068250568418,
+            "bias_gray": 1.214941995839278
+          },
+          "crop": {
+            "psnr": 27.692980642302487,
+            "ssim": 0.8000112796006194,
+            "bias_gray": 2.498755643765132
+          }
+        },
+        "s03": {
+          "native": {
+            "psnr": 30.92954560599044,
+            "ssim": 0.9629546622828279,
+            "bias_gray": 2.428867464264234
+          },
+          "crop": {
+            "psnr": 28.318208890828956,
+            "ssim": 0.8379720710495986,
+            "bias_gray": 3.733095794916153
+          }
+        }
+      }
+    },
+    "scenes": {
+      "val": {
+        "weather_light": {
+          "old_crop": {
+            "psnr": 30.93337737246814,
+            "ssim": 0.9397815857343318,
+            "bias_gray": 2.655755897363027
+          },
+          "old_native": {
+            "psnr": 30.832815614508917,
+            "ssim": 0.9633659247470329,
+            "bias_gray": 1.1012422641118367
+          },
+          "reference_crop": {
+            "psnr": 27.320980731652735,
+            "ssim": 0.7841057048672729,
+            "bias_gray": 1.4866772989432018
+          },
+          "reference_native": {
+            "psnr": 30.414138770079376,
+            "ssim": 0.9426082029995868,
+            "bias_gray": 0.5925662070512772
+          },
+          "s03_crop": {
+            "psnr": 27.74575067929908,
+            "ssim": 0.8228229935779016,
+            "bias_gray": 3.8118272026379905
+          },
+          "s03_native": {
+            "psnr": 30.237264946511306,
+            "ssim": 0.9580298524548402,
+            "bias_gray": 2.829266826311747
+          }
+        },
+        "weather_medium": {
+          "old_crop": {
+            "psnr": 30.731635266088286,
+            "ssim": 0.9363707855795887,
+            "bias_gray": 1.8121703068415325
+          },
+          "old_native": {
+            "psnr": 30.37229077095607,
+            "ssim": 0.9591170842072959,
+            "bias_gray": 0.25980797906716663
+          },
+          "reference_crop": {
+            "psnr": 26.868536013814268,
+            "ssim": 0.7717823689710187,
+            "bias_gray": 0.4313555061817169
+          },
+          "reference_native": {
+            "psnr": 29.881613206873926,
+            "ssim": 0.9389322368263006,
+            "bias_gray": -0.41008880237738293
+          },
+          "s03_crop": {
+            "psnr": 27.518089602462737,
+            "ssim": 0.8132016846783249,
+            "bias_gray": 2.8686872919400535
+          },
+          "s03_native": {
+            "psnr": 29.982998497513965,
+            "ssim": 0.9550171194827465,
+            "bias_gray": 1.9979369541009266
+          }
+        }
+      },
+      "test": {
+        "weather_light": {
+          "old_crop": {
+            "psnr": 31.0963179496645,
+            "ssim": 0.9460918639900866,
+            "bias_gray": 3.193575084209442
+          },
+          "old_native": {
+            "psnr": 31.244493072977132,
+            "ssim": 0.9677904487333749,
+            "bias_gray": 1.357235809167226
+          },
+          "reference_crop": {
+            "psnr": 27.631252292509107,
+            "ssim": 0.8006734113118613,
+            "bias_gray": 2.78327214717865
+          },
+          "reference_native": {
+            "psnr": 30.647086771106768,
+            "ssim": 0.9481952745226988,
+            "bias_gray": 1.595868706703186
+          },
+          "s03_crop": {
+            "psnr": 28.15382447040375,
+            "ssim": 0.8378191679667143,
+            "bias_gray": 4.16830845673879
+          },
+          "s03_native": {
+            "psnr": 30.67274457769356,
+            "ssim": 0.9624024607698308,
+            "bias_gray": 2.930158277352651
+          }
+        },
+        "weather_medium": {
+          "old_crop": {
+            "psnr": 31.52456155565198,
+            "ssim": 0.9462308721358031,
+            "bias_gray": 2.3676889340082803
+          },
+          "old_native": {
+            "psnr": 31.470373821119622,
+            "ssim": 0.9678331811334623,
+            "bias_gray": 0.3554983337720235
+          },
+          "reference_crop": {
+            "psnr": 27.75470899209587,
+            "ssim": 0.7993491478893774,
+            "bias_gray": 2.2142391403516135
+          },
+          "reference_native": {
+            "psnr": 30.92063535288268,
+            "ssim": 0.9488183755909847,
+            "bias_gray": 0.8340152849753698
+          },
+          "s03_crop": {
+            "psnr": 28.48259331125416,
+            "ssim": 0.8381249741324828,
+            "bias_gray": 3.297883133093516
+          },
+          "s03_native": {
+            "psnr": 31.186346634287318,
+            "ssim": 0.963506863795825,
+            "bias_gray": 1.9275766511758168
+          }
+        }
+      }
+    },
+    "timing": {
+      "old": {
+        "mean_ms": 0.9297917868693669,
+        "p95_ms": 0.9440704196691513,
+        "p50_ms": 0.9318560063838959,
+        "max_ms": 0.9509760141372681
+      },
+      "reference": {
+        "mean_ms": 0.4008841599524021,
+        "p95_ms": 0.40480159819126127,
+        "p50_ms": 0.40140798687934875,
+        "max_ms": 0.407039999961853
+      },
+      "s03": {
+        "mean_ms": 0.33520687992374104,
+        "p95_ms": 0.33747359216213224,
+        "p50_ms": 0.33558401465415955,
+        "max_ms": 0.3394559919834137
+      }
+    },
+    "modules_ms": {
+      "old": {
+        "model.down": 0.008102399948984384,
+        "model.head.0": 0.05747039970010519,
+        "model.body.0.norm": 0.0005728000018279999,
+        "model.body.0.conv1.rep_conv": 0.10042559877038001,
+        "model.body.0.act": 0.012660800013691187,
+        "model.body.1.norm": 0.0010687999936635606,
+        "model.body.1.conv1.rep_conv": 0.10261600017547608,
+        "model.body.1.act": 0.011580800032243132,
+        "model.body.2.norm": 0.00038560000975849105,
+        "model.body.2.conv1.rep_conv": 0.10134720019996166,
+        "model.body.2.act": 0.012276799930259586,
+        "model.body.3.norm": 0.001166400003421586,
+        "model.body.3.conv1.rep_conv": 0.10455679967999458,
+        "model.body.3.act": 0.01872480004094541,
+        "thumbnail_pool.0": 0.01025440008379519,
+        "thumbnail_pool.1": 0.005671999999321997,
+        "model.global_reference.encoder.0": 0.008054399956017732,
+        "model.global_reference.encoder.1": 0.0035584000288508832,
+        "model.global_reference.encoder.2": 0.013107199920341372,
+        "model.global_reference.encoder.3": 0.003622400015592575,
+        "reference_pool.0": 0.009265600005164742,
+        "reference_pool.1": 0.006527999951504171,
+        "model.global_reference.project": 0.0076688000233843924,
+        "reference_resize": 0.018078399822115898,
+        "model.tail.0": 0.00035200000274926424,
+        "model.tail.1.rep_conv": 0.0999599989503622,
+        "model.upsample.0": 0.21771999821066856,
+        "model.upsample.1": 0.026352000515908004,
+        "model.upsample.2": 0.026660800352692603
+      },
+      "reference": {
+        "model.down": 0.008631999930366873,
+        "model.head.0": 0.038232000172138215,
+        "model.body.0.norm": 0.0003600000054575503,
+        "model.body.0.conv1.rep_conv": 0.035860799998044965,
+        "model.body.0.act": 0.004158399964217097,
+        "model.body.1.norm": 0.0017056000069715083,
+        "model.body.1.conv1.rep_conv": 0.03788640014827251,
+        "model.body.1.act": 0.004059200012125075,
+        "model.body.2.norm": 0.001257600006647408,
+        "model.body.2.conv1.rep_conv": 0.037430400028824806,
+        "model.body.2.act": 0.004083199973683805,
+        "model.body.3.norm": 0.001008000021101907,
+        "model.body.3.conv1.rep_conv": 0.03632320035248995,
+        "model.body.3.act": 0.004555199923925102,
+        "thumbnail_pool.0": 0.004654399992432445,
+        "thumbnail_pool.1": 0.008900799974799155,
+        "model.global_reference.encoder.0": 0.015982399927452207,
+        "model.global_reference.encoder.1": 0.009676800016313792,
+        "model.global_reference.encoder.2": 0.01774080004543066,
+        "model.global_reference.encoder.3": 0.009121600026264786,
+        "reference_pool.0": 0.010839999979361891,
+        "reference_pool.1": 0.00900319991633296,
+        "model.global_reference.project": 0.015899199852719904,
+        "reference_resize": 0.01434879987500608,
+        "model.tail.0": 0.005548799992538989,
+        "model.tail.1.rep_conv": 0.03770560063421726,
+        "model.upsample.0": 0.08476959839463234,
+        "model.upsample.1": 0.026547200046479702,
+        "model.upsample.2": 0.02627040073275566,
+        "model.upsample.3": 0.026374400686472656
+      },
+      "s03": {
+        "model.down": 0.008478400064632297,
+        "model.head.0": 0.03816639967262745,
+        "model.body.0.norm": 0.0003568000043742359,
+        "model.body.0.conv1.rep_conv": 0.034575999900698665,
+        "model.body.0.act": 0.004382399958558381,
+        "model.body.1.norm": 0.0015392000088468194,
+        "model.body.1.conv1.rep_conv": 0.036721600033342836,
+        "model.body.1.act": 0.004204800014849752,
+        "thumbnail_pool.0": 0.005193599977064878,
+        "thumbnail_pool.1": 0.00916959992609918,
+        "model.global_reference.encoder.0": 0.01640480011701584,
+        "model.global_reference.encoder.1": 0.009716799948364496,
+        "model.global_reference.encoder.2": 0.018609599955379964,
+        "model.global_reference.encoder.3": 0.009128000121563673,
+        "reference_pool.0": 0.011030400078743697,
+        "reference_pool.1": 0.009070400055497885,
+        "model.global_reference.project": 0.016171200014650822,
+        "reference_resize": 0.014351999992504716,
+        "model.tail.0": 0.005671999999321997,
+        "model.tail.1.rep_conv": 0.03798559978604317,
+        "model.upsample.0": 0.08472479917109013,
+        "model.upsample.1": 0.02604959988966584,
+        "model.upsample.2": 0.02626880072057247,
+        "model.upsample.3": 0.026372800674289466
+      }
+    },
+    "identities": {
+      "old": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM/checkpoints/step_000010000.pt",
+        "sha256": "8d08697cc91e6682018cb59b6ffe93853a86c012bfeacad33723004b65409c3b",
+        "step": 10000
+      },
+      "reference": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B4-8K/checkpoints/step_000004000.pt",
+        "sha256": "b06a2d451368670f319be32e98585a22790fd9be389aebb340097d6d01566959",
+        "step": 4000
+      },
+      "s03": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B2-8K/checkpoints/step_000008000.pt",
+        "sha256": "4377365630307a6e3fee4411357c22cee4d8d36e3581914660e5c2e64aab571b",
+        "step": 8000
+      }
+    },
+    "export": {
+      "status": "passed_cpu_parity",
+      "hierarchical_pooling": true,
+      "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B2-8K/checkpoints/step_000008000.pt",
+      "checkpoint_sha256": "4377365630307a6e3fee4411357c22cee4d8d36e3581914660e5c2e64aab571b",
+      "selection": "validation native PSNR selection; research candidate pending SS928",
+      "onnx_sha256": "80d1ee80360583d68f466429470951c9e642b126d36460acf49a19c17e0a89d8",
+      "opset": 17,
+      "operator_counts": {
+        "SpaceToDepth": 1,
+        "Conv": 8,
+        "Relu": 2,
+        "AveragePool": 4,
+        "Constant": 10,
+        "Div": 2,
+        "Erf": 2,
+        "Add": 4,
+        "Mul": 4,
+        "Shape": 1,
+        "Slice": 1,
+        "Concat": 1,
+        "Resize": 1,
+        "Cast": 1,
+        "DepthToSpace": 3
+      },
+      "checks": [
+        {
+          "input": "random_normal_seed928",
+          "max_abs": 2.1457672119140625e-06,
+          "mae": 1.6175175170949685e-07,
+          "rmse": 2.1325410295295228e-07
+        },
+        {
+          "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-20-19_001/000000@val",
+          "max_abs": 1.4901161193847656e-06,
+          "mae": 9.987298280539232e-08,
+          "rmse": 1.3125124562085925e-07
+        },
+        {
+          "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/000000@val",
+          "max_abs": 1.5497207641601562e-06,
+          "mae": 1.0157274140819449e-07,
+          "rmse": 1.3395623388559628e-07
+        }
+      ],
+      "seconds": 0.8762753461487591,
+      "SS928": "not converted or measured; actual-shape AvgPool/Resize/reference graph compatibility pending",
+      "versions": {
+        "torch": "2.7.0+cu128",
+        "onnx": "1.17.0",
+        "onnxruntime": "1.20.1"
+      }
+    },
+    "detail_checks": [
+      {
+        "model": "old",
+        "identity": {
+          "key": "old",
+          "label": "S03 quality10k",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM/checkpoints/step_000010000.pt",
+          "step": 10000,
+          "sha256": "8d08697cc91e6682018cb59b6ffe93853a86c012bfeacad33723004b65409c3b"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 31.171539276619693,
+            "ssim": 0.9661811292035103,
+            "bias": -2.688885562121868
+          },
+          "weather_medium": {
+            "psnr": 29.924880556739865,
+            "ssim": 0.9641434660434492,
+            "bias": -2.0105946362018585
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 32.70807054561406,
+            "ssim": 0.9748935706693973,
+            "bias": -4.4957780838012695
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 31.18285594659084,
+            "ssim": 0.9677553505340429,
+            "bias": -1.2904373407363892
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 30.727769386234385,
+            "ssim": 0.964133025267514,
+            "bias": -0.7461886405944824
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 29.73874036436872,
+            "ssim": 0.9621889130071056,
+            "bias": -1.4782530069351196
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 29.994821616243357,
+            "ssim": 0.9670557789300664,
+            "bias": -2.929396629333496
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 33.98869779760836,
+            "ssim": 0.9778200053220611,
+            "bias": -1.8441503047943115
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 30.792000938706785,
+            "ssim": 0.9648086200894368,
+            "bias": -1.8134942054748535
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 31.941168106859934,
+            "ssim": 0.9661576831419835,
+            "bias": -0.21746951341629028
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 29.22335784021115,
+            "ssim": 0.963406327196016,
+            "bias": -4.259772777557373
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 26.183969266021556,
+            "ssim": 0.9408637149606155,
+            "bias": -10.990285873413086
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 32.578005358871245,
+            "ssim": 0.9746425424136684,
+            "bias": -0.3724050223827362
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 34.9990141521059,
+            "ssim": 0.9704480189102149,
+            "bias": -1.8289953470230103
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 30.414746765162064,
+            "ssim": 0.9673136512889657,
+            "bias": -0.5232232809066772
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 32.82889591754119,
+            "ssim": 0.9649854875955445,
+            "bias": 1.0306967496871948
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 27.281864858876645,
+            "ssim": 0.9489002097062904,
+            "bias": -6.83601188659668
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 30.55209855307841,
+            "ssim": 0.9708849885356221,
+            "bias": -3.7382731437683105
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 30.24064585619434,
+            "ssim": 0.972968097139209,
+            "bias": -4.538558006286621
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 30.964050585355125,
+            "ssim": 0.9686527308503824,
+            "bias": 0.9893515110015869
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 29.86667173844555,
+            "ssim": 0.9664372736479085,
+            "bias": 2.537504196166992
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 28.116924969258854,
+            "ssim": 0.9616707788887854,
+            "bias": -7.9547905921936035
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 29.475034438312893,
+            "ssim": 0.9649628077696315,
+            "bias": -6.261619567871094
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 29.48275153228507,
+            "ssim": 0.9608519674641126,
+            "bias": 1.2364498376846313
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 29.42419177767441,
+            "ssim": 0.9635369492352948,
+            "bias": -3.0913455486297607
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 30.45068968869376,
+            "ssim": 0.9585566503996453,
+            "bias": 3.022684097290039
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 30.98293341292475,
+            "bias_gray": 1.0891015529632568,
+            "phase12_mean_range_gray": 1.3134994506835938,
+            "within3x_cell_rms_gray": 2.0972816944122314,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 30.259960074094224,
+            "bias_gray": 0.2393343299627304,
+            "phase12_mean_range_gray": 1.436065673828125,
+            "within3x_cell_rms_gray": 2.1933767795562744,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      },
+      {
+        "model": "reference",
+        "identity": {
+          "key": "reference",
+          "label": "Pack4 B4 4000",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B4-8K",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B4-8K/checkpoints/step_000004000.pt",
+          "step": 4000,
+          "sha256": "b06a2d451368670f319be32e98585a22790fd9be389aebb340097d6d01566959"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 30.25690150684746,
+            "ssim": 0.9429788528308917,
+            "bias": -3.4569009194771447
+          },
+          "weather_medium": {
+            "psnr": 28.767880591193276,
+            "ssim": 0.9363573258659504,
+            "bias": -3.009290652970473
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 33.13894002136995,
+            "ssim": 0.963940765126703,
+            "bias": -4.211733818054199
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 30.498431162749853,
+            "ssim": 0.9526986382148054,
+            "bias": -0.7714939117431641
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 29.274609278027818,
+            "ssim": 0.9313294696457282,
+            "bias": -3.1874449253082275
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 28.964742274666637,
+            "ssim": 0.9437671985235915,
+            "bias": -2.1173951625823975
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 28.33766388854049,
+            "ssim": 0.9302715977402131,
+            "bias": -4.672382354736328
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 33.47455929225069,
+            "ssim": 0.9624427883907277,
+            "bias": -1.4788882732391357
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 30.059903210117564,
+            "ssim": 0.9459257086405095,
+            "bias": -1.6814029216766357
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 30.235993349947314,
+            "ssim": 0.9405858177392434,
+            "bias": -2.3277997970581055
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 27.587073317586615,
+            "ssim": 0.9265063708235908,
+            "bias": -5.95377254486084
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 25.345109353788267,
+            "ssim": 0.9152086063276422,
+            "bias": -12.204710006713867
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 31.966304518823815,
+            "ssim": 0.9507378617852767,
+            "bias": -0.521656334400177
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 34.19948841430053,
+            "ssim": 0.9523314110126684,
+            "bias": -2.354130983352661
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 29.49853902330867,
+            "ssim": 0.9385669042399061,
+            "bias": -0.8449664115905762
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 31.662723803096014,
+            "ssim": 0.9415923525612955,
+            "bias": -0.506609320640564
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 26.010528374741995,
+            "ssim": 0.9159656493584015,
+            "bias": -8.657662391662598
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 29.573893163790814,
+            "ssim": 0.9519720632228238,
+            "bias": -4.788283348083496
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 29.043678825062294,
+            "ssim": 0.9508681608100356,
+            "bias": -5.331538200378418
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 29.31842648868816,
+            "ssim": 0.9405518219689761,
+            "bias": -0.9002954959869385
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 28.55899601996405,
+            "ssim": 0.9286351283479409,
+            "bias": 1.6831945180892944
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 27.251497383539864,
+            "ssim": 0.941732745021399,
+            "bias": -8.953463554382324
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 28.148867933098252,
+            "ssim": 0.9389160854315202,
+            "bias": -7.132258892059326
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 27.788639888312233,
+            "ssim": 0.9258929007269326,
+            "bias": 0.27126815915107727
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 28.59137629668341,
+            "ssim": 0.9367823902886332,
+            "bias": -3.376619577407837
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 29.7673998940336,
+            "ssim": 0.9248117084135432,
+            "bias": 2.4257466793060303
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 30.586966908489636,
+            "bias_gray": 0.576177179813385,
+            "phase12_mean_range_gray": 4.7016448974609375,
+            "within3x_cell_rms_gray": 2.059335708618164,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 29.782716692088798,
+            "bias_gray": -0.4191840589046478,
+            "phase12_mean_range_gray": 4.73687744140625,
+            "within3x_cell_rms_gray": 2.176985263824463,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      },
+      {
+        "model": "s03",
+        "identity": {
+          "key": "s03",
+          "label": "Pack4 B2 8000",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B2-8K",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B2-8K/checkpoints/step_000008000.pt",
+          "step": 8000,
+          "sha256": "4377365630307a6e3fee4411357c22cee4d8d36e3581914660e5c2e64aab571b"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 31.217871919165475,
+            "ssim": 0.9593283452329415,
+            "bias": -1.4497582466962438
+          },
+          "weather_medium": {
+            "psnr": 29.735317670908188,
+            "ssim": 0.9552875872741304,
+            "bias": -0.4287027542789777
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 33.99021519156816,
+            "ssim": 0.9734263821570263,
+            "bias": -3.1635653972625732
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 31.20581638853009,
+            "ssim": 0.9636520671271664,
+            "bias": 0.09646612405776978
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 30.410975638429363,
+            "ssim": 0.952691422625024,
+            "bias": 0.08089917153120041
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 29.886067704123185,
+            "ssim": 0.9569134455549733,
+            "bias": 0.027592724189162254
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 30.064450743620597,
+            "ssim": 0.9507012614159548,
+            "bias": -1.7077795267105103
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 33.29366649346336,
+            "ssim": 0.9712252171678397,
+            "bias": -0.6844395995140076
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 30.65991441897134,
+            "ssim": 0.9592853169249057,
+            "bias": -0.40722811222076416
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 31.668087318541694,
+            "ssim": 0.9572166685756772,
+            "bias": 0.8669095635414124
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 29.25219246201511,
+            "ssim": 0.9480871464222113,
+            "bias": -3.175086498260498
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 26.936082566919247,
+            "ssim": 0.9465768619401362,
+            "bias": -9.308219909667969
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 32.14960659549755,
+            "ssim": 0.9655405841582916,
+            "bias": 0.6320605874061584
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 35.09738750830597,
+            "ssim": 0.9666237687260933,
+            "bias": -0.6547080874443054
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 30.13336932775299,
+            "ssim": 0.9564718640977785,
+            "bias": 0.6106138229370117
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 31.98178552685238,
+            "ssim": 0.9588448177972184,
+            "bias": 2.1920182704925537
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 27.84380299471664,
+            "ssim": 0.9433576769895139,
+            "bias": -5.568448066711426
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 31.04982269746793,
+            "ssim": 0.9659397696523789,
+            "bias": -2.307833671569824
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 30.578130146259312,
+            "ssim": 0.9654838166192939,
+            "bias": -3.2357096672058105
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 30.050825210340722,
+            "ssim": 0.9582106420924535,
+            "bias": 2.2203590869903564
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 28.638068362100036,
+            "ssim": 0.9514878105133389,
+            "bias": 4.139039039611816
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 28.921849219842276,
+            "ssim": 0.9579048835317155,
+            "bias": -6.852468490600586
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 30.461832853528676,
+            "ssim": 0.9573700276161172,
+            "bias": -4.253721237182617
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 28.144609847076687,
+            "ssim": 0.944837479960354,
+            "bias": 3.454568862915039
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 29.73223410268332,
+            "ssim": 0.9567987416651558,
+            "bias": -0.46299317479133606
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 29.287481762277267,
+            "ssim": 0.9467435167542486,
+            "bias": 4.92014217376709
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 30.36952652573404,
+            "bias_gray": 2.806225299835205,
+            "phase12_mean_range_gray": 2.410003662109375,
+            "within3x_cell_rms_gray": 2.024831533432007,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 29.866810614590445,
+            "bias_gray": 1.9850502014160156,
+            "phase12_mean_range_gray": 2.3103866577148438,
+            "within3x_cell_rms_gray": 2.1309640407562256,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      }
+    ],
+    "board_estimate_ms_heuristic": 14.781247017838309,
+    "speed_ratio": 2.773784914799162,
+    "gpu_reference_p95_pass": true,
+    "historical_ratio_estimate_ms": 15.03148492570201,
+    "theoretical_target_pass": true,
+    "board_measured": false,
+    "comparison": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B2-COMPARISON"
+  },
+  "p2_c8_b1": {
+    "means": {
+      "val": {
+        "old": {
+          "native": {
+            "psnr": 30.602553192732493,
+            "ssim": 0.9612415044771644,
+            "bias_gray": 0.6805251215895016
+          },
+          "crop": {
+            "psnr": 30.832506319278213,
+            "ssim": 0.9380761856569603,
+            "bias_gray": 2.2339631021022797
+          }
+        },
+        "reference": {
+          "native": {
+            "psnr": 29.898478806760203,
+            "ssim": 0.9517962304721044,
+            "bias_gray": 0.7605684871474903
+          },
+          "crop": {
+            "psnr": 27.117123377802244,
+            "ssim": 0.7857411033411659,
+            "bias_gray": 1.7571520109971364
+          }
+        },
+        "s03": {
+          "native": {
+            "psnr": 28.45496564115853,
+            "ssim": 0.9562918929366103,
+            "bias_gray": 4.105726728836696
+          },
+          "crop": {
+            "psnr": 28.053263140260096,
+            "ssim": 0.905259319630699,
+            "bias_gray": 3.862333019574483
+          }
+        }
+      },
+      "test": {
+        "old": {
+          "native": {
+            "psnr": 31.35743344704838,
+            "ssim": 0.9678118149334186,
+            "bias_gray": 0.8563670714696248
+          },
+          "crop": {
+            "psnr": 31.31043975265824,
+            "ssim": 0.9461613680629448,
+            "bias_gray": 2.780632009108861
+          }
+        },
+        "reference": {
+          "native": {
+            "psnr": 30.510155809294588,
+            "ssim": 0.9572462136083686,
+            "bias_gray": 1.9619036515553794
+          },
+          "crop": {
+            "psnr": 27.730385110940766,
+            "ssim": 0.8080212984176451,
+            "bias_gray": 3.3781833946704865
+          }
+        },
+        "s03": {
+          "native": {
+            "psnr": 28.622290280156257,
+            "ssim": 0.9596490642981362,
+            "bias_gray": 4.5379623870054875
+          },
+          "crop": {
+            "psnr": 28.32538655615862,
+            "ssim": 0.9153066233201552,
+            "bias_gray": 4.465709805488586
+          }
+        }
+      }
+    },
+    "scenes": {
+      "val": {
+        "weather_light": {
+          "old_crop": {
+            "psnr": 30.93337737246814,
+            "ssim": 0.9397815857343318,
+            "bias_gray": 2.655755897363027
+          },
+          "old_native": {
+            "psnr": 30.832815614508917,
+            "ssim": 0.9633659247470329,
+            "bias_gray": 1.1012422641118367
+          },
+          "reference_crop": {
+            "psnr": 27.29908685430597,
+            "ssim": 0.7917399284868388,
+            "bias_gray": 2.365185777346293
+          },
+          "reference_native": {
+            "psnr": 30.071150104969533,
+            "ssim": 0.9533722589080154,
+            "bias_gray": 1.2947366933027904
+          },
+          "s03_crop": {
+            "psnr": 28.141765693921347,
+            "ssim": 0.9069665503381931,
+            "bias_gray": 4.546040773391724
+          },
+          "s03_native": {
+            "psnr": 28.503138474311097,
+            "ssim": 0.957033649703504,
+            "bias_gray": 4.76083771387736
+          }
+        },
+        "weather_medium": {
+          "old_crop": {
+            "psnr": 30.731635266088286,
+            "ssim": 0.9363707855795887,
+            "bias_gray": 1.8121703068415325
+          },
+          "old_native": {
+            "psnr": 30.37229077095607,
+            "ssim": 0.9591170842072959,
+            "bias_gray": 0.25980797906716663
+          },
+          "reference_crop": {
+            "psnr": 26.93515990129852,
+            "ssim": 0.7797422781954929,
+            "bias_gray": 1.1491182446479797
+          },
+          "reference_native": {
+            "psnr": 29.72580750855087,
+            "ssim": 0.9502202020361935,
+            "bias_gray": 0.22640028099219003
+          },
+          "s03_crop": {
+            "psnr": 27.964760586598846,
+            "ssim": 0.9035520889232052,
+            "bias_gray": 3.1786252657572427
+          },
+          "s03_native": {
+            "psnr": 28.40679280800596,
+            "ssim": 0.9555501361697166,
+            "bias_gray": 3.4506157437960305
+          }
+        }
+      },
+      "test": {
+        "weather_light": {
+          "old_crop": {
+            "psnr": 31.0963179496645,
+            "ssim": 0.9460918639900866,
+            "bias_gray": 3.193575084209442
+          },
+          "old_native": {
+            "psnr": 31.244493072977132,
+            "ssim": 0.9677904487333749,
+            "bias_gray": 1.357235809167226
+          },
+          "reference_crop": {
+            "psnr": 27.61568865279115,
+            "ssim": 0.8081401047545173,
+            "bias_gray": 3.7317922711372375
+          },
+          "reference_native": {
+            "psnr": 30.319369279109836,
+            "ssim": 0.9568639305758162,
+            "bias_gray": 2.3722851276397705
+          },
+          "s03_crop": {
+            "psnr": 28.163402126528826,
+            "ssim": 0.914580665794086,
+            "bias_gray": 4.995457728703816
+          },
+          "s03_native": {
+            "psnr": 28.43759411130023,
+            "ssim": 0.9587834055744681,
+            "bias_gray": 5.0870529015858965
+          }
+        },
+        "weather_medium": {
+          "old_crop": {
+            "psnr": 31.52456155565198,
+            "ssim": 0.9462308721358031,
+            "bias_gray": 2.3676889340082803
+          },
+          "old_native": {
+            "psnr": 31.470373821119622,
+            "ssim": 0.9678331811334623,
+            "bias_gray": 0.3554983337720235
+          },
+          "reference_crop": {
+            "psnr": 27.84508156909038,
+            "ssim": 0.8079024920807729,
+            "bias_gray": 3.0245745182037354
+          },
+          "reference_native": {
+            "psnr": 30.70094233947934,
+            "ssim": 0.9576284966409209,
+            "bias_gray": 1.551522175470988
+          },
+          "s03_crop": {
+            "psnr": 28.487370985788417,
+            "ssim": 0.9160325808462245,
+            "bias_gray": 3.935961882273356
+          },
+          "s03_native": {
+            "psnr": 28.806986449012282,
+            "ssim": 0.9605147230218044,
+            "bias_gray": 3.9888718724250793
+          }
+        }
+      }
+    },
+    "timing": {
+      "old": {
+        "mean_ms": 0.9324316809574763,
+        "p95_ms": 0.9465600252151489
+      },
+      "reference": {
+        "mean_ms": 0.36919546688596405,
+        "p95_ms": 0.37196800112724304
+      },
+      "s03": {
+        "mean_ms": 0.34452240015069646,
+        "p95_ms": 0.34755360186100004
+      }
+    },
+    "identities": {
+      "old": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM/checkpoints/step_000010000.pt",
+        "sha256": "8d08697cc91e6682018cb59b6ffe93853a86c012bfeacad33723004b65409c3b",
+        "step": 10000
+      },
+      "reference": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B3-8K/checkpoints/step_000004000.pt",
+        "sha256": "57afd957f42af2266320ca329b0f38e7bb2a99f57fa523caf993506e3220c4ad",
+        "step": 4000
+      },
+      "s03": {
+        "trained": true,
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V4-20260924-LIGHT-MEDIUM-10K/checkpoints/step_000008000.pt",
+        "sha256": "53ec792f76b536aab1e904c3fd81d09a41fd44ca1d7bd6d7444dabfee4045417",
+        "step": 8000
+      }
+    },
+    "export": {
+      "status": "passed_cpu_parity",
+      "hierarchical_pooling": true,
+      "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V4-20260924-LIGHT-MEDIUM-10K/checkpoints/step_000008000.pt",
+      "checkpoint_sha256": "53ec792f76b536aab1e904c3fd81d09a41fd44ca1d7bd6d7444dabfee4045417",
+      "selection": "validation native PSNR selection; research candidate pending SS928",
+      "onnx_sha256": "80c001caab73bc8538b2f6f03fb3b7e6f83c3a0386ea5fe41bbf4f939dc8f437",
+      "opset": 17,
+      "operator_counts": {
+        "SpaceToDepth": 1,
+        "Conv": 7,
+        "Relu": 1,
+        "AveragePool": 4,
+        "Constant": 10,
+        "Div": 2,
+        "Erf": 2,
+        "Add": 4,
+        "Mul": 4,
+        "Shape": 1,
+        "Slice": 1,
+        "Concat": 1,
+        "Resize": 1,
+        "Cast": 1,
+        "DepthToSpace": 2
+      },
+      "checks": [
+        {
+          "input": "random_normal_seed928",
+          "max_abs": 2.384185791015625e-06,
+          "mae": 1.3348747444030221e-07,
+          "rmse": 1.8076322528939964e-07
+        },
+        {
+          "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-20-19_001/000000@val",
+          "max_abs": 1.1920928955078125e-06,
+          "mae": 8.073571699086636e-08,
+          "rmse": 1.0648482256347298e-07
+        },
+        {
+          "input": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-27-09_001/000000@val",
+          "max_abs": 1.0728836059570312e-06,
+          "mae": 8.29790722297276e-08,
+          "rmse": 1.0990548027888319e-07
+        }
+      ],
+      "seconds": 0.8220567679964006,
+      "SS928": "not converted or measured; actual-shape AvgPool/Resize/reference graph compatibility pending",
+      "versions": {
+        "torch": "2.7.0+cu128",
+        "onnx": "1.17.0",
+        "onnxruntime": "1.20.1"
+      }
+    },
+    "detail_checks": [
+      {
+        "model": "old",
+        "identity": {
+          "key": "old",
+          "label": "S03 quality10k",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V2-20260923-MIXED-UNIFORM/checkpoints/step_000010000.pt",
+          "step": 10000,
+          "sha256": "8d08697cc91e6682018cb59b6ffe93853a86c012bfeacad33723004b65409c3b"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 31.171539276619693,
+            "ssim": 0.9661811292035103,
+            "bias": -2.688885562121868
+          },
+          "weather_medium": {
+            "psnr": 29.924880556739865,
+            "ssim": 0.9641434660434492,
+            "bias": -2.0105946362018585
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 32.70807054561406,
+            "ssim": 0.9748935706693973,
+            "bias": -4.4957780838012695
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 31.18285594659084,
+            "ssim": 0.9677553505340429,
+            "bias": -1.2904373407363892
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 30.727769386234385,
+            "ssim": 0.964133025267514,
+            "bias": -0.7461886405944824
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 29.73874036436872,
+            "ssim": 0.9621889130071056,
+            "bias": -1.4782530069351196
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 29.994821616243357,
+            "ssim": 0.9670557789300664,
+            "bias": -2.929396629333496
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 33.98869779760836,
+            "ssim": 0.9778200053220611,
+            "bias": -1.8441503047943115
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 30.792000938706785,
+            "ssim": 0.9648086200894368,
+            "bias": -1.8134942054748535
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 31.941168106859934,
+            "ssim": 0.9661576831419835,
+            "bias": -0.21746951341629028
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 29.22335784021115,
+            "ssim": 0.963406327196016,
+            "bias": -4.259772777557373
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 26.183969266021556,
+            "ssim": 0.9408637149606155,
+            "bias": -10.990285873413086
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 32.578005358871245,
+            "ssim": 0.9746425424136684,
+            "bias": -0.3724050223827362
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 34.9990141521059,
+            "ssim": 0.9704480189102149,
+            "bias": -1.8289953470230103
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 30.414746765162064,
+            "ssim": 0.9673136512889657,
+            "bias": -0.5232232809066772
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 32.82889591754119,
+            "ssim": 0.9649854875955445,
+            "bias": 1.0306967496871948
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 27.281864858876645,
+            "ssim": 0.9489002097062904,
+            "bias": -6.83601188659668
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 30.55209855307841,
+            "ssim": 0.9708849885356221,
+            "bias": -3.7382731437683105
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 30.24064585619434,
+            "ssim": 0.972968097139209,
+            "bias": -4.538558006286621
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 30.964050585355125,
+            "ssim": 0.9686527308503824,
+            "bias": 0.9893515110015869
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 29.86667173844555,
+            "ssim": 0.9664372736479085,
+            "bias": 2.537504196166992
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 28.116924969258854,
+            "ssim": 0.9616707788887854,
+            "bias": -7.9547905921936035
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 29.475034438312893,
+            "ssim": 0.9649628077696315,
+            "bias": -6.261619567871094
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 29.48275153228507,
+            "ssim": 0.9608519674641126,
+            "bias": 1.2364498376846313
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 29.42419177767441,
+            "ssim": 0.9635369492352948,
+            "bias": -3.0913455486297607
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 30.45068968869376,
+            "ssim": 0.9585566503996453,
+            "bias": 3.022684097290039
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 30.98293341292475,
+            "bias_gray": 1.0891015529632568,
+            "phase12_mean_range_gray": 1.3134994506835938,
+            "within3x_cell_rms_gray": 2.0972816944122314,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 30.259960074094224,
+            "bias_gray": 0.2393343299627304,
+            "phase12_mean_range_gray": 1.436065673828125,
+            "within3x_cell_rms_gray": 2.1933767795562744,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      },
+      {
+        "model": "reference",
+        "identity": {
+          "key": "reference",
+          "label": "Pack4 B3 4000",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B3-8K",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V3-20260924-B3-8K/checkpoints/step_000004000.pt",
+          "step": 4000,
+          "sha256": "57afd957f42af2266320ca329b0f38e7bb2a99f57fa523caf993506e3220c4ad"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 30.108761699238546,
+            "ssim": 0.9504345957885573,
+            "bias": -2.8108871753017106
+          },
+          "weather_medium": {
+            "psnr": 28.56507983726402,
+            "ssim": 0.9475308317599128,
+            "bias": -3.074910175986588
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 32.916669139097145,
+            "ssim": 0.9685552567758888,
+            "bias": -3.8456852436065674
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 30.03081529295976,
+            "ssim": 0.9576308862959458,
+            "bias": -0.378400981426239
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 29.8604216847978,
+            "ssim": 0.9443813835389122,
+            "bias": -2.038450241088867
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 29.299003066715873,
+            "ssim": 0.9531975368165553,
+            "bias": -1.5208121538162231
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 28.068964728406588,
+            "ssim": 0.9406039490323653,
+            "bias": -4.629359245300293
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 32.124025167650785,
+            "ssim": 0.9646715629118141,
+            "bias": -0.7735345363616943
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 30.44576346926306,
+            "ssim": 0.95452313281036,
+            "bias": -0.915783166885376
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 30.848824072788908,
+            "ssim": 0.9500446007663239,
+            "bias": -0.28449949622154236
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 27.82190706816063,
+            "ssim": 0.9376701851212567,
+            "bias": -4.832118511199951
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 24.522000349492636,
+            "ssim": 0.9187257504682834,
+            "bias": -13.235394477844238
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 31.355508509351132,
+            "ssim": 0.9574711210466987,
+            "bias": 0.6633797287940979
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 34.011237842178296,
+            "ssim": 0.9577397838782846,
+            "bias": -1.9399877786636353
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 29.19746031152107,
+            "ssim": 0.9467239650382784,
+            "bias": 0.05816975608468056
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 31.917335724452624,
+            "ssim": 0.9526884233834855,
+            "bias": 0.5916955471038818
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 26.064328210229434,
+            "ssim": 0.9341513328394581,
+            "bias": -7.284867286682129
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 30.09492298073682,
+            "ssim": 0.9601897254238364,
+            "bias": -4.068073272705078
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 28.617752838907087,
+            "ssim": 0.9569383011052984,
+            "bias": -5.829167366027832
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 29.145915786367244,
+            "ssim": 0.9511300931987605,
+            "bias": -0.08166557550430298
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 28.143060077615626,
+            "ssim": 0.9432091704157399,
+            "bias": 2.0445852279663086
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 27.062219144706503,
+            "ssim": 0.9489971869772136,
+            "bias": -9.200355529785156
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 27.031450775090025,
+            "ssim": 0.9453428656840897,
+            "bias": -8.709770202636719
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 27.70097948623979,
+            "ssim": 0.9397311580281669,
+            "bias": -0.8526139259338379
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 27.871216672451528,
+            "ssim": 0.9489442071186517,
+            "bias": -4.590303421020508
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 29.93431603885047,
+            "ssim": 0.9423235519059748,
+            "bias": 1.0234439373016357
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 30.214249945497606,
+            "bias_gray": 1.2754781246185303,
+            "phase12_mean_range_gray": 2.0361175537109375,
+            "within3x_cell_rms_gray": 2.0501766204833984,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 29.633097405950505,
+            "bias_gray": 0.20646019279956818,
+            "phase12_mean_range_gray": 2.0742568969726562,
+            "within3x_cell_rms_gray": 2.167642116546631,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      },
+      {
+        "model": "s03",
+        "identity": {
+          "key": "s03",
+          "label": "Pack2 compact 8000",
+          "run": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V4-20260924-LIGHT-MEDIUM-10K",
+          "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V4-20260924-LIGHT-MEDIUM-10K/checkpoints/step_000008000.pt",
+          "step": 8000,
+          "sha256": "53ec792f76b536aab1e904c3fd81d09a41fd44ca1d7bd6d7444dabfee4045417"
+        },
+        "train_native_summary": {
+          "weather_light": {
+            "psnr": 30.944051528188428,
+            "ssim": 0.9637516605180987,
+            "bias": -1.3687489877144496
+          },
+          "weather_medium": {
+            "psnr": 29.276205703544537,
+            "ssim": 0.963449290778981,
+            "bias": -1.13423253595829
+          }
+        },
+        "train_native_rows": [
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000010@train",
+            "crop": [
+              701,
+              944,
+              256,
+              256
+            ],
+            "psnr": 33.07406146170814,
+            "ssim": 0.9693760656112461,
+            "bias": -2.422848701477051
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000042@train",
+            "crop": [
+              45,
+              920,
+              256,
+              256
+            ],
+            "psnr": 30.199905759870646,
+            "ssim": 0.9621949293813918,
+            "bias": 1.9186903238296509
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000000@train",
+            "crop": [
+              316,
+              812,
+              256,
+              256
+            ],
+            "psnr": 31.44429599905079,
+            "ssim": 0.9679539788396305,
+            "bias": -1.2750935554504395
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000035@train",
+            "crop": [
+              118,
+              944,
+              256,
+              256
+            ],
+            "psnr": 29.778178229021815,
+            "ssim": 0.9613679486158915,
+            "bias": 0.5624551773071289
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000003@train",
+            "crop": [
+              534,
+              392,
+              256,
+              256
+            ],
+            "psnr": 30.261164692141552,
+            "ssim": 0.966430258816141,
+            "bias": -2.4481661319732666
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000012@train",
+            "crop": [
+              627,
+              456,
+              256,
+              256
+            ],
+            "psnr": 32.05021829872564,
+            "ssim": 0.9673050549992884,
+            "bias": 1.2478663921356201
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000028@train",
+            "crop": [
+              136,
+              913,
+              256,
+              256
+            ],
+            "psnr": 31.01126775537535,
+            "ssim": 0.9672023590297876,
+            "bias": 0.5299633145332336
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-46-49_001/000113@train",
+            "crop": [
+              287,
+              540,
+              256,
+              256
+            ],
+            "psnr": 31.911618398958744,
+            "ssim": 0.9663947954791373,
+            "bias": -0.23172473907470703
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-50-14_001/000102@train",
+            "crop": [
+              484,
+              430,
+              256,
+              256
+            ],
+            "psnr": 29.720399536902356,
+            "ssim": 0.9646961703817978,
+            "bias": -3.3314156532287598
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-53-29_001/000084@train",
+            "crop": [
+              756,
+              1020,
+              256,
+              256
+            ],
+            "psnr": 25.344725265429872,
+            "ssim": 0.9317321274935708,
+            "bias": -11.707103729248047
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-30-41_001/000112@train",
+            "crop": [
+              548,
+              295,
+              256,
+              256
+            ],
+            "psnr": 31.006571254352764,
+            "ssim": 0.9670791943732133,
+            "bias": 2.308717727661133
+          },
+          {
+            "scene": "weather_light",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-37-42_001/000053@train",
+            "crop": [
+              405,
+              956,
+              256,
+              256
+            ],
+            "psnr": 35.52621168672349,
+            "ssim": 0.9732870431960868,
+            "bias": -1.5763282775878906
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000010@train",
+            "crop": [
+              179,
+              36,
+              256,
+              256
+            ],
+            "psnr": 29.588024967815613,
+            "ssim": 0.9616860103976632,
+            "bias": 2.4247467517852783
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-56-46_001/000042@train",
+            "crop": [
+              129,
+              731,
+              256,
+              256
+            ],
+            "psnr": 32.61145339368316,
+            "ssim": 0.9685441774568325,
+            "bias": 1.8687591552734375
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-11-01-02_001/000000@train",
+            "crop": [
+              381,
+              473,
+              256,
+              256
+            ],
+            "psnr": 27.60723501184546,
+            "ssim": 0.9579243202305474,
+            "bias": -6.669495582580566
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000035@train",
+            "crop": [
+              358,
+              916,
+              256,
+              256
+            ],
+            "psnr": 30.73492408069459,
+            "ssim": 0.974765711836864,
+            "bias": -3.639575481414795
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-48-06_001/000003@train",
+            "crop": [
+              657,
+              510,
+              256,
+              256
+            ],
+            "psnr": 29.12499394124076,
+            "ssim": 0.9658773689035717,
+            "bias": -4.360755443572998
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-50-45_001/000012@train",
+            "crop": [
+              250,
+              530,
+              256,
+              256
+            ],
+            "psnr": 29.493854422337865,
+            "ssim": 0.9687457620544059,
+            "bias": 0.7367842793464661
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-56-24_001/000028@train",
+            "crop": [
+              666,
+              215,
+              256,
+              256
+            ],
+            "psnr": 28.3483785474328,
+            "ssim": 0.96477624034328,
+            "bias": 4.876089096069336
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000113@train",
+            "crop": [
+              750,
+              526,
+              256,
+              256
+            ],
+            "psnr": 28.374867834080895,
+            "ssim": 0.9541949499244036,
+            "bias": -6.365013122558594
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-50-50_001/000102@train",
+            "crop": [
+              535,
+              539,
+              256,
+              256
+            ],
+            "psnr": 28.89604181214786,
+            "ssim": 0.9654807199260578,
+            "bias": -6.524626731872559
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-01-14_001/000084@train",
+            "crop": [
+              358,
+              492,
+              256,
+              256
+            ],
+            "psnr": 28.261772783183442,
+            "ssim": 0.9604167025018489,
+            "bias": 1.15693199634552
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-04-24_001/000112@train",
+            "crop": [
+              150,
+              751,
+              256,
+              256
+            ],
+            "psnr": 28.603805959048575,
+            "ssim": 0.9575102018218793,
+            "bias": -1.1911524534225464
+          },
+          {
+            "scene": "weather_medium",
+            "sample": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000053@train",
+            "crop": [
+              631,
+              334,
+              256,
+              256
+            ],
+            "psnr": 29.669115689023357,
+            "ssim": 0.9614693239504153,
+            "bias": 4.076517105102539
+          }
+        ],
+        "detail_diagnostics": [
+          {
+            "scene": "weather_light",
+            "native_psnr": 28.700722125608454,
+            "bias_gray": 4.693748950958252,
+            "phase12_mean_range_gray": 1.6898269653320312,
+            "within3x_cell_rms_gray": 1.812538981437683,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          },
+          {
+            "scene": "weather_medium",
+            "native_psnr": 28.258326119801872,
+            "bias_gray": 3.440675735473633,
+            "phase12_mean_range_gray": 1.7146682739257812,
+            "within3x_cell_rms_gray": 1.9048233032226562,
+            "note": "No true3x GT; phase/cell statistics are diagnostics, not proof of artifacts or detail recovery"
+          }
+        ]
+      }
+    ],
+    "modules_ms": {
+      "old": {
+        "model.down": 0.008025600016117096,
+        "model.head.0": 0.05965759977698326,
+        "model.body.0.norm": 0.0009728000091854483,
+        "model.body.0.conv1.rep_conv": 0.10037599913775921,
+        "model.body.0.act": 0.013635200075805187,
+        "model.body.1.norm": 0.0007872000031056813,
+        "model.body.1.conv1.rep_conv": 0.10200480036437512,
+        "model.body.1.act": 0.011526399990543723,
+        "model.body.2.norm": 0.00038880000938661395,
+        "model.body.2.conv1.rep_conv": 0.10305279940366745,
+        "model.body.2.act": 0.011528000049293042,
+        "model.body.3.norm": 0.001140800012217369,
+        "model.body.3.conv1.rep_conv": 0.10737919993698597,
+        "model.body.3.act": 0.018683199910447,
+        "thumbnail_pool.0": 0.0071743999142199755,
+        "thumbnail_pool.1": 0.005689600040204823,
+        "model.global_reference.encoder.0": 0.008227199967950582,
+        "model.global_reference.encoder.1": 0.0036335999961011113,
+        "model.global_reference.encoder.2": 0.013243200024589896,
+        "model.global_reference.encoder.3": 0.0036608000518754125,
+        "reference_pool.0": 0.008871999941766262,
+        "reference_pool.1": 0.006366400024853646,
+        "model.global_reference.project": 0.007608000002801418,
+        "reference_resize": 0.018079999834299088,
+        "model.tail.0": 0.00035360000329092144,
+        "model.tail.1.rep_conv": 0.09884319864213467,
+        "model.upsample.0": 0.21606720089912415,
+        "model.upsample.1": 0.028187199402600525,
+        "model.upsample.2": 0.027676799707114695
+      },
+      "reference": {
+        "model.down": 0.1087600019061938,
+        "model.head.0": 0.03809760008007288,
+        "model.body.0.norm": 0.000532800005748868,
+        "model.body.0.conv1.rep_conv": 0.03318880004808307,
+        "model.body.0.act": 0.004604799905791879,
+        "model.body.1.norm": 0.001400000008288771,
+        "model.body.1.conv1.rep_conv": 0.03665120005607605,
+        "model.body.1.act": 0.004240000015124678,
+        "model.body.2.norm": 0.0005696000007446855,
+        "model.body.2.conv1.rep_conv": 0.036395199596881866,
+        "model.body.2.act": 0.004411200038157403,
+        "thumbnail_pool.0": 0.004255999985616654,
+        "thumbnail_pool.1": 0.008710399898700417,
+        "model.global_reference.encoder.0": 0.015227200090885162,
+        "model.global_reference.encoder.1": 0.009200000076089055,
+        "model.global_reference.encoder.2": 0.018121600011363627,
+        "model.global_reference.encoder.3": 0.008595199952833355,
+        "reference_pool.0": 0.010684799915179611,
+        "reference_pool.1": 0.008542399946600198,
+        "model.global_reference.project": 0.017201600037515162,
+        "reference_resize": 0.013630399922840297,
+        "model.tail.0": 0.005339200008893386,
+        "model.tail.1.rep_conv": 0.03641920005902648,
+        "model.upsample.0": 0.08509119972586632,
+        "model.upsample.1": 0.02603040002286434,
+        "model.upsample.2": 0.026268800627440213,
+        "model.upsample.3": 0.02627200074493885
+      },
+      "s03": {
+        "model.down": 0.007435200037434697,
+        "model.head.0": 0.044556799903512,
+        "model.body.0.norm": 0.0004576000093948096,
+        "model.body.0.conv1.rep_conv": 0.05162079948931932,
+        "model.body.0.act": 0.007076799892820418,
+        "thumbnail_pool.0": 0.005763199983630329,
+        "thumbnail_pool.1": 0.004558400041423738,
+        "model.global_reference.encoder.0": 0.007036800030618906,
+        "model.global_reference.encoder.1": 0.008161600050516426,
+        "model.global_reference.encoder.2": 0.018411199934780596,
+        "model.global_reference.encoder.3": 0.00904959994368255,
+        "reference_pool.0": 0.01099840011447668,
+        "reference_pool.1": 0.008775999955832958,
+        "model.global_reference.project": 0.015587199991568924,
+        "reference_resize": 0.020628799684345722,
+        "model.tail.0": 0.001995200023520738,
+        "model.tail.1.rep_conv": 0.05869440007954836,
+        "model.upsample.0": 0.08768640123307705,
+        "model.upsample.1": 0.028116800449788572,
+        "model.upsample.2": 0.026265600696206093
+      }
+    },
+    "historical_ratio_estimate_ms": 15.44921531923811,
+    "theoretical_target_pass": true,
+    "gpu_reference_p95_pass": true,
+    "board_estimate_ms_heuristic": 15.1490116591424,
+    "speed_ratio": 2.7064471876128353,
+    "comparison": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-V4-20260924-COMPARISON",
+    "board_measured": false
+  }
+}

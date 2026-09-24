@@ -1,0 +1,1555 @@
+[
+  {
+    "name": "/down/SpaceToDepth",
+    "op": "SpaceToDepth",
+    "attributes": {
+      "blocksize": 4
+    },
+    "inputs": [
+      {
+        "name": "raw",
+        "shape": [
+          1,
+          1,
+          1024,
+          1280
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/down/SpaceToDepth_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/head/head.0/Conv",
+    "op": "Conv",
+    "attributes": {
+      "dilations": [
+        1,
+        1
+      ],
+      "group": 1,
+      "kernel_shape": [
+        3,
+        3
+      ],
+      "pads": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "strides": [
+        1,
+        1
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/down/SpaceToDepth_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      },
+      {
+        "name": "model.head.0.weight",
+        "shape": [
+          16,
+          16,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "model.head.0.bias",
+        "shape": [
+          16
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/head/head.0/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/body/body.0/conv1/rep_conv/Conv",
+    "op": "Conv",
+    "attributes": {
+      "dilations": [
+        1,
+        1
+      ],
+      "group": 1,
+      "kernel_shape": [
+        3,
+        3
+      ],
+      "pads": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "strides": [
+        1,
+        1
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/head/head.0/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      },
+      {
+        "name": "model.body.0.conv1.rep_conv.weight",
+        "shape": [
+          16,
+          16,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "model.body.0.conv1.rep_conv.bias",
+        "shape": [
+          16
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/body/body.0/conv1/rep_conv/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/body/body.0/act/Relu",
+    "op": "Relu",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/body/body.0/conv1/rep_conv/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/body/body.0/act/Relu_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/body/body.1/conv1/rep_conv/Conv",
+    "op": "Conv",
+    "attributes": {
+      "dilations": [
+        1,
+        1
+      ],
+      "group": 1,
+      "kernel_shape": [
+        3,
+        3
+      ],
+      "pads": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "strides": [
+        1,
+        1
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/body/body.0/act/Relu_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      },
+      {
+        "name": "model.body.1.conv1.rep_conv.weight",
+        "shape": [
+          16,
+          16,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "model.body.1.conv1.rep_conv.bias",
+        "shape": [
+          16
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/body/body.1/conv1/rep_conv/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/body/body.1/act/Relu",
+    "op": "Relu",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/body/body.1/conv1/rep_conv/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/body/body.1/act/Relu_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/thumbnail_pool/thumbnail_pool.0/AveragePool",
+    "op": "AveragePool",
+    "attributes": {
+      "ceil_mode": 0,
+      "count_include_pad": 1,
+      "kernel_shape": [
+        4,
+        4
+      ],
+      "pads": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strides": [
+        4,
+        4
+      ]
+    },
+    "inputs": [
+      {
+        "name": "raw",
+        "shape": [
+          1,
+          1,
+          1024,
+          1280
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/thumbnail_pool/thumbnail_pool.0/AveragePool_output_0",
+        "shape": [
+          1,
+          1,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/thumbnail_pool/thumbnail_pool.1/AveragePool",
+    "op": "AveragePool",
+    "attributes": {
+      "ceil_mode": 0,
+      "count_include_pad": 1,
+      "kernel_shape": [
+        4,
+        5
+      ],
+      "pads": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strides": [
+        4,
+        5
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/thumbnail_pool/thumbnail_pool.0/AveragePool_output_0",
+        "shape": [
+          1,
+          1,
+          256,
+          320
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/thumbnail_pool/thumbnail_pool.1/AveragePool_output_0",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.0/Conv",
+    "op": "Conv",
+    "attributes": {
+      "dilations": [
+        1,
+        1
+      ],
+      "group": 1,
+      "kernel_shape": [
+        3,
+        3
+      ],
+      "pads": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "strides": [
+        1,
+        1
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/thumbnail_pool/thumbnail_pool.1/AveragePool_output_0",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "model.global_reference.encoder.0.weight",
+        "shape": [
+          12,
+          1,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "model.global_reference.encoder.0.bias",
+        "shape": [
+          12
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.0/Conv_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.1/Constant",
+    "op": "Constant",
+    "attributes": {
+      "value": 1.4142135381698608
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.1/Constant_output_0",
+        "shape": []
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.1/Div",
+    "op": "Div",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.0/Conv_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/encoder/encoder.1/Constant_output_0",
+        "shape": []
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.1/Div_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.1/Erf",
+    "op": "Erf",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.1/Div_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.1/Erf_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.1/Constant_1",
+    "op": "Constant",
+    "attributes": {
+      "value": 1.0
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.1/Constant_1_output_0",
+        "shape": []
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.1/Add",
+    "op": "Add",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.1/Erf_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/encoder/encoder.1/Constant_1_output_0",
+        "shape": []
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.1/Add_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.1/Mul",
+    "op": "Mul",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.0/Conv_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/encoder/encoder.1/Add_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.1/Mul_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.1/Constant_2",
+    "op": "Constant",
+    "attributes": {
+      "value": 0.5
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.1/Constant_2_output_0",
+        "shape": []
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.1/Mul_1",
+    "op": "Mul",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.1/Mul_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/encoder/encoder.1/Constant_2_output_0",
+        "shape": []
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.1/Mul_1_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.2/Conv",
+    "op": "Conv",
+    "attributes": {
+      "dilations": [
+        1,
+        1
+      ],
+      "group": 1,
+      "kernel_shape": [
+        3,
+        3
+      ],
+      "pads": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "strides": [
+        1,
+        1
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/encoder/encoder.1/Mul_1_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "model.global_reference.encoder.2.weight",
+        "shape": [
+          12,
+          12,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "model.global_reference.encoder.2.bias",
+        "shape": [
+          12
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.2/Conv_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.3/Constant",
+    "op": "Constant",
+    "attributes": {
+      "value": 1.4142135381698608
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.3/Constant_output_0",
+        "shape": []
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.3/Div",
+    "op": "Div",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.2/Conv_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/encoder/encoder.3/Constant_output_0",
+        "shape": []
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.3/Div_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.3/Erf",
+    "op": "Erf",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.3/Div_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.3/Erf_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.3/Constant_1",
+    "op": "Constant",
+    "attributes": {
+      "value": 1.0
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.3/Constant_1_output_0",
+        "shape": []
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.3/Add",
+    "op": "Add",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.3/Erf_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/encoder/encoder.3/Constant_1_output_0",
+        "shape": []
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.3/Add_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.3/Mul",
+    "op": "Mul",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.2/Conv_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/encoder/encoder.3/Add_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.3/Mul_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.3/Constant_2",
+    "op": "Constant",
+    "attributes": {
+      "value": 0.5
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.3/Constant_2_output_0",
+        "shape": []
+      }
+    ]
+  },
+  {
+    "name": "/encoder/encoder.3/Mul_1",
+    "op": "Mul",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.3/Mul_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/encoder/encoder.3/Constant_2_output_0",
+        "shape": []
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/encoder/encoder.3/Mul_1_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_pool/reference_pool.0/AveragePool",
+    "op": "AveragePool",
+    "attributes": {
+      "ceil_mode": 0,
+      "count_include_pad": 1,
+      "kernel_shape": [
+        8,
+        8
+      ],
+      "pads": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strides": [
+        8,
+        8
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/encoder/encoder.3/Mul_1_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/reference_pool/reference_pool.0/AveragePool_output_0",
+        "shape": [
+          1,
+          12,
+          8,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_pool/reference_pool.1/AveragePool",
+    "op": "AveragePool",
+    "attributes": {
+      "ceil_mode": 0,
+      "count_include_pad": 1,
+      "kernel_shape": [
+        8,
+        8
+      ],
+      "pads": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strides": [
+        8,
+        8
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/reference_pool/reference_pool.0/AveragePool_output_0",
+        "shape": [
+          1,
+          12,
+          8,
+          8
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/reference_pool/reference_pool.1/AveragePool_output_0",
+        "shape": [
+          1,
+          12,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/Add",
+    "op": "Add",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/encoder/encoder.3/Mul_1_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "/reference_pool/reference_pool.1/AveragePool_output_0",
+        "shape": [
+          1,
+          12,
+          1,
+          1
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/Add_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/project/Conv",
+    "op": "Conv",
+    "attributes": {
+      "dilations": [
+        1,
+        1
+      ],
+      "group": 1,
+      "kernel_shape": [
+        1,
+        1
+      ],
+      "pads": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strides": [
+        1,
+        1
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/Add_output_0",
+        "shape": [
+          1,
+          12,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "model.global_reference.project.weight",
+        "shape": [
+          16,
+          12,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "model.global_reference.project.bias",
+        "shape": [
+          16
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/project/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          64,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_resize/Shape",
+    "op": "Shape",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/project/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/reference_resize/Shape_output_0",
+        "shape": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_resize/Constant",
+    "op": "Constant",
+    "attributes": {
+      "value": [
+        0
+      ]
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/reference_resize/Constant_output_0",
+        "shape": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_resize/Constant_1",
+    "op": "Constant",
+    "attributes": {
+      "value": [
+        0
+      ]
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/reference_resize/Constant_1_output_0",
+        "shape": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_resize/Constant_2",
+    "op": "Constant",
+    "attributes": {
+      "value": [
+        2
+      ]
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/reference_resize/Constant_2_output_0",
+        "shape": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_resize/Slice",
+    "op": "Slice",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/reference_resize/Shape_output_0",
+        "shape": [
+          4
+        ]
+      },
+      {
+        "name": "/reference_resize/Constant_1_output_0",
+        "shape": [
+          1
+        ]
+      },
+      {
+        "name": "/reference_resize/Constant_2_output_0",
+        "shape": [
+          1
+        ]
+      },
+      {
+        "name": "/reference_resize/Constant_output_0",
+        "shape": [
+          1
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/reference_resize/Slice_output_0",
+        "shape": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_resize/Constant_3",
+    "op": "Constant",
+    "attributes": {
+      "value": [
+        256,
+        320
+      ]
+    },
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "/reference_resize/Constant_3_output_0",
+        "shape": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_resize/Concat",
+    "op": "Concat",
+    "attributes": {
+      "axis": 0
+    },
+    "inputs": [
+      {
+        "name": "/reference_resize/Slice_output_0",
+        "shape": [
+          2
+        ]
+      },
+      {
+        "name": "/reference_resize/Constant_3_output_0",
+        "shape": [
+          2
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/reference_resize/Concat_output_0",
+        "shape": [
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/reference_resize/Resize",
+    "op": "Resize",
+    "attributes": {
+      "coordinate_transformation_mode": "half_pixel",
+      "cubic_coeff_a": -0.75,
+      "mode": "linear",
+      "nearest_mode": "floor"
+    },
+    "inputs": [
+      {
+        "name": "/project/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          64,
+          64
+        ]
+      },
+      {
+        "name": "",
+        "shape": null
+      },
+      {
+        "name": "",
+        "shape": null
+      },
+      {
+        "name": "/reference_resize/Concat_output_0",
+        "shape": [
+          4
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/reference_resize/Resize_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/Cast",
+    "op": "Cast",
+    "attributes": {
+      "to": 1
+    },
+    "inputs": [
+      {
+        "name": "/reference_resize/Resize_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/Cast_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/Add_1",
+    "op": "Add",
+    "attributes": {},
+    "inputs": [
+      {
+        "name": "/body/body.1/act/Relu_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      },
+      {
+        "name": "/Cast_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/Add_1_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/tail/tail.1/rep_conv/Conv",
+    "op": "Conv",
+    "attributes": {
+      "dilations": [
+        1,
+        1
+      ],
+      "group": 1,
+      "kernel_shape": [
+        3,
+        3
+      ],
+      "pads": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "strides": [
+        1,
+        1
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/Add_1_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      },
+      {
+        "name": "model.tail.1.rep_conv.weight",
+        "shape": [
+          16,
+          16,
+          3,
+          3
+        ]
+      },
+      {
+        "name": "model.tail.1.rep_conv.bias",
+        "shape": [
+          16
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/tail/tail.1/rep_conv/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/upsample/upsample.0/Conv",
+    "op": "Conv",
+    "attributes": {
+      "dilations": [
+        1,
+        1
+      ],
+      "group": 1,
+      "kernel_shape": [
+        1,
+        1
+      ],
+      "pads": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strides": [
+        1,
+        1
+      ]
+    },
+    "inputs": [
+      {
+        "name": "/tail/tail.1/rep_conv/Conv_output_0",
+        "shape": [
+          1,
+          16,
+          256,
+          320
+        ]
+      },
+      {
+        "name": "model.upsample.0.weight",
+        "shape": [
+          144,
+          16,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "model.upsample.0.bias",
+        "shape": [
+          144
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/upsample/upsample.0/Conv_output_0",
+        "shape": [
+          1,
+          144,
+          256,
+          320
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/upsample/upsample.1/DepthToSpace",
+    "op": "DepthToSpace",
+    "attributes": {
+      "blocksize": 2,
+      "mode": "CRD"
+    },
+    "inputs": [
+      {
+        "name": "/upsample/upsample.0/Conv_output_0",
+        "shape": [
+          1,
+          144,
+          256,
+          320
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/upsample/upsample.1/DepthToSpace_output_0",
+        "shape": [
+          1,
+          36,
+          512,
+          640
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/upsample/upsample.2/DepthToSpace",
+    "op": "DepthToSpace",
+    "attributes": {
+      "blocksize": 2,
+      "mode": "CRD"
+    },
+    "inputs": [
+      {
+        "name": "/upsample/upsample.1/DepthToSpace_output_0",
+        "shape": [
+          1,
+          36,
+          512,
+          640
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "/upsample/upsample.2/DepthToSpace_output_0",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      }
+    ]
+  },
+  {
+    "name": "/upsample/upsample.3/DepthToSpace",
+    "op": "DepthToSpace",
+    "attributes": {
+      "blocksize": 3,
+      "mode": "CRD"
+    },
+    "inputs": [
+      {
+        "name": "/upsample/upsample.2/DepthToSpace_output_0",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ]
+  }
+]

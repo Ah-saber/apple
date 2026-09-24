@@ -1,0 +1,48 @@
+{
+  "status": "passed_cpu_parity",
+  "hierarchical_pooling": true,
+  "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-SPEED-CROSS-20260924-DAY-B2-12K/checkpoints/step_000010000.pt",
+  "checkpoint_sha256": "addc6c29fd31d3abb563822d0fb7492b7597125cf53f0d0d102d9137fd079393",
+  "selection": "validation native PSNR selection; research candidate pending SS928",
+  "onnx_sha256": "9d700f9df34abbecd0668ee45b0f0e7ae6f117fe4505e494a37428019eb3bd92",
+  "opset": 17,
+  "operator_counts": {
+    "SpaceToDepth": 1,
+    "Conv": 8,
+    "Relu": 2,
+    "AveragePool": 4,
+    "Constant": 10,
+    "Div": 2,
+    "Erf": 2,
+    "Add": 4,
+    "Mul": 4,
+    "Shape": 1,
+    "Slice": 1,
+    "Concat": 1,
+    "Resize": 1,
+    "Cast": 1,
+    "DepthToSpace": 3
+  },
+  "checks": [
+    {
+      "input": "random_normal_seed928",
+      "max_abs": 6.67572021484375e-06,
+      "mae": 3.3441183626861906e-07,
+      "rmse": 4.441907177135599e-07
+    },
+    {
+      "input": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000000@val",
+      "max_abs": 2.0265579223632812e-06,
+      "mae": 1.5487102610759767e-07,
+      "rmse": 2.00795018277535e-07
+    }
+  ],
+  "skipped_spatial_scenes": [],
+  "seconds": 0.6669798870570958,
+  "SS928": "not converted or measured; actual-shape AvgPool/Resize/reference graph compatibility pending",
+  "versions": {
+    "torch": "2.7.0+cu128",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.20.1"
+  }
+}

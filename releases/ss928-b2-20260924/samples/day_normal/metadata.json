@@ -1,0 +1,56 @@
+{
+  "group": "day",
+  "split": "val",
+  "record": {
+    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000000@val",
+    "domain": "normal",
+    "sequence_id": "vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001",
+    "frame_id": 0,
+    "group_id": "normal_capture_01",
+    "raw": {
+      "path": "decoded/raw_v1/normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/raw_u16.npy",
+      "index": 0,
+      "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+    },
+    "target": {
+      "path": "targets/camera_jpeg_v1/normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000000.png",
+      "sha256": "7c13b50dc2fcf2840c24ee5f5ed85a44484a38b2e985822838b633a6e07ea7d3",
+      "source_path": "jpeg_weather_normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001.raw/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001_0.jpg",
+      "source_sha256": "12b5cdc1f118a3bc68e65a5ef44a569698f07432c09329500f47804648467271",
+      "teacher_version": "camera_jpeg_v1",
+      "source_experiment": null,
+      "frame_id": 0
+    },
+    "pair_status": "source_identity_and_index_verified",
+    "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+    "source_sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000000",
+    "split": "val",
+    "scene_id": "day_normal",
+    "evaluation_scope": "capture_group_development",
+    "eval_crop_tlhw": [
+      2,
+      0,
+      1020,
+      1278
+    ]
+  },
+  "normalization": {
+    "offset": 4824.348435977887,
+    "middle_offset": 4824.304477641772,
+    "scale": 757.4008515625192
+  },
+  "normalization_index_sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54",
+  "raw_sha256": "fb1788b0127191f78fed478eeebe811b6bd522f87a2a4ca8ab85b290c1998f89",
+  "input_shape": [
+    1,
+    1,
+    1024,
+    1280
+  ],
+  "normalized_input_sha256": "1855d7b0667793349d2b5c397e930fbdb6c1e28eb93447d4a883dc4703994e75",
+  "input_range": [
+    -0.2764039933681488,
+    1.1085957288742065
+  ],
+  "reference_output": "Generate CPU ONNX output from this release; old S03 expected output is invalid."
+}
