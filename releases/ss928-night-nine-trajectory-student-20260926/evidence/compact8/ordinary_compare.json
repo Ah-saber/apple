@@ -1,0 +1,59 @@
+{
+  "mae_gray": 0.0,
+  "max_gray": 0.0,
+  "p95_gray": 0.0,
+  "psnr_vs_source_db": null,
+  "rounded_byte_max_gray": 0,
+  "rounded_changed_pixels": 0,
+  "phase6_mean_error_gray": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "comparison_target": "matching source output, not GT"
+}

@@ -1,0 +1,22 @@
+{
+  "ordinary": {
+    "width": 5120,
+    "height": 1080,
+    "decoded_frames": 60
+  },
+  "special": {
+    "width": 5120,
+    "height": 1080,
+    "decoded_frames": 120
+  },
+  "panels": [
+    "输入 RAW",
+    "GT",
+    "当前部署模型",
+    "轻量轨迹候选"
+  ],
+  "spatial_crop": null,
+  "display": "full 1024x1280 sensor image; 3x model output area-averaged for comparison",
+  "fps": 12,
+  "not_acquisition_fps": true
+}

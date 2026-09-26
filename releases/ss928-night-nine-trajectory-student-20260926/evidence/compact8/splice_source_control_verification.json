@@ -1,0 +1,75 @@
+{
+  "ordinary": {
+    "shape": [
+      1,
+      1,
+      96,
+      144
+    ],
+    "dtype": "uint8",
+    "max_gray": 1,
+    "mean_gray": 0.026982060185185185,
+    "operators": {
+      "Constant": 58,
+      "Slice": 8,
+      "Cast": 11,
+      "ReduceMean": 2,
+      "Sub": 2,
+      "Mul": 18,
+      "Conv": 24,
+      "Relu": 11,
+      "Add": 15,
+      "ConvTranspose": 1,
+      "Sigmoid": 2,
+      "Concat": 5,
+      "Reshape": 2,
+      "Transpose": 1,
+      "Div": 5,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "Clip": 1,
+      "Round": 1,
+      "DepthToSpace": 1
+    },
+    "real_R4_used": false,
+    "verification": "Independent ONNX ReferenceEvaluator versus CUDA StudentByteNine; frozen source graph splice control"
+  },
+  "special": {
+    "shape": [
+      1,
+      1,
+      96,
+      144
+    ],
+    "dtype": "uint8",
+    "max_gray": 1,
+    "mean_gray": 0.016999421296296297,
+    "operators": {
+      "Constant": 37,
+      "Slice": 5,
+      "Cast": 11,
+      "ReduceMean": 2,
+      "Sub": 2,
+      "Mul": 12,
+      "Conv": 18,
+      "Relu": 11,
+      "Add": 9,
+      "ConvTranspose": 1,
+      "Sigmoid": 2,
+      "Concat": 2,
+      "Reshape": 2,
+      "Transpose": 1,
+      "Div": 2,
+      "Erf": 2,
+      "Shape": 1,
+      "Resize": 1,
+      "Clip": 1,
+      "Round": 1,
+      "DepthToSpace": 1
+    },
+    "real_R4_used": false,
+    "verification": "Independent ONNX ReferenceEvaluator versus CUDA StudentByteNine; frozen source graph splice control"
+  }
+}
