@@ -1,0 +1,12 @@
+{
+  "base_commit": "868c00c420ff95a734dce3ac9143709891d660fe",
+  "type": "incremental",
+  "requires_sibling_release": "ss928-night-nine-packed-front-20260926",
+  "SS928_verified": false,
+  "GPU_improved": false,
+  "target_ms": 16.7,
+  "full_sequence_source_frames": {
+    "ordinary": 60,
+    "special": 120
+  }
+}

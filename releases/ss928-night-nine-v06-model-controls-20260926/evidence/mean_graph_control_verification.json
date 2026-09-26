@@ -1,0 +1,142 @@
+{
+  "ordinary": {
+    "cases": {
+      "one": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "two": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "fixed": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "dcr_one": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      }
+    },
+    "guard_rejections": {
+      "phase_order": "Unsupported output phase order",
+      "clip_bounds": "Requires normalized Clip bounds [0,1]",
+      "extra_shape_consumer": "Requires one FP32 full-gray graph output"
+    },
+    "independent_reference": "ONNX ReferenceEvaluator exported candidate vs rewritten original"
+  },
+  "special": {
+    "cases": {
+      "one": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "two": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "fixed": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "dcr_one": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      }
+    },
+    "guard_rejections": {
+      "phase_order": "Unsupported output phase order",
+      "clip_bounds": "Requires normalized Clip bounds [0,1]",
+      "extra_shape_consumer": "Requires one FP32 full-gray graph output"
+    },
+    "independent_reference": "ONNX ReferenceEvaluator exported candidate vs rewritten original"
+  }
+}

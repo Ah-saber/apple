@@ -1,0 +1,134 @@
+{
+  "ordinary": {
+    "alias_materialization_bit_exact": true,
+    "alias_count": 1,
+    "cases": {
+      "two_three": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "three_two": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "fixed_pack": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "fixed_two_three": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      }
+    }
+  },
+  "special": {
+    "alias_materialization_bit_exact": true,
+    "alias_count": 1,
+    "cases": {
+      "two_three": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "three_two": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "fixed_pack": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      },
+      "fixed_two_three": {
+        "max_gray": 0.0,
+        "mean_gray": 0.0,
+        "bit_exact": true,
+        "shape": [
+          1,
+          1,
+          96,
+          144
+        ],
+        "dtype": "float32",
+        "original_IO_preserved": true,
+        "real_native_r2_used": false,
+        "NPU_verified": false
+      }
+    }
+  }
+}

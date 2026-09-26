@@ -1,0 +1,47 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "base": {
+          "window_mae_gray": 7.5559892654418945,
+          "weak_temporal_response_projection": 0.36228320002555847,
+          "weak_temporal_residual_mae_gray": 1.596347451210022
+        },
+        "mean_raw": {
+          "window_mae_gray": 7.564670085906982,
+          "weak_temporal_response_projection": 0.3589590787887573,
+          "weak_temporal_residual_mae_gray": 1.594216227531433
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "base": {
+          "window_mae_gray": 3.293511390686035,
+          "weak_temporal_response_projection": 0.54133141040802,
+          "weak_temporal_residual_mae_gray": 1.3146083354949951
+        },
+        "mean_raw": {
+          "window_mae_gray": 3.2884116172790527,
+          "weak_temporal_response_projection": 0.5469805002212524,
+          "weak_temporal_residual_mae_gray": 1.3178584575653076
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}

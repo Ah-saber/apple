@@ -1,0 +1,9 @@
+{
+  "scope": "four full-sensor panels; prediction area-averaged 3x for RAW/GT alignment",
+  "width": 5120,
+  "height": 1080,
+  "fps": 12,
+  "ordinary_frames": 60,
+  "special_frames": 120,
+  "execution": "source CUDA, not compiled or SS928"
+}

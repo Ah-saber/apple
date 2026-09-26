@@ -1,0 +1,31 @@
+{
+  "sha256": "beb0f29d5bd343a69ce998445fd032e1dd3144cfb915adf33769fce4670002cf",
+  "input_shapes": [
+    [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    [
+      1,
+      1,
+      64,
+      64
+    ]
+  ],
+  "input_dtype": "float32",
+  "output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "output_dtype": "float32",
+  "output_range": [
+    0,
+    255
+  ],
+  "NPU_verified": false,
+  "real_native_r2_compatibility_applied": false
+}
