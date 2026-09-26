@@ -1,0 +1,40 @@
+{
+  "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-TRAJECTORY-STUDENT-COMPACT-20260926/onnx/ordinary_trajectory_student_float32.onnx",
+  "sha256": "fc914ca675ec3fa852d10b9b3aab2ddc2cc0a99d91e53273390be0d0af402c36",
+  "student_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-TRAJECTORY-STUDENT-COMPACT-20260926/ordinary_student_002000.pt",
+  "output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "output_dtype": "float32",
+  "input_dtype": "float32",
+  "operators": {
+    "Cast": 10,
+    "Constant": 58,
+    "Slice": 8,
+    "ReduceMean": 2,
+    "Sub": 2,
+    "Mul": 18,
+    "Conv": 24,
+    "Relu": 11,
+    "Add": 15,
+    "ConvTranspose": 1,
+    "Sigmoid": 2,
+    "Concat": 5,
+    "Reshape": 2,
+    "Transpose": 1,
+    "Div": 5,
+    "Erf": 5,
+    "AveragePool": 3,
+    "Shape": 4,
+    "Resize": 4,
+    "Clip": 1,
+    "DepthToSpace": 1
+  },
+  "onnx_checker_passed": true,
+  "r4_vendor_rewrites_applied": false,
+  "npu_compile_verified": false,
+  "npu_timing_verified": false
+}

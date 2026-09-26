@@ -1,0 +1,41 @@
+{
+  "repository": "https://github.com/eduardzamfir/RT4KSR",
+  "commit": "fd6627a48d789adf5d9aad29f02ab2a3d2a25296",
+  "upstream_files_unmodified": true,
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "code/model/modules.py",
+      "sha256": "fa6261eba7106886de050ac55668bff858a7b32e0a6c97f43633311569c324ee"
+    },
+    {
+      "path": "code/model/arch.py",
+      "sha256": "79b604979fb90611f5d484b4541c67f92974f83185fcbc95011a2865c41d0abf"
+    },
+    {
+      "path": "code/model/utils/rep_utils.py",
+      "sha256": "2c8ed76bdd8c17f436b52e7c3face4e6cf452dc7a1683bcf616c459f0de0cf4a"
+    }
+  ],
+  "adaptation": "src/ir_sr/model.py; gray x3 active factory graph; AMP LayerNorm statistics FP32; weights randomly initialized",
+  "trajectory_student_20260926": {
+    "parent_commit": "09f92b08ce738759989add5c782fea380c74425b",
+    "learned_module": "only trajectory student parameters trained; rest frozen",
+    "student_module": "trajectory_student.py",
+    "preferred": "compact8",
+    "NPU_verified": false,
+    "model_sha256": {
+      "special_student_wide12.pt": "978c8f2bf10213dae6e2a6351c2a08cc7ffbf66accdb8de3df839a83cc2e323a",
+      "special_fused.pt": "ea7922ee4d472afab74b6563c9df014373f17243aedb3c9573b7de6329b88868",
+      "ordinary_fused.pt": "d4e17cb7d35f8daeaff5d5c861f261b7c9418e0897c33f29ba9a32804420c3b7",
+      "special_factor24.pt": "84b445360fd9abeb937bb993daeb4c38ec595f6f76d47b26e38d37a138c5f7ff",
+      "special_student_compact8.pt": "13f61e3d4655ca81bc092ab3cdab8d2f2b44fac2ae0aede09ff14a3efd42ab3a",
+      "ordinary_student_wide12.pt": "18ad6fc515095e61d96d8d0898ec127dbc5e0e3674f2b067a768e41f26c1166e",
+      "ordinary_student_compact8.pt": "f8fe5befbd6583f78332405fff3683dd1ba2b11196840f1ca7c146b75ab87b07",
+      "ordinary_factor24.pt": "af45d591e7ffa6943cd5f5bfd0e10ea21908257cc7c27e4d4927c8efe49690f9"
+    }
+  }
+}

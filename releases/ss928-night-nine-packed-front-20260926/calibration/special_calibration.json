@@ -1,0 +1,129 @@
+{
+  "samples": [
+    {
+      "scene": "special",
+      "split": "train",
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frame_id": 0,
+      "train_roi_tlhw": [
+        0,
+        256,
+        1024,
+        768
+      ],
+      "padding": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "outside_training_roi": "reflection of training ROI only; held-out side RAW excluded",
+      "GT_read": false,
+      "path": "special_train_00.npz",
+      "bytes": 31942483
+    },
+    {
+      "scene": "special",
+      "split": "train",
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000039@train",
+      "frame_id": 39,
+      "train_roi_tlhw": [
+        0,
+        256,
+        1024,
+        768
+      ],
+      "padding": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "outside_training_roi": "reflection of training ROI only; held-out side RAW excluded",
+      "GT_read": false,
+      "path": "special_train_01.npz",
+      "bytes": 31948511
+    },
+    {
+      "scene": "special",
+      "split": "train",
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000079@train",
+      "frame_id": 79,
+      "train_roi_tlhw": [
+        0,
+        256,
+        1024,
+        768
+      ],
+      "padding": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "outside_training_roi": "reflection of training ROI only; held-out side RAW excluded",
+      "GT_read": false,
+      "path": "special_train_02.npz",
+      "bytes": 31945314
+    },
+    {
+      "scene": "special",
+      "split": "train",
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000119@train",
+      "frame_id": 119,
+      "train_roi_tlhw": [
+        0,
+        256,
+        1024,
+        768
+      ],
+      "padding": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "outside_training_roi": "reflection of training ROI only; held-out side RAW excluded",
+      "GT_read": false,
+      "path": "special_train_03.npz",
+      "bytes": 31949004
+    }
+  ],
+  "GT_used": false,
+  "test_used": false,
+  "count_per_scene": 4,
+  "dataset_module": "/data/zhangbenzhuang/huawei_sr/code/worktrees/ss928-quality-special-night-nine-frame-20260925/src/ir_sr/training.py",
+  "purpose": "small independent initial quantization calibration set; cannot guarantee all deployment noise/brightness coverage"
+}
