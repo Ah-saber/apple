@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/mnt/d/work_project/rawIR/reports/speed_night_nine_refine_20260926/ordinary_weighted24_quality.mp4",
+    "frames": 60,
+    "sha256": "cd6ec312f2a0f1743170c38ebd87eef01b920467026ae6350240ddd8ec99ed26",
+    "spatial_crop": null
+  },
+  {
+    "path": "/mnt/d/work_project/rawIR/reports/speed_night_nine_refine_20260926/special_weighted24_quality.mp4",
+    "frames": 120,
+    "sha256": "bbe707c17fd31cc4428a3932ac9a1709a64b3733a7604727f3e9394ed2cc6eb4",
+    "spatial_crop": null
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "scene": "ordinary",
+  "model": "/data/zhangbenzhuang/huawei_sr/runs/SS928-NIGHT-NINE-REFINE-20260926/selected_models/ordinary_factor24_1024x1280_float32_nozero.onnx",
+  "shape": [
+    1,
+    9,
+    1024,
+    1280
+  ],
+  "input_types": [
+    1,
+    1
+  ],
+  "output_type": 2,
+  "static_check": true,
+  "ops": {
+    "Constant": 485,
+    "Slice": 107,
+    "Cast": 16,
+    "AveragePool": 8,
+    "ReduceSum": 3,
+    "ReduceMin": 3,
+    "Sub": 11,
+    "ReduceMax": 5,
+    "Div": 11,
+    "ConstantOfShape": 6,
+    "Concat": 15,
+    "Reshape": 15,
+    "Transpose": 7,
+    "Pad": 6,
+    "Shape": 9,
+    "Gather": 4,
+    "Abs": 1,
+    "Mul": 52,
+    "ReduceMean": 2,
+    "Clip": 7,
+    "Max": 33,
+    "Neg": 1,
+    "Add": 14,
+    "Sqrt": 1,
+    "Resize": 5,
+    "Conv": 19,
+    "Relu": 5,
+    "Sigmoid": 1,
+    "Erf": 5,
+    "Round": 1,
+    "DepthToSpace": 1
+  },
+  "npu_compilation_verified": false
+}

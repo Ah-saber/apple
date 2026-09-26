@@ -1,0 +1,46 @@
+{
+  "ordinary": {
+    "float16": {
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "max_source_compiled_gray": 1,
+      "mean_source_compiled_gray": 0.0421738518608941
+    },
+    "float32": {
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "max_source_compiled_gray": 1,
+      "mean_source_compiled_gray": 0.04316287570529514
+    }
+  },
+  "special": {
+    "float16": {
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "max_source_compiled_gray": 1,
+      "mean_source_compiled_gray": 0.04500503540039062
+    },
+    "float32": {
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "max_source_compiled_gray": 1,
+      "mean_source_compiled_gray": 0.04574313693576389
+    }
+  }
+}

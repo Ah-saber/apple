@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/Ah-saber/apple.git",
+  "branch": "codex/ss928-night-nine-factor24-20260926",
+  "npu_verified": false,
+  "files": {
+    "ordinary_factor24.pt": {
+      "bytes": 79386,
+      "sha256": "af45d591e7ffa6943cd5f5bfd0e10ea21908257cc7c27e4d4927c8efe49690f9"
+    },
+    "ordinary_factor24_1024x1280_float16_nozero.onnx": {
+      "bytes": 140415,
+      "sha256": "6af0bf7cccf6463ce28cde6e2ee40f430fc2cbcbaa084832d7679fd2fcc143d2"
+    },
+    "ordinary_factor24_1024x1280_float32_nozero.onnx": {
+      "bytes": 140354,
+      "sha256": "0a53d530beff77e7990fa3e529c6faa77443b70550834629b01fc221cbf6de80"
+    },
+    "ordinary_fused.pt": {
+      "bytes": 85757,
+      "sha256": "d4e17cb7d35f8daeaff5d5c861f261b7c9418e0897c33f29ba9a32804420c3b7"
+    },
+    "special_factor24.pt": {
+      "bytes": 67167,
+      "sha256": "84b445360fd9abeb937bb993daeb4c38ec595f6f76d47b26e38d37a138c5f7ff"
+    },
+    "special_factor24_1024x1280_float16_nozero.onnx": {
+      "bytes": 122845,
+      "sha256": "35d46e5525240a946ed1efacdd37ceef228f2c3d26fdb07eb45b082ad1e2a2fb"
+    },
+    "special_factor24_1024x1280_float32_nozero.onnx": {
+      "bytes": 122784,
+      "sha256": "23c3005770344884d785a9e41f51446659f0c7d0cadd54fbbd2d878f8807c045"
+    },
+    "special_fused.pt": {
+      "bytes": 72615,
+      "sha256": "ea7922ee4d472afab74b6563c9df014373f17243aedb3c9573b7de6329b88868"
+    }
+  }
+}

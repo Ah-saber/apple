@@ -1,0 +1,66 @@
+{
+  "ordinary": {
+    "scene": "night_ordinary",
+    "frame": 20,
+    "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-NIGHT-NINE-FRAME-TRAJECTORY-20260925-2K-R1/checkpoints/step_000002000.pt",
+    "vector": "/data/zhangbenzhuang/huawei_sr/runs/SS928-NIGHT-NINE-SPEED-20260925/TRIMMED-TEST-VECTORS/ordinary_frame_20.npz",
+    "sha256": "764649bd7e0a1086be38ef2111a445c26ac33bcc3cd03721c829f8745c6682d5",
+    "bytes": 48371859,
+    "inputs": {
+      "nine_raw": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "reference_thumb": [
+        1,
+        1,
+        64,
+        64
+      ]
+    },
+    "output": {
+      "display_uint8": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "dtype": "uint8"
+    },
+    "protocol": "Independent test scene; complete original RAW field; current per-frame normalization and correction applied before model; reference thumbnail from original RAW with matching normalization."
+  },
+  "special": {
+    "scene": "night_special",
+    "frame": 60,
+    "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-SPECIAL-NIGHT-NINE-FRAME-20260925-2K-R1/checkpoints/step_000002000.pt",
+    "vector": "/data/zhangbenzhuang/huawei_sr/runs/SS928-NIGHT-NINE-SPEED-20260925/TRIMMED-TEST-VECTORS/special_frame_60.npz",
+    "sha256": "dcf00c4b3e74433718dba0fcebe6b52c553db9e41758ed580eea916aa90208ea",
+    "bytes": 44303166,
+    "inputs": {
+      "nine_raw": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "reference_thumb": [
+        1,
+        1,
+        64,
+        64
+      ]
+    },
+    "output": {
+      "display_uint8": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "dtype": "uint8"
+    },
+    "protocol": "Independent test scene; complete original RAW field; current per-frame normalization and correction applied before model; reference thumbnail from original RAW with matching normalization."
+  }
+}

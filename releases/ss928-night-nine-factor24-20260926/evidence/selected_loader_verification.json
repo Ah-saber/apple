@@ -1,0 +1,24 @@
+{
+  "ordinary": {
+    "exact_weights": true,
+    "full_source_output_identical": true,
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "dtype": "torch.uint8"
+  },
+  "special": {
+    "exact_weights": true,
+    "full_source_output_identical": true,
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "dtype": "torch.uint8"
+  }
+}

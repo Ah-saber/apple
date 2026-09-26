@@ -1,0 +1,613 @@
+{
+  "scene": "night_special",
+  "frames": 120,
+  "full_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "bit_identical": true,
+  "differences": [
+    {
+      "frame": 0,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 1,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 2,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 3,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 4,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 5,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 6,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 7,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 8,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 9,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 10,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 11,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 12,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 13,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 14,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 15,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 16,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 17,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 18,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 19,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 20,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 21,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 22,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 23,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 24,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 25,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 26,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 27,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 28,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 29,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 30,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 31,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 32,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 33,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 34,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 35,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 36,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 37,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 38,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 39,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 40,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 41,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 42,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 43,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 44,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 45,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 46,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 47,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 48,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 49,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 50,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 51,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 52,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 53,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 54,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 55,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 56,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 57,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 58,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 59,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 60,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 61,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 62,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 63,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 64,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 65,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 66,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 67,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 68,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 69,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 70,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 71,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 72,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 73,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 74,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 75,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 76,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 77,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 78,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 79,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 80,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 81,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 82,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 83,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 84,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 85,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 86,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 87,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 88,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 89,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 90,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 91,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 92,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 93,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 94,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 95,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 96,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 97,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 98,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 99,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 100,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 101,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 102,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 103,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 104,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 105,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 106,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 107,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 108,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 109,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 110,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 111,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 112,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 113,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 114,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 115,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 116,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 117,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 118,
+      "max_gray": 0,
+      "changed_pixels": 0
+    },
+    {
+      "frame": 119,
+      "max_gray": 0,
+      "changed_pixels": 0
+    }
+  ]
+}

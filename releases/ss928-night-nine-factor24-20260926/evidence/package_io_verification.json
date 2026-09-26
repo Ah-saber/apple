@@ -1,0 +1,74 @@
+{
+  "ordinary_float16": {
+    "scene": "ordinary",
+    "input_precision": "float16",
+    "reference_runtime": "source",
+    "pixels": 11796480,
+    "mean_abs_gray": 0.0,
+    "p99_abs_gray": 0.0,
+    "max_abs_gray": 0,
+    "fraction_over_1_gray": 0.0,
+    "max_difference_output_yx": [
+      0,
+      0
+    ],
+    "max_difference_raw_yx": [
+      0,
+      0
+    ]
+  },
+  "special_float16": {
+    "scene": "special",
+    "input_precision": "float16",
+    "reference_runtime": "source",
+    "pixels": 11796480,
+    "mean_abs_gray": 0.0,
+    "p99_abs_gray": 0.0,
+    "max_abs_gray": 0,
+    "fraction_over_1_gray": 0.0,
+    "max_difference_output_yx": [
+      0,
+      0
+    ],
+    "max_difference_raw_yx": [
+      0,
+      0
+    ]
+  },
+  "ordinary_float32": {
+    "scene": "ordinary",
+    "input_precision": "float32",
+    "reference_runtime": "source",
+    "pixels": 11796480,
+    "mean_abs_gray": 0.0,
+    "p99_abs_gray": 0.0,
+    "max_abs_gray": 0,
+    "fraction_over_1_gray": 0.0,
+    "max_difference_output_yx": [
+      0,
+      0
+    ],
+    "max_difference_raw_yx": [
+      0,
+      0
+    ]
+  },
+  "special_float32": {
+    "scene": "special",
+    "input_precision": "float32",
+    "reference_runtime": "source",
+    "pixels": 11796480,
+    "mean_abs_gray": 0.0,
+    "p99_abs_gray": 0.0,
+    "max_abs_gray": 0,
+    "fraction_over_1_gray": 0.0,
+    "max_difference_output_yx": [
+      0,
+      0
+    ],
+    "max_difference_raw_yx": [
+      0,
+      0
+    ]
+  }
+}

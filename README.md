@@ -1,3 +1,7 @@
+# 最新夜间九帧提速候选
+
+2026-09-26 最新候选位于 [releases/ss928-night-nine-factor24-20260926/](releases/ss928-night-nine-factor24-20260926/README.md)。包含两类夜间整图 ONNX、运行权重、预处理、真实输入、当前参考输出、完整视频和测速证据。SS928 兼容性与 16.7 毫秒目标尚待部署端验证。
+
 # 最新四组提速模型
 
 2026-09-24部署候选位于 [releases/ss928-b2-20260924/](releases/ss928-b2-20260924/README.md)。包含白天、轻中度、重度、夜间ONNX与交接说明。可直接下载 [四组独立部署压缩包](packages/SS928-B2-FOUR-SCENES-DEPLOY-20260924-v2.zip)（约11.3MB），并用同目录.sha256校验。以下旧S03包完整保留供对照。
