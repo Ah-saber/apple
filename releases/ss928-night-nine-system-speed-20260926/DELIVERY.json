@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/Ah-saber/apple.git",
+  "branch": "codex/ss928-night-nine-factor24-20260926",
+  "base_commit": "799b9cfc4c4893d339b65e54b9b3d72fa7a2b8cd",
+  "release_type": "model-wide source candidates; board compile/profile required",
+  "target_NPU_ms": 16.7,
+  "NPU_target_achieved": false,
+  "NPU_new_measured": false,
+  "dependency": "../ss928-night-nine-packed-front-20260926",
+  "primary": "balanced_low_rows16_nhwc16_half",
+  "full_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "full_video_frames": {
+    "ordinary": 60,
+    "special": 120
+  },
+  "known_weak_window46_response_relative_change": -0.0535
+}

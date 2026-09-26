@@ -1,0 +1,29 @@
+{
+  "controls": [
+    {
+      "groups": 2,
+      "bitexact_to_original_rounded_FP16": true,
+      "max_difference_from_FP32_gray": 0.0625,
+      "mean_difference_from_FP32_gray": 0.014817532007496251
+    },
+    {
+      "groups": 4,
+      "bitexact_to_original_rounded_FP16": true,
+      "max_difference_from_FP32_gray": 0.0625,
+      "mean_difference_from_FP32_gray": 0.014817532007496251
+    },
+    {
+      "groups": 8,
+      "bitexact_to_original_rounded_FP16": true,
+      "max_difference_from_FP32_gray": 0.0625,
+      "mean_difference_from_FP32_gray": 0.014817532007496251
+    },
+    {
+      "groups": 16,
+      "bitexact_to_original_rounded_FP16": true,
+      "max_difference_from_FP32_gray": 0.0625,
+      "mean_difference_from_FP32_gray": 0.014817532007496251
+    }
+  ],
+  "NPU_verified": false
+}

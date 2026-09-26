@@ -1,0 +1,262 @@
+{
+  "controls": [
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "DCR",
+      "groups": 2,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "DCR",
+      "groups": 4,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "DCR",
+      "groups": 8,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "DCR",
+      "groups": 16,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "CRD",
+      "groups": 2,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "CRD",
+      "groups": 4,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "CRD",
+      "groups": 8,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "CRD",
+      "groups": 16,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "DCR",
+      "groups": 2,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "DCR",
+      "groups": 4,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "DCR",
+      "groups": 8,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "DCR",
+      "groups": 16,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "CRD",
+      "groups": 2,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "CRD",
+      "groups": 4,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "CRD",
+      "groups": 8,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "CRD",
+      "groups": 16,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "DCR",
+      "groups": 2,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "DCR",
+      "groups": 4,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "DCR",
+      "groups": 8,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "DCR",
+      "groups": 16,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "CRD",
+      "groups": 2,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "CRD",
+      "groups": 4,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "CRD",
+      "groups": 8,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 32,
+      "W": 48,
+      "old_mode": "CRD",
+      "groups": 16,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "DCR",
+      "groups": 2,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "DCR",
+      "groups": 4,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "DCR",
+      "groups": 8,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "DCR",
+      "groups": 16,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "CRD",
+      "groups": 2,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "CRD",
+      "groups": 4,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "CRD",
+      "groups": 8,
+      "max_error": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "H": 48,
+      "W": 64,
+      "old_mode": "CRD",
+      "groups": 16,
+      "max_error": 0.0
+    }
+  ],
+  "independent_interpreter": true,
+  "NPU_verified": false
+}

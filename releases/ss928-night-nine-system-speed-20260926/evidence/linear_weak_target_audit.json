@@ -1,0 +1,67 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "base": {
+          "window_mae_gray": 7.5559892654418945,
+          "weak_temporal_response_projection": 0.36228320002555847,
+          "weak_temporal_residual_mae_gray": 1.596347451210022
+        },
+        "linear_k2": {
+          "window_mae_gray": 7.615017414093018,
+          "weak_temporal_response_projection": 0.34254521131515503,
+          "weak_temporal_residual_mae_gray": 1.5829529762268066
+        },
+        "linear_k2_low_rows16_nhwc16_half": {
+          "window_mae_gray": 7.623480796813965,
+          "weak_temporal_response_projection": 0.34619879722595215,
+          "weak_temporal_residual_mae_gray": 1.5843228101730347
+        },
+        "balanced_low_rows16_nhwc16_half": {
+          "window_mae_gray": 7.543402671813965,
+          "weak_temporal_response_projection": 0.34288716316223145,
+          "weak_temporal_residual_mae_gray": 1.6059362888336182
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "base": {
+          "window_mae_gray": 3.293511390686035,
+          "weak_temporal_response_projection": 0.54133141040802,
+          "weak_temporal_residual_mae_gray": 1.3146083354949951
+        },
+        "linear_k2": {
+          "window_mae_gray": 3.1941189765930176,
+          "weak_temporal_response_projection": 0.46662282943725586,
+          "weak_temporal_residual_mae_gray": 1.3475699424743652
+        },
+        "linear_k2_low_rows16_nhwc16_half": {
+          "window_mae_gray": 3.189344644546509,
+          "weak_temporal_response_projection": 0.4664022624492645,
+          "weak_temporal_residual_mae_gray": 1.352986454963684
+        },
+        "balanced_low_rows16_nhwc16_half": {
+          "window_mae_gray": 3.3004558086395264,
+          "weak_temporal_response_projection": 0.5651318430900574,
+          "weak_temporal_residual_mae_gray": 1.3183231353759766
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}

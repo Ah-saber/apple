@@ -1,0 +1,30 @@
+{
+  "controls": [
+    {
+      "scene": "ordinary",
+      "case": 0,
+      "activations": 5,
+      "max_difference": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "case": 1,
+      "activations": 5,
+      "max_difference": 0.0
+    },
+    {
+      "scene": "special",
+      "case": 0,
+      "activations": 2,
+      "max_difference": 0.0
+    },
+    {
+      "scene": "special",
+      "case": 1,
+      "activations": 2,
+      "max_difference": 0.0
+    }
+  ],
+  "actual_native_r2_available": false,
+  "NPU_verified": false
+}

@@ -1,0 +1,25 @@
+{
+  "scene": "ordinary",
+  "variant": "balanced_low_rows16_nhwc16_half",
+  "count": 60,
+  "fps": 12,
+  "video_shape": [
+    1080,
+    5120
+  ],
+  "each_panel_sensor_shape": [
+    1024,
+    1280
+  ],
+  "model_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "video_downsample": "rounded full 3x output averaged in 3x3 cells; no crop",
+  "packed_half_scale_bitexact_to_output_half_all_frames": true,
+  "source_execution": true,
+  "NPU_verified": false,
+  "mean_full_rawgrid_difference_gray": 0.14851871530214947
+}

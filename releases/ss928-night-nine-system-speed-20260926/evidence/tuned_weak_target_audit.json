@@ -1,0 +1,77 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "base": {
+          "window_mae_gray": 7.5559892654418945,
+          "weak_temporal_response_projection": 0.36228320002555847,
+          "weak_temporal_residual_mae_gray": 1.596347451210022
+        },
+        "balanced": {
+          "window_mae_gray": 7.54090690612793,
+          "weak_temporal_response_projection": 0.3408370018005371,
+          "weak_temporal_residual_mae_gray": 1.605175256729126
+        },
+        "balanced_tuned": {
+          "window_mae_gray": 7.54090690612793,
+          "weak_temporal_response_projection": 0.33598792552948,
+          "weak_temporal_residual_mae_gray": 1.59817373752594
+        },
+        "balanced_tuned_sigref": {
+          "window_mae_gray": 7.449001789093018,
+          "weak_temporal_response_projection": 0.3384847044944763,
+          "weak_temporal_residual_mae_gray": 1.5911718606948853
+        },
+        "balanced_tuned_low_rows16_nhwc16_half": {
+          "window_mae_gray": 7.545681476593018,
+          "weak_temporal_response_projection": 0.3394705653190613,
+          "weak_temporal_residual_mae_gray": 1.5952816009521484
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "base": {
+          "window_mae_gray": 3.293511390686035,
+          "weak_temporal_response_projection": 0.54133141040802,
+          "weak_temporal_residual_mae_gray": 1.3146083354949951
+        },
+        "balanced": {
+          "window_mae_gray": 3.3056640625,
+          "weak_temporal_response_projection": 0.5662136673927307,
+          "weak_temporal_residual_mae_gray": 1.3198704719543457
+        },
+        "balanced_tuned": {
+          "window_mae_gray": 3.3033854961395264,
+          "weak_temporal_response_projection": 0.5675961375236511,
+          "weak_temporal_residual_mae_gray": 1.314454197883606
+        },
+        "balanced_tuned_sigref": {
+          "window_mae_gray": 3.262152910232544,
+          "weak_temporal_response_projection": 0.562727689743042,
+          "weak_temporal_residual_mae_gray": 1.3274527788162231
+        },
+        "balanced_tuned_low_rows16_nhwc16_half": {
+          "window_mae_gray": 3.2958984375,
+          "weak_temporal_response_projection": 0.5698202848434448,
+          "weak_temporal_residual_mae_gray": 1.3167753219604492
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}

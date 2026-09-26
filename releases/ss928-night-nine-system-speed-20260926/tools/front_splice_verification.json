@@ -1,0 +1,62 @@
+{
+  "controls": [
+    {
+      "scene": "ordinary",
+      "front": "balanced",
+      "NHWC_FP16": false,
+      "splice_bitexact": true,
+      "row_scale_bitexact_to_rounded_half": true
+    },
+    {
+      "scene": "ordinary",
+      "front": "balanced",
+      "NHWC_FP16": true,
+      "splice_bitexact": true,
+      "row_scale_bitexact_to_rounded_half": true
+    },
+    {
+      "scene": "ordinary",
+      "front": "contrast",
+      "NHWC_FP16": false,
+      "splice_bitexact": true,
+      "row_scale_bitexact_to_rounded_half": true
+    },
+    {
+      "scene": "ordinary",
+      "front": "contrast",
+      "NHWC_FP16": true,
+      "splice_bitexact": true,
+      "row_scale_bitexact_to_rounded_half": true
+    },
+    {
+      "scene": "special",
+      "front": "balanced",
+      "NHWC_FP16": false,
+      "splice_bitexact": true,
+      "row_scale_bitexact_to_rounded_half": true
+    },
+    {
+      "scene": "special",
+      "front": "balanced",
+      "NHWC_FP16": true,
+      "splice_bitexact": true,
+      "row_scale_bitexact_to_rounded_half": true
+    },
+    {
+      "scene": "special",
+      "front": "contrast",
+      "NHWC_FP16": false,
+      "splice_bitexact": true,
+      "row_scale_bitexact_to_rounded_half": true
+    },
+    {
+      "scene": "special",
+      "front": "contrast",
+      "NHWC_FP16": true,
+      "splice_bitexact": true,
+      "row_scale_bitexact_to_rounded_half": true
+    }
+  ],
+  "actual_native_r2_available": false,
+  "NPU_verified": false
+}

@@ -1,0 +1,279 @@
+{
+  "train_samples": [
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frame_pair": [
+        0,
+        0
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000005@train",
+      "frame_pair": [
+        4,
+        5
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000011@train",
+      "frame_pair": [
+        10,
+        11
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frame_pair": [
+        16,
+        17
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000023@train",
+      "frame_pair": [
+        22,
+        23
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000028@train",
+      "frame_pair": [
+        27,
+        28
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000034@train",
+      "frame_pair": [
+        33,
+        34
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frame_pair": [
+        39,
+        40
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000046@train",
+      "frame_pair": [
+        45,
+        46
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000051@train",
+      "frame_pair": [
+        50,
+        51
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000057@train",
+      "frame_pair": [
+        56,
+        57
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frame_pair": [
+        2,
+        3
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000009@train",
+      "frame_pair": [
+        8,
+        9
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frame_pair": [
+        14,
+        15
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000020@train",
+      "frame_pair": [
+        19,
+        20
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frame_pair": [
+        25,
+        26
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000032@train",
+      "frame_pair": [
+        31,
+        32
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000038@train",
+      "frame_pair": [
+        37,
+        38
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000043@train",
+      "frame_pair": [
+        42,
+        43
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frame_pair": [
+        48,
+        49
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000055@train",
+      "frame_pair": [
+        54,
+        55
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000001@train",
+      "frame_pair": [
+        0,
+        1
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000007@train",
+      "frame_pair": [
+        6,
+        7
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frame_pair": [
+        11,
+        12
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000018@train",
+      "frame_pair": [
+        17,
+        18
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000024@train",
+      "frame_pair": [
+        23,
+        24
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frame_pair": [
+        29,
+        30
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frame_pair": [
+        34,
+        35
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000041@train",
+      "frame_pair": [
+        40,
+        41
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000047@train",
+      "frame_pair": [
+        46,
+        47
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000053@train",
+      "frame_pair": [
+        52,
+        53
+      ],
+      "split": "train"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000059@train",
+      "frame_pair": [
+        58,
+        59
+      ],
+      "split": "train"
+    }
+  ],
+  "GT_used": false,
+  "records": {
+    "1e-06": {
+      "fit_feature_mae": 0.003974005181472543,
+      "weight_norm": 2.3803036212921143,
+      "prior_weight_norm": 1.9963151216506958
+    },
+    "0.0001": {
+      "fit_feature_mae": 0.00397400236138223,
+      "weight_norm": 2.379747152328491,
+      "prior_weight_norm": 1.9963151216506958
+    },
+    "0.01": {
+      "fit_feature_mae": 0.003973823548871996,
+      "weight_norm": 2.3281707763671875,
+      "prior_weight_norm": 1.9963151216506958
+    }
+  },
+  "method": "last Conv3 + global mean exact linear least squares; pair temporal residuals; no new inference operators"
+}

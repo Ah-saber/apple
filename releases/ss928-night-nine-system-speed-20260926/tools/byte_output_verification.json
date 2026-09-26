@@ -1,0 +1,12 @@
+{
+  "source_graph": "ordinary_base_small.onnx",
+  "shape": [
+    1,
+    1,
+    192,
+    288
+  ],
+  "dtype": "uint8",
+  "byte_matches_rounded_half": true,
+  "NPU_verified": false
+}

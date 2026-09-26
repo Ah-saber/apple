@@ -1,0 +1,1184 @@
+{
+  "ordinary_balanced.onnx": {
+    "nodes": 145,
+    "operators": {
+      "Cast": 9,
+      "Conv": 19,
+      "Constant": 49,
+      "Slice": 7,
+      "Sub": 2,
+      "Mul": 14,
+      "Concat": 5,
+      "Relu": 5,
+      "Add": 11,
+      "Div": 5,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "ReduceMean": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_sigref.onnx": {
+    "nodes": 135,
+    "operators": {
+      "Constant": 35,
+      "Slice": 6,
+      "Cast": 8,
+      "ReduceMean": 2,
+      "Sub": 1,
+      "Mul": 12,
+      "Concat": 5,
+      "Conv": 23,
+      "Relu": 10,
+      "Add": 11,
+      "ConvTranspose": 1,
+      "Reshape": 2,
+      "Transpose": 1,
+      "Sigmoid": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_contrast_rows16.onnx": {
+    "nodes": 81,
+    "operators": {
+      "Cast": 7,
+      "Conv": 13,
+      "Constant": 26,
+      "Slice": 3,
+      "Div": 3,
+      "Concat": 2,
+      "Relu": 5,
+      "Mul": 6,
+      "Add": 5,
+      "Erf": 2,
+      "ReduceMean": 1,
+      "Shape": 1,
+      "Resize": 1,
+      "Reshape": 3,
+      "Transpose": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_balanced_rows16.onnx": {
+    "nodes": 152,
+    "operators": {
+      "Cast": 9,
+      "Conv": 19,
+      "Constant": 52,
+      "Slice": 7,
+      "Sub": 2,
+      "Mul": 14,
+      "Concat": 5,
+      "Relu": 5,
+      "Add": 11,
+      "Div": 5,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "ReduceMean": 1,
+      "Reshape": 3,
+      "Transpose": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_contrast.onnx": {
+    "nodes": 134,
+    "operators": {
+      "Cast": 7,
+      "Conv": 19,
+      "Constant": 44,
+      "Slice": 6,
+      "Div": 6,
+      "Concat": 5,
+      "Relu": 5,
+      "Mul": 12,
+      "Add": 11,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "ReduceMean": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_contrast.onnx": {
+    "nodes": 74,
+    "operators": {
+      "Cast": 7,
+      "Conv": 13,
+      "Constant": 23,
+      "Slice": 3,
+      "Div": 3,
+      "Concat": 2,
+      "Relu": 5,
+      "Mul": 6,
+      "Add": 5,
+      "Erf": 2,
+      "ReduceMean": 1,
+      "Shape": 1,
+      "Resize": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_contrast_low_rows16_nhwc16_half.onnx": {
+    "nodes": 141,
+    "operators": {
+      "Transpose": 2,
+      "Cast": 6,
+      "Conv": 19,
+      "Constant": 47,
+      "Slice": 6,
+      "Div": 6,
+      "Concat": 5,
+      "Relu": 5,
+      "Mul": 12,
+      "Add": 11,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "ReduceMean": 1,
+      "Clip": 1,
+      "Reshape": 3,
+      "DepthToSpace": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          1024,
+          1280,
+          9
+        ],
+        "dtype": "FLOAT16"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT16"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_base_rows16.onnx": {
+    "nodes": 112,
+    "operators": {
+      "Constant": 32,
+      "Slice": 3,
+      "Cast": 8,
+      "ReduceMean": 2,
+      "Sub": 1,
+      "Mul": 11,
+      "Concat": 2,
+      "Conv": 17,
+      "Relu": 10,
+      "Add": 10,
+      "ConvTranspose": 1,
+      "Reshape": 5,
+      "Transpose": 2,
+      "Div": 2,
+      "Erf": 2,
+      "Shape": 1,
+      "Resize": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_balanced_low_rows16_nhwc16_half.onnx": {
+    "nodes": 152,
+    "operators": {
+      "Transpose": 2,
+      "Cast": 8,
+      "Conv": 19,
+      "Constant": 52,
+      "Slice": 7,
+      "Sub": 2,
+      "Mul": 14,
+      "Concat": 5,
+      "Relu": 5,
+      "Add": 11,
+      "Div": 5,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "ReduceMean": 1,
+      "Clip": 1,
+      "Reshape": 3,
+      "DepthToSpace": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          1024,
+          1280,
+          9
+        ],
+        "dtype": "FLOAT16"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT16"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_balanced_low_rows16_nhwc16_half.onnx": {
+    "nodes": 92,
+    "operators": {
+      "Transpose": 2,
+      "Cast": 8,
+      "Conv": 13,
+      "Constant": 31,
+      "Slice": 4,
+      "Sub": 2,
+      "Mul": 8,
+      "Concat": 2,
+      "Relu": 5,
+      "Add": 5,
+      "Div": 2,
+      "Erf": 2,
+      "ReduceMean": 1,
+      "Shape": 1,
+      "Resize": 1,
+      "Clip": 1,
+      "Reshape": 3,
+      "DepthToSpace": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          1024,
+          1280,
+          9
+        ],
+        "dtype": "FLOAT16"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT16"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_base_rows16.onnx": {
+    "nodes": 172,
+    "operators": {
+      "Constant": 53,
+      "Slice": 6,
+      "Cast": 8,
+      "ReduceMean": 2,
+      "Sub": 1,
+      "Mul": 17,
+      "Concat": 5,
+      "Conv": 23,
+      "Relu": 10,
+      "Add": 16,
+      "ConvTranspose": 1,
+      "Reshape": 5,
+      "Transpose": 2,
+      "Div": 5,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_base.onnx": {
+    "nodes": 165,
+    "operators": {
+      "Constant": 50,
+      "Slice": 6,
+      "Cast": 8,
+      "ReduceMean": 2,
+      "Sub": 1,
+      "Mul": 17,
+      "Concat": 5,
+      "Conv": 23,
+      "Relu": 10,
+      "Add": 16,
+      "ConvTranspose": 1,
+      "Reshape": 2,
+      "Transpose": 1,
+      "Div": 5,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_base.onnx": {
+    "nodes": 105,
+    "operators": {
+      "Constant": 29,
+      "Slice": 3,
+      "Cast": 8,
+      "ReduceMean": 2,
+      "Sub": 1,
+      "Mul": 11,
+      "Concat": 2,
+      "Conv": 17,
+      "Relu": 10,
+      "Add": 10,
+      "ConvTranspose": 1,
+      "Reshape": 2,
+      "Transpose": 1,
+      "Div": 2,
+      "Erf": 2,
+      "Shape": 1,
+      "Resize": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_sigref.onnx": {
+    "nodes": 93,
+    "operators": {
+      "Constant": 23,
+      "Slice": 3,
+      "Cast": 8,
+      "ReduceMean": 2,
+      "Sub": 1,
+      "Mul": 9,
+      "Concat": 2,
+      "Conv": 17,
+      "Relu": 10,
+      "Add": 8,
+      "ConvTranspose": 1,
+      "Reshape": 2,
+      "Transpose": 1,
+      "Sigmoid": 2,
+      "Shape": 1,
+      "Resize": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_balanced_low_rows16_nhwc16_byte.onnx": {
+    "nodes": 94,
+    "operators": {
+      "Transpose": 2,
+      "Cast": 9,
+      "Conv": 13,
+      "Constant": 31,
+      "Slice": 4,
+      "Sub": 2,
+      "Mul": 8,
+      "Concat": 2,
+      "Relu": 5,
+      "Add": 5,
+      "Div": 2,
+      "Erf": 2,
+      "ReduceMean": 1,
+      "Shape": 1,
+      "Resize": 1,
+      "Clip": 1,
+      "Reshape": 3,
+      "DepthToSpace": 1,
+      "Round": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          1024,
+          1280,
+          9
+        ],
+        "dtype": "FLOAT16"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "UINT8"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_contrast_rows16.onnx": {
+    "nodes": 141,
+    "operators": {
+      "Cast": 7,
+      "Conv": 19,
+      "Constant": 47,
+      "Slice": 6,
+      "Div": 6,
+      "Concat": 5,
+      "Relu": 5,
+      "Mul": 12,
+      "Add": 11,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "ReduceMean": 1,
+      "Reshape": 3,
+      "Transpose": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "ordinary_balanced_low_rows16_nhwc16_byte.onnx": {
+    "nodes": 154,
+    "operators": {
+      "Transpose": 2,
+      "Cast": 9,
+      "Conv": 19,
+      "Constant": 52,
+      "Slice": 7,
+      "Sub": 2,
+      "Mul": 14,
+      "Concat": 5,
+      "Relu": 5,
+      "Add": 11,
+      "Div": 5,
+      "Erf": 5,
+      "AveragePool": 3,
+      "Shape": 4,
+      "Resize": 4,
+      "ReduceMean": 1,
+      "Clip": 1,
+      "Reshape": 3,
+      "DepthToSpace": 1,
+      "Round": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          1024,
+          1280,
+          9
+        ],
+        "dtype": "FLOAT16"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "UINT8"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_balanced_rows16.onnx": {
+    "nodes": 92,
+    "operators": {
+      "Cast": 9,
+      "Conv": 13,
+      "Constant": 31,
+      "Slice": 4,
+      "Sub": 2,
+      "Mul": 8,
+      "Concat": 2,
+      "Relu": 5,
+      "Add": 5,
+      "Div": 2,
+      "Erf": 2,
+      "ReduceMean": 1,
+      "Shape": 1,
+      "Resize": 1,
+      "Reshape": 3,
+      "Transpose": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_balanced.onnx": {
+    "nodes": 85,
+    "operators": {
+      "Cast": 9,
+      "Conv": 13,
+      "Constant": 28,
+      "Slice": 4,
+      "Sub": 2,
+      "Mul": 8,
+      "Concat": 2,
+      "Relu": 5,
+      "Add": 5,
+      "Div": 2,
+      "Erf": 2,
+      "ReduceMean": 1,
+      "Shape": 1,
+      "Resize": 1,
+      "DepthToSpace": 1,
+      "Clip": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "dtype": "FLOAT"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  },
+  "special_contrast_low_rows16_nhwc16_half.onnx": {
+    "nodes": 81,
+    "operators": {
+      "Transpose": 2,
+      "Cast": 6,
+      "Conv": 13,
+      "Constant": 26,
+      "Slice": 3,
+      "Div": 3,
+      "Concat": 2,
+      "Relu": 5,
+      "Mul": 6,
+      "Add": 5,
+      "Erf": 2,
+      "ReduceMean": 1,
+      "Shape": 1,
+      "Resize": 1,
+      "Clip": 1,
+      "Reshape": 3,
+      "DepthToSpace": 1
+    },
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "shape": [
+          1,
+          1024,
+          1280,
+          9
+        ],
+        "dtype": "FLOAT16"
+      },
+      {
+        "name": "reference_thumb",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ],
+        "dtype": "FLOAT"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "dtype": "FLOAT16"
+      }
+    ],
+    "checker_passed": true,
+    "NPU_verified": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "controls": [
+    {
+      "scene": "ordinary",
+      "all_state_tensors_bitexact": true,
+      "same_process_model_max_error": 0.0,
+      "independent_run_vs_export_max_error_gray": 0.1875,
+      "independent_run_vs_export_mean_error_gray": 7.126927084755152e-05,
+      "rounded_byte_max_error": 1.0,
+      "rounded_byte_changed_fraction": 6.976657443576388e-05,
+      "separate_run_bitexact": false
+    },
+    {
+      "scene": "special",
+      "all_state_tensors_bitexact": true,
+      "same_process_model_max_error": 0.0,
+      "independent_run_vs_export_max_error_gray": 0.25,
+      "independent_run_vs_export_mean_error_gray": 4.922487278236076e-06,
+      "rounded_byte_max_error": 1.0,
+      "rounded_byte_changed_fraction": 4.916720920138889e-06,
+      "separate_run_bitexact": false
+    }
+  ],
+  "GPU": "RTX5090",
+  "TF32": false,
+  "source_only": true,
+  "independent_half_accumulation_difference_recorded": true,
+  "NPU_verified": false
+}

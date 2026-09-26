@@ -1,0 +1,119 @@
+{
+  "assumed_quantizers_only": true,
+  "SDK_quantizer_known": false,
+  "NPU_verified": false,
+  "controls": [
+    {
+      "weights": "old6_equal",
+      "max_integer": 127,
+      "scope": "all_stats_max1",
+      "quantized_gain_constant_signal": 0.9921259842519683,
+      "difference_after_x64_at_raw_0.5": 0.25196850393701453
+    },
+    {
+      "weights": "old6_equal",
+      "max_integer": 127,
+      "scope": "per_output",
+      "quantized_gain_constant_signal": 0.999755859375,
+      "difference_after_x64_at_raw_0.5": 0.0078125
+    },
+    {
+      "weights": "old6_equal",
+      "max_integer": 255,
+      "scope": "all_stats_max1",
+      "quantized_gain_constant_signal": 0.988235294117647,
+      "difference_after_x64_at_raw_0.5": 0.37647058823529633
+    },
+    {
+      "weights": "old6_equal",
+      "max_integer": 255,
+      "scope": "per_output",
+      "quantized_gain_constant_signal": 0.999755859375,
+      "difference_after_x64_at_raw_0.5": 0.0078125
+    },
+    {
+      "weights": "old6_balanced",
+      "max_integer": 127,
+      "scope": "all_stats_max1",
+      "quantized_gain_constant_signal": 0.9999999999999999,
+      "difference_after_x64_at_raw_0.5": 3.552713678800501e-15
+    },
+    {
+      "weights": "old6_balanced",
+      "max_integer": 127,
+      "scope": "per_output",
+      "quantized_gain_constant_signal": 0.9999548243725394,
+      "difference_after_x64_at_raw_0.5": 0.001445620078740717
+    },
+    {
+      "weights": "old6_balanced",
+      "max_integer": 255,
+      "scope": "all_stats_max1",
+      "quantized_gain_constant_signal": 1.0,
+      "difference_after_x64_at_raw_0.5": 0.0
+    },
+    {
+      "weights": "old6_balanced",
+      "max_integer": 255,
+      "scope": "per_output",
+      "quantized_gain_constant_signal": 1.0001436121323528,
+      "difference_after_x64_at_raw_0.5": -0.004595588235289938
+    },
+    {
+      "weights": "recent3_equal",
+      "max_integer": 127,
+      "scope": "all_stats_max1",
+      "quantized_gain_constant_signal": 0.9921259842519684,
+      "difference_after_x64_at_raw_0.5": 0.251968503937011
+    },
+    {
+      "weights": "recent3_equal",
+      "max_integer": 127,
+      "scope": "per_output",
+      "quantized_gain_constant_signal": 0.999755859375,
+      "difference_after_x64_at_raw_0.5": 0.0078125
+    },
+    {
+      "weights": "recent3_equal",
+      "max_integer": 255,
+      "scope": "all_stats_max1",
+      "quantized_gain_constant_signal": 1.0,
+      "difference_after_x64_at_raw_0.5": 0.0
+    },
+    {
+      "weights": "recent3_equal",
+      "max_integer": 255,
+      "scope": "per_output",
+      "quantized_gain_constant_signal": 0.999755859375,
+      "difference_after_x64_at_raw_0.5": 0.0078125
+    },
+    {
+      "weights": "recent3_balanced",
+      "max_integer": 127,
+      "scope": "all_stats_max1",
+      "quantized_gain_constant_signal": 1.0,
+      "difference_after_x64_at_raw_0.5": 0.0
+    },
+    {
+      "weights": "recent3_balanced",
+      "max_integer": 127,
+      "scope": "per_output",
+      "quantized_gain_constant_signal": 1.0002748984990157,
+      "difference_after_x64_at_raw_0.5": -0.008796751968503713
+    },
+    {
+      "weights": "recent3_balanced",
+      "max_integer": 255,
+      "scope": "all_stats_max1",
+      "quantized_gain_constant_signal": 1.0,
+      "difference_after_x64_at_raw_0.5": 0.0
+    },
+    {
+      "weights": "recent3_balanced",
+      "max_integer": 255,
+      "scope": "per_output",
+      "quantized_gain_constant_signal": 1.0003590303308822,
+      "difference_after_x64_at_raw_0.5": -0.01148897058823195
+    }
+  ]
+}
