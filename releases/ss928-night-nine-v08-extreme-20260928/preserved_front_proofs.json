@@ -1,0 +1,247 @@
+{
+  "seed": 2807,
+  "checks": [
+    {
+      "scene": "ordinary",
+      "kind": "raw",
+      "kernel": 6,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 4.440892098500626e-16
+    },
+    {
+      "scene": "ordinary",
+      "kind": "raw",
+      "kernel": 7,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 4.440892098500626e-16
+    },
+    {
+      "scene": "ordinary",
+      "kind": "mean",
+      "kernel": 6,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 4.440892098500626e-16
+    },
+    {
+      "scene": "ordinary",
+      "kind": "mean",
+      "kernel": 7,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 4.440892098500626e-16
+    },
+    {
+      "scene": "ordinary",
+      "kind": "sum",
+      "kernel": 6,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 4.440892098500626e-16
+    },
+    {
+      "scene": "ordinary",
+      "kind": "sum",
+      "kernel": 7,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 4.440892098500626e-16
+    },
+    {
+      "scene": "ordinary",
+      "kind": "raw",
+      "kernel": 6,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 8.881784197001252e-16
+    },
+    {
+      "scene": "ordinary",
+      "kind": "raw",
+      "kernel": 7,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.1102230246251565e-15
+    },
+    {
+      "scene": "ordinary",
+      "kind": "mean",
+      "kernel": 6,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.1102230246251565e-15
+    },
+    {
+      "scene": "ordinary",
+      "kind": "mean",
+      "kernel": 7,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.1102230246251565e-15
+    },
+    {
+      "scene": "ordinary",
+      "kind": "sum",
+      "kernel": 6,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.1102230246251565e-15
+    },
+    {
+      "scene": "ordinary",
+      "kind": "sum",
+      "kernel": 7,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.1102230246251565e-15
+    },
+    {
+      "scene": "special",
+      "kind": "raw",
+      "kernel": 6,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 6.661338147750939e-16
+    },
+    {
+      "scene": "special",
+      "kind": "raw",
+      "kernel": 7,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 6.661338147750939e-16
+    },
+    {
+      "scene": "special",
+      "kind": "mean",
+      "kernel": 6,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 6.661338147750939e-16
+    },
+    {
+      "scene": "special",
+      "kind": "mean",
+      "kernel": 7,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 6.661338147750939e-16
+    },
+    {
+      "scene": "special",
+      "kind": "sum",
+      "kernel": 6,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 6.661338147750939e-16
+    },
+    {
+      "scene": "special",
+      "kind": "sum",
+      "kernel": 7,
+      "shape": [
+        8,
+        12
+      ],
+      "all_pixels_float64_max_abs": 6.661338147750939e-16
+    },
+    {
+      "scene": "special",
+      "kind": "raw",
+      "kernel": 6,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.3322676295501878e-15
+    },
+    {
+      "scene": "special",
+      "kind": "raw",
+      "kernel": 7,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.3322676295501878e-15
+    },
+    {
+      "scene": "special",
+      "kind": "mean",
+      "kernel": 6,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.3322676295501878e-15
+    },
+    {
+      "scene": "special",
+      "kind": "mean",
+      "kernel": 7,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.3322676295501878e-15
+    },
+    {
+      "scene": "special",
+      "kind": "sum",
+      "kernel": 6,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.3322676295501878e-15
+    },
+    {
+      "scene": "special",
+      "kind": "sum",
+      "kernel": 7,
+      "shape": [
+        32,
+        48
+      ],
+      "all_pixels_float64_max_abs": 1.3322676295501878e-15
+    }
+  ],
+  "mathematical_equality_only_not_Half_bit_equality": true,
+  "SDK_verified": false
+}

@@ -1,0 +1,4 @@
+SEARCH special quarter_w32_3x3_body1_gtweak_refsplit {'sweep': 0, 'accepted': 8, 'score': 3.89745557308197}
+SEARCH special quarter_w32_3x3_body1_gtweak_refsplit {'sweep': 1, 'accepted': 4, 'score': 3.8928955793380737}
+SEARCH special quarter_w32_3x3_body1_gtweak_refsplit {'sweep': 2, 'accepted': 3, 'score': 3.8636884689331055}
+FINISHED special_cal_quarter_w32_3x3_body1_gtweak_refsplit {'float_mae_gray': 0.0, 'weight8_per_output_loss': 2.2680423259735107, 'weight8_per_tensor_loss': 2.819748878479004} {'float_mae_gray': 0.0, 'weight8_per_output_loss': 2.165944814682007, 'weight8_per_tensor_loss': 2.657761812210083}

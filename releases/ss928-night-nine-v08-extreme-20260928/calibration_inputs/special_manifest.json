@@ -1,0 +1,109 @@
+{
+  "inputs": [
+    {
+      "file": "special_train_00_frame_000.npz",
+      "sha256": "e79ade1f3eaeb87342bf378fb77ec0d252283037101a86cbbcc812cc7cfdb734",
+      "bytes": 16396170,
+      "scene": "special",
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frame_id": 0,
+      "split": "train; last four records excluded",
+      "raw_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "raw_dtype": "float16",
+      "context_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "context_dtype": "float32",
+      "raw_half_max_abs_error": 0.0004881620407104492,
+      "GT_included": false,
+      "model_statistics_precomputed": false
+    },
+    {
+      "file": "special_train_01_frame_038.npz",
+      "sha256": "6200658d1ba307f21f4b63fb7ba03f754f35521b566a0089701e323d67e92f63",
+      "bytes": 16403788,
+      "scene": "special",
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train",
+      "frame_id": 38,
+      "split": "train; last four records excluded",
+      "raw_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "raw_dtype": "float16",
+      "context_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "context_dtype": "float32",
+      "raw_half_max_abs_error": 0.00048828125,
+      "GT_included": false,
+      "model_statistics_precomputed": false
+    },
+    {
+      "file": "special_train_02_frame_076.npz",
+      "sha256": "f08a9c5d05267a872c5ef058f0b6a6da7904a49bb4526e024b8253fe9b49cd21",
+      "bytes": 16386671,
+      "scene": "special",
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train",
+      "frame_id": 76,
+      "split": "train; last four records excluded",
+      "raw_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "raw_dtype": "float16",
+      "context_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "context_dtype": "float32",
+      "raw_half_max_abs_error": 0.0004881620407104492,
+      "GT_included": false,
+      "model_statistics_precomputed": false
+    },
+    {
+      "file": "special_train_03_frame_115.npz",
+      "sha256": "1d84f6936bc70b48ffa8673539d6db650321da1fbd549bfe7d535e9876d82db5",
+      "bytes": 16398882,
+      "scene": "special",
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train",
+      "frame_id": 115,
+      "split": "train; last four records excluded",
+      "raw_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "raw_dtype": "float16",
+      "context_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "context_dtype": "float32",
+      "raw_half_max_abs_error": 0.00048828125,
+      "GT_included": false,
+      "model_statistics_precomputed": false
+    }
+  ],
+  "normalization": "unchanged frozen dataset configuration used by source evaluations"
+}

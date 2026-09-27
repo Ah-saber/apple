@@ -1,0 +1,3984 @@
+{
+  "scene": "ordinary",
+  "source_case": "quarter_w32_3x3_body1_stage1_fusedtail",
+  "GT_used": true,
+  "new_attempted_iterations": 16000,
+  "successful_optimizer_updates": 15985,
+  "seed": 2808,
+  "weight_pressure_fraction": 0.25,
+  "activation_quantization": false,
+  "test_GT_labels_excluded_from_training_ROIs": true,
+  "test_used_for_training": false,
+  "train_pairs": 168,
+  "heldout_pairs": 24,
+  "heldout_diagnostic_pairs": 2,
+  "eval_GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_201926",
+  "eval_ROI": [
+    2,
+    0,
+    1020,
+    1278
+  ],
+  "excluded_records": [],
+  "samples": [
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        216,
+        256,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        132,
+        924,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        312,
+        212,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        224,
+        768,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        696,
+        1068,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        212,
+        796,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        192,
+        568,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        468,
+        264,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        616,
+        152,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        876,
+        384,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        296,
+        20,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        300,
+        328,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        328,
+        700,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        204,
+        236,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        212,
+        792,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        556,
+        568,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        68,
+        1016,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        192,
+        368,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frames": [
+        16,
+        17
+      ],
+      "raw_crop": [
+        444,
+        164,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frames": [
+        16,
+        17
+      ],
+      "raw_crop": [
+        572,
+        728,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frames": [
+        16,
+        17
+      ],
+      "raw_crop": [
+        560,
+        632,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frames": [
+        16,
+        17
+      ],
+      "raw_crop": [
+        840,
+        580,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frames": [
+        16,
+        17
+      ],
+      "raw_crop": [
+        96,
+        1024,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frames": [
+        16,
+        17
+      ],
+      "raw_crop": [
+        68,
+        436,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000023@train",
+      "frames": [
+        22,
+        23
+      ],
+      "raw_crop": [
+        640,
+        412,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000023@train",
+      "frames": [
+        22,
+        23
+      ],
+      "raw_crop": [
+        380,
+        608,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000023@train",
+      "frames": [
+        22,
+        23
+      ],
+      "raw_crop": [
+        796,
+        408,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000023@train",
+      "frames": [
+        22,
+        23
+      ],
+      "raw_crop": [
+        20,
+        744,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000023@train",
+      "frames": [
+        22,
+        23
+      ],
+      "raw_crop": [
+        820,
+        388,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000023@train",
+      "frames": [
+        22,
+        23
+      ],
+      "raw_crop": [
+        480,
+        228,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "raw_crop": [
+        272,
+        928,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "raw_crop": [
+        360,
+        760,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "raw_crop": [
+        872,
+        692,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "raw_crop": [
+        456,
+        452,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "raw_crop": [
+        304,
+        468,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "raw_crop": [
+        156,
+        844,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000034@train",
+      "frames": [
+        33,
+        34
+      ],
+      "raw_crop": [
+        572,
+        1152,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000034@train",
+      "frames": [
+        33,
+        34
+      ],
+      "raw_crop": [
+        744,
+        36,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000034@train",
+      "frames": [
+        33,
+        34
+      ],
+      "raw_crop": [
+        256,
+        644,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000034@train",
+      "frames": [
+        33,
+        34
+      ],
+      "raw_crop": [
+        736,
+        756,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000034@train",
+      "frames": [
+        33,
+        34
+      ],
+      "raw_crop": [
+        380,
+        508,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000034@train",
+      "frames": [
+        33,
+        34
+      ],
+      "raw_crop": [
+        260,
+        528,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        896,
+        216,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        824,
+        936,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        232,
+        472,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        120,
+        164,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        284,
+        1000,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        112,
+        756,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "raw_crop": [
+        524,
+        980,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "raw_crop": [
+        128,
+        0,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "raw_crop": [
+        564,
+        536,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "raw_crop": [
+        128,
+        876,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "raw_crop": [
+        404,
+        20,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "raw_crop": [
+        652,
+        720,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000051@train",
+      "frames": [
+        50,
+        51
+      ],
+      "raw_crop": [
+        256,
+        496,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000051@train",
+      "frames": [
+        50,
+        51
+      ],
+      "raw_crop": [
+        860,
+        112,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000051@train",
+      "frames": [
+        50,
+        51
+      ],
+      "raw_crop": [
+        124,
+        980,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000051@train",
+      "frames": [
+        50,
+        51
+      ],
+      "raw_crop": [
+        804,
+        960,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000051@train",
+      "frames": [
+        50,
+        51
+      ],
+      "raw_crop": [
+        356,
+        764,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000051@train",
+      "frames": [
+        50,
+        51
+      ],
+      "raw_crop": [
+        188,
+        224,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        384,
+        228,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        872,
+        412,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        520,
+        364,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        884,
+        84,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        280,
+        840,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        812,
+        212,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195608"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frames": [
+        2,
+        3
+      ],
+      "raw_crop": [
+        400,
+        100,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frames": [
+        2,
+        3
+      ],
+      "raw_crop": [
+        96,
+        0,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frames": [
+        2,
+        3
+      ],
+      "raw_crop": [
+        124,
+        432,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frames": [
+        2,
+        3
+      ],
+      "raw_crop": [
+        328,
+        468,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frames": [
+        2,
+        3
+      ],
+      "raw_crop": [
+        496,
+        296,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frames": [
+        2,
+        3
+      ],
+      "raw_crop": [
+        104,
+        436,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000009@train",
+      "frames": [
+        8,
+        9
+      ],
+      "raw_crop": [
+        452,
+        252,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000009@train",
+      "frames": [
+        8,
+        9
+      ],
+      "raw_crop": [
+        248,
+        1104,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000009@train",
+      "frames": [
+        8,
+        9
+      ],
+      "raw_crop": [
+        160,
+        832,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000009@train",
+      "frames": [
+        8,
+        9
+      ],
+      "raw_crop": [
+        480,
+        908,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000009@train",
+      "frames": [
+        8,
+        9
+      ],
+      "raw_crop": [
+        64,
+        52,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000009@train",
+      "frames": [
+        8,
+        9
+      ],
+      "raw_crop": [
+        768,
+        336,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        468,
+        644,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        112,
+        496,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        764,
+        28,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        756,
+        284,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        848,
+        872,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        16,
+        292,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000020@train",
+      "frames": [
+        19,
+        20
+      ],
+      "raw_crop": [
+        60,
+        976,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000020@train",
+      "frames": [
+        19,
+        20
+      ],
+      "raw_crop": [
+        108,
+        516,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000020@train",
+      "frames": [
+        19,
+        20
+      ],
+      "raw_crop": [
+        364,
+        924,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000020@train",
+      "frames": [
+        19,
+        20
+      ],
+      "raw_crop": [
+        504,
+        1084,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000020@train",
+      "frames": [
+        19,
+        20
+      ],
+      "raw_crop": [
+        536,
+        500,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000020@train",
+      "frames": [
+        19,
+        20
+      ],
+      "raw_crop": [
+        532,
+        788,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        184,
+        652,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        776,
+        272,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        444,
+        308,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        100,
+        452,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        176,
+        460,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        348,
+        680,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000032@train",
+      "frames": [
+        31,
+        32
+      ],
+      "raw_crop": [
+        564,
+        972,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000032@train",
+      "frames": [
+        31,
+        32
+      ],
+      "raw_crop": [
+        148,
+        8,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000032@train",
+      "frames": [
+        31,
+        32
+      ],
+      "raw_crop": [
+        448,
+        1052,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000032@train",
+      "frames": [
+        31,
+        32
+      ],
+      "raw_crop": [
+        128,
+        556,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000032@train",
+      "frames": [
+        31,
+        32
+      ],
+      "raw_crop": [
+        404,
+        800,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000032@train",
+      "frames": [
+        31,
+        32
+      ],
+      "raw_crop": [
+        52,
+        228,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "raw_crop": [
+        372,
+        524,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "raw_crop": [
+        804,
+        672,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "raw_crop": [
+        356,
+        1116,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "raw_crop": [
+        856,
+        260,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "raw_crop": [
+        784,
+        652,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "raw_crop": [
+        548,
+        140,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "raw_crop": [
+        12,
+        416,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "raw_crop": [
+        216,
+        284,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "raw_crop": [
+        428,
+        492,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "raw_crop": [
+        572,
+        780,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "raw_crop": [
+        632,
+        140,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "raw_crop": [
+        784,
+        820,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        192,
+        620,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        760,
+        1112,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        884,
+        748,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        60,
+        948,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        828,
+        340,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        24,
+        64,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        504,
+        380,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        284,
+        872,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        276,
+        44,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        608,
+        292,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        644,
+        1072,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        640,
+        120,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_195715"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "raw_crop": [
+        288,
+        792,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "raw_crop": [
+        624,
+        604,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "raw_crop": [
+        412,
+        516,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "raw_crop": [
+        4,
+        916,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "raw_crop": [
+        40,
+        984,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "raw_crop": [
+        20,
+        1052,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "raw_crop": [
+        24,
+        680,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "raw_crop": [
+        260,
+        904,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "raw_crop": [
+        160,
+        160,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "raw_crop": [
+        884,
+        1004,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "raw_crop": [
+        112,
+        1120,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "raw_crop": [
+        80,
+        172,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frames": [
+        11,
+        12
+      ],
+      "raw_crop": [
+        456,
+        172,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frames": [
+        11,
+        12
+      ],
+      "raw_crop": [
+        872,
+        1016,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frames": [
+        11,
+        12
+      ],
+      "raw_crop": [
+        656,
+        1020,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frames": [
+        11,
+        12
+      ],
+      "raw_crop": [
+        896,
+        416,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frames": [
+        11,
+        12
+      ],
+      "raw_crop": [
+        836,
+        696,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frames": [
+        11,
+        12
+      ],
+      "raw_crop": [
+        40,
+        632,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000018@train",
+      "frames": [
+        17,
+        18
+      ],
+      "raw_crop": [
+        152,
+        1100,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000018@train",
+      "frames": [
+        17,
+        18
+      ],
+      "raw_crop": [
+        516,
+        260,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000018@train",
+      "frames": [
+        17,
+        18
+      ],
+      "raw_crop": [
+        40,
+        856,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000018@train",
+      "frames": [
+        17,
+        18
+      ],
+      "raw_crop": [
+        144,
+        452,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000018@train",
+      "frames": [
+        17,
+        18
+      ],
+      "raw_crop": [
+        820,
+        684,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000018@train",
+      "frames": [
+        17,
+        18
+      ],
+      "raw_crop": [
+        480,
+        1104,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000024@train",
+      "frames": [
+        23,
+        24
+      ],
+      "raw_crop": [
+        288,
+        652,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000024@train",
+      "frames": [
+        23,
+        24
+      ],
+      "raw_crop": [
+        188,
+        504,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000024@train",
+      "frames": [
+        23,
+        24
+      ],
+      "raw_crop": [
+        804,
+        1136,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000024@train",
+      "frames": [
+        23,
+        24
+      ],
+      "raw_crop": [
+        60,
+        212,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000024@train",
+      "frames": [
+        23,
+        24
+      ],
+      "raw_crop": [
+        76,
+        1040,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000024@train",
+      "frames": [
+        23,
+        24
+      ],
+      "raw_crop": [
+        812,
+        708,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        484,
+        492,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        456,
+        1096,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        608,
+        24,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        336,
+        980,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        252,
+        160,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        528,
+        876,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "raw_crop": [
+        580,
+        88,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "raw_crop": [
+        872,
+        496,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "raw_crop": [
+        688,
+        204,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "raw_crop": [
+        492,
+        932,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "raw_crop": [
+        188,
+        308,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "raw_crop": [
+        472,
+        500,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "raw_crop": [
+        880,
+        236,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "raw_crop": [
+        340,
+        768,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "raw_crop": [
+        856,
+        512,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "raw_crop": [
+        76,
+        904,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "raw_crop": [
+        264,
+        948,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "raw_crop": [
+        632,
+        876,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "raw_crop": [
+        888,
+        616,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "raw_crop": [
+        172,
+        872,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "raw_crop": [
+        120,
+        640,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "raw_crop": [
+        324,
+        860,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "raw_crop": [
+        520,
+        1148,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "raw_crop": [
+        780,
+        880,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000053@train",
+      "frames": [
+        52,
+        53
+      ],
+      "raw_crop": [
+        520,
+        884,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000053@train",
+      "frames": [
+        52,
+        53
+      ],
+      "raw_crop": [
+        452,
+        244,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000053@train",
+      "frames": [
+        52,
+        53
+      ],
+      "raw_crop": [
+        860,
+        620,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000053@train",
+      "frames": [
+        52,
+        53
+      ],
+      "raw_crop": [
+        60,
+        900,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000053@train",
+      "frames": [
+        52,
+        53
+      ],
+      "raw_crop": [
+        92,
+        560,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000053@train",
+      "frames": [
+        52,
+        53
+      ],
+      "raw_crop": [
+        712,
+        608,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000059@train",
+      "frames": [
+        58,
+        59
+      ],
+      "raw_crop": [
+        168,
+        440,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000059@train",
+      "frames": [
+        58,
+        59
+      ],
+      "raw_crop": [
+        896,
+        516,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000059@train",
+      "frames": [
+        58,
+        59
+      ],
+      "raw_crop": [
+        4,
+        416,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000059@train",
+      "frames": [
+        58,
+        59
+      ],
+      "raw_crop": [
+        20,
+        700,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000059@train",
+      "frames": [
+        58,
+        59
+      ],
+      "raw_crop": [
+        412,
+        692,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000059@train",
+      "frames": [
+        58,
+        59
+      ],
+      "raw_crop": [
+        648,
+        932,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ],
+      "GT_parent": "targets/v8_snapshot_20260921/night/raw_20260805_200247"
+    }
+  ],
+  "logs": [
+    {
+      "attempted_iteration": 1,
+      "loss": 18.636648178100586,
+      "pixel_GT_gray": 7.934995651245117,
+      "temporal_GT_gray": 1.1682261228561401,
+      "weak_GT_gray": 1.727087140083313,
+      "heldout_two_pairs_GT_gray": {
+        "none": 6.191723823547363,
+        "po": 6.5391974449157715,
+        "pt": 6.335633277893066
+      },
+      "elapsed_seconds": 0.09111947705969214
+    },
+    {
+      "attempted_iteration": 2000,
+      "loss": 16.032018661499023,
+      "pixel_GT_gray": 5.196329593658447,
+      "temporal_GT_gray": 1.2697194814682007,
+      "weak_GT_gray": 1.6001290082931519,
+      "heldout_two_pairs_GT_gray": {
+        "none": 5.915453910827637,
+        "po": 6.115466594696045,
+        "pt": 6.00229024887085
+      },
+      "elapsed_seconds": 6.62259978801012
+    },
+    {
+      "attempted_iteration": 4000,
+      "loss": 18.794462203979492,
+      "pixel_GT_gray": 7.677707195281982,
+      "temporal_GT_gray": 1.1605596542358398,
+      "weak_GT_gray": 1.5778040885925293,
+      "heldout_two_pairs_GT_gray": {
+        "none": 5.677281379699707,
+        "po": 5.929176330566406,
+        "pt": 5.771388530731201
+      },
+      "elapsed_seconds": 13.058640687260777
+    },
+    {
+      "attempted_iteration": 6000,
+      "loss": 17.34233283996582,
+      "pixel_GT_gray": 5.6760663986206055,
+      "temporal_GT_gray": 1.2624547481536865,
+      "weak_GT_gray": 1.6528030633926392,
+      "heldout_two_pairs_GT_gray": {
+        "none": 5.914584159851074,
+        "po": 5.971627235412598,
+        "pt": 6.146456718444824
+      },
+      "elapsed_seconds": 20.320965752005577
+    },
+    {
+      "attempted_iteration": 8000,
+      "loss": 18.46526527404785,
+      "pixel_GT_gray": 7.44497537612915,
+      "temporal_GT_gray": 1.2172943353652954,
+      "weak_GT_gray": 1.5673240423202515,
+      "heldout_two_pairs_GT_gray": {
+        "none": 5.76136589050293,
+        "po": 5.756558418273926,
+        "pt": 5.965695858001709
+      },
+      "elapsed_seconds": 27.948377947323024
+    },
+    {
+      "attempted_iteration": 10000,
+      "loss": 17.27398109436035,
+      "pixel_GT_gray": 5.81434965133667,
+      "temporal_GT_gray": 1.338417887687683,
+      "weak_GT_gray": 1.6860709190368652,
+      "heldout_two_pairs_GT_gray": {
+        "none": 5.74757194519043,
+        "po": 5.898503303527832,
+        "pt": 5.806400299072266
+      },
+      "elapsed_seconds": 35.126139543019235
+    },
+    {
+      "attempted_iteration": 12000,
+      "loss": 16.99271583557129,
+      "pixel_GT_gray": 5.488497734069824,
+      "temporal_GT_gray": 1.2685481309890747,
+      "weak_GT_gray": 1.715923547744751,
+      "heldout_two_pairs_GT_gray": {
+        "none": 5.6921186447143555,
+        "po": 5.681461334228516,
+        "pt": 5.5319504737854
+      },
+      "elapsed_seconds": 41.67309246910736
+    },
+    {
+      "attempted_iteration": 14000,
+      "loss": 17.390621185302734,
+      "pixel_GT_gray": 6.247141361236572,
+      "temporal_GT_gray": 1.2348048686981201,
+      "weak_GT_gray": 1.6202203035354614,
+      "heldout_two_pairs_GT_gray": {
+        "none": 5.6977643966674805,
+        "po": 5.689898490905762,
+        "pt": 5.547056674957275
+      },
+      "elapsed_seconds": 48.12543888296932
+    },
+    {
+      "attempted_iteration": 16000,
+      "loss": 15.868110656738281,
+      "pixel_GT_gray": 5.392085552215576,
+      "temporal_GT_gray": 1.197236180305481,
+      "weak_GT_gray": 1.4985218048095703,
+      "heldout_two_pairs_GT_gray": {
+        "none": 5.720602035522461,
+        "po": 5.722951412200928,
+        "pt": 5.734507083892822
+      },
+      "elapsed_seconds": 54.619738636072725
+    }
+  ]
+}

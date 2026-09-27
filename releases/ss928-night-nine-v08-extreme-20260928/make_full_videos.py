@@ -1,0 +1,33 @@
+"""Complete-sensor RAW/GT/v0.7/new comparison, no cropped-only output."""
+import argparse,fcntl,json,sys,subprocess
+from pathlib import Path
+import numpy as np
+import torch
+from torch.nn import functional as F
+from PIL import Image,ImageDraw,ImageFont
+p=argparse.ArgumentParser();p.add_argument('--scene',required=True);p.add_argument('--baseline',default='combo_input9_half_aligned16_nearest');p.add_argument('--variant',default='combo_aligned16_nearest');a=p.parse_args();root=Path('/data/zhangbenzhuang/huawei_sr');out=root/'runs/SS928-EXTREME-20260927/videos';out.mkdir(exist_ok=True);sys.path[:0]=[str(Path(__file__).parent/'runtime'),'/tmp/packed_front_20260926/runtime',str(root/'runs/SS928-NIGHT-NINE-SPEED-20260926/runtime'),'/tmp'];from deployment_candidates import load_deployment as load_joint,prepare_inputs
+def load_case(root,scene,case):
+ m=load_joint(scene,case,root/'runs/SS928-EXTREME-20260927');return m,{'model':m}
+def case_inputs(x,ctx,info):return prepare_inputs(info['model'],x,ctx)
+special=a.scene=='special';work='ss928-quality-special-night-nine-frame-20260925' if special else 'ss928-quality-night-nine-frame-20260925';run='SS928-QUALITY-SPECIAL-NIGHT-NINE-FRAME-20260925-2K-R1' if special else 'SS928-QUALITY-NIGHT-NINE-FRAME-TRAJECTORY-20260925-2K-R1';sys.path.insert(0,str(root/'code/worktrees'/work/'src'));from ir_sr.training import dataset_for_config
+state=torch.load(root/'runs'/run/'checkpoints/step_000002000.pt',map_location='cpu',weights_only=False);ds=dataset_for_config(state['config'],'test');rec=next(r for r in ds.records if r['scene_id']=='night_'+a.scene);lease=(root/'runs/TASK-019-gpu1.lock').open('a');fcntl.flock(lease,fcntl.LOCK_EX|fcntl.LOCK_NB);torch.set_num_threads(2);torch.backends.cudnn.benchmark=True;torch.backends.cuda.matmul.allow_tf32=False;torch.backends.cudnn.allow_tf32=False;torch.cuda.set_per_process_memory_fraction(2.5*1024**3/torch.cuda.get_device_properties(0).total_memory)
+baseline_commit='0d90da26bcb3dd48bb071f7ae6a54aeb9ebb4edd' if a.baseline=='body3_quantsearch' else 'b5802f9ace1b7574db947a1e41f25909fccc3ed9';baseline_label='0d90da2 已推送三层源码' if a.baseline=='body3_quantsearch' else 'b5802f9 四层源码';variant=a.variant;loaded={'baseline':load_case(root,a.scene,a.baseline),variant:load_case(root,a.scene,variant)};count=120 if special else 60;video=out/f'{a.scene}_{variant}_full_comparison.mp4';writer=subprocess.Popen(['ffmpeg','-v','error','-f','rawvideo','-pix_fmt','rgb24','-s','5120x1080','-r','12','-i','-','-an','-c:v','libx264','-threads','4','-preset','veryfast','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart','-y',str(video)],stdin=subprocess.PIPE);font=ImageFont.truetype('/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc',27);diff=[]
+try:
+ with torch.inference_mode():
+  for frame in range(count):
+   row=dict(rec,frame_id=frame);x=ds.normalized_stack(row,(0,0,1024,1280))[None].cuda();ctx,_=ds.context_for(row,crop_tlhw=(0,0,1024,1280));ctx=ctx[None].cuda();full={};preds={}
+   for name,(model,info) in loaded.items():
+    xx,cc=case_inputs(x,ctx,info);value=model(xx,cc);assert tuple(value.shape)==(1,1,3072,3840);full[name]=value;preds[name]=F.avg_pool2d(value.float().clamp(0,255).round(),3,3)[0,0].cpu().numpy()
+   gt=np.asarray(Image.open((Path(state['config']['data_root'])/row['target']['path']).with_name(f'{frame:06d}.png')),dtype=np.float32);norm=ds.normalization_for(row);raw=(ds.base._raw(row).astype(np.float32)-norm['offset'])/norm['scale']*255;canvas=Image.new('RGB',(5120,1080),'#17191c');draw=ImageDraw.Draw(canvas)
+   for j,(label,array) in enumerate(zip(('输入 RAW','GT',baseline_label,'新结构候选'),(raw,gt,preds['baseline'],preds[variant]))):
+    draw.text((j*1280+18,12),f'{label}  第{frame:03d}帧',font=font,fill='white');canvas.paste(Image.fromarray(np.rint(np.clip(array,0,255)).astype(np.uint8)).convert('RGB'),(j*1280,56))
+   writer.stdin.write(np.asarray(canvas).tobytes());diff.append(float(np.abs(preds[variant]-preds['baseline']).mean()))
+   if frame in (0,count//2,count-1):canvas.save(out/f'{a.scene}_{variant}_frame_{frame:03d}.jpg',quality=95)
+   if frame==count//2:
+    for name in ('baseline',variant):Image.fromarray(full[name][0,0].float().clamp(0,255).round().byte().cpu().numpy()).save(out/f'{a.scene}_{name}_native3x_frame_{frame:03d}.png')
+   if frame%10==0:print('VIDEO',a.scene,frame,flush=True)
+   del full,x,ctx
+ finally_status=True
+finally:
+ writer.stdin.close();code=writer.wait();assert code==0
+(out/f'{a.scene}_{variant}_video.json').write_text(json.dumps({'scene':a.scene,'variant':variant,'baseline':a.baseline,'baseline_commit':baseline_commit,'count':count,'fps':12,'video_shape':[1080,5120],'each_panel_sensor_shape':[1024,1280],'model_output_shape':[1,1,3072,3840],'video_downsample':'rounded full 3x output averaged in 3x3 cells; no crop','source_execution':True,'NPU_verified':False,'mean_full_rawgrid_difference_gray':float(np.mean(diff))},indent=2));print('FINISHED',flush=True)

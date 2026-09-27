@@ -1,0 +1,53 @@
+{
+  "scene": "ordinary",
+  "actual_coefficients": true,
+  "controls": [
+    {
+      "control": "signed",
+      "variant": "pad16",
+      "max_abs": 1.1102230246251565e-15
+    },
+    {
+      "control": "signed",
+      "variant": "meanfirst",
+      "max_abs": 8.881784197001252e-16
+    },
+    {
+      "control": "signed",
+      "variant": "pad16_meanfirst",
+      "max_abs": 1.1102230246251565e-15
+    },
+    {
+      "control": "constant",
+      "variant": "pad16",
+      "max_abs": 5.551115123125783e-17
+    },
+    {
+      "control": "constant",
+      "variant": "meanfirst",
+      "max_abs": 2.3592239273284576e-16
+    },
+    {
+      "control": "constant",
+      "variant": "pad16_meanfirst",
+      "max_abs": 2.3592239273284576e-16
+    },
+    {
+      "control": "corner",
+      "variant": "pad16",
+      "max_abs": 5.551115123125783e-17
+    },
+    {
+      "control": "corner",
+      "variant": "meanfirst",
+      "max_abs": 1.6653345369377348e-16
+    },
+    {
+      "control": "corner",
+      "variant": "pad16_meanfirst",
+      "max_abs": 1.6653345369377348e-16
+    }
+  ],
+  "Half_rounding_not_bit_exact_asserted": true,
+  "SDK_verified": false
+}

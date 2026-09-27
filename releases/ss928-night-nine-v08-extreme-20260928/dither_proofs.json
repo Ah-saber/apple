@@ -1,0 +1,44 @@
+{
+  "seed": 2806,
+  "checks": [
+    {
+      "factor": 2,
+      "shape": [
+        2,
+        3
+      ],
+      "double_max_abs": 9.237055564881302e-14
+    },
+    {
+      "factor": 2,
+      "shape": [
+        8,
+        12
+      ],
+      "double_max_abs": 2.2737367544323206e-13
+    },
+    {
+      "factor": 4,
+      "shape": [
+        2,
+        3
+      ],
+      "double_max_abs": 8.526512829121202e-14
+    },
+    {
+      "factor": 4,
+      "shape": [
+        8,
+        12
+      ],
+      "double_max_abs": 2.2737367544323206e-13
+    }
+  ],
+  "offset_range_gray": [
+    -0.4444444444444444,
+    0.4444444444444444
+  ],
+  "static_pattern_not_real_3x_detail": true,
+  "display_float16_not_bit_equivalent": true,
+  "SDK_verified": false
+}

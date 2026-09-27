@@ -1,0 +1,140 @@
+{
+  "seed": 2802,
+  "dtype": "float64",
+  "checks": [
+    {
+      "proof": "quarter_tail3_projection1_all_pixels",
+      "shape": [
+        2,
+        3
+      ],
+      "max_abs": 4.996003610813204e-16
+    },
+    {
+      "proof": "quarter_tail3_projection1_all_pixels",
+      "shape": [
+        9,
+        11
+      ],
+      "max_abs": 9.992007221626409e-16
+    },
+    {
+      "proof": "quarter_tail3_projection1_all_pixels",
+      "shape": [
+        16,
+        24
+      ],
+      "max_abs": 8.881784197001252e-16
+    },
+    {
+      "proof": "output_mapping_deconv",
+      "factor": 2,
+      "shape": [
+        2,
+        3
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_cascade",
+      "factor": 2,
+      "shape": [
+        2,
+        3
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_deconv",
+      "factor": 2,
+      "shape": [
+        9,
+        11
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_cascade",
+      "factor": 2,
+      "shape": [
+        9,
+        11
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_deconv",
+      "factor": 2,
+      "shape": [
+        16,
+        24
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_cascade",
+      "factor": 2,
+      "shape": [
+        16,
+        24
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_deconv",
+      "factor": 4,
+      "shape": [
+        2,
+        3
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_cascade",
+      "factor": 4,
+      "shape": [
+        2,
+        3
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_deconv",
+      "factor": 4,
+      "shape": [
+        9,
+        11
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_cascade",
+      "factor": 4,
+      "shape": [
+        9,
+        11
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_deconv",
+      "factor": 4,
+      "shape": [
+        16,
+        24
+      ],
+      "max_abs": 0.0
+    },
+    {
+      "proof": "output_mapping_cascade",
+      "factor": 4,
+      "shape": [
+        16,
+        24
+      ],
+      "max_abs": 0.0
+    }
+  ],
+  "SDK_verified": false,
+  "float16_bit_equivalence_not_claimed": true
+}

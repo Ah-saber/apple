@@ -1,0 +1,131 @@
+{
+  "count": 14,
+  "videos": [
+    {
+      "file": "videos/ordinary_cal_front3x1_trained_body2_native4_alignpixel_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "60",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/ordinary_cal_front3x1_trained_body3_native4_alignpixel_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "60",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/ordinary_cal_preserve_mean6_body3_native4_alignpixel_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "60",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/ordinary_cal_quarter_w32_3x3_body1_gtweak_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "60",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/ordinary_quarter_w32_3x3_body1_gtweak_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "60",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/ordinary_quarter_w32_3x3_body1_qat_w8allpo_fusedtail_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "60",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/ordinary_quarter_w32_3x3_body1_stage1_fusedtail_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "60",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/special_cal_front3x1_trained_body2_native4_alignpixel_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "120",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/special_cal_front3x1_trained_body3_native4_alignpixel_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "120",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/special_cal_preserve_mean6_body3_native4_alignpixel_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "120",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/special_cal_quarter_w32_3x3_body1_gtweak_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "120",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/special_quarter_w32_3x3_body1_gtweak_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "120",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/special_quarter_w32_3x3_body1_qat_w8allpo_fusedtail_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "120",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    },
+    {
+      "file": "videos/special_quarter_w32_3x3_body1_stage1_fusedtail_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_frames": "120",
+      "full_sensor_panels": true,
+      "SDK_video": false
+    }
+  ]
+}

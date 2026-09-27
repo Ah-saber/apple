@@ -1,0 +1,107 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "body3_quantsearch": {
+          "window_mae_gray": 6.760199546813965,
+          "weak_temporal_response_projection": 0.3565148711204529,
+          "weak_temporal_residual_mae_gray": 1.637290596961975
+        },
+        "front3x1_trained_body3": {
+          "window_mae_gray": 6.82118034362793,
+          "weak_temporal_response_projection": 0.3069715201854706,
+          "weak_temporal_residual_mae_gray": 1.6826483011245728
+        },
+        "cal_front3x1_trained_body3_native4_alignpixel": {
+          "window_mae_gray": 6.828125,
+          "weak_temporal_response_projection": 0.31318745017051697,
+          "weak_temporal_residual_mae_gray": 1.6835616827011108
+        },
+        "cal_front3x1_trained_body3_native4_alignpixel_ditherphase": {
+          "window_mae_gray": 6.825520992279053,
+          "weak_temporal_response_projection": 0.30409353971481323,
+          "weak_temporal_residual_mae_gray": 1.6834089756011963
+        },
+        "cal_front3x1_trained_body3_native4_alignpixel_ditherfloat": {
+          "window_mae_gray": 6.8264970779418945,
+          "weak_temporal_response_projection": 0.3039625585079193,
+          "weak_temporal_residual_mae_gray": 1.6812790632247925
+        },
+        "quarter_w32_3x3_body1_stage1_fusedtail": {
+          "window_mae_gray": 7.9013671875,
+          "weak_temporal_response_projection": 0.24943819642066956,
+          "weak_temporal_residual_mae_gray": 1.7972602844238281
+        },
+        "quarter_w32_3x3_body1_stage1_fusedtail_ditherphase": {
+          "window_mae_gray": 7.909287929534912,
+          "weak_temporal_response_projection": 0.25649553537368774,
+          "weak_temporal_residual_mae_gray": 1.7520548105239868
+        },
+        "quarter_w32_3x3_body1_stage1_fusedtail_ditherfloat": {
+          "window_mae_gray": 7.906032562255859,
+          "weak_temporal_response_projection": 0.25794121623039246,
+          "weak_temporal_residual_mae_gray": 1.75235915184021
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "body3_quantsearch": {
+          "window_mae_gray": 3.0538196563720703,
+          "weak_temporal_response_projection": 0.5328769683837891,
+          "weak_temporal_residual_mae_gray": 1.3322499990463257
+        },
+        "front3x1_trained_body3": {
+          "window_mae_gray": 3.0490450859069824,
+          "weak_temporal_response_projection": 0.4044756591320038,
+          "weak_temporal_residual_mae_gray": 1.3826991319656372
+        },
+        "cal_front3x1_trained_body3_native4_alignpixel": {
+          "window_mae_gray": 3.0419921875,
+          "weak_temporal_response_projection": 0.3934367001056671,
+          "weak_temporal_residual_mae_gray": 1.3983286619186401
+        },
+        "cal_front3x1_trained_body3_native4_alignpixel_ditherphase": {
+          "window_mae_gray": 3.0360240936279297,
+          "weak_temporal_response_projection": 0.4119087755680084,
+          "weak_temporal_residual_mae_gray": 1.363045573234558
+        },
+        "cal_front3x1_trained_body3_native4_alignpixel_ditherfloat": {
+          "window_mae_gray": 3.037543296813965,
+          "weak_temporal_response_projection": 0.41194871068000793,
+          "weak_temporal_residual_mae_gray": 1.3630454540252686
+        },
+        "quarter_w32_3x3_body1_stage1_fusedtail": {
+          "window_mae_gray": 3.49609375,
+          "weak_temporal_response_projection": 0.47547781467437744,
+          "weak_temporal_residual_mae_gray": 1.4011142253875732
+        },
+        "quarter_w32_3x3_body1_stage1_fusedtail_ditherphase": {
+          "window_mae_gray": 3.5078125,
+          "weak_temporal_response_projection": 0.4573264420032501,
+          "weak_temporal_residual_mae_gray": 1.3789849281311035
+        },
+        "quarter_w32_3x3_body1_stage1_fusedtail_ditherfloat": {
+          "window_mae_gray": 3.5080294609069824,
+          "weak_temporal_response_projection": 0.4575069844722748,
+          "weak_temporal_residual_mae_gray": 1.3800679445266724
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}

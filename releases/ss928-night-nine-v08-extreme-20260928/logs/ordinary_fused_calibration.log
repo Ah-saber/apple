@@ -1,0 +1,4 @@
+SEARCH ordinary quarter_w32_3x3_body1_qat_w8allpo_fusedtail {'sweep': 0, 'accepted': 4, 'score': 6.2861578886708}
+SEARCH ordinary quarter_w32_3x3_body1_qat_w8allpo_fusedtail {'sweep': 1, 'accepted': 2, 'score': 6.203621370097039}
+SEARCH ordinary quarter_w32_3x3_body1_qat_w8allpo_fusedtail {'sweep': 2, 'accepted': 0, 'score': 6.203621370097039}
+FINISHED ordinary_cal_quarter_w32_3x3_body1_qat_w8allpo_fusedtail {'float_mae_gray': 0.0, 'weight8_per_output_loss': 1.4910515546798706, 'weight8_per_tensor_loss': 7.4637885093688965} {'float_mae_gray': 1.0554989557931549e-06, 'weight8_per_output_loss': 4.301291465759277, 'weight8_per_tensor_loss': 3.3080239295959473}

@@ -1,0 +1,18 @@
+[
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "raw_exact": true,
+    "context_exact": true,
+    "raw_max_difference": 0.0,
+    "context_max_difference": 0.0
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "raw_exact": true,
+    "context_exact": true,
+    "raw_max_difference": 0.0,
+    "context_max_difference": 0.0
+  }
+]

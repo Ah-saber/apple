@@ -1,0 +1,642 @@
+{
+  "scene": "special",
+  "results": {
+    "body3_quantsearch": {
+      "ranges": {
+        "front.first": {
+          "min": -24.6875,
+          "max": 60.375,
+          "input_shape": [
+            1,
+            12,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 37.6875,
+          "input_shape": [
+            1,
+            12,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.head.0": {
+          "min": -0.11956787109375,
+          "max": 1.591796875,
+          "input_shape": [
+            1,
+            4,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.0": {
+          "min": -1.21875,
+          "max": 1.48046875,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.2": {
+          "min": 0.0,
+          "max": 2.712890625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.4": {
+          "min": 0.0,
+          "max": 4.41015625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.encoder.0": {
+          "min": -0.059112548828125,
+          "max": 1.015625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.3916015625,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.project": {
+          "min": 0.0,
+          "max": 1.701171875,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.tail.1.rep_conv": {
+          "min": -0.3779296875,
+          "max": 2.515625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": -0.85693359375,
+          "max": 1.861328125,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "special_train_00_frame_000.npz",
+          "sha256": "e79ade1f3eaeb87342bf378fb77ec0d252283037101a86cbbcc812cc7cfdb734",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train"
+        },
+        {
+          "file": "special_train_01_frame_038.npz",
+          "sha256": "6200658d1ba307f21f4b63fb7ba03f754f35521b566a0089701e323d67e92f63",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train"
+        },
+        {
+          "file": "special_train_02_frame_076.npz",
+          "sha256": "f08a9c5d05267a872c5ef058f0b6a6da7904a49bb4526e024b8253fe9b49cd21",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train"
+        },
+        {
+          "file": "special_train_03_frame_115.npz",
+          "sha256": "1d84f6936bc70b48ffa8673539d6db650321da1fbd549bfe7d535e9876d82db5",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    },
+    "cal_preserve_mean6_body3_native4_alignpixel": {
+      "ranges": {
+        "front.temporal_conv": {
+          "min": -0.1224365234375,
+          "max": 1.85546875,
+          "input_shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.first": {
+          "min": 0.0,
+          "max": 1.7744140625,
+          "input_shape": [
+            1,
+            16,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 113.5625,
+          "input_shape": [
+            1,
+            32,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.head.0": {
+          "min": -0.1195068359375,
+          "max": 1.591796875,
+          "input_shape": [
+            1,
+            4,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.0": {
+          "min": -1.21875,
+          "max": 1.48046875,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.2": {
+          "min": 0.0,
+          "max": 2.712890625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.4": {
+          "min": 0.0,
+          "max": 4.41015625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.encoder.0": {
+          "min": -0.059112548828125,
+          "max": 1.015625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.3916015625,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.project": {
+          "min": 0.0,
+          "max": 1.701171875,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.tail.1.rep_conv": {
+          "min": -0.3779296875,
+          "max": 2.517578125,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": -0.85693359375,
+          "max": 3.3515625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "special_train_00_frame_000.npz",
+          "sha256": "e79ade1f3eaeb87342bf378fb77ec0d252283037101a86cbbcc812cc7cfdb734",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train"
+        },
+        {
+          "file": "special_train_01_frame_038.npz",
+          "sha256": "6200658d1ba307f21f4b63fb7ba03f754f35521b566a0089701e323d67e92f63",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train"
+        },
+        {
+          "file": "special_train_02_frame_076.npz",
+          "sha256": "f08a9c5d05267a872c5ef058f0b6a6da7904a49bb4526e024b8253fe9b49cd21",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train"
+        },
+        {
+          "file": "special_train_03_frame_115.npz",
+          "sha256": "1d84f6936bc70b48ffa8673539d6db650321da1fbd549bfe7d535e9876d82db5",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    },
+    "quarter_w32_3x3_body1_gtweak": {
+      "ranges": {
+        "front.first": {
+          "min": -0.1224365234375,
+          "max": 1.85546875,
+          "input_shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 1.7880859375,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "body.0": {
+          "min": 0.0,
+          "max": 1.5751953125,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.0": {
+          "min": -0.059112548828125,
+          "max": 1.015625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.3916015625,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.project": {
+          "min": 0.0,
+          "max": 1.701171875,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": -0.1876220703125,
+          "max": 1.3515625,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "special_train_00_frame_000.npz",
+          "sha256": "e79ade1f3eaeb87342bf378fb77ec0d252283037101a86cbbcc812cc7cfdb734",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train"
+        },
+        {
+          "file": "special_train_01_frame_038.npz",
+          "sha256": "6200658d1ba307f21f4b63fb7ba03f754f35521b566a0089701e323d67e92f63",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train"
+        },
+        {
+          "file": "special_train_02_frame_076.npz",
+          "sha256": "f08a9c5d05267a872c5ef058f0b6a6da7904a49bb4526e024b8253fe9b49cd21",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train"
+        },
+        {
+          "file": "special_train_03_frame_115.npz",
+          "sha256": "1d84f6936bc70b48ffa8673539d6db650321da1fbd549bfe7d535e9876d82db5",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    },
+    "quarter_w32_3x3_body1_stage1_fusedtail": {
+      "ranges": {
+        "front.first": {
+          "min": -0.1224365234375,
+          "max": 1.85546875,
+          "input_shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 1.849609375,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "body.0": {
+          "min": 0.0,
+          "max": 1.6796875,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.0": {
+          "min": -0.059112548828125,
+          "max": 1.015625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.3916015625,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.project": {
+          "min": 0.0,
+          "max": 1.701171875,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": -0.1876220703125,
+          "max": 1.4755859375,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "special_train_00_frame_000.npz",
+          "sha256": "e79ade1f3eaeb87342bf378fb77ec0d252283037101a86cbbcc812cc7cfdb734",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train"
+        },
+        {
+          "file": "special_train_01_frame_038.npz",
+          "sha256": "6200658d1ba307f21f4b63fb7ba03f754f35521b566a0089701e323d67e92f63",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train"
+        },
+        {
+          "file": "special_train_02_frame_076.npz",
+          "sha256": "f08a9c5d05267a872c5ef058f0b6a6da7904a49bb4526e024b8253fe9b49cd21",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train"
+        },
+        {
+          "file": "special_train_03_frame_115.npz",
+          "sha256": "1d84f6936bc70b48ffa8673539d6db650321da1fbd549bfe7d535e9876d82db5",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    },
+    "quarter_w32_3x3_body1_gtweak_refsplit": {
+      "ranges": {
+        "front.first": {
+          "min": -0.1224365234375,
+          "max": 1.85546875,
+          "input_shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 1.7880859375,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "body.0": {
+          "min": 0.0,
+          "max": 1.5751953125,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": 0.0,
+          "max": 1.3740234375,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.0": {
+          "min": -0.059112548828125,
+          "max": 1.015625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.3916015625,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference_embed": {
+          "min": 0.0,
+          "max": 1.701171875,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference_phase": {
+          "min": 0.0,
+          "max": 1.697265625,
+          "input_shape": [
+            1,
+            16,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "special_train_00_frame_000.npz",
+          "sha256": "e79ade1f3eaeb87342bf378fb77ec0d252283037101a86cbbcc812cc7cfdb734",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train"
+        },
+        {
+          "file": "special_train_01_frame_038.npz",
+          "sha256": "6200658d1ba307f21f4b63fb7ba03f754f35521b566a0089701e323d67e92f63",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train"
+        },
+        {
+          "file": "special_train_02_frame_076.npz",
+          "sha256": "f08a9c5d05267a872c5ef058f0b6a6da7904a49bb4526e024b8253fe9b49cd21",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train"
+        },
+        {
+          "file": "special_train_03_frame_115.npz",
+          "sha256": "1d84f6936bc70b48ffa8673539d6db650321da1fbd549bfe7d535e9876d82db5",
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    }
+  },
+  "SDK_mixed_precision_unknown": true,
+  "ranges_from_four_training_input_vectors": true
+}

@@ -1,0 +1,4 @@
+SEARCH ordinary quarter_w32_k4_body1 {'sweep': 0, 'accepted': 4, 'score': 4.829958260059357}
+SEARCH ordinary quarter_w32_k4_body1 {'sweep': 1, 'accepted': 10, 'score': 3.98212206363678}
+SEARCH ordinary quarter_w32_k4_body1 {'sweep': 2, 'accepted': 4, 'score': 3.9065577387809753}
+FINISHED ordinary_cal_quarter_w32_k4_body1 {'float_mae_gray': 0.0, 'weight8_per_output_loss': 2.882751703262329, 'weight8_per_tensor_loss': 3.695380687713623} {'float_mae_gray': 0.0, 'weight8_per_output_loss': 2.5689525604248047, 'weight8_per_tensor_loss': 2.6114556789398193}

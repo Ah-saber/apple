@@ -1,0 +1,245 @@
+{
+  "scene": "special",
+  "probes": [
+    {
+      "file": "special_preserved_temporal_point.onnx",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        1024,
+        1280
+      ],
+      "runtime_input_seed": 2900,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_preserved_first6.onnx",
+      "input_shape": [
+        1,
+        16,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        32,
+        512,
+        640
+      ],
+      "runtime_input_seed": 2901,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_preserved_first7.onnx",
+      "input_shape": [
+        1,
+        16,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        32,
+        512,
+        640
+      ],
+      "runtime_input_seed": 2902,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_preserved_last3.onnx",
+      "input_shape": [
+        1,
+        32,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "runtime_input_seed": 2903,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_gt_fused_projection.onnx",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        256,
+        320
+      ],
+      "runtime_input_seed": 2904,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_split_reference_embed.onnx",
+      "input_shape": [
+        1,
+        12,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        64,
+        64
+      ],
+      "runtime_input_seed": 2905,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_split_reference_phase.onnx",
+      "input_shape": [
+        1,
+        16,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        256,
+        320
+      ],
+      "runtime_input_seed": 2906,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_split_reference_resize16.onnx",
+      "input_shape": [
+        1,
+        16,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        256,
+        320
+      ],
+      "runtime_input_seed": 2907,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_quarter_two2_deconv.onnx",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "runtime_input_seed": 2908,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    },
+    {
+      "file": "special_quarter_two2_cascade.onnx",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "runtime_input_seed": 2909,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "includes_independent_input_report_overhead": true
+    }
+  ]
+}

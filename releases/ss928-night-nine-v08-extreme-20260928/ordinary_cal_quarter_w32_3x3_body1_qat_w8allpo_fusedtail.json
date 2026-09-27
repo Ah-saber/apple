@@ -1,0 +1,237 @@
+{
+  "scene": "ordinary",
+  "source_case": "quarter_w32_3x3_body1_qat_w8allpo_fusedtail",
+  "seed": 2799,
+  "GT_used": false,
+  "test_used_for_search": false,
+  "calibration_split": "train, last four records excluded",
+  "samples": [
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        128,
+        860,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000025@train",
+      "frames": [
+        24,
+        25
+      ],
+      "raw_crop": [
+        288,
+        564,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000050@train",
+      "frames": [
+        49,
+        50
+      ],
+      "raw_crop": [
+        476,
+        732,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        892,
+        544,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        760,
+        112,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        336,
+        784,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        60,
+        544,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        292,
+        504,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    }
+  ],
+  "initial": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 1.4910515546798706,
+    "weight8_per_tensor_loss": 7.4637885093688965
+  },
+  "final": {
+    "float_mae_gray": 1.0554989557931549e-06,
+    "weight8_per_output_loss": 4.301291465759277,
+    "weight8_per_tensor_loss": 3.3080239295959473
+  },
+  "changes": [
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 0,
+      "exponent": 1,
+      "score": 6.476982355117798
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 5,
+      "exponent": 1,
+      "score": 6.451032936573029
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 9,
+      "exponent": -1,
+      "score": 6.346210283537744
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 12,
+      "exponent": 1,
+      "score": 6.2861578886708
+    },
+    {
+      "sweep": 1,
+      "edge": "front_internal",
+      "channel": 4,
+      "exponent": 1,
+      "score": 6.24367080380523
+    },
+    {
+      "sweep": 1,
+      "edge": "front_body",
+      "channel": 26,
+      "exponent": 1,
+      "score": 6.203621370097039
+    }
+  ],
+  "logs": [
+    {
+      "sweep": 0,
+      "accepted": 4,
+      "score": 6.2861578886708
+    },
+    {
+      "sweep": 1,
+      "accepted": 2,
+      "score": 6.203621370097039
+    },
+    {
+      "sweep": 2,
+      "accepted": 0,
+      "score": 6.203621370097039
+    }
+  ],
+  "float64_phase_max_abs": 0.0,
+  "half_coefficients_exact": true,
+  "new_inference_operators": 0,
+  "SDK_bias_activation_calibration_not_simulated": true
+}

@@ -1,0 +1,419 @@
+{
+  "scene": "special",
+  "source_case": "preserve_sum6_body3_native4_alignpixel",
+  "seed": 2799,
+  "GT_used": false,
+  "test_used_for_search": false,
+  "calibration_split": "train, last four records excluded",
+  "samples": [
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        134,
+        758,
+        96,
+        96
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000016@train",
+      "frames": [
+        15,
+        16
+      ],
+      "raw_crop": [
+        300,
+        586,
+        96,
+        96
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000032@train",
+      "frames": [
+        31,
+        32
+      ],
+      "raw_crop": [
+        494,
+        682,
+        96,
+        96
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        922,
+        574,
+        96,
+        96
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000065@train",
+      "frames": [
+        64,
+        65
+      ],
+      "raw_crop": [
+        786,
+        322,
+        96,
+        96
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000082@train",
+      "frames": [
+        81,
+        82
+      ],
+      "raw_crop": [
+        348,
+        714,
+        96,
+        96
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000098@train",
+      "frames": [
+        97,
+        98
+      ],
+      "raw_crop": [
+        62,
+        574,
+        96,
+        96
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train",
+      "frames": [
+        114,
+        115
+      ],
+      "raw_crop": [
+        304,
+        550,
+        96,
+        96
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    }
+  ],
+  "initial": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 1.6758558750152588,
+    "weight8_per_tensor_loss": 7.407044887542725
+  },
+  "final": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 1.091206669807434,
+    "weight8_per_tensor_loss": 1.1545902490615845
+  },
+  "changes": [
+    {
+      "sweep": 0,
+      "edge": "temporal_mix_front",
+      "channel": 0,
+      "exponent": 1,
+      "score": 6.0499958992004395
+    },
+    {
+      "sweep": 0,
+      "edge": "temporal_mix_front",
+      "channel": 1,
+      "exponent": 1,
+      "score": 5.335686504840851
+    },
+    {
+      "sweep": 0,
+      "edge": "temporal_mix_front",
+      "channel": 2,
+      "exponent": -1,
+      "score": 4.664781749248505
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 1,
+      "exponent": -1,
+      "score": 4.267099380493164
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 2,
+      "exponent": -1,
+      "score": 3.557160884141922
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 11,
+      "exponent": -1,
+      "score": 3.554604470729828
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 12,
+      "exponent": -1,
+      "score": 3.419959843158722
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 13,
+      "exponent": -1,
+      "score": 3.2540113031864166
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 14,
+      "exponent": -1,
+      "score": 3.2278534173965454
+    },
+    {
+      "sweep": 0,
+      "edge": "front_head",
+      "channel": 0,
+      "exponent": 1,
+      "score": 3.109530657529831
+    },
+    {
+      "sweep": 0,
+      "edge": "front_head",
+      "channel": 2,
+      "exponent": 1,
+      "score": 2.6047612726688385
+    },
+    {
+      "sweep": 0,
+      "edge": "head_body",
+      "channel": 0,
+      "exponent": -1,
+      "score": 2.5744463205337524
+    },
+    {
+      "sweep": 0,
+      "edge": "head_body",
+      "channel": 3,
+      "exponent": 1,
+      "score": 2.3000479638576508
+    },
+    {
+      "sweep": 0,
+      "edge": "body_0",
+      "channel": 1,
+      "exponent": 1,
+      "score": 2.2956925332546234
+    },
+    {
+      "sweep": 0,
+      "edge": "body_1",
+      "channel": 1,
+      "exponent": -1,
+      "score": 2.2741653621196747
+    },
+    {
+      "sweep": 0,
+      "edge": "body_1",
+      "channel": 6,
+      "exponent": -1,
+      "score": 2.258142590522766
+    },
+    {
+      "sweep": 0,
+      "edge": "body_reference_tail",
+      "channel": 2,
+      "exponent": 1,
+      "score": 2.2179439067840576
+    },
+    {
+      "sweep": 0,
+      "edge": "body_reference_tail",
+      "channel": 3,
+      "exponent": 1,
+      "score": 2.1825393438339233
+    },
+    {
+      "sweep": 0,
+      "edge": "body_reference_tail",
+      "channel": 8,
+      "exponent": 1,
+      "score": 2.14728444814682
+    },
+    {
+      "sweep": 0,
+      "edge": "tail_projection",
+      "channel": 1,
+      "exponent": 1,
+      "score": 2.0662211179733276
+    },
+    {
+      "sweep": 1,
+      "edge": "front_internal",
+      "channel": 3,
+      "exponent": -1,
+      "score": 2.0149590969085693
+    },
+    {
+      "sweep": 1,
+      "edge": "front_internal",
+      "channel": 11,
+      "exponent": -1,
+      "score": 2.0120790898799896
+    },
+    {
+      "sweep": 1,
+      "edge": "front_internal",
+      "channel": 12,
+      "exponent": 1,
+      "score": 1.913732260465622
+    },
+    {
+      "sweep": 1,
+      "edge": "head_body",
+      "channel": 0,
+      "exponent": 1,
+      "score": 1.8882192075252533
+    },
+    {
+      "sweep": 1,
+      "edge": "body_reference_tail",
+      "channel": 2,
+      "exponent": -1,
+      "score": 1.8715642094612122
+    },
+    {
+      "sweep": 1,
+      "edge": "body_reference_tail",
+      "channel": 3,
+      "exponent": -1,
+      "score": 1.8468759059906006
+    },
+    {
+      "sweep": 1,
+      "edge": "tail_projection",
+      "channel": 2,
+      "exponent": 1,
+      "score": 1.781213253736496
+    },
+    {
+      "sweep": 1,
+      "edge": "tail_projection",
+      "channel": 10,
+      "exponent": -1,
+      "score": 1.7463225722312927
+    },
+    {
+      "sweep": 1,
+      "edge": "tail_projection",
+      "channel": 12,
+      "exponent": 1,
+      "score": 1.7243106961250305
+    },
+    {
+      "sweep": 2,
+      "edge": "front_internal",
+      "channel": 11,
+      "exponent": -1,
+      "score": 1.724284291267395
+    },
+    {
+      "sweep": 2,
+      "edge": "head_body",
+      "channel": 0,
+      "exponent": -1,
+      "score": 1.7229826152324677
+    },
+    {
+      "sweep": 2,
+      "edge": "body_reference_tail",
+      "channel": 8,
+      "exponent": -1,
+      "score": 1.7160394787788391
+    }
+  ],
+  "logs": [
+    {
+      "sweep": 0,
+      "accepted": 20,
+      "score": 2.0662211179733276
+    },
+    {
+      "sweep": 1,
+      "accepted": 9,
+      "score": 1.7243106961250305
+    },
+    {
+      "sweep": 2,
+      "accepted": 3,
+      "score": 1.7160394787788391
+    }
+  ],
+  "float64_phase_max_abs": 0.0,
+  "half_coefficients_exact": true,
+  "new_inference_operators": 0,
+  "SDK_bias_activation_calibration_not_simulated": true
+}

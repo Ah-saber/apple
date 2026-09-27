@@ -1,0 +1,147 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "combo_input9_half_aligned16_nearest": {
+          "window_mae_gray": 7.140625,
+          "weak_temporal_response_projection": 0.3352389335632324,
+          "weak_temporal_residual_mae_gray": 1.627549409866333
+        },
+        "cal_front3x1_trained_native4_alignpixel": {
+          "window_mae_gray": 7.1572265625,
+          "weak_temporal_response_projection": 0.3101123571395874,
+          "weak_temporal_residual_mae_gray": 1.6835616827011108
+        },
+        "cal_front3x3_trained_native4_alignpixel": {
+          "window_mae_gray": 7.1611328125,
+          "weak_temporal_response_projection": 0.3010053336620331,
+          "weak_temporal_residual_mae_gray": 1.6575342416763306
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel": {
+          "window_mae_gray": 6.6552734375,
+          "weak_temporal_response_projection": 0.3108220100402832,
+          "weak_temporal_residual_mae_gray": 1.7890410423278809
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel_w8allpo": {
+          "window_mae_gray": 8.2216796875,
+          "weak_temporal_response_projection": 0.2848019003868103,
+          "weak_temporal_residual_mae_gray": 1.7575342655181885
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel_w8allpt": {
+          "window_mae_gray": 7.27734375,
+          "weak_temporal_response_projection": 0.3130691945552826,
+          "weak_temporal_residual_mae_gray": 1.7260273694992065
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst": {
+          "window_mae_gray": 6.6513671875,
+          "weak_temporal_response_projection": 0.31649911403656006,
+          "weak_temporal_residual_mae_gray": 1.7712328433990479
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_full": {
+          "window_mae_gray": 6.6513671875,
+          "weak_temporal_response_projection": 0.31649911403656006,
+          "weak_temporal_residual_mae_gray": 1.7712328433990479
+        },
+        "quarter_w32_3x3_body1": {
+          "window_mae_gray": 7.11328125,
+          "weak_temporal_response_projection": 0.24955648183822632,
+          "weak_temporal_residual_mae_gray": 1.8205479383468628
+        },
+        "quarter_w32_3x3_body1_qat": {
+          "window_mae_gray": 7.466796875,
+          "weak_temporal_response_projection": 0.22389118373394012,
+          "weak_temporal_residual_mae_gray": 1.8164383172988892
+        },
+        "quarter_w32_3x3_body1_qat_w8allpo": {
+          "window_mae_gray": 7.0576171875,
+          "weak_temporal_response_projection": 0.2383205145597458,
+          "weak_temporal_residual_mae_gray": 1.7726027965545654
+        },
+        "quarter_w32_3x3_body1_qat_w8allpt": {
+          "window_mae_gray": 6.2900390625,
+          "weak_temporal_response_projection": 0.2250739187002182,
+          "weak_temporal_residual_mae_gray": 1.7890410423278809
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "combo_input9_half_aligned16_nearest": {
+          "window_mae_gray": 3.410590171813965,
+          "weak_temporal_response_projection": 0.5575187802314758,
+          "weak_temporal_residual_mae_gray": 1.3269885778427124
+        },
+        "cal_front3x1_trained_native4_alignpixel": {
+          "window_mae_gray": 3.3896484375,
+          "weak_temporal_response_projection": 0.41994228959083557,
+          "weak_temporal_residual_mae_gray": 1.4275766611099243
+        },
+        "cal_front3x3_trained_native4_alignpixel": {
+          "window_mae_gray": 3.4248046875,
+          "weak_temporal_response_projection": 0.40858277678489685,
+          "weak_temporal_residual_mae_gray": 1.3899720907211304
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel": {
+          "window_mae_gray": 3.0380859375,
+          "weak_temporal_response_projection": 0.3746844530105591,
+          "weak_temporal_residual_mae_gray": 1.547353744506836
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel_w8allpo": {
+          "window_mae_gray": 3.3720703125,
+          "weak_temporal_response_projection": 0.3546700179576874,
+          "weak_temporal_residual_mae_gray": 1.5041782855987549
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel_w8allpt": {
+          "window_mae_gray": 3.5654296875,
+          "weak_temporal_response_projection": 0.38622429966926575,
+          "weak_temporal_residual_mae_gray": 1.5125348567962646
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst": {
+          "window_mae_gray": 3.0419921875,
+          "weak_temporal_response_projection": 0.3750450909137726,
+          "weak_temporal_residual_mae_gray": 1.547353744506836
+        },
+        "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_full": {
+          "window_mae_gray": 3.0419921875,
+          "weak_temporal_response_projection": 0.3750450909137726,
+          "weak_temporal_residual_mae_gray": 1.547353744506836
+        },
+        "quarter_w32_3x3_body1": {
+          "window_mae_gray": 3.4111328125,
+          "weak_temporal_response_projection": 0.4626758098602295,
+          "weak_temporal_residual_mae_gray": 1.3802227973937988
+        },
+        "quarter_w32_3x3_body1_qat": {
+          "window_mae_gray": 3.79296875,
+          "weak_temporal_response_projection": 0.43887487053871155,
+          "weak_temporal_residual_mae_gray": 1.383008360862732
+        },
+        "quarter_w32_3x3_body1_qat_w8allpo": {
+          "window_mae_gray": 3.7548828125,
+          "weak_temporal_response_projection": 0.4810674488544464,
+          "weak_temporal_residual_mae_gray": 1.383008360862732
+        },
+        "quarter_w32_3x3_body1_qat_w8allpt": {
+          "window_mae_gray": 3.7841796875,
+          "weak_temporal_response_projection": 0.4134511351585388,
+          "weak_temporal_residual_mae_gray": 1.40668523311615
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}

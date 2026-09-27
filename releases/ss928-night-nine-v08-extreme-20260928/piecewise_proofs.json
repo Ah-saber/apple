@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "knots": 13,
+      "range": [
+        -10,
+        10
+      ],
+      "count": 200001,
+      "numeric_max_abs_error": 0.023199232895433936,
+      "argmax_x": -0.24479999999999955,
+      "asserted_bound": 0.024,
+      "analytic_segment_error_bound": 0.028983892525089545,
+      "float16_not_bit_equivalent": true
+    },
+    {
+      "knots": 25,
+      "range": [
+        -10,
+        10
+      ],
+      "count": 200001,
+      "numeric_max_abs_error": 0.0061211782772068735,
+      "argmax_x": 0.12429999999999952,
+      "asserted_bound": 0.007,
+      "analytic_segment_error_bound": 0.010283473131272387,
+      "float16_not_bit_equivalent": true
+    }
+  ],
+  "SDK_verified": false,
+  "model_quality_needs_separate_sequence_test": true
+}

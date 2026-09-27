@@ -1,0 +1,115 @@
+{
+  "controls": [
+    {
+      "kind": "k4",
+      "width": 16,
+      "raw_shape": [
+        8,
+        12
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "k4",
+      "width": 16,
+      "raw_shape": [
+        16,
+        20
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "k4",
+      "width": 16,
+      "raw_shape": [
+        24,
+        28
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "k4",
+      "width": 32,
+      "raw_shape": [
+        8,
+        12
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "k4",
+      "width": 32,
+      "raw_shape": [
+        16,
+        20
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "k4",
+      "width": 32,
+      "raw_shape": [
+        24,
+        28
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "3x3",
+      "width": 16,
+      "raw_shape": [
+        8,
+        12
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "3x3",
+      "width": 16,
+      "raw_shape": [
+        16,
+        20
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "3x3",
+      "width": 16,
+      "raw_shape": [
+        24,
+        28
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "3x3",
+      "width": 32,
+      "raw_shape": [
+        8,
+        12
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "3x3",
+      "width": 32,
+      "raw_shape": [
+        16,
+        20
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    },
+    {
+      "kind": "3x3",
+      "width": 32,
+      "raw_shape": [
+        24,
+        28
+      ],
+      "signed_current_phase_init_max_abs": 0.0
+    }
+  ],
+  "output_decomposition_double_max_abs": 0.0,
+  "trained_quality_not_implied": true,
+  "SDK_verified": false
+}

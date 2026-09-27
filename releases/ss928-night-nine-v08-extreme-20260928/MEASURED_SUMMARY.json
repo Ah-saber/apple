@@ -1,0 +1,297 @@
+{
+  "models": [
+    {
+      "scene": "ordinary",
+      "case": "body3_quantsearch",
+      "same_round_file_tag": "gtweak",
+      "GPU_mean_ms": 0.2908185068269571,
+      "GPU_p95_ms": 0.29574400186538696,
+      "quality_absolute": {
+        "psnr_db": 27.857657312292464,
+        "ssim_every10": 0.9571204041971727,
+        "static_output_temporal_std_gray": 1.6284602880477905,
+        "static_error_temporal_std_gray": 1.6198352575302124,
+        "moving_mae_gray": 7.846712112426758,
+        "low_amplitude_moving_mae_gray": 7.836602210998535,
+        "brightness_error_temporal_std_gray": 0.521370485167258,
+        "contrast_error_temporal_std_gray": 0.6912513038508767,
+        "mean_full_rawgrid_difference_gray": 2.5550114194552105
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": 0.0,
+        "ssim_every10": 0.0,
+        "static_output_temporal_std_gray": 0.0,
+        "static_error_temporal_std_gray": 0.0,
+        "moving_mae_gray": 0.0,
+        "low_amplitude_moving_mae_gray": 0.0,
+        "brightness_error_temporal_std_gray": 0.0,
+        "contrast_error_temporal_std_gray": 0.0
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_quarter_w32_3x3_body1_gtweak",
+      "same_round_file_tag": "gtweak",
+      "GPU_mean_ms": 0.18752154702941576,
+      "GPU_p95_ms": 0.19369760677218437,
+      "quality_absolute": {
+        "psnr_db": 28.556204389440715,
+        "ssim_every10": 0.9586100081909471,
+        "static_output_temporal_std_gray": 1.6781364679336548,
+        "static_error_temporal_std_gray": 1.6306174993515015,
+        "moving_mae_gray": 7.204373359680176,
+        "low_amplitude_moving_mae_gray": 7.198990821838379,
+        "brightness_error_temporal_std_gray": 0.5884406493963696,
+        "contrast_error_temporal_std_gray": 0.8099579220449135,
+        "mean_full_rawgrid_difference_gray": 3.7390164812405904
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": 0.6985470771482518,
+        "ssim_every10": 0.0014896039937744021,
+        "static_output_temporal_std_gray": 0.04967617988586426,
+        "static_error_temporal_std_gray": 0.010782241821289062,
+        "moving_mae_gray": -0.642338752746582,
+        "low_amplitude_moving_mae_gray": -0.6376113891601562,
+        "brightness_error_temporal_std_gray": 0.0670701642291116,
+        "contrast_error_temporal_std_gray": 0.11870661819403672
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "body3_quantsearch",
+      "same_round_file_tag": "preserve_cal_refsplit",
+      "GPU_mean_ms": 0.29162447969118754,
+      "GPU_p95_ms": 0.29500800371170044,
+      "quality_absolute": {
+        "psnr_db": 27.857657312292464,
+        "ssim_every10": 0.9571204041971727,
+        "static_output_temporal_std_gray": 1.6284602880477905,
+        "static_error_temporal_std_gray": 1.6198352575302124,
+        "moving_mae_gray": 7.846712112426758,
+        "low_amplitude_moving_mae_gray": 7.836602210998535,
+        "brightness_error_temporal_std_gray": 0.521370485167258,
+        "contrast_error_temporal_std_gray": 0.6912513038508767,
+        "mean_full_rawgrid_difference_gray": 2.5550114194552105
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": 0.0,
+        "ssim_every10": 0.0,
+        "static_output_temporal_std_gray": 0.0,
+        "static_error_temporal_std_gray": 0.0,
+        "moving_mae_gray": 0.0,
+        "low_amplitude_moving_mae_gray": 0.0,
+        "brightness_error_temporal_std_gray": 0.0,
+        "contrast_error_temporal_std_gray": 0.0
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel",
+      "same_round_file_tag": "preserve_cal_refsplit",
+      "GPU_mean_ms": 0.3350010663767656,
+      "GPU_p95_ms": 0.33808318972587587,
+      "quality_absolute": {
+        "psnr_db": 27.85977972000705,
+        "ssim_every10": 0.9566607810775646,
+        "static_output_temporal_std_gray": 1.6468144655227661,
+        "static_error_temporal_std_gray": 1.638369083404541,
+        "moving_mae_gray": 7.842279434204102,
+        "low_amplitude_moving_mae_gray": 7.832147121429443,
+        "brightness_error_temporal_std_gray": 0.5845208585963808,
+        "contrast_error_temporal_std_gray": 0.8047364056917636,
+        "mean_full_rawgrid_difference_gray": 2.5685065468152364
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": 0.002122407714587382,
+        "ssim_every10": -0.0004596231196081213,
+        "static_output_temporal_std_gray": 0.018354177474975586,
+        "static_error_temporal_std_gray": 0.018533825874328613,
+        "moving_mae_gray": -0.00443267822265625,
+        "low_amplitude_moving_mae_gray": -0.004455089569091797,
+        "brightness_error_temporal_std_gray": 0.06315037342912277,
+        "contrast_error_temporal_std_gray": 0.11348510184088689
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_gtweak_refsplit",
+      "same_round_file_tag": "preserve_cal_refsplit",
+      "GPU_mean_ms": 0.21770586634675662,
+      "GPU_p95_ms": 0.2231391929090023,
+      "quality_absolute": {
+        "psnr_db": 28.55691793037794,
+        "ssim_every10": 0.9585966768669324,
+        "static_output_temporal_std_gray": 1.678309679031372,
+        "static_error_temporal_std_gray": 1.630798578262329,
+        "moving_mae_gray": 7.204201698303223,
+        "low_amplitude_moving_mae_gray": 7.198807716369629,
+        "brightness_error_temporal_std_gray": 0.6035748313767111,
+        "contrast_error_temporal_std_gray": 0.8100869325709446,
+        "mean_full_rawgrid_difference_gray": 3.7398516217867535
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": 0.699260618085475,
+        "ssim_every10": 0.0014762726697596928,
+        "static_output_temporal_std_gray": 0.04984939098358154,
+        "static_error_temporal_std_gray": 0.0109633207321167,
+        "moving_mae_gray": -0.6425104141235352,
+        "low_amplitude_moving_mae_gray": -0.6377944946289062,
+        "brightness_error_temporal_std_gray": 0.08220434620945305,
+        "contrast_error_temporal_std_gray": 0.11883562872006781
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "body3_quantsearch",
+      "same_round_file_tag": "gtweak",
+      "GPU_mean_ms": 0.28803765306870144,
+      "GPU_p95_ms": 0.28928319811820985,
+      "quality_absolute": {
+        "psnr_db": 25.8591126809904,
+        "ssim_every10": 0.9493884375300565,
+        "static_output_temporal_std_gray": 2.0237107276916504,
+        "static_error_temporal_std_gray": 1.8670954704284668,
+        "moving_mae_gray": 9.567201614379883,
+        "low_amplitude_moving_mae_gray": 9.567953109741211,
+        "brightness_error_temporal_std_gray": 0.7525466129235697,
+        "contrast_error_temporal_std_gray": 1.1020590069465022,
+        "mean_full_rawgrid_difference_gray": 1.0119033704201381
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": 0.0,
+        "ssim_every10": 0.0,
+        "static_output_temporal_std_gray": 0.0,
+        "static_error_temporal_std_gray": 0.0,
+        "moving_mae_gray": 0.0,
+        "low_amplitude_moving_mae_gray": 0.0,
+        "brightness_error_temporal_std_gray": 0.0,
+        "contrast_error_temporal_std_gray": 0.0
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_quarter_w32_3x3_body1_gtweak",
+      "same_round_file_tag": "gtweak",
+      "GPU_mean_ms": 0.13776965335011482,
+      "GPU_p95_ms": 0.13981279954314232,
+      "quality_absolute": {
+        "psnr_db": 25.37977425737837,
+        "ssim_every10": 0.9487636700281138,
+        "static_output_temporal_std_gray": 1.988857388496399,
+        "static_error_temporal_std_gray": 1.8258146047592163,
+        "moving_mae_gray": 10.401126861572266,
+        "low_amplitude_moving_mae_gray": 10.40251636505127,
+        "brightness_error_temporal_std_gray": 0.7764671841253477,
+        "contrast_error_temporal_std_gray": 1.1655062070896731,
+        "mean_full_rawgrid_difference_gray": 2.0902550399303435
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": -0.47933842361203105,
+        "ssim_every10": -0.0006247675019427357,
+        "static_output_temporal_std_gray": -0.034853339195251465,
+        "static_error_temporal_std_gray": -0.04128086566925049,
+        "moving_mae_gray": 0.8339252471923828,
+        "low_amplitude_moving_mae_gray": 0.8345632553100586,
+        "brightness_error_temporal_std_gray": 0.02392057120177793,
+        "contrast_error_temporal_std_gray": 0.06344720014317096
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "body3_quantsearch",
+      "same_round_file_tag": "preserve_cal_refsplit",
+      "GPU_mean_ms": 0.28598261351386706,
+      "GPU_p95_ms": 0.2897936016321182,
+      "quality_absolute": {
+        "psnr_db": 25.8591126809904,
+        "ssim_every10": 0.9493884375300565,
+        "static_output_temporal_std_gray": 2.0237107276916504,
+        "static_error_temporal_std_gray": 1.8670954704284668,
+        "moving_mae_gray": 9.567201614379883,
+        "low_amplitude_moving_mae_gray": 9.567953109741211,
+        "brightness_error_temporal_std_gray": 0.7525466129235697,
+        "contrast_error_temporal_std_gray": 1.1020590069465022,
+        "mean_full_rawgrid_difference_gray": 1.0119033704201381
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": 0.0,
+        "ssim_every10": 0.0,
+        "static_output_temporal_std_gray": 0.0,
+        "static_error_temporal_std_gray": 0.0,
+        "moving_mae_gray": 0.0,
+        "low_amplitude_moving_mae_gray": 0.0,
+        "brightness_error_temporal_std_gray": 0.0,
+        "contrast_error_temporal_std_gray": 0.0
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel",
+      "same_round_file_tag": "preserve_cal_refsplit",
+      "GPU_mean_ms": 0.32938768004377683,
+      "GPU_p95_ms": 0.3318751871585846,
+      "quality_absolute": {
+        "psnr_db": 25.862916207245622,
+        "ssim_every10": 0.9488914994351965,
+        "static_output_temporal_std_gray": 2.0390727519989014,
+        "static_error_temporal_std_gray": 1.8835569620132446,
+        "moving_mae_gray": 9.569535255432129,
+        "low_amplitude_moving_mae_gray": 9.570651054382324,
+        "brightness_error_temporal_std_gray": 0.792297333927061,
+        "contrast_error_temporal_std_gray": 1.1529563516368495,
+        "mean_full_rawgrid_difference_gray": 1.041306883096695
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": 0.0038035262552220672,
+        "ssim_every10": -0.0004969380948600666,
+        "static_output_temporal_std_gray": 0.015362024307250977,
+        "static_error_temporal_std_gray": 0.016461491584777832,
+        "moving_mae_gray": 0.0023336410522460938,
+        "low_amplitude_moving_mae_gray": 0.0026979446411132812,
+        "brightness_error_temporal_std_gray": 0.03975072100349131,
+        "contrast_error_temporal_std_gray": 0.050897344690347346
+      },
+      "NPU_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_gtweak_refsplit",
+      "same_round_file_tag": "preserve_cal_refsplit",
+      "GPU_mean_ms": 0.14717541369299095,
+      "GPU_p95_ms": 0.1566768005490303,
+      "quality_absolute": {
+        "psnr_db": 25.38016060042723,
+        "ssim_every10": 0.9487607331326281,
+        "static_output_temporal_std_gray": 1.9891936779022217,
+        "static_error_temporal_std_gray": 1.826227068901062,
+        "moving_mae_gray": 10.400338172912598,
+        "low_amplitude_moving_mae_gray": 10.40173053741455,
+        "brightness_error_temporal_std_gray": 0.7795281178774353,
+        "contrast_error_temporal_std_gray": 1.1640146017023234,
+        "mean_full_rawgrid_difference_gray": 2.0900199095408123
+      },
+      "quality_change_vs_published_B3": {
+        "psnr_db": -0.4789520805631682,
+        "ssim_every10": -0.0006277043974284302,
+        "static_output_temporal_std_gray": -0.03451704978942871,
+        "static_error_temporal_std_gray": -0.040868401527404785,
+        "moving_mae_gray": 0.8331365585327148,
+        "low_amplitude_moving_mae_gray": 0.8337774276733398,
+        "brightness_error_temporal_std_gray": 0.02698150495386553,
+        "contrast_error_temporal_std_gray": 0.06195559475582124
+      },
+      "NPU_verified": false
+    }
+  ],
+  "GT_native_scale_only": true,
+  "external_dynamic_correction_excluded": true,
+  "target_NPU_verified": false
+}

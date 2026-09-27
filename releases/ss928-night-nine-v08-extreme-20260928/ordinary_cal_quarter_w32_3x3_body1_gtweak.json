@@ -1,0 +1,230 @@
+{
+  "scene": "ordinary",
+  "source_case": "quarter_w32_3x3_body1_gtweak",
+  "seed": 2799,
+  "GT_used": false,
+  "test_used_for_search": false,
+  "calibration_split": "train, last four records excluded",
+  "samples": [
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        128,
+        860,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000025@train",
+      "frames": [
+        24,
+        25
+      ],
+      "raw_crop": [
+        288,
+        564,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000050@train",
+      "frames": [
+        49,
+        50
+      ],
+      "raw_crop": [
+        476,
+        732,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        892,
+        544,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        760,
+        112,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        336,
+        784,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        60,
+        544,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        292,
+        504,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    }
+  ],
+  "initial": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 1.5969527959823608,
+    "weight8_per_tensor_loss": 1.4461326599121094
+  },
+  "final": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 1.352712869644165,
+    "weight8_per_tensor_loss": 1.3461765050888062
+  },
+  "changes": [
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 9,
+      "exponent": -1,
+      "score": 2.312176764011383
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 11,
+      "exponent": -1,
+      "score": 2.2472557723522186
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 12,
+      "exponent": -1,
+      "score": 2.0691673159599304
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 14,
+      "exponent": -1,
+      "score": 2.0362110435962677
+    },
+    {
+      "sweep": 1,
+      "edge": "front_internal",
+      "channel": 13,
+      "exponent": -1,
+      "score": 2.027435213327408
+    }
+  ],
+  "logs": [
+    {
+      "sweep": 0,
+      "accepted": 4,
+      "score": 2.0362110435962677
+    },
+    {
+      "sweep": 1,
+      "accepted": 1,
+      "score": 2.027435213327408
+    },
+    {
+      "sweep": 2,
+      "accepted": 0,
+      "score": 2.027435213327408
+    }
+  ],
+  "float64_phase_max_abs": 0.0,
+  "half_coefficients_exact": true,
+  "new_inference_operators": 0,
+  "SDK_bias_activation_calibration_not_simulated": true
+}

@@ -1,0 +1,139 @@
+{
+  "results": [
+    {
+      "scene": "ordinary",
+      "reference_modules": [
+        {
+          "name": "",
+          "type": "GlobalReference"
+        },
+        {
+          "name": "encoder",
+          "type": "Sequential"
+        },
+        {
+          "name": "encoder.0",
+          "type": "Conv2d"
+        },
+        {
+          "name": "encoder.1",
+          "type": "ReLU"
+        },
+        {
+          "name": "encoder.2",
+          "type": "Conv2d"
+        },
+        {
+          "name": "encoder.3",
+          "type": "ReLU"
+        },
+        {
+          "name": "pyramid",
+          "type": "ModuleList"
+        },
+        {
+          "name": "pyramid.0",
+          "type": "Sequential"
+        },
+        {
+          "name": "pyramid.0.0",
+          "type": "AvgPool2d"
+        },
+        {
+          "name": "pyramid.0.1",
+          "type": "Conv2d"
+        },
+        {
+          "name": "pyramid.0.2",
+          "type": "ReLU"
+        },
+        {
+          "name": "pyramid.0.3",
+          "type": "Conv2d"
+        },
+        {
+          "name": "pyramid.1",
+          "type": "Sequential"
+        },
+        {
+          "name": "pyramid.1.0",
+          "type": "AvgPool2d"
+        },
+        {
+          "name": "pyramid.1.1",
+          "type": "Conv2d"
+        },
+        {
+          "name": "pyramid.1.2",
+          "type": "ReLU"
+        },
+        {
+          "name": "pyramid.1.3",
+          "type": "Conv2d"
+        },
+        {
+          "name": "pyramid.2",
+          "type": "Sequential"
+        },
+        {
+          "name": "pyramid.2.0",
+          "type": "AvgPool2d"
+        },
+        {
+          "name": "pyramid.2.1",
+          "type": "Conv2d"
+        },
+        {
+          "name": "pyramid.2.2",
+          "type": "ReLU"
+        },
+        {
+          "name": "pyramid.2.3",
+          "type": "Conv2d"
+        },
+        {
+          "name": "project",
+          "type": "Conv2d"
+        }
+      ],
+      "GELU_count": 0,
+      "status": "no GELU to replace; approximation candidate unavailable"
+    },
+    {
+      "scene": "special",
+      "reference_modules": [
+        {
+          "name": "",
+          "type": "GlobalReference"
+        },
+        {
+          "name": "encoder",
+          "type": "Sequential"
+        },
+        {
+          "name": "encoder.0",
+          "type": "Conv2d"
+        },
+        {
+          "name": "encoder.1",
+          "type": "ReLU"
+        },
+        {
+          "name": "encoder.2",
+          "type": "Conv2d"
+        },
+        {
+          "name": "encoder.3",
+          "type": "ReLU"
+        },
+        {
+          "name": "project",
+          "type": "Conv2d"
+        }
+      ],
+      "GELU_count": 0,
+      "status": "no GELU to replace; approximation candidate unavailable"
+    }
+  ],
+  "SDK_verified": false
+}

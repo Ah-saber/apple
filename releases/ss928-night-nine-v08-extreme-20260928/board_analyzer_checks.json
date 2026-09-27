@@ -1,0 +1,24 @@
+[
+  {
+    "graph": "ordinary_cal_preserve_mean6_body3_native4_alignpixel.onnx",
+    "sample_count": 200,
+    "target_expected": true,
+    "synthetic_tool_validation_only": true
+  },
+  {
+    "graph": "ordinary_cal_preserve_mean6_body3_native4_alignpixel.onnx",
+    "sample_count": 5,
+    "target_expected": false,
+    "synthetic_tool_validation_only": true
+  },
+  {
+    "graph": "ordinary_report_gray_half.onnx",
+    "sample_count": 200,
+    "target_expected": false,
+    "synthetic_tool_validation_only": true
+  },
+  {
+    "module_claimed_complete_rejected": true,
+    "synthetic_tool_validation_only": true
+  }
+]

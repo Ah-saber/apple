@@ -1,0 +1,972 @@
+{
+  "scene": "ordinary",
+  "results": {
+    "body3_quantsearch": {
+      "ranges": {
+        "front.first": {
+          "min": -16.65625,
+          "max": 11.59375,
+          "input_shape": [
+            1,
+            12,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 14.3359375,
+          "input_shape": [
+            1,
+            8,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.head.0": {
+          "min": -0.5478515625,
+          "max": 1.1015625,
+          "input_shape": [
+            1,
+            4,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.0": {
+          "min": -0.998046875,
+          "max": 1.16015625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.2": {
+          "min": 0.0,
+          "max": 1.5380859375,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.4": {
+          "min": 0.0,
+          "max": 2.318359375,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.encoder.0": {
+          "min": 0.0,
+          "max": 1.0400390625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.4423828125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.0.1": {
+          "min": 0.0,
+          "max": 0.984375,
+          "input_shape": [
+            1,
+            1,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.0.3": {
+          "min": 0.0,
+          "max": 0.890625,
+          "input_shape": [
+            1,
+            12,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.1.1": {
+          "min": 0.0,
+          "max": 0.86279296875,
+          "input_shape": [
+            1,
+            1,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.1.3": {
+          "min": 0.0,
+          "max": 0.75390625,
+          "input_shape": [
+            1,
+            12,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.2.1": {
+          "min": 0.0,
+          "max": 0.78125,
+          "input_shape": [
+            1,
+            1,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.2.3": {
+          "min": 0.0,
+          "max": 0.96533203125,
+          "input_shape": [
+            1,
+            12,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.project": {
+          "min": -0.50048828125,
+          "max": 3.330078125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.tail.1.rep_conv": {
+          "min": -0.849609375,
+          "max": 1.69921875,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": -1.16015625,
+          "max": 1.720703125,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "ordinary_train_00_frame_000.npz",
+          "sha256": "3250120eb0710b2eceef7543aea26f12963644258bac39cbf3698936239583c5",
+          "sample_id": "night/raw_20260805_195608/000000@train"
+        },
+        {
+          "file": "ordinary_train_01_frame_058.npz",
+          "sha256": "f849ab296ab841df1c5cc3ff9341dd2de6700a670fac79f1e8fb1c19d3c846b2",
+          "sample_id": "night/raw_20260805_195608/000058@train"
+        },
+        {
+          "file": "ordinary_train_02_frame_056.npz",
+          "sha256": "3d70a60c3a29df381568ddb86361beb03d7d75c846327992971aa1a37eda7dfc",
+          "sample_id": "night/raw_20260805_195715/000056@train"
+        },
+        {
+          "file": "ordinary_train_03_frame_055.npz",
+          "sha256": "af902176ab30fa707a13d99b035fc088238428a11b4277383871246b4134f3d7",
+          "sample_id": "night/raw_20260805_200247/000055@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    },
+    "cal_preserve_mean6_body3_native4_alignpixel": {
+      "ranges": {
+        "front.temporal_conv": {
+          "min": -0.55078125,
+          "max": 1.126953125,
+          "input_shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.first": {
+          "min": 0.0,
+          "max": 1.1064453125,
+          "input_shape": [
+            1,
+            16,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 70.8125,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.head.0": {
+          "min": -0.54833984375,
+          "max": 1.1015625,
+          "input_shape": [
+            1,
+            4,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.0": {
+          "min": -0.99853515625,
+          "max": 1.16015625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.2": {
+          "min": 0.0,
+          "max": 1.5380859375,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.body.4": {
+          "min": 0.0,
+          "max": 2.3203125,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.encoder.0": {
+          "min": 0.0,
+          "max": 1.0400390625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.4423828125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.0.1": {
+          "min": 0.0,
+          "max": 0.984375,
+          "input_shape": [
+            1,
+            1,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.0.3": {
+          "min": 0.0,
+          "max": 0.890625,
+          "input_shape": [
+            1,
+            12,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.1.1": {
+          "min": 0.0,
+          "max": 0.86279296875,
+          "input_shape": [
+            1,
+            1,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.1.3": {
+          "min": 0.0,
+          "max": 0.75390625,
+          "input_shape": [
+            1,
+            12,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.2.1": {
+          "min": 0.0,
+          "max": 0.78125,
+          "input_shape": [
+            1,
+            1,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.pyramid.2.3": {
+          "min": 0.0,
+          "max": 0.96533203125,
+          "input_shape": [
+            1,
+            12,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.global_reference.project": {
+          "min": -0.50048828125,
+          "max": 3.330078125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "core.model.tail.1.rep_conv": {
+          "min": -0.85009765625,
+          "max": 1.697265625,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": -0.6396484375,
+          "max": 1.720703125,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "ordinary_train_00_frame_000.npz",
+          "sha256": "3250120eb0710b2eceef7543aea26f12963644258bac39cbf3698936239583c5",
+          "sample_id": "night/raw_20260805_195608/000000@train"
+        },
+        {
+          "file": "ordinary_train_01_frame_058.npz",
+          "sha256": "f849ab296ab841df1c5cc3ff9341dd2de6700a670fac79f1e8fb1c19d3c846b2",
+          "sample_id": "night/raw_20260805_195608/000058@train"
+        },
+        {
+          "file": "ordinary_train_02_frame_056.npz",
+          "sha256": "3d70a60c3a29df381568ddb86361beb03d7d75c846327992971aa1a37eda7dfc",
+          "sample_id": "night/raw_20260805_195715/000056@train"
+        },
+        {
+          "file": "ordinary_train_03_frame_055.npz",
+          "sha256": "af902176ab30fa707a13d99b035fc088238428a11b4277383871246b4134f3d7",
+          "sample_id": "night/raw_20260805_200247/000055@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    },
+    "quarter_w32_3x3_body1_gtweak": {
+      "ranges": {
+        "front.first": {
+          "min": -0.55078125,
+          "max": 1.126953125,
+          "input_shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 1.2939453125,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "body.0": {
+          "min": 0.0,
+          "max": 1.2119140625,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.0": {
+          "min": 0.0,
+          "max": 1.0400390625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.4423828125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.0.1": {
+          "min": 0.0,
+          "max": 0.984375,
+          "input_shape": [
+            1,
+            1,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.0.3": {
+          "min": 0.0,
+          "max": 0.890625,
+          "input_shape": [
+            1,
+            12,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.1.1": {
+          "min": 0.0,
+          "max": 0.86279296875,
+          "input_shape": [
+            1,
+            1,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.1.3": {
+          "min": 0.0,
+          "max": 0.75390625,
+          "input_shape": [
+            1,
+            12,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.2.1": {
+          "min": 0.0,
+          "max": 0.78125,
+          "input_shape": [
+            1,
+            1,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.2.3": {
+          "min": 0.0,
+          "max": 0.96533203125,
+          "input_shape": [
+            1,
+            12,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "reference.project": {
+          "min": -0.50048828125,
+          "max": 3.330078125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": -0.07342529296875,
+          "max": 1.193359375,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "ordinary_train_00_frame_000.npz",
+          "sha256": "3250120eb0710b2eceef7543aea26f12963644258bac39cbf3698936239583c5",
+          "sample_id": "night/raw_20260805_195608/000000@train"
+        },
+        {
+          "file": "ordinary_train_01_frame_058.npz",
+          "sha256": "f849ab296ab841df1c5cc3ff9341dd2de6700a670fac79f1e8fb1c19d3c846b2",
+          "sample_id": "night/raw_20260805_195608/000058@train"
+        },
+        {
+          "file": "ordinary_train_02_frame_056.npz",
+          "sha256": "3d70a60c3a29df381568ddb86361beb03d7d75c846327992971aa1a37eda7dfc",
+          "sample_id": "night/raw_20260805_195715/000056@train"
+        },
+        {
+          "file": "ordinary_train_03_frame_055.npz",
+          "sha256": "af902176ab30fa707a13d99b035fc088238428a11b4277383871246b4134f3d7",
+          "sample_id": "night/raw_20260805_200247/000055@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    },
+    "quarter_w32_3x3_body1_stage1_fusedtail": {
+      "ranges": {
+        "front.first": {
+          "min": -0.55078125,
+          "max": 1.126953125,
+          "input_shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 1.3857421875,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "body.0": {
+          "min": 0.0,
+          "max": 1.2802734375,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.0": {
+          "min": 0.0,
+          "max": 1.0400390625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.4423828125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.0.1": {
+          "min": 0.0,
+          "max": 0.984375,
+          "input_shape": [
+            1,
+            1,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.0.3": {
+          "min": 0.0,
+          "max": 0.890625,
+          "input_shape": [
+            1,
+            12,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.1.1": {
+          "min": 0.0,
+          "max": 0.86279296875,
+          "input_shape": [
+            1,
+            1,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.1.3": {
+          "min": 0.0,
+          "max": 0.75390625,
+          "input_shape": [
+            1,
+            12,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.2.1": {
+          "min": 0.0,
+          "max": 0.78125,
+          "input_shape": [
+            1,
+            1,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.2.3": {
+          "min": 0.0,
+          "max": 0.96533203125,
+          "input_shape": [
+            1,
+            12,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "reference.project": {
+          "min": -0.50048828125,
+          "max": 3.330078125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": -0.07342529296875,
+          "max": 1.2080078125,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "ordinary_train_00_frame_000.npz",
+          "sha256": "3250120eb0710b2eceef7543aea26f12963644258bac39cbf3698936239583c5",
+          "sample_id": "night/raw_20260805_195608/000000@train"
+        },
+        {
+          "file": "ordinary_train_01_frame_058.npz",
+          "sha256": "f849ab296ab841df1c5cc3ff9341dd2de6700a670fac79f1e8fb1c19d3c846b2",
+          "sample_id": "night/raw_20260805_195608/000058@train"
+        },
+        {
+          "file": "ordinary_train_02_frame_056.npz",
+          "sha256": "3d70a60c3a29df381568ddb86361beb03d7d75c846327992971aa1a37eda7dfc",
+          "sample_id": "night/raw_20260805_195715/000056@train"
+        },
+        {
+          "file": "ordinary_train_03_frame_055.npz",
+          "sha256": "af902176ab30fa707a13d99b035fc088238428a11b4277383871246b4134f3d7",
+          "sample_id": "night/raw_20260805_200247/000055@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    },
+    "quarter_w32_3x3_body1_gtweak_refsplit": {
+      "ranges": {
+        "front.first": {
+          "min": -0.55078125,
+          "max": 1.126953125,
+          "input_shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "module": "Conv2d"
+        },
+        "front.last": {
+          "min": 0.0,
+          "max": 1.2939453125,
+          "input_shape": [
+            1,
+            16,
+            512,
+            640
+          ],
+          "module": "Conv2d"
+        },
+        "body.0": {
+          "min": 0.0,
+          "max": 1.2119140625,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        },
+        "output.conv": {
+          "min": 0.0,
+          "max": 1.22265625,
+          "input_shape": [
+            1,
+            32,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.0": {
+          "min": 0.0,
+          "max": 1.0400390625,
+          "input_shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.encoder.2": {
+          "min": 0.0,
+          "max": 1.4423828125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.0.1": {
+          "min": 0.0,
+          "max": 0.984375,
+          "input_shape": [
+            1,
+            1,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.0.3": {
+          "min": 0.0,
+          "max": 0.890625,
+          "input_shape": [
+            1,
+            12,
+            32,
+            32
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.1.1": {
+          "min": 0.0,
+          "max": 0.86279296875,
+          "input_shape": [
+            1,
+            1,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.1.3": {
+          "min": 0.0,
+          "max": 0.75390625,
+          "input_shape": [
+            1,
+            12,
+            16,
+            16
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.2.1": {
+          "min": 0.0,
+          "max": 0.78125,
+          "input_shape": [
+            1,
+            1,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "reference.pyramid.2.3": {
+          "min": 0.0,
+          "max": 0.96533203125,
+          "input_shape": [
+            1,
+            12,
+            8,
+            8
+          ],
+          "module": "Conv2d"
+        },
+        "reference_embed": {
+          "min": -0.50048828125,
+          "max": 3.330078125,
+          "input_shape": [
+            1,
+            12,
+            64,
+            64
+          ],
+          "module": "Conv2d"
+        },
+        "reference_phase": {
+          "min": -0.50048828125,
+          "max": 3.314453125,
+          "input_shape": [
+            1,
+            16,
+            256,
+            320
+          ],
+          "module": "Conv2d"
+        }
+      },
+      "sources": [
+        {
+          "file": "ordinary_train_00_frame_000.npz",
+          "sha256": "3250120eb0710b2eceef7543aea26f12963644258bac39cbf3698936239583c5",
+          "sample_id": "night/raw_20260805_195608/000000@train"
+        },
+        {
+          "file": "ordinary_train_01_frame_058.npz",
+          "sha256": "f849ab296ab841df1c5cc3ff9341dd2de6700a670fac79f1e8fb1c19d3c846b2",
+          "sample_id": "night/raw_20260805_195608/000058@train"
+        },
+        {
+          "file": "ordinary_train_02_frame_056.npz",
+          "sha256": "3d70a60c3a29df381568ddb86361beb03d7d75c846327992971aa1a37eda7dfc",
+          "sample_id": "night/raw_20260805_195715/000056@train"
+        },
+        {
+          "file": "ordinary_train_03_frame_055.npz",
+          "sha256": "af902176ab30fa707a13d99b035fc088238428a11b4277383871246b4134f3d7",
+          "sample_id": "night/raw_20260805_200247/000055@train"
+        }
+      ],
+      "GT_used": false,
+      "calibration_split": "training records; test labels unused"
+    }
+  },
+  "SDK_mixed_precision_unknown": true,
+  "ranges_from_four_training_input_vectors": true
+}

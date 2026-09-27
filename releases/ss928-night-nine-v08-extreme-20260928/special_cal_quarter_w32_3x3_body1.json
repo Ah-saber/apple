@@ -1,0 +1,230 @@
+{
+  "scene": "special",
+  "source_case": "quarter_w32_3x3_body1",
+  "seed": 2799,
+  "GT_used": false,
+  "test_used_for_search": false,
+  "calibration_split": "train, last four records excluded",
+  "samples": [
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        128,
+        736,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000016@train",
+      "frames": [
+        15,
+        16
+      ],
+      "raw_crop": [
+        288,
+        572,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000032@train",
+      "frames": [
+        31,
+        32
+      ],
+      "raw_crop": [
+        476,
+        664,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        892,
+        560,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000065@train",
+      "frames": [
+        64,
+        65
+      ],
+      "raw_crop": [
+        760,
+        320,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000082@train",
+      "frames": [
+        81,
+        82
+      ],
+      "raw_crop": [
+        336,
+        692,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000098@train",
+      "frames": [
+        97,
+        98
+      ],
+      "raw_crop": [
+        60,
+        560,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train",
+      "frames": [
+        114,
+        115
+      ],
+      "raw_crop": [
+        292,
+        536,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    }
+  ],
+  "initial": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 3.9327080249786377,
+    "weight8_per_tensor_loss": 7.122378826141357
+  },
+  "final": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 4.801855564117432,
+    "weight8_per_tensor_loss": 3.446166515350342
+  },
+  "changes": [
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 0,
+      "exponent": 1,
+      "score": 7.886899828910828
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 7,
+      "exponent": 1,
+      "score": 7.4703474044799805
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 14,
+      "exponent": 1,
+      "score": 6.942583501338959
+    },
+    {
+      "sweep": 0,
+      "edge": "body_reference_tail",
+      "channel": 30,
+      "exponent": 1,
+      "score": 6.902591526508331
+    },
+    {
+      "sweep": 1,
+      "edge": "front_internal",
+      "channel": 10,
+      "exponent": 1,
+      "score": 6.863861083984375
+    }
+  ],
+  "logs": [
+    {
+      "sweep": 0,
+      "accepted": 4,
+      "score": 6.902591526508331
+    },
+    {
+      "sweep": 1,
+      "accepted": 1,
+      "score": 6.863861083984375
+    },
+    {
+      "sweep": 2,
+      "accepted": 0,
+      "score": 6.863861083984375
+    }
+  ],
+  "float64_phase_max_abs": 0.0,
+  "half_coefficients_exact": true,
+  "new_inference_operators": 0,
+  "SDK_bias_activation_calibration_not_simulated": true
+}

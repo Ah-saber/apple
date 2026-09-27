@@ -1,0 +1,342 @@
+{
+  "scene": "ordinary",
+  "source_case": "quarter_w32_3x3_body1_gtweak_refsplit",
+  "seed": 2799,
+  "GT_used": false,
+  "test_used_for_search": false,
+  "calibration_split": "train, last four records excluded",
+  "samples": [
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        128,
+        860,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000025@train",
+      "frames": [
+        24,
+        25
+      ],
+      "raw_crop": [
+        288,
+        564,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000050@train",
+      "frames": [
+        49,
+        50
+      ],
+      "raw_crop": [
+        476,
+        732,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000015@train",
+      "frames": [
+        14,
+        15
+      ],
+      "raw_crop": [
+        892,
+        544,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        760,
+        112,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000005@train",
+      "frames": [
+        4,
+        5
+      ],
+      "raw_crop": [
+        336,
+        784,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "raw_crop": [
+        60,
+        544,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "raw_crop": [
+        292,
+        504,
+        128,
+        128
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    }
+  ],
+  "initial": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 1.6795183420181274,
+    "weight8_per_tensor_loss": 1.5457926988601685
+  },
+  "final": {
+    "float_mae_gray": 0.0,
+    "weight8_per_output_loss": 1.2373896837234497,
+    "weight8_per_tensor_loss": 1.2239508628845215
+  },
+  "changes": [
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 8,
+      "exponent": -1,
+      "score": 2.4743830263614655
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 9,
+      "exponent": -1,
+      "score": 2.4708885848522186
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 11,
+      "exponent": -1,
+      "score": 2.4317424297332764
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 12,
+      "exponent": -1,
+      "score": 2.234676271677017
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 14,
+      "exponent": -1,
+      "score": 2.1549603641033173
+    },
+    {
+      "sweep": 0,
+      "edge": "front_internal",
+      "channel": 15,
+      "exponent": -1,
+      "score": 2.1215029060840607
+    },
+    {
+      "sweep": 0,
+      "edge": "reference_embed_phase",
+      "channel": 0,
+      "exponent": -1,
+      "score": 2.1067526638507843
+    },
+    {
+      "sweep": 0,
+      "edge": "reference_embed_phase",
+      "channel": 4,
+      "exponent": -1,
+      "score": 2.0992257595062256
+    },
+    {
+      "sweep": 0,
+      "edge": "reference_embed_phase",
+      "channel": 5,
+      "exponent": 1,
+      "score": 2.0737331807613373
+    },
+    {
+      "sweep": 0,
+      "edge": "reference_embed_phase",
+      "channel": 7,
+      "exponent": 1,
+      "score": 2.0655698478221893
+    },
+    {
+      "sweep": 0,
+      "edge": "reference_embed_phase",
+      "channel": 9,
+      "exponent": -1,
+      "score": 2.0594481825828552
+    },
+    {
+      "sweep": 0,
+      "edge": "reference_embed_phase",
+      "channel": 11,
+      "exponent": -1,
+      "score": 2.0570618212223053
+    },
+    {
+      "sweep": 0,
+      "edge": "reference_embed_phase",
+      "channel": 12,
+      "exponent": -1,
+      "score": 1.9882532060146332
+    },
+    {
+      "sweep": 1,
+      "edge": "front_internal",
+      "channel": 9,
+      "exponent": 1,
+      "score": 1.9866130352020264
+    },
+    {
+      "sweep": 1,
+      "edge": "front_internal",
+      "channel": 13,
+      "exponent": -1,
+      "score": 1.9735051691532135
+    },
+    {
+      "sweep": 1,
+      "edge": "reference_embed_phase",
+      "channel": 1,
+      "exponent": -1,
+      "score": 1.9724997878074646
+    },
+    {
+      "sweep": 1,
+      "edge": "reference_embed_phase",
+      "channel": 2,
+      "exponent": -1,
+      "score": 1.971928209066391
+    },
+    {
+      "sweep": 1,
+      "edge": "reference_embed_phase",
+      "channel": 3,
+      "exponent": -1,
+      "score": 1.9548599123954773
+    },
+    {
+      "sweep": 1,
+      "edge": "reference_embed_phase",
+      "channel": 7,
+      "exponent": 1,
+      "score": 1.8895796239376068
+    },
+    {
+      "sweep": 2,
+      "edge": "reference_embed_phase",
+      "channel": 0,
+      "exponent": -1,
+      "score": 1.856290340423584
+    },
+    {
+      "sweep": 2,
+      "edge": "reference_embed_phase",
+      "channel": 8,
+      "exponent": -1,
+      "score": 1.8527248203754425
+    }
+  ],
+  "logs": [
+    {
+      "sweep": 0,
+      "accepted": 13,
+      "score": 1.9882532060146332
+    },
+    {
+      "sweep": 1,
+      "accepted": 6,
+      "score": 1.8895796239376068
+    },
+    {
+      "sweep": 2,
+      "accepted": 2,
+      "score": 1.8527248203754425
+    }
+  ],
+  "float64_phase_max_abs": 0.0,
+  "half_coefficients_exact": true,
+  "new_inference_operators": 0,
+  "SDK_bias_activation_calibration_not_simulated": true
+}

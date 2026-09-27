@@ -1,0 +1,29 @@
+EXTRA_PROBE reference_control_parent
+EXTRA_PROBE reference_control_refpad16
+EXTRA_PROBE reference_control_meanfirst
+EXTRA_PROBE reference_control_refpad16_meanfirst
+EXTRA_PROBE quarter_front3x3
+EXTRA_PROBE quarter_body32
+EXTRA_PROBE quarter_tail32
+EXTRA_PROBE quarter_fused_tail_projection
+EXTRA_PROBE quarter_reference_resize32
+/data/zhangbenzhuang/huawei_sr/runs/SS928-EXTREME-20260927/code_snapshot/runtime/deployment_candidates.py:120: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if h%self.group:raise ValueError('Feature height must be divisible by row grouping')
+EXTRA_PROBE output_factor2_blocked_split0_full0
+EXTRA_PROBE output_factor2_blocked_split0_full1
+EXTRA_PROBE output_factor2_blocked_split1_full0
+EXTRA_PROBE output_factor2_blocked_split1_full1
+EXTRA_PROBE output_factor4_blocked_split0_full0
+EXTRA_PROBE output_factor4_blocked_split0_full1
+EXTRA_PROBE output_factor4_blocked_split1_full0
+EXTRA_PROBE output_factor4_blocked_split1_full1
+EXTRA_PROBE report_gray_half
+EXTRA_PROBE report_block16_half
+EXTRA_PROBE block16_restore_half
+EXTRA_PROBE input_nchw9_half
+EXTRA_PROBE input_nhwc16_half
+EXTRA_PROBE report_gray_float32
+EXTRA_PROBE report_block16_float32
+EXTRA_PROBE block16_restore_float32
+EXTRA_PROBE input_nchw9_float32
+EXTRA_PROBE input_nhwc16_float32

@@ -1,0 +1,37 @@
+{
+  "issue": "Initial wide script changed metadata/scheduler to24000 but range endpoint remained16001; corrected and continued8000 steps. Original raw files preserved.",
+  "models": [
+    {
+      "original_file": "ordinary_quarter_w32_k4_body1_024000.pt",
+      "original_sha256": "30bfff63c6867e29cfb30d7a358172d8e9b132cf59de58da2a1fda540fe93135",
+      "actual_attempted_iterations": 16000,
+      "actual_successful_optimizer_updates": 15985,
+      "corrected_stage1_file": "ordinary_quarter_w32_k4_body1_016000_stage1.pt",
+      "planned_continuation": 8000
+    },
+    {
+      "original_file": "ordinary_quarter_w32_3x3_body1_024000.pt",
+      "original_sha256": "5c8719e215f6756ef40bb07de4fb6ab2b800251913e73b316c211ad6aa2dc82d",
+      "actual_attempted_iterations": 16000,
+      "actual_successful_optimizer_updates": 15986,
+      "corrected_stage1_file": "ordinary_quarter_w32_3x3_body1_016000_stage1.pt",
+      "planned_continuation": 8000
+    },
+    {
+      "original_file": "special_quarter_w32_k4_body1_024000.pt",
+      "original_sha256": "7f45af45a3175fe9a774e963898b261b12aacbe84260b72cb6cbf0c67b2c8c1b",
+      "actual_attempted_iterations": 16000,
+      "actual_successful_optimizer_updates": 15984,
+      "corrected_stage1_file": "special_quarter_w32_k4_body1_016000_stage1.pt",
+      "planned_continuation": 8000
+    },
+    {
+      "original_file": "special_quarter_w32_3x3_body1_024000.pt",
+      "original_sha256": "32fac3132f6edc3d84d6352d2009327a3549f46ca279d484549dbd117e7299d3",
+      "actual_attempted_iterations": 16000,
+      "actual_successful_optimizer_updates": 15985,
+      "corrected_stage1_file": "special_quarter_w32_3x3_body1_016000_stage1.pt",
+      "planned_continuation": 8000
+    }
+  ]
+}

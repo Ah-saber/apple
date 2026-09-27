@@ -1,0 +1,115 @@
+{
+  "controls": [
+    {
+      "factor": 2,
+      "shape": [
+        8,
+        5
+      ],
+      "split": false,
+      "all_pixels_double_max_abs": 1.7053025658242404e-13
+    },
+    {
+      "factor": 2,
+      "shape": [
+        8,
+        5
+      ],
+      "split": true,
+      "all_pixels_double_max_abs": 1.7053025658242404e-13
+    },
+    {
+      "factor": 2,
+      "shape": [
+        16,
+        7
+      ],
+      "split": false,
+      "all_pixels_double_max_abs": 3.126388037344441e-13
+    },
+    {
+      "factor": 2,
+      "shape": [
+        16,
+        7
+      ],
+      "split": true,
+      "all_pixels_double_max_abs": 3.126388037344441e-13
+    },
+    {
+      "factor": 2,
+      "shape": [
+        24,
+        9
+      ],
+      "split": false,
+      "all_pixels_double_max_abs": 2.2737367544323206e-13
+    },
+    {
+      "factor": 2,
+      "shape": [
+        24,
+        9
+      ],
+      "split": true,
+      "all_pixels_double_max_abs": 2.2737367544323206e-13
+    },
+    {
+      "factor": 4,
+      "shape": [
+        4,
+        5
+      ],
+      "split": false,
+      "all_pixels_double_max_abs": 1.1368683772161603e-13
+    },
+    {
+      "factor": 4,
+      "shape": [
+        4,
+        5
+      ],
+      "split": true,
+      "all_pixels_double_max_abs": 1.1368683772161603e-13
+    },
+    {
+      "factor": 4,
+      "shape": [
+        8,
+        7
+      ],
+      "split": false,
+      "all_pixels_double_max_abs": 2.4868995751603507e-13
+    },
+    {
+      "factor": 4,
+      "shape": [
+        8,
+        7
+      ],
+      "split": true,
+      "all_pixels_double_max_abs": 2.4868995751603507e-13
+    },
+    {
+      "factor": 4,
+      "shape": [
+        12,
+        9
+      ],
+      "split": false,
+      "all_pixels_double_max_abs": 3.979039320256561e-13
+    },
+    {
+      "factor": 4,
+      "shape": [
+        12,
+        9
+      ],
+      "split": true,
+      "all_pixels_double_max_abs": 3.979039320256561e-13
+    }
+  ],
+  "full_gray_restore_inside_graph": true,
+  "blocked_only_diagnostic_not_goal": true,
+  "SDK_verified": false
+}

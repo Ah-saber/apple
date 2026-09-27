@@ -1,0 +1,36 @@
+[
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "exact_f32_hash_pass": true,
+    "shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "context_shape": [
+      1,
+      1,
+      64,
+      64
+    ]
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "exact_f32_hash_pass": true,
+    "shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "context_shape": [
+      1,
+      1,
+      64,
+      64
+    ]
+  }
+]

@@ -1,0 +1,734 @@
+{
+  "scene": "special",
+  "probes": [
+    {
+      "file": "special_reference_control_parent.onnx",
+      "tag": "reference_control_parent",
+      "input_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        64,
+        64
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2803,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_reference_control_refpad16.onnx",
+      "tag": "reference_control_refpad16",
+      "input_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        64,
+        64
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2804,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_reference_control_meanfirst.onnx",
+      "tag": "reference_control_meanfirst",
+      "input_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        64,
+        64
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2805,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_reference_control_refpad16_meanfirst.onnx",
+      "tag": "reference_control_refpad16_meanfirst",
+      "input_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        64,
+        64
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2806,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_quarter_front3x3.onnx",
+      "tag": "quarter_front3x3",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2807,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_quarter_body32.onnx",
+      "tag": "quarter_body32",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2808,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_quarter_tail32.onnx",
+      "tag": "quarter_tail32",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        256,
+        320
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2809,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_quarter_fused_tail_projection.onnx",
+      "tag": "quarter_fused_tail_projection",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        256,
+        320
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2810,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_quarter_reference_resize32.onnx",
+      "tag": "quarter_reference_resize32",
+      "input_shape": [
+        1,
+        32,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2811,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_factor2_blocked_split0_full0.onnx",
+      "tag": "output_factor2_blocked_split0_full0",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2812,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_factor2_blocked_split0_full1.onnx",
+      "tag": "output_factor2_blocked_split0_full1",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2813,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_factor2_blocked_split1_full0.onnx",
+      "tag": "output_factor2_blocked_split1_full0",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2814,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_factor2_blocked_split1_full1.onnx",
+      "tag": "output_factor2_blocked_split1_full1",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2815,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_factor4_blocked_split0_full0.onnx",
+      "tag": "output_factor4_blocked_split0_full0",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2816,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_factor4_blocked_split0_full1.onnx",
+      "tag": "output_factor4_blocked_split0_full1",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2817,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_factor4_blocked_split1_full0.onnx",
+      "tag": "output_factor4_blocked_split1_full0",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2818,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_factor4_blocked_split1_full1.onnx",
+      "tag": "output_factor4_blocked_split1_full1",
+      "input_shape": [
+        1,
+        32,
+        256,
+        320
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2819,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_report_gray_half.onnx",
+      "tag": "report_gray_half",
+      "input_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2820,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_report_block16_half.onnx",
+      "tag": "report_block16_half",
+      "input_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2821,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_block16_restore_half.onnx",
+      "tag": "block16_restore_half",
+      "input_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2822,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_input_nchw9_half.onnx",
+      "tag": "input_nchw9_half",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2823,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_input_nhwc16_half.onnx",
+      "tag": "input_nhwc16_half",
+      "input_shape": [
+        1,
+        1024,
+        1280,
+        16
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1024,
+        1280,
+        16
+      ],
+      "output_dtype": "torch.float16",
+      "runtime_input_seed": 2824,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_report_gray_float32.onnx",
+      "tag": "report_gray_float32",
+      "input_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "input_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float32",
+      "runtime_input_seed": 2825,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_report_block16_float32.onnx",
+      "tag": "report_block16_float32",
+      "input_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "input_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "output_dtype": "torch.float32",
+      "runtime_input_seed": 2826,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_block16_restore_float32.onnx",
+      "tag": "block16_restore_float32",
+      "input_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "input_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float32",
+      "runtime_input_seed": 2827,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_input_nchw9_float32.onnx",
+      "tag": "input_nchw9_float32",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_dtype": "torch.float32",
+      "runtime_input_seed": 2828,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_input_nhwc16_float32.onnx",
+      "tag": "input_nhwc16_float32",
+      "input_shape": [
+        1,
+        1024,
+        1280,
+        16
+      ],
+      "input_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1024,
+        1280,
+        16
+      ],
+      "output_dtype": "torch.float32",
+      "runtime_input_seed": 2829,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "dtype": "float16",
+      "shape": [
+        1,
+        1,
+        16,
+        7
+      ],
+      "byte_exact": true,
+      "samples": 200
+    },
+    {
+      "dtype": "float16",
+      "shape": [
+        1,
+        1,
+        48,
+        19
+      ],
+      "byte_exact": true,
+      "samples": 200
+    },
+    {
+      "dtype": "float32",
+      "shape": [
+        1,
+        1,
+        16,
+        7
+      ],
+      "byte_exact": true,
+      "samples": 200
+    },
+    {
+      "dtype": "float32",
+      "shape": [
+        1,
+        1,
+        48,
+        19
+      ],
+      "byte_exact": true,
+      "samples": 200
+    }
+  ],
+  "local_x86_correctness_only": true,
+  "ARM_time_unverified": true,
+  "complete_target_claim": false
+}

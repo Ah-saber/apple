@@ -1,0 +1,20 @@
+PROBE front_parent
+/data/zhangbenzhuang/huawei_sr/runs/SS928-EXTREME-20260927/code_snapshot/runtime/continuation_candidates.py:53: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if self.padding and (x.shape[-2]%2 or x.shape[-1]%2):raise ValueError('Statistics3 requires even sensor dimensions')
+PROBE front_stats3_relu32
+PROBE head_body4
+PROBE head_body2
+PROBE reference_encode
+PROBE reference_resize
+PROBE tail
+PROBE output_projection16
+PROBE output_fixed6
+PROBE output_resize2
+PROBE output_resize3
+PROBE full_half_relu
+PROBE front3x1
+PROBE front3x3
+PROBE front5x1
+PROBE output_split3
+PROBE output_native4_resize
+PROBE output_native4_deconv

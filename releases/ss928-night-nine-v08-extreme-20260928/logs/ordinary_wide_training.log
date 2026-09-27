@@ -1,0 +1,53 @@
+CACHE ordinary 0
+CACHE ordinary 5
+CACHE ordinary 11
+CACHE ordinary 17
+CACHE ordinary 23
+CACHE ordinary 28
+CACHE ordinary 34
+CACHE ordinary 40
+CACHE ordinary 46
+CACHE ordinary 51
+CACHE ordinary 57
+CACHE ordinary 3
+CACHE ordinary 9
+CACHE ordinary 15
+CACHE ordinary 20
+CACHE ordinary 26
+CACHE ordinary 32
+CACHE ordinary 38
+CACHE ordinary 43
+CACHE ordinary 49
+CACHE ordinary 55
+CACHE ordinary 1
+CACHE ordinary 7
+CACHE ordinary 12
+CACHE ordinary 18
+CACHE ordinary 24
+CACHE ordinary 30
+CACHE ordinary 35
+CACHE ordinary 41
+CACHE ordinary 47
+CACHE ordinary 53
+CACHE ordinary 59
+/data/zhangbenzhuang/miniconda3/envs/test/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:182: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+TRAIN ordinary k4 1 {"step": 1, "loss": 30.498491287231445, "pixel_gray": 16.085033416748047, "temporal_gray": 1.5783454179763794, "weak_temporal_gray": 1.5903067588806152, "heldout_two_pairs_mae_gray": 12.028349876403809, "elapsed_seconds": 0.10528836399316788}
+TRAIN ordinary k4 1 {"step": 2000, "loss": 10.580229759216309, "pixel_gray": 5.044124126434326, "temporal_gray": 0.7021090388298035, "weak_temporal_gray": 0.9437059164047241, "heldout_two_pairs_mae_gray": 3.3790996074676514, "elapsed_seconds": 5.808231297880411}
+TRAIN ordinary k4 1 {"step": 4000, "loss": 6.790830135345459, "pixel_gray": 2.972005844116211, "temporal_gray": 0.8113394379615784, "weak_temporal_gray": 0.828075110912323, "heldout_two_pairs_mae_gray": 2.385798692703247, "elapsed_seconds": 12.116426988039166}
+TRAIN ordinary k4 1 {"step": 6000, "loss": 5.207977771759033, "pixel_gray": 2.269575357437134, "temporal_gray": 0.6751986742019653, "weak_temporal_gray": 0.6762146353721619, "heldout_two_pairs_mae_gray": 2.718651056289673, "elapsed_seconds": 17.824498884845525}
+TRAIN ordinary k4 1 {"step": 8000, "loss": 8.73090934753418, "pixel_gray": 4.329835891723633, "temporal_gray": 0.6766563653945923, "weak_temporal_gray": 0.6892799735069275, "heldout_two_pairs_mae_gray": 2.5299203395843506, "elapsed_seconds": 23.61633333284408}
+TRAIN ordinary k4 1 {"step": 10000, "loss": 4.9120354652404785, "pixel_gray": 2.2375967502593994, "temporal_gray": 0.4568866491317749, "weak_temporal_gray": 0.6215250492095947, "heldout_two_pairs_mae_gray": 2.0331621170043945, "elapsed_seconds": 29.58851654594764}
+TRAIN ordinary k4 1 {"step": 12000, "loss": 7.6945600509643555, "pixel_gray": 3.746666193008423, "temporal_gray": 0.6683889627456665, "weak_temporal_gray": 0.6812410354614258, "heldout_two_pairs_mae_gray": 1.7919470071792603, "elapsed_seconds": 35.348931131884456}
+TRAIN ordinary k4 1 {"step": 14000, "loss": 7.164125442504883, "pixel_gray": 3.461092948913574, "temporal_gray": 0.6101946830749512, "weak_temporal_gray": 0.6185990571975708, "heldout_two_pairs_mae_gray": 1.7389968633651733, "elapsed_seconds": 41.16155330091715}
+TRAIN ordinary k4 1 {"step": 16000, "loss": 6.9921393394470215, "pixel_gray": 3.438483238220215, "temporal_gray": 0.5908614993095398, "weak_temporal_gray": 0.5977514386177063, "heldout_two_pairs_mae_gray": 1.8185011148452759, "elapsed_seconds": 47.91546154115349}
+TRAIN ordinary 3x3 1 {"step": 1, "loss": 30.498491287231445, "pixel_gray": 16.085033416748047, "temporal_gray": 1.5783454179763794, "weak_temporal_gray": 1.5903067588806152, "heldout_two_pairs_mae_gray": 12.028349876403809, "elapsed_seconds": 0.020992693956941366}
+TRAIN ordinary 3x3 1 {"step": 2000, "loss": 9.92115592956543, "pixel_gray": 4.783109664916992, "temporal_gray": 0.5797731876373291, "weak_temporal_gray": 0.7779610753059387, "heldout_two_pairs_mae_gray": 3.514498472213745, "elapsed_seconds": 6.373267436400056}
+TRAIN ordinary 3x3 1 {"step": 4000, "loss": 7.770827770233154, "pixel_gray": 3.5546061992645264, "temporal_gray": 0.6193885207176208, "weak_temporal_gray": 0.6318277716636658, "heldout_two_pairs_mae_gray": 2.8806838989257812, "elapsed_seconds": 12.668335595168173}
+TRAIN ordinary 3x3 1 {"step": 6000, "loss": 3.979470729827881, "pixel_gray": 1.7356537580490112, "temporal_gray": 0.5004718899726868, "weak_temporal_gray": 0.5048703551292419, "heldout_two_pairs_mae_gray": 2.043430805206299, "elapsed_seconds": 19.62397067528218}
+TRAIN ordinary 3x3 1 {"step": 8000, "loss": 7.155881404876709, "pixel_gray": 3.584909439086914, "temporal_gray": 0.51092928647995, "weak_temporal_gray": 0.519365131855011, "heldout_two_pairs_mae_gray": 2.1986024379730225, "elapsed_seconds": 26.733208807185292}
+TRAIN ordinary 3x3 1 {"step": 10000, "loss": 4.175881385803223, "pixel_gray": 1.9470698833465576, "temporal_gray": 0.3319675922393799, "weak_temporal_gray": 0.44898557662963867, "heldout_two_pairs_mae_gray": 1.4948666095733643, "elapsed_seconds": 33.632893620058894}
+TRAIN ordinary 3x3 1 {"step": 12000, "loss": 5.853492736816406, "pixel_gray": 2.825730800628662, "temporal_gray": 0.5094395279884338, "weak_temporal_gray": 0.5152105093002319, "heldout_two_pairs_mae_gray": 1.7163476943969727, "elapsed_seconds": 39.96015759231523}
+TRAIN ordinary 3x3 1 {"step": 14000, "loss": 4.983145713806152, "pixel_gray": 2.360431671142578, "temporal_gray": 0.4784812927246094, "weak_temporal_gray": 0.4871489405632019, "heldout_two_pairs_mae_gray": 1.3549617528915405, "elapsed_seconds": 45.72586989495903}
+TRAIN ordinary 3x3 1 {"step": 16000, "loss": 5.778486251831055, "pixel_gray": 2.8432233333587646, "temporal_gray": 0.4711245894432068, "weak_temporal_gray": 0.4728679358959198, "heldout_two_pairs_mae_gray": 1.657070517539978, "elapsed_seconds": 51.43330220039934}
+FINISHED

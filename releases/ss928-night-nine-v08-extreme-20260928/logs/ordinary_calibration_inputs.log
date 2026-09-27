@@ -1,0 +1,4 @@
+INPUT ordinary_train_00_frame_000.npz
+INPUT ordinary_train_01_frame_058.npz
+INPUT ordinary_train_02_frame_056.npz
+INPUT ordinary_train_03_frame_055.npz

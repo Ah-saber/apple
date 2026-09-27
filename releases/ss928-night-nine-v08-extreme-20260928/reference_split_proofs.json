@@ -1,0 +1,47 @@
+{
+  "seed": 2809,
+  "checks": [
+    {
+      "scene": "ordinary",
+      "shape": [
+        16,
+        24
+      ],
+      "all_pixels_float64_gray_max_abs": 8.526512829121202e-14,
+      "constant_channel_preserves_borders": true
+    },
+    {
+      "scene": "ordinary",
+      "shape": [
+        64,
+        96
+      ],
+      "all_pixels_float64_gray_max_abs": 8.526512829121202e-14,
+      "constant_channel_preserves_borders": true
+    },
+    {
+      "scene": "special",
+      "shape": [
+        16,
+        24
+      ],
+      "all_pixels_float64_gray_max_abs": 5.684341886080802e-14,
+      "constant_channel_preserves_borders": true
+    },
+    {
+      "scene": "special",
+      "shape": [
+        64,
+        96
+      ],
+      "all_pixels_float64_gray_max_abs": 8.526512829121202e-14,
+      "constant_channel_preserves_borders": true
+    }
+  ],
+  "resize_logical_channels": {
+    "old": 32,
+    "new": 16
+  },
+  "mathematical_equality_only_not_Half_bit_identity": true,
+  "SDK_verified": false
+}

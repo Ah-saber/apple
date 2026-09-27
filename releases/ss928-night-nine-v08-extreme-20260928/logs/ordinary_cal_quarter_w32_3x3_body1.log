@@ -1,0 +1,4 @@
+SEARCH ordinary quarter_w32_3x3_body1 {'sweep': 0, 'accepted': 6, 'score': 4.253514647483826}
+SEARCH ordinary quarter_w32_3x3_body1 {'sweep': 1, 'accepted': 4, 'score': 4.186280190944672}
+SEARCH ordinary quarter_w32_3x3_body1 {'sweep': 2, 'accepted': 0, 'score': 4.186280190944672}
+FINISHED ordinary_cal_quarter_w32_3x3_body1 {'float_mae_gray': 0.0, 'weight8_per_output_loss': 3.9019615650177, 'weight8_per_tensor_loss': 2.5940423011779785} {'float_mae_gray': 0.0, 'weight8_per_output_loss': 2.4610679149627686, 'weight8_per_tensor_loss': 2.8568105697631836}

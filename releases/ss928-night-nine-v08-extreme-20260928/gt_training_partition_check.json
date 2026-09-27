@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "scene": "ordinary",
+      "test_target_parent": "targets/v8_snapshot_20260921/night/raw_20260805_201926",
+      "test_roi": [
+        2,
+        0,
+        1020,
+        1278
+      ],
+      "test_frame_count": 60,
+      "usable_train_records": 180,
+      "excluded_test_overlap_records": 0,
+      "first_train": "night/raw_20260805_195608/000000@train",
+      "first_train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "scene": "special",
+      "test_target_parent": "targets/v8_snapshot_20260921/night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00",
+      "test_roi": [
+        2,
+        1088,
+        1020,
+        192
+      ],
+      "test_frame_count": 120,
+      "usable_train_records": 120,
+      "excluded_test_overlap_records": 0,
+      "first_train": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "first_train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    }
+  ],
+  "test_labels_must_not_enter_new_training_crops": true
+}

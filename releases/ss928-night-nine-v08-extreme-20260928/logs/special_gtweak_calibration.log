@@ -1,0 +1,2 @@
+SEARCH special quarter_w32_3x3_body1_gtweak {'sweep': 0, 'accepted': 0, 'score': 4.110763132572174}
+FINISHED special_cal_quarter_w32_3x3_body1_gtweak {'float_mae_gray': 0.0, 'weight8_per_output_loss': 2.288908004760742, 'weight8_per_tensor_loss': 2.830828905105591} {'float_mae_gray': 0.0, 'weight8_per_output_loss': 2.288908004760742, 'weight8_per_tensor_loss': 2.830828905105591}

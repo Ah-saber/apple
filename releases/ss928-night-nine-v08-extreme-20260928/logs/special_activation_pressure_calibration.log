@@ -1,0 +1,5 @@
+ACTIVATION_CALIBRATION special body3_quantsearch 11
+ACTIVATION_CALIBRATION special cal_preserve_mean6_body3_native4_alignpixel 12
+ACTIVATION_CALIBRATION special quarter_w32_3x3_body1_gtweak 7
+ACTIVATION_CALIBRATION special quarter_w32_3x3_body1_stage1_fusedtail 7
+ACTIVATION_CALIBRATION special quarter_w32_3x3_body1_gtweak_refsplit 8

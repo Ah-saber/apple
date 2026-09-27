@@ -1,0 +1,4 @@
+SEARCH ordinary quarter_w32_3x3_body1_gtweak_refsplit {'sweep': 0, 'accepted': 13, 'score': 1.9882532060146332}
+SEARCH ordinary quarter_w32_3x3_body1_gtweak_refsplit {'sweep': 1, 'accepted': 6, 'score': 1.8895796239376068}
+SEARCH ordinary quarter_w32_3x3_body1_gtweak_refsplit {'sweep': 2, 'accepted': 2, 'score': 1.8527248203754425}
+FINISHED ordinary_cal_quarter_w32_3x3_body1_gtweak_refsplit {'float_mae_gray': 0.0, 'weight8_per_output_loss': 1.6795183420181274, 'weight8_per_tensor_loss': 1.5457926988601685} {'float_mae_gray': 0.0, 'weight8_per_output_loss': 1.2373896837234497, 'weight8_per_tensor_loss': 1.2239508628845215}

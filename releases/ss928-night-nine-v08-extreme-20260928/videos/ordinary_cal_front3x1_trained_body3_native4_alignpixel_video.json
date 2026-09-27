@@ -1,0 +1,26 @@
+{
+  "scene": "ordinary",
+  "variant": "cal_front3x1_trained_body3_native4_alignpixel",
+  "baseline": "body3_quantsearch",
+  "baseline_commit": "0d90da26bcb3dd48bb071f7ae6a54aeb9ebb4edd",
+  "count": 60,
+  "fps": 12,
+  "video_shape": [
+    1080,
+    5120
+  ],
+  "each_panel_sensor_shape": [
+    1024,
+    1280
+  ],
+  "model_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "video_downsample": "rounded full 3x output averaged in 3x3 cells; no crop",
+  "source_execution": true,
+  "NPU_verified": false,
+  "mean_full_rawgrid_difference_gray": 0.3478662773966789
+}

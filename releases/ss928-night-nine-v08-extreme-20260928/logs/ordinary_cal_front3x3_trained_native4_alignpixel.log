@@ -1,0 +1,4 @@
+SEARCH ordinary front3x3_trained_native4_alignpixel {'sweep': 0, 'accepted': 16, 'score': 1.408899649977684}
+SEARCH ordinary front3x3_trained_native4_alignpixel {'sweep': 1, 'accepted': 8, 'score': 1.2422023862600327}
+SEARCH ordinary front3x3_trained_native4_alignpixel {'sweep': 2, 'accepted': 4, 'score': 1.2169888615608215}
+FINISHED ordinary_cal_front3x3_trained_native4_alignpixel {'float_mae_gray': 0.0, 'weight8_per_output_loss': 2.251110315322876, 'weight8_per_tensor_loss': 2.416041374206543} {'float_mae_gray': 0.0, 'weight8_per_output_loss': 0.8228234052658081, 'weight8_per_tensor_loss': 0.7538384199142456}

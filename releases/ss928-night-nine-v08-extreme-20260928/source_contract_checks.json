@@ -1,0 +1,929 @@
+{
+  "count": 132,
+  "results": [
+    {
+      "scene": "ordinary",
+      "case": "combo_input9_half_aligned16_nearest",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "combo_stats3_relu32_aligned16_half_output_fixed",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "body3_quantsearch",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x3_trained_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_outdeconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_outcascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_layout16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_layout5",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_f32in",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_f32out",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_meanfirst",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_split_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_full_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_qat_w8allpo",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_qat_w8allpo_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_graph_quarter_w32_3x3_body1_qat_w8allpo_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_outdeconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_outcascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_refpad16_meanfirst_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_layout16_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_layout5_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_block16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_block16_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_block16_split_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_outdeconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_outcascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_layout16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_layout5",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_refpad16_meanfirst",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_sum6_body3_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "preserve_raw6_body3_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "preserve_mean6_body3",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "preserve_sum6_body3",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_kernel7",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_layout16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_layout5",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_outdeconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_outcascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_refpad16_meanfirst",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16_split_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_gtweak",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_quarter_w32_3x3_body1_gtweak",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_gtweak_deconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_gtweak_cascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_gtweak_refsplit",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_graph_quarter_w32_3x3_body1_gtweak_refsplit",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_refsplit",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_deconv_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "quarter_w32_3x3_body1_stage1_cascade_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "combo_input9_half_aligned16_nearest",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "combo_stats3_relu32_aligned16_half_output_fixed",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "body3_quantsearch",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x3_trained_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_outdeconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_outcascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_layout16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_layout5",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_f32in",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_f32out",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_meanfirst",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_split_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body2_native4_alignpixel_refpad16_meanfirst_block16_full_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_qat_w8allpo",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_qat_w8allpo_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_graph_quarter_w32_3x3_body1_qat_w8allpo_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_outdeconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_outcascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_refpad16_meanfirst_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_layout16_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_layout5_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_block16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_block16_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_block16_split_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_outdeconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_outcascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_layout16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_layout5",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_front3x1_trained_body3_native4_alignpixel_refpad16_meanfirst",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_sum6_body3_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "preserve_raw6_body3_native4_alignpixel",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "preserve_mean6_body3",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "preserve_sum6_body3",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_kernel7",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_layout16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_layout5",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_f32io",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_outdeconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_outcascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_refpad16_meanfirst",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16_split_full",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_gtweak",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_quarter_w32_3x3_body1_gtweak",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_gtweak_deconv",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_gtweak_cascade",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_gtweak_refsplit",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "cal_graph_quarter_w32_3x3_body1_gtweak_refsplit",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_refsplit",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_deconv_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "quarter_w32_3x3_body1_stage1_cascade_fusedtail",
+      "source_input_bytes_verified": true,
+      "typed_output_verified": true,
+      "SDK_verified": false
+    }
+  ]
+}

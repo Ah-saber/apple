@@ -1,0 +1,45 @@
+CACHE ordinary 0
+CACHE ordinary 5
+CACHE ordinary 11
+CACHE ordinary 17
+CACHE ordinary 23
+CACHE ordinary 28
+CACHE ordinary 34
+CACHE ordinary 40
+CACHE ordinary 46
+CACHE ordinary 51
+CACHE ordinary 57
+CACHE ordinary 3
+CACHE ordinary 9
+CACHE ordinary 15
+CACHE ordinary 20
+CACHE ordinary 26
+CACHE ordinary 32
+CACHE ordinary 38
+CACHE ordinary 43
+CACHE ordinary 49
+CACHE ordinary 55
+CACHE ordinary 1
+CACHE ordinary 7
+CACHE ordinary 12
+CACHE ordinary 18
+CACHE ordinary 24
+CACHE ordinary 30
+CACHE ordinary 35
+CACHE ordinary 41
+CACHE ordinary 47
+CACHE ordinary 53
+CACHE ordinary 59
+/data/zhangbenzhuang/miniconda3/envs/test/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:182: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+TRAIN ordinary k4 1 {"step": 16001, "loss": 4.247922897338867, "pixel_gray": 1.8744361400604248, "temporal_gray": 0.5711572766304016, "weak_temporal_gray": 0.579410970211029, "heldout_two_pairs_mae_gray": 1.8185020685195923, "elapsed_seconds": 0.10662122908979654}
+TRAIN ordinary k4 1 {"step": 18000, "loss": 6.047754287719727, "pixel_gray": 2.9662656784057617, "temporal_gray": 0.43813085556030273, "weak_temporal_gray": 0.5874097347259521, "heldout_two_pairs_mae_gray": 1.6691094636917114, "elapsed_seconds": 5.873114067129791}
+TRAIN ordinary k4 1 {"step": 20000, "loss": 4.275664806365967, "pixel_gray": 1.884737491607666, "temporal_gray": 0.5747587084770203, "weak_temporal_gray": 0.5922365188598633, "heldout_two_pairs_mae_gray": 1.6498764753341675, "elapsed_seconds": 12.197813338134438}
+TRAIN ordinary k4 1 {"step": 22000, "loss": 3.615931272506714, "pixel_gray": 1.5711660385131836, "temporal_gray": 0.5200207829475403, "weak_temporal_gray": 0.5220448970794678, "heldout_two_pairs_mae_gray": 1.621583342552185, "elapsed_seconds": 18.083286582957953}
+TRAIN ordinary k4 1 {"step": 24000, "loss": 6.1758809089660645, "pixel_gray": 3.0366830825805664, "temporal_gray": 0.5596960783004761, "weak_temporal_gray": 0.5707870125770569, "heldout_two_pairs_mae_gray": 1.6117833852767944, "elapsed_seconds": 23.840990176890045}
+TRAIN ordinary 3x3 1 {"step": 16001, "loss": 3.716994524002075, "pixel_gray": 1.689921498298645, "temporal_gray": 0.4300423562526703, "weak_temporal_gray": 0.4378284513950348, "heldout_two_pairs_mae_gray": 1.6571061611175537, "elapsed_seconds": 0.017170499078929424}
+TRAIN ordinary 3x3 1 {"step": 18000, "loss": 4.7480034828186035, "pixel_gray": 2.304086923599243, "temporal_gray": 0.35475391149520874, "weak_temporal_gray": 0.47855791449546814, "heldout_two_pairs_mae_gray": 1.403354525566101, "elapsed_seconds": 6.124253303278238}
+TRAIN ordinary 3x3 1 {"step": 20000, "loss": 3.784087657928467, "pixel_gray": 1.6940340995788574, "temporal_gray": 0.4672807455062866, "weak_temporal_gray": 0.48392730951309204, "heldout_two_pairs_mae_gray": 1.4217573404312134, "elapsed_seconds": 12.33702753810212}
+TRAIN ordinary 3x3 1 {"step": 22000, "loss": 3.0491416454315186, "pixel_gray": 1.3446320295333862, "temporal_gray": 0.40948575735092163, "weak_temporal_gray": 0.415017694234848, "heldout_two_pairs_mae_gray": 1.3838157653808594, "elapsed_seconds": 18.35959546500817}
+TRAIN ordinary 3x3 1 {"step": 24000, "loss": 5.018036365509033, "pixel_gray": 2.4391367435455322, "temporal_gray": 0.45243915915489197, "weak_temporal_gray": 0.46101143956184387, "heldout_two_pairs_mae_gray": 1.3693691492080688, "elapsed_seconds": 25.363067645113915}
+FINISHED

@@ -1,0 +1,509 @@
+{
+  "scene": "special",
+  "probes": [
+    {
+      "file": "special_front_parent.onnx",
+      "tag": "front_parent",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float32",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2795,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_front_stats3_relu32.onnx",
+      "tag": "front_stats3_relu32",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float32",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2796,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_head_body4.onnx",
+      "tag": "head_body4",
+      "input_shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2797,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_head_body2.onnx",
+      "tag": "head_body2",
+      "input_shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2798,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_reference_encode.onnx",
+      "tag": "reference_encode",
+      "input_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        64,
+        64
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2799,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_reference_resize.onnx",
+      "tag": "reference_resize",
+      "input_shape": [
+        1,
+        16,
+        64,
+        64
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2800,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_tail.onnx",
+      "tag": "tail",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2801,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_projection16.onnx",
+      "tag": "output_projection16",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2802,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_fixed6.onnx",
+      "tag": "output_fixed6",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2803,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_resize2.onnx",
+      "tag": "output_resize2",
+      "input_shape": [
+        1,
+        1,
+        1536,
+        1920
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2804,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_resize3.onnx",
+      "tag": "output_resize3",
+      "input_shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2805,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_full_half_relu.onnx",
+      "tag": "full_half_relu",
+      "input_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2806,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_front3x1.onnx",
+      "tag": "front3x1",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2807,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_front3x3.onnx",
+      "tag": "front3x3",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2808,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_front5x1.onnx",
+      "tag": "front5x1",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2809,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_split3.onnx",
+      "tag": "output_split3",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2810,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_native4_resize.onnx",
+      "tag": "output_native4_resize",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2811,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    },
+    {
+      "file": "special_output_native4_deconv.onnx",
+      "tag": "output_native4_deconv",
+      "input_shape": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "torch.float16",
+      "input_constant_for_export_only": true,
+      "runtime_input_seed": 2812,
+      "input_range": [
+        -0.25,
+        0.75
+      ],
+      "full_model": false,
+      "SDK_verified": false,
+      "timing_includes_probe_input_format_and_report": true,
+      "sum_not_equal_complete_model": true
+    }
+  ]
+}

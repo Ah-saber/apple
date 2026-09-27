@@ -1,0 +1,4 @@
+SEARCH ordinary preserve_sum6_body3_native4_alignpixel {'sweep': 0, 'accepted': 14, 'score': 1.8010441064834595}
+SEARCH ordinary preserve_sum6_body3_native4_alignpixel {'sweep': 1, 'accepted': 7, 'score': 1.6650366634130478}
+SEARCH ordinary preserve_sum6_body3_native4_alignpixel {'sweep': 2, 'accepted': 7, 'score': 1.615109771490097}
+FINISHED ordinary_cal_preserve_sum6_body3_native4_alignpixel {'float_mae_gray': 0.0, 'weight8_per_output_loss': 1.4093506336212158, 'weight8_per_tensor_loss': 1.7857602834701538} {'float_mae_gray': 0.0, 'weight8_per_output_loss': 0.6172980070114136, 'weight8_per_tensor_loss': 1.168628215789795}

@@ -1,0 +1,4 @@
+SEARCH special front3x1_trained_body3_native4_alignpixel {'sweep': 0, 'accepted': 13, 'score': 1.5200266540050507}
+SEARCH special front3x1_trained_body3_native4_alignpixel {'sweep': 1, 'accepted': 6, 'score': 1.402702197432518}
+SEARCH special front3x1_trained_body3_native4_alignpixel {'sweep': 2, 'accepted': 2, 'score': 1.388224482536316}
+FINISHED special_cal_front3x1_trained_body3_native4_alignpixel {'float_mae_gray': 0.0, 'weight8_per_output_loss': 1.3323227167129517, 'weight8_per_tensor_loss': 4.674827575683594} {'float_mae_gray': 0.0, 'weight8_per_output_loss': 0.792050838470459, 'weight8_per_tensor_loss': 0.9521694183349609}

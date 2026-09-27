@@ -1,0 +1,58 @@
+{
+  "target_mean_ms": 16.7,
+  "target_p95_ms": 16.7,
+  "board_verified": false,
+  "timing_boundary": "complete nine-frame inference including reference, full output and NPU format/report conversion; host reads/transfers separate",
+  "first_deployment_groups": [
+    {
+      "group": "quality_controls",
+      "cases": [
+        "combo_input9_half_aligned16_nearest",
+        "front3x1_trained",
+        "front3x3_trained",
+        "front3x3_trained_native4_alignpixel"
+      ]
+    },
+    {
+      "group": "speed_first",
+      "cases": [
+        "front3x1_trained_body2_native4_alignpixel",
+        "front3x1_trained_body2_native4_cascade",
+        "quarter_k4_body1",
+        "quarter_3x3_body1"
+      ],
+      "quarter16_quality_status": "rejected default: special PSNR loss >1 dB; speed diagnostic only"
+    },
+    {
+      "group": "output_mapping",
+      "cases": [
+        "output_split3",
+        "output_native4_resize",
+        "output_native4_deconv",
+        "output_direct4",
+        "joint_direct4_cascade"
+      ],
+      "direct4_quality_status": "rejected default; mapping diagnostic only"
+    },
+    {
+      "group": "input_format",
+      "cases": [
+        "front3x1_trained_body2_native4_nhwc16",
+        "front3x3_trained_body2_native4_native5",
+        "quarter_k4_body2_nhwc16",
+        "quarter_3x3_body2_native5"
+      ],
+      "SDK_layout_rank_support": "unverified"
+    },
+    {
+      "group": "quality_repair_pending",
+      "cases": [
+        "quarter_w32_k4_body1",
+        "quarter_w32_3x3_body1"
+      ],
+      "quality_status": "training pending"
+    }
+  ],
+  "probe_format_note": "standalone probes carry extra input/report cost; cannot sum as complete model",
+  "second_deployment_action": "use first full task profile to fix remaining hotspot; verify complete mean/p95 and full videos"
+}

@@ -1,0 +1,44 @@
+CACHE ordinary 0
+CACHE ordinary 5
+CACHE ordinary 11
+CACHE ordinary 17
+CACHE ordinary 23
+CACHE ordinary 28
+CACHE ordinary 34
+CACHE ordinary 40
+CACHE ordinary 46
+CACHE ordinary 51
+CACHE ordinary 57
+CACHE ordinary 3
+CACHE ordinary 9
+CACHE ordinary 15
+CACHE ordinary 20
+CACHE ordinary 26
+CACHE ordinary 32
+CACHE ordinary 38
+CACHE ordinary 43
+CACHE ordinary 49
+CACHE ordinary 55
+CACHE ordinary 1
+CACHE ordinary 7
+CACHE ordinary 12
+CACHE ordinary 18
+CACHE ordinary 24
+CACHE ordinary 30
+CACHE ordinary 35
+CACHE ordinary 41
+CACHE ordinary 47
+CACHE ordinary 53
+CACHE ordinary 59
+/data/zhangbenzhuang/miniconda3/envs/test/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:182: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+TRAIN ordinary {"attempted_iteration": 1, "loss": 18.636648178100586, "pixel_GT_gray": 7.934995651245117, "temporal_GT_gray": 1.1682261228561401, "weak_GT_gray": 1.727087140083313, "heldout_two_pairs_GT_gray": {"none": 6.191723823547363, "po": 6.5391974449157715, "pt": 6.335633277893066}, "elapsed_seconds": 0.09111947705969214}
+TRAIN ordinary {"attempted_iteration": 2000, "loss": 16.032018661499023, "pixel_GT_gray": 5.196329593658447, "temporal_GT_gray": 1.2697194814682007, "weak_GT_gray": 1.6001290082931519, "heldout_two_pairs_GT_gray": {"none": 5.915453910827637, "po": 6.115466594696045, "pt": 6.00229024887085}, "elapsed_seconds": 6.62259978801012}
+TRAIN ordinary {"attempted_iteration": 4000, "loss": 18.794462203979492, "pixel_GT_gray": 7.677707195281982, "temporal_GT_gray": 1.1605596542358398, "weak_GT_gray": 1.5778040885925293, "heldout_two_pairs_GT_gray": {"none": 5.677281379699707, "po": 5.929176330566406, "pt": 5.771388530731201}, "elapsed_seconds": 13.058640687260777}
+TRAIN ordinary {"attempted_iteration": 6000, "loss": 17.34233283996582, "pixel_GT_gray": 5.6760663986206055, "temporal_GT_gray": 1.2624547481536865, "weak_GT_gray": 1.6528030633926392, "heldout_two_pairs_GT_gray": {"none": 5.914584159851074, "po": 5.971627235412598, "pt": 6.146456718444824}, "elapsed_seconds": 20.320965752005577}
+TRAIN ordinary {"attempted_iteration": 8000, "loss": 18.46526527404785, "pixel_GT_gray": 7.44497537612915, "temporal_GT_gray": 1.2172943353652954, "weak_GT_gray": 1.5673240423202515, "heldout_two_pairs_GT_gray": {"none": 5.76136589050293, "po": 5.756558418273926, "pt": 5.965695858001709}, "elapsed_seconds": 27.948377947323024}
+TRAIN ordinary {"attempted_iteration": 10000, "loss": 17.27398109436035, "pixel_GT_gray": 5.81434965133667, "temporal_GT_gray": 1.338417887687683, "weak_GT_gray": 1.6860709190368652, "heldout_two_pairs_GT_gray": {"none": 5.74757194519043, "po": 5.898503303527832, "pt": 5.806400299072266}, "elapsed_seconds": 35.126139543019235}
+TRAIN ordinary {"attempted_iteration": 12000, "loss": 16.99271583557129, "pixel_GT_gray": 5.488497734069824, "temporal_GT_gray": 1.2685481309890747, "weak_GT_gray": 1.715923547744751, "heldout_two_pairs_GT_gray": {"none": 5.6921186447143555, "po": 5.681461334228516, "pt": 5.5319504737854}, "elapsed_seconds": 41.67309246910736}
+TRAIN ordinary {"attempted_iteration": 14000, "loss": 17.390621185302734, "pixel_GT_gray": 6.247141361236572, "temporal_GT_gray": 1.2348048686981201, "weak_GT_gray": 1.6202203035354614, "heldout_two_pairs_GT_gray": {"none": 5.6977643966674805, "po": 5.689898490905762, "pt": 5.547056674957275}, "elapsed_seconds": 48.12543888296932}
+TRAIN ordinary {"attempted_iteration": 16000, "loss": 15.868110656738281, "pixel_GT_gray": 5.392085552215576, "temporal_GT_gray": 1.197236180305481, "weak_GT_gray": 1.4985218048095703, "heldout_two_pairs_GT_gray": {"none": 5.720602035522461, "po": 5.722951412200928, "pt": 5.734507083892822}, "elapsed_seconds": 54.619738636072725}
+FINISHED

@@ -1,0 +1,1399 @@
+{
+  "models": [
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_sum6_body3_native4_alignpixel_small.onnx",
+      "case": "cal_preserve_sum6_body3_native4_alignpixel",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_sum6_body3_native4_alignpixel.onnx",
+      "case": "cal_preserve_sum6_body3_native4_alignpixel",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_preserve_raw6_body3_native4_alignpixel_small.onnx",
+      "case": "preserve_raw6_body3_native4_alignpixel",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_preserve_raw6_body3_native4_alignpixel.onnx",
+      "case": "preserve_raw6_body3_native4_alignpixel",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_preserve_mean6_body3_small.onnx",
+      "case": "preserve_mean6_body3",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 1,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_preserve_mean6_body3.onnx",
+      "case": "preserve_mean6_body3",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 1,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_preserve_sum6_body3_small.onnx",
+      "case": "preserve_sum6_body3",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 1,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_preserve_sum6_body3.onnx",
+      "case": "preserve_sum6_body3",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 1,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_kernel7_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_kernel7",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_kernel7.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_kernel7",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_layout16_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_layout16",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        64,
+        96,
+        16
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_layout16.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_layout16",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        1024,
+        1280,
+        16
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_layout5_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_layout5",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        1,
+        64,
+        96,
+        16
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_layout5.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_layout5",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        1,
+        1024,
+        1280,
+        16
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_f32io_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_f32io",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float32",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 1,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_f32io.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_f32io",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float32",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 1,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_outdeconv_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_outdeconv",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_outdeconv.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_outdeconv",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_outcascade_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_outcascade",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_outcascade.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_outcascade",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_refpad16_meanfirst_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_refpad16_meanfirst",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_refpad16_meanfirst.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_refpad16_meanfirst",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_block16_full_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16_full",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_block16_full.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16_full",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_block16_split_full_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16_split_full",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_block16_split_full.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16_split_full",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_block16_small.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        16,
+        12,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": true
+    },
+    {
+      "file": "special_cal_preserve_mean6_body3_native4_alignpixel_block16.onnx",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel_block16",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        16,
+        192,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": true
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_gtweak_small.onnx",
+      "case": "quarter_w32_3x3_body1_gtweak",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_gtweak.onnx",
+      "case": "quarter_w32_3x3_body1_gtweak",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_quarter_w32_3x3_body1_gtweak_small.onnx",
+      "case": "cal_quarter_w32_3x3_body1_gtweak",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_quarter_w32_3x3_body1_gtweak.onnx",
+      "case": "cal_quarter_w32_3x3_body1_gtweak",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_gtweak_deconv_small.onnx",
+      "case": "quarter_w32_3x3_body1_gtweak_deconv",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_gtweak_deconv.onnx",
+      "case": "quarter_w32_3x3_body1_gtweak_deconv",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_gtweak_cascade_small.onnx",
+      "case": "quarter_w32_3x3_body1_gtweak_cascade",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_gtweak_cascade.onnx",
+      "case": "quarter_w32_3x3_body1_gtweak_cascade",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_gtweak_refsplit_small.onnx",
+      "case": "quarter_w32_3x3_body1_gtweak_refsplit",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_gtweak_refsplit.onnx",
+      "case": "quarter_w32_3x3_body1_gtweak_refsplit",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_graph_quarter_w32_3x3_body1_gtweak_refsplit_small.onnx",
+      "case": "cal_graph_quarter_w32_3x3_body1_gtweak_refsplit",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_cal_graph_quarter_w32_3x3_body1_gtweak_refsplit.onnx",
+      "case": "cal_graph_quarter_w32_3x3_body1_gtweak_refsplit",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_stage1_fusedtail_refsplit_small.onnx",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_refsplit",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_stage1_fusedtail_refsplit.onnx",
+      "case": "quarter_w32_3x3_body1_stage1_fusedtail_refsplit",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_stage1_deconv_fusedtail_small.onnx",
+      "case": "quarter_w32_3x3_body1_stage1_deconv_fusedtail",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_stage1_deconv_fusedtail.onnx",
+      "case": "quarter_w32_3x3_body1_stage1_deconv_fusedtail",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_stage1_cascade_fusedtail_small.onnx",
+      "case": "quarter_w32_3x3_body1_stage1_cascade_fusedtail",
+      "small": true,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_elem_type": 10,
+      "full_model": false,
+      "diagnostic_blocked_output": false
+    },
+    {
+      "file": "special_quarter_w32_3x3_body1_stage1_cascade_fusedtail.onnx",
+      "case": "quarter_w32_3x3_body1_stage1_cascade_fusedtail",
+      "small": false,
+      "SDK_verified": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "reference_shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "reference_dtype": "torch.float32",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_elem_type": 10,
+      "full_model": true,
+      "diagnostic_blocked_output": false
+    }
+  ],
+  "NPU_verified": false
+}

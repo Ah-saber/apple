@@ -1,0 +1,87 @@
+{
+  "results": [
+    {
+      "scene": "ordinary",
+      "case": "body3_quantsearch",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bundled_dependencies": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bundled_dependencies": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "cal_quarter_w32_3x3_body1_gtweak",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bundled_dependencies": true
+    },
+    {
+      "scene": "special",
+      "case": "body3_quantsearch",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bundled_dependencies": true
+    },
+    {
+      "scene": "special",
+      "case": "cal_preserve_mean6_body3_native4_alignpixel",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bundled_dependencies": true
+    },
+    {
+      "scene": "special",
+      "case": "cal_quarter_w32_3x3_body1_gtweak",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bundled_dependencies": true
+    }
+  ],
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "torch": "2.7.0+cu128",
+  "numpy": "2.2.6",
+  "opencv": "4.12.0",
+  "SDK_verified": false
+}
