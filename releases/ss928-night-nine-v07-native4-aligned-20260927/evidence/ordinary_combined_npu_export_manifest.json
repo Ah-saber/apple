@@ -1,0 +1,17 @@
+{
+  "models": [
+    {
+      "file": "ordinary_combo_stats3_relu32_aligned16_half_output_fixed_small.onnx",
+      "case": "combo_stats3_relu32_aligned16_half_output_fixed",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_combo_stats3_relu32_aligned16_half_output_fixed.onnx",
+      "case": "combo_stats3_relu32_aligned16_half_output_fixed",
+      "small": false,
+      "SDK_verified": false
+    }
+  ],
+  "NPU_verified": false
+}

@@ -1,0 +1,12 @@
+/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-NATIVE4-20260927/code_snapshot/runtime/continuation_candidates.py:17: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if self.padding and (x.shape[-2]%2 or x.shape[-1]%2):raise ValueError('Statistics3 requires even sensor dimensions')
+EXPORTED ordinary_combo_stats3_scaled9_exact_small.onnx
+EXPORTED ordinary_combo_stats3_scaled9_exact.onnx
+/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-NATIVE4-20260927/code_snapshot/runtime/continuation_candidates.py:49: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if self.padding and (x.shape[-2]%2 or x.shape[-1]%2):raise ValueError('Statistics3 requires even sensor dimensions')
+EXPORTED ordinary_combo_stats3_relu32_scaled9_exact_small.onnx
+EXPORTED ordinary_combo_stats3_relu32_scaled9_exact.onnx
+EXPORTED ordinary_combo_input16_half_stats3_scaled9_exact_small.onnx
+EXPORTED ordinary_combo_input16_half_stats3_scaled9_exact.onnx
+EXPORTED ordinary_combo_stats3_aligned16_half_output_fixed_small.onnx
+EXPORTED ordinary_combo_stats3_aligned16_half_output_fixed.onnx

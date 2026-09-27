@@ -1,0 +1,405 @@
+{
+  "controls": [
+    {
+      "file": "ordinary_combo_aligned16_nearest.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 16,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_combo_aligned16_fixed.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 9,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_combo_aligned16_folded_fixed.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 7,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_combo_aligned16_half_output_fixed.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 8,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 10,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_native4_linear_ref_dither_float_trained.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 37,
+      "source_entry_weight_shape": [
+        4,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_combo_aligned16_nearest_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 16,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_combo_aligned16_fixed_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 9,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_combo_aligned16_folded_fixed_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 7,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_combo_aligned16_half_output_fixed_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 8,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 10,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_native4_linear_ref_dither_float_trained_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 5,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 37,
+      "source_entry_weight_shape": [
+        4,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_nearest.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 16,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_fixed.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 9,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_folded_fixed.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 7,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_half_output_fixed.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 8,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 10,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_native4_linear_ref_dither_float_trained.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 37,
+      "source_entry_weight_shape": [
+        4,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_nearest_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 16,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_fixed_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 9,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_folded_fixed_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 7,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_half_output_fixed_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 8,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 10,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_native4_linear_ref_dither_float_trained_small.onnx",
+      "source_control": true,
+      "actual_native_R2_verified": false,
+      "reference_relu_count": 2,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 37,
+      "source_entry_weight_shape": [
+        4,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 1,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true,
+      "SDK_verified": false
+    }
+  ],
+  "SDK_verified": false
+}

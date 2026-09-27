@@ -1,0 +1,16 @@
+FRAME special 0 {'baseline': 0.0, 'previous_combo': 0.03676, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.03612}
+FRAME special 10 {'baseline': 0.0, 'previous_combo': 0.05506, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05468}
+FRAME special 20 {'baseline': 0.0, 'previous_combo': 0.04689, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.0467}
+FRAME special 30 {'baseline': 0.0, 'previous_combo': 0.05568, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05573}
+FRAME special 40 {'baseline': 0.0, 'previous_combo': 0.05198, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05186}
+FRAME special 50 {'baseline': 0.0, 'previous_combo': 0.04928, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.04951}
+FRAME special 60 {'baseline': 0.0, 'previous_combo': 0.05393, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05322}
+FRAME special 70 {'baseline': 0.0, 'previous_combo': 0.0545, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05346}
+FRAME special 80 {'baseline': 0.0, 'previous_combo': 0.05083, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05023}
+FRAME special 90 {'baseline': 0.0, 'previous_combo': 0.05131, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05106}
+FRAME special 100 {'baseline': 0.0, 'previous_combo': 0.05468, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05428}
+FRAME special 110 {'baseline': 0.0, 'previous_combo': 0.05246, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05241}
+QUALITY special baseline {'psnr_db': 26.044483464491424, 'ssim_every10': 0.950838072448949, 'static_output_temporal_std_gray': 1.9985265731811523, 'static_error_temporal_std_gray': 1.8435015678405762, 'moving_mae_gray': 9.388348579406738, 'low_amplitude_moving_mae_gray': 9.388418197631836, 'brightness_error_temporal_std_gray': 0.7829491412904925, 'contrast_error_temporal_std_gray': 1.0903865286247472, 'mean_full_rawgrid_difference_gray': 0.0}
+QUALITY special previous_combo {'psnr_db': 26.096423682736795, 'ssim_every10': 0.950887745759784, 'static_output_temporal_std_gray': 2.0024831295013428, 'static_error_temporal_std_gray': 1.8479204177856445, 'moving_mae_gray': 9.348429679870605, 'low_amplitude_moving_mae_gray': 9.348150253295898, 'brightness_error_temporal_std_gray': 0.77101640069661, 'contrast_error_temporal_std_gray': 1.09302738459947, 'mean_full_rawgrid_difference_gray': 0.39783452649911244}
+QUALITY special combo_stats3_relu32_aligned16_half_output_fixed {'psnr_db': 26.096071031649704, 'ssim_every10': 0.9508844446187578, 'static_output_temporal_std_gray': 2.002504825592041, 'static_error_temporal_std_gray': 1.8479089736938477, 'moving_mae_gray': 9.349514961242676, 'low_amplitude_moving_mae_gray': 9.349230766296387, 'brightness_error_temporal_std_gray': 0.7694147151181129, 'contrast_error_temporal_std_gray': 1.0908865121731481, 'mean_full_rawgrid_difference_gray': 0.3991423904895782}
+FINISHED

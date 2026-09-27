@@ -1,0 +1,4 @@
+EXACT ordinary 0 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 0, 'max_gray': 0.18701171875, 'mean_gray': 0.01939554698765278, 'bit_exact': False}}
+EXACT ordinary 20 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 20, 'max_gray': 0.18115234375, 'mean_gray': 0.019271468743681908, 'bit_exact': False}}
+EXACT ordinary 40 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 40, 'max_gray': 0.18603515625, 'mean_gray': 0.019259130582213402, 'bit_exact': False}}
+COMPLETE ordinary

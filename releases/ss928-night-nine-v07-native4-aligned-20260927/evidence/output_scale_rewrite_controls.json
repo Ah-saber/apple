@@ -1,0 +1,102 @@
+{
+  "controls": [
+    {
+      "scene": "ordinary",
+      "phase_channels": 36,
+      "input": "constant",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.093994140625,
+      "folded_mean_gray": 0.021769929677248
+    },
+    {
+      "scene": "ordinary",
+      "phase_channels": 36,
+      "input": "signed_random",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.09765625,
+      "folded_mean_gray": 0.007461534813046455
+    },
+    {
+      "scene": "ordinary",
+      "phase_channels": 36,
+      "input": "edge",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.1728515625,
+      "folded_mean_gray": 0.0027090166695415974
+    },
+    {
+      "scene": "ordinary",
+      "phase_channels": 9,
+      "input": "constant",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.0751953125,
+      "folded_mean_gray": 0.023998048156499863
+    },
+    {
+      "scene": "ordinary",
+      "phase_channels": 9,
+      "input": "signed_random",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.08349609375,
+      "folded_mean_gray": 0.007396468427032232
+    },
+    {
+      "scene": "ordinary",
+      "phase_channels": 9,
+      "input": "edge",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.1103515625,
+      "folded_mean_gray": 0.0026185247115790844
+    },
+    {
+      "scene": "special",
+      "phase_channels": 36,
+      "input": "constant",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.093017578125,
+      "folded_mean_gray": 0.022736117243766785
+    },
+    {
+      "scene": "special",
+      "phase_channels": 36,
+      "input": "signed_random",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.1279296875,
+      "folded_mean_gray": 0.0072931251488626
+    },
+    {
+      "scene": "special",
+      "phase_channels": 36,
+      "input": "edge",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.08056640625,
+      "folded_mean_gray": 0.00249768840149045
+    },
+    {
+      "scene": "special",
+      "phase_channels": 9,
+      "input": "constant",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.10205078125,
+      "folded_mean_gray": 0.03116692416369915
+    },
+    {
+      "scene": "special",
+      "phase_channels": 9,
+      "input": "signed_random",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.06982421875,
+      "folded_mean_gray": 0.007939470931887627
+    },
+    {
+      "scene": "special",
+      "phase_channels": 9,
+      "input": "edge",
+      "exact_bit_equal": true,
+      "folded_max_gray": 0.13818359375,
+      "folded_mean_gray": 0.0024497774429619312
+    }
+  ],
+  "scope": "isolated frozen source output modules; CPU ONNX ReferenceEvaluator",
+  "SDK_verified": false
+}

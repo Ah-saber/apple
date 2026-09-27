@@ -1,0 +1,184 @@
+{
+  "scene": "ordinary",
+  "activation_quantization": false,
+  "bias_quantization": false,
+  "SDK_verified": false,
+  "controls": [
+    {
+      "case": "previous_combo",
+      "mode": "per_tensor",
+      "output_only_weight_buffers": [
+        "conv.weight"
+      ],
+      "mean_gray": 0.259615957736969,
+      "max_gray": 2.490234375,
+      "rounded_native_mean_delta_gray": 0.15455372631549835
+    },
+    {
+      "case": "previous_combo",
+      "mode": "per_output",
+      "output_only_weight_buffers": [
+        "conv.weight"
+      ],
+      "mean_gray": 0.16686256229877472,
+      "max_gray": 1.2451171875,
+      "rounded_native_mean_delta_gray": 0.11732687056064606
+    },
+    {
+      "case": "combo_aligned16_nearest",
+      "mode": "per_tensor",
+      "output_only_weight_buffers": [
+        "conv.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.259613573551178,
+      "max_gray": 2.490234375,
+      "rounded_native_mean_delta_gray": 0.15455423295497894
+    },
+    {
+      "case": "combo_aligned16_nearest",
+      "mode": "per_output",
+      "output_only_weight_buffers": [
+        "conv.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.16686290502548218,
+      "max_gray": 1.2451171875,
+      "rounded_native_mean_delta_gray": 0.11732804775238037
+    },
+    {
+      "case": "combo_aligned16_fixed",
+      "mode": "per_tensor",
+      "output_only_weight_buffers": [
+        "conv.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.259613573551178,
+      "max_gray": 2.490234375,
+      "rounded_native_mean_delta_gray": 0.15455423295497894
+    },
+    {
+      "case": "combo_aligned16_fixed",
+      "mode": "per_output",
+      "output_only_weight_buffers": [
+        "conv.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.16686290502548218,
+      "max_gray": 1.2451171875,
+      "rounded_native_mean_delta_gray": 0.11732804775238037
+    },
+    {
+      "case": "combo_tail5_exact_edges",
+      "mode": "per_tensor",
+      "output_only_weight_buffers": [
+        "tail.1.rep_conv.weight",
+        "projection.weight",
+        "fused.weight"
+      ],
+      "mean_gray": 1.092889428138733,
+      "max_gray": 5.2294921875,
+      "rounded_native_mean_delta_gray": 0.4715922474861145
+    },
+    {
+      "case": "combo_tail5_exact_edges",
+      "mode": "per_output",
+      "output_only_weight_buffers": [
+        "tail.1.rep_conv.weight",
+        "projection.weight",
+        "fused.weight"
+      ],
+      "mean_gray": 0.6858618259429932,
+      "max_gray": 3.7353515625,
+      "rounded_native_mean_delta_gray": 0.2648615837097168
+    },
+    {
+      "case": "native4_linear_trained",
+      "mode": "per_tensor",
+      "output_only_weight_buffers": [
+        "first.weight"
+      ],
+      "mean_gray": 0.23568464815616608,
+      "max_gray": 1.86767578125,
+      "rounded_native_mean_delta_gray": 0.2362525910139084
+    },
+    {
+      "case": "native4_linear_trained",
+      "mode": "per_output",
+      "output_only_weight_buffers": [
+        "first.weight"
+      ],
+      "mean_gray": 0.18122819066047668,
+      "max_gray": 1.86767578125,
+      "rounded_native_mean_delta_gray": 0.1811477690935135
+    },
+    {
+      "case": "native4_linear_dither_trained",
+      "mode": "per_tensor",
+      "output_only_weight_buffers": [
+        "base.first.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.2356971800327301,
+      "max_gray": 1.86767578125,
+      "rounded_native_mean_delta_gray": 0.2356569766998291
+    },
+    {
+      "case": "native4_linear_dither_trained",
+      "mode": "per_output",
+      "output_only_weight_buffers": [
+        "base.first.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.18123553693294525,
+      "max_gray": 1.86767578125,
+      "rounded_native_mean_delta_gray": 0.18122635781764984
+    },
+    {
+      "case": "native4_linear_dither_float_trained",
+      "mode": "per_tensor",
+      "output_only_weight_buffers": [
+        "base.first.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.235684335231781,
+      "max_gray": 1.86767578125,
+      "rounded_native_mean_delta_gray": 0.23569658398628235
+    },
+    {
+      "case": "native4_linear_dither_float_trained",
+      "mode": "per_output",
+      "output_only_weight_buffers": [
+        "base.first.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.1812276691198349,
+      "max_gray": 1.86767578125,
+      "rounded_native_mean_delta_gray": 0.18118897080421448
+    },
+    {
+      "case": "native4_relu8_ref_dither_trained",
+      "mode": "per_tensor",
+      "output_only_weight_buffers": [
+        "base.first.weight",
+        "base.last.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.20399965345859528,
+      "max_gray": 1.7431640625,
+      "rounded_native_mean_delta_gray": 0.20401178300380707
+    },
+    {
+      "case": "native4_relu8_ref_dither_trained",
+      "mode": "per_output",
+      "output_only_weight_buffers": [
+        "base.first.weight",
+        "base.last.weight",
+        ".kernel"
+      ],
+      "mean_gray": 0.11516785621643066,
+      "max_gray": 1.494140625,
+      "rounded_native_mean_delta_gray": 0.11520969867706299
+    }
+  ]
+}

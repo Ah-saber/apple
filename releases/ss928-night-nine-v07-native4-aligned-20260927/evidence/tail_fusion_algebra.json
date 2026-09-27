@@ -1,0 +1,24 @@
+{
+  "controls": [
+    {
+      "input": "constant",
+      "full_exact_edge_max_float64_error": 1.5265566588595902e-16,
+      "interior_fusion_max_float64_error": 1.5265566588595902e-16,
+      "approx_full_error_without_edge_correction": 0.11209529996976542
+    },
+    {
+      "input": "random",
+      "full_exact_edge_max_float64_error": 3.3306690738754696e-16,
+      "interior_fusion_max_float64_error": 3.3306690738754696e-16,
+      "approx_full_error_without_edge_correction": 0.12285107469825984
+    },
+    {
+      "input": "edge",
+      "full_exact_edge_max_float64_error": 8.326672684688674e-17,
+      "interior_fusion_max_float64_error": 8.326672684688674e-17,
+      "approx_full_error_without_edge_correction": 0.19757252064106282
+    }
+  ],
+  "SDK_verified": false,
+  "Half_quantization_errors_separate": true
+}

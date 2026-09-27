@@ -1,0 +1,26 @@
+{
+  "scene": "special",
+  "variant": "combo_input9_half_aligned16_nearest",
+  "baseline": "previous_combo",
+  "baseline_commit": "cada77899084bf05e4c768cecc75d43aca389065",
+  "count": 120,
+  "fps": 12,
+  "video_shape": [
+    1080,
+    5120
+  ],
+  "each_panel_sensor_shape": [
+    1024,
+    1280
+  ],
+  "model_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "video_downsample": "rounded full 3x output averaged in 3x3 cells; no crop",
+  "source_execution": true,
+  "NPU_verified": false,
+  "mean_full_rawgrid_difference_gray": 7.522020371197868e-06
+}

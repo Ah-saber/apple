@@ -1,0 +1,174 @@
+{
+  "controls": [
+    {
+      "scene": "ordinary",
+      "precision": "float64",
+      "rectified32": false,
+      "input": "constant",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float64",
+      "rectified32": false,
+      "input": "signed_random",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float64",
+      "rectified32": false,
+      "input": "edge",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float64",
+      "rectified32": true,
+      "input": "constant",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float64",
+      "rectified32": true,
+      "input": "signed_random",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float64",
+      "rectified32": true,
+      "input": "edge",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float16",
+      "rectified32": false,
+      "input": "constant",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float16",
+      "rectified32": false,
+      "input": "signed_random",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float16",
+      "rectified32": false,
+      "input": "edge",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float16",
+      "rectified32": true,
+      "input": "constant",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float16",
+      "rectified32": true,
+      "input": "signed_random",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "precision": "float16",
+      "rectified32": true,
+      "input": "edge",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float64",
+      "rectified32": false,
+      "input": "constant",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float64",
+      "rectified32": false,
+      "input": "signed_random",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float64",
+      "rectified32": false,
+      "input": "edge",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float64",
+      "rectified32": true,
+      "input": "constant",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float64",
+      "rectified32": true,
+      "input": "signed_random",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float64",
+      "rectified32": true,
+      "input": "edge",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float16",
+      "rectified32": false,
+      "input": "constant",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float16",
+      "rectified32": false,
+      "input": "signed_random",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float16",
+      "rectified32": false,
+      "input": "edge",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float16",
+      "rectified32": true,
+      "input": "constant",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float16",
+      "rectified32": true,
+      "input": "signed_random",
+      "max_normalized_error": 0.0
+    },
+    {
+      "scene": "special",
+      "precision": "float16",
+      "rectified32": true,
+      "input": "edge",
+      "max_normalized_error": 0.0
+    }
+  ],
+  "scope": "real frozen statistics module; ONNX CPU evaluator",
+  "SDK_verified": false
+}

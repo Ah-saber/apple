@@ -1,0 +1,197 @@
+{
+  "models": [
+    {
+      "file": "special_previous_combo_small.onnx",
+      "case": "previous_combo",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_previous_combo.onnx",
+      "case": "previous_combo",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_scaled9_exact_small.onnx",
+      "case": "combo_scaled9_exact",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_scaled9_exact.onnx",
+      "case": "combo_scaled9_exact",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_nearest_small.onnx",
+      "case": "combo_aligned16_nearest",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_nearest.onnx",
+      "case": "combo_aligned16_nearest",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_fixed_small.onnx",
+      "case": "combo_aligned16_fixed",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_fixed.onnx",
+      "case": "combo_aligned16_fixed",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_folded_fixed_small.onnx",
+      "case": "combo_aligned16_folded_fixed",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_aligned16_folded_fixed.onnx",
+      "case": "combo_aligned16_folded_fixed",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_relu_stats32_scaled9_exact_small.onnx",
+      "case": "combo_relu_stats32_scaled9_exact",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_relu_stats32_scaled9_exact.onnx",
+      "case": "combo_relu_stats32_scaled9_exact",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_project_after_resize_scaled9_exact_small.onnx",
+      "case": "combo_project_after_resize_scaled9_exact",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_project_after_resize_scaled9_exact.onnx",
+      "case": "combo_project_after_resize_scaled9_exact",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input9_half_scaled9_exact_small.onnx",
+      "case": "combo_input9_half_scaled9_exact",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input9_half_scaled9_exact.onnx",
+      "case": "combo_input9_half_scaled9_exact",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input16_half_native_stats_scaled9_exact_small.onnx",
+      "case": "combo_input16_half_native_stats_scaled9_exact",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input16_half_native_stats_scaled9_exact.onnx",
+      "case": "combo_input16_half_native_stats_scaled9_exact",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input9_half_aligned16_nearest_small.onnx",
+      "case": "combo_input9_half_aligned16_nearest",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input9_half_aligned16_nearest.onnx",
+      "case": "combo_input9_half_aligned16_nearest",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input16_half_native_stats_aligned16_fixed_small.onnx",
+      "case": "combo_input16_half_native_stats_aligned16_fixed",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input16_half_native_stats_aligned16_fixed.onnx",
+      "case": "combo_input16_half_native_stats_aligned16_fixed",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_native4_linear_trained_small.onnx",
+      "case": "native4_linear_trained",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_native4_linear_trained.onnx",
+      "case": "native4_linear_trained",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_native4_linear_ref_dither_float_trained_small.onnx",
+      "case": "native4_linear_ref_dither_float_trained",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_native4_linear_ref_dither_float_trained.onnx",
+      "case": "native4_linear_ref_dither_float_trained",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_native4_relu8_ref_dither_trained_small.onnx",
+      "case": "native4_relu8_ref_dither_trained",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_native4_relu8_ref_dither_trained.onnx",
+      "case": "native4_relu8_ref_dither_trained",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_tail5_exact_edges_small.onnx",
+      "case": "combo_tail5_exact_edges",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_tail5_exact_edges.onnx",
+      "case": "combo_tail5_exact_edges",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_tail5_interior_small.onnx",
+      "case": "combo_tail5_interior",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_tail5_interior.onnx",
+      "case": "combo_tail5_interior",
+      "small": false,
+      "SDK_verified": false
+    }
+  ],
+  "NPU_verified": false
+}

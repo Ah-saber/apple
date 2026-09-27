@@ -1,0 +1,99 @@
+{
+  "controls": [
+    {
+      "input": "constant",
+      "case": "fused9_3_channel",
+      "max_float64_error": 1.734723475976807e-17
+    },
+    {
+      "input": "constant",
+      "case": "fused9_3_image",
+      "max_float64_error": 1.734723475976807e-17
+    },
+    {
+      "input": "constant",
+      "case": "fused9_6_channel",
+      "max_float64_error": 1.734723475976807e-17
+    },
+    {
+      "input": "constant",
+      "case": "scaled9_exact",
+      "max_output_cast_float32_error_gray": 2.675920081074423e-07
+    },
+    {
+      "input": "constant",
+      "case": "scaled9_folded",
+      "max_output_cast_float32_error_gray": 2.286645166549306e-07
+    },
+    {
+      "input": "constant",
+      "case": "native4_linear_preclip",
+      "max_error": 5.432662375515207e-09,
+      "weights_initialized_float32": true
+    },
+    {
+      "input": "random",
+      "case": "fused9_3_channel",
+      "max_float64_error": 2.7755575615628914e-17
+    },
+    {
+      "input": "random",
+      "case": "fused9_3_image",
+      "max_float64_error": 2.7755575615628914e-17
+    },
+    {
+      "input": "random",
+      "case": "fused9_6_channel",
+      "max_float64_error": 2.7755575615628914e-17
+    },
+    {
+      "input": "random",
+      "case": "scaled9_exact",
+      "max_output_cast_float32_error_gray": 8.074118138523545e-07
+    },
+    {
+      "input": "random",
+      "case": "scaled9_folded",
+      "max_output_cast_float32_error_gray": 4.535867965671514e-07
+    },
+    {
+      "input": "random",
+      "case": "native4_linear_preclip",
+      "max_error": 8.444991476952435e-09,
+      "weights_initialized_float32": true
+    },
+    {
+      "input": "edge",
+      "case": "fused9_3_channel",
+      "max_float64_error": 1.0408340855860843e-17
+    },
+    {
+      "input": "edge",
+      "case": "fused9_3_image",
+      "max_float64_error": 1.0408340855860843e-17
+    },
+    {
+      "input": "edge",
+      "case": "fused9_6_channel",
+      "max_float64_error": 1.0408340855860843e-17
+    },
+    {
+      "input": "edge",
+      "case": "scaled9_exact",
+      "max_output_cast_float32_error_gray": 5.390522765935657e-07
+    },
+    {
+      "input": "edge",
+      "case": "scaled9_folded",
+      "max_output_cast_float32_error_gray": 4.652840459584695e-07
+    },
+    {
+      "input": "edge",
+      "case": "native4_linear_preclip",
+      "max_error": 1.2317601286171431e-08,
+      "weights_initialized_float32": true
+    }
+  ],
+  "NPU_verified": false,
+  "finite_precision_source_quality_separate": true
+}

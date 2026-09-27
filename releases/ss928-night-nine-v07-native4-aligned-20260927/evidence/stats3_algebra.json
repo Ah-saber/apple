@@ -1,0 +1,114 @@
+{
+  "controls": [
+    {
+      "input": "constant",
+      "sensor_shape": [
+        2,
+        2
+      ],
+      "max_float64_error": {
+        "linear": 4.440892098500626e-16,
+        "rectified32": 4.440892098500626e-16,
+        "input16": 4.440892098500626e-16
+      }
+    },
+    {
+      "input": "signed_random",
+      "sensor_shape": [
+        2,
+        2
+      ],
+      "max_float64_error": {
+        "linear": 1.7763568394002505e-15,
+        "rectified32": 1.7763568394002505e-15,
+        "input16": 1.7763568394002505e-15
+      }
+    },
+    {
+      "input": "edge",
+      "sensor_shape": [
+        2,
+        2
+      ],
+      "max_float64_error": {
+        "linear": 8.881784197001252e-16,
+        "rectified32": 8.881784197001252e-16,
+        "input16": 8.881784197001252e-16
+      }
+    },
+    {
+      "input": "constant",
+      "sensor_shape": [
+        12,
+        16
+      ],
+      "max_float64_error": {
+        "linear": 0.0,
+        "rectified32": 0.0,
+        "input16": 0.0
+      }
+    },
+    {
+      "input": "signed_random",
+      "sensor_shape": [
+        12,
+        16
+      ],
+      "max_float64_error": {
+        "linear": 0.0,
+        "rectified32": 0.0,
+        "input16": 0.0
+      }
+    },
+    {
+      "input": "edge",
+      "sensor_shape": [
+        12,
+        16
+      ],
+      "max_float64_error": {
+        "linear": 0.0,
+        "rectified32": 0.0,
+        "input16": 0.0
+      }
+    },
+    {
+      "input": "constant",
+      "sensor_shape": [
+        64,
+        96
+      ],
+      "max_float64_error": {
+        "linear": 0.0,
+        "rectified32": 0.0,
+        "input16": 0.0
+      }
+    },
+    {
+      "input": "signed_random",
+      "sensor_shape": [
+        64,
+        96
+      ],
+      "max_float64_error": {
+        "linear": 0.0,
+        "rectified32": 0.0,
+        "input16": 0.0
+      }
+    },
+    {
+      "input": "edge",
+      "sensor_shape": [
+        64,
+        96
+      ],
+      "max_float64_error": {
+        "linear": 0.0,
+        "rectified32": 0.0,
+        "input16": 0.0
+      }
+    }
+  ],
+  "requires_even_sensor_dimensions": true,
+  "Half_and_SDK_not_covered": true
+}

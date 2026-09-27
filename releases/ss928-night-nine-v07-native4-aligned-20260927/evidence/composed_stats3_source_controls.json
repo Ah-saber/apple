@@ -1,0 +1,81 @@
+{
+  "controls": [
+    {
+      "file": "ordinary_combo_stats3_relu32_aligned16_half_output_fixed.onnx",
+      "reference_relu_count": 5,
+      "actual_native_R2_verified": false,
+      "SDK_verified": false,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 8,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 10,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true
+    },
+    {
+      "file": "ordinary_combo_stats3_relu32_aligned16_half_output_fixed_small.onnx",
+      "reference_relu_count": 5,
+      "actual_native_R2_verified": false,
+      "SDK_verified": false,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 8,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 10,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true
+    },
+    {
+      "file": "special_combo_stats3_relu32_aligned16_half_output_fixed.onnx",
+      "reference_relu_count": 2,
+      "actual_native_R2_verified": false,
+      "SDK_verified": false,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 8,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 10,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true
+    },
+    {
+      "file": "special_combo_stats3_relu32_aligned16_half_output_fixed_small.onnx",
+      "reference_relu_count": 2,
+      "actual_native_R2_verified": false,
+      "SDK_verified": false,
+      "removed_native_nodes": 5,
+      "source_output_nodes": 8,
+      "source_entry_weight_shape": [
+        16,
+        16,
+        3,
+        3
+      ],
+      "tail_boundary_cast_to_source_type": 10,
+      "complete_output_shape_unchanged": true,
+      "output_type_from_source": 10,
+      "native_front_body_reference_nodes_preserved": true,
+      "native_input_type_unchanged": true
+    }
+  ],
+  "actual_native_R2_unavailable": true
+}

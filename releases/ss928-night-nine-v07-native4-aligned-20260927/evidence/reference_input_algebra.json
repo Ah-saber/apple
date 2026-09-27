@@ -1,0 +1,20 @@
+{
+  "controls": [
+    {
+      "input": "constant",
+      "project_resize_max_float64": 1.6653345369377348e-16,
+      "padded_input_max_float64": 0.0
+    },
+    {
+      "input": "signed_random",
+      "project_resize_max_float64": 6.661338147750939e-16,
+      "padded_input_max_float64": 0.0
+    },
+    {
+      "input": "edge",
+      "project_resize_max_float64": 2.220446049250313e-16,
+      "padded_input_max_float64": 0.0
+    }
+  ],
+  "Half_NPU_errors_not_covered": true
+}

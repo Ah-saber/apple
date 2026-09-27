@@ -1,0 +1,10 @@
+FRAME ordinary 0 {'baseline': 0.0, 'previous_combo': 0.02937, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.03013}
+FRAME ordinary 10 {'baseline': 0.0, 'previous_combo': 0.04195, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.04305}
+FRAME ordinary 20 {'baseline': 0.0, 'previous_combo': 0.03378, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.03483}
+FRAME ordinary 30 {'baseline': 0.0, 'previous_combo': 0.05037, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.05115}
+FRAME ordinary 40 {'baseline': 0.0, 'previous_combo': 0.03161, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.03257}
+FRAME ordinary 50 {'baseline': 0.0, 'previous_combo': 0.04221, 'combo_stats3_relu32_aligned16_half_output_fixed': 0.04317}
+QUALITY ordinary baseline {'psnr_db': 26.989201014772064, 'ssim_every10': 0.9542357756882703, 'static_output_temporal_std_gray': 1.6066224575042725, 'static_error_temporal_std_gray': 1.6087665557861328, 'moving_mae_gray': 7.796787261962891, 'low_amplitude_moving_mae_gray': 7.790792942047119, 'brightness_error_temporal_std_gray': 0.5328756783807095, 'contrast_error_temporal_std_gray': 0.6980891464680283, 'mean_full_rawgrid_difference_gray': 0.0}
+QUALITY ordinary previous_combo {'psnr_db': 27.030203024329943, 'ssim_every10': 0.9543060890232606, 'static_output_temporal_std_gray': 1.610339641571045, 'static_error_temporal_std_gray': 1.6119064092636108, 'moving_mae_gray': 7.826558589935303, 'low_amplitude_moving_mae_gray': 7.820554256439209, 'brightness_error_temporal_std_gray': 0.5311774867830172, 'contrast_error_temporal_std_gray': 0.7055733835356595, 'mean_full_rawgrid_difference_gray': 0.5687488635381063}
+QUALITY ordinary combo_stats3_relu32_aligned16_half_output_fixed {'psnr_db': 27.031159045095237, 'ssim_every10': 0.9543026588960037, 'static_output_temporal_std_gray': 1.6103540658950806, 'static_error_temporal_std_gray': 1.6119526624679565, 'moving_mae_gray': 7.826486587524414, 'low_amplitude_moving_mae_gray': 7.820487022399902, 'brightness_error_temporal_std_gray': 0.5346501788215174, 'contrast_error_temporal_std_gray': 0.7098848209112741, 'mean_full_rawgrid_difference_gray': 0.5708929608265559}
+FINISHED

@@ -1,0 +1,151 @@
+{
+  "controls": [
+    {
+      "scene": "ordinary",
+      "channels": 9,
+      "Half_output": false,
+      "input": "constant",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "ordinary",
+      "channels": 9,
+      "Half_output": false,
+      "input": "signed_random",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "ordinary",
+      "channels": 9,
+      "Half_output": false,
+      "input": "edge",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "ordinary",
+      "channels": 16,
+      "Half_output": false,
+      "input": "constant",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "ordinary",
+      "channels": 16,
+      "Half_output": false,
+      "input": "signed_random",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "ordinary",
+      "channels": 16,
+      "Half_output": false,
+      "input": "edge",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "ordinary",
+      "channels": 16,
+      "Half_output": true,
+      "input": "constant",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "ordinary",
+      "channels": 16,
+      "Half_output": true,
+      "input": "signed_random",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "ordinary",
+      "channels": 16,
+      "Half_output": true,
+      "input": "edge",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 9,
+      "Half_output": false,
+      "input": "constant",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 9,
+      "Half_output": false,
+      "input": "signed_random",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 9,
+      "Half_output": false,
+      "input": "edge",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 16,
+      "Half_output": false,
+      "input": "constant",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 16,
+      "Half_output": false,
+      "input": "signed_random",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 16,
+      "Half_output": false,
+      "input": "edge",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 16,
+      "Half_output": true,
+      "input": "constant",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 16,
+      "Half_output": true,
+      "input": "signed_random",
+      "bit_equal": true,
+      "removed_deconv6": true
+    },
+    {
+      "scene": "special",
+      "channels": 16,
+      "Half_output": true,
+      "input": "edge",
+      "bit_equal": true,
+      "removed_deconv6": true
+    }
+  ],
+  "native_graph": "synthetic six-deconvolution path using actual frozen output weights",
+  "actual_native_R2_unavailable": true,
+  "SDK_verified": false
+}

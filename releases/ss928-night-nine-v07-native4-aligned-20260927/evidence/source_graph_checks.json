@@ -1,0 +1,6866 @@
+{
+  "models": [
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_fixed.onnx",
+      "bytes": 62335,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 36,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_fixed_small.onnx",
+      "bytes": 62333,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 36,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_folded_fixed.onnx",
+      "bytes": 62153,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 35,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 3,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_folded_fixed_small.onnx",
+      "bytes": 62151,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 35,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 3,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_half_output_fixed.onnx",
+      "bytes": 62228,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 36,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_half_output_fixed_small.onnx",
+      "bytes": 62226,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 36,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_nearest.onnx",
+      "bytes": 61940,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 41,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 8,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_nearest_half_output.onnx",
+      "bytes": 61849,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 41,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 8,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_nearest_half_output_small.onnx",
+      "bytes": 61847,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 41,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 8,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_aligned16_nearest_small.onnx",
+      "bytes": 61938,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 41,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 8,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input16_half_native_stats_aligned16_fixed.onnx",
+      "bytes": 62153,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Conv": 19,
+        "Cast": 7,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input16_half_native_stats_aligned16_fixed_small.onnx",
+      "bytes": 62151,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Conv": 19,
+        "Cast": 7,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input16_half_native_stats_scaled9_exact.onnx",
+      "bytes": 59268,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Conv": 19,
+        "Cast": 8,
+        "Constant": 35,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input16_half_native_stats_scaled9_exact_small.onnx",
+      "bytes": 59266,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Conv": 19,
+        "Cast": 8,
+        "Constant": 35,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input16_half_stats3_scaled9_exact.onnx",
+      "bytes": 61274,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 35,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input16_half_stats3_scaled9_exact_small.onnx",
+      "bytes": 61272,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 35,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input9_half_aligned16_nearest.onnx",
+      "bytes": 61940,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 41,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 8,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input9_half_aligned16_nearest_small.onnx",
+      "bytes": 61938,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 41,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 8,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input9_half_scaled9_exact.onnx",
+      "bytes": 59450,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_input9_half_scaled9_exact_small.onnx",
+      "bytes": 59448,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_project_after_resize_scaled9_exact.onnx",
+      "bytes": 59443,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_project_after_resize_scaled9_exact_small.onnx",
+      "bytes": 59441,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_relu_stats32_scaled9_exact.onnx",
+      "bytes": 61557,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Relu": 11,
+        "Constant": 43,
+        "Slice": 9,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 5,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_relu_stats32_scaled9_exact_small.onnx",
+      "bytes": 61555,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Relu": 11,
+        "Constant": 43,
+        "Slice": 9,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 5,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_scaled9_exact.onnx",
+      "bytes": 59450,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_scaled9_exact_small.onnx",
+      "bytes": 59448,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_stats3_aligned16_half_output_fixed.onnx",
+      "bytes": 62540,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 7,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_stats3_aligned16_half_output_fixed_small.onnx",
+      "bytes": 62538,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 7,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_stats3_relu32_aligned16_half_output_fixed.onnx",
+      "bytes": 67215,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 8,
+        "Conv": 19,
+        "Relu": 11,
+        "Constant": 42,
+        "Slice": 9,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 5,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_stats3_relu32_aligned16_half_output_fixed_small.onnx",
+      "bytes": 67213,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 8,
+        "Conv": 19,
+        "Relu": 11,
+        "Constant": 42,
+        "Slice": 9,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 5,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_stats3_relu32_scaled9_exact.onnx",
+      "bytes": 64437,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Relu": 11,
+        "Constant": 43,
+        "Slice": 9,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 5,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_stats3_relu32_scaled9_exact_small.onnx",
+      "bytes": 64435,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Relu": 11,
+        "Constant": 43,
+        "Slice": 9,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 5,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_stats3_scaled9_exact.onnx",
+      "bytes": 59762,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 35,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_stats3_scaled9_exact_small.onnx",
+      "bytes": 59760,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 35,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_tail5_exact_edges.onnx",
+      "bytes": 77736,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 101,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 26,
+        "Slice": 23,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 7,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_tail5_exact_edges_small.onnx",
+      "bytes": 77734,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 101,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 26,
+        "Slice": 23,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 7,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_tail5_interior.onnx",
+      "bytes": 58890,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 18,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_combo_tail5_interior_small.onnx",
+      "bytes": 58888,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 18,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_native4_linear_ref_dither_float_trained.onnx",
+      "bytes": 60526,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 47,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 7,
+        "Relu": 10,
+        "Add": 7,
+        "AveragePool": 3,
+        "Shape": 7,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Gather": 2,
+        "Unsqueeze": 4,
+        "ConstantOfShape": 1,
+        "Expand": 1,
+        "Tile": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_native4_linear_ref_dither_float_trained_small.onnx",
+      "bytes": 60524,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 47,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 7,
+        "Relu": 10,
+        "Add": 7,
+        "AveragePool": 3,
+        "Shape": 7,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Gather": 2,
+        "Unsqueeze": 4,
+        "ConstantOfShape": 1,
+        "Expand": 1,
+        "Tile": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_native4_linear_trained.onnx",
+      "bytes": 62345,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 52,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_native4_linear_trained_small.onnx",
+      "bytes": 62343,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 52,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_native4_relu8_ref_dither_trained.onnx",
+      "bytes": 60455,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 40,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 20,
+        "Slice": 8,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 6,
+        "Relu": 11,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 5,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConstantOfShape": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_native4_relu8_ref_dither_trained_small.onnx",
+      "bytes": 60453,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 40,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 20,
+        "Slice": 8,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 6,
+        "Relu": 11,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 5,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConstantOfShape": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_previous_combo.onnx",
+      "bytes": 59269,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_previous_combo_small.onnx",
+      "bytes": 59267,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_fixed.onnx",
+      "bytes": 48708,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 24,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_fixed_small.onnx",
+      "bytes": 48706,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 24,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_folded_fixed.onnx",
+      "bytes": 48526,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 23,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 3,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_folded_fixed_small.onnx",
+      "bytes": 48524,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 23,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 3,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_half_output_fixed.onnx",
+      "bytes": 48601,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 24,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_half_output_fixed_small.onnx",
+      "bytes": 48599,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 24,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_nearest.onnx",
+      "bytes": 48313,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 29,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 5,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_nearest_half_output.onnx",
+      "bytes": 48222,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 29,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 5,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_nearest_half_output_small.onnx",
+      "bytes": 48220,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 29,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 5,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_aligned16_nearest_small.onnx",
+      "bytes": 48311,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 29,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 5,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input16_half_native_stats_aligned16_fixed.onnx",
+      "bytes": 48526,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Conv": 13,
+        "Cast": 7,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input16_half_native_stats_aligned16_fixed_small.onnx",
+      "bytes": 48524,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Conv": 13,
+        "Cast": 7,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input16_half_native_stats_scaled9_exact.onnx",
+      "bytes": 45641,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Conv": 13,
+        "Cast": 8,
+        "Constant": 23,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input16_half_native_stats_scaled9_exact_small.onnx",
+      "bytes": 45639,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Conv": 13,
+        "Cast": 8,
+        "Constant": 23,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input16_half_stats3_scaled9_exact.onnx",
+      "bytes": 47647,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 23,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input16_half_stats3_scaled9_exact_small.onnx",
+      "bytes": 47645,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            16,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 23,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input9_half_aligned16_nearest.onnx",
+      "bytes": 48313,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 29,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 5,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input9_half_aligned16_nearest_small.onnx",
+      "bytes": 48311,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 29,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 5,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input9_half_scaled9_exact.onnx",
+      "bytes": 45823,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_input9_half_scaled9_exact_small.onnx",
+      "bytes": 45821,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 10
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_project_after_resize_scaled9_exact.onnx",
+      "bytes": 45814,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_project_after_resize_scaled9_exact_small.onnx",
+      "bytes": 45812,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_relu_stats32_scaled9_exact.onnx",
+      "bytes": 47930,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Relu": 8,
+        "Constant": 31,
+        "Slice": 6,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 2,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_relu_stats32_scaled9_exact_small.onnx",
+      "bytes": 47928,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Relu": 8,
+        "Constant": 31,
+        "Slice": 6,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 2,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_scaled9_exact.onnx",
+      "bytes": 45823,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_scaled9_exact_small.onnx",
+      "bytes": 45821,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_stats3_aligned16_half_output_fixed.onnx",
+      "bytes": 48913,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 7,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_stats3_aligned16_half_output_fixed_small.onnx",
+      "bytes": 48911,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 7,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_stats3_relu32_aligned16_half_output_fixed.onnx",
+      "bytes": 53588,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 8,
+        "Conv": 13,
+        "Relu": 8,
+        "Constant": 30,
+        "Slice": 6,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 2,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_stats3_relu32_aligned16_half_output_fixed_small.onnx",
+      "bytes": 53586,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 8,
+        "Conv": 13,
+        "Relu": 8,
+        "Constant": 30,
+        "Slice": 6,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 2,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_stats3_relu32_scaled9_exact.onnx",
+      "bytes": 50810,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Relu": 8,
+        "Constant": 31,
+        "Slice": 6,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 2,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_stats3_relu32_scaled9_exact_small.onnx",
+      "bytes": 50808,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Relu": 8,
+        "Constant": 31,
+        "Slice": 6,
+        "Sub": 3,
+        "Mul": 4,
+        "Concat": 2,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_stats3_scaled9_exact.onnx",
+      "bytes": 46135,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 23,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_stats3_scaled9_exact_small.onnx",
+      "bytes": 46133,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 23,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_tail5_exact_edges.onnx",
+      "bytes": 64109,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 89,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 20,
+        "Slice": 20,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 4,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_tail5_exact_edges_small.onnx",
+      "bytes": 64107,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 89,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 20,
+        "Slice": 20,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 4,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_tail5_interior.onnx",
+      "bytes": 45263,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 12,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_combo_tail5_interior_small.onnx",
+      "bytes": 45261,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 12,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_native4_linear_ref_dither_float_trained.onnx",
+      "bytes": 46890,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 35,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 4,
+        "Relu": 7,
+        "Add": 4,
+        "ReduceMean": 1,
+        "Shape": 4,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Gather": 2,
+        "Unsqueeze": 4,
+        "ConstantOfShape": 1,
+        "Expand": 1,
+        "Tile": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_native4_linear_ref_dither_float_trained_small.onnx",
+      "bytes": 46888,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 35,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 4,
+        "Relu": 7,
+        "Add": 4,
+        "ReduceMean": 1,
+        "Shape": 4,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Gather": 2,
+        "Unsqueeze": 4,
+        "ConstantOfShape": 1,
+        "Expand": 1,
+        "Tile": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_native4_linear_trained.onnx",
+      "bytes": 45893,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 31,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_native4_linear_trained_small.onnx",
+      "bytes": 45891,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 31,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_native4_relu8_ref_dither_trained.onnx",
+      "bytes": 46819,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 28,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 14,
+        "Slice": 5,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 3,
+        "Relu": 8,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 2,
+        "Resize": 1,
+        "ConstantOfShape": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_native4_relu8_ref_dither_trained_small.onnx",
+      "bytes": 46817,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 28,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 14,
+        "Slice": 5,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 3,
+        "Relu": 8,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 2,
+        "Resize": 1,
+        "ConstantOfShape": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_previous_combo.onnx",
+      "bytes": 45633,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_previous_combo_small.onnx",
+      "bytes": 45631,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "frozen_source/ordinary_baseline.onnx",
+      "bytes": 70643,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "frozen_source/ordinary_baseline_small.onnx",
+      "bytes": 70641,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "frozen_source/special_baseline.onnx",
+      "bytes": 54191,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "frozen_source/special_baseline_small.onnx",
+      "bytes": 54189,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_aligned16_fixed.onnx",
+      "bytes": 61898,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 34,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 7,
+        "Sub": 2,
+        "Shape": 4,
+        "Mul": 4,
+        "Concat": 5,
+        "Resize": 4,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_aligned16_fixed_small.onnx",
+      "bytes": 61896,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 34,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 7,
+        "Sub": 2,
+        "Shape": 4,
+        "Mul": 4,
+        "Concat": 5,
+        "Resize": 4,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_aligned16_folded_fixed.onnx",
+      "bytes": 61540,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 33,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 7,
+        "Sub": 2,
+        "Shape": 4,
+        "Mul": 3,
+        "Concat": 5,
+        "Resize": 4,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_aligned16_folded_fixed_small.onnx",
+      "bytes": 61538,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 33,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 7,
+        "Sub": 2,
+        "Shape": 4,
+        "Mul": 3,
+        "Concat": 5,
+        "Resize": 4,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_aligned16_half_output_fixed.onnx",
+      "bytes": 61703,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 34,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 7,
+        "Sub": 2,
+        "Shape": 4,
+        "Mul": 4,
+        "Concat": 5,
+        "Resize": 4,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_aligned16_half_output_fixed_small.onnx",
+      "bytes": 61701,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 34,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 7,
+        "Sub": 2,
+        "Shape": 4,
+        "Mul": 4,
+        "Concat": 5,
+        "Resize": 4,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_aligned16_nearest.onnx",
+      "bytes": 62060,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 39,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 8,
+        "Sub": 2,
+        "Shape": 4,
+        "Mul": 4,
+        "Concat": 5,
+        "Resize": 5,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_aligned16_nearest_small.onnx",
+      "bytes": 62058,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 39,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 8,
+        "Sub": 2,
+        "Shape": 4,
+        "Mul": 4,
+        "Concat": 5,
+        "Resize": 5,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_native4_linear_ref_dither_float_trained.onnx",
+      "bytes": 62662,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 45,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 7,
+        "Sub": 2,
+        "Shape": 7,
+        "Mul": 4,
+        "Concat": 7,
+        "Resize": 5,
+        "Add": 7,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Gather": 2,
+        "Unsqueeze": 4,
+        "ConstantOfShape": 1,
+        "Expand": 1,
+        "Tile": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_native4_linear_ref_dither_float_trained_small.onnx",
+      "bytes": 62660,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 45,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 10,
+        "Slice": 7,
+        "Sub": 2,
+        "Shape": 7,
+        "Mul": 4,
+        "Concat": 7,
+        "Resize": 5,
+        "Add": 7,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Gather": 2,
+        "Unsqueeze": 4,
+        "ConstantOfShape": 1,
+        "Expand": 1,
+        "Tile": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_aligned16_fixed.onnx",
+      "bytes": 48761,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 22,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 4,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 4,
+        "Add": 3,
+        "Concat": 2,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_aligned16_fixed_small.onnx",
+      "bytes": 48759,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 22,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 4,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 4,
+        "Add": 3,
+        "Concat": 2,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_aligned16_folded_fixed.onnx",
+      "bytes": 48403,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 21,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 4,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 3,
+        "Add": 3,
+        "Concat": 2,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_aligned16_folded_fixed_small.onnx",
+      "bytes": 48401,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 21,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 4,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 3,
+        "Add": 3,
+        "Concat": 2,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_aligned16_half_output_fixed.onnx",
+      "bytes": 48566,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 22,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 4,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 4,
+        "Add": 3,
+        "Concat": 2,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_aligned16_half_output_fixed_small.onnx",
+      "bytes": 48564,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 22,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 4,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 4,
+        "Add": 3,
+        "Concat": 2,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_aligned16_nearest.onnx",
+      "bytes": 48923,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 27,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 5,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 4,
+        "Add": 3,
+        "Concat": 2,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_aligned16_nearest_small.onnx",
+      "bytes": 48921,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 10,
+        "Constant": 27,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 5,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 4,
+        "Add": 3,
+        "Concat": 2,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1,
+        "DepthToSpace": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_native4_linear_ref_dither_float_trained.onnx",
+      "bytes": 49516,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 33,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 4,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 4,
+        "Add": 4,
+        "Concat": 4,
+        "Shape": 4,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Gather": 2,
+        "Unsqueeze": 4,
+        "ConstantOfShape": 1,
+        "Expand": 1,
+        "Tile": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_native4_linear_ref_dither_float_trained_small.onnx",
+      "bytes": 49514,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 1
+        }
+      ],
+      "operators": {
+        "Cast": 11,
+        "Constant": 33,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Relu": 7,
+        "Slice": 4,
+        "Sub": 2,
+        "ReduceMean": 1,
+        "Mul": 4,
+        "Add": 4,
+        "Concat": 4,
+        "Shape": 4,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Gather": 2,
+        "Unsqueeze": 4,
+        "ConstantOfShape": 1,
+        "Expand": 1,
+        "Tile": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_stats3_relu32_aligned16_half_output_fixed.onnx",
+      "bytes": 66814,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 34,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 11,
+        "Slice": 9,
+        "Sub": 3,
+        "Shape": 4,
+        "Concat": 5,
+        "Mul": 4,
+        "Resize": 4,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/ordinary_combo_stats3_relu32_aligned16_half_output_fixed_small.onnx",
+      "bytes": 66812,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 34,
+        "Conv": 19,
+        "AveragePool": 3,
+        "Relu": 11,
+        "Slice": 9,
+        "Sub": 3,
+        "Shape": 4,
+        "Concat": 5,
+        "Mul": 4,
+        "Resize": 4,
+        "Add": 6,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_stats3_relu32_aligned16_half_output_fixed.onnx",
+      "bytes": 53677,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 22,
+        "Conv": 13,
+        "Relu": 8,
+        "Slice": 6,
+        "Sub": 3,
+        "ReduceMean": 1,
+        "Add": 3,
+        "Mul": 4,
+        "Shape": 1,
+        "Concat": 2,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "compatibility_controls/special_combo_stats3_relu32_aligned16_half_output_fixed_small.onnx",
+      "bytes": 53675,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ],
+          "type": 1
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "type": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ],
+          "type": 10
+        }
+      ],
+      "operators": {
+        "Cast": 9,
+        "Constant": 22,
+        "Conv": 13,
+        "Relu": 8,
+        "Slice": 6,
+        "Sub": 3,
+        "ReduceMean": 1,
+        "Add": 3,
+        "Mul": 4,
+        "Shape": 1,
+        "Concat": 2,
+        "Resize": 1,
+        "Clip": 1,
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    }
+  ],
+  "count": 120,
+  "SDK_verified": false
+}

@@ -1,0 +1,580 @@
+{
+  "protocol": "RTX5090;30 warm;3x200 per-inference CUDA events; TF32 off; no CUDA graphs; full input/output",
+  "rounds": [
+    {
+      "file": "ordinary_additional_benchmark.json",
+      "scene": "ordinary",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "baseline",
+          "mean_ms": 0.3776763202746709,
+          "p95_ms": 0.3839679956436157
+        },
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.35129610682527224,
+          "p95_ms": 0.3571903929114342
+        },
+        {
+          "case": "combo_scaled9_exact",
+          "mean_ms": 0.3492285864055157,
+          "p95_ms": 0.35482079088687896
+        },
+        {
+          "case": "native4_linear_dither_trained",
+          "mean_ms": 0.5719629866878192,
+          "p95_ms": 0.5793616086244583
+        },
+        {
+          "case": "native4_linear_dither_float_trained",
+          "mean_ms": 0.3249651732047399,
+          "p95_ms": 0.3300816029310226
+        },
+        {
+          "case": "native4_relu8_dither_trained",
+          "mean_ms": 0.5833364271124204,
+          "p95_ms": 0.5896367758512497
+        },
+        {
+          "case": "native4_relu8_ref_dither_trained",
+          "mean_ms": 0.5873099208871524,
+          "p95_ms": 0.5939904063940048
+        },
+        {
+          "case": "relu_stats24_scaled36_exact",
+          "mean_ms": 0.38909322713812194,
+          "p95_ms": 0.39456160813570024
+        },
+        {
+          "case": "combo_relu_stats24_scaled9_exact",
+          "mean_ms": 0.3634207997719447,
+          "p95_ms": 0.3690607875585556
+        }
+      ]
+    },
+    {
+      "file": "ordinary_candidate_benchmark.json",
+      "scene": "ordinary",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "baseline",
+          "mean_ms": 0.3768667738636335,
+          "p95_ms": 0.3832640051841736
+        },
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.3499353067576885,
+          "p95_ms": 0.3568976119160652
+        },
+        {
+          "case": "native4_linear_trained",
+          "mean_ms": 0.3290769596894582,
+          "p95_ms": 0.336388798058033
+        },
+        {
+          "case": "native4_relu8_trained",
+          "mean_ms": 0.3472503463923931,
+          "p95_ms": 0.3535392090678215
+        },
+        {
+          "case": "native4_relu8_ref_trained",
+          "mean_ms": 0.3478293330470721,
+          "p95_ms": 0.3531536072492599
+        },
+        {
+          "case": "fused9_3_channel",
+          "mean_ms": 0.7094238393505414,
+          "p95_ms": 0.7230127781629563
+        },
+        {
+          "case": "fused9_3_image",
+          "mean_ms": 0.696311627527078,
+          "p95_ms": 0.7110304117202758
+        },
+        {
+          "case": "fused9_6_channel",
+          "mean_ms": 1.5867181837558746,
+          "p95_ms": 1.6022112190723419
+        },
+        {
+          "case": "scaled36_exact",
+          "mean_ms": 0.37285061240196227,
+          "p95_ms": 0.3792319893836975
+        },
+        {
+          "case": "scaled36_folded",
+          "mean_ms": 0.3710099203387896,
+          "p95_ms": 0.37670560628175737
+        },
+        {
+          "case": "scaled9_exact",
+          "mean_ms": 0.344566986511151,
+          "p95_ms": 0.3499855905771255
+        },
+        {
+          "case": "scaled9_folded",
+          "mean_ms": 0.35330858662724496,
+          "p95_ms": 0.35894399881362915
+        },
+        {
+          "case": "combo_scaled9_exact",
+          "mean_ms": 0.32384122629960377,
+          "p95_ms": 0.33018079549074175
+        },
+        {
+          "case": "combo_scaled9_folded",
+          "mean_ms": 0.3436467737952868,
+          "p95_ms": 0.3493791937828064
+        }
+      ]
+    },
+    {
+      "file": "ordinary_final_candidate_benchmark.json",
+      "scene": "ordinary",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.3429612797498703,
+          "p95_ms": 0.3492831990122795
+        },
+        {
+          "case": "combo_scaled9_exact",
+          "mean_ms": 0.3527084810038408,
+          "p95_ms": 0.3550432130694389
+        },
+        {
+          "case": "combo_aligned16_nearest",
+          "mean_ms": 0.33069167991479237,
+          "p95_ms": 0.33600319623947145
+        },
+        {
+          "case": "combo_relu_stats32_scaled9_exact",
+          "mean_ms": 0.3583283736308416,
+          "p95_ms": 0.3653471887111664
+        },
+        {
+          "case": "combo_project_after_resize_scaled9_exact",
+          "mean_ms": 0.36226197381814323,
+          "p95_ms": 0.36432320922613143
+        },
+        {
+          "case": "combo_input9_half_scaled9_exact",
+          "mean_ms": 0.3367371732493242,
+          "p95_ms": 0.34400481134653094
+        },
+        {
+          "case": "combo_input16_half_native_stats_scaled9_exact",
+          "mean_ms": 0.3549541862308979,
+          "p95_ms": 0.3614752098917961
+        },
+        {
+          "case": "native4_linear_dither_trained",
+          "mean_ms": 0.5705354136228561,
+          "p95_ms": 0.5783119916915893
+        },
+        {
+          "case": "native4_linear_dither_float_trained",
+          "mean_ms": 0.3244035735229651,
+          "p95_ms": 0.3309119939804077
+        }
+      ]
+    },
+    {
+      "file": "ordinary_fusion_alignment_benchmark.json",
+      "scene": "ordinary",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.34205562631289166,
+          "p95_ms": 0.3495712086558342
+        },
+        {
+          "case": "combo_scaled9_exact",
+          "mean_ms": 0.34762831990917525,
+          "p95_ms": 0.354081591963768
+        },
+        {
+          "case": "combo_tail5_exact_edges",
+          "mean_ms": 0.4274768539766471,
+          "p95_ms": 0.4363552138209343
+        },
+        {
+          "case": "combo_tail5_interior",
+          "mean_ms": 0.3285721070567767,
+          "p95_ms": 0.33418080359697344
+        },
+        {
+          "case": "combo_aligned16_nearest",
+          "mean_ms": 0.32985231990615527,
+          "p95_ms": 0.33600639551877975
+        },
+        {
+          "case": "combo_aligned16_fixed",
+          "mean_ms": 0.5858134401837984,
+          "p95_ms": 0.5885776191949844
+        },
+        {
+          "case": "combo_aligned16_folded_fixed",
+          "mean_ms": 0.5838940273722013,
+          "p95_ms": 0.5853808224201202
+        }
+      ]
+    },
+    {
+      "file": "ordinary_paired_final_benchmark.json",
+      "scene": "ordinary",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.34715072001020114,
+          "p95_ms": 0.3502751991152763
+        },
+        {
+          "case": "combo_aligned16_nearest",
+          "mean_ms": 0.33348885387182237,
+          "p95_ms": 0.33657601475715637
+        },
+        {
+          "case": "combo_input9_half_aligned16_nearest",
+          "mean_ms": 0.32059599975744885,
+          "p95_ms": 0.323743999004364
+        },
+        {
+          "case": "combo_input16_half_native_stats_aligned16_fixed",
+          "mean_ms": 0.5782006412744523,
+          "p95_ms": 0.581824004650116
+        },
+        {
+          "case": "combo_project_after_resize_aligned16_nearest",
+          "mean_ms": 0.33758965303500493,
+          "p95_ms": 0.34089601039886475
+        },
+        {
+          "case": "native4_linear_ref_dither_float_trained",
+          "mean_ms": 0.31114661345879235,
+          "p95_ms": 0.31529919505119325
+        },
+        {
+          "case": "combo_input9_half_scaled9_exact",
+          "mean_ms": 0.34188597296675044,
+          "p95_ms": 0.34598401188850403
+        },
+        {
+          "case": "combo_input16_half_native_stats_scaled9_exact",
+          "mean_ms": 0.3403804791967074,
+          "p95_ms": 0.34365118741989137
+        }
+      ]
+    },
+    {
+      "file": "ordinary_paired_reverse_benchmark.json",
+      "scene": "ordinary",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "native4_linear_ref_dither_float_trained",
+          "mean_ms": 0.33325178662935895,
+          "p95_ms": 0.33878720849752425
+        },
+        {
+          "case": "combo_input9_half_aligned16_nearest",
+          "mean_ms": 0.32235013365745546,
+          "p95_ms": 0.32310559451580045
+        },
+        {
+          "case": "combo_aligned16_nearest",
+          "mean_ms": 0.33448325301210086,
+          "p95_ms": 0.3393920063972473
+        },
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.351951093574365,
+          "p95_ms": 0.3569295912981033
+        }
+      ]
+    },
+    {
+      "file": "ordinary_tail_benchmark.json",
+      "scene": "ordinary",
+      "failed_partial": true,
+      "results": [
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.34533466652035716,
+          "p95_ms": 0.3509120047092438
+        },
+        {
+          "case": "combo_scaled9_exact",
+          "mean_ms": 0.35052837381760277,
+          "p95_ms": 0.3568047910928726
+        }
+      ]
+    },
+    {
+      "file": "special_additional_benchmark.json",
+      "scene": "special",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "baseline",
+          "mean_ms": 0.3718881603082021,
+          "p95_ms": 0.37353759109973905
+        },
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.3352323737740517,
+          "p95_ms": 0.33987360298633573
+        },
+        {
+          "case": "combo_scaled9_exact",
+          "mean_ms": 0.34130853285392126,
+          "p95_ms": 0.33980958759784696
+        },
+        {
+          "case": "native4_linear_dither_trained",
+          "mean_ms": 0.5654898668328922,
+          "p95_ms": 0.5687392145395279
+        },
+        {
+          "case": "native4_linear_dither_float_trained",
+          "mean_ms": 0.31991077269117035,
+          "p95_ms": 0.3240000009536743
+        },
+        {
+          "case": "native4_relu8_dither_trained",
+          "mean_ms": 0.5742665602763494,
+          "p95_ms": 0.5813440084457397
+        },
+        {
+          "case": "native4_relu8_ref_dither_trained",
+          "mean_ms": 0.576597386499246,
+          "p95_ms": 0.5745935946702957
+        },
+        {
+          "case": "relu_stats24_scaled36_exact",
+          "mean_ms": 0.3768636797865232,
+          "p95_ms": 0.38259199261665344
+        },
+        {
+          "case": "combo_relu_stats24_scaled9_exact",
+          "mean_ms": 0.3540130667388439,
+          "p95_ms": 0.3543375939130783
+        }
+      ]
+    },
+    {
+      "file": "special_candidate_benchmark.json",
+      "scene": "special",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "baseline",
+          "mean_ms": 0.3807164790729682,
+          "p95_ms": 0.387457600235939
+        },
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.348752373456955,
+          "p95_ms": 0.3542447999119759
+        },
+        {
+          "case": "native4_linear_trained",
+          "mean_ms": 0.34108325372139614,
+          "p95_ms": 0.3413119912147522
+        },
+        {
+          "case": "native4_relu8_trained",
+          "mean_ms": 0.35326042662064233,
+          "p95_ms": 0.35417601466178894
+        },
+        {
+          "case": "native4_relu8_ref_trained",
+          "mean_ms": 0.3387348800897598,
+          "p95_ms": 0.3442256063222885
+        },
+        {
+          "case": "fused9_3_channel",
+          "mean_ms": 0.6939384531974793,
+          "p95_ms": 0.7072463989257812
+        },
+        {
+          "case": "fused9_3_image",
+          "mean_ms": 0.6920635733008385,
+          "p95_ms": 0.705734395980835
+        },
+        {
+          "case": "fused9_6_channel",
+          "mean_ms": 1.572583199540774,
+          "p95_ms": 1.588355165719986
+        },
+        {
+          "case": "scaled36_exact",
+          "mean_ms": 0.3606425068279107,
+          "p95_ms": 0.3662752017378807
+        },
+        {
+          "case": "scaled36_folded",
+          "mean_ms": 0.36207349369923275,
+          "p95_ms": 0.3668176129460335
+        },
+        {
+          "case": "scaled9_exact",
+          "mean_ms": 0.338023679703474,
+          "p95_ms": 0.34182719588279725
+        },
+        {
+          "case": "scaled9_folded",
+          "mean_ms": 0.3454512001077334,
+          "p95_ms": 0.3495055943727493
+        },
+        {
+          "case": "combo_scaled9_exact",
+          "mean_ms": 0.3155958936115106,
+          "p95_ms": 0.31891199946403503
+        },
+        {
+          "case": "combo_scaled9_folded",
+          "mean_ms": 0.3369263463715712,
+          "p95_ms": 0.3403551995754242
+        }
+      ]
+    },
+    {
+      "file": "special_fusion_alignment_benchmark.json",
+      "scene": "special",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.3392024531463782,
+          "p95_ms": 0.3447056025266647
+        },
+        {
+          "case": "combo_scaled9_exact",
+          "mean_ms": 0.3334920002023379,
+          "p95_ms": 0.33974880129098894
+        },
+        {
+          "case": "combo_tail5_exact_edges",
+          "mean_ms": 0.39137866665919624,
+          "p95_ms": 0.3985919952392578
+        },
+        {
+          "case": "combo_tail5_interior",
+          "mean_ms": 0.31440389399727187,
+          "p95_ms": 0.31862559020519254
+        },
+        {
+          "case": "combo_aligned16_nearest",
+          "mean_ms": 0.3177710930009683,
+          "p95_ms": 0.3214080035686493
+        },
+        {
+          "case": "combo_aligned16_fixed",
+          "mean_ms": 0.561824107170105,
+          "p95_ms": 0.5665919780731201
+        },
+        {
+          "case": "combo_aligned16_folded_fixed",
+          "mean_ms": 0.5695595196882883,
+          "p95_ms": 0.571137598156929
+        },
+        {
+          "case": "combo_relu_stats32_scaled9_exact",
+          "mean_ms": 0.32866762697696683,
+          "p95_ms": 0.3283215969800949
+        },
+        {
+          "case": "combo_project_after_resize_scaled9_exact",
+          "mean_ms": 0.3183975467582544,
+          "p95_ms": 0.3226880133152008
+        },
+        {
+          "case": "project_after_resize_scaled36_exact",
+          "mean_ms": 0.37789968008796376,
+          "p95_ms": 0.3824016064405441
+        }
+      ]
+    },
+    {
+      "file": "special_paired_final_benchmark.json",
+      "scene": "special",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.35440501317381856,
+          "p95_ms": 0.3489600121974945
+        },
+        {
+          "case": "combo_aligned16_nearest",
+          "mean_ms": 0.3311539196471373,
+          "p95_ms": 0.33382880836725237
+        },
+        {
+          "case": "combo_input9_half_aligned16_nearest",
+          "mean_ms": 0.31982591951886813,
+          "p95_ms": 0.31884801387786865
+        },
+        {
+          "case": "combo_input16_half_native_stats_aligned16_fixed",
+          "mean_ms": 0.5788178133964539,
+          "p95_ms": 0.582751989364624
+        },
+        {
+          "case": "combo_project_after_resize_aligned16_nearest",
+          "mean_ms": 0.32393679971496264,
+          "p95_ms": 0.3267199993133545
+        },
+        {
+          "case": "native4_linear_ref_dither_float_trained",
+          "mean_ms": 0.2891817591090997,
+          "p95_ms": 0.2879360020160675
+        },
+        {
+          "case": "combo_input9_half_scaled9_exact",
+          "mean_ms": 0.3276268269121647,
+          "p95_ms": 0.33152639120817184
+        },
+        {
+          "case": "combo_input16_half_native_stats_scaled9_exact",
+          "mean_ms": 0.3280146665374438,
+          "p95_ms": 0.331167995929718
+        }
+      ]
+    },
+    {
+      "file": "special_paired_reverse_benchmark.json",
+      "scene": "special",
+      "failed_partial": false,
+      "results": [
+        {
+          "case": "native4_linear_ref_dither_float_trained",
+          "mean_ms": 0.321465173860391,
+          "p95_ms": 0.32550560534000395
+        },
+        {
+          "case": "combo_input9_half_aligned16_nearest",
+          "mean_ms": 0.30467519943912824,
+          "p95_ms": 0.3100192055106163
+        },
+        {
+          "case": "combo_aligned16_nearest",
+          "mean_ms": 0.3209867197275162,
+          "p95_ms": 0.32589280754327776
+        },
+        {
+          "case": "previous_combo",
+          "mean_ms": 0.340455359518528,
+          "p95_ms": 0.3439696043729782
+        }
+      ]
+    }
+  ],
+  "NPU_verified": false
+}

@@ -1,0 +1,7 @@
+EXACT special 0 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 0, 'max_gray': 0.18603515625, 'mean_gray': 0.023204093798995018, 'bit_exact': False}}
+EXACT special 20 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 20, 'max_gray': 0.18212890625, 'mean_gray': 0.022984184324741364, 'bit_exact': False}}
+EXACT special 40 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 40, 'max_gray': 0.18408203125, 'mean_gray': 0.022998038679361343, 'bit_exact': False}}
+EXACT special 60 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 60, 'max_gray': 0.18603515625, 'mean_gray': 0.023019500076770782, 'bit_exact': False}}
+EXACT special 80 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 80, 'max_gray': 0.1865234375, 'mean_gray': 0.023022715002298355, 'bit_exact': False}}
+EXACT special 100 {'combo_stats3_relu32_aligned16_half_output_fixed': {'frame': 100, 'max_gray': 0.185546875, 'mean_gray': 0.022990025579929352, 'bit_exact': False}}
+COMPLETE special
