@@ -1,0 +1,13 @@
+{
+  "native_sha256": "dd358b45acc53f9073ad3a52974b452bfcc499ac7dd875512889fc22170783a4",
+  "output_sha256": "c75934740d3121efa9ce35c4531ea742a0c828a9a88fc2442d4cd2a6b6391848",
+  "statistics": "space_pack",
+  "permutation": null,
+  "phase_mode": "preserve_fixed",
+  "reference_source_sha256": "ff2cba971bb9064aadf9401387dd9567db121b7d0653e0cee8d6e97eb663f732",
+  "projection_source_sha256": "e4d06ba3f4ab2f35f49bdbbf0f73cc0a65d35f8b6dc2a840d1a5cc7567aee787",
+  "actual_native_reference_resize_paths_preserved": true,
+  "SDK_compiled": false,
+  "NPU_measured": false,
+  "scope": "CLI composition on frozen source graph as synthetic native; not actual R2"
+}

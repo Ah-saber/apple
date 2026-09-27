@@ -1,0 +1,13 @@
+{
+  "checks": [
+    {
+      "scene": "ordinary",
+      "checkpoint_to_source_and_rewritten_full_small_weights_bit_exact": true
+    },
+    {
+      "scene": "special",
+      "checkpoint_to_source_and_rewritten_full_small_weights_bit_exact": true
+    }
+  ],
+  "SDK_verified": false
+}

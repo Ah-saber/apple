@@ -1,0 +1,999 @@
+{
+  "models": [
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_baseline_small.onnx",
+      "case": "baseline",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_baseline.onnx",
+      "case": "baseline",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_small.onnx",
+      "case": "space_pack",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack.onnx",
+      "case": "space_pack",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_temporal_space_pack_small.onnx",
+      "case": "temporal_space_pack",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_temporal_space_pack.onnx",
+      "case": "temporal_space_pack",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_axis_horizontal_small.onnx",
+      "case": "axis_horizontal",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_axis_horizontal.onnx",
+      "case": "axis_horizontal",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_axis_vertical_small.onnx",
+      "case": "axis_vertical",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_axis_vertical.onnx",
+      "case": "axis_vertical",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_nearest_small.onnx",
+      "case": "phase3_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_nearest.onnx",
+      "case": "phase3_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_nearest_small.onnx",
+      "case": "phase3_preserve_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_nearest.onnx",
+      "case": "phase3_preserve_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_fixed_small.onnx",
+      "case": "phase3_preserve_fixed",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_fixed.onnx",
+      "case": "phase3_preserve_fixed",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_bilinear_small.onnx",
+      "case": "phase3_bilinear",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_bilinear.onnx",
+      "case": "phase3_bilinear",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_fixed_small.onnx",
+      "case": "phase3_fixed",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_fixed.onnx",
+      "case": "phase3_fixed",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase2_nearest_small.onnx",
+      "case": "phase2_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase2_nearest.onnx",
+      "case": "phase2_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase1_nearest_small.onnx",
+      "case": "phase1_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase1_nearest.onnx",
+      "case": "phase1_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_reference_relu_small.onnx",
+      "case": "reference_relu",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_reference_relu.onnx",
+      "case": "reference_relu",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_reference_relu_output_stable_small.onnx",
+      "case": "reference_relu_output_stable",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_reference_relu_output_stable.onnx",
+      "case": "reference_relu_output_stable",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_k1_nearest_small.onnx",
+      "case": "phase3_k1_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_k1_nearest.onnx",
+      "case": "phase3_k1_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_k1_ridge_nearest_small.onnx",
+      "case": "phase3_k1_ridge_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_k1_ridge_nearest.onnx",
+      "case": "phase3_k1_ridge_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_nearest_fp32_small.onnx",
+      "case": "phase3_preserve_nearest_fp32",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_nearest_fp32.onnx",
+      "case": "phase3_preserve_nearest_fp32",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_phase3_nearest_small.onnx",
+      "case": "space_pack_phase3_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_phase3_nearest.onnx",
+      "case": "space_pack_phase3_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_phase3_preserve_nearest_small.onnx",
+      "case": "space_pack_phase3_preserve_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_phase3_preserve_nearest.onnx",
+      "case": "space_pack_phase3_preserve_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_reference_relu_output_stable_small.onnx",
+      "case": "space_pack_reference_relu_output_stable",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_reference_relu_output_stable.onnx",
+      "case": "space_pack_reference_relu_output_stable",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_preserve_nearest_small.onnx",
+      "case": "space_pack_reference_relu_output_stable_phase3_preserve_nearest",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_preserve_nearest.onnx",
+      "case": "space_pack_reference_relu_output_stable_phase3_preserve_nearest",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_rewritten_small.onnx",
+      "case": "space_pack",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_temporal_space_pack_rewritten_small.onnx",
+      "case": "temporal_space_pack",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_axis_horizontal_rewritten_small.onnx",
+      "case": "axis_horizontal",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_axis_vertical_rewritten_small.onnx",
+      "case": "axis_vertical",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_nearest_rewritten_small.onnx",
+      "case": "phase3_nearest",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_nearest_rewritten_small.onnx",
+      "case": "phase3_preserve_nearest",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_fixed_rewritten_small.onnx",
+      "case": "phase3_preserve_fixed",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_bilinear_rewritten_small.onnx",
+      "case": "phase3_bilinear",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_fixed_rewritten_small.onnx",
+      "case": "phase3_fixed",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase2_nearest_rewritten_small.onnx",
+      "case": "phase2_nearest",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase1_nearest_rewritten_small.onnx",
+      "case": "phase1_nearest",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_reference_relu_rewritten_small.onnx",
+      "case": "reference_relu",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_reference_relu_output_stable_rewritten_small.onnx",
+      "case": "reference_relu_output_stable",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_phase3_nearest_rewritten_small.onnx",
+      "case": "space_pack_phase3_nearest",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_phase3_preserve_nearest_rewritten_small.onnx",
+      "case": "space_pack_phase3_preserve_nearest",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_reference_relu_output_stable_rewritten_small.onnx",
+      "case": "space_pack_reference_relu_output_stable",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_preserve_nearest_rewritten_small.onnx",
+      "case": "space_pack_reference_relu_output_stable_phase3_preserve_nearest",
+      "small": true,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_rewritten.onnx",
+      "case": "space_pack",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_temporal_space_pack_rewritten.onnx",
+      "case": "temporal_space_pack",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_axis_horizontal_rewritten.onnx",
+      "case": "axis_horizontal",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_axis_vertical_rewritten.onnx",
+      "case": "axis_vertical",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_nearest_rewritten.onnx",
+      "case": "phase3_nearest",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_nearest_rewritten.onnx",
+      "case": "phase3_preserve_nearest",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_preserve_fixed_rewritten.onnx",
+      "case": "phase3_preserve_fixed",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_bilinear_rewritten.onnx",
+      "case": "phase3_bilinear",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase3_fixed_rewritten.onnx",
+      "case": "phase3_fixed",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase2_nearest_rewritten.onnx",
+      "case": "phase2_nearest",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_phase1_nearest_rewritten.onnx",
+      "case": "phase1_nearest",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_reference_relu_rewritten.onnx",
+      "case": "reference_relu",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_reference_relu_output_stable_rewritten.onnx",
+      "case": "reference_relu_output_stable",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_phase3_nearest_rewritten.onnx",
+      "case": "space_pack_phase3_nearest",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_phase3_preserve_nearest_rewritten.onnx",
+      "case": "space_pack_phase3_preserve_nearest",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_reference_relu_output_stable_rewritten.onnx",
+      "case": "space_pack_reference_relu_output_stable",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_preserve_nearest_rewritten.onnx",
+      "case": "space_pack_reference_relu_output_stable_phase3_preserve_nearest",
+      "small": false,
+      "bounded_rewrite": true,
+      "SDK_verified": false
+    }
+  ],
+  "NPU_measured": false
+}

@@ -1,0 +1,249 @@
+{
+  "scope": "isolated final projection through complete output path; prior full-graph statistics/reference controls are separate evidence",
+  "engine": "ONNX ReferenceEvaluator",
+  "controls": [
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_nearest",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_fixed",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_fixed",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_fixed",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_nearest",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_fixed",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_fixed",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_fixed",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "input": "edge",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    }
+  ],
+  "changed_native_weight_rejected_both_scenes": true,
+  "full_new_combination_15_case_checks": "interrupted due slow local reference engine; not reported as passed",
+  "SDK_verified": false
+}

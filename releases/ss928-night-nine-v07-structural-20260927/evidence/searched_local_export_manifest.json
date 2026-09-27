@@ -1,0 +1,186 @@
+{
+  "models": [
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_nearest",
+      "small": true,
+      "source": "ordinary_phase3_quantsearch_nearest_small.onnx",
+      "rewritten": "ordinary_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_fixed",
+      "small": true,
+      "source": "ordinary_phase3_quantsearch_fixed_small.onnx",
+      "rewritten": "ordinary_phase3_quantsearch_fixed_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "small": true,
+      "source": "ordinary_space_pack_phase3_quantsearch_nearest_small.onnx",
+      "rewritten": "ordinary_space_pack_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "small": true,
+      "source": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_small.onnx",
+      "rewritten": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "small": true,
+      "source": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_small.onnx",
+      "rewritten": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_nearest",
+      "small": false,
+      "source": "ordinary_phase3_quantsearch_nearest.onnx",
+      "rewritten": "ordinary_phase3_quantsearch_nearest_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "phase3_quantsearch_fixed",
+      "small": false,
+      "source": "ordinary_phase3_quantsearch_fixed.onnx",
+      "rewritten": "ordinary_phase3_quantsearch_fixed_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "small": false,
+      "source": "ordinary_space_pack_phase3_quantsearch_nearest.onnx",
+      "rewritten": "ordinary_space_pack_phase3_quantsearch_nearest_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "small": false,
+      "source": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest.onnx",
+      "rewritten": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "ordinary",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "small": false,
+      "source": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed.onnx",
+      "rewritten": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_nearest",
+      "small": true,
+      "source": "special_phase3_quantsearch_nearest_small.onnx",
+      "rewritten": "special_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_fixed",
+      "small": true,
+      "source": "special_phase3_quantsearch_fixed_small.onnx",
+      "rewritten": "special_phase3_quantsearch_fixed_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "small": true,
+      "source": "special_space_pack_phase3_quantsearch_nearest_small.onnx",
+      "rewritten": "special_space_pack_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "small": true,
+      "source": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_small.onnx",
+      "rewritten": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "small": true,
+      "source": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_small.onnx",
+      "rewritten": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_rewritten_small.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_nearest",
+      "small": false,
+      "source": "special_phase3_quantsearch_nearest.onnx",
+      "rewritten": "special_phase3_quantsearch_nearest_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "phase3_quantsearch_fixed",
+      "small": false,
+      "source": "special_phase3_quantsearch_fixed.onnx",
+      "rewritten": "special_phase3_quantsearch_fixed_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_phase3_quantsearch_nearest",
+      "small": false,
+      "source": "special_space_pack_phase3_quantsearch_nearest.onnx",
+      "rewritten": "special_space_pack_phase3_quantsearch_nearest_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "small": false,
+      "source": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest.onnx",
+      "rewritten": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    },
+    {
+      "scene": "special",
+      "case": "space_pack_reference_relu_output_stable_phase3_quantsearch_fixed",
+      "small": false,
+      "source": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed.onnx",
+      "rewritten": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_rewritten.onnx",
+      "SDK_verified": false,
+      "source_equivalence_note": "Combined fixed graph uses nearest source control, identical phase-to-pixel mapping"
+    }
+  ],
+  "restricted_checkpoint_globals": true,
+  "NPU_verified": false
+}

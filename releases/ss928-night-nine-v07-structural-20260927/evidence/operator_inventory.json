@@ -1,0 +1,8902 @@
+{
+  "models": [
+    {
+      "file": "source_onnx/ordinary_axis_horizontal.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_axis_horizontal_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_axis_horizontal_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_axis_horizontal_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_axis_vertical.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_axis_vertical_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_axis_vertical_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_axis_vertical_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_baseline.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_baseline_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase1_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase1_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase1_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase1_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase2_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase2_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase2_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase2_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_bilinear.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_bilinear_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_bilinear_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_bilinear_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_fixed.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_fixed_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_fixed_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_fixed_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_k1_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_k1_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_k1_ridge_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_k1_ridge_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_fixed.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_fixed_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_fixed_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_fixed_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_nearest_fp32.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_nearest_fp32_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_preserve_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_quantsearch_fixed.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_quantsearch_fixed_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_quantsearch_fixed_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_quantsearch_fixed_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_quantsearch_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_quantsearch_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_phase3_quantsearch_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 50,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_reference_relu.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_reference_relu_output_stable.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_reference_relu_output_stable_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_reference_relu_output_stable_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_reference_relu_output_stable_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_reference_relu_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_reference_relu_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_reference_relu_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Constant": 51,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 52,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 52,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_preserve_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 52,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_preserve_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_preserve_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_preserve_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 52,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_quantsearch_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 52,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_quantsearch_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_phase3_quantsearch_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 52,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Constant": 36,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_preserve_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_preserve_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_preserve_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_preserve_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 37,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 5,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 34,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_reference_relu_output_stable_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Constant": 36,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 5,
+        "Relu": 10,
+        "Add": 6,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_space_pack_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Constant": 51,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 19,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_temporal_space_pack.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 51,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_temporal_space_pack_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "SpaceToDepth": 1,
+        "Gather": 1,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_temporal_space_pack_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "SpaceToDepth": 1,
+        "Gather": 1,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/ordinary_temporal_space_pack_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 51,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_axis_horizontal.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_axis_horizontal_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_axis_horizontal_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_axis_horizontal_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_axis_vertical.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_axis_vertical_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_axis_vertical_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_axis_vertical_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_baseline.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_baseline_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase1_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase1_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase1_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase1_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase2_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase2_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase2_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase2_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_bilinear.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_bilinear_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_bilinear_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_bilinear_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_fixed.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_fixed_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_fixed_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_fixed_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_k1_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_k1_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_k1_ridge_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_k1_ridge_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_fixed.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_fixed_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_fixed_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_fixed_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_nearest_fp32.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_nearest_fp32_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_preserve_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_quantsearch_fixed.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_quantsearch_fixed_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_quantsearch_fixed_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_quantsearch_fixed_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_quantsearch_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_quantsearch_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_phase3_quantsearch_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 29,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_reference_relu.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_reference_relu_output_stable.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_reference_relu_output_stable_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_reference_relu_output_stable_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_reference_relu_output_stable_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_reference_relu_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_reference_relu_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_reference_relu_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Constant": 30,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 31,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 31,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_preserve_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 31,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_preserve_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_preserve_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_preserve_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 31,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_quantsearch_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 31,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_quantsearch_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_phase3_quantsearch_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 31,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Constant": 24,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_preserve_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_preserve_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_preserve_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_preserve_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_quantsearch_fixed_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Identity": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 10,
+        "Constant": 25,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 2,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 22,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_reference_relu_output_stable_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Constant": 24,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 4,
+        "Concat": 2,
+        "Relu": 7,
+        "Add": 3,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "SpaceToDepth": 1,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_space_pack_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Constant": 30,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Conv": 13,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_temporal_space_pack.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 30,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_temporal_space_pack_rewritten.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "SpaceToDepth": 1,
+        "Gather": 1,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_temporal_space_pack_rewritten_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "SpaceToDepth": 1,
+        "Gather": 1,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "source_onnx/special_temporal_space_pack_small.onnx",
+      "inputs": {
+        "nine_raw": [
+          1,
+          9,
+          64,
+          96
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      },
+      "outputs": {
+        "display_gray": [
+          1,
+          1,
+          192,
+          288
+        ]
+      },
+      "operators": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 30,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_axis_horizontal_fp16.onnx",
+      "inputs": {
+        "input": [
+          1,
+          36,
+          512,
+          640
+        ]
+      },
+      "outputs": {
+        "output": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "ConvTranspose": 2
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_axis_horizontal_fp32.onnx",
+      "inputs": {
+        "input": [
+          1,
+          36,
+          512,
+          640
+        ]
+      },
+      "outputs": {
+        "output": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "ConvTranspose": 2
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_axis_vertical_fp16.onnx",
+      "inputs": {
+        "input": [
+          1,
+          36,
+          512,
+          640
+        ]
+      },
+      "outputs": {
+        "output": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "ConvTranspose": 2
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_axis_vertical_fp32.onnx",
+      "inputs": {
+        "input": [
+          1,
+          36,
+          512,
+          640
+        ]
+      },
+      "outputs": {
+        "output": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "ConvTranspose": 2
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_phase9_fixed_fp16.onnx",
+      "inputs": {
+        "phases": [
+          1,
+          9,
+          512,
+          640
+        ]
+      },
+      "outputs": {
+        "image": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_phase9_fixed_fp32.onnx",
+      "inputs": {
+        "phases": [
+          1,
+          9,
+          512,
+          640
+        ]
+      },
+      "outputs": {
+        "image": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "ConvTranspose": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_phase9_nearest_fp16.onnx",
+      "inputs": {
+        "phases": [
+          1,
+          9,
+          512,
+          640
+        ]
+      },
+      "outputs": {
+        "image": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "DepthToSpace": 1,
+        "Resize": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_phase9_nearest_fp32.onnx",
+      "inputs": {
+        "phases": [
+          1,
+          9,
+          512,
+          640
+        ]
+      },
+      "outputs": {
+        "image": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      },
+      "operators": {
+        "DepthToSpace": 1,
+        "Resize": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_space_pack_fp16.onnx",
+      "inputs": {
+        "input": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      "outputs": {
+        "output": [
+          1,
+          12,
+          512,
+          640
+        ]
+      },
+      "operators": {
+        "SpaceToDepth": 1,
+        "Conv": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_space_pack_fp32.onnx",
+      "inputs": {
+        "input": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      "outputs": {
+        "output": [
+          1,
+          12,
+          512,
+          640
+        ]
+      },
+      "operators": {
+        "SpaceToDepth": 1,
+        "Conv": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_temporal_space_pack_fp16.onnx",
+      "inputs": {
+        "input": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      "outputs": {
+        "output": [
+          1,
+          12,
+          512,
+          640
+        ]
+      },
+      "operators": {
+        "Conv": 1,
+        "SpaceToDepth": 1,
+        "Gather": 1
+      },
+      "SDK_verified": false
+    },
+    {
+      "file": "onnx/micro_temporal_space_pack_fp32.onnx",
+      "inputs": {
+        "input": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      "outputs": {
+        "output": [
+          1,
+          12,
+          512,
+          640
+        ]
+      },
+      "operators": {
+        "Conv": 1,
+        "SpaceToDepth": 1,
+        "Gather": 1
+      },
+      "SDK_verified": false
+    }
+  ],
+  "ONNX_checker_passed": true,
+  "SDK_verified": false
+}

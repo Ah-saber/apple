@@ -1,0 +1,218 @@
+{
+  "independent_engine": "ONNX ReferenceEvaluator",
+  "controls": [
+    {
+      "case": "space_pack",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "temporal_space_pack",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "axis_horizontal",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "axis_vertical",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "phase3_preserve_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "phase3_preserve_fixed",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "reference_relu_output_stable",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_phase3_preserve_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_reference_relu_output_stable",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_reference_relu_output_stable_phase3_preserve_nearest",
+      "input": "constant",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "temporal_space_pack",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "axis_horizontal",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "axis_vertical",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "phase3_preserve_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "phase3_preserve_fixed",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "reference_relu_output_stable",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_phase3_preserve_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_reference_relu_output_stable",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_reference_relu_output_stable_phase3_preserve_nearest",
+      "input": "random",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "temporal_space_pack",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "axis_horizontal",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "axis_vertical",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "phase3_preserve_nearest",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "phase3_preserve_fixed",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "reference_relu_output_stable",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_phase3_preserve_nearest",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_reference_relu_output_stable",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    },
+    {
+      "case": "space_pack_reference_relu_output_stable_phase3_preserve_nearest",
+      "input": "edge_impulse",
+      "mean_gray": 0.0,
+      "max_gray": 0.0,
+      "bit_exact": true
+    }
+  ],
+  "extra_fixed_reference_conv_preserved": true,
+  "activation_count": 5,
+  "SDK_verified": false
+}

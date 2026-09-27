@@ -1,0 +1,28 @@
+{
+  "videos": [
+    {
+      "file": "ordinary_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "fps": "12/1",
+      "decoded_frames": 60,
+      "decoded_by": "remote ffprobe -count_frames",
+      "full_sensor_view": true,
+      "baseline": "v0.7 front_f32 source",
+      "new": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "NPU_output": false
+    },
+    {
+      "file": "special_space_pack_reference_relu_output_stable_phase3_quantsearch_nearest_full_comparison.mp4",
+      "width": 5120,
+      "height": 1080,
+      "fps": "12/1",
+      "decoded_frames": 120,
+      "decoded_by": "remote ffprobe -count_frames",
+      "full_sensor_view": true,
+      "baseline": "v0.7 front_f32 source",
+      "new": "space_pack_reference_relu_output_stable_phase3_quantsearch_nearest",
+      "NPU_output": false
+    }
+  ]
+}

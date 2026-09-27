@@ -1,0 +1,321 @@
+{
+  "independent_engine": "ONNX ReferenceEvaluator",
+  "controls": [
+    {
+      "kind": "statistics",
+      "mode": "space_pack",
+      "dtype": "fp16",
+      "input": "constant",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "space_pack",
+      "dtype": "fp16",
+      "input": "random",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "space_pack",
+      "dtype": "fp16",
+      "input": "edge_impulse",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "temporal_space_pack",
+      "dtype": "fp16",
+      "input": "constant",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "temporal_space_pack",
+      "dtype": "fp16",
+      "input": "random",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "temporal_space_pack",
+      "dtype": "fp16",
+      "input": "edge_impulse",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_horizontal",
+      "dtype": "fp16",
+      "input": "constant",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_horizontal",
+      "dtype": "fp16",
+      "input": "random",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_horizontal",
+      "dtype": "fp16",
+      "input": "edge_impulse",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_vertical",
+      "dtype": "fp16",
+      "input": "constant",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_vertical",
+      "dtype": "fp16",
+      "input": "random",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_vertical",
+      "dtype": "fp16",
+      "input": "edge_impulse",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "space_pack",
+      "dtype": "fp32",
+      "input": "constant",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "space_pack",
+      "dtype": "fp32",
+      "input": "random",
+      "max_difference": 5.960464477539063e-08,
+      "bit_exact": false
+    },
+    {
+      "kind": "statistics",
+      "mode": "space_pack",
+      "dtype": "fp32",
+      "input": "edge_impulse",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "temporal_space_pack",
+      "dtype": "fp32",
+      "input": "constant",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "temporal_space_pack",
+      "dtype": "fp32",
+      "input": "random",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "statistics",
+      "mode": "temporal_space_pack",
+      "dtype": "fp32",
+      "input": "edge_impulse",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_horizontal",
+      "dtype": "fp32",
+      "input": "constant",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_horizontal",
+      "dtype": "fp32",
+      "input": "random",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_horizontal",
+      "dtype": "fp32",
+      "input": "edge_impulse",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_vertical",
+      "dtype": "fp32",
+      "input": "constant",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_vertical",
+      "dtype": "fp32",
+      "input": "random",
+      "max_difference": 0.0,
+      "bit_exact": true
+    },
+    {
+      "kind": "output",
+      "mode": "axis_vertical",
+      "dtype": "fp32",
+      "input": "edge_impulse",
+      "max_difference": 0.0,
+      "bit_exact": true
+    }
+  ],
+  "full_size_micrographs": [
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/onnx/micro_space_pack_fp16.onnx",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        12,
+        512,
+        640
+      ]
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/onnx/micro_temporal_space_pack_fp16.onnx",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        12,
+        512,
+        640
+      ]
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/onnx/micro_axis_horizontal_fp16.onnx",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ]
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/onnx/micro_axis_vertical_fp16.onnx",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ]
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/onnx/micro_space_pack_fp32.onnx",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        12,
+        512,
+        640
+      ]
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/onnx/micro_temporal_space_pack_fp32.onnx",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        12,
+        512,
+        640
+      ]
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/onnx/micro_axis_horizontal_fp32.onnx",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ]
+    },
+    {
+      "file": "/data/zhangbenzhuang/huawei_sr/runs/SS928-V07-STRUCTURAL-20260927/onnx/micro_axis_vertical_fp32.onnx",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ]
+    }
+  ],
+  "SDK_compiled": false,
+  "NPU_measured": false
+}

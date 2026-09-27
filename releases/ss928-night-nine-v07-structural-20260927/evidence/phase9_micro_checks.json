@@ -1,0 +1,90 @@
+{
+  "full_input": [
+    1,
+    9,
+    512,
+    640
+  ],
+  "full_output": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "independent_engine": "ONNX ReferenceEvaluator",
+  "controls": [
+    {
+      "mode": "nearest",
+      "type": "fp16",
+      "input": "constant",
+      "bit_exact": true
+    },
+    {
+      "mode": "nearest",
+      "type": "fp16",
+      "input": "random",
+      "bit_exact": true
+    },
+    {
+      "mode": "nearest",
+      "type": "fp16",
+      "input": "edge",
+      "bit_exact": true
+    },
+    {
+      "mode": "fixed",
+      "type": "fp16",
+      "input": "constant",
+      "bit_exact": true
+    },
+    {
+      "mode": "fixed",
+      "type": "fp16",
+      "input": "random",
+      "bit_exact": true
+    },
+    {
+      "mode": "fixed",
+      "type": "fp16",
+      "input": "edge",
+      "bit_exact": true
+    },
+    {
+      "mode": "nearest",
+      "type": "fp32",
+      "input": "constant",
+      "bit_exact": true
+    },
+    {
+      "mode": "nearest",
+      "type": "fp32",
+      "input": "random",
+      "bit_exact": true
+    },
+    {
+      "mode": "nearest",
+      "type": "fp32",
+      "input": "edge",
+      "bit_exact": true
+    },
+    {
+      "mode": "fixed",
+      "type": "fp32",
+      "input": "constant",
+      "bit_exact": true
+    },
+    {
+      "mode": "fixed",
+      "type": "fp32",
+      "input": "random",
+      "bit_exact": true
+    },
+    {
+      "mode": "fixed",
+      "type": "fp32",
+      "input": "edge",
+      "bit_exact": true
+    }
+  ],
+  "SDK_verified": false
+}

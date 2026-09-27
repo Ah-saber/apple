@@ -1,0 +1,113 @@
+{
+  "scope": "linear outputs before clipping, rounding, or mixed-precision inference; actual quality separate",
+  "checks": [
+    {
+      "scene": "ordinary",
+      "input": "constant",
+      "max_float64_preclip_native_error": 1.6653345369377348e-16,
+      "linear_constraint_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 2.7755575615628914e-17,
+        "stored_bias_constraint_max": 1.734723475976807e-18
+      },
+      "stored_half_weight_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 5.425347222223764e-05,
+        "stored_bias_constraint_max": 4.874335394967205e-06
+      },
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "input": "random",
+      "max_float64_preclip_native_error": 1.942890293094024e-16,
+      "linear_constraint_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 2.7755575615628914e-17,
+        "stored_bias_constraint_max": 1.734723475976807e-18
+      },
+      "stored_half_weight_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 5.425347222223764e-05,
+        "stored_bias_constraint_max": 4.874335394967205e-06
+      },
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "input": "edge_impulse",
+      "max_float64_preclip_native_error": 1.1102230246251565e-16,
+      "linear_constraint_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 2.7755575615628914e-17,
+        "stored_bias_constraint_max": 1.734723475976807e-18
+      },
+      "stored_half_weight_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 5.425347222223764e-05,
+        "stored_bias_constraint_max": 4.874335394967205e-06
+      },
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "input": "constant",
+      "max_float64_preclip_native_error": 8.326672684688674e-17,
+      "linear_constraint_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 2.7755575615628914e-17,
+        "stored_bias_constraint_max": 1.734723475976807e-18
+      },
+      "stored_half_weight_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 4.747178819444753e-05,
+        "stored_bias_constraint_max": 4.821353488497493e-06
+      },
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "input": "random",
+      "max_float64_preclip_native_error": 1.3877787807814457e-16,
+      "linear_constraint_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 2.7755575615628914e-17,
+        "stored_bias_constraint_max": 1.734723475976807e-18
+      },
+      "stored_half_weight_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 4.747178819444753e-05,
+        "stored_bias_constraint_max": 4.821353488497493e-06
+      },
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "input": "edge_impulse",
+      "max_float64_preclip_native_error": 1.1102230246251565e-16,
+      "linear_constraint_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 2.7755575615628914e-17,
+        "stored_bias_constraint_max": 1.734723475976807e-18
+      },
+      "stored_half_weight_proof": {
+        "pre_round_weight_constraint_max": 2.7755575615628914e-17,
+        "pre_round_bias_constraint_max": 1.734723475976807e-18,
+        "stored_weight_constraint_max": 4.747178819444753e-05,
+        "stored_bias_constraint_max": 4.821353488497493e-06
+      },
+      "SDK_verified": false
+    }
+  ]
+}
