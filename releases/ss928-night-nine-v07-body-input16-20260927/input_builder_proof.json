@@ -1,0 +1,19 @@
+{
+  "test_environment": "/home/ahs/miniconda3/envs/test",
+  "seed": 5,
+  "source_shape": [
+    1,
+    9,
+    8,
+    10
+  ],
+  "layouts": [
+    "nhwc16",
+    "native5"
+  ],
+  "half_real_frames_bit_exact": true,
+  "seven_zero_slots_exact": true,
+  "f16_file_matches_array": true,
+  "reference_f32_file_unchanged": true,
+  "SDK_verified": false
+}

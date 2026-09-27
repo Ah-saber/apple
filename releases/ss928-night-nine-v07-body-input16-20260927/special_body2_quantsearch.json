@@ -1,0 +1,453 @@
+{
+  "scene": "special",
+  "depth": 2,
+  "teacher_case": "body2_pretrained",
+  "teacher_selected_using_prior_architecture_test_evidence": true,
+  "calibration_split": "train",
+  "calibration_samples": [
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        892,
+        960,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        254,
+        678,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        950,
+        874,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        624,
+        898,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        624,
+        596,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        2,
+        288,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "raw_crop": [
+        654,
+        666,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "raw_crop": [
+        926,
+        474,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        92,
+        906,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        434,
+        696,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000072@train",
+      "frames": [
+        71,
+        72
+      ],
+      "raw_crop": [
+        602,
+        924,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000072@train",
+      "frames": [
+        71,
+        72
+      ],
+      "raw_crop": [
+        442,
+        542,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000088@train",
+      "frames": [
+        87,
+        88
+      ],
+      "raw_crop": [
+        714,
+        712,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000088@train",
+      "frames": [
+        87,
+        88
+      ],
+      "raw_crop": [
+        824,
+        748,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000103@train",
+      "frames": [
+        102,
+        103
+      ],
+      "raw_crop": [
+        896,
+        568,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000103@train",
+      "frames": [
+        102,
+        103
+      ],
+      "raw_crop": [
+        800,
+        590,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    }
+  ],
+  "seed": 2791,
+  "GT_used": false,
+  "test_used_for_quantization_search": false,
+  "exact_half_coefficient_representability_enforced": true,
+  "float64_max_abs": 0.0,
+  "changes": [
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 0,
+      "power_of_two": 1,
+      "score": 7.083342432975769
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 1,
+      "power_of_two": -1,
+      "score": 5.619045734405518
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 3,
+      "power_of_two": 1,
+      "score": 5.487751364707947
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 11,
+      "power_of_two": -1,
+      "score": 4.925257444381714
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 13,
+      "power_of_two": 1,
+      "score": 4.808571636676788
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 14,
+      "power_of_two": -1,
+      "score": 4.322578132152557
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 15,
+      "power_of_two": 1,
+      "score": 4.314455151557922
+    },
+    {
+      "sweep": 1,
+      "pair": 0,
+      "channel": 0,
+      "power_of_two": -1,
+      "score": 4.058099269866943
+    },
+    {
+      "sweep": 1,
+      "pair": 0,
+      "channel": 15,
+      "power_of_two": -1,
+      "score": 3.4569166898727417
+    },
+    {
+      "sweep": 2,
+      "pair": 0,
+      "channel": 11,
+      "power_of_two": 1,
+      "score": 3.4440468549728394
+    }
+  ],
+  "initial": {
+    "score": 7.220136970281601,
+    "losses": {
+      "float": 0.0,
+      "per_tensor": 5.407096862792969,
+      "per_output": 1.84506356716156
+    }
+  },
+  "final": {
+    "score": 3.4440468549728394,
+    "losses": {
+      "float": 0.0,
+      "per_tensor": 2.4250807762145996,
+      "per_output": 1.6507835388183594
+    }
+  },
+  "logs": [
+    {
+      "sweep": 0,
+      "accepted": 7,
+      "score": 4.314455151557922,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 3.149664878845215,
+        "per_output": 1.5094962120056152
+      },
+      "elapsed_s": 0.03501921100541949
+    },
+    {
+      "sweep": 1,
+      "accepted": 2,
+      "score": 3.4569166898727417,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 2.441758871078491,
+        "per_output": 1.6188724040985107
+      },
+      "elapsed_s": 0.07088928436860442
+    },
+    {
+      "sweep": 2,
+      "accepted": 1,
+      "score": 3.4440468549728394,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 2.4250807762145996,
+        "per_output": 1.6507835388183594
+      },
+      "elapsed_s": 0.1093847593292594
+    },
+    {
+      "sweep": 3,
+      "accepted": 0,
+      "score": 3.4440468549728394,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 2.4250807762145996,
+        "per_output": 1.6507835388183594
+      },
+      "elapsed_s": 0.14791452139616013
+    }
+  ],
+  "SDK_activation_quantization_mode_not_simulated": true
+}

@@ -1,0 +1,442 @@
+{
+  "scene": "special",
+  "depth": 3,
+  "teacher_case": "body3_augtrained",
+  "teacher_selected_using_prior_architecture_test_evidence": true,
+  "calibration_split": "train",
+  "calibration_samples": [
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        892,
+        960,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        254,
+        678,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        950,
+        874,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "raw_crop": [
+        624,
+        898,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        624,
+        596,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        2,
+        288,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "raw_crop": [
+        654,
+        666,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "raw_crop": [
+        926,
+        474,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        92,
+        906,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000057@train",
+      "frames": [
+        56,
+        57
+      ],
+      "raw_crop": [
+        434,
+        696,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000072@train",
+      "frames": [
+        71,
+        72
+      ],
+      "raw_crop": [
+        602,
+        924,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000072@train",
+      "frames": [
+        71,
+        72
+      ],
+      "raw_crop": [
+        442,
+        542,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000088@train",
+      "frames": [
+        87,
+        88
+      ],
+      "raw_crop": [
+        714,
+        712,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000088@train",
+      "frames": [
+        87,
+        88
+      ],
+      "raw_crop": [
+        824,
+        748,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000103@train",
+      "frames": [
+        102,
+        103
+      ],
+      "raw_crop": [
+        896,
+        568,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000103@train",
+      "frames": [
+        102,
+        103
+      ],
+      "raw_crop": [
+        800,
+        590,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        256,
+        1024,
+        768
+      ]
+    }
+  ],
+  "seed": 2791,
+  "GT_used": false,
+  "test_used_for_quantization_search": false,
+  "exact_half_coefficient_representability_enforced": true,
+  "float64_max_abs": 0.0,
+  "changes": [
+    {
+      "sweep": 0,
+      "pair": 1,
+      "channel": 1,
+      "power_of_two": -1,
+      "score": 5.642583429813385
+    },
+    {
+      "sweep": 0,
+      "pair": 1,
+      "channel": 3,
+      "power_of_two": 1,
+      "score": 5.389580607414246
+    },
+    {
+      "sweep": 0,
+      "pair": 1,
+      "channel": 8,
+      "power_of_two": 1,
+      "score": 4.751162171363831
+    },
+    {
+      "sweep": 0,
+      "pair": 1,
+      "channel": 11,
+      "power_of_two": -1,
+      "score": 4.17383086681366
+    },
+    {
+      "sweep": 0,
+      "pair": 1,
+      "channel": 13,
+      "power_of_two": -1,
+      "score": 3.75955730676651
+    },
+    {
+      "sweep": 1,
+      "pair": 0,
+      "channel": 0,
+      "power_of_two": -1,
+      "score": 3.5341536104679108
+    },
+    {
+      "sweep": 1,
+      "pair": 0,
+      "channel": 1,
+      "power_of_two": -1,
+      "score": 3.4100378155708313
+    },
+    {
+      "sweep": 1,
+      "pair": 0,
+      "channel": 7,
+      "power_of_two": -1,
+      "score": 3.30488720536232
+    },
+    {
+      "sweep": 1,
+      "pair": 1,
+      "channel": 1,
+      "power_of_two": 1,
+      "score": 3.156972825527191
+    },
+    {
+      "sweep": 1,
+      "pair": 1,
+      "channel": 9,
+      "power_of_two": -1,
+      "score": 2.8681212663650513
+    }
+  ],
+  "initial": {
+    "score": 5.684163153171539,
+    "losses": {
+      "float": 0.0,
+      "per_tensor": 4.002183437347412,
+      "per_output": 2.7257354259490967
+    }
+  },
+  "final": {
+    "score": 2.8681212663650513,
+    "losses": {
+      "float": 0.0,
+      "per_tensor": 1.9465045928955078,
+      "per_output": 1.739962100982666
+    }
+  },
+  "logs": [
+    {
+      "sweep": 0,
+      "accepted": 5,
+      "score": 3.75955730676651,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 2.7261581420898438,
+        "per_output": 1.4074385166168213
+      },
+      "elapsed_s": 0.10879496019333601
+    },
+    {
+      "sweep": 1,
+      "accepted": 5,
+      "score": 2.8681212663650513,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 1.9465045928955078,
+        "per_output": 1.739962100982666
+      },
+      "elapsed_s": 0.1896897261030972
+    },
+    {
+      "sweep": 2,
+      "accepted": 0,
+      "score": 2.8681212663650513,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 1.9465045928955078,
+        "per_output": 1.739962100982666
+      },
+      "elapsed_s": 0.275877901352942
+    }
+  ],
+  "SDK_activation_quantization_mode_not_simulated": true
+}

@@ -1,0 +1,37 @@
+{
+  "actual_frozen_coefficients": true,
+  "float64_equivalence_only": true,
+  "controls": [
+    {
+      "scene": "ordinary",
+      "input": "signed_random",
+      "all_pixel_max_abs": 1.7763568394002505e-15
+    },
+    {
+      "scene": "ordinary",
+      "input": "constant",
+      "all_pixel_max_abs": 6.106226635438361e-16
+    },
+    {
+      "scene": "ordinary",
+      "input": "corner_impulse",
+      "all_pixel_max_abs": 5.551115123125783e-17
+    },
+    {
+      "scene": "special",
+      "input": "signed_random",
+      "all_pixel_max_abs": 7.771561172376096e-16
+    },
+    {
+      "scene": "special",
+      "input": "constant",
+      "all_pixel_max_abs": 1.1102230246251565e-16
+    },
+    {
+      "scene": "special",
+      "input": "corner_impulse",
+      "all_pixel_max_abs": 6.938893903907228e-18
+    }
+  ],
+  "SDK_verified": false
+}

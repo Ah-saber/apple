@@ -1,0 +1,20 @@
+EXPORTED ordinary_combo_input9_half_aligned16_nearest_small.onnx
+EXPORTED ordinary_combo_input9_half_aligned16_nearest.onnx
+EXPORTED ordinary_body3_quantsearch_small.onnx
+EXPORTED ordinary_body3_quantsearch.onnx
+EXPORTED ordinary_body2_quantsearch_small.onnx
+EXPORTED ordinary_body2_quantsearch.onnx
+/data/zhangbenzhuang/huawei_sr/runs/SS928-BODY-DISTILL-20260927/code_snapshot/runtime/continuation_candidates.py:53: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if self.padding and (x.shape[-2]%2 or x.shape[-1]%2):raise ValueError('Statistics3 requires even sensor dimensions')
+EXPORTED ordinary_body3_quantsearch_npu_small.onnx
+EXPORTED ordinary_body3_quantsearch_npu.onnx
+EXPORTED ordinary_body2_quantsearch_npu_small.onnx
+EXPORTED ordinary_body2_quantsearch_npu.onnx
+EXPORTED ordinary_input16_nhwc_small.onnx
+EXPORTED ordinary_input16_nhwc.onnx
+EXPORTED ordinary_input16_native5_small.onnx
+EXPORTED ordinary_input16_native5.onnx
+EXPORTED ordinary_input16_nhwc_body3_small.onnx
+EXPORTED ordinary_input16_nhwc_body3.onnx
+EXPORTED ordinary_input16_native5_body3_small.onnx
+EXPORTED ordinary_input16_native5_body3.onnx

@@ -1,0 +1,51 @@
+CACHE ordinary 0
+CACHE ordinary 5
+CACHE ordinary 11
+CACHE ordinary 17
+CACHE ordinary 23
+CACHE ordinary 28
+CACHE ordinary 34
+CACHE ordinary 40
+CACHE ordinary 46
+CACHE ordinary 51
+CACHE ordinary 57
+CACHE ordinary 3
+CACHE ordinary 9
+CACHE ordinary 15
+CACHE ordinary 20
+CACHE ordinary 26
+CACHE ordinary 32
+CACHE ordinary 38
+CACHE ordinary 43
+CACHE ordinary 49
+CACHE ordinary 55
+CACHE ordinary 1
+CACHE ordinary 7
+CACHE ordinary 12
+CACHE ordinary 18
+CACHE ordinary 24
+CACHE ordinary 30
+CACHE ordinary 35
+CACHE ordinary 41
+CACHE ordinary 47
+CACHE ordinary 53
+CACHE ordinary 59
+/data/zhangbenzhuang/miniconda3/envs/test/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:182: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+TRAIN ordinary {'step': 1000, 'loss': 20.551389694213867, 'reference_normalized_mae': 0.5690020322799683, 'phase_mae_gray': 5.103795051574707, 'temporal_mae_gray': 0.2112647444009781, 'local_mean_mae_gray': 4.976449489593506, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.5512955188751221, 'phase_mae_gray': 5.986114978790283, 'temporal_mae_gray': 0.40154552459716797, 'local_mean_mae_gray': 5.844526767730713}, 'elapsed_s': 2.9044367279857397}
+TRAIN ordinary {'step': 2000, 'loss': 17.577253341674805, 'reference_normalized_mae': 0.48814868927001953, 'phase_mae_gray': 4.459328651428223, 'temporal_mae_gray': 0.23491983115673065, 'local_mean_mae_gray': 4.20629358291626, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.4802195429801941, 'phase_mae_gray': 6.275562286376953, 'temporal_mae_gray': 0.39373117685317993, 'local_mean_mae_gray': 6.373697280883789}, 'elapsed_s': 5.8941462631337345}
+TRAIN ordinary {'step': 3000, 'loss': 10.796560287475586, 'reference_normalized_mae': 0.44928544759750366, 'phase_mae_gray': 2.658511161804199, 'temporal_mae_gray': 0.23937520384788513, 'local_mean_mae_gray': 2.6405906677246094, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.44245830178260803, 'phase_mae_gray': 5.968608379364014, 'temporal_mae_gray': 0.408589631319046, 'local_mean_mae_gray': 5.9442620277404785}, 'elapsed_s': 8.901965017896146}
+TRAIN ordinary {'step': 4000, 'loss': 13.372979164123535, 'reference_normalized_mae': 0.41645342111587524, 'phase_mae_gray': 3.5466365814208984, 'temporal_mae_gray': 0.21090109646320343, 'local_mean_mae_gray': 3.1937644481658936, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.4069675803184509, 'phase_mae_gray': 5.642840385437012, 'temporal_mae_gray': 0.354950875043869, 'local_mean_mae_gray': 5.64612340927124}, 'elapsed_s': 11.867683341261}
+TRAIN ordinary {'step': 5000, 'loss': 14.389352798461914, 'reference_normalized_mae': 0.3999350666999817, 'phase_mae_gray': 3.619793653488159, 'temporal_mae_gray': 0.2315252423286438, 'local_mean_mae_gray': 3.594695806503296, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.3884660601615906, 'phase_mae_gray': 8.240638732910156, 'temporal_mae_gray': 0.35550084710121155, 'local_mean_mae_gray': 8.384149551391602}, 'elapsed_s': 14.866866618860513}
+TRAIN ordinary {'step': 6000, 'loss': 16.611408233642578, 'reference_normalized_mae': 0.3761959969997406, 'phase_mae_gray': 4.2927703857421875, 'temporal_mae_gray': 0.24659878015518188, 'local_mean_mae_gray': 4.137895107269287, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.3712158501148224, 'phase_mae_gray': 8.48697566986084, 'temporal_mae_gray': 0.37306714057922363, 'local_mean_mae_gray': 8.607915878295898}, 'elapsed_s': 17.898865025956184}
+TRAIN ordinary {'step': 7000, 'loss': 11.312385559082031, 'reference_normalized_mae': 0.36248672008514404, 'phase_mae_gray': 2.974276542663574, 'temporal_mae_gray': 0.21135912835597992, 'local_mean_mae_gray': 2.812091588973999, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.34733515977859497, 'phase_mae_gray': 8.61268424987793, 'temporal_mae_gray': 0.389937162399292, 'local_mean_mae_gray': 8.726522445678711}, 'elapsed_s': 20.935208489187062}
+TRAIN ordinary {'step': 8000, 'loss': 8.70263671875, 'reference_normalized_mae': 0.3262500762939453, 'phase_mae_gray': 2.217944622039795, 'temporal_mae_gray': 0.2910862863063812, 'local_mean_mae_gray': 2.1526432037353516, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.322498083114624, 'phase_mae_gray': 7.3877034187316895, 'temporal_mae_gray': 0.4000100791454315, 'local_mean_mae_gray': 7.5240654945373535}, 'elapsed_s': 23.96054698107764}
+TRAIN ordinary {'step': 9000, 'loss': 8.038824081420898, 'reference_normalized_mae': 0.33455145359039307, 'phase_mae_gray': 2.140167474746704, 'temporal_mae_gray': 0.2213837057352066, 'local_mean_mae_gray': 1.9035652875900269, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.3381923735141754, 'phase_mae_gray': 8.073752403259277, 'temporal_mae_gray': 0.4323030412197113, 'local_mean_mae_gray': 8.094263076782227}, 'elapsed_s': 26.967140214983374}
+TRAIN ordinary {'step': 10000, 'loss': 23.82320785522461, 'reference_normalized_mae': 0.32760173082351685, 'phase_mae_gray': 5.942529201507568, 'temporal_mae_gray': 0.13845880329608917, 'local_mean_mae_gray': 6.115910530090332, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.3194532096385956, 'phase_mae_gray': 5.341803550720215, 'temporal_mae_gray': 0.38140445947647095, 'local_mean_mae_gray': 5.353553295135498}, 'elapsed_s': 29.99409934412688}
+TRAIN ordinary {'step': 11000, 'loss': 13.139644622802734, 'reference_normalized_mae': 0.31343236565589905, 'phase_mae_gray': 3.516472578048706, 'temporal_mae_gray': 0.10434557497501373, 'local_mean_mae_gray': 3.4145214557647705, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.31225913763046265, 'phase_mae_gray': 7.022665500640869, 'temporal_mae_gray': 0.390374094247818, 'local_mean_mae_gray': 7.134706974029541}, 'elapsed_s': 33.01206378918141}
+TRAIN ordinary {'step': 12000, 'loss': 9.440511703491211, 'reference_normalized_mae': 0.3039083182811737, 'phase_mae_gray': 2.3857970237731934, 'temporal_mae_gray': 0.2654913067817688, 'local_mean_mae_gray': 2.3513050079345703, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.2998053729534149, 'phase_mae_gray': 7.356293201446533, 'temporal_mae_gray': 0.39101579785346985, 'local_mean_mae_gray': 7.497592926025391}, 'elapsed_s': 36.03707045130432}
+TRAIN ordinary {'step': 13000, 'loss': 8.186372756958008, 'reference_normalized_mae': 0.3032850921154022, 'phase_mae_gray': 2.06475567817688, 'temporal_mae_gray': 0.3366105556488037, 'local_mean_mae_gray': 1.9591164588928223, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.29541999101638794, 'phase_mae_gray': 7.722744464874268, 'temporal_mae_gray': 0.3821394443511963, 'local_mean_mae_gray': 7.845484733581543}, 'elapsed_s': 39.10394687531516}
+TRAIN ordinary {'step': 14000, 'loss': 21.762035369873047, 'reference_normalized_mae': 0.29358720779418945, 'phase_mae_gray': 5.224546909332275, 'temporal_mae_gray': 0.2733457386493683, 'local_mean_mae_gray': 5.475268840789795, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.29360198974609375, 'phase_mae_gray': 6.716466903686523, 'temporal_mae_gray': 0.3842465877532959, 'local_mean_mae_gray': 6.827258110046387}, 'elapsed_s': 42.08639055490494}
+TRAIN ordinary {'step': 15000, 'loss': 9.713485717773438, 'reference_normalized_mae': 0.28956037759780884, 'phase_mae_gray': 2.5278453826904297, 'temporal_mae_gray': 0.3049217760562897, 'local_mean_mae_gray': 2.4365522861480713, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.2930983901023865, 'phase_mae_gray': 6.932892322540283, 'temporal_mae_gray': 0.38928818702697754, 'local_mean_mae_gray': 7.064448833465576}, 'elapsed_s': 45.113541967235506}
+TRAIN ordinary {'step': 16000, 'loss': 15.256202697753906, 'reference_normalized_mae': 0.29434385895729065, 'phase_mae_gray': 3.911447763442993, 'temporal_mae_gray': 0.08231806010007858, 'local_mean_mae_gray': 3.9873600006103516, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.2933804988861084, 'phase_mae_gray': 6.928843021392822, 'temporal_mae_gray': 0.3833180367946625, 'local_mean_mae_gray': 7.049456596374512}, 'elapsed_s': 48.118075487203896}
+COMPLETE ordinary

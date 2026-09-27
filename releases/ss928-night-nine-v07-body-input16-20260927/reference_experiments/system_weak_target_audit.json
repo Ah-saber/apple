@@ -1,0 +1,77 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "combo_input9_half_aligned16_nearest": {
+          "window_mae_gray": 7.140625,
+          "weak_temporal_response_projection": 0.3352389335632324,
+          "weak_temporal_residual_mae_gray": 1.627549409866333
+        },
+        "ref16_trained": {
+          "window_mae_gray": 6.238715171813965,
+          "weak_temporal_response_projection": 0.3422698378562927,
+          "weak_temporal_residual_mae_gray": 1.5805178880691528
+        },
+        "ref16_body3_trained": {
+          "window_mae_gray": 6.326605796813965,
+          "weak_temporal_response_projection": 0.35430699586868286,
+          "weak_temporal_residual_mae_gray": 1.5753424167633057
+        },
+        "ref16_body2_trained": {
+          "window_mae_gray": 6.39453125,
+          "weak_temporal_response_projection": 0.3307052552700043,
+          "weak_temporal_residual_mae_gray": 1.6377471685409546
+        },
+        "ref16_trained_npu": {
+          "window_mae_gray": 6.24522590637207,
+          "weak_temporal_response_projection": 0.3473418951034546,
+          "weak_temporal_residual_mae_gray": 1.5736687183380127
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "combo_input9_half_aligned16_nearest": {
+          "window_mae_gray": 3.410590171813965,
+          "weak_temporal_response_projection": 0.5575187802314758,
+          "weak_temporal_residual_mae_gray": 1.3269885778427124
+        },
+        "ref16_trained": {
+          "window_mae_gray": 3.032769203186035,
+          "weak_temporal_response_projection": 0.5578388571739197,
+          "weak_temporal_residual_mae_gray": 1.3645930290222168
+        },
+        "ref16_body3_trained": {
+          "window_mae_gray": 3.0583767890930176,
+          "weak_temporal_response_projection": 0.5524500012397766,
+          "weak_temporal_residual_mae_gray": 1.3734914064407349
+        },
+        "ref16_body2_trained": {
+          "window_mae_gray": 3.1462674140930176,
+          "weak_temporal_response_projection": 0.5808590054512024,
+          "weak_temporal_residual_mae_gray": 1.374342679977417
+        },
+        "ref16_trained_npu": {
+          "window_mae_gray": 3.0256075859069824,
+          "weak_temporal_response_projection": 0.5585000514984131,
+          "weak_temporal_residual_mae_gray": 1.364902377128601
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}

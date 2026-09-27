@@ -1,0 +1,137 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "combo_input9_half_aligned16_nearest": {
+          "window_mae_gray": 7.140625,
+          "weak_temporal_response_projection": 0.3352389335632324,
+          "weak_temporal_residual_mae_gray": 1.627549409866333
+        },
+        "body3_trained": {
+          "window_mae_gray": 6.760199546813965,
+          "weak_temporal_response_projection": 0.3565148711204529,
+          "weak_temporal_residual_mae_gray": 1.637290596961975
+        },
+        "body2_trained": {
+          "window_mae_gray": 6.541883945465088,
+          "weak_temporal_response_projection": 0.3646036684513092,
+          "weak_temporal_residual_mae_gray": 1.719558835029602
+        },
+        "body1_trained": {
+          "window_mae_gray": 8.07139778137207,
+          "weak_temporal_response_projection": 0.41571706533432007,
+          "weak_temporal_residual_mae_gray": 1.5630143880844116
+        },
+        "body3_pretrained": {
+          "window_mae_gray": 6.514105796813965,
+          "weak_temporal_response_projection": 0.3493790924549103,
+          "weak_temporal_residual_mae_gray": 1.642008900642395
+        },
+        "body2_pretrained": {
+          "window_mae_gray": 7.7552080154418945,
+          "weak_temporal_response_projection": 0.3332012891769409,
+          "weak_temporal_residual_mae_gray": 1.718874454498291
+        },
+        "body1_pretrained": {
+          "window_mae_gray": 7.924262046813965,
+          "weak_temporal_response_projection": 0.3635719418525696,
+          "weak_temporal_residual_mae_gray": 1.6213091611862183
+        },
+        "body3_augtrained": {
+          "window_mae_gray": 7.0240888595581055,
+          "weak_temporal_response_projection": 0.3268417418003082,
+          "weak_temporal_residual_mae_gray": 1.6581429243087769
+        },
+        "body2_augtrained": {
+          "window_mae_gray": 7.07530403137207,
+          "weak_temporal_response_projection": 0.32243916392326355,
+          "weak_temporal_residual_mae_gray": 1.7028919458389282
+        },
+        "body3_augtrained_npu": {
+          "window_mae_gray": 7.0260419845581055,
+          "weak_temporal_response_projection": 0.33225589990615845,
+          "weak_temporal_residual_mae_gray": 1.6528159379959106
+        },
+        "body2_augtrained_npu": {
+          "window_mae_gray": 7.0774736404418945,
+          "weak_temporal_response_projection": 0.32593491673469543,
+          "weak_temporal_residual_mae_gray": 1.6966512203216553
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "combo_input9_half_aligned16_nearest": {
+          "window_mae_gray": 3.410590171813965,
+          "weak_temporal_response_projection": 0.5575187802314758,
+          "weak_temporal_residual_mae_gray": 1.3269885778427124
+        },
+        "body3_trained": {
+          "window_mae_gray": 3.0538196563720703,
+          "weak_temporal_response_projection": 0.5328769683837891,
+          "weak_temporal_residual_mae_gray": 1.3322499990463257
+        },
+        "body2_trained": {
+          "window_mae_gray": 3.0748698711395264,
+          "weak_temporal_response_projection": 0.5200544595718384,
+          "weak_temporal_residual_mae_gray": 1.4540389776229858
+        },
+        "body1_trained": {
+          "window_mae_gray": 4.625217437744141,
+          "weak_temporal_response_projection": 0.5505671501159668,
+          "weak_temporal_residual_mae_gray": 1.3529859781265259
+        },
+        "body3_pretrained": {
+          "window_mae_gray": 3.4231770038604736,
+          "weak_temporal_response_projection": 0.5772934556007385,
+          "weak_temporal_residual_mae_gray": 1.3110496997833252
+        },
+        "body2_pretrained": {
+          "window_mae_gray": 3.742621421813965,
+          "weak_temporal_response_projection": 0.5875505208969116,
+          "weak_temporal_residual_mae_gray": 1.329155445098877
+        },
+        "body1_pretrained": {
+          "window_mae_gray": 3.9186198711395264,
+          "weak_temporal_response_projection": 0.49266737699508667,
+          "weak_temporal_residual_mae_gray": 1.3791393041610718
+        },
+        "body3_augtrained": {
+          "window_mae_gray": 3.437499761581421,
+          "weak_temporal_response_projection": 0.5686377882957458,
+          "weak_temporal_residual_mae_gray": 1.313989281654358
+        },
+        "body2_augtrained": {
+          "window_mae_gray": 3.594834804534912,
+          "weak_temporal_response_projection": 0.5797368884086609,
+          "weak_temporal_residual_mae_gray": 1.3260602951049805
+        },
+        "body3_augtrained_npu": {
+          "window_mae_gray": 3.4329428672790527,
+          "weak_temporal_response_projection": 0.5693989992141724,
+          "weak_temporal_residual_mae_gray": 1.3065611124038696
+        },
+        "body2_augtrained_npu": {
+          "window_mae_gray": 3.5944008827209473,
+          "weak_temporal_response_projection": 0.5822814702987671,
+          "weak_temporal_residual_mae_gray": 1.3167747259140015
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}

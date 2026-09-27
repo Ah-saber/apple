@@ -1,0 +1,51 @@
+CACHE special 0
+CACHE special 3
+CACHE special 7
+CACHE special 11
+CACHE special 15
+CACHE special 19
+CACHE special 23
+CACHE special 26
+CACHE special 30
+CACHE special 34
+CACHE special 38
+CACHE special 42
+CACHE special 46
+CACHE special 49
+CACHE special 53
+CACHE special 57
+CACHE special 61
+CACHE special 65
+CACHE special 69
+CACHE special 72
+CACHE special 76
+CACHE special 80
+CACHE special 84
+CACHE special 88
+CACHE special 92
+CACHE special 95
+CACHE special 99
+CACHE special 103
+CACHE special 107
+CACHE special 111
+CACHE special 115
+CACHE special 119
+/data/zhangbenzhuang/miniconda3/envs/test/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:182: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+TRAIN special {'step': 1000, 'loss': 4.4405670166015625, 'reference_normalized_mae': 0.3141542673110962, 'phase_mae_gray': 1.1280475854873657, 'temporal_mae_gray': 0.09055082499980927, 'local_mean_mae_gray': 1.0232254266738892, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.3111893832683563, 'phase_mae_gray': 1.9561384916305542, 'temporal_mae_gray': 0.10887410491704941, 'local_mean_mae_gray': 1.716912031173706}, 'elapsed_s': 2.6279866518452764}
+TRAIN special {'step': 2000, 'loss': 11.349936485290527, 'reference_normalized_mae': 0.3157554864883423, 'phase_mae_gray': 3.1011557579040527, 'temporal_mae_gray': 0.1024031937122345, 'local_mean_mae_gray': 3.0202903747558594, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.30229219794273376, 'phase_mae_gray': 2.9117233753204346, 'temporal_mae_gray': 0.0960816815495491, 'local_mean_mae_gray': 2.940718650817871}, 'elapsed_s': 5.109707691706717}
+TRAIN special {'step': 3000, 'loss': 4.906763076782227, 'reference_normalized_mae': 0.20949223637580872, 'phase_mae_gray': 1.3515475988388062, 'temporal_mae_gray': 0.08002135157585144, 'local_mean_mae_gray': 1.295009970664978, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.21156808733940125, 'phase_mae_gray': 1.9360408782958984, 'temporal_mae_gray': 0.0940835103392601, 'local_mean_mae_gray': 1.8188263177871704}, 'elapsed_s': 7.616751414723694}
+TRAIN special {'step': 4000, 'loss': 4.134563446044922, 'reference_normalized_mae': 0.2238132357597351, 'phase_mae_gray': 1.0930287837982178, 'temporal_mae_gray': 0.07891987264156342, 'local_mean_mae_gray': 1.083652138710022, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.21250852942466736, 'phase_mae_gray': 1.566617488861084, 'temporal_mae_gray': 0.09627489745616913, 'local_mean_mae_gray': 1.4100008010864258}, 'elapsed_s': 10.23698360985145}
+TRAIN special {'step': 5000, 'loss': 2.55086612701416, 'reference_normalized_mae': 0.2014526128768921, 'phase_mae_gray': 0.6211785078048706, 'temporal_mae_gray': 0.09317819029092789, 'local_mean_mae_gray': 0.580969512462616, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.2170875072479248, 'phase_mae_gray': 2.2338507175445557, 'temporal_mae_gray': 0.09087834507226944, 'local_mean_mae_gray': 2.2246463298797607}, 'elapsed_s': 13.044147096574306}
+TRAIN special {'step': 6000, 'loss': 2.509021043777466, 'reference_normalized_mae': 0.19197654724121094, 'phase_mae_gray': 0.6400371193885803, 'temporal_mae_gray': 0.08238674700260162, 'local_mean_mae_gray': 0.5638211965560913, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.19767096638679504, 'phase_mae_gray': 1.4172316789627075, 'temporal_mae_gray': 0.09091544151306152, 'local_mean_mae_gray': 1.2783831357955933}, 'elapsed_s': 15.85926984762773}
+TRAIN special {'step': 7000, 'loss': 5.654718399047852, 'reference_normalized_mae': 0.2101869285106659, 'phase_mae_gray': 1.5215435028076172, 'temporal_mae_gray': 0.0851229652762413, 'local_mean_mae_gray': 1.5310524702072144, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.1740003228187561, 'phase_mae_gray': 1.074156403541565, 'temporal_mae_gray': 0.08453640341758728, 'local_mean_mae_gray': 0.9623458981513977}, 'elapsed_s': 18.642417292576283}
+TRAIN special {'step': 8000, 'loss': 2.061978816986084, 'reference_normalized_mae': 0.175301194190979, 'phase_mae_gray': 0.4984690248966217, 'temporal_mae_gray': 0.06271437555551529, 'local_mean_mae_gray': 0.4482462704181671, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.1836356818675995, 'phase_mae_gray': 1.3523530960083008, 'temporal_mae_gray': 0.09366609901189804, 'local_mean_mae_gray': 1.274125099182129}, 'elapsed_s': 21.277301743626595}
+TRAIN special {'step': 9000, 'loss': 1.7911174297332764, 'reference_normalized_mae': 0.16339154541492462, 'phase_mae_gray': 0.43537744879722595, 'temporal_mae_gray': 0.0361841544508934, 'local_mean_mae_gray': 0.40604057908058167, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.16286107897758484, 'phase_mae_gray': 0.8585792779922485, 'temporal_mae_gray': 0.08630942553281784, 'local_mean_mae_gray': 0.7309439182281494}, 'elapsed_s': 24.112698674667627}
+TRAIN special {'step': 10000, 'loss': 1.7653586864471436, 'reference_normalized_mae': 0.15213161706924438, 'phase_mae_gray': 0.44954800605773926, 'temporal_mae_gray': 0.03541054204106331, 'local_mean_mae_gray': 0.4024680256843567, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.15361902117729187, 'phase_mae_gray': 0.8682664632797241, 'temporal_mae_gray': 0.08194733411073685, 'local_mean_mae_gray': 0.7223917841911316}, 'elapsed_s': 26.92883102968335}
+TRAIN special {'step': 11000, 'loss': 1.4248199462890625, 'reference_normalized_mae': 0.15020141005516052, 'phase_mae_gray': 0.36299699544906616, 'temporal_mae_gray': 0.031577493995428085, 'local_mean_mae_gray': 0.28364506363868713, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.15263286232948303, 'phase_mae_gray': 0.668428361415863, 'temporal_mae_gray': 0.08363331109285355, 'local_mean_mae_gray': 0.5475664734840393}, 'elapsed_s': 29.72872716281563}
+TRAIN special {'step': 12000, 'loss': 1.5389782190322876, 'reference_normalized_mae': 0.16020356118679047, 'phase_mae_gray': 0.32957547903060913, 'temporal_mae_gray': 0.0604657307267189, 'local_mean_mae_gray': 0.30099985003471375, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.14944830536842346, 'phase_mae_gray': 0.6259694695472717, 'temporal_mae_gray': 0.08362346142530441, 'local_mean_mae_gray': 0.4735265374183655}, 'elapsed_s': 32.361636550631374}
+TRAIN special {'step': 13000, 'loss': 1.5440900325775146, 'reference_normalized_mae': 0.17689967155456543, 'phase_mae_gray': 0.31298962235450745, 'temporal_mae_gray': 0.06653953343629837, 'local_mean_mae_gray': 0.27139946818351746, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.14728032052516937, 'phase_mae_gray': 0.6599814891815186, 'temporal_mae_gray': 0.08551707863807678, 'local_mean_mae_gray': 0.5213359594345093}, 'elapsed_s': 35.60074438992888}
+TRAIN special {'step': 14000, 'loss': 1.0531483888626099, 'reference_normalized_mae': 0.14560675621032715, 'phase_mae_gray': 0.17972873151302338, 'temporal_mae_gray': 0.04890255257487297, 'local_mean_mae_gray': 0.1774057149887085, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.14719806611537933, 'phase_mae_gray': 0.6360540986061096, 'temporal_mae_gray': 0.08252321183681488, 'local_mean_mae_gray': 0.4921199083328247}, 'elapsed_s': 38.86099350359291}
+TRAIN special {'step': 15000, 'loss': 1.5818630456924438, 'reference_normalized_mae': 0.14766612648963928, 'phase_mae_gray': 0.37258580327033997, 'temporal_mae_gray': 0.07090463489294052, 'local_mean_mae_gray': 0.3159347176551819, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.1457073837518692, 'phase_mae_gray': 0.7065648436546326, 'temporal_mae_gray': 0.08384662866592407, 'local_mean_mae_gray': 0.5646450519561768}, 'elapsed_s': 41.77761337580159}
+TRAIN special {'step': 16000, 'loss': 0.8078759908676147, 'reference_normalized_mae': 0.1441769003868103, 'phase_mae_gray': 0.12203997373580933, 'temporal_mae_gray': 0.029968317598104477, 'local_mean_mae_gray': 0.10936685651540756, 'train_roi_holdout_first_two_pairs': {'reference_normalized_mae': 0.14486336708068848, 'phase_mae_gray': 0.6426311731338501, 'temporal_mae_gray': 0.08293198049068451, 'local_mean_mae_gray': 0.4982616603374481}, 'elapsed_s': 44.3340596947819}
+COMPLETE special

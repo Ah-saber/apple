@@ -1,0 +1,42 @@
+{
+  "actual_fixed_coefficients": true,
+  "controls": [
+    {
+      "scene": "ordinary",
+      "input": "signed_random",
+      "decoded_data_identical": true,
+      "stats_float64_max_abs": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "input": "constant",
+      "decoded_data_identical": true,
+      "stats_float64_max_abs": 0.0
+    },
+    {
+      "scene": "ordinary",
+      "input": "corner_impulse",
+      "decoded_data_identical": true,
+      "stats_float64_max_abs": 0.0
+    },
+    {
+      "scene": "special",
+      "input": "signed_random",
+      "decoded_data_identical": true,
+      "stats_float64_max_abs": 1.3877787807814457e-17
+    },
+    {
+      "scene": "special",
+      "input": "constant",
+      "decoded_data_identical": true,
+      "stats_float64_max_abs": 0.0
+    },
+    {
+      "scene": "special",
+      "input": "corner_impulse",
+      "decoded_data_identical": true,
+      "stats_float64_max_abs": 0.0
+    }
+  ],
+  "SDK_rank_layout_support_verified": false
+}

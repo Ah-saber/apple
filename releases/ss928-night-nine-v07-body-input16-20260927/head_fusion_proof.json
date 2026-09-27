@@ -1,0 +1,27 @@
+{
+  "float64_equivalence_only": true,
+  "includes_full_borders": true,
+  "results": [
+    {
+      "shape": [
+        3,
+        4
+      ],
+      "all_pixels_max_abs": 3.3306690738754696e-16
+    },
+    {
+      "shape": [
+        8,
+        11
+      ],
+      "all_pixels_max_abs": 7.771561172376096e-16
+    },
+    {
+      "shape": [
+        64,
+        96
+      ],
+      "all_pixels_max_abs": 1.5543122344752192e-15
+    }
+  ]
+}

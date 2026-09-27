@@ -1,0 +1,18 @@
+CACHE ordinary 0
+CACHE ordinary 17
+CACHE ordinary 40
+CACHE ordinary 3
+CACHE ordinary 26
+CACHE ordinary 49
+CACHE ordinary 12
+CACHE ordinary 35
+SEARCH ordinary 3 {'sweep': 0, 'accepted': 9, 'score': 6.0575785636901855, 'losses': {'float': 0.0, 'per_tensor': 4.518687725067139, 'per_output': 1.6368756294250488}, 'elapsed_s': 0.1137167988345027}
+SEARCH ordinary 3 {'sweep': 1, 'accepted': 3, 'score': 5.466900110244751, 'losses': {'float': 0.0, 'per_tensor': 4.039233684539795, 'per_output': 1.6714320182800293}, 'elapsed_s': 0.21218733862042427}
+SEARCH ordinary 3 {'sweep': 2, 'accepted': 3, 'score': 5.194724828004837, 'losses': {'float': 0.0, 'per_tensor': 3.8197126388549805, 'per_output': 1.6803361177444458}, 'elapsed_s': 0.315173361916095}
+SEARCH ordinary 3 {'sweep': 3, 'accepted': 2, 'score': 5.1517035365104675, 'losses': {'float': 0.0, 'per_tensor': 3.7837581634521484, 'per_output': 1.688023328781128}, 'elapsed_s': 0.4147978229448199}
+COMPLETE ordinary 3
+SEARCH ordinary 2 {'sweep': 0, 'accepted': 3, 'score': 4.290754616260529, 'losses': {'float': 0.0, 'per_tensor': 2.939788818359375, 'per_output': 2.4640743732452393}, 'elapsed_s': 0.034602400846779346}
+SEARCH ordinary 2 {'sweep': 1, 'accepted': 6, 'score': 2.9961945712566376, 'losses': {'float': 0.0, 'per_tensor': 2.09370493888855, 'per_output': 1.5162535905838013}, 'elapsed_s': 0.07007694290950894}
+SEARCH ordinary 2 {'sweep': 2, 'accepted': 3, 'score': 2.389732837677002, 'losses': {'float': 0.0, 'per_tensor': 1.6277756690979004, 'per_output': 1.4200530052185059}, 'elapsed_s': 0.10774933686479926}
+SEARCH ordinary 2 {'sweep': 3, 'accepted': 0, 'score': 2.389732837677002, 'losses': {'float': 0.0, 'per_tensor': 1.6277756690979004, 'per_output': 1.4200530052185059}, 'elapsed_s': 0.14677033200860023}
+COMPLETE ordinary 2

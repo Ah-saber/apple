@@ -1,0 +1,1346 @@
+{
+  "models": [
+    {
+      "file": "ordinary_body2_quantsearch.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_body2_quantsearch_npu.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_body2_quantsearch_npu_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_body2_quantsearch_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_body3_quantsearch.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_body3_quantsearch_npu.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_body3_quantsearch_npu_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_body3_quantsearch_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_combo_input9_half_aligned16_nearest.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_combo_input9_half_aligned16_nearest_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_input16_native5.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            1024,
+            1280,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_input16_native5_body3.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            1024,
+            1280,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_input16_native5_body3_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            64,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_input16_native5_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            64,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_input16_nhwc.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1024,
+            1280,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_input16_nhwc_body3.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1024,
+            1280,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_input16_nhwc_body3_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            64,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "ordinary_input16_nhwc_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            64,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_body2_quantsearch.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_body2_quantsearch_npu.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_body2_quantsearch_npu_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_body2_quantsearch_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_body3_quantsearch.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_body3_quantsearch_npu.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_body3_quantsearch_npu_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_body3_quantsearch_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_combo_input9_half_aligned16_nearest.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_combo_input9_half_aligned16_nearest_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            64,
+            96
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_input16_native5.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            1024,
+            1280,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_input16_native5_body3.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            1024,
+            1280,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_input16_native5_body3_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            64,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_input16_native5_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            64,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_input16_nhwc.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1024,
+            1280,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_input16_nhwc_body3.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            1024,
+            1280,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_input16_nhwc_body3_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            64,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    },
+    {
+      "file": "special_input16_nhwc_small.onnx",
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            64,
+            96,
+            16
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            192,
+            288
+          ]
+        }
+      ]
+    }
+  ],
+  "count": 36,
+  "SDK_verified": false
+}

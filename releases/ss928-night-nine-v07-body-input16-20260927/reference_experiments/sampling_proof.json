@@ -1,0 +1,55 @@
+{
+  "controls": [
+    {
+      "dtype": "torch.float64",
+      "feature_crop_yx": [
+        0,
+        0
+      ],
+      "max_abs": 7.771561172376096e-15
+    },
+    {
+      "dtype": "torch.float64",
+      "feature_crop_yx": [
+        128,
+        384
+      ],
+      "max_abs": 3.419486915845482e-14
+    },
+    {
+      "dtype": "torch.float64",
+      "feature_crop_yx": [
+        448,
+        576
+      ],
+      "max_abs": 2.19824158875781e-14
+    },
+    {
+      "dtype": "torch.float32",
+      "feature_crop_yx": [
+        0,
+        0
+      ],
+      "max_abs": 3.337860107421875e-06
+    },
+    {
+      "dtype": "torch.float32",
+      "feature_crop_yx": [
+        128,
+        384
+      ],
+      "max_abs": 1.2993812561035156e-05
+    },
+    {
+      "dtype": "torch.float32",
+      "feature_crop_yx": [
+        448,
+        576
+      ],
+      "max_abs": 1.2218952178955078e-05
+    }
+  ],
+  "deployment_grid_sample": false,
+  "includes_borders": true,
+  "float16_bit_identity_claimed": false
+}

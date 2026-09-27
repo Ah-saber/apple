@@ -1,0 +1,502 @@
+{
+  "scene": "ordinary",
+  "depth": 3,
+  "teacher_case": "body3_trained",
+  "teacher_selected_using_prior_architecture_test_evidence": true,
+  "calibration_split": "train",
+  "calibration_samples": [
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        892,
+        1216,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "raw_crop": [
+        254,
+        728,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frames": [
+        16,
+        17
+      ],
+      "raw_crop": [
+        950,
+        1068,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000017@train",
+      "frames": [
+        16,
+        17
+      ],
+      "raw_crop": [
+        624,
+        1110,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        624,
+        588,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195608/000040@train",
+      "frames": [
+        39,
+        40
+      ],
+      "raw_crop": [
+        2,
+        58,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frames": [
+        2,
+        3
+      ],
+      "raw_crop": [
+        654,
+        706,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000003@train",
+      "frames": [
+        2,
+        3
+      ],
+      "raw_crop": [
+        926,
+        376,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        92,
+        1124,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000026@train",
+      "frames": [
+        25,
+        26
+      ],
+      "raw_crop": [
+        434,
+        760,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        602,
+        1154,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_195715/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "raw_crop": [
+        442,
+        494,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frames": [
+        11,
+        12
+      ],
+      "raw_crop": [
+        714,
+        788,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000012@train",
+      "frames": [
+        11,
+        12
+      ],
+      "raw_crop": [
+        824,
+        848,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "raw_crop": [
+        896,
+        540,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    },
+    {
+      "sample_id": "night/raw_20260805_200247/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "raw_crop": [
+        800,
+        576,
+        64,
+        64
+      ],
+      "train_roi": [
+        0,
+        0,
+        1024,
+        1280
+      ]
+    }
+  ],
+  "seed": 2791,
+  "GT_used": false,
+  "test_used_for_quantization_search": false,
+  "exact_half_coefficient_representability_enforced": true,
+  "float64_max_abs": 0.0,
+  "changes": [
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 0,
+      "power_of_two": -1,
+      "score": 21.062864184379578
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 1,
+      "power_of_two": 1,
+      "score": 10.957463026046753
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 2,
+      "power_of_two": 1,
+      "score": 10.433901906013489
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 5,
+      "power_of_two": -1,
+      "score": 10.219209790229797
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 6,
+      "power_of_two": -1,
+      "score": 10.196163177490234
+    },
+    {
+      "sweep": 0,
+      "pair": 0,
+      "channel": 7,
+      "power_of_two": -1,
+      "score": 7.0812059342861176
+    },
+    {
+      "sweep": 0,
+      "pair": 1,
+      "channel": 1,
+      "power_of_two": 1,
+      "score": 6.269076347351074
+    },
+    {
+      "sweep": 0,
+      "pair": 1,
+      "channel": 13,
+      "power_of_two": -1,
+      "score": 6.17263200879097
+    },
+    {
+      "sweep": 0,
+      "pair": 1,
+      "channel": 14,
+      "power_of_two": 1,
+      "score": 6.0575785636901855
+    },
+    {
+      "sweep": 1,
+      "pair": 0,
+      "channel": 4,
+      "power_of_two": 1,
+      "score": 6.057497501373291
+    },
+    {
+      "sweep": 1,
+      "pair": 0,
+      "channel": 6,
+      "power_of_two": -1,
+      "score": 5.834142863750458
+    },
+    {
+      "sweep": 1,
+      "pair": 1,
+      "channel": 9,
+      "power_of_two": 1,
+      "score": 5.466900110244751
+    },
+    {
+      "sweep": 2,
+      "pair": 0,
+      "channel": 2,
+      "power_of_two": 1,
+      "score": 5.4668869972229
+    },
+    {
+      "sweep": 2,
+      "pair": 0,
+      "channel": 6,
+      "power_of_two": 1,
+      "score": 5.361482799053192
+    },
+    {
+      "sweep": 2,
+      "pair": 0,
+      "channel": 13,
+      "power_of_two": 1,
+      "score": 5.194724828004837
+    },
+    {
+      "sweep": 3,
+      "pair": 0,
+      "channel": 2,
+      "power_of_two": -1,
+      "score": 5.1947042644023895
+    },
+    {
+      "sweep": 3,
+      "pair": 0,
+      "channel": 6,
+      "power_of_two": -1,
+      "score": 5.1517035365104675
+    }
+  ],
+  "initial": {
+    "score": 29.777765035629272,
+    "losses": {
+      "float": 0.0,
+      "per_tensor": 23.237957000732422,
+      "per_output": 2.9212751388549805
+    }
+  },
+  "final": {
+    "score": 5.1517035365104675,
+    "losses": {
+      "float": 0.0,
+      "per_tensor": 3.7837581634521484,
+      "per_output": 1.688023328781128
+    }
+  },
+  "logs": [
+    {
+      "sweep": 0,
+      "accepted": 9,
+      "score": 6.0575785636901855,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 4.518687725067139,
+        "per_output": 1.6368756294250488
+      },
+      "elapsed_s": 0.1137167988345027
+    },
+    {
+      "sweep": 1,
+      "accepted": 3,
+      "score": 5.466900110244751,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 4.039233684539795,
+        "per_output": 1.6714320182800293
+      },
+      "elapsed_s": 0.21218733862042427
+    },
+    {
+      "sweep": 2,
+      "accepted": 3,
+      "score": 5.194724828004837,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 3.8197126388549805,
+        "per_output": 1.6803361177444458
+      },
+      "elapsed_s": 0.315173361916095
+    },
+    {
+      "sweep": 3,
+      "accepted": 2,
+      "score": 5.1517035365104675,
+      "losses": {
+        "float": 0.0,
+        "per_tensor": 3.7837581634521484,
+        "per_output": 1.688023328781128
+      },
+      "elapsed_s": 0.4147978229448199
+    }
+  ],
+  "SDK_activation_quantization_mode_not_simulated": true
+}

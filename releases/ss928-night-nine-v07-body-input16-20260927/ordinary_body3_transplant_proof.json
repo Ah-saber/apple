@@ -1,0 +1,57 @@
+{
+  "reference": "ordinary_combo_input9_half_aligned16_nearest_small.onnx",
+  "candidate": "ordinary_body3_quantsearch_small.onnx",
+  "body_only": true,
+  "SDK_verified": false,
+  "changed_frozen_weight_rejected": true,
+  "controls": [
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "shape": [
+        3,
+        4
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "shape": [
+        8,
+        11
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float16'>",
+      "shape": [
+        12,
+        14
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "shape": [
+        3,
+        4
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "shape": [
+        8,
+        11
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "shape": [
+        12,
+        14
+      ],
+      "all_pixel_max_abs": 0.0
+    }
+  ]
+}

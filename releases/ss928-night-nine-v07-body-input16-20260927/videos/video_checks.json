@@ -1,0 +1,90 @@
+{
+  "special_body3_quantsearch_full_comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 5120,
+        "height": 1080,
+        "r_frame_rate": "12/1",
+        "nb_read_frames": "120"
+      }
+    ]
+  },
+  "special_input16_nhwc_body3_full_comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 5120,
+        "height": 1080,
+        "r_frame_rate": "12/1",
+        "nb_read_frames": "120"
+      }
+    ]
+  },
+  "ordinary_body2_quantsearch_full_comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 5120,
+        "height": 1080,
+        "r_frame_rate": "12/1",
+        "nb_read_frames": "60"
+      }
+    ]
+  },
+  "special_input16_nhwc_full_comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 5120,
+        "height": 1080,
+        "r_frame_rate": "12/1",
+        "nb_read_frames": "120"
+      }
+    ]
+  },
+  "special_body2_quantsearch_full_comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 5120,
+        "height": 1080,
+        "r_frame_rate": "12/1",
+        "nb_read_frames": "120"
+      }
+    ]
+  },
+  "ordinary_input16_nhwc_full_comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 5120,
+        "height": 1080,
+        "r_frame_rate": "12/1",
+        "nb_read_frames": "60"
+      }
+    ]
+  },
+  "ordinary_input16_nhwc_body3_full_comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 5120,
+        "height": 1080,
+        "r_frame_rate": "12/1",
+        "nb_read_frames": "60"
+      }
+    ]
+  },
+  "ordinary_body3_quantsearch_full_comparison.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 5120,
+        "height": 1080,
+        "r_frame_rate": "12/1",
+        "nb_read_frames": "60"
+      }
+    ]
+  }
+}

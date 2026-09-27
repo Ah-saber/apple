@@ -1,0 +1,54 @@
+{
+  "float64_equivalence_only": true,
+  "controls": [
+    {
+      "depth": 2,
+      "shape": [
+        3,
+        4
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "depth": 2,
+      "shape": [
+        12,
+        14
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "depth": 2,
+      "shape": [
+        64,
+        96
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "depth": 3,
+      "shape": [
+        3,
+        4
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "depth": 3,
+      "shape": [
+        12,
+        14
+      ],
+      "all_pixel_max_abs": 0.0
+    },
+    {
+      "depth": 3,
+      "shape": [
+        64,
+        96
+      ],
+      "all_pixel_max_abs": 0.0
+    }
+  ],
+  "SDK_verified": false
+}

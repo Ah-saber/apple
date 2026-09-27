@@ -1,0 +1,113 @@
+{
+  "models": [
+    {
+      "file": "special_combo_input9_half_aligned16_nearest_small.onnx",
+      "case": "combo_input9_half_aligned16_nearest",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_combo_input9_half_aligned16_nearest.onnx",
+      "case": "combo_input9_half_aligned16_nearest",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_body3_quantsearch_small.onnx",
+      "case": "body3_quantsearch",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_body3_quantsearch.onnx",
+      "case": "body3_quantsearch",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_body2_quantsearch_small.onnx",
+      "case": "body2_quantsearch",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_body2_quantsearch.onnx",
+      "case": "body2_quantsearch",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_body3_quantsearch_npu_small.onnx",
+      "case": "body3_quantsearch_npu",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_body3_quantsearch_npu.onnx",
+      "case": "body3_quantsearch_npu",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_body2_quantsearch_npu_small.onnx",
+      "case": "body2_quantsearch_npu",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_body2_quantsearch_npu.onnx",
+      "case": "body2_quantsearch_npu",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_input16_nhwc_small.onnx",
+      "case": "input16_nhwc",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_input16_nhwc.onnx",
+      "case": "input16_nhwc",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_input16_native5_small.onnx",
+      "case": "input16_native5",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_input16_native5.onnx",
+      "case": "input16_native5",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_input16_nhwc_body3_small.onnx",
+      "case": "input16_nhwc_body3",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_input16_nhwc_body3.onnx",
+      "case": "input16_nhwc_body3",
+      "small": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_input16_native5_body3_small.onnx",
+      "case": "input16_native5_body3",
+      "small": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_input16_native5_body3.onnx",
+      "case": "input16_native5_body3",
+      "small": false,
+      "SDK_verified": false
+    }
+  ],
+  "NPU_verified": false
+}

@@ -1,0 +1,26 @@
+{
+  "scene": "special",
+  "variant": "body2_quantsearch",
+  "baseline": "combo_input9_half_aligned16_nearest",
+  "baseline_commit": "b5802f9ace1b7574db947a1e41f25909fccc3ed9",
+  "count": 120,
+  "fps": 12,
+  "video_shape": [
+    1080,
+    5120
+  ],
+  "each_panel_sensor_shape": [
+    1024,
+    1280
+  ],
+  "model_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "video_downsample": "rounded full 3x output averaged in 3x3 cells; no crop",
+  "source_execution": true,
+  "NPU_verified": false,
+  "mean_full_rawgrid_difference_gray": 1.8238783299922943
+}
