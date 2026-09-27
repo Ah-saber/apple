@@ -1,0 +1,730 @@
+{
+  "scene": "ordinary",
+  "GPU": "NVIDIA GeForce RTX 5090",
+  "torch": "2.7.0+cu128",
+  "TF32": false,
+  "NPU_measured": false,
+  "micro": [
+    {
+      "kind": "statistics",
+      "mode": "dense",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        12,
+        512,
+        640
+      ],
+      "mean_normalized_error": 0.0,
+      "max_normalized_error": 0.0,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.031214079856872558,
+          0.03106719970703125,
+          0.031121919155120848
+        ],
+        "mean_ms": 0.031134399573008217,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "statistics",
+      "mode": "temporal_first",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        12,
+        512,
+        640
+      ],
+      "mean_normalized_error": 0.0,
+      "max_normalized_error": 0.0,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.08807680130004883,
+          0.08796416282653809,
+          0.08801535606384277
+        ],
+        "mean_ms": 0.0880187733968099,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "statistics",
+      "mode": "temporal_f32",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        12,
+        512,
+        640
+      ],
+      "mean_normalized_error": 0.0,
+      "max_normalized_error": 0.0,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.19150848388671876,
+          0.17220672607421875,
+          0.17237791061401367
+        ],
+        "mean_ms": 0.17869770685831707,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "statistics",
+      "mode": "pack_first",
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "output_shape": [
+        1,
+        12,
+        512,
+        640
+      ],
+      "mean_normalized_error": 0.0,
+      "max_normalized_error": 0.0,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.2442300796508789,
+          0.22458784103393556,
+          0.2444710350036621
+        ],
+        "mean_ms": 0.23776298522949216,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "output",
+      "mode": "shuffle6",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "full_output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "bitexact": true,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.018561279773712157,
+          0.018515199422836304,
+          0.018579200506210328
+        ],
+        "mean_ms": 0.01855189323425293,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "output",
+      "mode": "reshape",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "full_output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "bitexact": true,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.018558399677276613,
+          0.018528319597244262,
+          0.01859455943107605
+        ],
+        "mean_ms": 0.018560426235198976,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "output",
+      "mode": "deconv6",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "full_output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "bitexact": true,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.2551948738098144,
+          0.2550473594665527,
+          0.2551081657409668
+        ],
+        "mean_ms": 0.25511679967244466,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "output",
+      "mode": "deconv2_shuffle3",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "full_output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "bitexact": true,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.20243167877197266,
+          0.2025868797302246,
+          0.20256864547729492
+        ],
+        "mean_ms": 0.20252906799316406,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "output",
+      "mode": "deconv3_shuffle2",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "full_output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "bitexact": true,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.5205376052856445,
+          0.5208710479736328,
+          0.5208515167236328
+        ],
+        "mean_ms": 0.5207533899943034,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "output",
+      "mode": "shuffle2_3",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "full_output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "bitexact": true,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.10273407936096192,
+          0.1017142391204834,
+          0.10183648109436035
+        ],
+        "mean_ms": 0.10209493319193523,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "kind": "output",
+      "mode": "shuffle3_2",
+      "input_shape": [
+        1,
+        36,
+        512,
+        640
+      ],
+      "full_output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "bitexact": true,
+      "eager": {
+        "three_batch_mean_ms": [
+          0.10207232475280761,
+          0.10220000267028809,
+          0.10231616020202637
+        ],
+        "mean_ms": 0.10219616254170737,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    }
+  ],
+  "full": [
+    {
+      "name": "front_f32",
+      "options": {},
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.6353676986694335,
+          0.6355241775512696,
+          0.6355558395385742
+        ],
+        "mean_ms": 0.6354825719197591,
+        "warmup": 20,
+        "runs_per_batch": 100
+      },
+      "compiled": {
+        "three_batch_mean_ms": [
+          0.34460609436035156,
+          0.34505550384521483,
+          0.34543087005615236
+        ],
+        "mean_ms": 0.3450308227539063,
+        "warmup": 30,
+        "runs_per_batch": 200
+      },
+      "compiled_vs_own_source": {
+        "mean_gray": 0.04401133954524994,
+        "max_gray": 0.54473876953125,
+        "rounded_byte_changed_fraction": 0.043629709631204605,
+        "rounded_byte_max_error": 1.0
+      }
+    },
+    {
+      "name": "stats_temporal",
+      "options": {
+        "statistics": "temporal_first"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.6862274932861329,
+          0.6862614440917969,
+          0.7099759674072266
+        ],
+        "mean_ms": 0.6941549682617186,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "name": "stats_temporal_f32",
+      "options": {
+        "statistics": "temporal_f32"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.7471437072753906,
+          0.7471817779541016,
+          0.7471199798583984
+        ],
+        "mean_ms": 0.7471484883626301,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "name": "stats_pack",
+      "options": {
+        "statistics": "pack_first"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.7989750671386718,
+          0.7988909149169922,
+          0.7981161499023437
+        ],
+        "mean_ms": 0.7986607106526692,
+        "warmup": 20,
+        "runs_per_batch": 100
+      },
+      "compiled": {
+        "three_batch_mean_ms": [
+          0.5122798538208008,
+          0.5143796920776367,
+          0.5160198211669922
+        ],
+        "mean_ms": 0.5142264556884766,
+        "warmup": 30,
+        "runs_per_batch": 200
+      },
+      "compiled_vs_own_source": {
+        "mean_gray": 0.04401133954524994,
+        "max_gray": 0.54473876953125,
+        "rounded_byte_changed_fraction": 0.043629709631204605,
+        "rounded_byte_max_error": 1.0
+      }
+    },
+    {
+      "name": "output_deconv6",
+      "options": {
+        "output": "deconv6"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.8739244842529297,
+          0.8747859191894531,
+          0.8886672210693359
+        ],
+        "mean_ms": 0.8791258748372396,
+        "warmup": 20,
+        "runs_per_batch": 100
+      },
+      "compiled": {
+        "three_batch_mean_ms": [
+          0.607041130065918,
+          0.6074030303955078,
+          0.6071481704711914
+        ],
+        "mean_ms": 0.6071974436442057,
+        "warmup": 30,
+        "runs_per_batch": 200
+      },
+      "compiled_vs_own_source": {
+        "mean_gray": 0.032372452318668365,
+        "max_gray": 0.498046875,
+        "rounded_byte_changed_fraction": 0.03238830715417862,
+        "rounded_byte_max_error": 1.0
+      }
+    },
+    {
+      "name": "output_deconv2_shuffle3",
+      "options": {
+        "output": "deconv2_shuffle3"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.8080889892578125,
+          0.8094646453857421,
+          0.8093199920654297
+        ],
+        "mean_ms": 0.8089578755696615,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "name": "output_deconv3_shuffle2",
+      "options": {
+        "output": "deconv3_shuffle2"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          1.1261897277832031,
+          1.128606719970703,
+          1.1254153442382813
+        ],
+        "mean_ms": 1.1267372639973958,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "name": "output_shuffle2_3",
+      "options": {
+        "output": "shuffle2_3"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.7210368347167969,
+          0.7420310211181641,
+          0.7215599822998047
+        ],
+        "mean_ms": 0.7282092793782553,
+        "warmup": 20,
+        "runs_per_batch": 100
+      },
+      "compiled": {
+        "three_batch_mean_ms": [
+          0.345810546875,
+          0.3461699295043945,
+          0.34646942138671877
+        ],
+        "mean_ms": 0.3461499659220378,
+        "warmup": 30,
+        "runs_per_batch": 200
+      },
+      "compiled_vs_own_source": {
+        "mean_gray": 0.04401133954524994,
+        "max_gray": 0.54473876953125,
+        "rounded_byte_changed_fraction": 0.043629709631204605,
+        "rounded_byte_max_error": 1.0
+      }
+    },
+    {
+      "name": "output_shuffle3_2",
+      "options": {
+        "output": "shuffle3_2"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.7198143768310546,
+          0.7204867553710937,
+          0.7205276489257812
+        ],
+        "mean_ms": 0.7202762603759766,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "name": "output_reshape",
+      "options": {
+        "output": "reshape"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.6351347351074219,
+          0.6349356842041015,
+          0.6350217437744141
+        ],
+        "mean_ms": 0.6350307210286458,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    },
+    {
+      "name": "input_nchw_half",
+      "options": {
+        "input_half": true
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.6196736145019531,
+          0.6196083068847656,
+          0.6195382308959961
+        ],
+        "mean_ms": 0.6196067174275717,
+        "warmup": 20,
+        "runs_per_batch": 100
+      },
+      "compiled": {
+        "three_batch_mean_ms": [
+          0.3305897521972656,
+          0.3311153411865234,
+          0.3313159942626953
+        ],
+        "mean_ms": 0.3310070292154948,
+        "warmup": 30,
+        "runs_per_batch": 200
+      },
+      "compiled_vs_own_source": {
+        "mean_gray": 0.04401133954524994,
+        "max_gray": 0.54473876953125,
+        "rounded_byte_changed_fraction": 0.043629709631204605,
+        "rounded_byte_max_error": 1.0
+      }
+    },
+    {
+      "name": "output_half",
+      "options": {
+        "output_half": true
+      },
+      "source_delta": {
+        "mean_gray": 0.019224220886826515,
+        "max_gray": 0.0625,
+        "rounded_byte_changed_fraction": 0.03864457830786705,
+        "rounded_byte_max_error": 1.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.6380963134765625,
+          0.6392870330810547,
+          0.6394524765014649
+        ],
+        "mean_ms": 0.6389452743530274,
+        "warmup": 20,
+        "runs_per_batch": 100
+      },
+      "compiled": {
+        "three_batch_mean_ms": [
+          0.33231727600097655,
+          0.33295520782470706,
+          0.333326416015625
+        ],
+        "mean_ms": 0.3328662999471029,
+        "warmup": 30,
+        "runs_per_batch": 200
+      },
+      "compiled_vs_own_source": {
+        "mean_gray": 0.044318392872810364,
+        "max_gray": 0.5,
+        "rounded_byte_changed_fraction": 0.044063907116651535,
+        "rounded_byte_max_error": 1.0
+      }
+    },
+    {
+      "name": "scale_packed_f32",
+      "options": {
+        "scale": "packed_f32"
+      },
+      "source_delta": {
+        "mean_gray": 0.0,
+        "max_gray": 0.0,
+        "rounded_byte_changed_fraction": 0.0,
+        "rounded_byte_max_error": 0.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.6379865646362305,
+          0.6391439819335938,
+          0.6392147064208984
+        ],
+        "mean_ms": 0.6387817509969075,
+        "warmup": 20,
+        "runs_per_batch": 100
+      },
+      "compiled": {
+        "three_batch_mean_ms": [
+          0.35320945739746096,
+          0.3448129653930664,
+          0.3448313522338867
+        ],
+        "mean_ms": 0.347617925008138,
+        "warmup": 30,
+        "runs_per_batch": 200
+      },
+      "compiled_vs_own_source": {
+        "mean_gray": 0.04401133954524994,
+        "max_gray": 0.54473876953125,
+        "rounded_byte_changed_fraction": 0.043629709631204605,
+        "rounded_byte_max_error": 1.0
+      }
+    },
+    {
+      "name": "scale_packed_half",
+      "options": {
+        "scale": "packed_half"
+      },
+      "source_delta": {
+        "mean_gray": 0.019224220886826515,
+        "max_gray": 0.0625,
+        "rounded_byte_changed_fraction": 0.03864457830786705,
+        "rounded_byte_max_error": 1.0
+      },
+      "eager": {
+        "three_batch_mean_ms": [
+          0.6039433670043945,
+          0.60517822265625,
+          0.6053500747680665
+        ],
+        "mean_ms": 0.6048238881429037,
+        "warmup": 20,
+        "runs_per_batch": 100
+      }
+    }
+  ]
+}

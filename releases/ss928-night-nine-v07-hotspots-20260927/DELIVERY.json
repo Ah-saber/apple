@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-27",
+  "goal_model_ms": 16.7,
+  "goal_achieved": false,
+  "board_report_source_commit": "6f57b0e69c488f7013966433f8fc63367426d37d",
+  "current_board_baseline": "front_f32",
+  "board_baseline_sync_ms": {
+    "ordinary": 81.228,
+    "special": 80.351
+  },
+  "new_candidates_NPU_measured": false,
+  "new_candidates_SDK_compiled": false,
+  "new_model_training": false,
+  "full_source_ONNX_count": 24,
+  "complete_size_micro_ONNX_count": 22,
+  "source_sequence_frames": {
+    "ordinary": 60,
+    "special": 120
+  },
+  "source_report_sha256": "fb29701c1b2311451bf283c3149ce8a5f01f6d51afa0bd165cdc4f43562b55bb",
+  "dependencies": [
+    "../ss928-night-nine-system-speed-20260926",
+    "../ss928-night-nine-packed-front-20260926"
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "precision": "float16",
+    "mean_gray": 0.04518929123878479,
+    "max_gray": 0.498046875,
+    "rounded_byte_max_error": 1.0,
+    "compiled_mean_ms": 0.3793275197347005,
+    "three_batch_means_ms": [
+      0.368803825378418,
+      0.37200016021728516,
+      0.3971785736083984
+    ],
+    "NPU_measured": false
+  },
+  {
+    "precision": "float32",
+    "mean_gray": 0.043500930070877075,
+    "max_gray": 0.498046875,
+    "rounded_byte_max_error": 1.0,
+    "compiled_mean_ms": 0.5808537673950195,
+    "three_batch_means_ms": [
+      0.5695846557617188,
+      0.5817012786865234,
+      0.5912753677368164
+    ],
+    "NPU_measured": false
+  }
+]

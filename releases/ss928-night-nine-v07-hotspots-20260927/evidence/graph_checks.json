@@ -1,0 +1,293 @@
+{
+  "independent_controls": [
+    {
+      "kind": "output",
+      "dtype": "fp32",
+      "mode": "reshape",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp32",
+      "mode": "deconv6",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp32",
+      "mode": "deconv2_shuffle3",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp32",
+      "mode": "deconv3_shuffle2",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp32",
+      "mode": "shuffle2_3",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp32",
+      "mode": "shuffle3_2",
+      "bitexact": true
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "temporal_first",
+      "feed": "constant",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "temporal_first",
+      "feed": "noise",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "temporal_first",
+      "feed": "dark",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "temporal_first",
+      "feed": "ramp",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "temporal_f32",
+      "feed": "constant",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "temporal_f32",
+      "feed": "noise",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "temporal_f32",
+      "feed": "dark",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "temporal_f32",
+      "feed": "ramp",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "pack_first",
+      "feed": "constant",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "pack_first",
+      "feed": "noise",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "pack_first",
+      "feed": "dark",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp32",
+      "mode": "pack_first",
+      "feed": "ramp",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "output",
+      "dtype": "fp16",
+      "mode": "reshape",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp16",
+      "mode": "deconv6",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp16",
+      "mode": "deconv2_shuffle3",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp16",
+      "mode": "deconv3_shuffle2",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp16",
+      "mode": "shuffle2_3",
+      "bitexact": true
+    },
+    {
+      "kind": "output",
+      "dtype": "fp16",
+      "mode": "shuffle3_2",
+      "bitexact": true
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "temporal_first",
+      "feed": "constant",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "temporal_first",
+      "feed": "noise",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "temporal_first",
+      "feed": "dark",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "temporal_first",
+      "feed": "ramp",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "temporal_f32",
+      "feed": "constant",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "temporal_f32",
+      "feed": "noise",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "temporal_f32",
+      "feed": "dark",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "temporal_f32",
+      "feed": "ramp",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "pack_first",
+      "feed": "constant",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "pack_first",
+      "feed": "noise",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "pack_first",
+      "feed": "dark",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "statistics",
+      "dtype": "fp16",
+      "mode": "pack_first",
+      "feed": "ramp",
+      "max_normalized_error": 0.0,
+      "mean_normalized_error": 0.0
+    },
+    {
+      "kind": "interface",
+      "mode": "scale_packed_f32",
+      "clip_before_shuffle": false,
+      "bitexact_to_declared_dtype": true
+    },
+    {
+      "kind": "interface",
+      "mode": "output_half",
+      "clip_before_shuffle": false,
+      "bitexact_to_declared_dtype": true
+    },
+    {
+      "kind": "interface",
+      "mode": "scale_packed_f32",
+      "clip_before_shuffle": true,
+      "bitexact_to_declared_dtype": true
+    },
+    {
+      "kind": "interface",
+      "mode": "output_half",
+      "clip_before_shuffle": true,
+      "bitexact_to_declared_dtype": true
+    }
+  ],
+  "NPU_measured": false
+}

@@ -1,0 +1,20 @@
+{
+  "full_size_nchw_input_half_control_bitexact": true,
+  "micro_generator_full_size_reference_engine_verified": true,
+  "unused_input_pruned": true,
+  "ORT_engine_run": false,
+  "real_vector": "ordinary_frame_20",
+  "input_shape": [
+    1,
+    9,
+    1024,
+    1280
+  ],
+  "full_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "NPU_measured": false
+}

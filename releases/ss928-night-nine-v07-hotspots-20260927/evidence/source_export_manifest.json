@@ -1,0 +1,722 @@
+{
+  "models": [
+    {
+      "file": "micro_output_reshape_fp32.onnx",
+      "sha256": "941a2a532f167c29716e7b24c7bc29c60294e0f601362579c04a05f1b42c8ee5",
+      "nodes": {
+        "Reshape": 2,
+        "Transpose": 1
+      }
+    },
+    {
+      "file": "micro_output_deconv6_fp32.onnx",
+      "sha256": "085eccff52e8db60c4decd9d631e407eee61c434faf077d761d097e44a96c203",
+      "nodes": {
+        "ConvTranspose": 1
+      }
+    },
+    {
+      "file": "micro_output_deconv2_shuffle3_fp32.onnx",
+      "sha256": "7f97349fb9f982e858b965d15fac11c1022de630177d06b5accbac2371c9cdff",
+      "nodes": {
+        "ConvTranspose": 1,
+        "DepthToSpace": 1
+      }
+    },
+    {
+      "file": "micro_output_deconv3_shuffle2_fp32.onnx",
+      "sha256": "2bc65816b8d5dfaf59fbf547c7b75757affa7b9f960606508d12bcfe51077c2b",
+      "nodes": {
+        "ConvTranspose": 1,
+        "DepthToSpace": 1
+      }
+    },
+    {
+      "file": "micro_output_shuffle2_3_fp32.onnx",
+      "sha256": "5a4f06d6802bca3940458651fa7e15ad55b4209c2952aaca643cd493d04283a8",
+      "nodes": {
+        "Gather": 1,
+        "DepthToSpace": 2
+      }
+    },
+    {
+      "file": "micro_output_shuffle3_2_fp32.onnx",
+      "sha256": "df764b5d22be02c3759c6d6f84e9a7a0442ce5bce029da06d726463939df4772",
+      "nodes": {
+        "Gather": 1,
+        "DepthToSpace": 2
+      }
+    },
+    {
+      "file": "micro_output_baseline_fp32.onnx",
+      "sha256": "011377bf0f0be69a44d015d007118aa613887353f3bdee286ed31d474fe29dde",
+      "nodes": {
+        "DepthToSpace": 1
+      }
+    },
+    {
+      "file": "micro_statistics_temporal_first_fp32.onnx",
+      "sha256": "645c3053fed5635a2541ca744e38521596c2a9f74077ddf89074007ec9ab74d2",
+      "nodes": {
+        "Conv": 2
+      }
+    },
+    {
+      "file": "micro_statistics_temporal_f32_fp32.onnx",
+      "sha256": "0bccd1be857a3467884b42c94a80e74ed0acb292aada8b520d1b8afe2dd480f9",
+      "nodes": {
+        "Cast": 2,
+        "Conv": 2
+      }
+    },
+    {
+      "file": "micro_statistics_pack_first_fp32.onnx",
+      "sha256": "f154cdf2a6b38a39516a8edc78e6333b46789f1851ede03230a76fc8c1278d83",
+      "nodes": {
+        "Conv": 2
+      }
+    },
+    {
+      "file": "micro_statistics_baseline_fp32.onnx",
+      "sha256": "a1c9afbbbdce68d7c89cbbaa2fd509c6b2848d1462a1fac220c5788f7c706587",
+      "nodes": {
+        "Conv": 1
+      }
+    },
+    {
+      "file": "micro_output_reshape_fp16.onnx",
+      "sha256": "42126374380bee81ac92f621e268f0f5e588145924e3524985c42deaaff4e166",
+      "nodes": {
+        "Reshape": 2,
+        "Transpose": 1
+      }
+    },
+    {
+      "file": "micro_output_deconv6_fp16.onnx",
+      "sha256": "bc050804a865d9cec02170202a9bea30a846a1378c0a1f03d3093f176ae16ab5",
+      "nodes": {
+        "ConvTranspose": 1
+      }
+    },
+    {
+      "file": "micro_output_deconv2_shuffle3_fp16.onnx",
+      "sha256": "b79794d5bccf9300c7140a7462b1c8e91550e41a409b9af21ccb34122a5fd069",
+      "nodes": {
+        "ConvTranspose": 1,
+        "DepthToSpace": 1
+      }
+    },
+    {
+      "file": "micro_output_deconv3_shuffle2_fp16.onnx",
+      "sha256": "03c08e1d997b5909c4f42c501f077cc9bf572ab6a51c02e2b8a1065804c2615b",
+      "nodes": {
+        "ConvTranspose": 1,
+        "DepthToSpace": 1
+      }
+    },
+    {
+      "file": "micro_output_shuffle2_3_fp16.onnx",
+      "sha256": "ce99bf875124505f165f919afdbf5dc2f6c09acdb9b90230653120385494f85e",
+      "nodes": {
+        "Gather": 1,
+        "DepthToSpace": 2
+      }
+    },
+    {
+      "file": "micro_output_shuffle3_2_fp16.onnx",
+      "sha256": "a3d5facc54e179bd7b1a6dedc50652c1023094a10f0c6c06ca2541892e559e10",
+      "nodes": {
+        "Gather": 1,
+        "DepthToSpace": 2
+      }
+    },
+    {
+      "file": "micro_output_baseline_fp16.onnx",
+      "sha256": "3f1d7fcec06bcd3b8a7a42d9392b28f8e251a428152eac118935c20a164d2f3d",
+      "nodes": {
+        "DepthToSpace": 1
+      }
+    },
+    {
+      "file": "micro_statistics_temporal_first_fp16.onnx",
+      "sha256": "e9002b11dc183e18e6443faabec71605d74c5f2835d2f574aba8fcdbaff44c73",
+      "nodes": {
+        "Conv": 2
+      }
+    },
+    {
+      "file": "micro_statistics_temporal_f32_fp16.onnx",
+      "sha256": "a7eb7bb34de9170396ac97819bc8b8b5ebf213db5979e49cf07a7768949a7686",
+      "nodes": {
+        "Cast": 2,
+        "Conv": 2
+      }
+    },
+    {
+      "file": "micro_statistics_pack_first_fp16.onnx",
+      "sha256": "2228b3280d25a93585038e8db35f4e2bad480bdc7760b33ff99cf61ec646be0a",
+      "nodes": {
+        "Conv": 2
+      }
+    },
+    {
+      "file": "micro_statistics_baseline_fp16.onnx",
+      "sha256": "65fcaf96ce23aa52777006415ccda7834507b740be1bff8d3a9a229c22e148ae",
+      "nodes": {
+        "Conv": 1
+      }
+    },
+    {
+      "file": "ordinary_statistics_temporal_first.onnx",
+      "sha256": "d1c8af9759b489ecaacd7d3131e79af5f0df41c439ee16da6cad9b3bf8a1067b",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 20,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_statistics_temporal_f32.onnx",
+      "sha256": "a26f84889af5aa5e8463bee6f61f0ded1a097ec4e2508fe4935e49a6f13cfb4f",
+      "nodes": {
+        "Cast": 11,
+        "Conv": 20,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_statistics_pack_first.onnx",
+      "sha256": "a27b0f4c0c1b68573fe670312644fd716dbde1700615832b6bdfc7a8493a067e",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 20,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_output_reshape.onnx",
+      "sha256": "5b44e16a19335a339a30ac8e5fd71d979949e5ac35a13a3c37af741c4b9dc150",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_output_deconv6.onnx",
+      "sha256": "533ed4d9aa9a082bb215aea97480eedc6ebb348dc56430198add1651f602b761",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_output_deconv2_shuffle3.onnx",
+      "sha256": "7e5a46cc315498924a757bd9bb09753a1c159d73158cb3b0d91b5541335e1264",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_output_deconv3_shuffle2.onnx",
+      "sha256": "2cdc4b1b4b0a065b4789e542ac5b0a68d2be9124d4620eaf2a96f54a0c1a5232",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "ConvTranspose": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_output_shuffle2_3.onnx",
+      "sha256": "226dd0f91701c43d2ce1152439edee9abceefeae43e268329a4017aa6d04f1d9",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Gather": 1,
+        "DepthToSpace": 2,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_output_shuffle3_2.onnx",
+      "sha256": "c0cfcbc7af5648cdddfde03cc34628d71200a7b9430b49f220cc193e8e2cf996",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Gather": 1,
+        "DepthToSpace": 2,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_input_nchw_half.onnx",
+      "sha256": "76f0c027c02fc736019f8fa1dcc3176035d057affcd8dbbb91c31cca516bfbb8",
+      "nodes": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_output_half.onnx",
+      "sha256": "121e8ef497741d80f1b982db4d1043f6fc2ada1cdcc1a9ed461ed701831c8808",
+      "nodes": {
+        "Cast": 10,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "ordinary_scale_packed_f32.onnx",
+      "sha256": "08c02a0b93ead92ee29e1e6ca24f340bed19723673712ac3a9e3b529824639a1",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 19,
+        "Constant": 49,
+        "Slice": 7,
+        "Sub": 2,
+        "Mul": 14,
+        "Concat": 5,
+        "Relu": 5,
+        "Add": 11,
+        "Div": 5,
+        "Erf": 5,
+        "AveragePool": 3,
+        "Shape": 4,
+        "Resize": 4,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      }
+    },
+    {
+      "file": "special_statistics_temporal_first.onnx",
+      "sha256": "bc6279747aadd08617a994dd9e981bf0d57f5e6d1c57243079b5c0cb348b9507",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 14,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_statistics_temporal_f32.onnx",
+      "sha256": "d9dec3a8913b9397b57c3fdb0da6a1676aec239562f4021abdf535275dc1936e",
+      "nodes": {
+        "Cast": 11,
+        "Conv": 14,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_statistics_pack_first.onnx",
+      "sha256": "58058d579133a5698cfbada4213647b3375eb5c5bd479ea9832197be55668a53",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 14,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_output_reshape.onnx",
+      "sha256": "db8a32002d2d469e844c40e0ca549c3c375edad309035725a23fd4bc7d2368c3",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Reshape": 2,
+        "Transpose": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_output_deconv6.onnx",
+      "sha256": "35799465c2d6b157a241831213a473ada494b7bbfdbd96e37796433e4e13d5cd",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_output_deconv2_shuffle3.onnx",
+      "sha256": "9f2846cb3011e816339e66932ce243cfb9f8486882456097192b9b1d816e1fb7",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_output_deconv3_shuffle2.onnx",
+      "sha256": "ad21b3105c8138107dbe723b0bfdee6786b8b72b75d65f721d45b651cc4f3731",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "ConvTranspose": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_output_shuffle2_3.onnx",
+      "sha256": "82d9b74b4fbae5689e2abda642f18db954b6d082d0a309545ecd41a44ee16503",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Gather": 1,
+        "DepthToSpace": 2,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_output_shuffle3_2.onnx",
+      "sha256": "20e22191e7e8e38f64b2617e582a5de43ce44bc4e037c3aef6db6b0b36223fd2",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Gather": 1,
+        "DepthToSpace": 2,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_input_nchw_half.onnx",
+      "sha256": "679e51e3694a13fe1c345c48aaae92a98f66b150d73e800d2d6e64ea5ddbc8da",
+      "nodes": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_output_half.onnx",
+      "sha256": "aee3c409cb7fc513babadcb0d144adc1e8cd63431d127b8a8bf72dd613eac52b",
+      "nodes": {
+        "Cast": 10,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "DepthToSpace": 1,
+        "Clip": 1
+      }
+    },
+    {
+      "file": "special_scale_packed_f32.onnx",
+      "sha256": "c454888a14d3c75bd93405a757cf6156af5598e9f223caf1156a7a952d271dea",
+      "nodes": {
+        "Cast": 9,
+        "Conv": 13,
+        "Constant": 28,
+        "Slice": 4,
+        "Sub": 2,
+        "Mul": 8,
+        "Concat": 2,
+        "Relu": 5,
+        "Add": 5,
+        "Div": 2,
+        "Erf": 2,
+        "ReduceMean": 1,
+        "Shape": 1,
+        "Resize": 1,
+        "Clip": 1,
+        "DepthToSpace": 1
+      }
+    }
+  ],
+  "SDK_compiled": false,
+  "NPU_measured": false
+}
