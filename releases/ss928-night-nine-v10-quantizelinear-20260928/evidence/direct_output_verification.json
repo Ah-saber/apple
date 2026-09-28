@@ -1,0 +1,65 @@
+{
+  "baseline": "v0.9 rows32",
+  "rows": [
+    {
+      "candidate": "direct_g1",
+      "output_shape": [
+        1,
+        1,
+        192,
+        240
+      ],
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "byte_equal": true
+    },
+    {
+      "candidate": "direct_g2",
+      "output_shape": [
+        1,
+        1,
+        192,
+        240
+      ],
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "byte_equal": true
+    },
+    {
+      "candidate": "direct_g4",
+      "output_shape": [
+        1,
+        1,
+        192,
+        240
+      ],
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "byte_equal": true
+    },
+    {
+      "candidate": "direct_g8",
+      "output_shape": [
+        1,
+        1,
+        192,
+        240
+      ],
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "byte_equal": true
+    },
+    {
+      "candidate": "direct_g16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        240
+      ],
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "byte_equal": true
+    }
+  ]
+}

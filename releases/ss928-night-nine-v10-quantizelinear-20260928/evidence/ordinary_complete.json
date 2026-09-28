@@ -1,0 +1,74 @@
+{
+  "scene": "ordinary",
+  "frame": 20,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "input_shape": [
+    1,
+    9,
+    1024,
+    1280
+  ],
+  "output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "board_verified": false,
+  "results": [
+    {
+      "name": "rows32",
+      "dtype": "torch.float16",
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "exact": true,
+      "gpu_eager_mean_ms": 0.5227443200349807,
+      "gpu_eager_p95_ms": 0.5275904148817062
+    },
+    {
+      "name": "direct_g1",
+      "dtype": "torch.float16",
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "exact": true,
+      "gpu_eager_mean_ms": 0.7052060782909393,
+      "gpu_eager_p95_ms": 0.7097039937973022
+    },
+    {
+      "name": "direct_g2",
+      "dtype": "torch.float16",
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "exact": true,
+      "gpu_eager_mean_ms": 1.0976492834091187,
+      "gpu_eager_p95_ms": 1.1024352133274078
+    },
+    {
+      "name": "direct_g4",
+      "dtype": "torch.float16",
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "exact": true,
+      "gpu_eager_mean_ms": 1.089129285812378,
+      "gpu_eager_p95_ms": 1.0950128138065338
+    },
+    {
+      "name": "direct_g8",
+      "dtype": "torch.float16",
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "exact": true,
+      "gpu_eager_mean_ms": 0.6971827155351639,
+      "gpu_eager_p95_ms": 0.7031408250331879
+    },
+    {
+      "name": "direct_g16",
+      "dtype": "torch.float16",
+      "mean_abs_gray": 0.0,
+      "max_abs_gray": 0.0,
+      "exact": true,
+      "gpu_eager_mean_ms": 0.7108182376623153,
+      "gpu_eager_p95_ms": 0.7147616177797318
+    }
+  ]
+}

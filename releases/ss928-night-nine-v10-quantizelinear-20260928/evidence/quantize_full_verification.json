@@ -1,0 +1,30 @@
+[
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend_uint8_equality": true,
+    "different_pixels_same_backend": 0,
+    "different_pixels_vs_pytorch_source": 580095,
+    "max_byte_difference_vs_pytorch_source": 1
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend_uint8_equality": true,
+    "different_pixels_same_backend": 0,
+    "different_pixels_vs_pytorch_source": 549630,
+    "max_byte_difference_vs_pytorch_source": 1
+  }
+]

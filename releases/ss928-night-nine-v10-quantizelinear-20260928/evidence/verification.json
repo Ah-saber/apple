@@ -1,0 +1,28 @@
+[
+  {
+    "source": "ordinary_rows32_small.onnx",
+    "candidate": "ordinary_rows32_quantizelinear_u8_small.onnx",
+    "output_shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "output_dtype": "uint8",
+    "exact_byte_equality": true,
+    "different_pixels": 0
+  },
+  {
+    "source": "special_rows32_small.onnx",
+    "candidate": "special_rows32_quantizelinear_u8_small.onnx",
+    "output_shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "output_dtype": "uint8",
+    "exact_byte_equality": true,
+    "different_pixels": 0
+  }
+]
