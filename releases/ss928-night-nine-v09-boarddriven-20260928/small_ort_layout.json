@@ -1,0 +1,145 @@
+{
+  "results": [
+    {
+      "scene": "ordinary",
+      "case": "v08_c11",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "rows8",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "rows16static",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "rows32",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "ordinary",
+      "case": "direct48",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "v08_c11",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "rows8",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "rows16static",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "rows32",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    },
+    {
+      "scene": "special",
+      "case": "direct48",
+      "shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "mean_diff_gray": 0.0,
+      "max_diff_gray": 0.0,
+      "byte_identity": true,
+      "SDK_verified": false
+    }
+  ],
+  "ORT_version": "1.23.2"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "scene": "ordinary",
+    "case": "rows64",
+    "shape": [
+      1,
+      1,
+      768,
+      288
+    ],
+    "dtype": "float16",
+    "mae_gray": 0.0,
+    "max_gray": 0.0,
+    "identity": true
+  },
+  {
+    "scene": "ordinary",
+    "case": "rows128",
+    "shape": [
+      1,
+      1,
+      768,
+      288
+    ],
+    "dtype": "float16",
+    "mae_gray": 0.0,
+    "max_gray": 0.0,
+    "identity": true
+  },
+  {
+    "scene": "ordinary",
+    "case": "rows64_u8",
+    "shape": [
+      1,
+      1,
+      768,
+      288
+    ],
+    "dtype": "uint8",
+    "mae_gray": 0.0,
+    "max_gray": 0.0,
+    "identity": true
+  },
+  {
+    "scene": "ordinary",
+    "case": "rows128_u8",
+    "shape": [
+      1,
+      1,
+      768,
+      288
+    ],
+    "dtype": "uint8",
+    "mae_gray": 0.0,
+    "max_gray": 0.0,
+    "identity": true
+  },
+  {
+    "scene": "special",
+    "case": "rows64",
+    "shape": [
+      1,
+      1,
+      768,
+      288
+    ],
+    "dtype": "float16",
+    "mae_gray": 0.0,
+    "max_gray": 0.0,
+    "identity": true
+  },
+  {
+    "scene": "special",
+    "case": "rows128",
+    "shape": [
+      1,
+      1,
+      768,
+      288
+    ],
+    "dtype": "float16",
+    "mae_gray": 0.0,
+    "max_gray": 0.0,
+    "identity": true
+  },
+  {
+    "scene": "special",
+    "case": "rows64_u8",
+    "shape": [
+      1,
+      1,
+      768,
+      288
+    ],
+    "dtype": "uint8",
+    "mae_gray": 0.0,
+    "max_gray": 0.0,
+    "identity": true
+  },
+  {
+    "scene": "special",
+    "case": "rows128_u8",
+    "shape": [
+      1,
+      1,
+      768,
+      288
+    ],
+    "dtype": "uint8",
+    "mae_gray": 0.0,
+    "max_gray": 0.0,
+    "identity": true
+  }
+]

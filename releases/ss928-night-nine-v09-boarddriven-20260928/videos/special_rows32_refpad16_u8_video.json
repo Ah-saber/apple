@@ -1,0 +1,25 @@
+{
+  "scene": "special",
+  "variant": "rows32_refpad16_u8",
+  "baseline": "v08_c11",
+  "count": 120,
+  "fps": 12,
+  "video_shape": [
+    1080,
+    5120
+  ],
+  "each_panel_sensor_shape": [
+    1024,
+    1280
+  ],
+  "model_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "display": "full field at sensor grid; 3x output averaged per 3x3 cell",
+  "source_execution": true,
+  "NPU_verified": false,
+  "mean_full_rawgrid_difference_gray": 2.1069844980085387e-05
+}

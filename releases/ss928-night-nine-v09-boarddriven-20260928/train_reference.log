@@ -1,0 +1,71 @@
+DATA ordinary 172 8
+REF_TRAIN ordinary 3 {'step': 250, 'train_loss': 0.15481628477573395, 'held_mae': 0.07756641507148743, 'held_rmse': 0.11501238495111465, 'held_max': 0.9442072510719299}
+REF_TRAIN ordinary 3 {'step': 500, 'train_loss': 0.149491548538208, 'held_mae': 0.06468617916107178, 'held_rmse': 0.09746522456407547, 'held_max': 0.805789589881897}
+REF_TRAIN ordinary 3 {'step': 750, 'train_loss': 0.1430332064628601, 'held_mae': 0.060136578977108, 'held_rmse': 0.09117859601974487, 'held_max': 0.718991756439209}
+REF_TRAIN ordinary 3 {'step': 1000, 'train_loss': 0.1322554349899292, 'held_mae': 0.05705244466662407, 'held_rmse': 0.0865478441119194, 'held_max': 0.6036391854286194}
+REF_TRAIN ordinary 3 {'step': 1250, 'train_loss': 0.13351686298847198, 'held_mae': 0.054771628230810165, 'held_rmse': 0.08337663114070892, 'held_max': 0.5997332334518433}
+REF_TRAIN ordinary 3 {'step': 1500, 'train_loss': 0.1354234665632248, 'held_mae': 0.05299442633986473, 'held_rmse': 0.08130615949630737, 'held_max': 0.6065531373023987}
+REF_TRAIN ordinary 3 {'step': 1750, 'train_loss': 0.13204793632030487, 'held_mae': 0.051831282675266266, 'held_rmse': 0.0800139382481575, 'held_max': 0.6022880673408508}
+REF_TRAIN ordinary 3 {'step': 2000, 'train_loss': 0.13349078595638275, 'held_mae': 0.051459841430187225, 'held_rmse': 0.07921754568815231, 'held_max': 0.6033006310462952}
+REF_TRAIN ordinary 3 {'step': 2250, 'train_loss': 0.13316231966018677, 'held_mae': 0.050218336284160614, 'held_rmse': 0.07835971564054489, 'held_max': 0.6035104990005493}
+REF_TRAIN ordinary 3 {'step': 2500, 'train_loss': 0.12932726740837097, 'held_mae': 0.049573615193367004, 'held_rmse': 0.07779231667518616, 'held_max': 0.5973936319351196}
+REF_TRAIN ordinary 3 {'step': 2750, 'train_loss': 0.13270282745361328, 'held_mae': 0.04902616888284683, 'held_rmse': 0.07721804827451706, 'held_max': 0.5866442918777466}
+REF_TRAIN ordinary 3 {'step': 3000, 'train_loss': 0.12761451303958893, 'held_mae': 0.04866139590740204, 'held_rmse': 0.07686889916658401, 'held_max': 0.5848912596702576}
+REF_TRAIN ordinary 3 {'step': 3250, 'train_loss': 0.1289636790752411, 'held_mae': 0.04829876869916916, 'held_rmse': 0.0765281617641449, 'held_max': 0.5883204340934753}
+REF_TRAIN ordinary 3 {'step': 3500, 'train_loss': 0.12803393602371216, 'held_mae': 0.04799485206604004, 'held_rmse': 0.0761476382613182, 'held_max': 0.579012930393219}
+REF_TRAIN ordinary 3 {'step': 3750, 'train_loss': 0.1324632465839386, 'held_mae': 0.04791346937417984, 'held_rmse': 0.0760059654712677, 'held_max': 0.5717959403991699}
+REF_TRAIN ordinary 3 {'step': 4000, 'train_loss': 0.13312333822250366, 'held_mae': 0.04750538989901543, 'held_rmse': 0.07571353018283844, 'held_max': 0.5780007243156433}
+REF_TRAIN ordinary 3 {'step': 4250, 'train_loss': 0.127102330327034, 'held_mae': 0.047288041561841965, 'held_rmse': 0.07543442398309708, 'held_max': 0.5644151568412781}
+REF_TRAIN ordinary 3 {'step': 4500, 'train_loss': 0.12639793753623962, 'held_mae': 0.047078393399715424, 'held_rmse': 0.07527200132608414, 'held_max': 0.5725485682487488}
+REF_TRAIN ordinary 3 {'step': 4750, 'train_loss': 0.1287020891904831, 'held_mae': 0.04702514410018921, 'held_rmse': 0.0751689150929451, 'held_max': 0.5657740831375122}
+REF_TRAIN ordinary 3 {'step': 5000, 'train_loss': 0.12386273592710495, 'held_mae': 0.0467521995306015, 'held_rmse': 0.07496044039726257, 'held_max': 0.5577371716499329}
+REF_TRAIN ordinary 3 {'step': 5250, 'train_loss': 0.12340347468852997, 'held_mae': 0.04662349447607994, 'held_rmse': 0.07486880570650101, 'held_max': 0.5571842789649963}
+REF_TRAIN ordinary 3 {'step': 5500, 'train_loss': 0.12732645869255066, 'held_mae': 0.046518005430698395, 'held_rmse': 0.07472437620162964, 'held_max': 0.5568609833717346}
+REF_TRAIN ordinary 3 {'step': 5750, 'train_loss': 0.12789754569530487, 'held_mae': 0.04640046879649162, 'held_rmse': 0.07459891587495804, 'held_max': 0.5521599054336548}
+REF_TRAIN ordinary 3 {'step': 6000, 'train_loss': 0.12537850439548492, 'held_mae': 0.04630284011363983, 'held_rmse': 0.0745592787861824, 'held_max': 0.5522058010101318}
+REF_TRAIN ordinary 3 {'step': 6250, 'train_loss': 0.12284854054450989, 'held_mae': 0.04624179005622864, 'held_rmse': 0.07447166740894318, 'held_max': 0.5473721027374268}
+REF_TRAIN ordinary 3 {'step': 6500, 'train_loss': 0.12790030241012573, 'held_mae': 0.04617522284388542, 'held_rmse': 0.07441847771406174, 'held_max': 0.547371506690979}
+REF_TRAIN ordinary 3 {'step': 6750, 'train_loss': 0.1243291050195694, 'held_mae': 0.046162478625774384, 'held_rmse': 0.07436882704496384, 'held_max': 0.5462110638618469}
+REF_TRAIN ordinary 3 {'step': 7000, 'train_loss': 0.12399125099182129, 'held_mae': 0.046095576137304306, 'held_rmse': 0.07426866143941879, 'held_max': 0.5414712429046631}
+REF_TRAIN ordinary 3 {'step': 7250, 'train_loss': 0.12735261023044586, 'held_mae': 0.045989420264959335, 'held_rmse': 0.07424245774745941, 'held_max': 0.5445742607116699}
+REF_TRAIN ordinary 3 {'step': 7500, 'train_loss': 0.12289309501647949, 'held_mae': 0.04594458267092705, 'held_rmse': 0.07416094839572906, 'held_max': 0.5388452410697937}
+REF_TRAIN ordinary 3 {'step': 7750, 'train_loss': 0.12691548466682434, 'held_mae': 0.04592688009142876, 'held_rmse': 0.07415825873613358, 'held_max': 0.5380012392997742}
+REF_TRAIN ordinary 3 {'step': 8000, 'train_loss': 0.12801572680473328, 'held_mae': 0.045865654945373535, 'held_rmse': 0.07408047467470169, 'held_max': 0.5343976020812988}
+REF_TRAIN ordinary 4 {'step': 250, 'train_loss': 0.1877259612083435, 'held_mae': 0.07924529165029526, 'held_rmse': 0.11787151545286179, 'held_max': 1.0301260948181152}
+REF_TRAIN ordinary 4 {'step': 500, 'train_loss': 0.17719396948814392, 'held_mae': 0.06548239290714264, 'held_rmse': 0.09780406951904297, 'held_max': 0.6903986930847168}
+REF_TRAIN ordinary 4 {'step': 750, 'train_loss': 0.18031103909015656, 'held_mae': 0.06020503491163254, 'held_rmse': 0.09093436598777771, 'held_max': 0.6587346196174622}
+REF_TRAIN ordinary 4 {'step': 1000, 'train_loss': 0.17284071445465088, 'held_mae': 0.05820488929748535, 'held_rmse': 0.08878310769796371, 'held_max': 0.664392352104187}
+REF_TRAIN ordinary 4 {'step': 1250, 'train_loss': 0.1866416335105896, 'held_mae': 0.05656498298048973, 'held_rmse': 0.08644741028547287, 'held_max': 0.6333942413330078}
+REF_TRAIN ordinary 4 {'step': 1500, 'train_loss': 0.18068839609622955, 'held_mae': 0.05473260581493378, 'held_rmse': 0.0843166932463646, 'held_max': 0.5969115495681763}
+REF_TRAIN ordinary 4 {'step': 1750, 'train_loss': 0.17704960703849792, 'held_mae': 0.05321782827377319, 'held_rmse': 0.08248816430568695, 'held_max': 0.5553203225135803}
+REF_TRAIN ordinary 4 {'step': 2000, 'train_loss': 0.17128998041152954, 'held_mae': 0.051887355744838715, 'held_rmse': 0.08076786249876022, 'held_max': 0.5145746469497681}
+REF_TRAIN ordinary 4 {'step': 2250, 'train_loss': 0.1758030354976654, 'held_mae': 0.050919681787490845, 'held_rmse': 0.07935304939746857, 'held_max': 0.491180419921875}
+REF_TRAIN ordinary 4 {'step': 2500, 'train_loss': 0.16862206161022186, 'held_mae': 0.049838870763778687, 'held_rmse': 0.07805898040533066, 'held_max': 0.4788966178894043}
+REF_TRAIN ordinary 4 {'step': 2750, 'train_loss': 0.16335682570934296, 'held_mae': 0.04908383637666702, 'held_rmse': 0.07704384624958038, 'held_max': 0.4701862335205078}
+REF_TRAIN ordinary 4 {'step': 3000, 'train_loss': 0.17039571702480316, 'held_mae': 0.048363782465457916, 'held_rmse': 0.07609666883945465, 'held_max': 0.4717419147491455}
+REF_TRAIN ordinary 4 {'step': 3250, 'train_loss': 0.17556753754615784, 'held_mae': 0.04761466383934021, 'held_rmse': 0.07533548027276993, 'held_max': 0.4697883129119873}
+REF_TRAIN ordinary 4 {'step': 3500, 'train_loss': 0.1564369946718216, 'held_mae': 0.04708721488714218, 'held_rmse': 0.07464955002069473, 'held_max': 0.45506763458251953}
+REF_TRAIN ordinary 4 {'step': 3750, 'train_loss': 0.17308945953845978, 'held_mae': 0.04664728045463562, 'held_rmse': 0.0741259977221489, 'held_max': 0.4452996253967285}
+REF_TRAIN ordinary 4 {'step': 4000, 'train_loss': 0.176052987575531, 'held_mae': 0.046390146017074585, 'held_rmse': 0.07372796535491943, 'held_max': 0.4349578619003296}
+REF_TRAIN ordinary 4 {'step': 4250, 'train_loss': 0.16498388350009918, 'held_mae': 0.046150874346494675, 'held_rmse': 0.07341863960027695, 'held_max': 0.4210928678512573}
+REF_TRAIN ordinary 4 {'step': 4500, 'train_loss': 0.17394259572029114, 'held_mae': 0.04586316645145416, 'held_rmse': 0.07310300320386887, 'held_max': 0.4219578504562378}
+REF_TRAIN ordinary 4 {'step': 4750, 'train_loss': 0.16634078323841095, 'held_mae': 0.045460280030965805, 'held_rmse': 0.07272247970104218, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 5000, 'train_loss': 0.18215222656726837, 'held_mae': 0.04525458440184593, 'held_rmse': 0.07251335680484772, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 5250, 'train_loss': 0.15855266153812408, 'held_mae': 0.044968511909246445, 'held_rmse': 0.07223546504974365, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 5500, 'train_loss': 0.1595849096775055, 'held_mae': 0.04474338889122009, 'held_rmse': 0.07203441113233566, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 5750, 'train_loss': 0.16840597987174988, 'held_mae': 0.044611021876335144, 'held_rmse': 0.07190147042274475, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 6000, 'train_loss': 0.16912640631198883, 'held_mae': 0.044592708349227905, 'held_rmse': 0.07181033492088318, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 6250, 'train_loss': 0.16113626956939697, 'held_mae': 0.044416576623916626, 'held_rmse': 0.07166790217161179, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 6500, 'train_loss': 0.18229244649410248, 'held_mae': 0.044421326369047165, 'held_rmse': 0.07162332534790039, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 6750, 'train_loss': 0.15797612071037292, 'held_mae': 0.04422622174024582, 'held_rmse': 0.07147925347089767, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 7000, 'train_loss': 0.1772790551185608, 'held_mae': 0.04411451146006584, 'held_rmse': 0.0713425725698471, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 7250, 'train_loss': 0.167421355843544, 'held_mae': 0.043950460851192474, 'held_rmse': 0.0712461918592453, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 7500, 'train_loss': 0.16758622229099274, 'held_mae': 0.04403185844421387, 'held_rmse': 0.07127732038497925, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 7750, 'train_loss': 0.16209979355335236, 'held_mae': 0.04381197690963745, 'held_rmse': 0.07111264765262604, 'held_max': 0.416259765625}
+REF_TRAIN ordinary 4 {'step': 8000, 'train_loss': 0.16513293981552124, 'held_mae': 0.043770939111709595, 'held_rmse': 0.07103800773620605, 'held_max': 0.416259765625}
+Traceback (most recent call last):
+  File "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V09-20260928/code_snapshot/train_reference.py", line 14, in <module>
+    ctx,_=ds.context_for(row,crop_tlhw=(0,0,1024,1280));contexts.append(ctx.numpy().astype(np.float32));source.append({'sample_id':row['sample_id'],'frame_id':row['frame_id'],'split':'training' if len(source)<len(training) else 'train_heldout'})
+  File "/data/zhangbenzhuang/huawei_sr/code/worktrees/ss928-quality-night-nine-frame-20260925/src/ir_sr/data.py", line 280, in context_for
+    raise ValueError('Invalid context crop/augmentation')
+ValueError: Invalid context crop/augmentation

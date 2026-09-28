@@ -1,0 +1,774 @@
+{
+  "cases": [
+    {
+      "file": "ordinary_v08_c11.onnx",
+      "scene": "ordinary",
+      "case": "v08_c11",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 10,
+        "Gather": 6,
+        "Concat": 7,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "6134140c2650d3764be344cab9ccc24403bb470ae11106b4d2cee32cdca4ef05",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_v08_c11_small.onnx",
+      "scene": "ordinary",
+      "case": "v08_c11",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 10,
+        "Gather": 6,
+        "Concat": 7,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "4c7b5b9b6c0dde31df3574eed6d6e35c794f8a6b9b09db47fec031e4766dd202",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows16static_refafter.onnx",
+      "scene": "ordinary",
+      "case": "rows16static_refafter",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "98d9041a29c54b59e24c54495047c30aa677716a48cdbbf87491c30935074738",
+      "source_mean_gray_vs_C11": 0.01795981638133526,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows16static_refafter_small.onnx",
+      "scene": "ordinary",
+      "case": "rows16static_refafter",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "ce2f7df9851e90f29bb8f4c75f57b05b6e5e96d334eca310fc5670a0e687b282",
+      "source_mean_gray_vs_C11": 0.01795981638133526,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows32_refafter.onnx",
+      "scene": "ordinary",
+      "case": "rows32_refafter",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "65b0fdb5b753813d93466821a50ed6d227f3a802a3f691b0048db76529684dca",
+      "source_mean_gray_vs_C11": 0.01795981638133526,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows32_refafter_small.onnx",
+      "scene": "ordinary",
+      "case": "rows32_refafter",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "d908277dc6faf19bd2c4880701eb91b5a643e25b8489420ebb4151dbd2f7ca80",
+      "source_mean_gray_vs_C11": 0.01795981638133526,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows16static_meanfirst.onnx",
+      "scene": "ordinary",
+      "case": "rows16static_meanfirst",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "fb5bd6d4a4e12927425ac4e21d034bde098614c9a9dc5e7afdad6addf4dfa01c",
+      "source_mean_gray_vs_C11": 0.01754426397383213,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows16static_meanfirst_small.onnx",
+      "scene": "ordinary",
+      "case": "rows16static_meanfirst",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "7dcce4c2ea37e6f5db61b0d0c745166d580f058b48fcefeafc0c7f605891acb0",
+      "source_mean_gray_vs_C11": 0.01754426397383213,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_raw6_rows16static.onnx",
+      "scene": "ordinary",
+      "case": "raw6_rows16static",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "70bdaf09e21d39c72cb7c84f1024fbf55068c032c008edeb0feabca60710dd92",
+      "source_mean_gray_vs_C11": 0.03952069580554962,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_raw6_rows16static_small.onnx",
+      "scene": "ordinary",
+      "case": "raw6_rows16static",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "639ce0ddf9345533df1388fae54f7ea580ed179f000e82d05e11795842900795",
+      "source_mean_gray_vs_C11": 0.03952069580554962,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_raw6_rows32.onnx",
+      "scene": "ordinary",
+      "case": "raw6_rows32",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "cdfcf76d5ade12598df31c32241a6881db2ddb06d5821d63eb0d2a3641e88fef",
+      "source_mean_gray_vs_C11": 0.03952069580554962,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_raw6_rows32_small.onnx",
+      "scene": "ordinary",
+      "case": "raw6_rows32",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "41f96b28074dd5816edcc3ad1e0629a8bd2f88077391d80ed4ba9855b1f17543",
+      "source_mean_gray_vs_C11": 0.03952069580554962,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_v08_c11.onnx",
+      "scene": "special",
+      "case": "v08_c11",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 7,
+        "Gather": 6,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "d25660c80d5b53220ae59d15a5387adfcf1cea73b84340cc29452a874df75192",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_v08_c11_small.onnx",
+      "scene": "special",
+      "case": "v08_c11",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 7,
+        "Gather": 6,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "ceaf797b8e4d75141039d099d10fedb5cf3fd8d52dc659da2b3242aebd3e7a6d",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows16static_refafter.onnx",
+      "scene": "special",
+      "case": "rows16static_refafter",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "f2c5008e5c7c770351e89228ff623c6d102f3bba273da32eaff40bac7d3d9e70",
+      "source_mean_gray_vs_C11": 0.008893096819519997,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows16static_refafter_small.onnx",
+      "scene": "special",
+      "case": "rows16static_refafter",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "6cf1639dcc6ffb50a962964f63f0e1488c71a98a678357d5b56b83218a685a5a",
+      "source_mean_gray_vs_C11": 0.008893096819519997,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows32_refafter.onnx",
+      "scene": "special",
+      "case": "rows32_refafter",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "c685152e5cfa0748c9dca95493ab286ca534cc2bea49d2f6318af0eb307f350c",
+      "source_mean_gray_vs_C11": 0.008893096819519997,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows32_refafter_small.onnx",
+      "scene": "special",
+      "case": "rows32_refafter",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "ace4e5873e31c044ec4578c47abd0670e0c28aaf9c79ac3b71d83c276a5f8c40",
+      "source_mean_gray_vs_C11": 0.008893096819519997,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows16static_meanfirst.onnx",
+      "scene": "special",
+      "case": "rows16static_meanfirst",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "17345d82207e91a9f363bb0b1a08bd7e68d2d86882df4d662684d4dea1b416e6",
+      "source_mean_gray_vs_C11": 0.009606564417481422,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows16static_meanfirst_small.onnx",
+      "scene": "special",
+      "case": "rows16static_meanfirst",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "e5e358d1dd1089d7b7d0ea188d7e96294f0c864f93a73851c7e4b8d9666857ea",
+      "source_mean_gray_vs_C11": 0.009606564417481422,
+      "source_max_gray_vs_C11": 0.125,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_raw6_rows16static.onnx",
+      "scene": "special",
+      "case": "raw6_rows16static",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "0f771fc675d5519d7673cfb67dd32ff057178388aa6be826d70c8f7dfcd2c6d7",
+      "source_mean_gray_vs_C11": 0.03691885620355606,
+      "source_max_gray_vs_C11": 0.375,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_raw6_rows16static_small.onnx",
+      "scene": "special",
+      "case": "raw6_rows16static",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "898dd4e4449732ce41c5d441e0d3887af8e61c303b87aa086e0aa232b8eb67f7",
+      "source_mean_gray_vs_C11": 0.03691885620355606,
+      "source_max_gray_vs_C11": 0.375,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_raw6_rows32.onnx",
+      "scene": "special",
+      "case": "raw6_rows32",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "19e756953d8b46951e8825c1f18e0dcbd656e7856d30e05cb2e7a57efe79fe15",
+      "source_mean_gray_vs_C11": 0.03691885620355606,
+      "source_max_gray_vs_C11": 0.375,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_raw6_rows32_small.onnx",
+      "scene": "special",
+      "case": "raw6_rows32",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "6a35155944d1c9940fe0a9b0d2d9a5296052ac88cf2085524611c1e2ddd8cf17",
+      "source_mean_gray_vs_C11": 0.03691885620355606,
+      "source_max_gray_vs_C11": 0.375,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    }
+  ],
+  "complete_full_output": true,
+  "SDK_verified": false
+}

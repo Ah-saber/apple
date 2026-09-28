@@ -1,0 +1,1445 @@
+{
+  "results": [
+    {
+      "scene": "special",
+      "depth": 3,
+      "attempts": 8000,
+      "best_step": 8000,
+      "held_rmse": 0.04249785840511322,
+      "seconds": 7.396176539361477,
+      "train_records": [
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+          "frame_id": 0
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000001@train",
+          "frame_id": 1
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000002@train",
+          "frame_id": 2
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000003@train",
+          "frame_id": 3
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000004@train",
+          "frame_id": 4
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000005@train",
+          "frame_id": 5
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000006@train",
+          "frame_id": 6
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000007@train",
+          "frame_id": 7
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000008@train",
+          "frame_id": 8
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000009@train",
+          "frame_id": 9
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000010@train",
+          "frame_id": 10
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000011@train",
+          "frame_id": 11
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000012@train",
+          "frame_id": 12
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000013@train",
+          "frame_id": 13
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000014@train",
+          "frame_id": 14
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000015@train",
+          "frame_id": 15
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000016@train",
+          "frame_id": 16
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000017@train",
+          "frame_id": 17
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000018@train",
+          "frame_id": 18
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000019@train",
+          "frame_id": 19
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000020@train",
+          "frame_id": 20
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000021@train",
+          "frame_id": 21
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000022@train",
+          "frame_id": 22
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000023@train",
+          "frame_id": 23
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000024@train",
+          "frame_id": 24
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000025@train",
+          "frame_id": 25
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000026@train",
+          "frame_id": 26
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000027@train",
+          "frame_id": 27
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000028@train",
+          "frame_id": 28
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000029@train",
+          "frame_id": 29
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000030@train",
+          "frame_id": 30
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000031@train",
+          "frame_id": 31
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000032@train",
+          "frame_id": 32
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000033@train",
+          "frame_id": 33
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000034@train",
+          "frame_id": 34
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000035@train",
+          "frame_id": 35
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000036@train",
+          "frame_id": 36
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000037@train",
+          "frame_id": 37
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train",
+          "frame_id": 38
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000039@train",
+          "frame_id": 39
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000040@train",
+          "frame_id": 40
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000041@train",
+          "frame_id": 41
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000042@train",
+          "frame_id": 42
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000043@train",
+          "frame_id": 43
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000044@train",
+          "frame_id": 44
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000045@train",
+          "frame_id": 45
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000046@train",
+          "frame_id": 46
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000047@train",
+          "frame_id": 47
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000048@train",
+          "frame_id": 48
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000049@train",
+          "frame_id": 49
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000050@train",
+          "frame_id": 50
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000051@train",
+          "frame_id": 51
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000052@train",
+          "frame_id": 52
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000053@train",
+          "frame_id": 53
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000054@train",
+          "frame_id": 54
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000055@train",
+          "frame_id": 55
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000056@train",
+          "frame_id": 56
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000057@train",
+          "frame_id": 57
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000058@train",
+          "frame_id": 58
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000059@train",
+          "frame_id": 59
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000060@train",
+          "frame_id": 60
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000061@train",
+          "frame_id": 61
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000062@train",
+          "frame_id": 62
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000063@train",
+          "frame_id": 63
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000064@train",
+          "frame_id": 64
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000065@train",
+          "frame_id": 65
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000066@train",
+          "frame_id": 66
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000067@train",
+          "frame_id": 67
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000068@train",
+          "frame_id": 68
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000069@train",
+          "frame_id": 69
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000070@train",
+          "frame_id": 70
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000071@train",
+          "frame_id": 71
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000072@train",
+          "frame_id": 72
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000073@train",
+          "frame_id": 73
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000074@train",
+          "frame_id": 74
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000075@train",
+          "frame_id": 75
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train",
+          "frame_id": 76
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000077@train",
+          "frame_id": 77
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000078@train",
+          "frame_id": 78
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000079@train",
+          "frame_id": 79
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000080@train",
+          "frame_id": 80
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000081@train",
+          "frame_id": 81
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000082@train",
+          "frame_id": 82
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000083@train",
+          "frame_id": 83
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000084@train",
+          "frame_id": 84
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000085@train",
+          "frame_id": 85
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000086@train",
+          "frame_id": 86
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000087@train",
+          "frame_id": 87
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000088@train",
+          "frame_id": 88
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000089@train",
+          "frame_id": 89
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000090@train",
+          "frame_id": 90
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000091@train",
+          "frame_id": 91
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000092@train",
+          "frame_id": 92
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000093@train",
+          "frame_id": 93
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000094@train",
+          "frame_id": 94
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000095@train",
+          "frame_id": 95
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000096@train",
+          "frame_id": 96
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000097@train",
+          "frame_id": 97
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000098@train",
+          "frame_id": 98
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000099@train",
+          "frame_id": 99
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000100@train",
+          "frame_id": 100
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000101@train",
+          "frame_id": 101
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000102@train",
+          "frame_id": 102
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000103@train",
+          "frame_id": 103
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000104@train",
+          "frame_id": 104
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000105@train",
+          "frame_id": 105
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000106@train",
+          "frame_id": 106
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000107@train",
+          "frame_id": 107
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000108@train",
+          "frame_id": 108
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000109@train",
+          "frame_id": 109
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000110@train",
+          "frame_id": 110
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000111@train",
+          "frame_id": 111
+        }
+      ],
+      "held_records": [
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000112@train",
+          "frame_id": 112
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000113@train",
+          "frame_id": 113
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000114@train",
+          "frame_id": 114
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train",
+          "frame_id": 115
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000116@train",
+          "frame_id": 116
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000117@train",
+          "frame_id": 117
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000118@train",
+          "frame_id": 118
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000119@train",
+          "frame_id": 119
+        }
+      ],
+      "GT_used": false,
+      "test_inputs_used": false,
+      "rows": [
+        {
+          "step": 250,
+          "train_loss": 0.10002931952476501,
+          "held_mae": 0.037973906844854355,
+          "held_rmse": 0.0629812553524971,
+          "held_max": 0.4737333357334137
+        },
+        {
+          "step": 500,
+          "train_loss": 0.08094804733991623,
+          "held_mae": 0.03157353028655052,
+          "held_rmse": 0.05404798686504364,
+          "held_max": 0.42811352014541626
+        },
+        {
+          "step": 750,
+          "train_loss": 0.07041571289300919,
+          "held_mae": 0.02946232631802559,
+          "held_rmse": 0.05116492509841919,
+          "held_max": 0.41923728585243225
+        },
+        {
+          "step": 1000,
+          "train_loss": 0.05936012044548988,
+          "held_mae": 0.02850109338760376,
+          "held_rmse": 0.04923082888126373,
+          "held_max": 0.42293044924736023
+        },
+        {
+          "step": 1250,
+          "train_loss": 0.058193642646074295,
+          "held_mae": 0.027058545500040054,
+          "held_rmse": 0.047427549958229065,
+          "held_max": 0.4308432638645172
+        },
+        {
+          "step": 1500,
+          "train_loss": 0.05693161487579346,
+          "held_mae": 0.02635050378739834,
+          "held_rmse": 0.04649370163679123,
+          "held_max": 0.44109806418418884
+        },
+        {
+          "step": 1750,
+          "train_loss": 0.05248723179101944,
+          "held_mae": 0.02589300647377968,
+          "held_rmse": 0.04572112113237381,
+          "held_max": 0.4418042302131653
+        },
+        {
+          "step": 2000,
+          "train_loss": 0.05160871148109436,
+          "held_mae": 0.025454601272940636,
+          "held_rmse": 0.04515894129872322,
+          "held_max": 0.44064247608184814
+        },
+        {
+          "step": 2250,
+          "train_loss": 0.050512149930000305,
+          "held_mae": 0.025191273540258408,
+          "held_rmse": 0.04477257281541824,
+          "held_max": 0.43922629952430725
+        },
+        {
+          "step": 2500,
+          "train_loss": 0.04941992461681366,
+          "held_mae": 0.025932740420103073,
+          "held_rmse": 0.044931478798389435,
+          "held_max": 0.43139275908470154
+        },
+        {
+          "step": 2750,
+          "train_loss": 0.05086301267147064,
+          "held_mae": 0.02486833557486534,
+          "held_rmse": 0.04415886849164963,
+          "held_max": 0.43103906512260437
+        },
+        {
+          "step": 3000,
+          "train_loss": 0.04653423652052879,
+          "held_mae": 0.02491527423262596,
+          "held_rmse": 0.04393702372908592,
+          "held_max": 0.42931637167930603
+        },
+        {
+          "step": 3250,
+          "train_loss": 0.048179250210523605,
+          "held_mae": 0.024668719619512558,
+          "held_rmse": 0.043781280517578125,
+          "held_max": 0.4276697039604187
+        },
+        {
+          "step": 3500,
+          "train_loss": 0.04843875393271446,
+          "held_mae": 0.024569211527705193,
+          "held_rmse": 0.04355157911777496,
+          "held_max": 0.4271543622016907
+        },
+        {
+          "step": 3750,
+          "train_loss": 0.04907764121890068,
+          "held_mae": 0.024543404579162598,
+          "held_rmse": 0.04342842102050781,
+          "held_max": 0.42393916845321655
+        },
+        {
+          "step": 4000,
+          "train_loss": 0.047845639288425446,
+          "held_mae": 0.024429943412542343,
+          "held_rmse": 0.04334360361099243,
+          "held_max": 0.42308396100997925
+        },
+        {
+          "step": 4250,
+          "train_loss": 0.04484480619430542,
+          "held_mae": 0.024392303079366684,
+          "held_rmse": 0.04318458214402199,
+          "held_max": 0.42010852694511414
+        },
+        {
+          "step": 4500,
+          "train_loss": 0.04574299603700638,
+          "held_mae": 0.02452210709452629,
+          "held_rmse": 0.04317804425954819,
+          "held_max": 0.4189021587371826
+        },
+        {
+          "step": 4750,
+          "train_loss": 0.04545819014310837,
+          "held_mae": 0.02442745491862297,
+          "held_rmse": 0.04306928813457489,
+          "held_max": 0.41758468747138977
+        },
+        {
+          "step": 5000,
+          "train_loss": 0.04430250823497772,
+          "held_mae": 0.024371085688471794,
+          "held_rmse": 0.04301093891263008,
+          "held_max": 0.41364169120788574
+        },
+        {
+          "step": 5250,
+          "train_loss": 0.0440153107047081,
+          "held_mae": 0.0241976510733366,
+          "held_rmse": 0.04291265085339546,
+          "held_max": 0.41561657190322876
+        },
+        {
+          "step": 5500,
+          "train_loss": 0.047561708837747574,
+          "held_mae": 0.024179494008421898,
+          "held_rmse": 0.04287464916706085,
+          "held_max": 0.4151225984096527
+        },
+        {
+          "step": 5750,
+          "train_loss": 0.0464930422604084,
+          "held_mae": 0.024166090413928032,
+          "held_rmse": 0.042823124676942825,
+          "held_max": 0.413620263338089
+        },
+        {
+          "step": 6000,
+          "train_loss": 0.0453365258872509,
+          "held_mae": 0.024153944104909897,
+          "held_rmse": 0.04275311529636383,
+          "held_max": 0.4124756455421448
+        },
+        {
+          "step": 6250,
+          "train_loss": 0.045671623200178146,
+          "held_mae": 0.024108413606882095,
+          "held_rmse": 0.04268639534711838,
+          "held_max": 0.4101191461086273
+        },
+        {
+          "step": 6500,
+          "train_loss": 0.04599767550826073,
+          "held_mae": 0.024071475490927696,
+          "held_rmse": 0.04266812279820442,
+          "held_max": 0.4096917510032654
+        },
+        {
+          "step": 6750,
+          "train_loss": 0.04383254796266556,
+          "held_mae": 0.024070680141448975,
+          "held_rmse": 0.04265032708644867,
+          "held_max": 0.4099365770816803
+        },
+        {
+          "step": 7000,
+          "train_loss": 0.04379860311746597,
+          "held_mae": 0.02403545007109642,
+          "held_rmse": 0.04259473457932472,
+          "held_max": 0.4093865156173706
+        },
+        {
+          "step": 7250,
+          "train_loss": 0.0443631187081337,
+          "held_mae": 0.024037986993789673,
+          "held_rmse": 0.04257531464099884,
+          "held_max": 0.40635910630226135
+        },
+        {
+          "step": 7500,
+          "train_loss": 0.04229268431663513,
+          "held_mae": 0.024033531546592712,
+          "held_rmse": 0.042555324733257294,
+          "held_max": 0.40505263209342957
+        },
+        {
+          "step": 7750,
+          "train_loss": 0.043843768537044525,
+          "held_mae": 0.02400190196931362,
+          "held_rmse": 0.042526427656412125,
+          "held_max": 0.4079365134239197
+        },
+        {
+          "step": 8000,
+          "train_loss": 0.044804949313402176,
+          "held_mae": 0.024032143875956535,
+          "held_rmse": 0.04249785840511322,
+          "held_max": 0.4050857424736023
+        }
+      ]
+    },
+    {
+      "scene": "special",
+      "depth": 4,
+      "attempts": 8000,
+      "best_step": 8000,
+      "held_rmse": 0.03268685191869736,
+      "seconds": 7.752416997216642,
+      "train_records": [
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+          "frame_id": 0
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000001@train",
+          "frame_id": 1
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000002@train",
+          "frame_id": 2
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000003@train",
+          "frame_id": 3
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000004@train",
+          "frame_id": 4
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000005@train",
+          "frame_id": 5
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000006@train",
+          "frame_id": 6
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000007@train",
+          "frame_id": 7
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000008@train",
+          "frame_id": 8
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000009@train",
+          "frame_id": 9
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000010@train",
+          "frame_id": 10
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000011@train",
+          "frame_id": 11
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000012@train",
+          "frame_id": 12
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000013@train",
+          "frame_id": 13
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000014@train",
+          "frame_id": 14
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000015@train",
+          "frame_id": 15
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000016@train",
+          "frame_id": 16
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000017@train",
+          "frame_id": 17
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000018@train",
+          "frame_id": 18
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000019@train",
+          "frame_id": 19
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000020@train",
+          "frame_id": 20
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000021@train",
+          "frame_id": 21
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000022@train",
+          "frame_id": 22
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000023@train",
+          "frame_id": 23
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000024@train",
+          "frame_id": 24
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000025@train",
+          "frame_id": 25
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000026@train",
+          "frame_id": 26
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000027@train",
+          "frame_id": 27
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000028@train",
+          "frame_id": 28
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000029@train",
+          "frame_id": 29
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000030@train",
+          "frame_id": 30
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000031@train",
+          "frame_id": 31
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000032@train",
+          "frame_id": 32
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000033@train",
+          "frame_id": 33
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000034@train",
+          "frame_id": 34
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000035@train",
+          "frame_id": 35
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000036@train",
+          "frame_id": 36
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000037@train",
+          "frame_id": 37
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train",
+          "frame_id": 38
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000039@train",
+          "frame_id": 39
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000040@train",
+          "frame_id": 40
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000041@train",
+          "frame_id": 41
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000042@train",
+          "frame_id": 42
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000043@train",
+          "frame_id": 43
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000044@train",
+          "frame_id": 44
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000045@train",
+          "frame_id": 45
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000046@train",
+          "frame_id": 46
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000047@train",
+          "frame_id": 47
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000048@train",
+          "frame_id": 48
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000049@train",
+          "frame_id": 49
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000050@train",
+          "frame_id": 50
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000051@train",
+          "frame_id": 51
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000052@train",
+          "frame_id": 52
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000053@train",
+          "frame_id": 53
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000054@train",
+          "frame_id": 54
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000055@train",
+          "frame_id": 55
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000056@train",
+          "frame_id": 56
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000057@train",
+          "frame_id": 57
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000058@train",
+          "frame_id": 58
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000059@train",
+          "frame_id": 59
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000060@train",
+          "frame_id": 60
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000061@train",
+          "frame_id": 61
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000062@train",
+          "frame_id": 62
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000063@train",
+          "frame_id": 63
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000064@train",
+          "frame_id": 64
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000065@train",
+          "frame_id": 65
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000066@train",
+          "frame_id": 66
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000067@train",
+          "frame_id": 67
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000068@train",
+          "frame_id": 68
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000069@train",
+          "frame_id": 69
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000070@train",
+          "frame_id": 70
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000071@train",
+          "frame_id": 71
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000072@train",
+          "frame_id": 72
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000073@train",
+          "frame_id": 73
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000074@train",
+          "frame_id": 74
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000075@train",
+          "frame_id": 75
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train",
+          "frame_id": 76
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000077@train",
+          "frame_id": 77
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000078@train",
+          "frame_id": 78
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000079@train",
+          "frame_id": 79
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000080@train",
+          "frame_id": 80
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000081@train",
+          "frame_id": 81
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000082@train",
+          "frame_id": 82
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000083@train",
+          "frame_id": 83
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000084@train",
+          "frame_id": 84
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000085@train",
+          "frame_id": 85
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000086@train",
+          "frame_id": 86
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000087@train",
+          "frame_id": 87
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000088@train",
+          "frame_id": 88
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000089@train",
+          "frame_id": 89
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000090@train",
+          "frame_id": 90
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000091@train",
+          "frame_id": 91
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000092@train",
+          "frame_id": 92
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000093@train",
+          "frame_id": 93
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000094@train",
+          "frame_id": 94
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000095@train",
+          "frame_id": 95
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000096@train",
+          "frame_id": 96
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000097@train",
+          "frame_id": 97
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000098@train",
+          "frame_id": 98
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000099@train",
+          "frame_id": 99
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000100@train",
+          "frame_id": 100
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000101@train",
+          "frame_id": 101
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000102@train",
+          "frame_id": 102
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000103@train",
+          "frame_id": 103
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000104@train",
+          "frame_id": 104
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000105@train",
+          "frame_id": 105
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000106@train",
+          "frame_id": 106
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000107@train",
+          "frame_id": 107
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000108@train",
+          "frame_id": 108
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000109@train",
+          "frame_id": 109
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000110@train",
+          "frame_id": 110
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000111@train",
+          "frame_id": 111
+        }
+      ],
+      "held_records": [
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000112@train",
+          "frame_id": 112
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000113@train",
+          "frame_id": 113
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000114@train",
+          "frame_id": 114
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train",
+          "frame_id": 115
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000116@train",
+          "frame_id": 116
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000117@train",
+          "frame_id": 117
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000118@train",
+          "frame_id": 118
+        },
+        {
+          "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000119@train",
+          "frame_id": 119
+        }
+      ],
+      "GT_used": false,
+      "test_inputs_used": false,
+      "rows": [
+        {
+          "step": 250,
+          "train_loss": 0.10721974074840546,
+          "held_mae": 0.04127833992242813,
+          "held_rmse": 0.06764505803585052,
+          "held_max": 0.48955413699150085
+        },
+        {
+          "step": 500,
+          "train_loss": 0.07254068553447723,
+          "held_mae": 0.03192761540412903,
+          "held_rmse": 0.054651517421007156,
+          "held_max": 0.4848226308822632
+        },
+        {
+          "step": 750,
+          "train_loss": 0.055323824286460876,
+          "held_mae": 0.02856467477977276,
+          "held_rmse": 0.049583762884140015,
+          "held_max": 0.46880432963371277
+        },
+        {
+          "step": 1000,
+          "train_loss": 0.05148068070411682,
+          "held_mae": 0.02676408737897873,
+          "held_rmse": 0.046593375504016876,
+          "held_max": 0.42104318737983704
+        },
+        {
+          "step": 1250,
+          "train_loss": 0.04704374074935913,
+          "held_mae": 0.025361772626638412,
+          "held_rmse": 0.04436015337705612,
+          "held_max": 0.42308318614959717
+        },
+        {
+          "step": 1500,
+          "train_loss": 0.04335350543260574,
+          "held_mae": 0.026271820068359375,
+          "held_rmse": 0.04412200301885605,
+          "held_max": 0.3451175093650818
+        },
+        {
+          "step": 1750,
+          "train_loss": 0.038761429488658905,
+          "held_mae": 0.022705547511577606,
+          "held_rmse": 0.03990877792239189,
+          "held_max": 0.37635886669158936
+        },
+        {
+          "step": 2000,
+          "train_loss": 0.03612595424056053,
+          "held_mae": 0.022103916853666306,
+          "held_rmse": 0.038567494601011276,
+          "held_max": 0.3790726065635681
+        },
+        {
+          "step": 2250,
+          "train_loss": 0.03590576723217964,
+          "held_mae": 0.02136993035674095,
+          "held_rmse": 0.03751446306705475,
+          "held_max": 0.3740195035934448
+        },
+        {
+          "step": 2500,
+          "train_loss": 0.03485475480556488,
+          "held_mae": 0.021031077951192856,
+          "held_rmse": 0.037002429366111755,
+          "held_max": 0.3677879571914673
+        },
+        {
+          "step": 2750,
+          "train_loss": 0.036588314920663834,
+          "held_mae": 0.022074541077017784,
+          "held_rmse": 0.0375802144408226,
+          "held_max": 0.3532285690307617
+        },
+        {
+          "step": 3000,
+          "train_loss": 0.032060492783784866,
+          "held_mae": 0.020368583500385284,
+          "held_rmse": 0.035814318805933,
+          "held_max": 0.36709851026535034
+        },
+        {
+          "step": 3250,
+          "train_loss": 0.032963767647743225,
+          "held_mae": 0.020235273987054825,
+          "held_rmse": 0.035560209304094315,
+          "held_max": 0.3608183264732361
+        },
+        {
+          "step": 3500,
+          "train_loss": 0.029484674334526062,
+          "held_mae": 0.020013954490423203,
+          "held_rmse": 0.035245269536972046,
+          "held_max": 0.35867375135421753
+        },
+        {
+          "step": 3750,
+          "train_loss": 0.03202282264828682,
+          "held_mae": 0.019904743880033493,
+          "held_rmse": 0.03496720269322395,
+          "held_max": 0.36019307374954224
+        },
+        {
+          "step": 4000,
+          "train_loss": 0.0314023494720459,
+          "held_mae": 0.019747493788599968,
+          "held_rmse": 0.03469162806868553,
+          "held_max": 0.3617874085903168
+        },
+        {
+          "step": 4250,
+          "train_loss": 0.02927290089428425,
+          "held_mae": 0.019678816199302673,
+          "held_rmse": 0.03452787175774574,
+          "held_max": 0.3578994870185852
+        },
+        {
+          "step": 4500,
+          "train_loss": 0.031439296901226044,
+          "held_mae": 0.01951618492603302,
+          "held_rmse": 0.03427572175860405,
+          "held_max": 0.3627606928348541
+        },
+        {
+          "step": 4750,
+          "train_loss": 0.0294732004404068,
+          "held_mae": 0.019407477229833603,
+          "held_rmse": 0.034072957932949066,
+          "held_max": 0.35945644974708557
+        },
+        {
+          "step": 5000,
+          "train_loss": 0.03166231885552406,
+          "held_mae": 0.01933700405061245,
+          "held_rmse": 0.03394171968102455,
+          "held_max": 0.3605560064315796
+        },
+        {
+          "step": 5250,
+          "train_loss": 0.029341187328100204,
+          "held_mae": 0.0192663986235857,
+          "held_rmse": 0.033754412084817886,
+          "held_max": 0.356478214263916
+        },
+        {
+          "step": 5500,
+          "train_loss": 0.028214162215590477,
+          "held_mae": 0.019124159589409828,
+          "held_rmse": 0.033599965274333954,
+          "held_max": 0.3573223352432251
+        },
+        {
+          "step": 5750,
+          "train_loss": 0.029883036389946938,
+          "held_mae": 0.019122904166579247,
+          "held_rmse": 0.03352418541908264,
+          "held_max": 0.35594886541366577
+        },
+        {
+          "step": 6000,
+          "train_loss": 0.029886974021792412,
+          "held_mae": 0.019011786207556725,
+          "held_rmse": 0.03337087482213974,
+          "held_max": 0.3575891852378845
+        },
+        {
+          "step": 6250,
+          "train_loss": 0.028303980827331543,
+          "held_mae": 0.018997084349393845,
+          "held_rmse": 0.03330833092331886,
+          "held_max": 0.35571202635765076
+        },
+        {
+          "step": 6500,
+          "train_loss": 0.032594140619039536,
+          "held_mae": 0.018889635801315308,
+          "held_rmse": 0.03316517546772957,
+          "held_max": 0.35580188035964966
+        },
+        {
+          "step": 6750,
+          "train_loss": 0.02777089551091194,
+          "held_mae": 0.01885758899152279,
+          "held_rmse": 0.03303559124469757,
+          "held_max": 0.3527568578720093
+        },
+        {
+          "step": 7000,
+          "train_loss": 0.03009675070643425,
+          "held_mae": 0.01882648840546608,
+          "held_rmse": 0.032942380756139755,
+          "held_max": 0.3516286015510559
+        },
+        {
+          "step": 7250,
+          "train_loss": 0.028270229697227478,
+          "held_mae": 0.01882992312312126,
+          "held_rmse": 0.032894719392061234,
+          "held_max": 0.3480009436607361
+        },
+        {
+          "step": 7500,
+          "train_loss": 0.029002079740166664,
+          "held_mae": 0.018749043345451355,
+          "held_rmse": 0.03281932696700096,
+          "held_max": 0.3526093661785126
+        },
+        {
+          "step": 7750,
+          "train_loss": 0.02775433287024498,
+          "held_mae": 0.018762031570076942,
+          "held_rmse": 0.03274175897240639,
+          "held_max": 0.34707963466644287
+        },
+        {
+          "step": 8000,
+          "train_loss": 0.027850845828652382,
+          "held_mae": 0.01871207356452942,
+          "held_rmse": 0.03268685191869736,
+          "held_max": 0.34657758474349976
+        }
+      ]
+    }
+  ],
+  "SDK_verified": false
+}

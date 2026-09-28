@@ -1,0 +1,566 @@
+{
+  "cases": [
+    {
+      "file": "ordinary_v08_c11.onnx",
+      "scene": "ordinary",
+      "case": "v08_c11",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16",
+      "ops": {
+        "Shape": 10,
+        "Gather": 6,
+        "Concat": 7,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 0,
+        "Cast": 6
+      },
+      "sha256": "6134140c2650d3764be344cab9ccc24403bb470ae11106b4d2cee32cdca4ef05",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_v08_c11_small.onnx",
+      "scene": "ordinary",
+      "case": "v08_c11",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_dtype": "float16",
+      "ops": {
+        "Shape": 10,
+        "Gather": 6,
+        "Concat": 7,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 0,
+        "Cast": 6
+      },
+      "sha256": "4c7b5b9b6c0dde31df3574eed6d6e35c794f8a6b9b09db47fec031e4766dd202",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows16static_u8.onnx",
+      "scene": "ordinary",
+      "case": "rows16static_u8",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "1358193b20a4a06c1387e0f0467e4f4ef41c377e5242a5c714e7354719f0cfcf",
+      "source_mean_gray_vs_C11": 0.24999994039535522,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows16static_u8_small.onnx",
+      "scene": "ordinary",
+      "case": "rows16static_u8",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "7e27bc6a9135129bb911e0ae47f3ccf933f0ea7175efddede9d2bf7d8830c1c3",
+      "source_mean_gray_vs_C11": 0.24999994039535522,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows32_u8.onnx",
+      "scene": "ordinary",
+      "case": "rows32_u8",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "8a0c559701506732e42a68aa43be7aa26d616507c9224688be25b1d0c7b98b28",
+      "source_mean_gray_vs_C11": 0.24999994039535522,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows32_u8_small.onnx",
+      "scene": "ordinary",
+      "case": "rows32_u8",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "4a80957ff1a5ee052a2e0cafda9bd7f9d83570fef87aec237555443d4a00552c",
+      "source_mean_gray_vs_C11": 0.24999994039535522,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_raw6_rows32_u8.onnx",
+      "scene": "ordinary",
+      "case": "raw6_rows32_u8",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "5315d18326cc2a32a929e96e05f86e9724ef8b7785b428252a180267d886fca1",
+      "source_mean_gray_vs_C11": 0.2540462017059326,
+      "source_max_gray_vs_C11": 0.875,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_raw6_rows32_u8_small.onnx",
+      "scene": "ordinary",
+      "case": "raw6_rows32_u8",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "d9097962882f9184ba6b07b3af96ac527a8ca4faf4cff4db4341ac7d8b52af35",
+      "source_mean_gray_vs_C11": 0.2540462017059326,
+      "source_max_gray_vs_C11": 0.875,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_v08_c11.onnx",
+      "scene": "special",
+      "case": "v08_c11",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16",
+      "ops": {
+        "Shape": 7,
+        "Gather": 6,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 0,
+        "Cast": 6
+      },
+      "sha256": "d25660c80d5b53220ae59d15a5387adfcf1cea73b84340cc29452a874df75192",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_v08_c11_small.onnx",
+      "scene": "special",
+      "case": "v08_c11",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_dtype": "float16",
+      "ops": {
+        "Shape": 7,
+        "Gather": 6,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 0,
+        "Cast": 6
+      },
+      "sha256": "ceaf797b8e4d75141039d099d10fedb5cf3fd8d52dc659da2b3242aebd3e7a6d",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows16static_u8.onnx",
+      "scene": "special",
+      "case": "rows16static_u8",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "de42f35e4a7ade016e8a9bc53418ece394bcfa3ad5f96b4fb7d99233dd90cd64",
+      "source_mean_gray_vs_C11": 0.24975039064884186,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows16static_u8_small.onnx",
+      "scene": "special",
+      "case": "rows16static_u8",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "05ce5bc397ae4e3d02bf9c47a4147c7d9281b35424827d33d222534af5e1addd",
+      "source_mean_gray_vs_C11": 0.24975039064884186,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows32_u8.onnx",
+      "scene": "special",
+      "case": "rows32_u8",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "0af1ef7ec7986e7681fc7fd9bb6ce2cde211f0b92091507969275bec2545c239",
+      "source_mean_gray_vs_C11": 0.24975039064884186,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows32_u8_small.onnx",
+      "scene": "special",
+      "case": "rows32_u8",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "d731d2cd2561c71d1d8205f129aa5e80b54ba924083125b1d19ec63674ddbe3a",
+      "source_mean_gray_vs_C11": 0.24975039064884186,
+      "source_max_gray_vs_C11": 0.5,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_raw6_rows32_u8.onnx",
+      "scene": "special",
+      "case": "raw6_rows32_u8",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "b87072fbc33a5b44d2341e4359fdd33b01b24d87d5cb72c2962577907283f56b",
+      "source_mean_gray_vs_C11": 0.2537177503108978,
+      "source_max_gray_vs_C11": 0.875,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_raw6_rows32_u8_small.onnx",
+      "scene": "special",
+      "case": "raw6_rows32_u8",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "output_dtype": "uint8",
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1,
+        "Round": 1,
+        "Cast": 5
+      },
+      "sha256": "5153ee3a2c511a37a52c8f15eb37e1998ba48349a2e68b9c48e128788bbc7638",
+      "source_mean_gray_vs_C11": 0.2537177503108978,
+      "source_max_gray_vs_C11": 0.875,
+      "source_byte_identity_with_C11": false,
+      "SDK_verified": false
+    }
+  ],
+  "complete_full_output": true,
+  "SDK_verified": false
+}

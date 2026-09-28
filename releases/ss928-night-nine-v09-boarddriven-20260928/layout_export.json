@@ -1,0 +1,646 @@
+{
+  "cases": [
+    {
+      "file": "ordinary_v08_c11.onnx",
+      "scene": "ordinary",
+      "case": "v08_c11",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 10,
+        "Gather": 6,
+        "Concat": 7,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "6134140c2650d3764be344cab9ccc24403bb470ae11106b4d2cee32cdca4ef05",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_v08_c11_small.onnx",
+      "scene": "ordinary",
+      "case": "v08_c11",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 10,
+        "Gather": 6,
+        "Concat": 7,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "4c7b5b9b6c0dde31df3574eed6d6e35c794f8a6b9b09db47fec031e4766dd202",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows8.onnx",
+      "scene": "ordinary",
+      "case": "rows8",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "8bfaec835b50bfd74265182578f795a1ea105ee3aa321822c6b25063c983700e",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows8_small.onnx",
+      "scene": "ordinary",
+      "case": "rows8",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "16a7e057277ecc8b14e99a0815e9603c5f8922553f2e647fd10fa2baa95c89ed",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows16static.onnx",
+      "scene": "ordinary",
+      "case": "rows16static",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "3930ba4032c33e72e2c2a5f2252f41066cac818827af522e5e836dc8cf84c1c9",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows16static_small.onnx",
+      "scene": "ordinary",
+      "case": "rows16static",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "3ef478d84604f0f4455ef65480e3d44236939151cb40b83790abf3092229bc30",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows32.onnx",
+      "scene": "ordinary",
+      "case": "rows32",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "521d45c7a5b50054b84ff23250bb22dcb2152448db5aa7ce555613871e21193d",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_rows32_small.onnx",
+      "scene": "ordinary",
+      "case": "rows32",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "d296988282f84bcc8936cda2bad5a0c97fd9d587be432b2850c06281c31f5579",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_direct48.onnx",
+      "scene": "ordinary",
+      "case": "direct48",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 2,
+        "Transpose": 1,
+        "ConvTranspose": 1
+      },
+      "sha256": "efd74fa6f56dc4dc4b185162d04cc80fef6a43a7233ed49756387b20b83945a4",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "ordinary_direct48_small.onnx",
+      "scene": "ordinary",
+      "case": "direct48",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 4,
+        "Gather": 0,
+        "Concat": 4,
+        "Reshape": 2,
+        "Transpose": 1,
+        "ConvTranspose": 1
+      },
+      "sha256": "75bb723d1c3aeeeb2c92e7fbc68a2f62ec23861e0ebf9ebd00d8fbb40925bb88",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_v08_c11.onnx",
+      "scene": "special",
+      "case": "v08_c11",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 7,
+        "Gather": 6,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "d25660c80d5b53220ae59d15a5387adfcf1cea73b84340cc29452a874df75192",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_v08_c11_small.onnx",
+      "scene": "special",
+      "case": "v08_c11",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 7,
+        "Gather": 6,
+        "Concat": 4,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "ceaf797b8e4d75141039d099d10fedb5cf3fd8d52dc659da2b3242aebd3e7a6d",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows8.onnx",
+      "scene": "special",
+      "case": "rows8",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "aafa79eb049eab96e3b66e274486290d941aa51986adb1e288d0f547167fb49e",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows8_small.onnx",
+      "scene": "special",
+      "case": "rows8",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "b1b9d0bdc841cf59866005f8584c950817f7f4f8e6e38f6fe5618174a620b9fd",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows16static.onnx",
+      "scene": "special",
+      "case": "rows16static",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "2c94d057ef8b35226266e634176807299be45b83afd75bb6a7abd77059d8e2d8",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows16static_small.onnx",
+      "scene": "special",
+      "case": "rows16static",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "723ea96a4e875cb6e7e719c5fe9842262bd80ff832e834dc7ee00a89b2c09344",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows32.onnx",
+      "scene": "special",
+      "case": "rows32",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "7a0c43d4001c1ca2be1f0ced70c1e35140935b003a4d303db88ba2442cb81a14",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_rows32_small.onnx",
+      "scene": "special",
+      "case": "rows32",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 3,
+        "Transpose": 2,
+        "ConvTranspose": 1
+      },
+      "sha256": "121e0a9eccb083a9e38675d5e76983d7daab1d61f595b0b2f3cd186024695267",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_direct48.onnx",
+      "scene": "special",
+      "case": "direct48",
+      "small": false,
+      "input_shape": [
+        1,
+        9,
+        1024,
+        1280
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 2,
+        "Transpose": 1,
+        "ConvTranspose": 1
+      },
+      "sha256": "2eb72169e16dfc97ebd24d5a20f2b8112c1f747ea74189036313dc33f4cfe110",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    },
+    {
+      "file": "special_direct48_small.onnx",
+      "scene": "special",
+      "case": "direct48",
+      "small": true,
+      "input_shape": [
+        1,
+        9,
+        64,
+        96
+      ],
+      "input_dtype": "torch.float16",
+      "output_shape": [
+        1,
+        1,
+        192,
+        288
+      ],
+      "ops": {
+        "Shape": 1,
+        "Gather": 0,
+        "Concat": 1,
+        "Reshape": 2,
+        "Transpose": 1,
+        "ConvTranspose": 1
+      },
+      "sha256": "0cd1a60815f1f79c17ef79fc5561ba2dc44ca6a465590ac6bedfdeb185134497",
+      "source_mean_gray_vs_C11": 0.0,
+      "source_max_gray_vs_C11": 0.0,
+      "source_byte_identity_with_C11": true,
+      "SDK_verified": false
+    }
+  ],
+  "complete_full_output": true,
+  "SDK_verified": false
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "scene": "ordinary",
+    "case": "rows32_refpad16_u8",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "dtype": "uint8",
+    "byte_equal_ratio": 1.0,
+    "mae_gray": 0.0,
+    "max_gray": 0
+  },
+  {
+    "scene": "ordinary",
+    "case": "rows32_refpad16_meanfirst_u8",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "dtype": "uint8",
+    "byte_equal_ratio": 1.0,
+    "mae_gray": 0.0,
+    "max_gray": 0
+  },
+  {
+    "scene": "ordinary",
+    "case": "raw6_rows32_refpad16_u8",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "dtype": "uint8",
+    "byte_equal_ratio": 0.9923502604166666,
+    "mae_gray": 0.007649739583333333,
+    "max_gray": 1
+  },
+  {
+    "scene": "special",
+    "case": "rows32_refpad16_u8",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "dtype": "uint8",
+    "byte_equal_ratio": 1.0,
+    "mae_gray": 0.0,
+    "max_gray": 0
+  },
+  {
+    "scene": "special",
+    "case": "rows32_refpad16_meanfirst_u8",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "dtype": "uint8",
+    "byte_equal_ratio": 1.0,
+    "mae_gray": 0.0,
+    "max_gray": 0
+  },
+  {
+    "scene": "special",
+    "case": "raw6_rows32_refpad16_u8",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "dtype": "uint8",
+    "byte_equal_ratio": 0.9923502604166666,
+    "mae_gray": 0.007649739583333333,
+    "max_gray": 1
+  }
+]

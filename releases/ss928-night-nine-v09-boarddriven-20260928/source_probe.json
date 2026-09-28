@@ -1,0 +1,254 @@
+[
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "case": "v08_c11",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.0,
+    "max_gray_difference": 0.0,
+    "same_pixels": 1.0,
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "case": "rows16static_refafter",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.017959818243980408,
+    "max_gray_difference": 0.125,
+    "same_pixels": 0.7148971557617188,
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "case": "rows32_refafter",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.017959818243980408,
+    "max_gray_difference": 0.125,
+    "same_pixels": 0.7148971557617188,
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "case": "rows16static_meanfirst",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.01754426397383213,
+    "max_gray_difference": 0.125,
+    "same_pixels": 0.7256355285644531,
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "case": "raw6_rows16static",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.039520714432001114,
+    "max_gray_difference": 0.5,
+    "same_pixels": 0.5004333853721619,
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "case": "raw6_rows32",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.039520714432001114,
+    "max_gray_difference": 0.5,
+    "same_pixels": 0.5004333853721619,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "case": "v08_c11",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.0,
+    "max_gray_difference": 0.0,
+    "same_pixels": 1.0,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "case": "rows16static_refafter",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.008893100544810295,
+    "max_gray_difference": 0.125,
+    "same_pixels": 0.8865883350372314,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "case": "rows32_refafter",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.008893100544810295,
+    "max_gray_difference": 0.125,
+    "same_pixels": 0.8865883350372314,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "case": "rows16static_meanfirst",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.009606563486158848,
+    "max_gray_difference": 0.125,
+    "same_pixels": 0.875927746295929,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "case": "raw6_rows16static",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.03691885620355606,
+    "max_gray_difference": 0.375,
+    "same_pixels": 0.5909515619277954,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "case": "raw6_rows32",
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_gray_difference": 0.03691885620355606,
+    "max_gray_difference": 0.375,
+    "same_pixels": 0.5909515619277954,
+    "NPU_verified": false
+  }
+]

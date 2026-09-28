@@ -1,0 +1,67 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "v08_c11": {
+          "window_mae_gray": 6.7607421875,
+          "weak_temporal_response_projection": 0.3639266788959503,
+          "weak_temporal_residual_mae_gray": 1.6547945737838745
+        },
+        "rows16static_refafter": {
+          "window_mae_gray": 6.7666015625,
+          "weak_temporal_response_projection": 0.36191603541374207,
+          "weak_temporal_residual_mae_gray": 1.6561644077301025
+        },
+        "rows16static_meanfirst": {
+          "window_mae_gray": 6.7587890625,
+          "weak_temporal_response_projection": 0.36605557799339294,
+          "weak_temporal_residual_mae_gray": 1.6479451656341553
+        },
+        "raw6_rows16static": {
+          "window_mae_gray": 6.7490234375,
+          "weak_temporal_response_projection": 0.3614429235458374,
+          "weak_temporal_residual_mae_gray": 1.6630136966705322
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "v08_c11": {
+          "window_mae_gray": 3.041015625,
+          "weak_temporal_response_projection": 0.527407169342041,
+          "weak_temporal_residual_mae_gray": 1.328690767288208
+        },
+        "rows16static_refafter": {
+          "window_mae_gray": 3.0439453125,
+          "weak_temporal_response_projection": 0.5301117897033691,
+          "weak_temporal_residual_mae_gray": 1.3314763307571411
+        },
+        "rows16static_meanfirst": {
+          "window_mae_gray": 3.0517578125,
+          "weak_temporal_response_projection": 0.5346195697784424,
+          "weak_temporal_residual_mae_gray": 1.3300836086273193
+        },
+        "raw6_rows16static": {
+          "window_mae_gray": 3.0361328125,
+          "weak_temporal_response_projection": 0.5198341012001038,
+          "weak_temporal_residual_mae_gray": 1.3314763307571411
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}
