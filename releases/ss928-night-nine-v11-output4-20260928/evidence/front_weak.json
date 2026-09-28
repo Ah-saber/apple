@@ -1,0 +1,57 @@
+{
+  "windows": [
+    {
+      "frame": 46,
+      "center_yx": [
+        764,
+        258
+      ],
+      "weak_temporal_pixels": 365,
+      "models": {
+        "rows32": {
+          "window_mae_gray": 6.7607421875,
+          "weak_temporal_response_projection": 0.3639266788959503,
+          "weak_temporal_residual_mae_gray": 1.6547945737838745
+        },
+        "trim_t6__keep02_trained": {
+          "window_mae_gray": 7.3388671875,
+          "weak_temporal_response_projection": 0.36641040444374084,
+          "weak_temporal_residual_mae_gray": 1.6260273456573486
+        },
+        "trim_t6__keep1_projected": {
+          "window_mae_gray": 6.18359375,
+          "weak_temporal_response_projection": 0.3610881268978119,
+          "weak_temporal_residual_mae_gray": 1.652054786682129
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "center_yx": [
+        736,
+        522
+      ],
+      "weak_temporal_pixels": 359,
+      "models": {
+        "rows32": {
+          "window_mae_gray": 3.041015625,
+          "weak_temporal_response_projection": 0.527407169342041,
+          "weak_temporal_residual_mae_gray": 1.328690767288208
+        },
+        "trim_t6__keep02_trained": {
+          "window_mae_gray": 3.0302734375,
+          "weak_temporal_response_projection": 0.5209159851074219,
+          "weak_temporal_residual_mae_gray": 1.3454039096832275
+        },
+        "trim_t6__keep1_projected": {
+          "window_mae_gray": 2.9873046875,
+          "weak_temporal_response_projection": 0.5391272902488708,
+          "weak_temporal_residual_mae_gray": 1.3022284507751465
+        }
+      }
+    }
+  ],
+  "GT_used_for_training": false,
+  "test_windows_used_for_checkpoint_selection": false,
+  "metric": "GT-defined low-amplitude temporal residual projection in previously recorded 32x32 windows; not detection labels"
+}

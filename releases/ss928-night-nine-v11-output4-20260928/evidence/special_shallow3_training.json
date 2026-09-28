@@ -1,0 +1,597 @@
+{
+  "scene": "special",
+  "kernel": 3,
+  "best_step": 6500,
+  "best_held_rmse": 0.14017026126384735,
+  "steps": 8000,
+  "seconds": 3.3376569696702063,
+  "train_records": [
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000000@train",
+      "frame_id": 0
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000001@train",
+      "frame_id": 1
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000002@train",
+      "frame_id": 2
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000003@train",
+      "frame_id": 3
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000004@train",
+      "frame_id": 4
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000005@train",
+      "frame_id": 5
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000006@train",
+      "frame_id": 6
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000007@train",
+      "frame_id": 7
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000008@train",
+      "frame_id": 8
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000009@train",
+      "frame_id": 9
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000010@train",
+      "frame_id": 10
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000011@train",
+      "frame_id": 11
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000012@train",
+      "frame_id": 12
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000013@train",
+      "frame_id": 13
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000014@train",
+      "frame_id": 14
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000015@train",
+      "frame_id": 15
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000016@train",
+      "frame_id": 16
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000017@train",
+      "frame_id": 17
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000018@train",
+      "frame_id": 18
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000019@train",
+      "frame_id": 19
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000020@train",
+      "frame_id": 20
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000021@train",
+      "frame_id": 21
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000022@train",
+      "frame_id": 22
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000023@train",
+      "frame_id": 23
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000024@train",
+      "frame_id": 24
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000025@train",
+      "frame_id": 25
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000026@train",
+      "frame_id": 26
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000027@train",
+      "frame_id": 27
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000028@train",
+      "frame_id": 28
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000029@train",
+      "frame_id": 29
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000030@train",
+      "frame_id": 30
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000031@train",
+      "frame_id": 31
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000032@train",
+      "frame_id": 32
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000033@train",
+      "frame_id": 33
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000034@train",
+      "frame_id": 34
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000035@train",
+      "frame_id": 35
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000036@train",
+      "frame_id": 36
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000037@train",
+      "frame_id": 37
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000038@train",
+      "frame_id": 38
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000039@train",
+      "frame_id": 39
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000040@train",
+      "frame_id": 40
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000041@train",
+      "frame_id": 41
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000042@train",
+      "frame_id": 42
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000043@train",
+      "frame_id": 43
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000044@train",
+      "frame_id": 44
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000045@train",
+      "frame_id": 45
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000046@train",
+      "frame_id": 46
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000047@train",
+      "frame_id": 47
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000048@train",
+      "frame_id": 48
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000049@train",
+      "frame_id": 49
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000050@train",
+      "frame_id": 50
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000051@train",
+      "frame_id": 51
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000052@train",
+      "frame_id": 52
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000053@train",
+      "frame_id": 53
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000054@train",
+      "frame_id": 54
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000055@train",
+      "frame_id": 55
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000056@train",
+      "frame_id": 56
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000057@train",
+      "frame_id": 57
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000058@train",
+      "frame_id": 58
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000059@train",
+      "frame_id": 59
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000060@train",
+      "frame_id": 60
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000061@train",
+      "frame_id": 61
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000062@train",
+      "frame_id": 62
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000063@train",
+      "frame_id": 63
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000064@train",
+      "frame_id": 64
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000065@train",
+      "frame_id": 65
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000066@train",
+      "frame_id": 66
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000067@train",
+      "frame_id": 67
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000068@train",
+      "frame_id": 68
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000069@train",
+      "frame_id": 69
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000070@train",
+      "frame_id": 70
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000071@train",
+      "frame_id": 71
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000072@train",
+      "frame_id": 72
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000073@train",
+      "frame_id": 73
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000074@train",
+      "frame_id": 74
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000075@train",
+      "frame_id": 75
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000076@train",
+      "frame_id": 76
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000077@train",
+      "frame_id": 77
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000078@train",
+      "frame_id": 78
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000079@train",
+      "frame_id": 79
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000080@train",
+      "frame_id": 80
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000081@train",
+      "frame_id": 81
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000082@train",
+      "frame_id": 82
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000083@train",
+      "frame_id": 83
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000084@train",
+      "frame_id": 84
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000085@train",
+      "frame_id": 85
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000086@train",
+      "frame_id": 86
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000087@train",
+      "frame_id": 87
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000088@train",
+      "frame_id": 88
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000089@train",
+      "frame_id": 89
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000090@train",
+      "frame_id": 90
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000091@train",
+      "frame_id": 91
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000092@train",
+      "frame_id": 92
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000093@train",
+      "frame_id": 93
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000094@train",
+      "frame_id": 94
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000095@train",
+      "frame_id": 95
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000096@train",
+      "frame_id": 96
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000097@train",
+      "frame_id": 97
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000098@train",
+      "frame_id": 98
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000099@train",
+      "frame_id": 99
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000100@train",
+      "frame_id": 100
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000101@train",
+      "frame_id": 101
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000102@train",
+      "frame_id": 102
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000103@train",
+      "frame_id": 103
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000104@train",
+      "frame_id": 104
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000105@train",
+      "frame_id": 105
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000106@train",
+      "frame_id": 106
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000107@train",
+      "frame_id": 107
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000108@train",
+      "frame_id": 108
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000109@train",
+      "frame_id": 109
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000110@train",
+      "frame_id": 110
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000111@train",
+      "frame_id": 111
+    }
+  ],
+  "held_records": [
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000112@train",
+      "frame_id": 112
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000113@train",
+      "frame_id": 113
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000114@train",
+      "frame_id": 114
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000115@train",
+      "frame_id": 115
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000116@train",
+      "frame_id": 116
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000117@train",
+      "frame_id": 117
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000118@train",
+      "frame_id": 118
+    },
+    {
+      "sample_id": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/000119@train",
+      "frame_id": 119
+    }
+  ],
+  "logs": [
+    {
+      "step": 1,
+      "held_rmse": 0.3048180341720581,
+      "held_mae": 0.22471998631954193,
+      "train_loss": 0.09639666974544525
+    },
+    {
+      "step": 500,
+      "held_rmse": 0.1484609842300415,
+      "held_mae": 0.09043990820646286,
+      "train_loss": 0.0282419566065073
+    },
+    {
+      "step": 1000,
+      "held_rmse": 0.14422215521335602,
+      "held_mae": 0.08557328581809998,
+      "train_loss": 0.02186295948922634
+    },
+    {
+      "step": 1500,
+      "held_rmse": 0.141926571726799,
+      "held_mae": 0.08305259793996811,
+      "train_loss": 0.017719373106956482
+    },
+    {
+      "step": 2000,
+      "held_rmse": 0.14087805151939392,
+      "held_mae": 0.08150025457143784,
+      "train_loss": 0.02581050433218479
+    },
+    {
+      "step": 2500,
+      "held_rmse": 0.1405097097158432,
+      "held_mae": 0.08119559288024902,
+      "train_loss": 0.02372492291033268
+    },
+    {
+      "step": 3000,
+      "held_rmse": 0.14039678871631622,
+      "held_mae": 0.08096329122781754,
+      "train_loss": 0.026949221268296242
+    },
+    {
+      "step": 3500,
+      "held_rmse": 0.1403629183769226,
+      "held_mae": 0.08072003722190857,
+      "train_loss": 0.023627934977412224
+    },
+    {
+      "step": 4000,
+      "held_rmse": 0.14031720161437988,
+      "held_mae": 0.08063207566738129,
+      "train_loss": 0.024701032787561417
+    },
+    {
+      "step": 4500,
+      "held_rmse": 0.140290305018425,
+      "held_mae": 0.08061468601226807,
+      "train_loss": 0.027760246768593788
+    },
+    {
+      "step": 5000,
+      "held_rmse": 0.1402340531349182,
+      "held_mae": 0.08069778978824615,
+      "train_loss": 0.021468380466103554
+    },
+    {
+      "step": 5500,
+      "held_rmse": 0.1402018517255783,
+      "held_mae": 0.08061210066080093,
+      "train_loss": 0.02341059409081936
+    },
+    {
+      "step": 6000,
+      "held_rmse": 0.1402299553155899,
+      "held_mae": 0.08055873215198517,
+      "train_loss": 0.024710670113563538
+    },
+    {
+      "step": 6500,
+      "held_rmse": 0.14017026126384735,
+      "held_mae": 0.08069109916687012,
+      "train_loss": 0.01999930664896965
+    },
+    {
+      "step": 7000,
+      "held_rmse": 0.14018483459949493,
+      "held_mae": 0.08068844676017761,
+      "train_loss": 0.023097243160009384
+    },
+    {
+      "step": 7500,
+      "held_rmse": 0.14018915593624115,
+      "held_mae": 0.08042115718126297,
+      "train_loss": 0.020934710279107094
+    },
+    {
+      "step": 8000,
+      "held_rmse": 0.14017699658870697,
+      "held_mae": 0.08069976419210434,
+      "train_loss": 0.01846662536263466
+    }
+  ],
+  "test_used": false
+}

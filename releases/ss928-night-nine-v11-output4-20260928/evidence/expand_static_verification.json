@@ -1,0 +1,104 @@
+[
+  {
+    "source": "ordinary_trim_t6__keep02_trained__expand4.onnx",
+    "target": "ordinary_trim_t6__keep02_trained__expand4_static.onnx",
+    "removed_output_shape_nodes": 7,
+    "expand_shape": [
+      1,
+      1,
+      1024,
+      3,
+      1280,
+      3
+    ]
+  },
+  {
+    "source": "ordinary_trim_t6__keep02_trained__expand4_small.onnx",
+    "target": "ordinary_trim_t6__keep02_trained__expand4_static_small.onnx",
+    "removed_output_shape_nodes": 7,
+    "expand_shape": [
+      1,
+      1,
+      64,
+      3,
+      96,
+      3
+    ],
+    "exact": true,
+    "different_pixels": 0,
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ]
+  },
+  {
+    "source": "ordinary_trim_t6__keep1_projected__expand4.onnx",
+    "target": "ordinary_trim_t6__keep1_projected__expand4_static.onnx",
+    "removed_output_shape_nodes": 7,
+    "expand_shape": [
+      1,
+      1,
+      1024,
+      3,
+      1280,
+      3
+    ]
+  },
+  {
+    "source": "ordinary_trim_t6__keep1_projected__expand4_small.onnx",
+    "target": "ordinary_trim_t6__keep1_projected__expand4_static_small.onnx",
+    "removed_output_shape_nodes": 7,
+    "expand_shape": [
+      1,
+      1,
+      64,
+      3,
+      96,
+      3
+    ],
+    "exact": true,
+    "different_pixels": 0,
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ]
+  },
+  {
+    "source": "special_trim_t6_o20__expand4.onnx",
+    "target": "special_trim_t6_o20__expand4_static.onnx",
+    "removed_output_shape_nodes": 7,
+    "expand_shape": [
+      1,
+      1,
+      1024,
+      3,
+      1280,
+      3
+    ]
+  },
+  {
+    "source": "special_trim_t6_o20__expand4_small.onnx",
+    "target": "special_trim_t6_o20__expand4_static_small.onnx",
+    "removed_output_shape_nodes": 7,
+    "expand_shape": [
+      1,
+      1,
+      64,
+      3,
+      96,
+      3
+    ],
+    "exact": true,
+    "different_pixels": 0,
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ]
+  }
+]

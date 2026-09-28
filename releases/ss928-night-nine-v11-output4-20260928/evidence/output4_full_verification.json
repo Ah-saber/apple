@@ -1,0 +1,87 @@
+[
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "mode": "expand",
+    "source": "ordinary_trim_t6__keep02_trained__expand_static.onnx",
+    "candidate": "ordinary_trim_t6__keep02_trained__expand4_static.onnx",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_conv_channels": 4
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "mode": "tile",
+    "source": "ordinary_trim_t6__keep02_trained__tile_static.onnx",
+    "candidate": "ordinary_trim_t6__keep02_trained__tile4_static.onnx",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_conv_channels": 4
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "mode": "expand",
+    "source": "ordinary_trim_t6__keep1_projected__expand_static.onnx",
+    "candidate": "ordinary_trim_t6__keep1_projected__expand4_static.onnx",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_conv_channels": 4
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "mode": "expand",
+    "source": "special_trim_t6_o20__expand_static.onnx",
+    "candidate": "special_trim_t6_o20__expand4_static.onnx",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_conv_channels": 4
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "mode": "tile",
+    "source": "special_trim_t6_o20__tile_static.onnx",
+    "candidate": "special_trim_t6_o20__tile4_static.onnx",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_conv_channels": 4
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "scene": "special",
+    "case": "rows32",
+    "small": false,
+    "file": "special_rows32.onnx",
+    "sha256": "7a0c43d4001c1ca2be1f0ced70c1e35140935b003a4d303db88ba2442cb81a14",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_abs_gray_vs_first": 0.0,
+    "max_abs_gray_vs_first": 0.0,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "case": "rows32",
+    "small": true,
+    "file": "special_rows32_small.onnx",
+    "sha256": "121e0a9eccb083a9e38675d5e76983d7daab1d61f595b0b2f3cd186024695267",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "mean_abs_gray_vs_first": 0.0,
+    "max_abs_gray_vs_first": 0.0,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "case": "trim_t6_o20__expand4",
+    "small": false,
+    "file": "special_trim_t6_o20__expand4.onnx",
+    "sha256": "6e936af0dd0567f595c6f0f13422a6263a3887ce718ce859e4d00b892b447769",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_abs_gray_vs_first": 0.0007013686117716134,
+    "max_abs_gray_vs_first": 0.25,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "case": "trim_t6_o20__expand4",
+    "small": true,
+    "file": "special_trim_t6_o20__expand4_small.onnx",
+    "sha256": "12ba0786a8b5e8d890b1a5606192f4003421782934e7a9e08ec4552fe13984b7",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "mean_abs_gray_vs_first": 0.0007013686117716134,
+    "max_abs_gray_vs_first": 0.25,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "case": "trim_t6_o20__tile4",
+    "small": false,
+    "file": "special_trim_t6_o20__tile4.onnx",
+    "sha256": "2150b7fd8862d106b6b7e6d8d77eed945ce830cf12f13f49291013125cefeafe",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_abs_gray_vs_first": 0.0007013686117716134,
+    "max_abs_gray_vs_first": 0.25,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "case": "trim_t6_o20__tile4",
+    "small": true,
+    "file": "special_trim_t6_o20__tile4_small.onnx",
+    "sha256": "6b185d7ab720b941092b76233a696209919a119021d26df299bd1bb51673f1f6",
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ],
+    "mean_abs_gray_vs_first": 0.0007013686117716134,
+    "max_abs_gray_vs_first": 0.25,
+    "NPU_verified": false
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "scene": "special",
+  "case": "trim_t6_o20",
+  "frames": 120,
+  "roi": [
+    2,
+    1088,
+    1020,
+    192
+  ],
+  "changed_pixel_fraction_mean": 0.045916895102709535,
+  "mean_gray_bias": 0.045916895102709535,
+  "metrics": {
+    "even": {
+      "mean_psnr_db": 25.862905707547338,
+      "static_error_temporal_std_gray": 1.883590817451477,
+      "weak_mae_gray": 9.57068157196045,
+      "brightness_error_temporal_std_gray": 0.792297333927061,
+      "contrast_error_temporal_std_gray": 1.1529563516368495
+    },
+    "addhalf_cast": {
+      "mean_psnr_db": 25.846692820283547,
+      "static_error_temporal_std_gray": 1.8837156295776367,
+      "weak_mae_gray": 9.587306022644043,
+      "brightness_error_temporal_std_gray": 0.7802066210193579,
+      "contrast_error_temporal_std_gray": 1.151345731751824
+    }
+  },
+  "NPU_verified": false,
+  "test_used_for_architecture_assessment": true
+}

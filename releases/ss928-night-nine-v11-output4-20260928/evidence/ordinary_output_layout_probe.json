@@ -1,0 +1,72 @@
+[
+  {
+    "case": "rows32",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_abs_gray_vs_rows32": 0.0,
+    "max_abs_gray_vs_rows32": 0.0,
+    "same_pixel_fraction": 1.0,
+    "gpu_eager_mean_ms": 0.5265334397554398,
+    "gpu_eager_p95_ms": 0.5310448110103607
+  },
+  {
+    "case": "rows32__expand",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_abs_gray_vs_rows32": 0.0,
+    "max_abs_gray_vs_rows32": 0.0,
+    "same_pixel_fraction": 1.0,
+    "gpu_eager_mean_ms": 0.4945520007610321,
+    "gpu_eager_p95_ms": 0.49769921153783797
+  },
+  {
+    "case": "rows32__tile",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_abs_gray_vs_rows32": 0.0,
+    "max_abs_gray_vs_rows32": 0.0,
+    "same_pixel_fraction": 1.0,
+    "gpu_eager_mean_ms": 0.494484481215477,
+    "gpu_eager_p95_ms": 0.4987936049699783
+  },
+  {
+    "case": "trim_t6__keep02_trained__expand",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_abs_gray_vs_rows32": 0.4486541152000427,
+    "max_abs_gray_vs_rows32": 2.875,
+    "same_pixel_fraction": 0.058754730969667435,
+    "gpu_eager_mean_ms": 0.4158592015504837,
+    "gpu_eager_p95_ms": 0.4205840066075325
+  },
+  {
+    "case": "trim_t6__keep02_trained__tile",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "mean_abs_gray_vs_rows32": 0.4486541152000427,
+    "max_abs_gray_vs_rows32": 2.875,
+    "same_pixel_fraction": 0.058754730969667435,
+    "gpu_eager_mean_ms": 0.39385503917932513,
+    "gpu_eager_p95_ms": 0.39737600088119507
+  }
+]

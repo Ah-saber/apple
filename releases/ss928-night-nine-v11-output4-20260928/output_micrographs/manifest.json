@@ -1,0 +1,140 @@
+[
+  {
+    "key": "ordinary_rows32",
+    "source": "ordinary_rows32.onnx",
+    "micrograph": "ordinary_rows32_output_only.onnx",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "input_dtype": "float16",
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "output_dtype": "float16",
+    "nodes": 20,
+    "valid_onnx": true,
+    "exact_vs_rows32_output_stage": true,
+    "NPU_verified": false
+  },
+  {
+    "key": "ordinary_expand4",
+    "source": "ordinary_trim_t6__keep02_trained__expand4_static.onnx",
+    "micrograph": "ordinary_expand4_output_only.onnx",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "input_dtype": "float16",
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "output_dtype": "float16",
+    "nodes": 18,
+    "valid_onnx": true,
+    "exact_vs_rows32_output_stage": true,
+    "NPU_verified": false
+  },
+  {
+    "key": "ordinary_tile4",
+    "source": "ordinary_trim_t6__keep02_trained__tile4_static.onnx",
+    "micrograph": "ordinary_tile4_output_only.onnx",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "input_dtype": "float16",
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "output_dtype": "float16",
+    "nodes": 18,
+    "valid_onnx": true,
+    "exact_vs_rows32_output_stage": true,
+    "NPU_verified": false
+  },
+  {
+    "key": "special_rows32",
+    "source": "special_rows32.onnx",
+    "micrograph": "special_rows32_output_only.onnx",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "input_dtype": "float16",
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "output_dtype": "float16",
+    "nodes": 20,
+    "valid_onnx": true,
+    "exact_vs_rows32_output_stage": true,
+    "NPU_verified": false
+  },
+  {
+    "key": "special_expand4",
+    "source": "special_trim_t6_o20__expand4_static.onnx",
+    "micrograph": "special_expand4_output_only.onnx",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "input_dtype": "float16",
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "output_dtype": "float16",
+    "nodes": 18,
+    "valid_onnx": true,
+    "exact_vs_rows32_output_stage": true,
+    "NPU_verified": false
+  },
+  {
+    "key": "special_tile4",
+    "source": "special_trim_t6_o20__tile4_static.onnx",
+    "micrograph": "special_tile4_output_only.onnx",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "input_dtype": "float16",
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "output_dtype": "float16",
+    "nodes": 18,
+    "valid_onnx": true,
+    "exact_vs_rows32_output_stage": true,
+    "NPU_verified": false
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "source": "ordinary_trim_t6__keep02_trained__tile4.onnx",
+    "target": "ordinary_trim_t6__keep02_trained__tile4_static.onnx",
+    "nodes_removed": 3,
+    "remaining_output_expand": 0
+  },
+  {
+    "source": "ordinary_trim_t6__keep02_trained__tile4_small.onnx",
+    "target": "ordinary_trim_t6__keep02_trained__tile4_static_small.onnx",
+    "nodes_removed": 3,
+    "remaining_output_expand": 0,
+    "exact": true,
+    "different_pixels": 0,
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ]
+  },
+  {
+    "source": "special_trim_t6_o20__tile4.onnx",
+    "target": "special_trim_t6_o20__tile4_static.onnx",
+    "nodes_removed": 3,
+    "remaining_output_expand": 0
+  },
+  {
+    "source": "special_trim_t6_o20__tile4_small.onnx",
+    "target": "special_trim_t6_o20__tile4_static_small.onnx",
+    "nodes_removed": 3,
+    "remaining_output_expand": 0,
+    "exact": true,
+    "different_pixels": 0,
+    "shape": [
+      1,
+      1,
+      192,
+      288
+    ]
+  }
+]

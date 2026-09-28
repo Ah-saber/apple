@@ -1,0 +1,192 @@
+[
+  {
+    "scene": "ordinary",
+    "stem": "ordinary_trim_t6__keep02_trained__expand4_static",
+    "mode": "quantizelinear",
+    "frame": 20,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_from_mode_expected_pixels": 0,
+    "mode_max_abs_gray": 0,
+    "different_from_even_pixels": 0,
+    "fraction_different_from_even": 0.0,
+    "mean_bias_gray": 0.0,
+    "max_abs_gray": 0
+  },
+  {
+    "scene": "ordinary",
+    "stem": "ordinary_trim_t6__keep02_trained__expand4_static",
+    "mode": "addhalf_cast",
+    "frame": 20,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_from_mode_expected_pixels": 0,
+    "mode_max_abs_gray": 0,
+    "different_from_even_pixels": 453312,
+    "fraction_different_from_even": 0.038427734375,
+    "mean_bias_gray": 0.038427734375,
+    "max_abs_gray": 1
+  },
+  {
+    "scene": "ordinary",
+    "stem": "ordinary_trim_t6__keep02_trained__tile4_static",
+    "mode": "quantizelinear",
+    "frame": 20,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_from_mode_expected_pixels": 0,
+    "mode_max_abs_gray": 0,
+    "different_from_even_pixels": 0,
+    "fraction_different_from_even": 0.0,
+    "mean_bias_gray": 0.0,
+    "max_abs_gray": 0
+  },
+  {
+    "scene": "ordinary",
+    "stem": "ordinary_trim_t6__keep02_trained__tile4_static",
+    "mode": "addhalf_cast",
+    "frame": 20,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": false,
+    "different_from_mode_expected_pixels": 485019,
+    "mode_max_abs_gray": 1,
+    "different_from_even_pixels": 455175,
+    "fraction_different_from_even": 0.038585662841796875,
+    "mean_bias_gray": -0.002687835693359375,
+    "max_abs_gray": 1
+  },
+  {
+    "scene": "ordinary",
+    "stem": "ordinary_trim_t6__keep1_projected__expand4_static",
+    "mode": "quantizelinear",
+    "frame": 20,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_from_mode_expected_pixels": 0,
+    "mode_max_abs_gray": 0,
+    "different_from_even_pixels": 0,
+    "fraction_different_from_even": 0.0,
+    "mean_bias_gray": 0.0,
+    "max_abs_gray": 0
+  },
+  {
+    "scene": "ordinary",
+    "stem": "ordinary_trim_t6__keep1_projected__expand4_static",
+    "mode": "addhalf_cast",
+    "frame": 20,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_from_mode_expected_pixels": 0,
+    "mode_max_abs_gray": 0,
+    "different_from_even_pixels": 448416,
+    "fraction_different_from_even": 0.0380126953125,
+    "mean_bias_gray": 0.0380126953125,
+    "max_abs_gray": 1
+  },
+  {
+    "scene": "special",
+    "stem": "special_trim_t6_o20__expand4_static",
+    "mode": "quantizelinear",
+    "frame": 60,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_from_mode_expected_pixels": 0,
+    "mode_max_abs_gray": 0,
+    "different_from_even_pixels": 0,
+    "fraction_different_from_even": 0.0,
+    "mean_bias_gray": 0.0,
+    "max_abs_gray": 0
+  },
+  {
+    "scene": "special",
+    "stem": "special_trim_t6_o20__expand4_static",
+    "mode": "addhalf_cast",
+    "frame": 60,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_from_mode_expected_pixels": 0,
+    "mode_max_abs_gray": 0,
+    "different_from_even_pixels": 542862,
+    "fraction_different_from_even": 0.04601898193359375,
+    "mean_bias_gray": 0.04601898193359375,
+    "max_abs_gray": 1
+  },
+  {
+    "scene": "special",
+    "stem": "special_trim_t6_o20__tile4_static",
+    "mode": "quantizelinear",
+    "frame": 60,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_from_mode_expected_pixels": 0,
+    "mode_max_abs_gray": 0,
+    "different_from_even_pixels": 0,
+    "fraction_different_from_even": 0.0,
+    "mean_bias_gray": 0.0,
+    "max_abs_gray": 0
+  },
+  {
+    "scene": "special",
+    "stem": "special_trim_t6_o20__tile4_static",
+    "mode": "addhalf_cast",
+    "frame": 60,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": false,
+    "different_from_mode_expected_pixels": 574857,
+    "mode_max_abs_gray": 1,
+    "different_from_even_pixels": 544293,
+    "fraction_different_from_even": 0.046140289306640624,
+    "mean_bias_gray": -0.002712249755859375,
+    "max_abs_gray": 1
+  }
+]

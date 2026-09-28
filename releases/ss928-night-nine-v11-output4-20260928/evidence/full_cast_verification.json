@@ -1,0 +1,32 @@
+[
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_half_up": true,
+    "different_from_even_pixels": 449694,
+    "fraction_different_from_even": 0.03812103271484375,
+    "mean_bias_gray": 0.03812103271484375,
+    "max_abs_gray": 1
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_half_up": true,
+    "different_from_even_pixels": 542844,
+    "fraction_different_from_even": 0.0460174560546875,
+    "mean_bias_gray": 0.0460174560546875,
+    "max_abs_gray": 1
+  }
+]
