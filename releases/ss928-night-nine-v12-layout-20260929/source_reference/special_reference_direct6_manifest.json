@@ -1,0 +1,26 @@
+{
+  "scene": "special",
+  "frame": 60,
+  "output_layout": "direct6",
+  "source_mean_abs_gray": 0.008896013721823692,
+  "source_max_abs_gray": 0.125,
+  "full_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "NPU_verified": false,
+  "files": [
+    {
+      "name": "special_reference_after12_direct6.onnx",
+      "sha256": "f065970b1f042ecc4473829b4fb9b0c9db6ed1a737108dcfafd0d9cec2ae3af7",
+      "nodes": 40
+    },
+    {
+      "name": "special_reference_after12_direct6_small.onnx",
+      "sha256": "8724c13eb2ca79edc68f6de6c70cc2158677b495dd5845beed406844f30836a4",
+      "nodes": 40
+    }
+  ]
+}

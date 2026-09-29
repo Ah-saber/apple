@@ -1,0 +1,18 @@
+[
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "mean_abs_gray": 6.502471023850376e-06,
+    "max_abs_gray": 0.125,
+    "same_fraction": 0.9998764038085938,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "mean_abs_gray": 4.673036073654657e-06,
+    "max_abs_gray": 0.125,
+    "same_fraction": 0.9999420166015625,
+    "NPU_verified": false
+  }
+]

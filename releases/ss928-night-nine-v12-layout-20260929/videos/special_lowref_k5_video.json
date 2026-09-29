@@ -1,0 +1,24 @@
+{
+  "scene": "special",
+  "variant": "lowref_k5_rows32",
+  "count": 120,
+  "fps": 12,
+  "video_shape": [
+    1080,
+    5120
+  ],
+  "each_panel_sensor_shape": [
+    1024,
+    1280
+  ],
+  "model_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "display": "full field, output averaged per 3x3 sensor cell",
+  "source_execution": true,
+  "NPU_verified": false,
+  "mean_rawgrid_difference_gray": 0.6217590699593226
+}

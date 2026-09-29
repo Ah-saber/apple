@@ -1,0 +1,188 @@
+{
+  "full_graphs": [
+    {
+      "source": "ordinary_rows32.onnx",
+      "candidate": "ordinary_rows32_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_rows32_small.onnx",
+      "candidate": "ordinary_rows32_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_direct6.onnx",
+      "candidate": "ordinary_direct6_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_direct6_small.onnx",
+      "candidate": "ordinary_direct6_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_native_deconv.onnx",
+      "candidate": "ordinary_native_deconv_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_native_deconv_small.onnx",
+      "candidate": "ordinary_native_deconv_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_native_nearest.onnx",
+      "candidate": "ordinary_native_nearest_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_native_nearest_small.onnx",
+      "candidate": "ordinary_native_nearest_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_native_separable.onnx",
+      "candidate": "ordinary_native_separable_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "ordinary_native_separable_small.onnx",
+      "candidate": "ordinary_native_separable_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_rows32.onnx",
+      "candidate": "special_rows32_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_rows32_small.onnx",
+      "candidate": "special_rows32_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_direct6.onnx",
+      "candidate": "special_direct6_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_direct6_small.onnx",
+      "candidate": "special_direct6_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_native_deconv.onnx",
+      "candidate": "special_native_deconv_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_native_deconv_small.onnx",
+      "candidate": "special_native_deconv_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_native_nearest.onnx",
+      "candidate": "special_native_nearest_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_native_nearest_small.onnx",
+      "candidate": "special_native_nearest_cast_u8_small.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_native_separable.onnx",
+      "candidate": "special_native_separable_cast_u8.onnx",
+      "NPU_verified": false
+    },
+    {
+      "source": "special_native_separable_small.onnx",
+      "candidate": "special_native_separable_cast_u8_small.onnx",
+      "NPU_verified": false
+    }
+  ],
+  "rounding_probes": [
+    {
+      "graph": "cast_direct_probe.onnx",
+      "add_half": false,
+      "input_float16": [
+        0.0,
+        0.25,
+        0.489990234375,
+        0.5,
+        0.509765625,
+        0.75,
+        1.25,
+        1.490234375,
+        1.5,
+        1.509765625,
+        1.75,
+        2.490234375,
+        2.5,
+        2.509765625,
+        127.5,
+        254.5
+      ],
+      "onnx_runtime_uint8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        127,
+        254
+      ],
+      "NPU_verified": false
+    },
+    {
+      "graph": "cast_addhalf_probe.onnx",
+      "add_half": true,
+      "input_float16": [
+        0.0,
+        0.25,
+        0.489990234375,
+        0.5,
+        0.509765625,
+        0.75,
+        1.25,
+        1.490234375,
+        1.5,
+        1.509765625,
+        1.75,
+        2.490234375,
+        2.5,
+        2.509765625,
+        127.5,
+        254.5
+      ],
+      "onnx_runtime_uint8": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        128,
+        255
+      ],
+      "NPU_verified": false
+    }
+  ]
+}

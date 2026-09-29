@@ -1,0 +1,3646 @@
+{
+  "graphs": 148,
+  "counts": {
+    "source_output": 36,
+    "source_reference": 20,
+    "source_lowref": 8,
+    "source_byte": 20,
+    "source_combined_cast": 28,
+    "output_micrographs": 36
+  },
+  "entries": [
+    {
+      "file": "source_output/ordinary_direct6.onnx",
+      "sha256": "33ec10262b777251d90a7c7209014bda65eb45cdf24a26cd6b52e2721c7d8013",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 66
+    },
+    {
+      "file": "source_output/ordinary_direct6_small.onnx",
+      "sha256": "b7703008ad0ab936202554784c3487493ae21fe0448a06583788c20dbae7235e",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 66
+    },
+    {
+      "file": "source_output/ordinary_native_deconv.onnx",
+      "sha256": "08876652b4e6fb1d560d4a5e73bf424abd3abb19ed0e38d26116efe587924004",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 67
+    },
+    {
+      "file": "source_output/ordinary_native_deconv_small.onnx",
+      "sha256": "d7bbaad0ad45bdeecbbe944cce1fe968ac70ca638be22bd02b12fa6c7af34529",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 67
+    },
+    {
+      "file": "source_output/ordinary_native_nearest.onnx",
+      "sha256": "3ecc8d7d3066d951619640c5cbe36b2787a8cd3430d1140e2966f5457ff859b8",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 68
+    },
+    {
+      "file": "source_output/ordinary_native_nearest_small.onnx",
+      "sha256": "edacc6a3635db7102efb866709982ee0acbd7b7cc4999ddd0ce3f6ca16bbb413",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 68
+    },
+    {
+      "file": "source_output/ordinary_native_separable.onnx",
+      "sha256": "748dacf2fbe7a94f613182625600d065e7035fb1406e2045d2be5d30fe0cff46",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 68
+    },
+    {
+      "file": "source_output/ordinary_native_separable_small.onnx",
+      "sha256": "3d67fe2b96d773059049cde6bc4b10a8417da0b34c8dd13ebe21852b62a246e4",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 68
+    },
+    {
+      "file": "source_output/ordinary_rows128.onnx",
+      "sha256": "19fe9a0b14a3cd0625f964f13c18ab1908c29f26bf609904f909f1325aa44a4c",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows128_small.onnx",
+      "sha256": "28f88e25cea9bfb1e85ae922e9f333dfe12737ba07623e7cea477443179e7557",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows16.onnx",
+      "sha256": "3a241a720a993262182bd3de0bf070eb1e68b8ef994f72f476bee9df2dc3d43c",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows16_small.onnx",
+      "sha256": "a1bb14a62f705704c8c261d2ab6ec5e2f363c22e53ab3538e157c90433005094",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows32.onnx",
+      "sha256": "eafec5b01b467331f5f54c3ae6ca76d1504c4d528aad6b27b36092fdd62004d4",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows32_small.onnx",
+      "sha256": "5d05d3897286420a9ccd0f23e1283d171c288a972e2d3be58b0c12eb891f7353",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows64.onnx",
+      "sha256": "a278fe221c21b3363cd58b0a1016e29125ee26c550e3ea187bce1af0cd03945e",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows64_small.onnx",
+      "sha256": "47dc573571063e69b07f7f099c539ff962ccecb4285a9abd9ce21bf9d73d9831",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows8.onnx",
+      "sha256": "6db0d6983eac4d704505b4b1974f2e09cd2b9a73fdb3700be14c79318d0fdc32",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/ordinary_rows8_small.onnx",
+      "sha256": "a741d71e7472628a0e5edd16ae9b0ba8543892f8f19ab215d7d9e2fde024c49c",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_output/special_direct6.onnx",
+      "sha256": "aec9a195c639ee2d0e40098701fb7b08d4b875816f2612d7c1e1f04eca5516a8",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 40
+    },
+    {
+      "file": "source_output/special_direct6_small.onnx",
+      "sha256": "b13ec72cd5055166771f208484cd288fe3ace072c2580aedc7fbda8afae42428",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 40
+    },
+    {
+      "file": "source_output/special_native_deconv.onnx",
+      "sha256": "221702bb7cad48839d1c09d3f53c12359bf7a7a301fa3c6d3bf407f31cf46694",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 41
+    },
+    {
+      "file": "source_output/special_native_deconv_small.onnx",
+      "sha256": "f0fd00e37d5737d1a1e14344cf08f509c83d47f4be4bbbf6cebbcb7738fa778a",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 41
+    },
+    {
+      "file": "source_output/special_native_nearest.onnx",
+      "sha256": "8b8971de4821a386934cbac3c011e0e0fe44d71928a8686260537f963ac9fa4c",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_output/special_native_nearest_small.onnx",
+      "sha256": "9ad3b6442fd4104201236f916bfc77b7a56b2c95f34fd4b6b5b2ad25610b3207",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_output/special_native_separable.onnx",
+      "sha256": "d68e27111e8f2eb7a45383d223652141757d49d9193e5ed22fd33dd7328208c5",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_output/special_native_separable_small.onnx",
+      "sha256": "4e579c3d1efa1500099d8b92207caa3648bdb3c4a3bfa6d82f1516cdd568610f",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_output/special_rows128.onnx",
+      "sha256": "59c142a7ff97a3f899b01932cb7d5cc4952648769724e50e8e29b73c504a4773",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows128_small.onnx",
+      "sha256": "86b2463daa38c12ffeedd15307031c3c4e02605f86a7f48fdb6be6a5bd551534",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows16.onnx",
+      "sha256": "2681451bb69fc817297dae677b1a953840657eb7cc38d4fbdef6b283ba7670d1",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows16_small.onnx",
+      "sha256": "fca9bd3238813bc7b2998075d28fab50485a2dea5169f550d37bdc39bf116f5a",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows32.onnx",
+      "sha256": "a02d4b3f4b60824fcec59b286b85dc49f7119eeb7ce015c9e3b35489c13dc645",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows32_small.onnx",
+      "sha256": "cf5db7203b7c1a20c3bfc013c836bf0c802cdef28ef3252a6b1c4c47c3365dc7",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows64.onnx",
+      "sha256": "b2a20fda18a0861694bf82c736eed1462fcdad377261ae348b57d054d2b4c470",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows64_small.onnx",
+      "sha256": "dc625609389b5d6d2631a0cab3c4377593c92e301d1c7cca8f4754f1ba81a255",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows8.onnx",
+      "sha256": "bcf943ce4b90b20f559167b9bc77c2b7ba8b194ea67ed67cda5ba5d867211a8c",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_output/special_rows8_small.onnx",
+      "sha256": "060ed28c1fe2897119688da5db38d7675eed7470e1482e3a4bbaae6158098eb3",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_direct6.onnx",
+      "sha256": "0e71472df12fc31030f08295ac601d1d30fca4227ef2fd7db9535d7469fb40f9",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 66
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_direct6_small.onnx",
+      "sha256": "eb311c0c7f3b8aebd51b3476f7144b0fa1dbb058fcebaa57ad46aef49c6581c4",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 66
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_native_deconv.onnx",
+      "sha256": "8eaa2c8c8b10e30e30b2ad143b8c9b54528ce66513a17bf232009f4a5deaf565",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 67
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_native_deconv_small.onnx",
+      "sha256": "26bb9f6a7820ffd56d3ee3d1c10af4d9227cf2b65e90c7ca2ceca395b75b1e6f",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 67
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_native_nearest.onnx",
+      "sha256": "3b841f39397e0904763e5c66b1ec386193f96418c5c51ff5b0cf2ea48320dc1c",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 68
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_native_nearest_small.onnx",
+      "sha256": "c524ebc0ac84b3c50a3c80beff8df416179ee4bc29e215c89d2dfa8de2fbd324",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 68
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_native_separable.onnx",
+      "sha256": "962abe1ed5a60d71efbb2687c8b32d794c2190b18cc170025f0c3209ea9ea88e",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 68
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_native_separable_small.onnx",
+      "sha256": "e3df7bfb496b60504ce045546f7a48a789c810c4eb4cd71169bbe67ea97e2385",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 68
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_rows32.onnx",
+      "sha256": "0a7f7b25f44f97692b8f0794ed4f1e7829da3b67e9464372cc3c84f1aa205d1e",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_reference/ordinary_reference_after12_rows32_small.onnx",
+      "sha256": "30f50fd6d83e05c6d667ff60e1d81aa1e4e5fe7d1b9959baddfa354b066646a2",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 74
+    },
+    {
+      "file": "source_reference/special_reference_after12_direct6.onnx",
+      "sha256": "f065970b1f042ecc4473829b4fb9b0c9db6ed1a737108dcfafd0d9cec2ae3af7",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 40
+    },
+    {
+      "file": "source_reference/special_reference_after12_direct6_small.onnx",
+      "sha256": "8724c13eb2ca79edc68f6de6c70cc2158677b495dd5845beed406844f30836a4",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 40
+    },
+    {
+      "file": "source_reference/special_reference_after12_native_deconv.onnx",
+      "sha256": "96a1f1c6a247e141f31ddad414c5fb3f1ecbe4fe56e727732f155c8f9b446d5b",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 41
+    },
+    {
+      "file": "source_reference/special_reference_after12_native_deconv_small.onnx",
+      "sha256": "bfd989ba9d79cd56cb56acb66620fc107cf31c9b4a0e5f16996c1c8c4d82fa7f",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 41
+    },
+    {
+      "file": "source_reference/special_reference_after12_native_nearest.onnx",
+      "sha256": "97fe27e89cd000d8270b611e7b6d37bf936431890fda032562b1f59d9abcc96b",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_reference/special_reference_after12_native_nearest_small.onnx",
+      "sha256": "3a1355b87f28c8dbe1a63d7cc4052440ad72a20bc443c24e2e2185a9385896f0",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_reference/special_reference_after12_native_separable.onnx",
+      "sha256": "ac0b4cf18d40b24cd9c6909f2189b81f5309de102aae1944e5d0668bdeb811b5",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_reference/special_reference_after12_native_separable_small.onnx",
+      "sha256": "3cc73b94fbb6132cf93f9fff840686148ad49d430cd679056fdb9fc0d1c46b65",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_reference/special_reference_after12_rows32.onnx",
+      "sha256": "6df5c1e8ecde62f4d2a36be3d34c9b70d5de8904b2e78eca80f84cb6a9b400b8",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_reference/special_reference_after12_rows32_small.onnx",
+      "sha256": "18f9a83dbd34bf63986431f3f19be75175260cb668acc943542ab385be6a2c50",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_lowref/special_lowref_k5_direct6.onnx",
+      "sha256": "aa946266ef8f9d317e374932e0cae1339e267f6edf7adc773568edc34a84bea6",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 40
+    },
+    {
+      "file": "source_lowref/special_lowref_k5_direct6_small.onnx",
+      "sha256": "e6d678ef7f356304e91524f76b9e0de315a6bdbc02daa56d876995172c08fc9b",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 40
+    },
+    {
+      "file": "source_lowref/special_lowref_k5_native_nearest.onnx",
+      "sha256": "7c742cb1643564be4069d0f40f583cda8fb182cf0e0d1eb0361fd82474fd8fee",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_lowref/special_lowref_k5_native_nearest_small.onnx",
+      "sha256": "dc8a8a4987b4f0292b358fe63fbad10f643954b3b498ffbfcba35555b318b1a8",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_lowref/special_lowref_k5_native_separable.onnx",
+      "sha256": "d0251196545a1a3d33442348912bf8afbd26802c731cb5b2e3011d90f2939720",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_lowref/special_lowref_k5_native_separable_small.onnx",
+      "sha256": "4101f0b70f7848629f9cdf0905ca12b587938f3f3d63fbe6beb182f6b7308521",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 42
+    },
+    {
+      "file": "source_lowref/special_lowref_k5_rows32.onnx",
+      "sha256": "168e4f65b205acf8599f292738ccd7299213925908f07939ecd614a2170353a0",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_lowref/special_lowref_k5_rows32_small.onnx",
+      "sha256": "3e06442ee909067cb7dcb1fbda3acb2cc36d89b63fe1729eda4e4538c954e563",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 48
+    },
+    {
+      "file": "source_byte/ordinary_direct6_cast_u8.onnx",
+      "sha256": "cf6b5081d5793daa703b3614af4eeb71620184b08cacce22da220b73809200ff",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 67
+    },
+    {
+      "file": "source_byte/ordinary_direct6_cast_u8_small.onnx",
+      "sha256": "bf1946f69aff8e2fd61301c79ffbf5d0621b7272d761d1a5790e901b7b854eb8",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 67
+    },
+    {
+      "file": "source_byte/ordinary_native_deconv_cast_u8.onnx",
+      "sha256": "00a78ffbc9188c2c84e99a88c07529a87ba752f5012a1d992790cf06184da137",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 68
+    },
+    {
+      "file": "source_byte/ordinary_native_deconv_cast_u8_small.onnx",
+      "sha256": "b6b964cb1df1a0b8e0f449b89301a977d10440aec5d3fb378f1da1810b5cce04",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 68
+    },
+    {
+      "file": "source_byte/ordinary_native_nearest_cast_u8.onnx",
+      "sha256": "494bcb1c9a82327b921cdcb253d55c2ed7e138a898e374e9ab9af6d62768c742",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 69
+    },
+    {
+      "file": "source_byte/ordinary_native_nearest_cast_u8_small.onnx",
+      "sha256": "105941ff7075b29591c07a79d2cac35d34668de82029627f56943ef096954ff0",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 69
+    },
+    {
+      "file": "source_byte/ordinary_native_separable_cast_u8.onnx",
+      "sha256": "00bfe24924938030cc3afb18ff058c19669e43744678414b56910225ec8f6521",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 69
+    },
+    {
+      "file": "source_byte/ordinary_native_separable_cast_u8_small.onnx",
+      "sha256": "3df68068911539c9ea25d656417fc5da83108e62140fe9d2c40ec74bff74638b",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 69
+    },
+    {
+      "file": "source_byte/ordinary_rows32_cast_u8.onnx",
+      "sha256": "9e1cd713514226357fc5b337a953c0a241e8c7fa3bbc807bbd0d466f3f67e1fa",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 75
+    },
+    {
+      "file": "source_byte/ordinary_rows32_cast_u8_small.onnx",
+      "sha256": "c199759bdd52bc1c3e8ef7e09e216988f67db53f89776021659c36e35cf0b21c",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 75
+    },
+    {
+      "file": "source_byte/special_direct6_cast_u8.onnx",
+      "sha256": "625f4bfa28eae4170eb88c4fd594fd29db61d97761613f3c051aab3197178757",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 41
+    },
+    {
+      "file": "source_byte/special_direct6_cast_u8_small.onnx",
+      "sha256": "cfbfb5358f14cd40548f80687f2c9e254a1e2baeb7573568e4bce9649fc0ca00",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 41
+    },
+    {
+      "file": "source_byte/special_native_deconv_cast_u8.onnx",
+      "sha256": "033b9baaf857eede49c8664c022cd825973b3dc5a6d458e2f03c68157d8cca68",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 42
+    },
+    {
+      "file": "source_byte/special_native_deconv_cast_u8_small.onnx",
+      "sha256": "f9038dfcf23e598ccb9a34098214f0005c93745280fd3a9a4ce721fa6dea3e23",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 42
+    },
+    {
+      "file": "source_byte/special_native_nearest_cast_u8.onnx",
+      "sha256": "2cad4001a55e7afe04e39ec3a36a8d117d891a138e1f2f14a1d2eff37959296b",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_byte/special_native_nearest_cast_u8_small.onnx",
+      "sha256": "8fe47cb9efd74cb77120683b5be7de5cc43c97eac36b07ca6a385dceb1a8419c",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_byte/special_native_separable_cast_u8.onnx",
+      "sha256": "a77f194dd869290cc0f5b6ae604aa36bd18d31158bc1dfcb6da8b98991c41965",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_byte/special_native_separable_cast_u8_small.onnx",
+      "sha256": "3eb6b943e3e30038ee979dff82f5afb241756afa1e78f2078b754b9c43881d1e",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_byte/special_rows32_cast_u8.onnx",
+      "sha256": "e14747c037e8368fbc033b94fda0fd34af788c94a9c76872057d834b5ebce1ba",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 49
+    },
+    {
+      "file": "source_byte/special_rows32_cast_u8_small.onnx",
+      "sha256": "6c85c3bac7973daad473d3df437baade5e78c9ec5984ea153d0f2e61ae116946",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 49
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_direct6_cast_u8.onnx",
+      "sha256": "465812332547d73b44040ffcdd254d192d6961d17d7b2a8c452219789b917cbb",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 67
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_direct6_cast_u8_small.onnx",
+      "sha256": "2a5638cf7b3a535db05766b3166763b21dfdd9543baffd850cea00a39a833c70",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 67
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_native_deconv_cast_u8.onnx",
+      "sha256": "abb4a6550d6619372ab3654b51afa9b23edf03bd60c328d6df36b7dacadad6ce",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 68
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_native_deconv_cast_u8_small.onnx",
+      "sha256": "46670d17f3cc8d58a886b21332b484e306426782c310c2dcbe3dae2c7e5a830d",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 68
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_native_nearest_cast_u8.onnx",
+      "sha256": "0971da6eaa31a3b8fd53bcc55153d4cc6bdfb20e1af03657cfc35f685090ca20",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 69
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_native_nearest_cast_u8_small.onnx",
+      "sha256": "980418d7adf3eefaa4a53735bbab6782ef297f8431c40f6a3420c85c62a338ae",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 69
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_native_separable_cast_u8.onnx",
+      "sha256": "f4bfeec7f0c755405465828da477eed6be542278e87384c6b068553c8a2e163d",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 69
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_native_separable_cast_u8_small.onnx",
+      "sha256": "baf6e3c0a7c7e5be8f9ee741bbd658d6ffae1c08abadc55450164cf9d7f78f6a",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 69
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_rows32_cast_u8.onnx",
+      "sha256": "b87ea3e8d34e63d79b52ae98bc130e6ee783bb7857e681f2581c9bf6efb03a0f",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 75
+    },
+    {
+      "file": "source_combined_cast/ordinary_reference_after12_rows32_cast_u8_small.onnx",
+      "sha256": "ffb07d22ef2f27f44f55f54423373bb404b7cadec65525b79cd9d9b6180655b8",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 75
+    },
+    {
+      "file": "source_combined_cast/special_lowref_k5_direct6_cast_u8.onnx",
+      "sha256": "5b8873a00e9a1d7b76b5e28137393013f7fcd493690a1f8ecb7c12d2ed3dec17",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 41
+    },
+    {
+      "file": "source_combined_cast/special_lowref_k5_direct6_cast_u8_small.onnx",
+      "sha256": "9f9d1d88f0b1d5cc8781baf22c06aa0b2d16e5eba56a88440dfaa50f92bb3d6c",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 41
+    },
+    {
+      "file": "source_combined_cast/special_lowref_k5_native_nearest_cast_u8.onnx",
+      "sha256": "b0a91e9c9622c305af0fb95d24233235c63630f6715e6f66f4d4dcbcc77f3ede",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_combined_cast/special_lowref_k5_native_nearest_cast_u8_small.onnx",
+      "sha256": "aec355875198191ea7c3e6e488a5020a4dbf6fc4987b655d2e6973420a84545f",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_combined_cast/special_lowref_k5_native_separable_cast_u8.onnx",
+      "sha256": "d044e852b40e3b38e07786ecb400351ddbed044a047111385618a29eba29cf9c",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_combined_cast/special_lowref_k5_native_separable_cast_u8_small.onnx",
+      "sha256": "453aab11c5cd542993464a327bdf5bb94d25bbdbf48e56dc6553bbf94283310d",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_combined_cast/special_lowref_k5_rows32_cast_u8.onnx",
+      "sha256": "f13a989843b5642d0bc8ca35fa6e39a3d06b381ded9fd01e0d824270d645dfc5",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 49
+    },
+    {
+      "file": "source_combined_cast/special_lowref_k5_rows32_cast_u8_small.onnx",
+      "sha256": "f8c7d4847d02ce2a27bcc14231a8832931829fe9b9b04a6e0dda3c57bc804c39",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 49
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_direct6_cast_u8.onnx",
+      "sha256": "8008339194c1f2eafbf1df9870a50417702a11f9b703a3d08a998b78ea570f6b",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 41
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_direct6_cast_u8_small.onnx",
+      "sha256": "e651779bab77686bfdac81c6b7e45d47d6a4a2ed36884999e4654fba86133429",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 41
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_native_deconv_cast_u8.onnx",
+      "sha256": "538f8c3ec179e0c6b56527917bf5471433bc840ca48d74d57cf086226dd5cd6c",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 42
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_native_deconv_cast_u8_small.onnx",
+      "sha256": "3ff0c8a316fd2fbf09742f71a397f612b3fef55fe01fb29abb2ca8f0872dba0a",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 42
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_native_nearest_cast_u8.onnx",
+      "sha256": "8d88c5b497356718b85a97208978a6984c56257d3796306900b00ae2fdff82c6",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_native_nearest_cast_u8_small.onnx",
+      "sha256": "4dde7a760bd0a6adf35fddcd2ebe5c42a55766b6fbd0f08adb13653baa53946d",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_native_separable_cast_u8.onnx",
+      "sha256": "025d00c349361b2d2286d0e14a4eb77d64d5a0c838586d8c8ecdf656c6e9dcfa",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_native_separable_cast_u8_small.onnx",
+      "sha256": "bf76d3245c3ea31d711da7250815bd7adb73a464fc955e4812402b1aab3f4044",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 43
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_rows32_cast_u8.onnx",
+      "sha256": "c28a46cf97ef1a3b9b9f4e2c381574e08fe7dc848e48b38c2fd237747c4d8bb1",
+      "inputs": [
+        [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "UINT8",
+      "nodes": 49
+    },
+    {
+      "file": "source_combined_cast/special_reference_after12_rows32_cast_u8_small.onnx",
+      "sha256": "99700cc8582de72b18cb1576a8c3480cc45e89778fd8a19dbba61503f9d38f9b",
+      "inputs": [
+        [
+          1,
+          9,
+          128,
+          128
+        ],
+        [
+          1,
+          1,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "UINT8",
+      "nodes": 49
+    },
+    {
+      "file": "output_micrographs/ordinary_direct6_full_output_only.onnx",
+      "sha256": "c5b71880db2b4e4bc96ecc779d61f136c084c8f8acba557277cea3d12f9767ae",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 7
+    },
+    {
+      "file": "output_micrographs/ordinary_direct6_small_output_only.onnx",
+      "sha256": "c85e7a6c810a68b4d0810450a0f0a7cb8772384f5b3dd8da18e3e5e06a26ac7a",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 7
+    },
+    {
+      "file": "output_micrographs/ordinary_native_deconv_full_output_only.onnx",
+      "sha256": "c61321bb109fc8dc7969976414ed22ab5b9e0e76d2d60147124466d896d51f99",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 8
+    },
+    {
+      "file": "output_micrographs/ordinary_native_deconv_small_output_only.onnx",
+      "sha256": "7b24024cb6db329f289e2ac391d1d518420f8335b3c126a8f0416fe8c45d6242",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 8
+    },
+    {
+      "file": "output_micrographs/ordinary_native_nearest_full_output_only.onnx",
+      "sha256": "d81b5f96c1fbde29537dc8aab354e3a256fc384dc198f5807aafb9f0c88d662c",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 9
+    },
+    {
+      "file": "output_micrographs/ordinary_native_nearest_small_output_only.onnx",
+      "sha256": "765eb689be88d99923d14c4bf55e07f4e9256496571f24d5a50114203ddaab72",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 9
+    },
+    {
+      "file": "output_micrographs/ordinary_native_separable_full_output_only.onnx",
+      "sha256": "c4216393fe8012afccba798634d82bf35c41ec16d0fc69de69ed1f3a7b3b5c96",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 9
+    },
+    {
+      "file": "output_micrographs/ordinary_native_separable_small_output_only.onnx",
+      "sha256": "629025c4295e17d2e4009c28915d68846f5487da57c4bdce361e15031d1c34a3",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 9
+    },
+    {
+      "file": "output_micrographs/ordinary_rows128_full_output_only.onnx",
+      "sha256": "c850a8cd9bffdad1869a70e54e09f678ec1af85a1cc98390fd9406b6e5326f5e",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows128_small_output_only.onnx",
+      "sha256": "70e8cf15cdb6d2e36f409ab1a6a49edca2d5906fa4465aa085d5ad8fd6165722",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows16_full_output_only.onnx",
+      "sha256": "2431d89a300649c9691aeb668a3d1ffc7f3fa5d728fc43e54accb088dad0dbe7",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows16_small_output_only.onnx",
+      "sha256": "79ec981a1b9bdaea8ab6196d628921037377c4d506839599e59a74b07efeea56",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows32_full_output_only.onnx",
+      "sha256": "aacdff3d603cf929483d6427d8612bd9714fc56affc036ed744f6be710ef5394",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows32_small_output_only.onnx",
+      "sha256": "564464b82e79687cb3903aa7f2a076f2978a0828de91d19869ea787353ec4d78",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows64_full_output_only.onnx",
+      "sha256": "b07d5571870903078f8f7b4b31e5b6cc72c23fd58e69402ac5b0f2a4866064a8",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows64_small_output_only.onnx",
+      "sha256": "b794f6456eadfed880ee5c0c6d590b03aa0f24d11a5d8854ae28673607a35614",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows8_full_output_only.onnx",
+      "sha256": "a3c0f0160a2385090451f41055692512f2334cea908efe2d491a7d1906a228a7",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/ordinary_rows8_small_output_only.onnx",
+      "sha256": "75cf3ffe7c31762f29ab8c8879ca8be4f56d4eb6842531c991ba5fe9c7fc5d86",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_direct6_full_output_only.onnx",
+      "sha256": "85abfbd9db370147d9d9b01b45c484651d09ee04d5e9b0a240ba06109abda592",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 7
+    },
+    {
+      "file": "output_micrographs/special_direct6_small_output_only.onnx",
+      "sha256": "b36ebf1cb259dc7546abbd5ea4e98285363ddf965474fe6134a85ab580dcfb58",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 7
+    },
+    {
+      "file": "output_micrographs/special_native_deconv_full_output_only.onnx",
+      "sha256": "cf55a79cb46f0c99a013a6b155b85cd7036f1c679eb26f2cc584ca3545627d09",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 8
+    },
+    {
+      "file": "output_micrographs/special_native_deconv_small_output_only.onnx",
+      "sha256": "d329ad69d5ee81609afc43b79a04bce22956c1e7df36d7119570e64dad88a501",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 8
+    },
+    {
+      "file": "output_micrographs/special_native_nearest_full_output_only.onnx",
+      "sha256": "a0e69c7be7b992a57a6b8da4f3ddabf31ca3348ec00080a92ffa20cef4bfedbb",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 9
+    },
+    {
+      "file": "output_micrographs/special_native_nearest_small_output_only.onnx",
+      "sha256": "0e93877730f6c419ad05813eaca75707c2425b63700b7e0cac1608e4291988e3",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 9
+    },
+    {
+      "file": "output_micrographs/special_native_separable_full_output_only.onnx",
+      "sha256": "82cbf25a14fdcc8265ced301a87700dc4309ebc2ace5eb0213608c13aa627736",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 9
+    },
+    {
+      "file": "output_micrographs/special_native_separable_small_output_only.onnx",
+      "sha256": "24a7f63a3fec1d92fbcaf65ef27c261f43e5995b0bf09fefc0765bda590ff82a",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 9
+    },
+    {
+      "file": "output_micrographs/special_rows128_full_output_only.onnx",
+      "sha256": "81a4a5af8845aea30c413368594efcda62ac801cf81e81b6c3d2e919cda69c24",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows128_small_output_only.onnx",
+      "sha256": "eeb400ac78e413a4fcac43ad6cd58f8b8fbd7bd5611f88fb71158382478b9007",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows16_full_output_only.onnx",
+      "sha256": "20500f53e91561e635aba7aa3383b6f0709cc88626c42612c551d2b5a8c8d554",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows16_small_output_only.onnx",
+      "sha256": "035f1a2e66ca8552e0ed2235d2123f1a3fe00518c5b516211c1a6466d0ceec12",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows32_full_output_only.onnx",
+      "sha256": "52194355eb1571706ed7097d343732657fec9835136d322ac4aee7a55a6f3942",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows32_small_output_only.onnx",
+      "sha256": "10d6b9ad3aa5bf50d28b4ddbd8eb1c9c0ba08b196c8bba408003225fd50e1ede",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows64_full_output_only.onnx",
+      "sha256": "2de04fbaea85c5396e272913a70fd802396301c5885c08867912ccd2d4ebcde0",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows64_small_output_only.onnx",
+      "sha256": "5206a56fd42bf131b41d5daa1f819411555eecba4c1ac7e9a3c4a5005975dc3b",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows8_full_output_only.onnx",
+      "sha256": "d6d344be6adb5c5338e6e56681c9eef06d407ca65c967bac3782337ca2909eb4",
+      "inputs": [
+        [
+          1,
+          16,
+          512,
+          640
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    },
+    {
+      "file": "output_micrographs/special_rows8_small_output_only.onnx",
+      "sha256": "89c827ddba8afcf90d4aed57e8f94929143c4c8edb08afcd394e2112c7034b52",
+      "inputs": [
+        [
+          1,
+          16,
+          64,
+          64
+        ]
+      ],
+      "output": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "output_type": "FLOAT16",
+      "nodes": 15
+    }
+  ],
+  "NPU_verified": false
+}

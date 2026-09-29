@@ -1,0 +1,1098 @@
+[
+  {
+    "scene": "ordinary",
+    "layout": "rows8",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows16",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows32",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows64",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows128",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "direct6",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 7,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "native_deconv",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 8,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "DepthToSpace",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "native_nearest",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 9,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "DepthToSpace",
+      "Mul",
+      "Resize"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "native_separable",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 9,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "DepthToSpace",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows8",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows16",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows32",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows64",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "rows128",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "direct6",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 7,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "native_deconv",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 8,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "DepthToSpace",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "native_nearest",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 9,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "DepthToSpace",
+      "Mul",
+      "Resize"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "layout": "native_separable",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 9,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "DepthToSpace",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows8",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows16",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows32",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows64",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows128",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "direct6",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 7,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "native_deconv",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 8,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "DepthToSpace",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "native_nearest",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 9,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "DepthToSpace",
+      "Mul",
+      "Resize"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "native_separable",
+    "scale": "small",
+    "input_shape": [
+      1,
+      16,
+      64,
+      64
+    ],
+    "output_shape": [
+      1,
+      1,
+      384,
+      384
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 9,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "DepthToSpace",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows8",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows16",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows32",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows64",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "rows128",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 15,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul",
+      "Reshape",
+      "Transpose"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "direct6",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 7,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "native_deconv",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 8,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "DepthToSpace",
+      "Mul"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "native_nearest",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 9,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "DepthToSpace",
+      "Mul",
+      "Resize"
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "layout": "native_separable",
+    "scale": "full",
+    "input_shape": [
+      1,
+      16,
+      512,
+      640
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_same_backend": true,
+    "different_pixels": 0,
+    "max_abs_gray": 0.0,
+    "output_nodes": 9,
+    "output_op_types": [
+      "Clip",
+      "Constant",
+      "Conv",
+      "ConvTranspose",
+      "DepthToSpace",
+      "Mul"
+    ],
+    "NPU_verified": false
+  }
+]

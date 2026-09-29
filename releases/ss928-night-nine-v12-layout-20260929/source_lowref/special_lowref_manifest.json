@@ -1,0 +1,122 @@
+[
+  {
+    "scene": "special",
+    "kernel": 5,
+    "layout": "rows32",
+    "files": [
+      {
+        "name": "special_lowref_k5_rows32.onnx",
+        "sha256": "168e4f65b205acf8599f292738ccd7299213925908f07939ecd614a2170353a0",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 48
+      },
+      {
+        "name": "special_lowref_k5_rows32_small.onnx",
+        "sha256": "3e06442ee909067cb7dcb1fbda3acb2cc36d89b63fe1729eda4e4538c954e563",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 48
+      }
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "kernel": 5,
+    "layout": "direct6",
+    "files": [
+      {
+        "name": "special_lowref_k5_direct6.onnx",
+        "sha256": "aa946266ef8f9d317e374932e0cae1339e267f6edf7adc773568edc34a84bea6",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 40
+      },
+      {
+        "name": "special_lowref_k5_direct6_small.onnx",
+        "sha256": "e6d678ef7f356304e91524f76b9e0de315a6bdbc02daa56d876995172c08fc9b",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 40
+      }
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "kernel": 5,
+    "layout": "native_nearest",
+    "files": [
+      {
+        "name": "special_lowref_k5_native_nearest.onnx",
+        "sha256": "7c742cb1643564be4069d0f40f583cda8fb182cf0e0d1eb0361fd82474fd8fee",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 42
+      },
+      {
+        "name": "special_lowref_k5_native_nearest_small.onnx",
+        "sha256": "dc8a8a4987b4f0292b358fe63fbad10f643954b3b498ffbfcba35555b318b1a8",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 42
+      }
+    ],
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "kernel": 5,
+    "layout": "native_separable",
+    "files": [
+      {
+        "name": "special_lowref_k5_native_separable.onnx",
+        "sha256": "d0251196545a1a3d33442348912bf8afbd26802c731cb5b2e3011d90f2939720",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 42
+      },
+      {
+        "name": "special_lowref_k5_native_separable_small.onnx",
+        "sha256": "4101f0b70f7848629f9cdf0905ca12b587938f3f3d63fbe6beb182f6b7308521",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 42
+      }
+    ],
+    "NPU_verified": false
+  }
+]

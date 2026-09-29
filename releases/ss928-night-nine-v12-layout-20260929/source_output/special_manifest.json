@@ -1,0 +1,344 @@
+[
+  {
+    "scene": "special",
+    "layout": "rows8",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_rows8.onnx",
+        "sha256": "bcf943ce4b90b20f559167b9bc77c2b7ba8b194ea67ed67cda5ba5d867211a8c",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 48
+      },
+      {
+        "name": "special_rows8_small.onnx",
+        "sha256": "060ed28c1fe2897119688da5db38d7675eed7470e1482e3a4bbaae6158098eb3",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 48
+      }
+    ]
+  },
+  {
+    "scene": "special",
+    "layout": "rows16",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_rows16.onnx",
+        "sha256": "2681451bb69fc817297dae677b1a953840657eb7cc38d4fbdef6b283ba7670d1",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 48
+      },
+      {
+        "name": "special_rows16_small.onnx",
+        "sha256": "fca9bd3238813bc7b2998075d28fab50485a2dea5169f550d37bdc39bf116f5a",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 48
+      }
+    ]
+  },
+  {
+    "scene": "special",
+    "layout": "rows32",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_rows32.onnx",
+        "sha256": "a02d4b3f4b60824fcec59b286b85dc49f7119eeb7ce015c9e3b35489c13dc645",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 48
+      },
+      {
+        "name": "special_rows32_small.onnx",
+        "sha256": "cf5db7203b7c1a20c3bfc013c836bf0c802cdef28ef3252a6b1c4c47c3365dc7",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 48
+      }
+    ]
+  },
+  {
+    "scene": "special",
+    "layout": "rows64",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_rows64.onnx",
+        "sha256": "b2a20fda18a0861694bf82c736eed1462fcdad377261ae348b57d054d2b4c470",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 48
+      },
+      {
+        "name": "special_rows64_small.onnx",
+        "sha256": "dc625609389b5d6d2631a0cab3c4377593c92e301d1c7cca8f4754f1ba81a255",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 48
+      }
+    ]
+  },
+  {
+    "scene": "special",
+    "layout": "rows128",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_rows128.onnx",
+        "sha256": "59c142a7ff97a3f899b01932cb7d5cc4952648769724e50e8e29b73c504a4773",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 48
+      },
+      {
+        "name": "special_rows128_small.onnx",
+        "sha256": "86b2463daa38c12ffeedd15307031c3c4e02605f86a7f48fdb6be6a5bd551534",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 48
+      }
+    ]
+  },
+  {
+    "scene": "special",
+    "layout": "direct6",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_direct6.onnx",
+        "sha256": "aec9a195c639ee2d0e40098701fb7b08d4b875816f2612d7c1e1f04eca5516a8",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 40
+      },
+      {
+        "name": "special_direct6_small.onnx",
+        "sha256": "b13ec72cd5055166771f208484cd288fe3ace072c2580aedc7fbda8afae42428",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 40
+      }
+    ]
+  },
+  {
+    "scene": "special",
+    "layout": "native_deconv",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_native_deconv.onnx",
+        "sha256": "221702bb7cad48839d1c09d3f53c12359bf7a7a301fa3c6d3bf407f31cf46694",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 41
+      },
+      {
+        "name": "special_native_deconv_small.onnx",
+        "sha256": "f0fd00e37d5737d1a1e14344cf08f509c83d47f4be4bbbf6cebbcb7738fa778a",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 41
+      }
+    ]
+  },
+  {
+    "scene": "special",
+    "layout": "native_nearest",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_native_nearest.onnx",
+        "sha256": "8b8971de4821a386934cbac3c011e0e0fe44d71928a8686260537f963ac9fa4c",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 42
+      },
+      {
+        "name": "special_native_nearest_small.onnx",
+        "sha256": "9ad3b6442fd4104201236f916bfc77b7a56b2c95f34fd4b6b5b2ad25610b3207",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 42
+      }
+    ]
+  },
+  {
+    "scene": "special",
+    "layout": "native_separable",
+    "source_mean_abs_gray": 0.0,
+    "source_max_abs_gray": 0.0,
+    "source_exact": true,
+    "full_output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "NPU_verified": false,
+    "files": [
+      {
+        "name": "special_native_separable.onnx",
+        "sha256": "d68e27111e8f2eb7a45383d223652141757d49d9193e5ed22fd33dd7328208c5",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "nodes": 42
+      },
+      {
+        "name": "special_native_separable_small.onnx",
+        "sha256": "4e579c3d1efa1500099d8b92207caa3648bdb3c4a3bfa6d82f1516cdd568610f",
+        "shape": [
+          1,
+          1,
+          384,
+          384
+        ],
+        "nodes": 42
+      }
+    ]
+  }
+]

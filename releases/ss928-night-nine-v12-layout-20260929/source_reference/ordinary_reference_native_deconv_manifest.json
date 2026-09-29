@@ -1,0 +1,26 @@
+{
+  "scene": "ordinary",
+  "frame": 20,
+  "output_layout": "native_deconv",
+  "source_mean_abs_gray": 0.01802697777748108,
+  "source_max_abs_gray": 0.25,
+  "full_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "NPU_verified": false,
+  "files": [
+    {
+      "name": "ordinary_reference_after12_native_deconv.onnx",
+      "sha256": "8eaa2c8c8b10e30e30b2ad143b8c9b54528ce66513a17bf232009f4a5deaf565",
+      "nodes": 67
+    },
+    {
+      "name": "ordinary_reference_after12_native_deconv_small.onnx",
+      "sha256": "26bb9f6a7820ffd56d3ee3d1c10af4d9227cf2b65e90c7ca2ceca395b75b1e6f",
+      "nodes": 67
+    }
+  ]
+}

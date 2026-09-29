@@ -1,0 +1,110 @@
+[
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "layout": "rows32",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_truncation_same_backend": true,
+    "different_from_truncation_fraction": 0.0,
+    "max_abs_vs_truncation_gray": 0,
+    "changed_from_nearest_even_fraction": 0.4601806640625,
+    "mean_bias_vs_nearest_even_gray": -0.4601806640625,
+    "max_abs_vs_nearest_even_gray": 1,
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "layout": "direct6",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_truncation_same_backend": false,
+    "different_from_truncation_fraction": 0.03830642700195312,
+    "max_abs_vs_truncation_gray": 1,
+    "changed_from_nearest_even_fraction": 0.4984870910644531,
+    "mean_bias_vs_nearest_even_gray": -0.4984870910644531,
+    "max_abs_vs_nearest_even_gray": 1,
+    "NPU_verified": false
+  },
+  {
+    "scene": "ordinary",
+    "frame": 20,
+    "layout": "native_deconv",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_truncation_same_backend": false,
+    "different_from_truncation_fraction": 0.03830642700195312,
+    "max_abs_vs_truncation_gray": 1,
+    "changed_from_nearest_even_fraction": 0.4984870910644531,
+    "mean_bias_vs_nearest_even_gray": -0.4984870910644531,
+    "max_abs_vs_nearest_even_gray": 1,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "layout": "rows32",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_truncation_same_backend": true,
+    "different_from_truncation_fraction": 0.0,
+    "max_abs_vs_truncation_gray": 0,
+    "changed_from_nearest_even_fraction": 0.4519920349121094,
+    "mean_bias_vs_nearest_even_gray": -0.4519920349121094,
+    "max_abs_vs_nearest_even_gray": 1,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "layout": "direct6",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_truncation_same_backend": false,
+    "different_from_truncation_fraction": 0.045885467529296876,
+    "max_abs_vs_truncation_gray": 1,
+    "changed_from_nearest_even_fraction": 0.49787750244140627,
+    "mean_bias_vs_nearest_even_gray": -0.49787750244140627,
+    "max_abs_vs_nearest_even_gray": 1,
+    "NPU_verified": false
+  },
+  {
+    "scene": "special",
+    "frame": 60,
+    "layout": "native_deconv",
+    "shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "exact_truncation_same_backend": false,
+    "different_from_truncation_fraction": 0.045885467529296876,
+    "max_abs_vs_truncation_gray": 1,
+    "changed_from_nearest_even_fraction": 0.49787750244140627,
+    "mean_bias_vs_nearest_even_gray": -0.49787750244140627,
+    "max_abs_vs_nearest_even_gray": 1,
+    "NPU_verified": false
+  }
+]

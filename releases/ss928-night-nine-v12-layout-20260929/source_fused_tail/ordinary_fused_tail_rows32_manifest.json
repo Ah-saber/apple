@@ -1,0 +1,28 @@
+{
+  "scene": "ordinary",
+  "layout": "rows32",
+  "frame": 20,
+  "full_output_shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "mean_abs_gray": 0.1305932253599167,
+  "max_abs_gray": 46.53125,
+  "inner_mean_abs_gray": 0.03555513545870781,
+  "inner_max_abs_gray": 0.25,
+  "NPU_verified": false,
+  "files": [
+    {
+      "name": "ordinary_fused_tail_rows32.onnx",
+      "sha256": "b360f7ed4039f2c08ad8306ed173f7f359e3bf76ed43083d9641479773c82c31",
+      "nodes": 73
+    },
+    {
+      "name": "ordinary_fused_tail_rows32_small.onnx",
+      "sha256": "ffcef774b862cdc24293887824ef0e89ad68b169526ce7f573488061722ced86",
+      "nodes": 73
+    }
+  ]
+}

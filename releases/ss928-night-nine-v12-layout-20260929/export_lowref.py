@@ -1,0 +1,81 @@
+"""Export the trained night reference shortcut as complete and reduced ONNX graphs."""
+import argparse
+import fcntl
+import hashlib
+import json
+import sys
+from pathlib import Path
+
+import numpy as np
+import torch
+
+from lowres_reference import load_candidate, prepare_inputs
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--scene', choices=['ordinary', 'special'], required=True)
+    parser.add_argument('--kernel', type=int, required=True)
+    parser.add_argument('--layouts', nargs='+', required=True)
+    parser.add_argument('--v09-run', type=Path, required=True)
+    parser.add_argument('--out', type=Path, required=True)
+    args = parser.parse_args()
+    args.out.mkdir(parents=True, exist_ok=True)
+    sys.path.insert(0, str(args.v09_run / 'code_snapshot/tools'))
+    sys.path.insert(0, '/data/zhangbenzhuang/miniconda3/envs/bfstvsr/lib/python3.10/site-packages')
+    import onnx
+    from materialize_aliases import materialize
+
+    with (args.v09_run.parent / 'TASK-019-gpu1.lock').open('a') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        torch.set_num_threads(2)
+        torch.backends.cuda.matmul.allow_tf32 = False
+        torch.backends.cudnn.allow_tf32 = False
+        frame = 20 if args.scene == 'ordinary' else 60
+        vector = np.load(args.v09_run / 'v08/test_vectors' /
+                         f'{args.scene}_frame_{frame}.npz')
+        rows = []
+        with torch.inference_mode():
+            for layout in args.layouts:
+                model = load_candidate(args.scene, args.kernel, layout,
+                                       args.v09_run, trained=True)
+                raw = torch.from_numpy(vector['nine_raw']).cuda()
+                context = torch.from_numpy(vector['reference_thumb']).cuda()
+                raw, context = prepare_inputs(model, raw, context)
+                output = model(raw, context)
+                assert tuple(output.shape) == (1, 1, 3072, 3840)
+                row = {'scene': args.scene, 'kernel': args.kernel,
+                       'layout': layout, 'files': [], 'NPU_verified': False}
+                for small in (False, True):
+                    height, width = (128, 128) if small else (1024, 1280)
+                    x = torch.full((1, 9, height, width), .3, device='cuda')
+                    c = torch.full((1, 1, 64, 64), .3, device='cuda')
+                    x, c = prepare_inputs(model, x, c)
+                    suffix = '_small' if small else ''
+                    path = args.out / (
+                        f'{args.scene}_lowref_k{args.kernel}_{layout}{suffix}.onnx')
+                    torch.onnx.export(model, (x, c), str(path),
+                        input_names=['nine_raw', 'reference_thumb'],
+                        output_names=['display_gray'], opset_version=17,
+                        dynamo=False)
+                    graph, _ = materialize(onnx.load(str(path)))
+                    onnx.checker.check_model(graph)
+                    onnx.save(graph, str(path))
+                    output_shape = [d.dim_value for d in
+                        graph.graph.output[0].type.tensor_type.shape.dim]
+                    assert output_shape == [1, 1, height * 3, width * 3]
+                    row['files'].append({
+                        'name': path.name,
+                        'sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
+                        'shape': output_shape,
+                        'nodes': len(graph.graph.node)})
+                rows.append(row)
+                print(row, flush=True)
+                del model, output
+                torch.cuda.empty_cache()
+        (args.out / f'{args.scene}_lowref_manifest.json').write_text(
+            json.dumps(rows, indent=2))
+
+
+if __name__ == '__main__':
+    main()

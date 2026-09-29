@@ -1,0 +1,198 @@
+[
+  {
+    "name": "ordinary_reference_after12_rows32_cast_u8.onnx",
+    "sha256": "b87ea3e8d34e63d79b52ae98bc130e6ee783bb7857e681f2581c9bf6efb03a0f",
+    "source": "ordinary_reference_after12_rows32.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_rows32_cast_u8_small.onnx",
+    "sha256": "ffb07d22ef2f27f44f55f54423373bb404b7cadec65525b79cd9d9b6180655b8",
+    "source": "ordinary_reference_after12_rows32_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_direct6_cast_u8.onnx",
+    "sha256": "465812332547d73b44040ffcdd254d192d6961d17d7b2a8c452219789b917cbb",
+    "source": "ordinary_reference_after12_direct6.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_direct6_cast_u8_small.onnx",
+    "sha256": "2a5638cf7b3a535db05766b3166763b21dfdd9543baffd850cea00a39a833c70",
+    "source": "ordinary_reference_after12_direct6_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_native_nearest_cast_u8.onnx",
+    "sha256": "0971da6eaa31a3b8fd53bcc55153d4cc6bdfb20e1af03657cfc35f685090ca20",
+    "source": "ordinary_reference_after12_native_nearest.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_native_nearest_cast_u8_small.onnx",
+    "sha256": "980418d7adf3eefaa4a53735bbab6782ef297f8431c40f6a3420c85c62a338ae",
+    "source": "ordinary_reference_after12_native_nearest_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_native_deconv_cast_u8.onnx",
+    "sha256": "abb4a6550d6619372ab3654b51afa9b23edf03bd60c328d6df36b7dacadad6ce",
+    "source": "ordinary_reference_after12_native_deconv.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_native_deconv_cast_u8_small.onnx",
+    "sha256": "46670d17f3cc8d58a886b21332b484e306426782c310c2dcbe3dae2c7e5a830d",
+    "source": "ordinary_reference_after12_native_deconv_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_native_separable_cast_u8.onnx",
+    "sha256": "f4bfeec7f0c755405465828da477eed6be542278e87384c6b068553c8a2e163d",
+    "source": "ordinary_reference_after12_native_separable.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "ordinary_reference_after12_native_separable_cast_u8_small.onnx",
+    "sha256": "baf6e3c0a7c7e5be8f9ee741bbd658d6ffae1c08abadc55450164cf9d7f78f6a",
+    "source": "ordinary_reference_after12_native_separable_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_rows32_cast_u8.onnx",
+    "sha256": "c28a46cf97ef1a3b9b9f4e2c381574e08fe7dc848e48b38c2fd237747c4d8bb1",
+    "source": "special_reference_after12_rows32.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_rows32_cast_u8_small.onnx",
+    "sha256": "99700cc8582de72b18cb1576a8c3480cc45e89778fd8a19dbba61503f9d38f9b",
+    "source": "special_reference_after12_rows32_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_direct6_cast_u8.onnx",
+    "sha256": "8008339194c1f2eafbf1df9870a50417702a11f9b703a3d08a998b78ea570f6b",
+    "source": "special_reference_after12_direct6.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_direct6_cast_u8_small.onnx",
+    "sha256": "e651779bab77686bfdac81c6b7e45d47d6a4a2ed36884999e4654fba86133429",
+    "source": "special_reference_after12_direct6_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_native_nearest_cast_u8.onnx",
+    "sha256": "8d88c5b497356718b85a97208978a6984c56257d3796306900b00ae2fdff82c6",
+    "source": "special_reference_after12_native_nearest.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_native_nearest_cast_u8_small.onnx",
+    "sha256": "4dde7a760bd0a6adf35fddcd2ebe5c42a55766b6fbd0f08adb13653baa53946d",
+    "source": "special_reference_after12_native_nearest_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_native_deconv_cast_u8.onnx",
+    "sha256": "538f8c3ec179e0c6b56527917bf5471433bc840ca48d74d57cf086226dd5cd6c",
+    "source": "special_reference_after12_native_deconv.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_native_deconv_cast_u8_small.onnx",
+    "sha256": "3ff0c8a316fd2fbf09742f71a397f612b3fef55fe01fb29abb2ca8f0872dba0a",
+    "source": "special_reference_after12_native_deconv_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_native_separable_cast_u8.onnx",
+    "sha256": "025d00c349361b2d2286d0e14a4eb77d64d5a0c838586d8c8ecdf656c6e9dcfa",
+    "source": "special_reference_after12_native_separable.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_reference_after12_native_separable_cast_u8_small.onnx",
+    "sha256": "bf76d3245c3ea31d711da7250815bd7adb73a464fc955e4812402b1aab3f4044",
+    "source": "special_reference_after12_native_separable_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_lowref_k5_rows32_cast_u8.onnx",
+    "sha256": "f13a989843b5642d0bc8ca35fa6e39a3d06b381ded9fd01e0d824270d645dfc5",
+    "source": "special_lowref_k5_rows32.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_lowref_k5_rows32_cast_u8_small.onnx",
+    "sha256": "f8c7d4847d02ce2a27bcc14231a8832931829fe9b9b04a6e0dda3c57bc804c39",
+    "source": "special_lowref_k5_rows32_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_lowref_k5_direct6_cast_u8.onnx",
+    "sha256": "5b8873a00e9a1d7b76b5e28137393013f7fcd493690a1f8ecb7c12d2ed3dec17",
+    "source": "special_lowref_k5_direct6.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_lowref_k5_direct6_cast_u8_small.onnx",
+    "sha256": "9f9d1d88f0b1d5cc8781baf22c06aa0b2d16e5eba56a88440dfaa50f92bb3d6c",
+    "source": "special_lowref_k5_direct6_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_lowref_k5_native_nearest_cast_u8.onnx",
+    "sha256": "b0a91e9c9622c305af0fb95d24233235c63630f6715e6f66f4d4dcbcc77f3ede",
+    "source": "special_lowref_k5_native_nearest.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_lowref_k5_native_nearest_cast_u8_small.onnx",
+    "sha256": "aec355875198191ea7c3e6e488a5020a4dbf6fc4987b655d2e6973420a84545f",
+    "source": "special_lowref_k5_native_nearest_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_lowref_k5_native_separable_cast_u8.onnx",
+    "sha256": "d044e852b40e3b38e07786ecb400351ddbed044a047111385618a29eba29cf9c",
+    "source": "special_lowref_k5_native_separable.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  },
+  {
+    "name": "special_lowref_k5_native_separable_cast_u8_small.onnx",
+    "sha256": "453aab11c5cd542993464a327bdf5bb94d25bbdbf48e56dc6553bbf94283310d",
+    "source": "special_lowref_k5_native_separable_small.onnx",
+    "NPU_verified": false,
+    "rounding_on_SS928_verified": false
+  }
+]
