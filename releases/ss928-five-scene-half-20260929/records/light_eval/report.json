@@ -1,0 +1,186 @@
+{
+  "student_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-LIGHT-TEMPORAL-20260929/average05.pt",
+  "config_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-NINE-SCRATCH-20260929-LIGHT-FULLNIGHT-20K/checkpoints/best.pt",
+  "val_selection": null,
+  "test": {
+    "weather_light": {
+      "samples": 12,
+      "psnr_mean_db": 34.303135198770846,
+      "mae_mean_gray": 3.8603933453559875
+    },
+    "weather_medium": {
+      "samples": 12,
+      "psnr_mean_db": 33.78189775563909,
+      "mae_mean_gray": 4.003179391225179
+    }
+  },
+  "samples": {
+    "weather_light": [
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000000@test",
+        "psnr_db": 32.9882867612354,
+        "mae_gray": 4.555704116821289,
+        "bias_gray": -0.6023516654968262
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000010@test",
+        "psnr_db": 33.878116520365886,
+        "mae_gray": 4.074995994567871,
+        "bias_gray": -0.620726466178894
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000021@test",
+        "psnr_db": 33.99449069533174,
+        "mae_gray": 4.036325454711914,
+        "bias_gray": -0.4138973355293274
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000032@test",
+        "psnr_db": 34.4373585199505,
+        "mae_gray": 3.8118791580200195,
+        "bias_gray": -0.13105298578739166
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000043@test",
+        "psnr_db": 34.54570205687005,
+        "mae_gray": 3.7366437911987305,
+        "bias_gray": -0.19095511734485626
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000054@test",
+        "psnr_db": 34.49771562831882,
+        "mae_gray": 3.747063159942627,
+        "bias_gray": -0.29466989636421204
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000064@test",
+        "psnr_db": 34.39994853029232,
+        "mae_gray": 3.793349266052246,
+        "bias_gray": -0.43830758333206177
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000075@test",
+        "psnr_db": 34.337221569649195,
+        "mae_gray": 3.7833547592163086,
+        "bias_gray": -0.5794288516044617
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000086@test",
+        "psnr_db": 34.557400954042336,
+        "mae_gray": 3.729015588760376,
+        "bias_gray": -0.12267965823411942
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000097@test",
+        "psnr_db": 34.71018689861377,
+        "mae_gray": 3.672008991241455,
+        "bias_gray": 0.014276980422437191
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000108@test",
+        "psnr_db": 34.64999968360257,
+        "mae_gray": 3.687973737716675,
+        "bias_gray": -0.22366580367088318
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001/000119@test",
+        "psnr_db": 34.64119456697751,
+        "mae_gray": 3.696406126022339,
+        "bias_gray": -0.24150921404361725
+      }
+    ],
+    "weather_medium": [
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000000@test",
+        "psnr_db": 33.69246231723966,
+        "mae_gray": 4.085347652435303,
+        "bias_gray": -1.871760606765747
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000010@test",
+        "psnr_db": 33.74618881151651,
+        "mae_gray": 3.971717596054077,
+        "bias_gray": -2.1285316944122314
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000021@test",
+        "psnr_db": 33.97304795428522,
+        "mae_gray": 3.9337546825408936,
+        "bias_gray": -1.8148736953735352
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000032@test",
+        "psnr_db": 34.015220278485444,
+        "mae_gray": 3.8957388401031494,
+        "bias_gray": -1.7437188625335693
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000043@test",
+        "psnr_db": 34.13309881609895,
+        "mae_gray": 3.8421952724456787,
+        "bias_gray": -1.673439860343933
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000054@test",
+        "psnr_db": 33.53240977663975,
+        "mae_gray": 4.12619686126709,
+        "bias_gray": -2.0679218769073486
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000064@test",
+        "psnr_db": 33.67952236310661,
+        "mae_gray": 4.070810794830322,
+        "bias_gray": -1.8559401035308838
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000075@test",
+        "psnr_db": 33.631234649898786,
+        "mae_gray": 4.082380771636963,
+        "bias_gray": -2.0543198585510254
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000086@test",
+        "psnr_db": 33.801955272127294,
+        "mae_gray": 3.992210626602173,
+        "bias_gray": -1.7490200996398926
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000097@test",
+        "psnr_db": 33.83835740898975,
+        "mae_gray": 3.9159867763519287,
+        "bias_gray": -2.0444090366363525
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000108@test",
+        "psnr_db": 33.64718423631219,
+        "mae_gray": 4.062529563903809,
+        "bias_gray": -2.0043728351593018
+      },
+      {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000119@test",
+        "psnr_db": 33.692091182968966,
+        "mae_gray": 4.059283256530762,
+        "bias_gray": -1.931077003479004
+      }
+    ]
+  },
+  "server_gpu_compiled_fp16": {
+    "mean_ms": 0.222863466689984,
+    "p95_ms": 0.224868805706501,
+    "n": 300,
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "cuda_graphs": false,
+    "TF32": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "scene": "day_normal",
+  "student": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-DAY-NINE-TEMPORAL-20260929/best.pt",
+  "student_sha256": "c79211d20d1f3cb24fa5e19a38ab75922459d8fff240ed47f08dca7bd303a50a",
+  "context_box": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "files": [
+    {
+      "layout": "nearest",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-DAY-NINE-TEMPORAL-20260929/board/day_normal_nearest.onnx",
+      "sha256": "44d1b3f12b753dda9fc7dcd982f335242b48a6909dc4034020888671c7c5b007",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "nodes": 178
+    },
+    {
+      "layout": "rows32",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-DAY-NINE-TEMPORAL-20260929/board/day_normal_rows32.onnx",
+      "sha256": "361b4ee3294e5d619b03efc5b71bcc91f66e37c751121e8c5de00f43abe7ce1d",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "nodes": 184
+    },
+    {
+      "layout": "phases",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-DAY-NINE-TEMPORAL-20260929/board/day_normal_phases.onnx",
+      "sha256": "f4c28d0a3ff305004f602159e06e1c1a1cf73eebb50a582c24478373491dd975",
+      "shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "nodes": 175
+    }
+  ],
+  "rows32_vs_nearest": {
+    "mae_gray": 0.0,
+    "max_abs_gray": 0.0
+  },
+  "probe": {
+    "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-DAY-NINE-TEMPORAL-20260929/board/rows32_probe.npz",
+    "sha256": "ae0c29950b9c015b31a71623ba393d1389e7a4749d086cc25f347fcb80a31a20"
+  }
+}

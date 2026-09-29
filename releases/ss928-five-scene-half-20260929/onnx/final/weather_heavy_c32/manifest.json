@@ -1,0 +1,53 @@
+{
+  "scene": "weather_heavy_c32",
+  "student": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-HEAVY-TEMPORAL-20260929/average05.pt",
+  "student_sha256": "a6bd5869ec2556886b0672a831896b1e6092826b29c6230cb4f7fb30017bc6ba",
+  "context_box": [
+    -0.0019607844296842813,
+    -5.666666507720947,
+    1.0019607543945312,
+    1.0
+  ],
+  "files": [
+    {
+      "layout": "nearest",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/weather_heavy_c32/weather_heavy_c32_nearest.onnx",
+      "sha256": "ba45cf2e884e50bc6372d694b938340b693688a57e3bda2294da8085f16ab7b9",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "nodes": 165
+    },
+    {
+      "layout": "rows32",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/weather_heavy_c32/weather_heavy_c32_rows32.onnx",
+      "sha256": "70584c06448e30af421b4ce80817a059249227fde46b210dd738cad2dfc1f0b4",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "nodes": 171
+    },
+    {
+      "layout": "phases",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/weather_heavy_c32/weather_heavy_c32_phases.onnx",
+      "sha256": "91332c88c8f60daf06e822d1cc453f33c003af3015b2bba15134d5f41d5afa59",
+      "shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "nodes": 162
+    }
+  ],
+  "rows32_vs_nearest": {
+    "mae_gray": 0.0,
+    "max_abs_gray": 0.0
+  }
+}

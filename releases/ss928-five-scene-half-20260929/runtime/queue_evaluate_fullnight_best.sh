@@ -1,0 +1,22 @@
+#!/bin/bash
+set -euo pipefail
+R=/data/zhangbenzhuang/huawei_sr
+Q=$R/runs/SS928-FIVE-SCENE-NINE-SCRATCH-20260929-CONFIGS
+for name in DAY-FULLNIGHT LIGHT-FULLNIGHT HEAVY-FULLNIGHT C32-FULLNIGHT; do
+    run=$R/runs/SS928-FIVE-SCENE-NINE-SCRATCH-20260929-$name-20K
+    while ! test -f "$run/exit.json"; do sleep 30; done
+    /data/zhangbenzhuang/miniconda3/envs/test/bin/python - "$run" <<'PY'
+import json
+import sys
+from pathlib import Path
+run = Path(sys.argv[1])
+assert json.loads((run / "exit.json").read_text())["exit_code"] == 0
+assert json.loads((run / "completed.json").read_text())["steps"] == 20000
+PY
+done
+export CUDA_VISIBLE_DEVICES=GPU-7e9093df-d21b-0d14-a009-078bf6dd94f1
+exec /data/zhangbenzhuang/miniconda3/envs/test/bin/python "$Q/evaluate_best.py" \
+    --root "$R" \
+    --code "$R/code/worktrees/ss928-five-scene-day-nine-20260929" \
+    --out "$R/runs/SS928-FIVE-SCENE-NINE-SCRATCH-20260929-BEST-TEST-FULLNIGHT" \
+    --runs DAY-FULLNIGHT LIGHT-FULLNIGHT HEAVY-FULLNIGHT C32-FULLNIGHT

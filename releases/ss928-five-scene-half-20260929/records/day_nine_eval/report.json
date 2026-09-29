@@ -1,0 +1,109 @@
+{
+  "student_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-DAY-NINE-TEMPORAL-20260929/best.pt",
+  "config_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-NINE-SCRATCH-20260929-DAY-FULLNIGHT-LR1E4/checkpoints/best.pt",
+  "val_selection": {
+    "day_normal": 24.816120737065333
+  },
+  "test": {
+    "day_normal": {
+      "samples": 12,
+      "psnr_mean_db": 25.49650551547261,
+      "mae_mean_gray": 9.731217861175537
+    }
+  },
+  "samples": {
+    "day_normal": [
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000000@test",
+        "psnr_db": 25.673819938782856,
+        "mae_gray": 9.553976058959961,
+        "bias_gray": 4.136950492858887
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000010@test",
+        "psnr_db": 25.352147875067345,
+        "mae_gray": 9.956891059875488,
+        "bias_gray": 4.735226631164551
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000021@test",
+        "psnr_db": 25.411511617261922,
+        "mae_gray": 9.82962417602539,
+        "bias_gray": 4.2719268798828125
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000032@test",
+        "psnr_db": 25.474739797641487,
+        "mae_gray": 9.781224250793457,
+        "bias_gray": 4.202592849731445
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000043@test",
+        "psnr_db": 25.501308085319234,
+        "mae_gray": 9.69345760345459,
+        "bias_gray": 3.638392448425293
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000054@test",
+        "psnr_db": 25.52763559055682,
+        "mae_gray": 9.640935897827148,
+        "bias_gray": 3.573415756225586
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000064@test",
+        "psnr_db": 25.486440709911605,
+        "mae_gray": 9.720928192138672,
+        "bias_gray": 3.869342803955078
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000075@test",
+        "psnr_db": 25.553183914183787,
+        "mae_gray": 9.649126052856445,
+        "bias_gray": 3.628324270248413
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000086@test",
+        "psnr_db": 25.612237519900315,
+        "mae_gray": 9.600892066955566,
+        "bias_gray": 3.6727614402770996
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000097@test",
+        "psnr_db": 25.495527182237673,
+        "mae_gray": 9.748725891113281,
+        "bias_gray": 4.186249256134033
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000108@test",
+        "psnr_db": 25.559866567825406,
+        "mae_gray": 9.631516456604004,
+        "bias_gray": 3.469452142715454
+      },
+      {
+        "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001/000119@test",
+        "psnr_db": 25.30964738698286,
+        "mae_gray": 9.967316627502441,
+        "bias_gray": 4.442707061767578
+      }
+    ]
+  },
+  "server_gpu_compiled_fp16": {
+    "mean_ms": 0.33744096020857495,
+    "p95_ms": 0.3397472009062767,
+    "n": 300,
+    "input_shape": [
+      1,
+      9,
+      1024,
+      1280
+    ],
+    "output_shape": [
+      1,
+      1,
+      3072,
+      3840
+    ],
+    "cuda_graphs": false,
+    "TF32": false
+  }
+}

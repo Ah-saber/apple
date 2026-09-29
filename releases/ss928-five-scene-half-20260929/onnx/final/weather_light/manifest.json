@@ -1,0 +1,53 @@
+{
+  "scene": "weather_light",
+  "student": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-LIGHT-TEMPORAL-20260929/average05.pt",
+  "student_sha256": "11b6a196057275b1563f08e29124f7c326031633bcc9d33ab51b4d191ba843e1",
+  "context_box": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "files": [
+    {
+      "layout": "nearest",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/weather_light/weather_light_nearest.onnx",
+      "sha256": "16f7b188406f52be88f648852bfad810c4fcae2817113145524e867ba362c223",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "nodes": 165
+    },
+    {
+      "layout": "rows32",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/weather_light/weather_light_rows32.onnx",
+      "sha256": "1a7af486442e49281c486f9019a791ce13697ab090f4f2b9ba58d7bf2dd027e3",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "nodes": 171
+    },
+    {
+      "layout": "phases",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/weather_light/weather_light_phases.onnx",
+      "sha256": "cad4adee01e810887a417818ac40ae0d808dadd81522c2d9d4913727193b6300",
+      "shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "nodes": 162
+    }
+  ],
+  "rows32_vs_nearest": {
+    "mae_gray": 0.0,
+    "max_abs_gray": 0.0
+  }
+}

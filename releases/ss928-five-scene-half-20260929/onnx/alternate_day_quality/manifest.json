@@ -1,0 +1,57 @@
+{
+  "scene": "day_normal",
+  "student": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-DAY-RAWSKIP-20260929/best.pt",
+  "student_sha256": "3684e75a56fa22f425a26635f33f07f7dad02093cc16bcd8ea18a9f6a5fa5c22",
+  "context_box": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "files": [
+    {
+      "layout": "nearest",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/day_normal/day_normal_nearest.onnx",
+      "sha256": "ac629e84074838a4e309c150ec2dfc47dc964c94fa17072bfe7a015e5b0f94af",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "nodes": 185
+    },
+    {
+      "layout": "rows32",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/day_normal/day_normal_rows32.onnx",
+      "sha256": "a517ff8c4d858b7552e0be163c8f66315731185aa8e5e6b71a80df793ad55fa8",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "nodes": 191
+    },
+    {
+      "layout": "phases",
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/day_normal/day_normal_phases.onnx",
+      "sha256": "4cc87e797bdaf0e127e678827e8d5d5256d5cd5c49f95dde2b1ec14f2f8a9cb3",
+      "shape": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "nodes": 182
+    }
+  ],
+  "rows32_vs_nearest": {
+    "mae_gray": 0.0,
+    "max_abs_gray": 0.0
+  },
+  "probe": {
+    "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-BOARD-BALANCED-20260929/day_normal/rows32_probe.npz",
+    "sha256": "12b14e16e261a0cbf8fbe1e3c84b03e9780b1443069e1ab3671511b749ef5af6"
+  }
+}
