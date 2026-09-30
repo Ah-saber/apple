@@ -1,0 +1,681 @@
+{
+  "status": "complete",
+  "kind": "shared_full_raw_sequence_v1",
+  "protocol": "Same-video full RAW is shared across train/val/test label partitions. GT supervision remains central train ROI only. Not RAW-disjoint holdout or independent-video validation.",
+  "sequences": [
+    {
+      "key": "night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00",
+      "scene_id": "night_special",
+      "raw_path": "decoded/raw_v1/night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00/raw_u16.npy",
+      "raw_sha256": "a8a926ac02577ca4e3b057bd9769622b81cccba2267c5bc86d5388a1de473c33",
+      "shape": [
+        120,
+        1024,
+        1280
+      ],
+      "parameters": [
+        {
+          "offset": 5255.694130683988,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5256.530988539308,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5256.415479911417,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.3344331096105,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.292422331422,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.578244335502,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.440846301168,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.016684533208,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.113973088115,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.972069556564,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.142522950023,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.1123979161675,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.6720568548135,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.25297727093,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.993127275556,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.719679249376,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.3991472612315,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.235017413944,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.088747788518,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.353171397298,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.541676295847,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.3330558727675,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.3469283054765,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5256.194203371852,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.302021921723,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.246961231082,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.767462522834,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.124740005582,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.2641024421155,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.393733568042,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.329494644254,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.21384033069,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.062486828416,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.440327085107,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.847537458985,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.495379764884,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.438447679132,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.327168716043,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.1623235534125,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.52243728742,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.008818698972,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.112543893903,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.721243501752,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.840236605256,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.454524524062,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.8142943869525,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.646779717057,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.693570030779,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.285023368448,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.935103316157,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.95312444672,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.772270167917,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.995088643878,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.343702943175,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.892790449709,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.180268229096,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.735674882978,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.873525358289,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.942355836481,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5256.140693677515,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.019715679735,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.2462510477,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.847782529443,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.127672732919,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.339098746627,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.332140077203,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.403220857233,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.07243241176,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.986010534614,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.439187515824,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.493025590032,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.5459456335,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.144759405702,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.182100726217,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5256.29702459082,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.629346073716,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.607149733156,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.979941047281,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.40759316191,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.324728948921,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.202816034406,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.118680680841,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.673860699981,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.427326358407,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.192459846586,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.78030305013,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.438949335664,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.853655762523,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.076586712449,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.628285641521,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.379203392118,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.986669362634,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.889413202852,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5256.605955083221,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.562224639505,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.948069311231,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5256.189435936063,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.8549383233485,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.706980640739,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.768093819469,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.440090138763,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.500333679765,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.981756259053,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5252.966896332353,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.879247851222,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.846523732989,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.616968686431,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.391707284301,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.837265754789,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.45457287535,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.565393794625,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.207350314706,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.360926337093,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.495949627011,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5256.141630805581,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5255.515650929063,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.86046779856,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.84531426534,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5253.413214374631,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        },
+        {
+          "offset": 5254.388281197398,
+          "middle_offset": 5254.236997849792,
+          "scale": 41.56793164062583
+        }
+      ],
+      "segments": [
+        {
+          "begin": 0,
+          "end": 120,
+          "center_anchor": 5276.4052734375,
+          "corrected_low": -22.168275587707758,
+          "scale": 41.56793164062583
+        }
+      ],
+      "label_scope": "unchanged_train_roi",
+      "fixed_field": {
+        "path": "fixed_field.npy",
+        "sha256": "dd2165664bb06c7ccdb22b01f56387417d04bfdeebfbe7aaa8a07523f45e0079",
+        "method": "static_pretone",
+        "scope": "Full same-video RAW mean only; no target pixels",
+        "shape": [
+          1024,
+          1280
+        ],
+        "dynamic_rows": {
+          "reference_path": "raw_reference.npy",
+          "reference_sha256": "ce0f4aea45518d40de63d495624e56d60a8a5b61fbf91ccbba439a0a96a74024",
+          "strength": 1.0,
+          "cap_dn": 4.0,
+          "stride": 4,
+          "scope": "Input RAW only before crop; fixed reference all RAW mean; no correction applied to denoised auxiliary GT"
+        }
+      }
+    }
+  ],
+  "fixed_field_protocol": "Subtract fixed RAW-only field from inputs and middle RAW targets before all crops, scale changes and D4. Display GT unchanged. Shared full RAW protocol, not RAW-disjoint validation.",
+  "calibration_seconds": 0.43170823296532035,
+  "source_parameters": {
+    "radius": 16,
+    "strength": 1.0,
+    "row_strength": 1.0,
+    "col_strength": 1.0,
+    "field_strength": 0.9,
+    "field_sigma": 4.0,
+    "fixed_tone": true,
+    "local_mix": 0.5,
+    "gamma": 1.1,
+    "clip": 1.5,
+    "detail_amount": 0.0,
+    "pedestal": 0.3,
+    "static_stripe": 0.9,
+    "background": 0.85,
+    "spatial_h": 0.0,
+    "fusion": "adaptive",
+    "recursive_alpha": 0.08,
+    "guide_sigma": 0.7,
+    "patch": 3,
+    "motion_protect": 1.0,
+    "robust_field": true,
+    "field_guard": true,
+    "motion_low": 2.25,
+    "motion_high": 3.75,
+    "reject_transient": true,
+    "mask_consistency": true,
+    "local_noise": true,
+    "compact_protect": true
+  },
+  "dynamic_protocol": "Static calibration params unchanged, no GT fitting; input-only zero-mean row/col changes, bounded4DN."
+}

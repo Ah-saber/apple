@@ -1,0 +1,35 @@
+heavy {"step": 1, "loss": 120.21119689941406, "train_mae_gray": 82.4768295288086, "elapsed_seconds": 0.39672579895704985}
+heavy {"step": 1000, "loss": 15.219877243041992, "train_mae_gray": 5.021634101867676, "elapsed_seconds": 3.5322438161820173}
+heavy {"step": 2000, "loss": 22.29970359802246, "train_mae_gray": 7.627743244171143, "elapsed_seconds": 6.573059574235231, "validation": {"weather_heavy": {"psnr_db": 28.747603915930185, "mae_gray": 6.465397560968995}, "weather_heavy_c32": {"psnr_db": 18.68492248834797, "mae_gray": 27.133114747703075}}}
+heavy {"step": 3000, "loss": 14.222774505615234, "train_mae_gray": 5.91438627243042, "elapsed_seconds": 18.693723649252206}
+heavy {"step": 4000, "loss": 11.840249061584473, "train_mae_gray": 4.041066646575928, "elapsed_seconds": 21.807038153987378, "validation": {"weather_heavy": {"psnr_db": 28.84427539430295, "mae_gray": 6.50855798041448}, "weather_heavy_c32": {"psnr_db": 19.187614873943314, "mae_gray": 25.44512815773487}}}
+heavy {"step": 5000, "loss": 13.354944229125977, "train_mae_gray": 4.414929389953613, "elapsed_seconds": 34.07722091302276}
+heavy {"step": 6000, "loss": 17.633628845214844, "train_mae_gray": 7.047237873077393, "elapsed_seconds": 37.23314607515931, "validation": {"weather_heavy": {"psnr_db": 29.058512423258207, "mae_gray": 6.189106549136341}, "weather_heavy_c32": {"psnr_db": 19.12274417411434, "mae_gray": 25.529955280944705}}}
+heavy {"step": 7000, "loss": 13.532219886779785, "train_mae_gray": 5.081538677215576, "elapsed_seconds": 49.62599843926728}
+heavy {"step": 8000, "loss": 15.890229225158691, "train_mae_gray": 7.257045269012451, "elapsed_seconds": 52.98099043732509, "validation": {"weather_heavy": {"psnr_db": 29.87597632920696, "mae_gray": 5.756078539416194}, "weather_heavy_c32": {"psnr_db": 18.885393618566003, "mae_gray": 26.600188752636313}}}
+heavy {"step": 9000, "loss": 11.654616355895996, "train_mae_gray": 4.102712631225586, "elapsed_seconds": 65.51778109604493}
+heavy {"step": 10000, "loss": 15.788107872009277, "train_mae_gray": 5.2230072021484375, "elapsed_seconds": 68.70428026420996, "validation": {"weather_heavy": {"psnr_db": 29.040916120571637, "mae_gray": 6.3522829744033515}, "weather_heavy_c32": {"psnr_db": 19.48570351349169, "mae_gray": 24.497324274852872}}}
+heavy {"step": 11000, "loss": 14.6496000289917, "train_mae_gray": 5.3950042724609375, "elapsed_seconds": 80.78204402932897}
+heavy {"step": 12000, "loss": 11.787846565246582, "train_mae_gray": 3.9807143211364746, "elapsed_seconds": 83.98021739907563, "validation": {"weather_heavy": {"psnr_db": 29.631064236062755, "mae_gray": 5.72519498411566}, "weather_heavy_c32": {"psnr_db": 19.148379002685072, "mae_gray": 25.565425427630544}}}
+heavy {"step": 13000, "loss": 13.220874786376953, "train_mae_gray": 4.652610778808594, "elapsed_seconds": 96.30267288489267}
+heavy {"step": 14000, "loss": 16.927734375, "train_mae_gray": 6.055366516113281, "elapsed_seconds": 99.63132959790528, "validation": {"weather_heavy": {"psnr_db": 30.304307533759737, "mae_gray": 5.562211675569415}, "weather_heavy_c32": {"psnr_db": 18.36182460600685, "mae_gray": 28.70284297503531}}}
+heavy {"step": 15000, "loss": 11.329168319702148, "train_mae_gray": 3.884359836578369, "elapsed_seconds": 111.90597490221262}
+heavy {"step": 16000, "loss": 12.446120262145996, "train_mae_gray": 4.124873638153076, "elapsed_seconds": 115.1223139851354, "validation": {"weather_heavy": {"psnr_db": 29.61450017322719, "mae_gray": 5.756344010587782}, "weather_heavy_c32": {"psnr_db": 19.240282715307732, "mae_gray": 25.335118994116783}}}
+heavy {"step": 17000, "loss": 13.605755805969238, "train_mae_gray": 4.8415303230285645, "elapsed_seconds": 127.31818148586899}
+heavy {"step": 18000, "loss": 13.830304145812988, "train_mae_gray": 4.895856857299805, "elapsed_seconds": 130.4745765333064, "validation": {"weather_heavy": {"psnr_db": 29.785242405844837, "mae_gray": 5.593022797256708}, "weather_heavy_c32": {"psnr_db": 19.126651708081088, "mae_gray": 25.734459199011326}}}
+heavy {"step": 19000, "loss": 10.974416732788086, "train_mae_gray": 3.7329297065734863, "elapsed_seconds": 142.72239118022844}
+heavy {"step": 20000, "loss": 14.269966125488281, "train_mae_gray": 4.572152137756348, "elapsed_seconds": 145.76903862226754, "validation": {"weather_heavy": {"psnr_db": 29.952564273703548, "mae_gray": 5.493306489661336}, "weather_heavy_c32": {"psnr_db": 19.012872021103, "mae_gray": 26.177059607580304}}}
+VIDEO weather_heavy 0
+VIDEO weather_heavy 20
+VIDEO weather_heavy 40
+VIDEO weather_heavy 60
+VIDEO weather_heavy 80
+VIDEO weather_heavy 100
+QUALITY weather_heavy {"new_mae_gray": 5.792162426312765, "old_mae_gray": 5.805175236860911, "new_bias_gray": 2.6836122890313465, "old_bias_gray": 3.0215924779574075, "new_contrast_error_gray": -0.8712864875793457, "old_contrast_error_gray": -1.23568754196167, "new_static_residual_change_gray": 1.8542276600829692, "new_motion_response_ratio": 0.6866085739696727, "new_weak_structure_error_gray": 2.1498959765714756, "old_static_residual_change_gray": 1.505630502179891, "old_motion_response_ratio": 0.5324083599222809, "old_weak_structure_error_gray": 1.7535025712822665, "new_bias_gray_std": 0.08920452566171876, "new_contrast_error_gray_std": 0.42510248349151913, "old_bias_gray_std": 0.0941781851745331, "old_contrast_error_gray_std": 0.43832674092323143}
+VIDEO weather_heavy_c32 0
+VIDEO weather_heavy_c32 20
+VIDEO weather_heavy_c32 40
+VIDEO weather_heavy_c32 60
+VIDEO weather_heavy_c32 80
+VIDEO weather_heavy_c32 100
+QUALITY weather_heavy_c32 {"new_mae_gray": 14.165297142664592, "old_mae_gray": 14.40594305197398, "new_bias_gray": 13.626315879821778, "old_bias_gray": 13.723721917470296, "new_contrast_error_gray": 4.58204755783081, "old_contrast_error_gray": 4.604439194997152, "new_static_residual_change_gray": 1.909534902131858, "new_motion_response_ratio": 0.8611877417864919, "new_weak_structure_error_gray": 2.281800884158671, "old_static_residual_change_gray": 1.6241494787841284, "old_motion_response_ratio": 0.7027535005589994, "old_weak_structure_error_gray": 1.9834755088100915, "new_bias_gray_std": 0.6361723038984024, "new_contrast_error_gray_std": 2.368043469789735, "old_bias_gray_std": 0.6557204033551548, "old_contrast_error_gray_std": 2.290035536118997}

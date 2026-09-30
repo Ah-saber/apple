@@ -1,0 +1,4085 @@
+{
+  "NPU_measured": false,
+  "target_mean_ms": 16.7,
+  "target_p95_ms": 16.7,
+  "models": [
+    {
+      "path": "cast_probe/direct_cast_fp16.onnx",
+      "sha256": "09358cc0356cce6db3d6c581921de1b785adbd0c6b1871c284d0e786c1ca2033",
+      "bytes": 157,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "float_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            8,
+            8
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "gray_u8",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            8,
+            8
+          ]
+        }
+      ],
+      "operators": [
+        "Cast"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false
+    },
+    {
+      "path": "cast_probe/direct_cast_fp32.onnx",
+      "sha256": "4f51df1515e7c672bc4bfa85532f04083e14f46f218f33060b54b852a28e4175",
+      "bytes": 157,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "float_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            8,
+            8
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "gray_u8",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            8,
+            8
+          ]
+        }
+      ],
+      "operators": [
+        "Cast"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false
+    },
+    {
+      "path": "onnx/compact/heavy_fused/weather_heavy/weather_heavy_compact_fp16_phases.onnx",
+      "sha256": "282861772442da3252c6d2402ab4417915d72e3648c00eae625ff2680ebffb84",
+      "bytes": 68122,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/compact/heavy_fused/weather_heavy/weather_heavy_compact_fp16_rows32.onnx",
+      "sha256": "8913634587f4b87dcf4a5a3126846a11838d28447d37197ec48712f5fa7733d6",
+      "bytes": 143828,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/compact/heavy_fused/weather_heavy/weather_heavy_compact_fp32_phases.onnx",
+      "sha256": "30b107fbc7a21a2ffe984eeb2ee55ca273903cc385bd12431dbea04b30e140e0",
+      "bytes": 99652,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/compact/heavy_fused/weather_heavy/weather_heavy_compact_fp32_rows32.onnx",
+      "sha256": "bce5e97ee0d16da7cf02a4d615d0efcc10b30b3d8498b9e2bfcaea9323a9ea28",
+      "bytes": 249598,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/compact/heavy_fused/weather_heavy_c32/weather_heavy_c32_compact_fp16_phases.onnx",
+      "sha256": "b337e02597f830726ce81b3fa741f54d7a172699a947148c5d1fdb7f64bfcb26",
+      "bytes": 68122,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/compact/heavy_fused/weather_heavy_c32/weather_heavy_c32_compact_fp16_rows32.onnx",
+      "sha256": "c442acd7c30b94a3d03fbb6675562f1aaf7198a3cb9ec44db997a8ff4c46966f",
+      "bytes": 143828,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/compact/heavy_fused/weather_heavy_c32/weather_heavy_c32_compact_fp32_phases.onnx",
+      "sha256": "d70605d8e59dba91484ff91ed883183079c3a04b229865eb0f142ef5d658d787",
+      "bytes": 99652,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/compact/heavy_fused/weather_heavy_c32/weather_heavy_c32_compact_fp32_rows32.onnx",
+      "sha256": "cc358e42f4e9cab883a8ec6c229e7f71c95bf23be845980d5a686de9f661c56b",
+      "bytes": 249598,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/compact/heavy_temporal/weather_heavy/weather_heavy_compact_fp16_phases.onnx",
+      "sha256": "a78d510351fd61fb586174873a7da778403177b957e747e5c225b5c924c57c36",
+      "bytes": 68122,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/compact/heavy_temporal/weather_heavy/weather_heavy_compact_fp16_rows32.onnx",
+      "sha256": "5b09da3e01d879d77b4cc140a524592266829ba1271654ab267d84247b494edf",
+      "bytes": 143828,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/compact/heavy_temporal/weather_heavy/weather_heavy_compact_fp32_phases.onnx",
+      "sha256": "006779c7f6c0b1638bff583615e2004c41ad90d681b8e30a914af1da414fa3ee",
+      "bytes": 99652,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/compact/heavy_temporal/weather_heavy/weather_heavy_compact_fp32_rows32.onnx",
+      "sha256": "b68156415c3110b5f19b6a879af7e1ab47af8fade0467818452363f58409d81d",
+      "bytes": 249598,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/compact/heavy_temporal/weather_heavy_c32/weather_heavy_c32_compact_fp16_phases.onnx",
+      "sha256": "eb57b43087c981ae127c06fdb84eed5d5ebe0570ded1331f18b7934b812443e2",
+      "bytes": 68122,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/compact/heavy_temporal/weather_heavy_c32/weather_heavy_c32_compact_fp16_rows32.onnx",
+      "sha256": "93fd3844967e3c18669fa15169cc6f70942e5fc8d346621657e0eaead2459c33",
+      "bytes": 143828,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/compact/heavy_temporal/weather_heavy_c32/weather_heavy_c32_compact_fp32_phases.onnx",
+      "sha256": "9b6533ab5ff48df46c9bed5fc568dbd67ec88e7a7b333c9e61fddff683ce8a7c",
+      "bytes": 99652,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/compact/heavy_temporal/weather_heavy_c32/weather_heavy_c32_compact_fp32_rows32.onnx",
+      "sha256": "7f1ef2e052727b38c2aab07ec8eacc2e8045d4dab317c9511b06fe65af5b2dd7",
+      "bytes": 249598,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/compact/light_fused/weather_light/weather_light_compact_fp16_phases.onnx",
+      "sha256": "5636a2d1d4ff2454974711a2fbffd5cac499bb9d86d1d00be152e28dd3277eb0",
+      "bytes": 68986,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/compact/light_fused/weather_light/weather_light_compact_fp16_rows32.onnx",
+      "sha256": "2eeaf65f6761b13c3629c8a1c8cd8366047e6207b8c91872dcf95f2f60d17ba9",
+      "bytes": 144692,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/compact/light_fused/weather_light/weather_light_compact_fp32_phases.onnx",
+      "sha256": "454b043182d77cd5a6d17de9b2a53c2fac9357b145531bea74e8f8fd0d6cbfcc",
+      "bytes": 101380,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/compact/light_fused/weather_light/weather_light_compact_fp32_rows32.onnx",
+      "sha256": "88dfb5e1f41b4e06c522222422e972e5966134ff13a68c179ab811f7b9080699",
+      "bytes": 251326,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/compact/light_fused/weather_medium/weather_medium_compact_fp16_phases.onnx",
+      "sha256": "5636a2d1d4ff2454974711a2fbffd5cac499bb9d86d1d00be152e28dd3277eb0",
+      "bytes": 68986,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/compact/light_fused/weather_medium/weather_medium_compact_fp16_rows32.onnx",
+      "sha256": "2eeaf65f6761b13c3629c8a1c8cd8366047e6207b8c91872dcf95f2f60d17ba9",
+      "bytes": 144692,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/compact/light_fused/weather_medium/weather_medium_compact_fp32_phases.onnx",
+      "sha256": "454b043182d77cd5a6d17de9b2a53c2fac9357b145531bea74e8f8fd0d6cbfcc",
+      "bytes": 101380,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/compact/light_fused/weather_medium/weather_medium_compact_fp32_rows32.onnx",
+      "sha256": "88dfb5e1f41b4e06c522222422e972e5966134ff13a68c179ab811f7b9080699",
+      "bytes": 251326,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/compact/light_temporal/weather_light/weather_light_compact_fp16_phases.onnx",
+      "sha256": "ac8cf47415416acc6f35761b8e20b1d5e3595aa19fe78164003e82345f902a52",
+      "bytes": 68986,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/compact/light_temporal/weather_light/weather_light_compact_fp16_rows32.onnx",
+      "sha256": "c2a473a517c1da823c7a370b8b0c74a7315b79e2725136e106154e6a93c685db",
+      "bytes": 144692,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/compact/light_temporal/weather_light/weather_light_compact_fp32_phases.onnx",
+      "sha256": "c87e3568873fa9fc2b62e083f8a3093eb92b9ba6652a9e1483d8c9e454788e84",
+      "bytes": 101380,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/compact/light_temporal/weather_light/weather_light_compact_fp32_rows32.onnx",
+      "sha256": "a359df717e2c68348ce4c4f97b2e28efe817c01e7f85ac9c44cad55c9b0ee2c5",
+      "bytes": 251326,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/compact/light_temporal/weather_medium/weather_medium_compact_fp16_phases.onnx",
+      "sha256": "ac8cf47415416acc6f35761b8e20b1d5e3595aa19fe78164003e82345f902a52",
+      "bytes": 68986,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/compact/light_temporal/weather_medium/weather_medium_compact_fp16_rows32.onnx",
+      "sha256": "c2a473a517c1da823c7a370b8b0c74a7315b79e2725136e106154e6a93c685db",
+      "bytes": 144692,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/compact/light_temporal/weather_medium/weather_medium_compact_fp32_phases.onnx",
+      "sha256": "c87e3568873fa9fc2b62e083f8a3093eb92b9ba6652a9e1483d8c9e454788e84",
+      "bytes": 101380,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/compact/light_temporal/weather_medium/weather_medium_compact_fp32_rows32.onnx",
+      "sha256": "a359df717e2c68348ce4c4f97b2e28efe817c01e7f85ac9c44cad55c9b0ee2c5",
+      "bytes": 251326,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/equivalent/day_normal/day_current_folded_fp16_rows32.onnx",
+      "sha256": "6a6e9978138535020569d417f69c068f3e239680dab943581a43b6b21ede5f3d",
+      "bytes": 176680,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "current_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/day_normal"
+    },
+    {
+      "path": "onnx/equivalent/day_normal/day_current_folded_fp32_rows32.onnx",
+      "sha256": "1c4f4c10feb25789cc9b310533c822dab94d0871c8b56963b7f58f2008baedf6",
+      "bytes": 296473,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "current_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/day_normal"
+    },
+    {
+      "path": "onnx/equivalent/day_normal/day_normal_equivalent_fp16_byte.onnx",
+      "sha256": "6cac13313d897df82dffb99f176c2e83f7d46053526965d6f6847f05041e9c49",
+      "bytes": 182895,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/day_normal"
+    },
+    {
+      "path": "onnx/equivalent/day_normal/day_normal_equivalent_fp16_phases.onnx",
+      "sha256": "848b93aa0a071f730f32ff545e8fee84a4bd8cbecfe2eed6ec74e26423cfcc47",
+      "bytes": 107962,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Slice"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/day_normal"
+    },
+    {
+      "path": "onnx/equivalent/day_normal/day_normal_equivalent_fp16_rows32.onnx",
+      "sha256": "53c9b69d57615f8fe97f59667dd14ff997b5610088f407e695b77b7bf42cdc8d",
+      "bytes": 182815,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/day_normal"
+    },
+    {
+      "path": "onnx/equivalent/day_normal/day_normal_equivalent_fp32_byte.onnx",
+      "sha256": "bbf3638f941a4001c8e65c9376d27b9d145ee5ca61f125d9d3cc484a02502070",
+      "bytes": 308832,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/day_normal"
+    },
+    {
+      "path": "onnx/equivalent/day_normal/day_normal_equivalent_fp32_phases.onnx",
+      "sha256": "105b68e39883de2531952eb6ee331bd9f87d7455e169f0847ef21647dd263c20",
+      "bytes": 160171,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Slice"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/day_normal"
+    },
+    {
+      "path": "onnx/equivalent/day_normal/day_normal_equivalent_fp32_rows32.onnx",
+      "sha256": "58801e62edbe12fb5031900aa31bb9c66e3675143cc65e76f25bf0056e28983a",
+      "bytes": 308752,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/day_normal"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp16_byte.onnx",
+      "sha256": "06a2a8c77b82963ee814d0dbcd831964ab9489d96d9a7ccd27ad108671e9d51c",
+      "bytes": 156647,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp16_phases.onnx",
+      "sha256": "e00526b2a4f8e65708930c26fbb020fc159bd82ad939c7874128dbf19139ab06",
+      "bytes": 81714,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp16_rows32.onnx",
+      "sha256": "9d6cee00dbd473de55b26619332584ef3117f0067fecf4150214707f50bd5b09",
+      "bytes": 156567,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp32_byte.onnx",
+      "sha256": "09149e3b60f702ea074bff560f5d4929bffd0e2fe1390331e1d0aab7d541168b",
+      "bytes": 257469,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp32_phases.onnx",
+      "sha256": "c309705890c62219d7aa104f4d77babf05c5634d7db9695f65739a462690aa7f",
+      "bytes": 108808,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp32_rows32.onnx",
+      "sha256": "e357f7eeb675b6cd68b8ab2ed708f1e552a72438a38ee2f680f2b2fa7728a977",
+      "bytes": 257389,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp16_byte.onnx",
+      "sha256": "ffa5655fed607297b7e4a26369f4108898d84a6ad5da2bf885aeb90080a4996f",
+      "bytes": 156647,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp16_phases.onnx",
+      "sha256": "1089558220cea89e7a35d166cf1f080641c9ae1da5f7a7ad3d8e2a5d2c2125fb",
+      "bytes": 81714,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp16_rows32.onnx",
+      "sha256": "e25433b8254e9d8dc376b99e69b04d5323d70b60add540eb68ae007eb515c350",
+      "bytes": 156567,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp32_byte.onnx",
+      "sha256": "73509d3b4a20aed39bf0b8c7cebb86c590fef4f418d4d5dd51336c47e6046679",
+      "bytes": 257469,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp32_phases.onnx",
+      "sha256": "e7141745b4337e96e55556c8a878d048113c632a82e68fed2afee32ff3557e47",
+      "bytes": 108808,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp32_rows32.onnx",
+      "sha256": "bdf6e9c5a44eca0115560055aea9f19780fbdd70a612f4e19149316d41b5f189",
+      "bytes": 257389,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_heavy_c32"
+    },
+    {
+      "path": "onnx/equivalent/weather_light/weather_light_equivalent_fp16_byte.onnx",
+      "sha256": "b930df7862dcc8ceaa2689dbcfb5c792d168f08f96c5c27f647e1be2a14d9548",
+      "bytes": 157511,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/equivalent/weather_light/weather_light_equivalent_fp16_phases.onnx",
+      "sha256": "04da434ee37910be27b556b425beeb091ffb97a731d48875b0e8598a50d1ed3b",
+      "bytes": 82578,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/equivalent/weather_light/weather_light_equivalent_fp16_rows32.onnx",
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b",
+      "bytes": 157431,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/equivalent/weather_light/weather_light_equivalent_fp32_byte.onnx",
+      "sha256": "3b2749e6dd43a3830488efe43f1d2fb03aebe6af775b770f720ee59ecf96a58e",
+      "bytes": 259197,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/equivalent/weather_light/weather_light_equivalent_fp32_phases.onnx",
+      "sha256": "d95f91bf504098e688832d42261d19b0fc730dfc021f24da44aed06c4c1ea2a4",
+      "bytes": 110536,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/equivalent/weather_light/weather_light_equivalent_fp32_rows32.onnx",
+      "sha256": "b6f38dca14af5c268468f2d9ce466b0654147d4567ce7aaa330b91cfbe21ebde",
+      "bytes": 259117,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_light"
+    },
+    {
+      "path": "onnx/equivalent/weather_medium/weather_medium_equivalent_fp16_byte.onnx",
+      "sha256": "b930df7862dcc8ceaa2689dbcfb5c792d168f08f96c5c27f647e1be2a14d9548",
+      "bytes": 157511,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/equivalent/weather_medium/weather_medium_equivalent_fp16_phases.onnx",
+      "sha256": "04da434ee37910be27b556b425beeb091ffb97a731d48875b0e8598a50d1ed3b",
+      "bytes": 82578,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/equivalent/weather_medium/weather_medium_equivalent_fp16_rows32.onnx",
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b",
+      "bytes": 157431,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/equivalent/weather_medium/weather_medium_equivalent_fp32_byte.onnx",
+      "sha256": "3b2749e6dd43a3830488efe43f1d2fb03aebe6af775b770f720ee59ecf96a58e",
+      "bytes": 259197,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "UINT8",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/equivalent/weather_medium/weather_medium_equivalent_fp32_phases.onnx",
+      "sha256": "d95f91bf504098e688832d42261d19b0fc730dfc021f24da44aed06c4c1ea2a4",
+      "bytes": 110536,
+      "diagnostic": true,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/equivalent/weather_medium/weather_medium_equivalent_fp32_rows32.onnx",
+      "sha256": "b6f38dca14af5c268468f2d9ce466b0654147d4567ce7aaa330b91cfbe21ebde",
+      "bytes": 259117,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "deployment_corrected/weather_medium"
+    },
+    {
+      "path": "onnx/night_preserved/ordinary_reference_after12_rows32.onnx",
+      "sha256": "0a7f7b25f44f97692b8f0794ed4f1e7829da3b67e9464372cc3c84f1aa205d1e",
+      "bytes": 123549,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Resize",
+        "Shape",
+        "Slice",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "night_calibration_final/night_ordinary",
+      "reference_rewrite": "Existing night interpolation compatibility rewrite still required; verify exact same input"
+    },
+    {
+      "path": "onnx/night_preserved/special_lowref_k5_rows32.onnx",
+      "sha256": "168e4f65b205acf8599f292738ccd7299213925908f07939ecd614a2170353a0",
+      "bytes": 118773,
+      "diagnostic": false,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Resize",
+        "Shape",
+        "Slice",
+        "Transpose"
+      ],
+      "board_compatibility": "unmeasured",
+      "NPU_measured": false,
+      "data_directory": "night_calibration_final/night_special",
+      "reference_rewrite": "Existing night interpolation compatibility rewrite still required; verify exact same input"
+    }
+  ],
+  "datasets": {
+    "weather_heavy": {
+      "calibration": 4,
+      "test": 12,
+      "GT_used_in_calibration": false,
+      "records": "records/deployment/weather_heavy/manifest.json",
+      "test_zero_startup_repeats_recorded": true
+    },
+    "day_normal": {
+      "calibration": 4,
+      "test": 12,
+      "GT_used_in_calibration": false,
+      "records": "records/deployment/day_normal/manifest.json",
+      "test_zero_startup_repeats_recorded": true
+    },
+    "weather_heavy_c32": {
+      "calibration": 4,
+      "test": 12,
+      "GT_used_in_calibration": false,
+      "records": "records/deployment/weather_heavy_c32/manifest.json",
+      "test_zero_startup_repeats_recorded": true
+    },
+    "weather_light": {
+      "calibration": 4,
+      "test": 12,
+      "GT_used_in_calibration": false,
+      "records": "records/deployment/weather_light/manifest.json",
+      "test_zero_startup_repeats_recorded": true
+    },
+    "weather_medium": {
+      "calibration": 4,
+      "test": 12,
+      "GT_used_in_calibration": false,
+      "records": "records/deployment/weather_medium/manifest.json",
+      "test_zero_startup_repeats_recorded": true
+    },
+    "night_special": {
+      "calibration": 4,
+      "test": 12,
+      "GT_used_in_calibration": false,
+      "records": "records/night_calibration/night_special/manifest.json",
+      "test_zero_startup_repeats_recorded": true
+    },
+    "night_ordinary": {
+      "calibration": 4,
+      "test": 12,
+      "GT_used_in_calibration": false,
+      "records": "records/night_calibration/night_ordinary/manifest.json",
+      "test_zero_startup_repeats_recorded": true
+    }
+  }
+}

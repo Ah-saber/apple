@@ -1,0 +1,1930 @@
+{
+  "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-NIGHT-NINE-FRAME-TRAJECTORY-20260925-2K-R1/checkpoints/step_000002000.pt",
+  "checkpoint_sha256": "2dcce8e88c126b6d33f20c82923259c8f40f295b7069e7fd29b2007bd53fca43",
+  "path": "reference_after12",
+  "calibration": [
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/train_00.npz",
+      "sha256": "2e28c879b124d7720a083faabc4d775ad3525c3abe5d2c263d56be5c5b862a90",
+      "sample": {
+        "sample_id": "night/raw_20260805_195608/000008@train",
+        "domain": "night",
+        "sequence_id": "raw_20260805_195608",
+        "frame_id": 8,
+        "group_id": "night_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_195608/raw_u16.npy",
+          "index": 8,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_195608/000008.png",
+          "sha256": "c517aed4d3c47c73358e7204e374d3bd055abf9336bb27a9db163a216fb8c04c",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_195608/enhanced/0008.png",
+          "source_sha256": "c517aed4d3c47c73358e7204e374d3bd055abf9336bb27a9db163a216fb8c04c",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 8
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_195608/000008",
+        "split": "train",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "history_frame_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5284.3301368810735,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5284.592819187839,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5285.721169088085,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5286.090438882311,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5285.891040060718,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5284.414151433904,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5284.198543337782,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5284.2510813691215,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5284.218725011548,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/train_01.npz",
+      "sha256": "2b6bee20ba5b0df759d9556af98047be459e88ddbcc52828e902d9c5c3e5827f",
+      "sample": {
+        "sample_id": "night/raw_20260805_195608/000059@train",
+        "domain": "night",
+        "sequence_id": "raw_20260805_195608",
+        "frame_id": 59,
+        "group_id": "night_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_195608/raw_u16.npy",
+          "index": 59,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_195608/000059.png",
+          "sha256": "4b89e22d73b7a9f75327f2a0649bf17a7486b3beb43b0c7355c23ccb3154f6e3",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_195608/enhanced/0059.png",
+          "source_sha256": "4b89e22d73b7a9f75327f2a0649bf17a7486b3beb43b0c7355c23ccb3154f6e3",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 59
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_195608/000059",
+        "split": "train",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "history_frame_ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5281.659653369386,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5281.551551929911,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5280.271723709305,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5278.714643136462,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5279.898648867806,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5279.804135737618,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5279.957687435349,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5281.598827520807,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        },
+        {
+          "offset": 5282.070819727381,
+          "middle_offset": 5283.316090176304,
+          "scale": 97.25
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/train_02.npz",
+      "sha256": "264fc0c02115d2988827571206ffe7cf94fbaeace5cdbcf67044acd24cda771e",
+      "sample": {
+        "sample_id": "night/raw_20260805_195715/000059@train",
+        "domain": "night",
+        "sequence_id": "raw_20260805_195715",
+        "frame_id": 59,
+        "group_id": "night_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_195715/raw_u16.npy",
+          "index": 59,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_195715/000059.png",
+          "sha256": "9be8e32a5ab8ed2b44d750acc04339e75e6d33b46c2522a1f7d77875368beead",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_195715/enhanced/0059.png",
+          "source_sha256": "9be8e32a5ab8ed2b44d750acc04339e75e6d33b46c2522a1f7d77875368beead",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 59
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_195715/000059",
+        "split": "train",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "history_frame_ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5282.586764285166,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        },
+        {
+          "offset": 5283.083269199928,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        },
+        {
+          "offset": 5283.722923353513,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        },
+        {
+          "offset": 5282.582648286421,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        },
+        {
+          "offset": 5281.291487208207,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        },
+        {
+          "offset": 5281.373539450963,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        },
+        {
+          "offset": 5281.373252758582,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        },
+        {
+          "offset": 5281.881932386954,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        },
+        {
+          "offset": 5282.226634541352,
+          "middle_offset": 5284.297672853072,
+          "scale": 97.64990234375
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/train_03.npz",
+      "sha256": "30c5be0fb2ba806607dbf34314bf2ec23db7e13e0c91b49afc40945deb908bbc",
+      "sample": {
+        "sample_id": "night/raw_20260805_200247/000059@train",
+        "domain": "night",
+        "sequence_id": "raw_20260805_200247",
+        "frame_id": 59,
+        "group_id": "night_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_200247/raw_u16.npy",
+          "index": 59,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_200247/000059.png",
+          "sha256": "d13424ba08231067c40d886ee603de61230891763adca91e7befca17adf52dbf",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_200247/enhanced/0059.png",
+          "source_sha256": "d13424ba08231067c40d886ee603de61230891763adca91e7befca17adf52dbf",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 59
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_200247/000059",
+        "split": "train",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "history_frame_ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5269.410165660381,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        },
+        {
+          "offset": 5269.3144549775125,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        },
+        {
+          "offset": 5270.497154729366,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        },
+        {
+          "offset": 5270.354541682004,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        },
+        {
+          "offset": 5269.4243622410295,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        },
+        {
+          "offset": 5269.623547183275,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        },
+        {
+          "offset": 5269.5052386868,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        },
+        {
+          "offset": 5269.090872220992,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        },
+        {
+          "offset": 5269.005759106874,
+          "middle_offset": 5269.447172789573,
+          "scale": 96.2333984375
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    }
+  ],
+  "test": [
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_00.npz",
+      "sha256": "041427be640f1660cbaaffee4cb3c6e153155247bf2f2dc9168542ad3540e10e",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000000@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 0,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 0,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000000.png",
+          "sha256": "8c5e0ef229a675ff3ea70c0fe03267c71f82bf7ba469d7d4218fbd9326055e82",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0000.png",
+          "source_sha256": "8c5e0ef229a675ff3ea70c0fe03267c71f82bf7ba469d7d4218fbd9326055e82",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 0
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000000",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_history": 1,
+      "normalization": [
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_01.npz",
+      "sha256": "a4bcb3927504a3d6763e980bfdb3c3d7c37a6c82114895fbc43e91b1ffb38f9f",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000005@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 5,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 5,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000005.png",
+          "sha256": "6b610e6cedc4231d17d6042f34614a548c6d96a9bd01c88373688c79ced8834e",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0005.png",
+          "source_sha256": "6b610e6cedc4231d17d6042f34614a548c6d96a9bd01c88373688c79ced8834e",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 5
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000005",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "unique_history": 6,
+      "normalization": [
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.320372983218,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.816730161906,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.173393621445,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.077184739113,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.325040956736,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.623964753151,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_02.npz",
+      "sha256": "a9537c0a67c641f877074484faa8597589ea0ea8363bd18f617f5f5561bb6fdc",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000010@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 10,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 10,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000010.png",
+          "sha256": "921a284661ec73ee18fd5df5bbef61e7dc3f85b0f813b99232b605243536f3a8",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0010.png",
+          "source_sha256": "921a284661ec73ee18fd5df5bbef61e7dc3f85b0f813b99232b605243536f3a8",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 10
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000010",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5277.173393621445,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.077184739113,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.325040956736,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.623964753151,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.034209539891,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.875685890914,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.028708394766,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.164127173424,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.942738308907,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_03.npz",
+      "sha256": "69686080b625d705a43974860df737879d2a2f766be544b8b8328973f95f7950",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000016@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 16,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 16,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000016.png",
+          "sha256": "a205e774c97ea561d5744e67fa2b3f50096ea93de65d1765e457ab5bb0ef99a7",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0016.png",
+          "source_sha256": "a205e774c97ea561d5744e67fa2b3f50096ea93de65d1765e457ab5bb0ef99a7",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 16
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000016",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5275.028708394766,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.164127173424,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.942738308907,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.782026007176,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5275.6457668745525,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.326045378447,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.5267985248565,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.206705000401,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.701924302578,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_04.npz",
+      "sha256": "58f557a2a7c68588dbc1dfa03b5c8030cb0c90149e20048ff9f1c774b9451ed1",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000021@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 21,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 21,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000021.png",
+          "sha256": "16ddc27e5bd108c43fa01f30dc05b6d39580640e5a14aa3f9c06fafd76dde0e0",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0021.png",
+          "source_sha256": "16ddc27e5bd108c43fa01f30dc05b6d39580640e5a14aa3f9c06fafd76dde0e0",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 21
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000021",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5276.326045378447,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.5267985248565,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.206705000401,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.701924302578,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.053914346695,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.182638236284,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5274.951906409264,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.5391776824,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.3425385022165,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_05.npz",
+      "sha256": "72655cdbd481a0e8fabb15f8b502661be1c9e34f65065f3e8021168e302890fc",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000026@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 26,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 26,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000026.png",
+          "sha256": "49add3438eb4a33c9f5f0e7d79ddacb3a32d92227ac9aa0bcc3fab3964bf5788",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0026.png",
+          "source_sha256": "49add3438eb4a33c9f5f0e7d79ddacb3a32d92227ac9aa0bcc3fab3964bf5788",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 26
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000026",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5276.182638236284,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5274.951906409264,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.5391776824,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.3425385022165,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.629896076918,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.028301581145,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.610673042536,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.920910921097,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.3140367233755,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_06.npz",
+      "sha256": "80a3aa13785ee0414709ab9d1ef7e4a31a59a25ee80dd8577932f97bc8c157ac",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000032@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 32,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 32,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000032.png",
+          "sha256": "2199a1fa2bac8e20dcb3c1c36b64088dbdfb8d2f9954a4b0b93f2cb2f6973027",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0032.png",
+          "source_sha256": "2199a1fa2bac8e20dcb3c1c36b64088dbdfb8d2f9954a4b0b93f2cb2f6973027",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 32
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000032",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5276.610673042536,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.920910921097,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.3140367233755,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.752364923955,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.675687339306,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.633427556753,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.8879019045835,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.560106649399,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.010856916905,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_07.npz",
+      "sha256": "1c5bbb4a7e33fb3aad86fa85320d40d83a579f1c2b03a3456c1b2236eb9c1962",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000037@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 37,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 37,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000037.png",
+          "sha256": "3158646452b98b4be2a665f35dc38d9f097a6a855d5e9f3410be14b2e51cd1c9",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0037.png",
+          "source_sha256": "3158646452b98b4be2a665f35dc38d9f097a6a855d5e9f3410be14b2e51cd1c9",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 37
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000037",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5277.633427556753,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.8879019045835,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.560106649399,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.010856916905,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.4525051379205,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.607501932383,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.874753519297,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.336754425764,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.251064952612,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_08.npz",
+      "sha256": "983c37f23e2b186d4069ea8e3c5a8dbaee198f31d55d1acdc61d38362dd3504a",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000042@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 42,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 42,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000042.png",
+          "sha256": "0199919a97c48086fd4859a13165d4c4366e6066bee9c101d717f6b7b6d5614d",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0042.png",
+          "source_sha256": "0199919a97c48086fd4859a13165d4c4366e6066bee9c101d717f6b7b6d5614d",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 42
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000042",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5276.607501932383,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.874753519297,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.336754425764,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.251064952612,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.000251611472,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.6063141310215,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.392738887072,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.428307511806,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.872583898306,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_09.npz",
+      "sha256": "40442ddf0eeb2edae30a1397fb657399966293b673b8d98470c34f351d36ff8e",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000048@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 48,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 48,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000048.png",
+          "sha256": "6ade5d3c6b4c065e63202c60a110ada50ba380349baf20bae16b5a7588578b3d",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0048.png",
+          "source_sha256": "6ade5d3c6b4c065e63202c60a110ada50ba380349baf20bae16b5a7588578b3d",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 48
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000048",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5276.392738887072,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.428307511806,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.872583898306,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.31364165783,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.225816514492,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5279.09005697012,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.5058806324005,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.149218609334,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.482156630755,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_10.npz",
+      "sha256": "b6c0dd5ab2a7f8dc218af64c0d59ac215ab2d8a8760526b3190c31d042c9f7ae",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000053@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 53,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 53,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000053.png",
+          "sha256": "a118fde9eaa79498d967c3061580ceae346a7c2dd7a4dfdce53fa3492807d89a",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0053.png",
+          "source_sha256": "a118fde9eaa79498d967c3061580ceae346a7c2dd7a4dfdce53fa3492807d89a",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 53
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000053",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5279.09005697012,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.5058806324005,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.149218609334,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.482156630755,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5279.05635953784,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.782836368085,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.147240092755,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.688472946883,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.41314337492,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/test_11.npz",
+      "sha256": "4c3c1bd189dff5fcf49ab6909171f7bc3fd7f3027a5a03dea8e8a53b0928b71f",
+      "sample": {
+        "sample_id": "night/raw_20260805_201926/000059@test",
+        "domain": "night",
+        "sequence_id": "raw_20260805_201926",
+        "frame_id": 59,
+        "group_id": "night_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_201926/raw_u16.npy",
+          "index": 59,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_201926/000059.png",
+          "sha256": "3bfa6080abbc9ae2878958d7d42fbd78289de01c098ce48feb59cd63283568de",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_201926/enhanced/0059.png",
+          "source_sha256": "3bfa6080abbc9ae2878958d7d42fbd78289de01c098ce48feb59cd63283568de",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 59
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_201926/000059",
+        "split": "test",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "unique_history": 9,
+      "normalization": [
+        {
+          "offset": 5278.147240092755,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.688472946883,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.41314337492,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.151012029648,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5276.7476219379905,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.367971047163,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5278.080959477425,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.584175690413,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        },
+        {
+          "offset": 5277.7248990499975,
+          "middle_offset": 5277.5002557182315,
+          "scale": 94.11669921875
+        }
+      ],
+      "input_shapes": {
+        "nine_raw": [
+          1,
+          9,
+          1024,
+          1280
+        ],
+        "reference_thumb": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    }
+  ],
+  "config": {
+    "model": "CrossScene_night_s03",
+    "channels": 16,
+    "blocks": 4,
+    "scale": 3,
+    "dataset": "dataset_d1",
+    "data_root": "/data/zhangbenzhuang/huawei_sr/data",
+    "target_cache_root": "/data/zhangbenzhuang/huawei_sr/runs/EXP-TASK-019-002/targets",
+    "scene_ids": [
+      "night_ordinary",
+      "night_special"
+    ],
+    "expected_split_counts": {
+      "train": {
+        "night_ordinary": 180,
+        "night_special": 120
+      },
+      "val": {
+        "night_ordinary": 12,
+        "night_special": 12
+      },
+      "test": {
+        "night_ordinary": 12,
+        "night_special": 12
+      }
+    },
+    "seed": 928,
+    "batch_size": 4,
+    "workers": 2,
+    "loss": "Night reference tone + nine-frame denoised middle RAW + static and motion GT temporal supervision",
+    "optimizer": "Adam",
+    "lr": 5e-05,
+    "min_lr": 5e-05,
+    "warmup_steps": 0,
+    "max_steps": 2000,
+    "max_wall_seconds": 3600,
+    "amp": "bfloat16",
+    "gradient_clip_norm": 1,
+    "log_every": 50,
+    "validation_every": 1000,
+    "early_validation_steps": [],
+    "test_every": 2000,
+    "early_test_steps": [],
+    "checkpoint_every": 1000,
+    "selection": "Fixed 2000-step night temporal experiment; same test samples as parent",
+    "metrics": {
+      "range": [
+        0,
+        1
+      ],
+      "clip_prediction": true,
+      "uint8_rounding": false,
+      "hr_border": 3,
+      "ssim_gaussian_window": 11,
+      "ssim_sigma": 1.5,
+      "ssim_population_covariance": true
+    },
+    "gpu_uuid": "GPU-655fc72e-3e1f-236c-ee8b-5ee23e9bd264",
+    "gpu_physical_index": 1,
+    "train_crop_hr": [
+      768,
+      768
+    ],
+    "geometric_augmentation": true,
+    "augmentation_protocol": "uniform eight exact rot90/flip transforms after aligned crop; shared RAW/display/middle; train only",
+    "auxiliary_raw_weight": 0.1,
+    "initialization": "Night 18k checkpoint; zero-output nine-frame RAW correction and motion gate; fresh Adam",
+    "auxiliary_resolution": "input RAW grid: area3 of aligned denoised HR RAW crop",
+    "auxiliary_attachment": "shared body output before ISP tail; residual conv + pixelshuffle2; removed at inference",
+    "version": "quality_night_nine_frame_trajectory_2k",
+    "middle_gt_root": "/data/zhangbenzhuang/huawei_sr/runs/MIDGT-TRAIN-V1-20260922",
+    "middle_gt_index_sha256": "9c414c52678b546ffdc501540e15a9d7dd13acb65de95f0c14acd5698a8c6cae",
+    "lr_schedule_steps": 200000,
+    "pilot_skip_deployment": true,
+    "cuda_memory_limit_gib": 2.5,
+    "global_reference": true,
+    "sequence_normalization_index": "/data/zhangbenzhuang/huawei_sr/runs/SS928-CROSS-SCENE-20260923-CALIBRATION/index.json",
+    "sequence_normalization_sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54",
+    "normalization": "none",
+    "activation": "relu",
+    "shuffle_mode": "split23",
+    "packing_factor": 2,
+    "output_kernel": 3,
+    "native_training_mode": "mixed",
+    "native_crop_sampling": "uniform",
+    "absolute_raw_reference": false,
+    "initialization_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-QUALITY-V5-20260924-NIGHT-PYRAMID_TONE-TOTAL20K/checkpoints/step_000006000.pt",
+    "initialization_checkpoint_sha256": "ac46454a315995097dc0fd7a62971cb8051d35769a57dfc191a237291d0d17d4",
+    "native_start_step": 0,
+    "reference_pyramid": true,
+    "reference_tone_weight": 0.1,
+    "input_frames": 9,
+    "temporal_bottleneck": true,
+    "motion_gate": true,
+    "trajectory_gate": true,
+    "temporal_pairs": true,
+    "temporal_residual_weight": 0.0,
+    "static_temporal_weight": 1.0,
+    "static_temporal_change_gray": 1.0,
+    "static_temporal_gradient_gray": 5.0,
+    "static_temporal_exclusion_radius": 2,
+    "motion_temporal_weight": 2.0,
+    "motion_change_gray": 3.0,
+    "motion_radius": 1,
+    "gate_low_gray": 1.0,
+    "gate_high_gray": 3.0,
+    "gate_positive_weight": 5.0,
+    "gate_loss_weight": 0.02,
+    "causal_dynamic_correction": true,
+    "dynamic_correction": "Causal first-six-of-nine RAW reference; per-frame common, row, column, broad field"
+  },
+  "layers": {
+    "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/pc_layers_source_fp16.npz",
+    "sha256": "19c5e07ebc004d84f43a10803595db6b896491a01ac776b01ada323df161da1c",
+    "precision": "FP16 source, dumped as FP32",
+    "sample_id": "night/raw_20260805_201926/000000@test",
+    "stages": {
+      "front": [
+        1,
+        4,
+        512,
+        640
+      ],
+      "head": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "body": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "reference_encoder": [
+        1,
+        12,
+        64,
+        64
+      ],
+      "reference_project": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "tail": [
+        1,
+        16,
+        512,
+        640
+      ],
+      "output_before_clip": [
+        1,
+        4,
+        512,
+        640
+      ]
+    }
+  }
+}

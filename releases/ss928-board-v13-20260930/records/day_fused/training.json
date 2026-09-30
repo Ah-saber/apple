@@ -1,0 +1,3793 @@
+{
+  "spec": {
+    "scenes": [
+      "day_normal"
+    ],
+    "teacher": "DAY-FULLNIGHT-LR1E4",
+    "baseline": "HALF-DAY-NINE-TEMPORAL",
+    "cache": "QUARTER-DAY",
+    "width": 24,
+    "depth": 2,
+    "raw_skip": true,
+    "late_reference": false
+  },
+  "seed": 930,
+  "steps": 20000,
+  "cache": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-QUARTER-DAY-20260929/train_cache.pt",
+  "cache_sha256": "ca117412e23f30adfe179b3ff78a1dc7e5230d569423aa48d45ff3854dfee85c",
+  "metadata": [
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "crop": [
+        268,
+        292,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "crop": [
+        488,
+        644,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "crop": [
+        516,
+        884,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000000@train",
+      "frames": [
+        0,
+        0
+      ],
+      "crop": [
+        112,
+        168,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000058@train",
+      "frames": [
+        57,
+        58
+      ],
+      "crop": [
+        88,
+        696,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000058@train",
+      "frames": [
+        57,
+        58
+      ],
+      "crop": [
+        88,
+        1008,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000058@train",
+      "frames": [
+        57,
+        58
+      ],
+      "crop": [
+        244,
+        100,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000058@train",
+      "frames": [
+        57,
+        58
+      ],
+      "crop": [
+        408,
+        1104,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000117@train",
+      "frames": [
+        116,
+        117
+      ],
+      "crop": [
+        700,
+        132,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000117@train",
+      "frames": [
+        116,
+        117
+      ],
+      "crop": [
+        784,
+        564,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000117@train",
+      "frames": [
+        116,
+        117
+      ],
+      "crop": [
+        280,
+        960,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-03-38_001/000117@train",
+      "frames": [
+        116,
+        117
+      ],
+      "crop": [
+        660,
+        764,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "crop": [
+        132,
+        752,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "crop": [
+        528,
+        1060,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "crop": [
+        272,
+        1056,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000055@train",
+      "frames": [
+        54,
+        55
+      ],
+      "crop": [
+        364,
+        612,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000114@train",
+      "frames": [
+        113,
+        114
+      ],
+      "crop": [
+        112,
+        1060,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000114@train",
+      "frames": [
+        113,
+        114
+      ],
+      "crop": [
+        572,
+        304,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000114@train",
+      "frames": [
+        113,
+        114
+      ],
+      "crop": [
+        844,
+        856,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-06-24_001/000114@train",
+      "frames": [
+        113,
+        114
+      ],
+      "crop": [
+        348,
+        436,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000052@train",
+      "frames": [
+        51,
+        52
+      ],
+      "crop": [
+        396,
+        324,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000052@train",
+      "frames": [
+        51,
+        52
+      ],
+      "crop": [
+        448,
+        612,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000052@train",
+      "frames": [
+        51,
+        52
+      ],
+      "crop": [
+        48,
+        952,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000052@train",
+      "frames": [
+        51,
+        52
+      ],
+      "crop": [
+        756,
+        236,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000111@train",
+      "frames": [
+        110,
+        111
+      ],
+      "crop": [
+        80,
+        840,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000111@train",
+      "frames": [
+        110,
+        111
+      ],
+      "crop": [
+        640,
+        864,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000111@train",
+      "frames": [
+        110,
+        111
+      ],
+      "crop": [
+        816,
+        708,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-07-55_001/000111@train",
+      "frames": [
+        110,
+        111
+      ],
+      "crop": [
+        412,
+        864,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "crop": [
+        620,
+        640,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "crop": [
+        120,
+        132,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "crop": [
+        492,
+        592,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000049@train",
+      "frames": [
+        48,
+        49
+      ],
+      "crop": [
+        76,
+        468,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000108@train",
+      "frames": [
+        107,
+        108
+      ],
+      "crop": [
+        856,
+        1052,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000108@train",
+      "frames": [
+        107,
+        108
+      ],
+      "crop": [
+        60,
+        408,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000108@train",
+      "frames": [
+        107,
+        108
+      ],
+      "crop": [
+        756,
+        504,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-09-49_001/000108@train",
+      "frames": [
+        107,
+        108
+      ],
+      "crop": [
+        468,
+        1008,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "crop": [
+        896,
+        568,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "crop": [
+        720,
+        456,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "crop": [
+        604,
+        496,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000046@train",
+      "frames": [
+        45,
+        46
+      ],
+      "crop": [
+        512,
+        708,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000105@train",
+      "frames": [
+        104,
+        105
+      ],
+      "crop": [
+        532,
+        528,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000105@train",
+      "frames": [
+        104,
+        105
+      ],
+      "crop": [
+        300,
+        328,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000105@train",
+      "frames": [
+        104,
+        105
+      ],
+      "crop": [
+        716,
+        264,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-18_001/000105@train",
+      "frames": [
+        104,
+        105
+      ],
+      "crop": [
+        800,
+        496,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "crop": [
+        816,
+        296,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "crop": [
+        588,
+        152,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "crop": [
+        196,
+        532,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000043@train",
+      "frames": [
+        42,
+        43
+      ],
+      "crop": [
+        592,
+        1100,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000102@train",
+      "frames": [
+        101,
+        102
+      ],
+      "crop": [
+        496,
+        308,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000102@train",
+      "frames": [
+        101,
+        102
+      ],
+      "crop": [
+        84,
+        404,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000102@train",
+      "frames": [
+        101,
+        102
+      ],
+      "crop": [
+        204,
+        436,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-12-44_001/000102@train",
+      "frames": [
+        101,
+        102
+      ],
+      "crop": [
+        232,
+        924,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        352,
+        144,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        536,
+        472,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        320,
+        364,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        292,
+        1108,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        408,
+        1120,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        756,
+        680,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        312,
+        212,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-12_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        488,
+        440,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        272,
+        832,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        684,
+        844,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        644,
+        248,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        136,
+        216,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000099@train",
+      "frames": [
+        98,
+        99
+      ],
+      "crop": [
+        820,
+        736,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000099@train",
+      "frames": [
+        98,
+        99
+      ],
+      "crop": [
+        28,
+        236,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000099@train",
+      "frames": [
+        98,
+        99
+      ],
+      "crop": [
+        644,
+        292,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-13-40_001/000099@train",
+      "frames": [
+        98,
+        99
+      ],
+      "crop": [
+        760,
+        388,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        232,
+        892,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        624,
+        936,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        344,
+        308,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        212,
+        84,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000099@train",
+      "frames": [
+        98,
+        99
+      ],
+      "crop": [
+        696,
+        448,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000099@train",
+      "frames": [
+        98,
+        99
+      ],
+      "crop": [
+        316,
+        876,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000099@train",
+      "frames": [
+        98,
+        99
+      ],
+      "crop": [
+        244,
+        536,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-05_001/000099@train",
+      "frames": [
+        98,
+        99
+      ],
+      "crop": [
+        0,
+        8,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        448,
+        1052,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        616,
+        796,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        124,
+        704,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        560,
+        852,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        608,
+        620,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        8,
+        220,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        192,
+        268,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-14-45_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        152,
+        192,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000044@train",
+      "frames": [
+        43,
+        44
+      ],
+      "crop": [
+        296,
+        760,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000044@train",
+      "frames": [
+        43,
+        44
+      ],
+      "crop": [
+        40,
+        164,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000044@train",
+      "frames": [
+        43,
+        44
+      ],
+      "crop": [
+        4,
+        1144,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000044@train",
+      "frames": [
+        43,
+        44
+      ],
+      "crop": [
+        536,
+        364,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000102@train",
+      "frames": [
+        101,
+        102
+      ],
+      "crop": [
+        224,
+        152,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000102@train",
+      "frames": [
+        101,
+        102
+      ],
+      "crop": [
+        704,
+        368,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000102@train",
+      "frames": [
+        101,
+        102
+      ],
+      "crop": [
+        268,
+        480,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-15-11_001/000102@train",
+      "frames": [
+        101,
+        102
+      ],
+      "crop": [
+        228,
+        220,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "crop": [
+        564,
+        40,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "crop": [
+        188,
+        24,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "crop": [
+        244,
+        684,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000047@train",
+      "frames": [
+        46,
+        47
+      ],
+      "crop": [
+        856,
+        988,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000105@train",
+      "frames": [
+        104,
+        105
+      ],
+      "crop": [
+        520,
+        184,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000105@train",
+      "frames": [
+        104,
+        105
+      ],
+      "crop": [
+        504,
+        324,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000105@train",
+      "frames": [
+        104,
+        105
+      ],
+      "crop": [
+        324,
+        756,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-01_001/000105@train",
+      "frames": [
+        104,
+        105
+      ],
+      "crop": [
+        20,
+        520,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000044@train",
+      "frames": [
+        43,
+        44
+      ],
+      "crop": [
+        220,
+        508,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000044@train",
+      "frames": [
+        43,
+        44
+      ],
+      "crop": [
+        428,
+        1012,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000044@train",
+      "frames": [
+        43,
+        44
+      ],
+      "crop": [
+        84,
+        720,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000044@train",
+      "frames": [
+        43,
+        44
+      ],
+      "crop": [
+        764,
+        956,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000103@train",
+      "frames": [
+        102,
+        103
+      ],
+      "crop": [
+        120,
+        908,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000103@train",
+      "frames": [
+        102,
+        103
+      ],
+      "crop": [
+        572,
+        16,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000103@train",
+      "frames": [
+        102,
+        103
+      ],
+      "crop": [
+        684,
+        260,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-34_001/000103@train",
+      "frames": [
+        102,
+        103
+      ],
+      "crop": [
+        580,
+        100,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        192,
+        1084,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        228,
+        944,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        248,
+        748,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000042@train",
+      "frames": [
+        41,
+        42
+      ],
+      "crop": [
+        216,
+        580,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000101@train",
+      "frames": [
+        100,
+        101
+      ],
+      "crop": [
+        456,
+        80,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000101@train",
+      "frames": [
+        100,
+        101
+      ],
+      "crop": [
+        704,
+        840,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000101@train",
+      "frames": [
+        100,
+        101
+      ],
+      "crop": [
+        344,
+        560,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-19-59_001/000101@train",
+      "frames": [
+        100,
+        101
+      ],
+      "crop": [
+        580,
+        96,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        680,
+        672,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        504,
+        416,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        316,
+        616,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000041@train",
+      "frames": [
+        40,
+        41
+      ],
+      "crop": [
+        276,
+        572,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        568,
+        884,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        80,
+        964,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        832,
+        780,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-08_001/000100@train",
+      "frames": [
+        99,
+        100
+      ],
+      "crop": [
+        160,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "crop": [
+        296,
+        1004,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "crop": [
+        848,
+        4,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "crop": [
+        316,
+        1148,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000038@train",
+      "frames": [
+        37,
+        38
+      ],
+      "crop": [
+        152,
+        580,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000097@train",
+      "frames": [
+        96,
+        97
+      ],
+      "crop": [
+        668,
+        772,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000097@train",
+      "frames": [
+        96,
+        97
+      ],
+      "crop": [
+        864,
+        288,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000097@train",
+      "frames": [
+        96,
+        97
+      ],
+      "crop": [
+        704,
+        156,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-26-57_001/000097@train",
+      "frames": [
+        96,
+        97
+      ],
+      "crop": [
+        392,
+        208,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "crop": [
+        664,
+        208,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "crop": [
+        48,
+        932,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "crop": [
+        792,
+        204,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000035@train",
+      "frames": [
+        34,
+        35
+      ],
+      "crop": [
+        272,
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000094@train",
+      "frames": [
+        93,
+        94
+      ],
+      "crop": [
+        40,
+        480,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000094@train",
+      "frames": [
+        93,
+        94
+      ],
+      "crop": [
+        588,
+        1144,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000094@train",
+      "frames": [
+        93,
+        94
+      ],
+      "crop": [
+        712,
+        464,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-27-25_001/000094@train",
+      "frames": [
+        93,
+        94
+      ],
+      "crop": [
+        628,
+        8,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000033@train",
+      "frames": [
+        32,
+        33
+      ],
+      "crop": [
+        640,
+        396,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000033@train",
+      "frames": [
+        32,
+        33
+      ],
+      "crop": [
+        784,
+        40,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000033@train",
+      "frames": [
+        32,
+        33
+      ],
+      "crop": [
+        404,
+        936,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000033@train",
+      "frames": [
+        32,
+        33
+      ],
+      "crop": [
+        388,
+        652,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000092@train",
+      "frames": [
+        91,
+        92
+      ],
+      "crop": [
+        572,
+        48,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000092@train",
+      "frames": [
+        91,
+        92
+      ],
+      "crop": [
+        16,
+        280,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000092@train",
+      "frames": [
+        91,
+        92
+      ],
+      "crop": [
+        380,
+        440,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-30-37_001/000092@train",
+      "frames": [
+        91,
+        92
+      ],
+      "crop": [
+        332,
+        340,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "crop": [
+        328,
+        672,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "crop": [
+        720,
+        208,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "crop": [
+        812,
+        928,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000030@train",
+      "frames": [
+        29,
+        30
+      ],
+      "crop": [
+        344,
+        320,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000089@train",
+      "frames": [
+        88,
+        89
+      ],
+      "crop": [
+        300,
+        56,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000089@train",
+      "frames": [
+        88,
+        89
+      ],
+      "crop": [
+        256,
+        536,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000089@train",
+      "frames": [
+        88,
+        89
+      ],
+      "crop": [
+        100,
+        488,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-31-37_001/000089@train",
+      "frames": [
+        88,
+        89
+      ],
+      "crop": [
+        584,
+        600,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "crop": [
+        560,
+        256,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "crop": [
+        116,
+        1004,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "crop": [
+        724,
+        420,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000028@train",
+      "frames": [
+        27,
+        28
+      ],
+      "crop": [
+        568,
+        96,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000086@train",
+      "frames": [
+        85,
+        86
+      ],
+      "crop": [
+        516,
+        236,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000086@train",
+      "frames": [
+        85,
+        86
+      ],
+      "crop": [
+        324,
+        740,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000086@train",
+      "frames": [
+        85,
+        86
+      ],
+      "crop": [
+        20,
+        588,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-32-53_001/000086@train",
+      "frames": [
+        85,
+        86
+      ],
+      "crop": [
+        160,
+        180,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000025@train",
+      "frames": [
+        24,
+        25
+      ],
+      "crop": [
+        416,
+        704,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000025@train",
+      "frames": [
+        24,
+        25
+      ],
+      "crop": [
+        724,
+        1024,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000025@train",
+      "frames": [
+        24,
+        25
+      ],
+      "crop": [
+        104,
+        764,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000025@train",
+      "frames": [
+        24,
+        25
+      ],
+      "crop": [
+        488,
+        776,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000083@train",
+      "frames": [
+        82,
+        83
+      ],
+      "crop": [
+        36,
+        144,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000083@train",
+      "frames": [
+        82,
+        83
+      ],
+      "crop": [
+        64,
+        348,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000083@train",
+      "frames": [
+        82,
+        83
+      ],
+      "crop": [
+        420,
+        884,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-34-12_001/000083@train",
+      "frames": [
+        82,
+        83
+      ],
+      "crop": [
+        408,
+        480,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000022@train",
+      "frames": [
+        21,
+        22
+      ],
+      "crop": [
+        456,
+        720,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000022@train",
+      "frames": [
+        21,
+        22
+      ],
+      "crop": [
+        644,
+        948,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000022@train",
+      "frames": [
+        21,
+        22
+      ],
+      "crop": [
+        116,
+        660,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000022@train",
+      "frames": [
+        21,
+        22
+      ],
+      "crop": [
+        608,
+        1096,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000080@train",
+      "frames": [
+        79,
+        80
+      ],
+      "crop": [
+        828,
+        260,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000080@train",
+      "frames": [
+        79,
+        80
+      ],
+      "crop": [
+        816,
+        876,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000080@train",
+      "frames": [
+        79,
+        80
+      ],
+      "crop": [
+        840,
+        656,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-35-19_001/000080@train",
+      "frames": [
+        79,
+        80
+      ],
+      "crop": [
+        228,
+        344,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000019@train",
+      "frames": [
+        18,
+        19
+      ],
+      "crop": [
+        896,
+        532,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000019@train",
+      "frames": [
+        18,
+        19
+      ],
+      "crop": [
+        568,
+        92,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000019@train",
+      "frames": [
+        18,
+        19
+      ],
+      "crop": [
+        344,
+        868,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000019@train",
+      "frames": [
+        18,
+        19
+      ],
+      "crop": [
+        836,
+        196,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000077@train",
+      "frames": [
+        76,
+        77
+      ],
+      "crop": [
+        740,
+        96,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000077@train",
+      "frames": [
+        76,
+        77
+      ],
+      "crop": [
+        712,
+        872,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000077@train",
+      "frames": [
+        76,
+        77
+      ],
+      "crop": [
+        884,
+        508,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-36-07_001/000077@train",
+      "frames": [
+        76,
+        77
+      ],
+      "crop": [
+        844,
+        908,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000016@train",
+      "frames": [
+        15,
+        16
+      ],
+      "crop": [
+        284,
+        832,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000016@train",
+      "frames": [
+        15,
+        16
+      ],
+      "crop": [
+        644,
+        180,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000016@train",
+      "frames": [
+        15,
+        16
+      ],
+      "crop": [
+        612,
+        704,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000016@train",
+      "frames": [
+        15,
+        16
+      ],
+      "crop": [
+        28,
+        300,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000074@train",
+      "frames": [
+        73,
+        74
+      ],
+      "crop": [
+        116,
+        892,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000074@train",
+      "frames": [
+        73,
+        74
+      ],
+      "crop": [
+        564,
+        356,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000074@train",
+      "frames": [
+        73,
+        74
+      ],
+      "crop": [
+        816,
+        172,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-37-51_001/000074@train",
+      "frames": [
+        73,
+        74
+      ],
+      "crop": [
+        8,
+        1084,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000013@train",
+      "frames": [
+        12,
+        13
+      ],
+      "crop": [
+        200,
+        284,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000013@train",
+      "frames": [
+        12,
+        13
+      ],
+      "crop": [
+        712,
+        216,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000013@train",
+      "frames": [
+        12,
+        13
+      ],
+      "crop": [
+        136,
+        548,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000013@train",
+      "frames": [
+        12,
+        13
+      ],
+      "crop": [
+        392,
+        844,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000071@train",
+      "frames": [
+        70,
+        71
+      ],
+      "crop": [
+        396,
+        420,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000071@train",
+      "frames": [
+        70,
+        71
+      ],
+      "crop": [
+        232,
+        136,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000071@train",
+      "frames": [
+        70,
+        71
+      ],
+      "crop": [
+        604,
+        48,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-15_001/000071@train",
+      "frames": [
+        70,
+        71
+      ],
+      "crop": [
+        564,
+        1068,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "crop": [
+        60,
+        1088,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "crop": [
+        520,
+        896,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "crop": [
+        528,
+        820,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000011@train",
+      "frames": [
+        10,
+        11
+      ],
+      "crop": [
+        336,
+        416,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000070@train",
+      "frames": [
+        69,
+        70
+      ],
+      "crop": [
+        132,
+        200,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000070@train",
+      "frames": [
+        69,
+        70
+      ],
+      "crop": [
+        372,
+        456,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000070@train",
+      "frames": [
+        69,
+        70
+      ],
+      "crop": [
+        720,
+        40,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-38-51_001/000070@train",
+      "frames": [
+        69,
+        70
+      ],
+      "crop": [
+        148,
+        164,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000010@train",
+      "frames": [
+        9,
+        10
+      ],
+      "crop": [
+        608,
+        148,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000010@train",
+      "frames": [
+        9,
+        10
+      ],
+      "crop": [
+        316,
+        588,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000010@train",
+      "frames": [
+        9,
+        10
+      ],
+      "crop": [
+        88,
+        836,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000010@train",
+      "frames": [
+        9,
+        10
+      ],
+      "crop": [
+        712,
+        740,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000069@train",
+      "frames": [
+        68,
+        69
+      ],
+      "crop": [
+        352,
+        292,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000069@train",
+      "frames": [
+        68,
+        69
+      ],
+      "crop": [
+        164,
+        676,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000069@train",
+      "frames": [
+        68,
+        69
+      ],
+      "crop": [
+        156,
+        508,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-39-24_001/000069@train",
+      "frames": [
+        68,
+        69
+      ],
+      "crop": [
+        180,
+        428,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000010@train",
+      "frames": [
+        9,
+        10
+      ],
+      "crop": [
+        372,
+        752,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000010@train",
+      "frames": [
+        9,
+        10
+      ],
+      "crop": [
+        548,
+        552,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000010@train",
+      "frames": [
+        9,
+        10
+      ],
+      "crop": [
+        180,
+        212,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000010@train",
+      "frames": [
+        9,
+        10
+      ],
+      "crop": [
+        360,
+        944,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000069@train",
+      "frames": [
+        68,
+        69
+      ],
+      "crop": [
+        580,
+        224,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000069@train",
+      "frames": [
+        68,
+        69
+      ],
+      "crop": [
+        292,
+        724,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000069@train",
+      "frames": [
+        68,
+        69
+      ],
+      "crop": [
+        880,
+        628,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-42-29_001/000069@train",
+      "frames": [
+        68,
+        69
+      ],
+      "crop": [
+        456,
+        644,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "crop": [
+        276,
+        364,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "crop": [
+        96,
+        196,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "crop": [
+        680,
+        780,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000007@train",
+      "frames": [
+        6,
+        7
+      ],
+      "crop": [
+        720,
+        1068,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000066@train",
+      "frames": [
+        65,
+        66
+      ],
+      "crop": [
+        32,
+        568,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000066@train",
+      "frames": [
+        65,
+        66
+      ],
+      "crop": [
+        868,
+        848,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000066@train",
+      "frames": [
+        65,
+        66
+      ],
+      "crop": [
+        48,
+        120,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-04_001/000066@train",
+      "frames": [
+        65,
+        66
+      ],
+      "crop": [
+        616,
+        216,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000004@train",
+      "frames": [
+        3,
+        4
+      ],
+      "crop": [
+        160,
+        340,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000004@train",
+      "frames": [
+        3,
+        4
+      ],
+      "crop": [
+        884,
+        600,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000004@train",
+      "frames": [
+        3,
+        4
+      ],
+      "crop": [
+        504,
+        416,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000004@train",
+      "frames": [
+        3,
+        4
+      ],
+      "crop": [
+        640,
+        388,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000063@train",
+      "frames": [
+        62,
+        63
+      ],
+      "crop": [
+        4,
+        1144,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000063@train",
+      "frames": [
+        62,
+        63
+      ],
+      "crop": [
+        244,
+        448,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000063@train",
+      "frames": [
+        62,
+        63
+      ],
+      "crop": [
+        184,
+        156,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-44-58_001/000063@train",
+      "frames": [
+        62,
+        63
+      ],
+      "crop": [
+        304,
+        188,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "crop": [
+        528,
+        276,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "crop": [
+        412,
+        88,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "crop": [
+        48,
+        664,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000001@train",
+      "frames": [
+        0,
+        1
+      ],
+      "crop": [
+        688,
+        8,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000060@train",
+      "frames": [
+        59,
+        60
+      ],
+      "crop": [
+        776,
+        968,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000060@train",
+      "frames": [
+        59,
+        60
+      ],
+      "crop": [
+        284,
+        820,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000060@train",
+      "frames": [
+        59,
+        60
+      ],
+      "crop": [
+        788,
+        224,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000060@train",
+      "frames": [
+        59,
+        60
+      ],
+      "crop": [
+        624,
+        172,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000119@train",
+      "frames": [
+        118,
+        119
+      ],
+      "crop": [
+        28,
+        692,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000119@train",
+      "frames": [
+        118,
+        119
+      ],
+      "crop": [
+        100,
+        772,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000119@train",
+      "frames": [
+        118,
+        119
+      ],
+      "crop": [
+        816,
+        636,
+        128,
+        128
+      ]
+    },
+    {
+      "scene": "day_normal",
+      "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-12-47-17_001/000119@train",
+      "frames": [
+        118,
+        119
+      ],
+      "crop": [
+        8,
+        840,
+        128,
+        128
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "step": 1,
+      "loss": 71.38401794433594,
+      "train_mae_gray": 35.37761306762695,
+      "elapsed_seconds": 0.42212231270968914
+    },
+    {
+      "step": 1000,
+      "loss": 35.13917541503906,
+      "train_mae_gray": 11.54712200164795,
+      "elapsed_seconds": 3.74284157063812
+    },
+    {
+      "step": 2000,
+      "loss": 44.23957061767578,
+      "train_mae_gray": 16.6331787109375,
+      "elapsed_seconds": 7.220424022059888,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 20.275059252698465,
+          "mae_gray": 17.177697718143463
+        }
+      }
+    },
+    {
+      "step": 3000,
+      "loss": 39.752742767333984,
+      "train_mae_gray": 13.59277629852295,
+      "elapsed_seconds": 15.476687307935208
+    },
+    {
+      "step": 4000,
+      "loss": 35.141082763671875,
+      "train_mae_gray": 10.651247024536133,
+      "elapsed_seconds": 19.04377357987687,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 20.81283023282528,
+          "mae_gray": 16.988642029464245
+        }
+      }
+    },
+    {
+      "step": 5000,
+      "loss": 36.75074768066406,
+      "train_mae_gray": 11.73652172088623,
+      "elapsed_seconds": 26.935386708937585
+    },
+    {
+      "step": 6000,
+      "loss": 35.469486236572266,
+      "train_mae_gray": 11.344779968261719,
+      "elapsed_seconds": 30.19980616401881,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 21.659592206902023,
+          "mae_gray": 14.972870857454836
+        }
+      }
+    },
+    {
+      "step": 7000,
+      "loss": 40.63306427001953,
+      "train_mae_gray": 13.691184043884277,
+      "elapsed_seconds": 37.95491509977728
+    },
+    {
+      "step": 8000,
+      "loss": 39.754520416259766,
+      "train_mae_gray": 13.120060920715332,
+      "elapsed_seconds": 41.32355819968507,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 22.158805109667423,
+          "mae_gray": 14.287504800595343
+        }
+      }
+    },
+    {
+      "step": 9000,
+      "loss": 40.70326232910156,
+      "train_mae_gray": 12.53424072265625,
+      "elapsed_seconds": 49.385012346785516
+    },
+    {
+      "step": 10000,
+      "loss": 36.426170349121094,
+      "train_mae_gray": 11.487401008605957,
+      "elapsed_seconds": 52.77002496877685,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 22.329154432391693,
+          "mae_gray": 14.076921129599214
+        }
+      }
+    },
+    {
+      "step": 11000,
+      "loss": 37.289432525634766,
+      "train_mae_gray": 11.26177978515625,
+      "elapsed_seconds": 60.526259450707585
+    },
+    {
+      "step": 12000,
+      "loss": 37.63938522338867,
+      "train_mae_gray": 11.158374786376953,
+      "elapsed_seconds": 63.895818122662604,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 22.231270233459018,
+          "mae_gray": 14.439235250465572
+        }
+      }
+    },
+    {
+      "step": 13000,
+      "loss": 38.92888259887695,
+      "train_mae_gray": 12.099591255187988,
+      "elapsed_seconds": 71.60046222386882
+    },
+    {
+      "step": 14000,
+      "loss": 33.5405158996582,
+      "train_mae_gray": 9.627938270568848,
+      "elapsed_seconds": 74.8871627599001,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 22.200753658791935,
+          "mae_gray": 14.72538301255554
+        }
+      }
+    },
+    {
+      "step": 15000,
+      "loss": 40.37955856323242,
+      "train_mae_gray": 12.809853553771973,
+      "elapsed_seconds": 82.71113159693778
+    },
+    {
+      "step": 16000,
+      "loss": 38.594425201416016,
+      "train_mae_gray": 12.007877349853516,
+      "elapsed_seconds": 86.07001720974222,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 22.538233185087236,
+          "mae_gray": 13.700799974612892
+        }
+      }
+    },
+    {
+      "step": 17000,
+      "loss": 41.80830383300781,
+      "train_mae_gray": 14.764535903930664,
+      "elapsed_seconds": 94.07211733004078
+    },
+    {
+      "step": 18000,
+      "loss": 38.269142150878906,
+      "train_mae_gray": 12.021302223205566,
+      "elapsed_seconds": 97.59592133294791,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 22.536091029609647,
+          "mae_gray": 13.732912526465952
+        }
+      }
+    },
+    {
+      "step": 19000,
+      "loss": 33.48435974121094,
+      "train_mae_gray": 8.938776016235352,
+      "elapsed_seconds": 105.39716252777725
+    },
+    {
+      "step": 20000,
+      "loss": 34.43144226074219,
+      "train_mae_gray": 10.753422737121582,
+      "elapsed_seconds": 108.63209942402318,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 22.52736818469171,
+          "mae_gray": 13.796326532028615
+        }
+      }
+    }
+  ],
+  "source_commit": "0c1f674d7b5f1d1aed8e75ac64082c97e0dedc9e"
+}

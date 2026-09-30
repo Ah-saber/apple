@@ -1,0 +1,2347 @@
+{
+  "config_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-NINE-SCRATCH-20260929-LIGHT-FULLNIGHT-20K/checkpoints/best.pt",
+  "config_sha256": "f8093d998ae6a859c2b006a385d33a7f0a9760178e55311fb7501909910cdc70",
+  "student": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-HALF-LIGHT-TEMPORAL-20260929/average05.pt",
+  "student_sha256": "11b6a196057275b1563f08e29124f7c326031633bcc9d33ab51b4d191ba843e1",
+  "context_box": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "normalization_sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559",
+  "dynamic_correction": true,
+  "sampling_control": {
+    "mean_abs": 1.764700208184422e-08,
+    "max_abs": 1.7881393432617188e-07
+  },
+  "graphs": [
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/weather_medium_equivalent_fp32_rows32.onnx",
+      "sha256": "b6f38dca14af5c268468f2d9ce466b0654147d4567ce7aaa330b91cfbe21ebde",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "nodes": 135,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/weather_medium_equivalent_fp32_phases.onnx",
+      "sha256": "d95f91bf504098e688832d42261d19b0fc730dfc021f24da44aed06c4c1ea2a4",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "nodes": 126,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "type": 1,
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/weather_medium_equivalent_fp32_byte.onnx",
+      "sha256": "3b2749e6dd43a3830488efe43f1d2fb03aebe6af775b770f720ee59ecf96a58e",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "nodes": 136,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 2,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/weather_medium_equivalent_fp16_rows32.onnx",
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "nodes": 135,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 10,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/weather_medium_equivalent_fp16_phases.onnx",
+      "sha256": "04da434ee37910be27b556b425beeb091ffb97a731d48875b0e8598a50d1ed3b",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "nodes": 126,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 10,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "four_phases",
+          "type": 10,
+          "shape": [
+            1,
+            4,
+            512,
+            640
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/weather_medium_equivalent_fp16_byte.onnx",
+      "sha256": "b930df7862dcc8ceaa2689dbcfb5c792d168f08f96c5c27f647e1be2a14d9548",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "nodes": 136,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 10,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 2,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    }
+  ],
+  "calibration": [
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/train_00.npz",
+      "sha256": "c3f6b123bfc894ee91b55aad720a77d03d7c714a6309a46c057fb9f1e28346ad",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000008@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001",
+        "frame_id": 8,
+        "group_id": "adverse_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/raw_u16.npy",
+          "index": 8,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000008.png",
+          "sha256": "d23f3cb96c0816ebf56a067cf466b4fcdfae054ade43ee3fdbf75f5a4d0d5b75",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/enhanced/0008.png",
+          "source_sha256": "d23f3cb96c0816ebf56a067cf466b4fcdfae054ade43ee3fdbf75f5a4d0d5b75",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-WP2B",
+          "frame_id": 8
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000008",
+        "split": "train",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "history_frame_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "history_unique": 9,
+      "normalization": [
+        {
+          "offset": 5102.798742464831,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        },
+        {
+          "offset": 5103.246046618273,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        },
+        {
+          "offset": 5104.141727057745,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        },
+        {
+          "offset": 5104.156394109776,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        },
+        {
+          "offset": 5104.375346837093,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        },
+        {
+          "offset": 5103.883711943676,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        },
+        {
+          "offset": 5103.0721492386365,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        },
+        {
+          "offset": 5103.145365527918,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        },
+        {
+          "offset": 5103.358372912457,
+          "middle_offset": 5104.968331292917,
+          "scale": 179.625
+        }
+      ],
+      "deployment_context_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "training_context_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "frame_mean_abs_variation_normalized": 0.004920825362205505
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/train_01.npz",
+      "sha256": "1dd7e444722642e03bd60b492f34b3c18dbeccfd628f55f96dab2ee402f6acff",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000119@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001",
+        "frame_id": 119,
+        "group_id": "adverse_capture_03",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/raw_u16.npy",
+          "index": 119,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000119.png",
+          "sha256": "24254c88f4b85eacfd9a61fa4d6541bc4dea04da013f70ac28590b873bbd1a73",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/enhanced/0119.png",
+          "source_sha256": "24254c88f4b85eacfd9a61fa4d6541bc4dea04da013f70ac28590b873bbd1a73",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6C",
+          "frame_id": 119
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000119",
+        "split": "train",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "history_frame_ids": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "history_unique": 9,
+      "normalization": [
+        {
+          "offset": 5041.127998409569,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        },
+        {
+          "offset": 5041.52413298279,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        },
+        {
+          "offset": 5043.013751445114,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        },
+        {
+          "offset": 5043.092353228629,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        },
+        {
+          "offset": 5042.785894952119,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        },
+        {
+          "offset": 5042.668554238379,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        },
+        {
+          "offset": 5041.794985083639,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        },
+        {
+          "offset": 5043.483801893294,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        },
+        {
+          "offset": 5043.235479847491,
+          "middle_offset": 5041.7742363372445,
+          "scale": 179.5023325195325
+        }
+      ],
+      "deployment_context_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "training_context_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "frame_mean_abs_variation_normalized": 0.004981599748134613
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/train_02.npz",
+      "sha256": "906c6fd7a5ea8a2434fa0d11378aa801f8e1782d964b5643f36a3081a8240e61",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000119@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001",
+        "frame_id": 119,
+        "group_id": "adverse_capture_05",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/raw_u16.npy",
+          "index": 119,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000119.png",
+          "sha256": "4901f82f5e2bf1768e845ca225d75d8b24612f0fdd0017f1778dad0ecce5400f",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/enhanced/0119.png",
+          "source_sha256": "4901f82f5e2bf1768e845ca225d75d8b24612f0fdd0017f1778dad0ecce5400f",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6C",
+          "frame_id": 119
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000119",
+        "split": "train",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          256,
+          1024,
+          768
+        ]
+      },
+      "history_frame_ids": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "history_unique": 9,
+      "normalization": [
+        {
+          "offset": 5099.29576522505,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        },
+        {
+          "offset": 5098.787994577444,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        },
+        {
+          "offset": 5098.150870615201,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        },
+        {
+          "offset": 5097.604809615967,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        },
+        {
+          "offset": 5098.401372049209,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        },
+        {
+          "offset": 5098.871787581798,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        },
+        {
+          "offset": 5099.136486792521,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        },
+        {
+          "offset": 5099.451261772669,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        },
+        {
+          "offset": 5099.761951718685,
+          "middle_offset": 5098.816327387051,
+          "scale": 137.26774707031382
+        }
+      ],
+      "deployment_context_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "training_context_box": [
+        0.0,
+        -0.3333333432674408,
+        1.0,
+        1.3333333730697632
+      ],
+      "frame_mean_abs_variation_normalized": 0.005953277926892042
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/train_03.npz",
+      "sha256": "1b41e85ff5bc08a8d391cb224231c83bedec3d1b74aadf10c2f65ddba136128c",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000119@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001",
+        "frame_id": 119,
+        "group_id": "adverse_capture_06",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/raw_u16.npy",
+          "index": 119,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000119.png",
+          "sha256": "8b2da0c229d3e4fdf58c455391c9da078d18d05366a2293628a29e3694370149",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/enhanced/0119.png",
+          "source_sha256": "8b2da0c229d3e4fdf58c455391c9da078d18d05366a2293628a29e3694370149",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6D",
+          "frame_id": 119
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000119",
+        "split": "train",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          256,
+          1024,
+          768
+        ]
+      },
+      "history_frame_ids": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "history_unique": 9,
+      "normalization": [
+        {
+          "offset": 5109.8130720927875,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        },
+        {
+          "offset": 5110.400833554522,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        },
+        {
+          "offset": 5111.721676178233,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        },
+        {
+          "offset": 5113.320761042293,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        },
+        {
+          "offset": 5112.967591958698,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        },
+        {
+          "offset": 5112.342535314417,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        },
+        {
+          "offset": 5113.385102756278,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        },
+        {
+          "offset": 5111.911566900667,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        },
+        {
+          "offset": 5111.280655788835,
+          "middle_offset": 5110.701933599965,
+          "scale": 103.21745410156382
+        }
+      ],
+      "deployment_context_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "training_context_box": [
+        0.0,
+        -0.3333333432674408,
+        1.0,
+        1.3333333730697632
+      ],
+      "frame_mean_abs_variation_normalized": 0.0073184422217309475
+    }
+  ],
+  "test": [
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_00.npz",
+      "sha256": "192145d0c5dca72c6cc442a6aa4308b606f7b2d39cedc3c0568a54f8923e3811",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000000@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 0,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 0,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000000.png",
+          "sha256": "62c346dd939d03eb27f8e8f26b9565098f5ca58a011915dc48b176c26bcd930a",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0000.png",
+          "source_sha256": "62c346dd939d03eb27f8e8f26b9565098f5ca58a011915dc48b176c26bcd930a",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 0
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000000",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "equivalent_mae_gray": 7.797217222105246e-06,
+      "equivalent_max_gray": 0.0001220703125,
+      "after_projection_mae_gray": 8.419458936259616e-06,
+      "after_projection_max_gray": 0.0001220703125
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_01.npz",
+      "sha256": "e94f8fd2cf5a00081790315e2c91171bffee07ae99975b466484ae71d637c2d6",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000010@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 10,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 10,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000010.png",
+          "sha256": "24d61258db5fee39a2a5fcc41101a89e1eda983e1e97303228898ce2a84cf8c2",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0010.png",
+          "source_sha256": "24d61258db5fee39a2a5fcc41101a89e1eda983e1e97303228898ce2a84cf8c2",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 10
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000010",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "equivalent_mae_gray": 7.796568752382882e-06,
+      "equivalent_max_gray": 0.0001220703125,
+      "after_projection_mae_gray": 8.400337719649542e-06,
+      "after_projection_max_gray": 0.000152587890625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_02.npz",
+      "sha256": "16541a0d192c17e0cd57d16f5b44093e7e85cac20c5909fcd4a512794d0d4c03",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000021@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 21,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 21,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000021.png",
+          "sha256": "1e8ef4df19472a6f8e49d071d1663fd9b3d993d8d4da16fc3682770386462f59",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0021.png",
+          "source_sha256": "1e8ef4df19472a6f8e49d071d1663fd9b3d993d8d4da16fc3682770386462f59",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 21
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000021",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "equivalent_mae_gray": 7.623569672432495e-06,
+      "equivalent_max_gray": 0.0001373291015625,
+      "after_projection_mae_gray": 8.307902135129552e-06,
+      "after_projection_max_gray": 0.000152587890625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_03.npz",
+      "sha256": "7c05d4561e32edc2ce37957b4c2a8c639e70cf0d88516e03b64db4d4541a82b4",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000032@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 32,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 32,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000032.png",
+          "sha256": "fd590da6499ed141a724a6a5f636b42d7afb0336b7131729fb6711f3c624bdd1",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0032.png",
+          "source_sha256": "fd590da6499ed141a724a6a5f636b42d7afb0336b7131729fb6711f3c624bdd1",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 32
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000032",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "equivalent_mae_gray": 7.682751856918912e-06,
+      "equivalent_max_gray": 0.0001220703125,
+      "after_projection_mae_gray": 8.351326869160403e-06,
+      "after_projection_max_gray": 0.000152587890625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_04.npz",
+      "sha256": "f62efbd68491c026237820458a611c13c952533ce9c90fbf5faec12c782f33e9",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000043@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 43,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 43,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000043.png",
+          "sha256": "d4d140f8e4be7431bb913eaab4f9ab9ad306360e9a2b56fd672cc335ae1273ce",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0043.png",
+          "source_sha256": "d4d140f8e4be7431bb913eaab4f9ab9ad306360e9a2b56fd672cc335ae1273ce",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 43
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000043",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "equivalent_mae_gray": 7.79895344749093e-06,
+      "equivalent_max_gray": 0.0001373291015625,
+      "after_projection_mae_gray": 8.444971172139049e-06,
+      "after_projection_max_gray": 0.0001220703125
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_05.npz",
+      "sha256": "9cf19892aedfdcd4eb69ad23140e8910f5828407b64870ec10aa401825ab2590",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000054@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 54,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 54,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000054.png",
+          "sha256": "71db4af41ceb7dd3f2c49487175c611250c3a2a47df0bdde5fb385a731c35175",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0054.png",
+          "source_sha256": "71db4af41ceb7dd3f2c49487175c611250c3a2a47df0bdde5fb385a731c35175",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 54
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000054",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "equivalent_mae_gray": 7.5921388997812755e-06,
+      "equivalent_max_gray": 0.000152587890625,
+      "after_projection_mae_gray": 8.30158114695223e-06,
+      "after_projection_max_gray": 0.000152587890625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_06.npz",
+      "sha256": "44be5d90ae3b04699061b4621cefa5464cd9c9f8d0493a7408315b614c5fff4a",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000064@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 64,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 64,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000064.png",
+          "sha256": "5d0afa6858bcafbefcb5350e62d834c37a11596fb3046c0b1b0f3cdc693dcee2",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0064.png",
+          "source_sha256": "5d0afa6858bcafbefcb5350e62d834c37a11596fb3046c0b1b0f3cdc693dcee2",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 64
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000064",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "equivalent_mae_gray": 7.669126716791652e-06,
+      "equivalent_max_gray": 0.0001220703125,
+      "after_projection_mae_gray": 8.33541253086878e-06,
+      "after_projection_max_gray": 0.0001373291015625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_07.npz",
+      "sha256": "850f8ee9ed2631ac0de39eed14b7dbb6b79c99aa97bbb15758de2b3290a522da",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000075@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 75,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 75,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000075.png",
+          "sha256": "6e5b57eee4e452e6146c941ddeb022257416f6ea8ad2ebe2b613e7409c4d8999",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0075.png",
+          "source_sha256": "6e5b57eee4e452e6146c941ddeb022257416f6ea8ad2ebe2b613e7409c4d8999",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 75
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000075",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "equivalent_mae_gray": 7.613134130224353e-06,
+      "equivalent_max_gray": 0.0001220703125,
+      "after_projection_mae_gray": 8.291232006740756e-06,
+      "after_projection_max_gray": 0.000152587890625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_08.npz",
+      "sha256": "355db99dbbbe3ce59c9bec2e0fe83e9d7acc9b58adb2823421d1924d2738bc7f",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000086@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 86,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 86,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000086.png",
+          "sha256": "ec4f3590e5cadad0c6a34d10a8e57410dae17a8874e62d6fcec20bd81580b7e4",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0086.png",
+          "source_sha256": "ec4f3590e5cadad0c6a34d10a8e57410dae17a8874e62d6fcec20bd81580b7e4",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 86
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000086",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "equivalent_mae_gray": 7.789043593220413e-06,
+      "equivalent_max_gray": 0.0001373291015625,
+      "after_projection_mae_gray": 8.3929289758089e-06,
+      "after_projection_max_gray": 0.0001373291015625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_09.npz",
+      "sha256": "c6ab30fddce400db0dbbb8adf5d9142a76d4804f91a4b47713e1afba054b1220",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000097@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 97,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 97,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000097.png",
+          "sha256": "c52456a667b5be013c53b444c0c1317896361df48dae2433e298ab5aa8c342b8",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0097.png",
+          "source_sha256": "c52456a667b5be013c53b444c0c1317896361df48dae2433e298ab5aa8c342b8",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 97
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000097",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "equivalent_mae_gray": 7.479908617824549e-06,
+      "equivalent_max_gray": 0.0001373291015625,
+      "after_projection_mae_gray": 8.252965926658362e-06,
+      "after_projection_max_gray": 0.0001373291015625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_10.npz",
+      "sha256": "c40a292c835d7df864ed917a8ce75c347117a0e05f35057429eada155c1ab7c1",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000108@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 108,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 108,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000108.png",
+          "sha256": "355ae2f6acc1e13ab6e3c24fc6d0d1da5d2a0350dec50b9b0b6ed943c1dc31e9",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0108.png",
+          "source_sha256": "355ae2f6acc1e13ab6e3c24fc6d0d1da5d2a0350dec50b9b0b6ed943c1dc31e9",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 108
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000108",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108
+      ],
+      "equivalent_mae_gray": 7.5148404903302435e-06,
+      "equivalent_max_gray": 0.000152587890625,
+      "after_projection_mae_gray": 8.273117600765545e-06,
+      "after_projection_max_gray": 0.0001373291015625
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_11.npz",
+      "sha256": "c3a44bb3413e838667f2e8b66af518ed8b97fe83d84cf14e50e835bef8ffa815",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000119@test",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+        "frame_id": 119,
+        "group_id": "adverse_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/raw_u16.npy",
+          "index": 119,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000119.png",
+          "sha256": "16a6ca8594c6756e0244cf28239ce8756be2ccd520b2ebb58778d9d6274b68bb",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/enhanced/0119.png",
+          "source_sha256": "16a6ca8594c6756e0244cf28239ce8756be2ccd520b2ebb58778d9d6274b68bb",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6A",
+          "frame_id": 119
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000119",
+        "split": "test",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "capture_group_development",
+        "eval_crop_tlhw": [
+          2,
+          0,
+          1020,
+          1278
+        ]
+      },
+      "history_frame_ids": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "equivalent_mae_gray": 7.691431164857931e-06,
+      "equivalent_max_gray": 0.0001373291015625,
+      "after_projection_mae_gray": 8.340680324181449e-06,
+      "after_projection_max_gray": 0.0001373291015625
+    }
+  ],
+  "equivalence_120frames": [
+    {
+      "frame": 0,
+      "mae_gray": 7.797217222105246e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.028778044506907463,
+      "fp16_vs_fp32_max_gray": 0.372406005859375
+    },
+    {
+      "frame": 1,
+      "mae_gray": 7.781597560096998e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02739262580871582,
+      "fp16_vs_fp32_max_gray": 0.3676910400390625
+    },
+    {
+      "frame": 2,
+      "mae_gray": 8.130041351250838e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.030909577384591103,
+      "fp16_vs_fp32_max_gray": 0.3477325439453125
+    },
+    {
+      "frame": 3,
+      "mae_gray": 7.867291060392745e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.028795111924409866,
+      "fp16_vs_fp32_max_gray": 0.34747314453125
+    },
+    {
+      "frame": 4,
+      "mae_gray": 7.634918802068569e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.029105190187692642,
+      "fp16_vs_fp32_max_gray": 0.34765625
+    },
+    {
+      "frame": 5,
+      "mae_gray": 7.526803528890014e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.025625472888350487,
+      "fp16_vs_fp32_max_gray": 0.3135528564453125
+    },
+    {
+      "frame": 6,
+      "mae_gray": 7.639010618731845e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.02739092707633972,
+      "fp16_vs_fp32_max_gray": 0.33807373046875
+    },
+    {
+      "frame": 7,
+      "mae_gray": 7.672768333577551e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026188408955931664,
+      "fp16_vs_fp32_max_gray": 0.32257080078125
+    },
+    {
+      "frame": 8,
+      "mae_gray": 7.651918167539407e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.026867812499403954,
+      "fp16_vs_fp32_max_gray": 0.33477783203125
+    },
+    {
+      "frame": 9,
+      "mae_gray": 7.777844075462781e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.030153945088386536,
+      "fp16_vs_fp32_max_gray": 0.3316650390625
+    },
+    {
+      "frame": 10,
+      "mae_gray": 7.796568752382882e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.026511196047067642,
+      "fp16_vs_fp32_max_gray": 0.325958251953125
+    },
+    {
+      "frame": 11,
+      "mae_gray": 7.596459454362048e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.029663581401109695,
+      "fp16_vs_fp32_max_gray": 0.3204498291015625
+    },
+    {
+      "frame": 12,
+      "mae_gray": 7.777843165968079e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.026466721668839455,
+      "fp16_vs_fp32_max_gray": 0.332489013671875
+    },
+    {
+      "frame": 13,
+      "mae_gray": 7.708753400947899e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.029455116018652916,
+      "fp16_vs_fp32_max_gray": 0.3509674072265625
+    },
+    {
+      "frame": 14,
+      "mae_gray": 7.676139830437023e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.03000296652317047,
+      "fp16_vs_fp32_max_gray": 0.3564300537109375
+    },
+    {
+      "frame": 15,
+      "mae_gray": 7.579648354294477e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.028131036087870598,
+      "fp16_vs_fp32_max_gray": 0.318115234375
+    },
+    {
+      "frame": 16,
+      "mae_gray": 7.621287750225747e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.02600092627108097,
+      "fp16_vs_fp32_max_gray": 0.34417724609375
+    },
+    {
+      "frame": 17,
+      "mae_gray": 7.880701559770387e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02756689488887787,
+      "fp16_vs_fp32_max_gray": 0.362457275390625
+    },
+    {
+      "frame": 18,
+      "mae_gray": 7.617732535436517e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02745084837079048,
+      "fp16_vs_fp32_max_gray": 0.333953857421875
+    },
+    {
+      "frame": 19,
+      "mae_gray": 7.516649930039421e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026156647130846977,
+      "fp16_vs_fp32_max_gray": 0.3294219970703125
+    },
+    {
+      "frame": 20,
+      "mae_gray": 7.537638339272235e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026395251974463463,
+      "fp16_vs_fp32_max_gray": 0.3547515869140625
+    },
+    {
+      "frame": 21,
+      "mae_gray": 7.623569672432495e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027725446969270706,
+      "fp16_vs_fp32_max_gray": 0.372039794921875
+    },
+    {
+      "frame": 22,
+      "mae_gray": 7.61780620450736e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.026625746861100197,
+      "fp16_vs_fp32_max_gray": 0.3440704345703125
+    },
+    {
+      "frame": 23,
+      "mae_gray": 7.677393114136066e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026566198095679283,
+      "fp16_vs_fp32_max_gray": 0.3388214111328125
+    },
+    {
+      "frame": 24,
+      "mae_gray": 7.524198281316785e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027314260601997375,
+      "fp16_vs_fp32_max_gray": 0.3306427001953125
+    },
+    {
+      "frame": 25,
+      "mae_gray": 7.489942163374508e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.029256319627165794,
+      "fp16_vs_fp32_max_gray": 0.2993011474609375
+    },
+    {
+      "frame": 26,
+      "mae_gray": 7.741432455077302e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02701812982559204,
+      "fp16_vs_fp32_max_gray": 0.332427978515625
+    },
+    {
+      "frame": 27,
+      "mae_gray": 7.632978849869687e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.028858521953225136,
+      "fp16_vs_fp32_max_gray": 0.3711395263671875
+    },
+    {
+      "frame": 28,
+      "mae_gray": 7.550895134045277e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.027370143681764603,
+      "fp16_vs_fp32_max_gray": 0.336578369140625
+    },
+    {
+      "frame": 29,
+      "mae_gray": 7.483407443942269e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02577623538672924,
+      "fp16_vs_fp32_max_gray": 0.3214263916015625
+    },
+    {
+      "frame": 30,
+      "mae_gray": 7.6115088631922845e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02634638547897339,
+      "fp16_vs_fp32_max_gray": 0.344329833984375
+    },
+    {
+      "frame": 31,
+      "mae_gray": 7.606589406350395e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027374912053346634,
+      "fp16_vs_fp32_max_gray": 0.331756591796875
+    },
+    {
+      "frame": 32,
+      "mae_gray": 7.682751856918912e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.028658920899033546,
+      "fp16_vs_fp32_max_gray": 0.358123779296875
+    },
+    {
+      "frame": 33,
+      "mae_gray": 7.5256466516293585e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.028370684012770653,
+      "fp16_vs_fp32_max_gray": 0.334197998046875
+    },
+    {
+      "frame": 34,
+      "mae_gray": 7.545045264123473e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02687683142721653,
+      "fp16_vs_fp32_max_gray": 0.374755859375
+    },
+    {
+      "frame": 35,
+      "mae_gray": 7.628713774465723e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.030245749279856682,
+      "fp16_vs_fp32_max_gray": 0.31732177734375
+    },
+    {
+      "frame": 36,
+      "mae_gray": 7.520706276409328e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.031225720420479774,
+      "fp16_vs_fp32_max_gray": 0.3241119384765625
+    },
+    {
+      "frame": 37,
+      "mae_gray": 7.694907253608108e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02580784633755684,
+      "fp16_vs_fp32_max_gray": 0.309356689453125
+    },
+    {
+      "frame": 38,
+      "mae_gray": 7.597605872433633e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.028124487027525902,
+      "fp16_vs_fp32_max_gray": 0.3427276611328125
+    },
+    {
+      "frame": 39,
+      "mae_gray": 7.5004413702117745e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.026933079585433006,
+      "fp16_vs_fp32_max_gray": 0.2974700927734375
+    },
+    {
+      "frame": 40,
+      "mae_gray": 7.784238732710946e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.028524553403258324,
+      "fp16_vs_fp32_max_gray": 0.3272705078125
+    },
+    {
+      "frame": 41,
+      "mae_gray": 7.732468475296628e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.025502491742372513,
+      "fp16_vs_fp32_max_gray": 0.366119384765625
+    },
+    {
+      "frame": 42,
+      "mae_gray": 7.530984476034064e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.026988644152879715,
+      "fp16_vs_fp32_max_gray": 0.37109375
+    },
+    {
+      "frame": 43,
+      "mae_gray": 7.79895344749093e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02727917768061161,
+      "fp16_vs_fp32_max_gray": 0.3699493408203125
+    },
+    {
+      "frame": 44,
+      "mae_gray": 7.628765160916373e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02685735560953617,
+      "fp16_vs_fp32_max_gray": 0.360626220703125
+    },
+    {
+      "frame": 45,
+      "mae_gray": 7.557101525890175e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026806611567735672,
+      "fp16_vs_fp32_max_gray": 0.397796630859375
+    },
+    {
+      "frame": 46,
+      "mae_gray": 7.598325737490086e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.027261367067694664,
+      "fp16_vs_fp32_max_gray": 0.31915283203125
+    },
+    {
+      "frame": 47,
+      "mae_gray": 7.5887787716055755e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.029746776446700096,
+      "fp16_vs_fp32_max_gray": 0.3389739990234375
+    },
+    {
+      "frame": 48,
+      "mae_gray": 7.82977895141812e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02522948384284973,
+      "fp16_vs_fp32_max_gray": 0.3476409912109375
+    },
+    {
+      "frame": 49,
+      "mae_gray": 7.505373105232138e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026289621368050575,
+      "fp16_vs_fp32_max_gray": 0.3375244140625
+    },
+    {
+      "frame": 50,
+      "mae_gray": 7.688990990573075e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.02579394541680813,
+      "fp16_vs_fp32_max_gray": 0.366943359375
+    },
+    {
+      "frame": 51,
+      "mae_gray": 7.570753496111138e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.028947440907359123,
+      "fp16_vs_fp32_max_gray": 0.340179443359375
+    },
+    {
+      "frame": 52,
+      "mae_gray": 7.509162514907075e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027096113190054893,
+      "fp16_vs_fp32_max_gray": 0.3480072021484375
+    },
+    {
+      "frame": 53,
+      "mae_gray": 7.507705504394835e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027812128886580467,
+      "fp16_vs_fp32_max_gray": 0.333709716796875
+    },
+    {
+      "frame": 54,
+      "mae_gray": 7.5921388997812755e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.02641717530786991,
+      "fp16_vs_fp32_max_gray": 0.3115997314453125
+    },
+    {
+      "frame": 55,
+      "mae_gray": 7.68533118389314e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.026630038395524025,
+      "fp16_vs_fp32_max_gray": 0.3623809814453125
+    },
+    {
+      "frame": 56,
+      "mae_gray": 7.95982214185642e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.03085649572312832,
+      "fp16_vs_fp32_max_gray": 0.33306884765625
+    },
+    {
+      "frame": 57,
+      "mae_gray": 7.511435342166806e-06,
+      "max_gray": 0.0001068115234375,
+      "fp16_vs_fp32_mae_gray": 0.027429616078734398,
+      "fp16_vs_fp32_max_gray": 0.3341217041015625
+    },
+    {
+      "frame": 58,
+      "mae_gray": 7.5077232395415194e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.027042770758271217,
+      "fp16_vs_fp32_max_gray": 0.3444366455078125
+    },
+    {
+      "frame": 59,
+      "mae_gray": 7.841680599085521e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.027917101979255676,
+      "fp16_vs_fp32_max_gray": 0.3550262451171875
+    },
+    {
+      "frame": 60,
+      "mae_gray": 7.6100986916571856e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.026370441541075706,
+      "fp16_vs_fp32_max_gray": 0.3600311279296875
+    },
+    {
+      "frame": 61,
+      "mae_gray": 7.5321036092645954e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.028606770560145378,
+      "fp16_vs_fp32_max_gray": 0.3386383056640625
+    },
+    {
+      "frame": 62,
+      "mae_gray": 7.612355602759635e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02590513788163662,
+      "fp16_vs_fp32_max_gray": 0.3370208740234375
+    },
+    {
+      "frame": 63,
+      "mae_gray": 7.589905635541072e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.030515147373080254,
+      "fp16_vs_fp32_max_gray": 0.33544921875
+    },
+    {
+      "frame": 64,
+      "mae_gray": 7.669126716791652e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02747618593275547,
+      "fp16_vs_fp32_max_gray": 0.3343963623046875
+    },
+    {
+      "frame": 65,
+      "mae_gray": 7.509667284466559e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.02746916376054287,
+      "fp16_vs_fp32_max_gray": 0.347808837890625
+    },
+    {
+      "frame": 66,
+      "mae_gray": 7.465647740900749e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02941359020769596,
+      "fp16_vs_fp32_max_gray": 0.3284149169921875
+    },
+    {
+      "frame": 67,
+      "mae_gray": 7.5713032856583595e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02698921039700508,
+      "fp16_vs_fp32_max_gray": 0.347381591796875
+    },
+    {
+      "frame": 68,
+      "mae_gray": 7.6208534665056504e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027499591931700706,
+      "fp16_vs_fp32_max_gray": 0.3314208984375
+    },
+    {
+      "frame": 69,
+      "mae_gray": 7.498236755054677e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02822152152657509,
+      "fp16_vs_fp32_max_gray": 0.3361358642578125
+    },
+    {
+      "frame": 70,
+      "mae_gray": 7.658554750378244e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.025569794699549675,
+      "fp16_vs_fp32_max_gray": 0.36444091796875
+    },
+    {
+      "frame": 71,
+      "mae_gray": 7.603438461956102e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.028263753280043602,
+      "fp16_vs_fp32_max_gray": 0.3530731201171875
+    },
+    {
+      "frame": 72,
+      "mae_gray": 7.484140951419249e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.02757841907441616,
+      "fp16_vs_fp32_max_gray": 0.3498077392578125
+    },
+    {
+      "frame": 73,
+      "mae_gray": 7.742563866486307e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.028092581778764725,
+      "fp16_vs_fp32_max_gray": 0.3070831298828125
+    },
+    {
+      "frame": 74,
+      "mae_gray": 7.736422958259936e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02868792973458767,
+      "fp16_vs_fp32_max_gray": 0.309356689453125
+    },
+    {
+      "frame": 75,
+      "mae_gray": 7.613134130224353e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.028307298198342323,
+      "fp16_vs_fp32_max_gray": 0.3214263916015625
+    },
+    {
+      "frame": 76,
+      "mae_gray": 7.60740795158199e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.03027617372572422,
+      "fp16_vs_fp32_max_gray": 0.3326873779296875
+    },
+    {
+      "frame": 77,
+      "mae_gray": 7.598170668643434e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.02581160143017769,
+      "fp16_vs_fp32_max_gray": 0.303802490234375
+    },
+    {
+      "frame": 78,
+      "mae_gray": 7.686699063924607e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02684972621500492,
+      "fp16_vs_fp32_max_gray": 0.3676300048828125
+    },
+    {
+      "frame": 79,
+      "mae_gray": 7.626306796737481e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.028970742598176003,
+      "fp16_vs_fp32_max_gray": 0.377044677734375
+    },
+    {
+      "frame": 80,
+      "mae_gray": 7.69727830629563e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.026880165562033653,
+      "fp16_vs_fp32_max_gray": 0.3400115966796875
+    },
+    {
+      "frame": 81,
+      "mae_gray": 7.885272680141497e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02709665335714817,
+      "fp16_vs_fp32_max_gray": 0.3595733642578125
+    },
+    {
+      "frame": 82,
+      "mae_gray": 7.661305971851107e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.02770659327507019,
+      "fp16_vs_fp32_max_gray": 0.3722076416015625
+    },
+    {
+      "frame": 83,
+      "mae_gray": 7.709119927312713e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02978087030351162,
+      "fp16_vs_fp32_max_gray": 0.3322296142578125
+    },
+    {
+      "frame": 84,
+      "mae_gray": 7.90032026998233e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.025371653959155083,
+      "fp16_vs_fp32_max_gray": 0.32586669921875
+    },
+    {
+      "frame": 85,
+      "mae_gray": 7.65244294598233e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027965087443590164,
+      "fp16_vs_fp32_max_gray": 0.32513427734375
+    },
+    {
+      "frame": 86,
+      "mae_gray": 7.789043593220413e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02999216318130493,
+      "fp16_vs_fp32_max_gray": 0.3436737060546875
+    },
+    {
+      "frame": 87,
+      "mae_gray": 7.533434200013289e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.025490853935480118,
+      "fp16_vs_fp32_max_gray": 0.3320159912109375
+    },
+    {
+      "frame": 88,
+      "mae_gray": 7.54477150621824e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027138276025652885,
+      "fp16_vs_fp32_max_gray": 0.3432464599609375
+    },
+    {
+      "frame": 89,
+      "mae_gray": 7.5959883361065295e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.030587827786803246,
+      "fp16_vs_fp32_max_gray": 0.341583251953125
+    },
+    {
+      "frame": 90,
+      "mae_gray": 7.5089083111379296e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.0279264934360981,
+      "fp16_vs_fp32_max_gray": 0.33001708984375
+    },
+    {
+      "frame": 91,
+      "mae_gray": 7.594383532705251e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.028018170967698097,
+      "fp16_vs_fp32_max_gray": 0.339263916015625
+    },
+    {
+      "frame": 92,
+      "mae_gray": 7.626341812283499e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.027435634285211563,
+      "fp16_vs_fp32_max_gray": 0.3193359375
+    },
+    {
+      "frame": 93,
+      "mae_gray": 7.597929197800113e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02767127752304077,
+      "fp16_vs_fp32_max_gray": 0.3448486328125
+    },
+    {
+      "frame": 94,
+      "mae_gray": 7.5216216828266624e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.02607564628124237,
+      "fp16_vs_fp32_max_gray": 0.3175048828125
+    },
+    {
+      "frame": 95,
+      "mae_gray": 7.578023996757111e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026408210396766663,
+      "fp16_vs_fp32_max_gray": 0.3499298095703125
+    },
+    {
+      "frame": 96,
+      "mae_gray": 7.606552571814973e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027732988819479942,
+      "fp16_vs_fp32_max_gray": 0.33984375
+    },
+    {
+      "frame": 97,
+      "mae_gray": 7.479908617824549e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02675430290400982,
+      "fp16_vs_fp32_max_gray": 0.31890869140625
+    },
+    {
+      "frame": 98,
+      "mae_gray": 7.540328169852728e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026510054245591164,
+      "fp16_vs_fp32_max_gray": 0.3326873779296875
+    },
+    {
+      "frame": 99,
+      "mae_gray": 7.477239705622196e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027726739645004272,
+      "fp16_vs_fp32_max_gray": 0.331146240234375
+    },
+    {
+      "frame": 100,
+      "mae_gray": 7.740351975371595e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02763931266963482,
+      "fp16_vs_fp32_max_gray": 0.304534912109375
+    },
+    {
+      "frame": 101,
+      "mae_gray": 7.5131379162485246e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.027220530435442924,
+      "fp16_vs_fp32_max_gray": 0.3533477783203125
+    },
+    {
+      "frame": 102,
+      "mae_gray": 7.610395641677314e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02699076570570469,
+      "fp16_vs_fp32_max_gray": 0.32098388671875
+    },
+    {
+      "frame": 103,
+      "mae_gray": 7.758852007100359e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027503905817866325,
+      "fp16_vs_fp32_max_gray": 0.3460540771484375
+    },
+    {
+      "frame": 104,
+      "mae_gray": 7.535215900134062e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02859482169151306,
+      "fp16_vs_fp32_max_gray": 0.3291473388671875
+    },
+    {
+      "frame": 105,
+      "mae_gray": 7.640946023457218e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.029883993789553642,
+      "fp16_vs_fp32_max_gray": 0.3669586181640625
+    },
+    {
+      "frame": 106,
+      "mae_gray": 7.522462055931101e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.026097415015101433,
+      "fp16_vs_fp32_max_gray": 0.3153228759765625
+    },
+    {
+      "frame": 107,
+      "mae_gray": 7.6141004683449864e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.029147911816835403,
+      "fp16_vs_fp32_max_gray": 0.3818817138671875
+    },
+    {
+      "frame": 108,
+      "mae_gray": 7.5148404903302435e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.029627487063407898,
+      "fp16_vs_fp32_max_gray": 0.3576202392578125
+    },
+    {
+      "frame": 109,
+      "mae_gray": 7.488656592613552e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027807286009192467,
+      "fp16_vs_fp32_max_gray": 0.342529296875
+    },
+    {
+      "frame": 110,
+      "mae_gray": 7.550738700956572e-06,
+      "max_gray": 0.00018310546875,
+      "fp16_vs_fp32_mae_gray": 0.02593567781150341,
+      "fp16_vs_fp32_max_gray": 0.339599609375
+    },
+    {
+      "frame": 111,
+      "mae_gray": 7.478705811081454e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.026794737204909325,
+      "fp16_vs_fp32_max_gray": 0.33453369140625
+    },
+    {
+      "frame": 112,
+      "mae_gray": 7.712104888923932e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.028915291652083397,
+      "fp16_vs_fp32_max_gray": 0.3398590087890625
+    },
+    {
+      "frame": 113,
+      "mae_gray": 7.477685812773416e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02677580714225769,
+      "fp16_vs_fp32_max_gray": 0.3312530517578125
+    },
+    {
+      "frame": 114,
+      "mae_gray": 7.676593668293208e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.027256948873400688,
+      "fp16_vs_fp32_max_gray": 0.3377685546875
+    },
+    {
+      "frame": 115,
+      "mae_gray": 7.723577255092096e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.028474533930420876,
+      "fp16_vs_fp32_max_gray": 0.3866119384765625
+    },
+    {
+      "frame": 116,
+      "mae_gray": 7.574680239486042e-06,
+      "max_gray": 0.0001220703125,
+      "fp16_vs_fp32_mae_gray": 0.02680569887161255,
+      "fp16_vs_fp32_max_gray": 0.304229736328125
+    },
+    {
+      "frame": 117,
+      "mae_gray": 7.567643478978425e-06,
+      "max_gray": 0.000152587890625,
+      "fp16_vs_fp32_mae_gray": 0.027642816305160522,
+      "fp16_vs_fp32_max_gray": 0.3485565185546875
+    },
+    {
+      "frame": 118,
+      "mae_gray": 7.764107067487203e-06,
+      "max_gray": 0.0001678466796875,
+      "fp16_vs_fp32_mae_gray": 0.031931985169649124,
+      "fp16_vs_fp32_max_gray": 0.366668701171875
+    },
+    {
+      "frame": 119,
+      "mae_gray": 7.691431164857931e-06,
+      "max_gray": 0.0001373291015625,
+      "fp16_vs_fp32_mae_gray": 0.02607029117643833,
+      "fp16_vs_fp32_max_gray": 0.3300323486328125
+    }
+  ],
+  "layers": {
+    "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/pc_layers_fp32.npz",
+    "sha256": "17559ae6a4638711191f0b4633c70326860fae86de2225ca0b7a3fcd36ca21dc",
+    "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001/000000@test",
+    "stage_statistics": {
+      "front": {
+        "shape": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "minimum": 0.0,
+        "maximum": 2.725350856781006,
+        "mean": 0.2439831793308258
+      },
+      "body": {
+        "shape": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "minimum": 0.0,
+        "maximum": 3.780794382095337,
+        "mean": 0.26268139481544495
+      },
+      "reference": {
+        "shape": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "minimum": -2.097188949584961,
+        "maximum": 1.3208794593811035,
+        "mean": -0.1802205890417099
+      },
+      "fused": {
+        "shape": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "minimum": -2.097188949584961,
+        "maximum": 3.2081446647644043,
+        "mean": 0.08246081322431564
+      },
+      "tail": {
+        "shape": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "minimum": 0.0,
+        "maximum": 2.409229278564453,
+        "mean": 0.14148834347724915
+      },
+      "learned_phases": {
+        "shape": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "minimum": -0.0034571178257465363,
+        "maximum": 1.1652562618255615,
+        "mean": 0.24002186954021454
+      },
+      "preclip_phases": {
+        "shape": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "minimum": -0.0034571178257465363,
+        "maximum": 1.1652562618255615,
+        "mean": 0.24002186954021454
+      }
+    }
+  },
+  "equivalence_max_gray": 0.00018310546875
+}

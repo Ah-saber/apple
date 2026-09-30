@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/release/runtime/reproduce_model.py", line 66, in <module>
+    if __name__=='__main__':main()
+  File "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/release/runtime/reproduce_model.py", line 61, in main
+    assert record['max_gray']<.01,record
+AssertionError: {'checkpoint': '/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/release/models/baseline/half-heavy-temporal.pt', 'precision': 'fp32', 'shape': [1, 1, 3072, 3840], 'sample': '/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/test_00.npz', 'mae_gray': 0.03608151897788048, 'max_gray': 0.2652740478515625}

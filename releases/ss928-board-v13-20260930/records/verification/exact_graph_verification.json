@@ -1,0 +1,1286 @@
+{
+  "onnxruntime_provider": "CPUExecutionProvider",
+  "NPU_measured": false,
+  "cases": {
+    "day_normal_fp32": {
+      "mae_gray": 3.993714926764369e-05,
+      "max_gray": 0.0006256103515625,
+      "bias_gray": -3.153917759846081e-06,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/day_normal_equivalent_fp32_rows32.onnx",
+      "sha256": "58801e62edbe12fb5031900aa31bb9c66e3675143cc65e76f25bf0056e28983a",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "day_normal_fp16": {
+      "mae_gray": 0.04852811247110367,
+      "max_gray": 0.625,
+      "bias_gray": -0.006440877914428711,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/day_normal_equivalent_fp16_rows32.onnx",
+      "sha256": "53c9b69d57615f8fe97f59667dd14ff997b5610088f407e695b77b7bf42cdc8d",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "day_current_folded_fp32": {
+      "mae_gray": 2.8589749490492977e-05,
+      "max_gray": 0.0005035400390625,
+      "bias_gray": -6.98382450536883e-07,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/day_current_folded_fp32_rows32.onnx",
+      "sha256": "1c4f4c10feb25789cc9b310533c822dab94d0871c8b56963b7f58f2008baedf6",
+      "comparison": "folded current-only graph against original current-only source"
+    },
+    "weather_light_fp32": {
+      "mae_gray": 1.3787602256343234e-05,
+      "max_gray": 0.0002288818359375,
+      "bias_gray": -2.95058839583362e-06,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/weather_light_equivalent_fp32_rows32.onnx",
+      "sha256": "b6f38dca14af5c268468f2d9ce466b0654147d4567ce7aaa330b91cfbe21ebde",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "weather_light_fp16": {
+      "mae_gray": 0.023536046966910362,
+      "max_gray": 0.375,
+      "bias_gray": 0.007854118011891842,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/weather_light_equivalent_fp16_rows32.onnx",
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "weather_medium_fp32": {
+      "mae_gray": 1.2756776413880289e-05,
+      "max_gray": 0.000213623046875,
+      "bias_gray": -1.2890066045656567e-06,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/weather_medium_equivalent_fp32_rows32.onnx",
+      "sha256": "b6f38dca14af5c268468f2d9ce466b0654147d4567ce7aaa330b91cfbe21ebde",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "weather_medium_fp16": {
+      "mae_gray": 0.021932929754257202,
+      "max_gray": 0.375,
+      "bias_gray": 0.0031383472960442305,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/weather_medium_equivalent_fp16_rows32.onnx",
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "weather_light_fused_compact_fp16": {
+      "mae_gray": 0.026518693193793297,
+      "max_gray": 0.25,
+      "bias_gray": 0.01794392056763172,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_fused/onnx/weather_light/weather_light_compact_fp16_rows32.onnx",
+      "sha256": "2eeaf65f6761b13c3629c8a1c8cd8366047e6207b8c91872dcf95f2f60d17ba9",
+      "comparison": "exact compact FP16 ONNX CPU against PyTorch GPU"
+    },
+    "weather_medium_fused_compact_fp16": {
+      "mae_gray": 0.022036414593458176,
+      "max_gray": 0.25,
+      "bias_gray": 0.009744536131620407,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_fused/onnx/weather_medium/weather_medium_compact_fp16_rows32.onnx",
+      "sha256": "2eeaf65f6761b13c3629c8a1c8cd8366047e6207b8c91872dcf95f2f60d17ba9",
+      "comparison": "exact compact FP16 ONNX CPU against PyTorch GPU"
+    },
+    "weather_light_temporal_compact_fp16": {
+      "mae_gray": 0.021647388115525246,
+      "max_gray": 0.25,
+      "bias_gray": 0.0036606278736144304,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_temporal/onnx/weather_light/weather_light_compact_fp16_rows32.onnx",
+      "sha256": "c2a473a517c1da823c7a370b8b0c74a7315b79e2725136e106154e6a93c685db",
+      "comparison": "exact compact FP16 ONNX CPU against PyTorch GPU"
+    },
+    "weather_medium_temporal_compact_fp16": {
+      "mae_gray": 0.020476702600717545,
+      "max_gray": 0.25,
+      "bias_gray": -0.00268463883548975,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_temporal/onnx/weather_medium/weather_medium_compact_fp16_rows32.onnx",
+      "sha256": "c2a473a517c1da823c7a370b8b0c74a7315b79e2725136e106154e6a93c685db",
+      "comparison": "exact compact FP16 ONNX CPU against PyTorch GPU"
+    },
+    "weather_heavy_fp32": {
+      "mae_gray": 1.9350622096681036e-05,
+      "max_gray": 0.0002288818359375,
+      "bias_gray": -2.8710537662846036e-06,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy/weather_heavy_equivalent_fp32_rows32.onnx",
+      "sha256": "e357f7eeb675b6cd68b8ab2ed708f1e552a72438a38ee2f680f2b2fa7728a977",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "weather_heavy_fp16": {
+      "mae_gray": 0.034196045249700546,
+      "max_gray": 0.25,
+      "bias_gray": -0.018691712990403175,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy/weather_heavy_equivalent_fp16_rows32.onnx",
+      "sha256": "9d6cee00dbd473de55b26619332584ef3117f0067fecf4150214707f50bd5b09",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "weather_heavy_c32_fp32": {
+      "mae_gray": 2.6521218387642875e-05,
+      "max_gray": 0.0002593994140625,
+      "bias_gray": 9.369123290525749e-07,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/weather_heavy_c32_equivalent_fp32_rows32.onnx",
+      "sha256": "bdf6e9c5a44eca0115560055aea9f19780fbdd70a612f4e19149316d41b5f189",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "weather_heavy_c32_fp16": {
+      "mae_gray": 0.040138937532901764,
+      "max_gray": 0.375,
+      "bias_gray": -0.00682938564568758,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/weather_heavy_c32_equivalent_fp16_rows32.onnx",
+      "sha256": "e25433b8254e9d8dc376b99e69b04d5323d70b60add540eb68ae007eb515c350",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/test_00.npz",
+      "comparison": "exact ONNX CPU against same precision PyTorch GPU"
+    },
+    "weather_heavy_fused_compact_fp16": {
+      "mae_gray": 0.033252399414777756,
+      "max_gray": 0.375,
+      "bias_gray": -0.0040215784683823586,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/heavy_fused/onnx/weather_heavy/weather_heavy_compact_fp16_rows32.onnx",
+      "sha256": "8913634587f4b87dcf4a5a3126846a11838d28447d37197ec48712f5fa7733d6",
+      "comparison": "exact compact FP16 ONNX CPU against PyTorch GPU"
+    },
+    "weather_heavy_c32_fused_compact_fp16": {
+      "mae_gray": 0.04079236462712288,
+      "max_gray": 0.375,
+      "bias_gray": 0.007076487876474857,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/heavy_fused/onnx/weather_heavy_c32/weather_heavy_c32_compact_fp16_rows32.onnx",
+      "sha256": "c442acd7c30b94a3d03fbb6675562f1aaf7198a3cb9ec44db997a8ff4c46966f",
+      "comparison": "exact compact FP16 ONNX CPU against PyTorch GPU"
+    },
+    "weather_heavy_temporal_compact_fp16": {
+      "mae_gray": 0.03543990105390549,
+      "max_gray": 0.375,
+      "bias_gray": -0.012503179721534252,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/heavy_temporal/onnx/weather_heavy/weather_heavy_compact_fp16_rows32.onnx",
+      "sha256": "5b09da3e01d879d77b4cc140a524592266829ba1271654ab267d84247b494edf",
+      "comparison": "exact compact FP16 ONNX CPU against PyTorch GPU"
+    },
+    "weather_heavy_c32_temporal_compact_fp16": {
+      "mae_gray": 0.04259222000837326,
+      "max_gray": 0.375,
+      "bias_gray": -0.004499114118516445,
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ],
+      "graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/heavy_temporal/onnx/weather_heavy_c32/weather_heavy_c32_compact_fp16_rows32.onnx",
+      "sha256": "93fd3844967e3c18669fa15169cc6f70942e5fc8d346621657e0eaead2459c33",
+      "comparison": "exact compact FP16 ONNX CPU against PyTorch GPU"
+    }
+  },
+  "layers": {
+    "day_normal_fp32": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/pc_layers_detailed_fp32.npz",
+      "sha256": "debbecea0beebde98b24bf479aa0e55d460dd48a614fd5725045ac93ddfb7dc9",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp32",
+      "stages": {
+        "front": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "raw_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          24,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          24,
+          512,
+          640
+        ]
+      }
+    },
+    "day_normal_fp16": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/pc_layers_detailed_fp16.npz",
+      "sha256": "ecfdcdd6c6b59850ee663132fb90b26c4ca0a8c81a1975cc61e7fc934bef9a54",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/day_normal/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp16",
+      "stages": {
+        "front": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          24,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "raw_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          24,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          24,
+          512,
+          640
+        ]
+      }
+    },
+    "weather_light_fp32": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/pc_layers_detailed_fp32.npz",
+      "sha256": "baa19bd86405e5a6e4f903d2e5b2a5830e51555cb0833c55510510b01ca691a8",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp32",
+      "stages": {
+        "front": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          16,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          16,
+          512,
+          640
+        ]
+      }
+    },
+    "weather_light_fp16": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/pc_layers_detailed_fp16.npz",
+      "sha256": "608bf8fb9c28f71ce4df22367f2d1cc33453f98b86eb7051ed04ac2fefb4d6ac",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp16",
+      "stages": {
+        "front": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          16,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          16,
+          512,
+          640
+        ]
+      }
+    },
+    "weather_medium_fp32": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/pc_layers_detailed_fp32.npz",
+      "sha256": "63c29cebf1952595c8b540b5b56893ac1008d14b72b74bbe45c589061448a86e",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp32",
+      "stages": {
+        "front": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          16,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          16,
+          512,
+          640
+        ]
+      }
+    },
+    "weather_medium_fp16": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/pc_layers_detailed_fp16.npz",
+      "sha256": "c0402c637a1fed975435439ebd72a76bdd1d64cc6e2ea603b96a5465f9a0f90f",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_medium/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp16",
+      "stages": {
+        "front": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          16,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          16,
+          512,
+          640
+        ]
+      }
+    },
+    "weather_heavy_fp32": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy/pc_layers_detailed_fp32.npz",
+      "sha256": "cc8465e2888c01ec32633bcbfd8ab60d38a8adc95edff0ae62fb66f35fc48d7d",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp32",
+      "stages": {
+        "front": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          16,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          16,
+          512,
+          640
+        ]
+      }
+    },
+    "weather_heavy_fp16": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy/pc_layers_detailed_fp16.npz",
+      "sha256": "da91b919f74dba498a52d9b0d01376d2d31b6044b26d054d78f6b5c10c859be8",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp16",
+      "stages": {
+        "front": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          16,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          16,
+          512,
+          640
+        ]
+      }
+    },
+    "weather_heavy_c32_fp32": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/pc_layers_detailed_fp32.npz",
+      "sha256": "16adcf0a182c5c6a47206109626d25963a59ec1c77784396ef68f59747a7df1e",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp32",
+      "stages": {
+        "front": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          16,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          16,
+          512,
+          640
+        ]
+      }
+    },
+    "weather_heavy_c32_fp16": {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/pc_layers_detailed_fp16.npz",
+      "sha256": "18ad297929f46418a8d17868c71f27f582560fa284142fe0b8f40cbcc2cbc1bc",
+      "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/test_00.npz",
+      "saved_as": "float32",
+      "computation_precision": "fp16",
+      "stages": {
+        "front": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "body": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "reference": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "fused": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "tail": [
+          1,
+          16,
+          512,
+          640
+        ],
+        "learned_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "preclip_phases": [
+          1,
+          4,
+          512,
+          640
+        ],
+        "reference_encoder": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_pyramid_0": [
+          1,
+          12,
+          32,
+          32
+        ],
+        "reference_pyramid_1": [
+          1,
+          12,
+          16,
+          16
+        ],
+        "reference_pyramid_2": [
+          1,
+          12,
+          8,
+          8
+        ],
+        "reference_encoded": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_mean_added": [
+          1,
+          12,
+          64,
+          64
+        ],
+        "reference_projected": [
+          1,
+          16,
+          64,
+          64
+        ],
+        "reference_resampled": [
+          1,
+          16,
+          512,
+          640
+        ]
+      }
+    }
+  }
+}

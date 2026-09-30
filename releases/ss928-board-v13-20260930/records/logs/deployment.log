@@ -1,0 +1,48 @@
+CALIBRATION day_normal 0 [0, 1, 2, 3, 4, 5, 6, 7, 8]
+CALIBRATION day_normal 1 [39, 40, 41, 42, 43, 44, 45, 46, 47]
+CALIBRATION day_normal 2 [81, 82, 83, 84, 85, 86, 87, 88, 89]
+CALIBRATION day_normal 3 [111, 112, 113, 114, 115, 116, 117, 118, 119]
+EXPORT day_normal 8
+EQUIVALENCE day_normal 0 0.0001373291015625
+EQUIVALENCE day_normal 30 0.0001220703125
+EQUIVALENCE day_normal 60 0.0001220703125
+EQUIVALENCE day_normal 90 0.0001373291015625
+SCENE_DONE day_normal 0.000213623046875
+CALIBRATION weather_light 0 [0, 1, 2, 3, 4, 5, 6, 7, 8]
+CALIBRATION weather_light 1 [74, 75, 76, 77, 78, 79, 80, 81, 82]
+CALIBRATION weather_light 2 [36, 37, 38, 39, 40, 41, 42, 43, 44]
+CALIBRATION weather_light 3 [111, 112, 113, 114, 115, 116, 117, 118, 119]
+EXPORT weather_light 6
+EQUIVALENCE weather_light 0 0.000152587890625
+EQUIVALENCE weather_light 30 0.0001220703125
+EQUIVALENCE weather_light 60 0.0001373291015625
+EQUIVALENCE weather_light 90 0.0001220703125
+SCENE_DONE weather_light 0.0001983642578125
+CALIBRATION weather_medium 0 [0, 1, 2, 3, 4, 5, 6, 7, 8]
+CALIBRATION weather_medium 1 [111, 112, 113, 114, 115, 116, 117, 118, 119]
+CALIBRATION weather_medium 2 [111, 112, 113, 114, 115, 116, 117, 118, 119]
+CALIBRATION weather_medium 3 [111, 112, 113, 114, 115, 116, 117, 118, 119]
+EXPORT weather_medium 6
+EQUIVALENCE weather_medium 0 0.0001373291015625
+EQUIVALENCE weather_medium 30 0.0001373291015625
+EQUIVALENCE weather_medium 60 0.0001678466796875
+EQUIVALENCE weather_medium 90 0.0001373291015625
+SCENE_DONE weather_medium 0.00018310546875
+CALIBRATION weather_heavy 0 [0, 1, 2, 3, 4, 5, 6, 7, 8]
+CALIBRATION weather_heavy 1 [74, 75, 76, 77, 78, 79, 80, 81, 82]
+CALIBRATION weather_heavy 2 [36, 37, 38, 39, 40, 41, 42, 43, 44]
+CALIBRATION weather_heavy 3 [111, 112, 113, 114, 115, 116, 117, 118, 119]
+EXPORT weather_heavy 6
+EQUIVALENCE weather_heavy 0 0.000152587890625
+EQUIVALENCE weather_heavy 30 0.000152587890625
+EQUIVALENCE weather_heavy 60 0.000152587890625
+EQUIVALENCE weather_heavy 90 0.0001373291015625
+SCENE_DONE weather_heavy 0.00018310546875
+Traceback (most recent call last):
+  File "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/runtime/prepare_deployment.py", line 181, in <module>
+    if __name__=='__main__': main()
+  File "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/runtime/prepare_deployment.py", line 80, in main
+    'sampling_control':compare_sample(box,512,640),'graphs':[],
+  File "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/runtime/prepare_deployment.py", line 50, in compare_sample
+    assert float(delta.max())<2e-5
+AssertionError

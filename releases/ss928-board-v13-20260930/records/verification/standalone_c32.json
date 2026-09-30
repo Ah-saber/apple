@@ -1,0 +1,13 @@
+{
+  "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/release/models/baseline/half-heavy-temporal.pt",
+  "precision": "fp32",
+  "shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_heavy_c32/test_00.npz",
+  "mae_gray": 1.5676077964599244e-05,
+  "max_gray": 0.0001678466796875
+}

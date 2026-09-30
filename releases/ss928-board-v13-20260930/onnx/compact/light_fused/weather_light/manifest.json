@@ -1,0 +1,230 @@
+{
+  "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_fused/best.pt",
+  "checkpoint_sha256": "37d70387061c6944c88373cf6ebe893381398789c6daf37f34044ddba6e2cf3f",
+  "source_to_frozen_mae_gray": 1.7950855180970393e-05,
+  "source_to_frozen_max_gray": 0.00030517578125,
+  "graphs": [
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_fused/onnx/weather_light/weather_light_compact_fp32_rows32.onnx",
+      "sha256": "88dfb5e1f41b4e06c522222422e972e5966134ff13a68c179ab811f7b9080699",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "nodes": 134,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 1,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_fused/onnx/weather_light/weather_light_compact_fp32_phases.onnx",
+      "sha256": "454b043182d77cd5a6d17de9b2a53c2fac9357b145531bea74e8f8fd0d6cbfcc",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "nodes": 124,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 1,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 1,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "type": 1,
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_fused/onnx/weather_light/weather_light_compact_fp16_rows32.onnx",
+      "sha256": "2eeaf65f6761b13c3629c8a1c8cd8366047e6207b8c91872dcf95f2f60d17ba9",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "nodes": 134,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 10,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "type": 10,
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_fused/onnx/weather_light/weather_light_compact_fp16_phases.onnx",
+      "sha256": "5636a2d1d4ff2454974711a2fbffd5cac499bb9d86d1d00be152e28dd3277eb0",
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu"
+      ],
+      "nodes": 124,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "type": 10,
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "type": 10,
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "sixteen_phases",
+          "type": 10,
+          "shape": [
+            1,
+            16,
+            256,
+            320
+          ]
+        }
+      ]
+    }
+  ]
+}

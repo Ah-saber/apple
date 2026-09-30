@@ -1,6 +1,11 @@
 {
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 36,
+      "sha256": "7c2c99861615407a14d745b5e5eb4ae43cc9d59460ba4bd1fb50d8f00fb61fd8"
+    },
+    {
       "path": ".gitignore",
       "bytes": 166,
       "sha256": "9e2eddb79b03f52b79a3bd04f61f68a4231b1ca3775f5bea9d1f45ea50e2006f"
@@ -12,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13396,
-      "sha256": "1d5f93d38a763bacb7118ae691501e03d629311412d7b24fd94e89699be2735e"
+      "bytes": 13827,
+      "sha256": "d92441e4e284a7bd758f16897a64766e9fd2e649bcbdf50a8c590cf5ed51b6a4"
     },
     {
       "path": "calibration/files_relative.txt",
@@ -164,6 +169,1121 @@
       "path": "normalization/index.json",
       "bytes": 370977,
       "sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/DEPLOYMENT.md",
+      "bytes": 4933,
+      "sha256": "4ee22a8ca57d805d7d3e946515b7b630c624397952d08a34fe0a3fe4e7465d20"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/IDENTITY.json",
+      "bytes": 1011613,
+      "sha256": "ef622851b2fde228fd7d2729cf6a2d63c105a48e8307caa2f27ef4c1269281a1"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/MODEL_INDEX.json",
+      "bytes": 86816,
+      "sha256": "71f42e327e787a5890ed91fd0a03f99c80246530c5ce32325c7853304f4a2c0d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/README.md",
+      "bytes": 8914,
+      "sha256": "27004f36bf866580b1d5720f6a2f5900fbec70f2961094ab07a75da44545cdd7"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/SHA256SUMS",
+      "bytes": 26157,
+      "sha256": "173f99f2f08f391fd11b9ca9c498f3434f1622ad865f085895238d26f30ebed1"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/cast_probe/README.json",
+      "bytes": 733,
+      "sha256": "f27968192a3ba106a324a1502c5819c19a49d0195463a95ff3ea4850f3e7b75a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/cast_probe/direct_cast_fp16.npz",
+      "bytes": 751,
+      "sha256": "f1af1ca2661b0b1925aa04e3eee459d1cd8fa92f15335181ddb9cd4e20e438fb"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/cast_probe/direct_cast_fp16.onnx",
+      "bytes": 157,
+      "sha256": "09358cc0356cce6db3d6c581921de1b785adbd0c6b1871c284d0e786c1ca2033"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/cast_probe/direct_cast_fp32.npz",
+      "bytes": 804,
+      "sha256": "4bb1cc6cee215232526a02a3565324ca299033461d8291289169a94e7b693c67"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/cast_probe/direct_cast_fp32.onnx",
+      "bytes": 157,
+      "sha256": "4f51df1515e7c672bc4bfa85532f04083e14f46f218f33060b54b852a28e4175"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/evidence/REPORT-v0.12-five-scene-half-deployment.md",
+      "bytes": 19379,
+      "sha256": "97ebb53016a36d5e79f52b12b8807f1bc98ac99ee4c025dabf71cb2973d7bf37"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/evidence/baseline_gate.json",
+      "bytes": 1344,
+      "sha256": "dfe84894a734420c588b33531cddcb9202cd9152ee339e6d0e8b80140122aca2"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/baseline/half-day-nine-temporal.pt",
+      "bytes": 112489,
+      "sha256": "c79211d20d1f3cb24fa5e19a38ab75922459d8fff240ed47f08dca7bd303a50a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/baseline/half-day-rawskip.pt",
+      "bytes": 112297,
+      "sha256": "3684e75a56fa22f425a26635f33f07f7dad02093cc16bcd8ea18a9f6a5fa5c22"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/baseline/half-heavy-temporal.pt",
+      "bytes": 62613,
+      "sha256": "a6bd5869ec2556886b0672a831896b1e6092826b29c6230cb4f7fb30017bc6ba"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/baseline/half-light-temporal.pt",
+      "bytes": 64405,
+      "sha256": "11b6a196057275b1563f08e29124f7c326031633bcc9d33ab51b4d191ba843e1"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/day.pt",
+      "bytes": 129775,
+      "sha256": "9e27204f1640b891f9694d5e6ed96300f7fbff626a0e1bcb8ca86f9f5fe12e93"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/day_fused.pt",
+      "bytes": 130223,
+      "sha256": "87797d94efbafa533545bc9f68367cbd80fcc819fc84e813aa8aa030d80b00d5"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/heavy_fused.pt",
+      "bytes": 83643,
+      "sha256": "e57a1eb84c44206e90238a1a50b6f38b92d59b9c26ef6ca3c5316e00cf7bfb4e"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/heavy_temporal.pt",
+      "bytes": 83835,
+      "sha256": "b8b6d4f72694e3ea541e109a038e326d2b104c6ce7a94ebc1e987ffd3603e85e"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/light_fused.pt",
+      "bytes": 85435,
+      "sha256": "37d70387061c6944c88373cf6ebe893381398789c6daf37f34044ddba6e2cf3f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/models/light_temporal.pt",
+      "bytes": 85627,
+      "sha256": "e404c37dfbea9c5eff05495255b02cb118a1731923ee36ce72c087e4934c9453"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/__init__.py",
+      "bytes": 56,
+      "sha256": "0d1567708dc8d2bc136e064ee3bb9fd27b14b9132063cb0dcf9ab282a1ed71d5"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/auxiliary.py",
+      "bytes": 6504,
+      "sha256": "65c28b4cef755ba4f6d50bcbc7321fe7fc1beaacb010f4c48b0578ba1b57e71b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/data.py",
+      "bytes": 20885,
+      "sha256": "edb22c9458e23f26c80cfd951044e9dc48804e4e81edd1be303d1f69a6647998"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/metrics.py",
+      "bytes": 1941,
+      "sha256": "07fef1000023081819e26351f4bd2d90cc4840fee3186f6f83efadd1b0dd49ac"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/model.py",
+      "bytes": 19323,
+      "sha256": "440bb3b1729a36a77bb81bc538859e41921f81ab563eb06b4d53d7939bee672c"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/native_training.py",
+      "bytes": 1942,
+      "sha256": "d6a2e1445f430caa2e5e5a023fd89a9f290ccd8a36db37c938a0ee58d2da0135"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/quality_initialization.py",
+      "bytes": 5329,
+      "sha256": "b9f69874120159605ada93264d0385cac66ccb440b849977500c5d58721dc0c7"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/sequence_normalization.py",
+      "bytes": 5095,
+      "sha256": "7eda38ef9132a5011a8355fb5ad7112b84354dfbee17ce7f0b05b030762f5e87"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/shared_raw_normalization.py",
+      "bytes": 3819,
+      "sha256": "64b294a83a6824aa1dcb7b6a6116ba9cd890ce98006956e3ced48f81bf32137f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/student_deployment.py",
+      "bytes": 2311,
+      "sha256": "b30f2fe56af0fd30f8e1aea2bb57804f309accc8ee7e89d8b5ca5b595c64533a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/temporal.py",
+      "bytes": 8141,
+      "sha256": "6df1d9dd27d63e3cf4798da9f0d7a3203be78086bca934a9c45901670a8827a1"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/temporal_stack.py",
+      "bytes": 3452,
+      "sha256": "4f7ead1dd41dfc5f762db2febb4d0ceeb6e33a6a994718235cedf6349fed371a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/night_source/ir_sr/training.py",
+      "bytes": 13559,
+      "sha256": "6217bfac7b71c52aa0a126f5f238bad2fae5c9281898dbc9c11571c0b6c7d1af"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/normalization/ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559_index.json",
+      "bytes": 370977,
+      "sha256": "ae33b3b5df60ee16205ce4edd269c2cda2f093b1810f166cd669f8fe89a1f559"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/normalization/ec7b7e64245800c00b81b70a852308df4b245ac2f0f05118a06e68a709b805f3_index.json",
+      "bytes": 19900,
+      "sha256": "ec7b7e64245800c00b81b70a852308df4b245ac2f0f05118a06e68a709b805f3"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/normalization/f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54_index.json",
+      "bytes": 870565,
+      "sha256": "f56ca478b26071ee1904fb382bd50657b467347303afbdf2317314cf5a682c54"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy/manifest.json",
+      "bytes": 4814,
+      "sha256": "7af3a32d3e766b33f5623ab782670d0c1e05dbd00a33ce47db33d7553d88f555"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy/weather_heavy_compact_fp16_phases.onnx",
+      "bytes": 68122,
+      "sha256": "282861772442da3252c6d2402ab4417915d72e3648c00eae625ff2680ebffb84"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy/weather_heavy_compact_fp16_rows32.onnx",
+      "bytes": 143828,
+      "sha256": "8913634587f4b87dcf4a5a3126846a11838d28447d37197ec48712f5fa7733d6"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy/weather_heavy_compact_fp32_phases.onnx",
+      "bytes": 99652,
+      "sha256": "30b107fbc7a21a2ffe984eeb2ee55ca273903cc385bd12431dbea04b30e140e0"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy/weather_heavy_compact_fp32_rows32.onnx",
+      "bytes": 249598,
+      "sha256": "bce5e97ee0d16da7cf02a4d615d0efcc10b30b3d8498b9e2bfcaea9323a9ea28"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy_c32/manifest.json",
+      "bytes": 4843,
+      "sha256": "6945d7aed645b26f0846d74d7440d855e20757154e2c183d9a475cd1ab294454"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy_c32/weather_heavy_c32_compact_fp16_phases.onnx",
+      "bytes": 68122,
+      "sha256": "b337e02597f830726ce81b3fa741f54d7a172699a947148c5d1fdb7f64bfcb26"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy_c32/weather_heavy_c32_compact_fp16_rows32.onnx",
+      "bytes": 143828,
+      "sha256": "c442acd7c30b94a3d03fbb6675562f1aaf7198a3cb9ec44db997a8ff4c46966f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy_c32/weather_heavy_c32_compact_fp32_phases.onnx",
+      "bytes": 99652,
+      "sha256": "d70605d8e59dba91484ff91ed883183079c3a04b229865eb0f142ef5d658d787"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_fused/weather_heavy_c32/weather_heavy_c32_compact_fp32_rows32.onnx",
+      "bytes": 249598,
+      "sha256": "cc358e42f4e9cab883a8ec6c229e7f71c95bf23be845980d5a686de9f661c56b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy/manifest.json",
+      "bytes": 29859,
+      "sha256": "4e2010b8e9d88928fb9bada716b9124b60430dc1c402cd784f722b55f81f4c64"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy/weather_heavy_compact_fp16_phases.onnx",
+      "bytes": 68122,
+      "sha256": "a78d510351fd61fb586174873a7da778403177b957e747e5c225b5c924c57c36"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy/weather_heavy_compact_fp16_rows32.onnx",
+      "bytes": 143828,
+      "sha256": "5b09da3e01d879d77b4cc140a524592266829ba1271654ab267d84247b494edf"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy/weather_heavy_compact_fp32_phases.onnx",
+      "bytes": 99652,
+      "sha256": "006779c7f6c0b1638bff583615e2004c41ad90d681b8e30a914af1da414fa3ee"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy/weather_heavy_compact_fp32_rows32.onnx",
+      "bytes": 249598,
+      "sha256": "b68156415c3110b5f19b6a879af7e1ab47af8fade0467818452363f58409d81d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy_c32/manifest.json",
+      "bytes": 29877,
+      "sha256": "6d6687d4b7ba6ff256f7289aec9e095ab75668fb76ae81f8a862a5af5eca60d3"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy_c32/weather_heavy_c32_compact_fp16_phases.onnx",
+      "bytes": 68122,
+      "sha256": "eb57b43087c981ae127c06fdb84eed5d5ebe0570ded1331f18b7934b812443e2"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy_c32/weather_heavy_c32_compact_fp16_rows32.onnx",
+      "bytes": 143828,
+      "sha256": "93fd3844967e3c18669fa15169cc6f70942e5fc8d346621657e0eaead2459c33"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy_c32/weather_heavy_c32_compact_fp32_phases.onnx",
+      "bytes": 99652,
+      "sha256": "9b6533ab5ff48df46c9bed5fc568dbd67ec88e7a7b333c9e61fddff683ce8a7c"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/heavy_temporal/weather_heavy_c32/weather_heavy_c32_compact_fp32_rows32.onnx",
+      "bytes": 249598,
+      "sha256": "7f1ef2e052727b38c2aab07ec8eacc2e8045d4dab317c9511b06fe65af5b2dd7"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_light/manifest.json",
+      "bytes": 4813,
+      "sha256": "b227f4f0b66db42c8c53a8a8ce5da34279dbe10b4e719b57a274e667d228ccc3"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_light/weather_light_compact_fp16_phases.onnx",
+      "bytes": 68986,
+      "sha256": "5636a2d1d4ff2454974711a2fbffd5cac499bb9d86d1d00be152e28dd3277eb0"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_light/weather_light_compact_fp16_rows32.onnx",
+      "bytes": 144692,
+      "sha256": "2eeaf65f6761b13c3629c8a1c8cd8366047e6207b8c91872dcf95f2f60d17ba9"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_light/weather_light_compact_fp32_phases.onnx",
+      "bytes": 101380,
+      "sha256": "454b043182d77cd5a6d17de9b2a53c2fac9357b145531bea74e8f8fd0d6cbfcc"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_light/weather_light_compact_fp32_rows32.onnx",
+      "bytes": 251326,
+      "sha256": "88dfb5e1f41b4e06c522222422e972e5966134ff13a68c179ab811f7b9080699"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_medium/manifest.json",
+      "bytes": 4821,
+      "sha256": "afd59f3f9e1ebe42f61cbe883b0699d971f801c6f9eeff3bca6b7d4a048f5c5a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_medium/weather_medium_compact_fp16_phases.onnx",
+      "bytes": 68986,
+      "sha256": "5636a2d1d4ff2454974711a2fbffd5cac499bb9d86d1d00be152e28dd3277eb0"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_medium/weather_medium_compact_fp16_rows32.onnx",
+      "bytes": 144692,
+      "sha256": "2eeaf65f6761b13c3629c8a1c8cd8366047e6207b8c91872dcf95f2f60d17ba9"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_medium/weather_medium_compact_fp32_phases.onnx",
+      "bytes": 101380,
+      "sha256": "454b043182d77cd5a6d17de9b2a53c2fac9357b145531bea74e8f8fd0d6cbfcc"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_fused/weather_medium/weather_medium_compact_fp32_rows32.onnx",
+      "bytes": 251326,
+      "sha256": "88dfb5e1f41b4e06c522222422e972e5966134ff13a68c179ab811f7b9080699"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_light/manifest.json",
+      "bytes": 29918,
+      "sha256": "d14608ea794c94477b3af02e678a97579d4dd3de70504892312880919aa68415"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_light/weather_light_compact_fp16_phases.onnx",
+      "bytes": 68986,
+      "sha256": "ac8cf47415416acc6f35761b8e20b1d5e3595aa19fe78164003e82345f902a52"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_light/weather_light_compact_fp16_rows32.onnx",
+      "bytes": 144692,
+      "sha256": "c2a473a517c1da823c7a370b8b0c74a7315b79e2725136e106154e6a93c685db"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_light/weather_light_compact_fp32_phases.onnx",
+      "bytes": 101380,
+      "sha256": "c87e3568873fa9fc2b62e083f8a3093eb92b9ba6652a9e1483d8c9e454788e84"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_light/weather_light_compact_fp32_rows32.onnx",
+      "bytes": 251326,
+      "sha256": "a359df717e2c68348ce4c4f97b2e28efe817c01e7f85ac9c44cad55c9b0ee2c5"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_medium/manifest.json",
+      "bytes": 29889,
+      "sha256": "a1a59073422c341e64024ace141a1614120f19eabae45a099774ecf4dc033882"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_medium/weather_medium_compact_fp16_phases.onnx",
+      "bytes": 68986,
+      "sha256": "ac8cf47415416acc6f35761b8e20b1d5e3595aa19fe78164003e82345f902a52"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_medium/weather_medium_compact_fp16_rows32.onnx",
+      "bytes": 144692,
+      "sha256": "c2a473a517c1da823c7a370b8b0c74a7315b79e2725136e106154e6a93c685db"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_medium/weather_medium_compact_fp32_phases.onnx",
+      "bytes": 101380,
+      "sha256": "c87e3568873fa9fc2b62e083f8a3093eb92b9ba6652a9e1483d8c9e454788e84"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/compact/light_temporal/weather_medium/weather_medium_compact_fp32_rows32.onnx",
+      "bytes": 251326,
+      "sha256": "a359df717e2c68348ce4c4f97b2e28efe817c01e7f85ac9c44cad55c9b0ee2c5"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_current_folded_fp16_rows32.onnx",
+      "bytes": 176680,
+      "sha256": "6a6e9978138535020569d417f69c068f3e239680dab943581a43b6b21ede5f3d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_current_folded_fp32_rows32.onnx",
+      "bytes": 296473,
+      "sha256": "1c4f4c10feb25789cc9b310533c822dab94d0871c8b56963b7f58f2008baedf6"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_normal_equivalent_fp16_byte.onnx",
+      "bytes": 182895,
+      "sha256": "6cac13313d897df82dffb99f176c2e83f7d46053526965d6f6847f05041e9c49"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_normal_equivalent_fp16_phases.onnx",
+      "bytes": 107962,
+      "sha256": "848b93aa0a071f730f32ff545e8fee84a4bd8cbecfe2eed6ec74e26423cfcc47"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_normal_equivalent_fp16_rows32.onnx",
+      "bytes": 182815,
+      "sha256": "53c9b69d57615f8fe97f59667dd14ff997b5610088f407e695b77b7bf42cdc8d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_normal_equivalent_fp32_byte.onnx",
+      "bytes": 308832,
+      "sha256": "bbf3638f941a4001c8e65c9376d27b9d145ee5ca61f125d9d3cc484a02502070"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_normal_equivalent_fp32_phases.onnx",
+      "bytes": 160171,
+      "sha256": "105b68e39883de2531952eb6ee331bd9f87d7455e169f0847ef21647dd263c20"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_normal_equivalent_fp32_rows32.onnx",
+      "bytes": 308752,
+      "sha256": "58801e62edbe12fb5031900aa31bb9c66e3675143cc65e76f25bf0056e28983a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp16_byte.onnx",
+      "bytes": 156647,
+      "sha256": "06a2a8c77b82963ee814d0dbcd831964ab9489d96d9a7ccd27ad108671e9d51c"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp16_phases.onnx",
+      "bytes": 81714,
+      "sha256": "e00526b2a4f8e65708930c26fbb020fc159bd82ad939c7874128dbf19139ab06"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp16_rows32.onnx",
+      "bytes": 156567,
+      "sha256": "9d6cee00dbd473de55b26619332584ef3117f0067fecf4150214707f50bd5b09"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp32_byte.onnx",
+      "bytes": 257469,
+      "sha256": "09149e3b60f702ea074bff560f5d4929bffd0e2fe1390331e1d0aab7d541168b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp32_phases.onnx",
+      "bytes": 108808,
+      "sha256": "c309705890c62219d7aa104f4d77babf05c5634d7db9695f65739a462690aa7f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp32_rows32.onnx",
+      "bytes": 257389,
+      "sha256": "e357f7eeb675b6cd68b8ab2ed708f1e552a72438a38ee2f680f2b2fa7728a977"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp16_byte.onnx",
+      "bytes": 156647,
+      "sha256": "ffa5655fed607297b7e4a26369f4108898d84a6ad5da2bf885aeb90080a4996f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp16_phases.onnx",
+      "bytes": 81714,
+      "sha256": "1089558220cea89e7a35d166cf1f080641c9ae1da5f7a7ad3d8e2a5d2c2125fb"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp16_rows32.onnx",
+      "bytes": 156567,
+      "sha256": "e25433b8254e9d8dc376b99e69b04d5323d70b60add540eb68ae007eb515c350"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp32_byte.onnx",
+      "bytes": 257469,
+      "sha256": "73509d3b4a20aed39bf0b8c7cebb86c590fef4f418d4d5dd51336c47e6046679"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp32_phases.onnx",
+      "bytes": 108808,
+      "sha256": "e7141745b4337e96e55556c8a878d048113c632a82e68fed2afee32ff3557e47"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp32_rows32.onnx",
+      "bytes": 257389,
+      "sha256": "bdf6e9c5a44eca0115560055aea9f19780fbdd70a612f4e19149316d41b5f189"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_light/weather_light_equivalent_fp16_byte.onnx",
+      "bytes": 157511,
+      "sha256": "b930df7862dcc8ceaa2689dbcfb5c792d168f08f96c5c27f647e1be2a14d9548"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_light/weather_light_equivalent_fp16_phases.onnx",
+      "bytes": 82578,
+      "sha256": "04da434ee37910be27b556b425beeb091ffb97a731d48875b0e8598a50d1ed3b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_light/weather_light_equivalent_fp16_rows32.onnx",
+      "bytes": 157431,
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_light/weather_light_equivalent_fp32_byte.onnx",
+      "bytes": 259197,
+      "sha256": "3b2749e6dd43a3830488efe43f1d2fb03aebe6af775b770f720ee59ecf96a58e"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_light/weather_light_equivalent_fp32_phases.onnx",
+      "bytes": 110536,
+      "sha256": "d95f91bf504098e688832d42261d19b0fc730dfc021f24da44aed06c4c1ea2a4"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_light/weather_light_equivalent_fp32_rows32.onnx",
+      "bytes": 259117,
+      "sha256": "b6f38dca14af5c268468f2d9ce466b0654147d4567ce7aaa330b91cfbe21ebde"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_medium/weather_medium_equivalent_fp16_byte.onnx",
+      "bytes": 157511,
+      "sha256": "b930df7862dcc8ceaa2689dbcfb5c792d168f08f96c5c27f647e1be2a14d9548"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_medium/weather_medium_equivalent_fp16_phases.onnx",
+      "bytes": 82578,
+      "sha256": "04da434ee37910be27b556b425beeb091ffb97a731d48875b0e8598a50d1ed3b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_medium/weather_medium_equivalent_fp16_rows32.onnx",
+      "bytes": 157431,
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_medium/weather_medium_equivalent_fp32_byte.onnx",
+      "bytes": 259197,
+      "sha256": "3b2749e6dd43a3830488efe43f1d2fb03aebe6af775b770f720ee59ecf96a58e"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_medium/weather_medium_equivalent_fp32_phases.onnx",
+      "bytes": 110536,
+      "sha256": "d95f91bf504098e688832d42261d19b0fc730dfc021f24da44aed06c4c1ea2a4"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_medium/weather_medium_equivalent_fp32_rows32.onnx",
+      "bytes": 259117,
+      "sha256": "b6f38dca14af5c268468f2d9ce466b0654147d4567ce7aaa330b91cfbe21ebde"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/night_preserved/ordinary_reference_after12_rows32.onnx",
+      "bytes": 123549,
+      "sha256": "0a7f7b25f44f97692b8f0794ed4f1e7829da3b67e9464372cc3c84f1aa205d1e"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/onnx/night_preserved/special_lowref_k5_rows32.onnx",
+      "bytes": 118773,
+      "sha256": "168e4f65b205acf8599f292738ccd7299213925908f07939ecd614a2170353a0"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/day/evaluation.json",
+      "bytes": 93180,
+      "sha256": "5a3ac9174f3742399b8143ee13eb7180224db9bb37d66e19edd28f936a2b2055"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/day/training.json",
+      "bytes": 70796,
+      "sha256": "90c3af0b61031b7ce87eb0627114ee56cb36757b6a4a673a77ecfe70c9d12146"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/day_fused/evaluation.json",
+      "bytes": 93159,
+      "sha256": "135adb84f5285bde84bcd639da34766c0d90b2be0a6aab53677c9ccbb5fe2967"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/day_fused/training.json",
+      "bytes": 70825,
+      "sha256": "a9ae7a1037e4b840e817a3d92c1b024084479d9220f73b916f82a8f1099a9b69"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/day_normal/config.json",
+      "bytes": 3567,
+      "sha256": "dcb9f7c7ff883ce5d874124f1e14a8a1f01438d7d65ade669254b2ee3e2e1c0f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/day_normal/manifest.json",
+      "bytes": 89897,
+      "sha256": "8c7ba67ed2d33b17311de394bf191076c23245e096a57a6bbbe227ba2db3cfdd"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/manifest.json",
+      "bytes": 435007,
+      "sha256": "2dc8d0ebc0dc48332b7f781edea1b04762d21c44ae328341b113c2669566162d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/weather_heavy/config.json",
+      "bytes": 3753,
+      "sha256": "7f7b814f064c99055976809b1e1b91842db1418bfae0d55d918f9d3ed0506a6b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/weather_heavy/manifest.json",
+      "bytes": 74077,
+      "sha256": "c7bb3a060048b12f95975402fd7c1631b6db84904db6be369c61343cbdff467b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/weather_heavy_c32/config.json",
+      "bytes": 3753,
+      "sha256": "7f7b814f064c99055976809b1e1b91842db1418bfae0d55d918f9d3ed0506a6b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/weather_heavy_c32/manifest.json",
+      "bytes": 74534,
+      "sha256": "9d9fb055b4da91fa2077374447c0c7b7aedb01b1181909ac227c154cc75c9b3c"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/weather_light/config.json",
+      "bytes": 3746,
+      "sha256": "575a654f2637e0237c34201627f6e9e4264980d2f65c73926a593612e803160f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/weather_light/manifest.json",
+      "bytes": 73737,
+      "sha256": "9f6cd2c0f651dd19cbbcf594f55834c8e2e411b4eb09d0108ac5c884e763f84d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/weather_medium/config.json",
+      "bytes": 3746,
+      "sha256": "575a654f2637e0237c34201627f6e9e4264980d2f65c73926a593612e803160f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/deployment/weather_medium/manifest.json",
+      "bytes": 73992,
+      "sha256": "25302f049e8c9c6991543c41499f0467d11c2f9baa9003229d94ec808f9e9911"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/final_fused.json",
+      "bytes": 23120,
+      "sha256": "da0839cbef17550dd81e2586dd3580b0a4b0b8dcfe4c3893f9758a6882290fd7"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/final_temporal.json",
+      "bytes": 138709,
+      "sha256": "e70753ab06e7a21620961faf45b44afcced039d26cf9a952a112008d61fa0cc4"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/heavy_fused/evaluation.json",
+      "bytes": 185590,
+      "sha256": "2ece28350cf23f30cd4b1e37a47afb046920a92d8b89423b600238fa517df925"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/heavy_fused/training.json",
+      "bytes": 72592,
+      "sha256": "df1631e2a172507a4b8b7d053b35be2fc35ea467d18cd50719de7c74a991f8ae"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/heavy_temporal/evaluation.json",
+      "bytes": 185645,
+      "sha256": "c268cce21edb1d5f5e85d7be5810d84ea710b48548142e325a080ef7209b2ff8"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/heavy_temporal/training.json",
+      "bytes": 69232,
+      "sha256": "8e0e9ed1a95be2de30ab485f1178814a8f16718ea2afb73122a34b6b61c9f291"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/light_fused/evaluation.json",
+      "bytes": 186796,
+      "sha256": "7f7bbbcccb2f5417ccf74fb44da84f9f4b2baa870128c495855996a5c102f54d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/light_fused/training.json",
+      "bytes": 72164,
+      "sha256": "4e3161ea31dd2b5369e5cabe41f3415639ee2f849c7a600ba718f78301af654a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/light_temporal/evaluation.json",
+      "bytes": 186653,
+      "sha256": "cd46c2d778634b2f9384c67e79534637e29cc79e69655d9315b7195ef1311c0c"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/light_temporal/training.json",
+      "bytes": 68831,
+      "sha256": "16d03cd7c4380e9b482392b6a7a2eb5d575799f917c405e10a58d48e763d322b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/cast_probe.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/day_fused.log",
+      "bytes": 4398,
+      "sha256": "c1cbe735339e30f83369e187469f4fa49c13c488751f49ae102b723d9f19f118"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/deployment.log",
+      "bytes": 2603,
+      "sha256": "dc0c9d5d726b8468cc478a824cb7b1fad973ed118f6584384dff50dd3f40f9f1"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/deployment_corrected.log",
+      "bytes": 2641,
+      "sha256": "8f0c7a4b2f026f396e735274c855e092fbf934f5078774916d69fb5099047c95"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/finalize_fused.log",
+      "bytes": 22,
+      "sha256": "70662ced1717b12ccf8460d00191ef5cb495005380601676993337545518e157"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/finalize_temporal.log",
+      "bytes": 663,
+      "sha256": "d2e250e745eae9e9c512f0f175dc6272234cb34698b1838f3abc33e4252aa49e"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/heavy_fused.log",
+      "bytes": 6250,
+      "sha256": "098472a6590b677f07eec9435317c054ac0fecaa9ffff9d05b1c11c39946a6ae"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/heavy_temporal.log",
+      "bytes": 3658,
+      "sha256": "a0fbe4f62d46d866cc5003e5bf451ab1d4bce889d0b6d3cdec30464d39b3e637"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/light_fused.log",
+      "bytes": 6210,
+      "sha256": "6e50296d2eab1d508b7622353ac819716a1978c667b5e9bbf75b67268dfe5415"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/light_temporal.log",
+      "bytes": 3639,
+      "sha256": "0e09808ed5edc4338688103c73c138d3809d9030f7f47f4966ef08d69853d81a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/night_calibration.log",
+      "bytes": 1832,
+      "sha256": "ed9dd01e7d79238eed91d4a6a34efb90f12a673d6b95aefe6d0afa1fd30088a4"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/night_calibration_final.log",
+      "bytes": 2451,
+      "sha256": "2977273791b227f572bb04e1ffe84b36ddbf565ea66ca0ac9f9716acf5bbd068"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/package_results.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/reproduce_model.log",
+      "bytes": 743,
+      "sha256": "925b92fe4bef2505efcac9db91dd1eb118ba765a655320d1358a86fc5f71c1bf"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/reproduce_model_corrected.log",
+      "bytes": 649,
+      "sha256": "bdc6d15c7f5ae2390557ee465f16f621fd32e453e7ad7b6a8133f4e5fdc52e01"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/verify_night_graphs.log",
+      "bytes": 1127,
+      "sha256": "ecbac46f8e8c65bcbb7219d720bedd6de07b334c50e6d6bf8ae21ac9740ec6e3"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/logs/verify_release.log",
+      "bytes": 9243,
+      "sha256": "2cad17e501d10d8a29e377adac7b8944a97359865c2030449ca06248d7eeb461"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/night_calibration/manifest.json",
+      "bytes": 133836,
+      "sha256": "79c53559938bb3f8f415cc5e1a906564e5236bad4013cb644173784ade0f43f0"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/night_calibration/night_ordinary/manifest.json",
+      "bytes": 57248,
+      "sha256": "292d732d6cc2440d255aaa166b1883644615e44fb478b7c47e3bdb6e737fa9d8"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/night_calibration/night_special/manifest.json",
+      "bytes": 60910,
+      "sha256": "7c910c4e5a14b2eab5ef62f75b74068b6e316286e8a385824a7dbabfa13e0faf"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/day_day_normal_full120_frame60.png",
+      "bytes": 1403940,
+      "sha256": "4100fbaf0d267c1be53ee93ccb3482a2f2bdbc11cf4fec7354626ca08800a625"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/day_fused_day_normal_full120_frame60.png",
+      "bytes": 1407436,
+      "sha256": "c8c0ee6f4f5954f22e94352799b7cfcaeb14ce728b0f6034c9a5bc71fb09352c"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/exact_graph_verification.json",
+      "bytes": 30632,
+      "sha256": "72fd836983eb924d8fa2a0055edd32617b3162b61c1c4805c38bd87df220bc7b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/heavy_fused_weather_heavy_c32_full120_frame60.png",
+      "bytes": 1289094,
+      "sha256": "813f71d4b2862bd007343c29746f3a269f59a227c83232ed284542c192d52622"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/heavy_fused_weather_heavy_full120_frame60.png",
+      "bytes": 1240160,
+      "sha256": "ec7d48f22260527325b497d225a01fb641b3c39793b8daca606523b86d5a8ac9"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/heavy_temporal_weather_heavy_c32_full120_frame60.png",
+      "bytes": 1288617,
+      "sha256": "fd5028763511f38f97c5fcc29ffce4bb9cd0a42f2aadcb3092d6f0e4c65dbd76"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/heavy_temporal_weather_heavy_full120_frame60.png",
+      "bytes": 1239158,
+      "sha256": "26307fedeb4d85451e2d318843daadc2ebc9f184451d07595ee5da724bcbec69"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/layer_tool_precision_control.json",
+      "bytes": 11000,
+      "sha256": "57a88deb42ff3e6ac10fc346ab1268cf3f84eef68eecf93286b0106ef051b51f"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/light_fused_weather_light_full120_frame60.png",
+      "bytes": 1124756,
+      "sha256": "b943400f57cc35df4b1464769f2867c8b5d4279e0b8624a56be255a977061a59"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/light_fused_weather_medium_full120_frame60.png",
+      "bytes": 1120938,
+      "sha256": "d79e04d8fa6d0eb356eec343ab25fa17426100fd75c4d7b4e62173e3674b8464"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/light_temporal_weather_light_full120_frame60.png",
+      "bytes": 1121772,
+      "sha256": "1e79e821f119b306fa20d4419c28c52fdcc83e035591d803deadfa34d01ef7b3"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/light_temporal_weather_medium_full120_frame60.png",
+      "bytes": 1119366,
+      "sha256": "51c6cd39f97561d67758c1c842f962afec2fb9e85bc254e0af3724d3a62299ca"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/night_exact_graph_verification.json",
+      "bytes": 1394,
+      "sha256": "2620a8a4b31fcf0ad3c7fb3d3a617e7984d8b4447db5479801f288494a6cdc8b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/standalone_c32.json",
+      "bytes": 402,
+      "sha256": "4f58e875495df0f87b13761e5e6c8a8383e913c89b69e7dc912df29ac6e594ec"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/standalone_light_fp16.json",
+      "bytes": 309,
+      "sha256": "96f169888be07a99b935f40690de018197c9ac3eded939ec6d58ad702e7d7bd7"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_day_day_normal_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_day_fused_day_normal_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_heavy_fused_weather_heavy_c32_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_heavy_fused_weather_heavy_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_heavy_temporal_weather_heavy_c32_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_heavy_temporal_weather_heavy_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_light_fused_weather_light_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_light_fused_weather_medium_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_light_temporal_weather_light_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/records/verification/video_light_temporal_weather_medium_full120.json",
+      "bytes": 202,
+      "sha256": "3d213e30eec67579639c69f3a5dcf876ef394d8957a734ba82e656601720c164"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/audit_release.py",
+      "bytes": 3626,
+      "sha256": "debed29a82060340cb769b841596001406d97bed1c38c305ab8f8dbd5461201d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/board_gate.py",
+      "bytes": 1627,
+      "sha256": "7c3010faca52815e0af1dc102fabb0d70d33ff1c82fb24840c61f62f20af05f1"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/cast_probe.py",
+      "bytes": 1742,
+      "sha256": "6707aa9847bef1c2b2e6cf99105e9d940ce2c7ed7d62ed4f448d5345319b59ac"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/compact_model.py",
+      "bytes": 6114,
+      "sha256": "de444944404de3567994397973c73bb0bdeb2e363a0d647655fe101969bd9781"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/compare_layers.py",
+      "bytes": 1736,
+      "sha256": "2b1897ce2cdb7b47603f6f9d107be7c69f548cc1b1744b36ca71a5543ed7c651"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/equivalent_model.py",
+      "bytes": 4206,
+      "sha256": "7c303a5d2881c90d26020e5307f04899557fd69e974d87fdc259e94457b7c1d4"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/finalize_candidates.py",
+      "bytes": 4930,
+      "sha256": "70694e2947aa01a9dbb70643600105e2382f54456469d6827685fc681fa70dc2"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/legacy/export_half_board.py",
+      "bytes": 6557,
+      "sha256": "d7cf1e72c0d6cc8a0f1453d8a2191520b38b2fbf4ab36cfb9d9f753362cf5194"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/legacy/half_student.py",
+      "bytes": 1864,
+      "sha256": "081c5517c190c14e91c3ad31bb0923083131c1991eb18dc88cf14cf78bbb989c"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/legacy/train_quarter_student.py",
+      "bytes": 15671,
+      "sha256": "46786c7c85ca1b94f434889d14dc52d49d2878d42cdc76f48f10c1ff9283ae02"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/materialize_calibration.py",
+      "bytes": 2657,
+      "sha256": "b905a6a2fd9a783317f4fed3a09804446e5bfecd2415b4572f1ebeb2fc64407d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/package_results.py",
+      "bytes": 6736,
+      "sha256": "fd6a533e329be548a5623de5c421d0c11d8c0ad8f0de5422b2b7af16f208bb47"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/prepare_deployment.py",
+      "bytes": 12826,
+      "sha256": "a4ac8a61e60dd3a51608bfdf0e57eb748423922a31e345567df023811fc288a8"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/prepare_night_calibration.py",
+      "bytes": 5602,
+      "sha256": "95fd62f190f213790857fa2dd91bff06520d5ac46366e83183ea1a8284343e02"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/regenerate_reference.py",
+      "bytes": 1625,
+      "sha256": "497a83300a1c84dd9863d3761ecaf769c5b46e3b88523ff07f21a09d94b960d2"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/reproduce_model.py",
+      "bytes": 4036,
+      "sha256": "032febfd1dc2a6751e23ecd9312b3d1df764a0c91662d6242892a6976ae0e9b2"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/run_compact.py",
+      "bytes": 13809,
+      "sha256": "0cefaefa34549552a666d27ff9c89e4eea784d352f62cb069be133dccced9734"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/verify_night_graphs.py",
+      "bytes": 1442,
+      "sha256": "f45e183be55a231c98354bc164bb7594bdcb1514960aae56d300878cffbbb94d"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/runtime/verify_release.py",
+      "bytes": 7003,
+      "sha256": "7693ddf7517464fdcaf39cdadb89ee77d5ec6826425b4c013c104cd3c72687b4"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/__init__.py",
+      "bytes": 56,
+      "sha256": "0d1567708dc8d2bc136e064ee3bb9fd27b14b9132063cb0dcf9ab282a1ed71d5"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/auxiliary.py",
+      "bytes": 6504,
+      "sha256": "65c28b4cef755ba4f6d50bcbc7321fe7fc1beaacb010f4c48b0578ba1b57e71b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/data.py",
+      "bytes": 18761,
+      "sha256": "49135fcf4c1377cf2e2b047e72615ad08799aeabbfa04d049141e63abe1227e3"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/metrics.py",
+      "bytes": 1941,
+      "sha256": "07fef1000023081819e26351f4bd2d90cc4840fee3186f6f83efadd1b0dd49ac"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/model.py",
+      "bytes": 19323,
+      "sha256": "440bb3b1729a36a77bb81bc538859e41921f81ab563eb06b4d53d7939bee672c"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/native_training.py",
+      "bytes": 1942,
+      "sha256": "d6a2e1445f430caa2e5e5a023fd89a9f290ccd8a36db37c938a0ee58d2da0135"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/quality_initialization.py",
+      "bytes": 4725,
+      "sha256": "66d774d4fb22454b905a259ce8593d239071b77627f602cec973f8cd009b3892"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/sequence_normalization.py",
+      "bytes": 5095,
+      "sha256": "7eda38ef9132a5011a8355fb5ad7112b84354dfbee17ce7f0b05b030762f5e87"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/student_deployment.py",
+      "bytes": 2311,
+      "sha256": "b30f2fe56af0fd30f8e1aea2bb57804f309accc8ee7e89d8b5ca5b595c64533a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/temporal.py",
+      "bytes": 8141,
+      "sha256": "6df1d9dd27d63e3cf4798da9f0d7a3203be78086bca934a9c45901670a8827a1"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/temporal_stack.py",
+      "bytes": 3452,
+      "sha256": "4f7ead1dd41dfc5f762db2febb4d0ceeb6e33a6a994718235cedf6349fed371a"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/source/ir_sr/training.py",
+      "bytes": 13115,
+      "sha256": "55c12218fbcac2967edca4d8c4e9b60039264f0ff464c7b544b2705e5e90411b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/candidates/heavy_fused/weather_heavy_c32_full120.mp4",
+      "bytes": 7232137,
+      "sha256": "1d053946c68325c32fa446f95c31bcf00fe17a5efef9b27419de9249b3be5cc8"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/candidates/heavy_fused/weather_heavy_full120.mp4",
+      "bytes": 7251767,
+      "sha256": "36a9a5c3884deab4ce95687724cc96f1351f0ac950333f204e795283ea7aa287"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/candidates/heavy_temporal/weather_heavy_c32_full120.mp4",
+      "bytes": 7094562,
+      "sha256": "4a8f2103ea4b9ebc84b78edb902d869c02d26a6c6c6637e053d2ed5389d82ab9"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/candidates/heavy_temporal/weather_heavy_full120.mp4",
+      "bytes": 7091723,
+      "sha256": "20d11529a535b843f2f93055471bf2712f51d21305921b295922e60f90346169"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/candidates/light_fused/weather_light_full120.mp4",
+      "bytes": 3419762,
+      "sha256": "1760f5e3b04cab64d6628804edb57a11a3c4a9143cfdf9255c0d1ecef73a8a51"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/candidates/light_fused/weather_medium_full120.mp4",
+      "bytes": 3359762,
+      "sha256": "90ce04c90bd691a3654618230a21c26111545c7a28f523c1fb6f5e9c9173bc43"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/candidates/light_temporal/weather_light_full120.mp4",
+      "bytes": 3316257,
+      "sha256": "fffd3f6efab79a1927fd783f3100cb6a0b9c319f8f7b3cb587ff0c5b59a8ad1b"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/candidates/light_temporal/weather_medium_full120.mp4",
+      "bytes": 3259696,
+      "sha256": "7c9d4be46bdfab428ef2275bcbfbd2cda6df38dd58e955f6e782921845b9edb2"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/rejected/day/day_normal_full120.mp4",
+      "bytes": 33350426,
+      "sha256": "6df178a7de972e33a4c4ab09c24ff7519049e71acc89769386eeb670acfa6a53"
+    },
+    {
+      "path": "releases/ss928-board-v13-20260930/videos/rejected/day_fused/day_normal_full120.mp4",
+      "bytes": 32959485,
+      "sha256": "b4143696bfdadfcaf6c98c51feb39c33c5c088a73df25e9ee1faeea1f4b9b119"
     },
     {
       "path": "reports/RESULTS.md",

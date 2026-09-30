@@ -1,0 +1,51 @@
+{
+  "source": "/mnt/d/work_project/rawIR/reports/ss928_board_v13_20260930/evidence/REPORT-v0.12-five-scene-half-deployment.md",
+  "source_sha256": "97ebb53016a36d5e79f52b12b8807f1bc98ac99ee4c025dabf71cb2973d7bf37",
+  "requirement_ms": 16.7,
+  "rows": [
+    {
+      "scene": "日间稳帧",
+      "r2_sync_mean_ms": 59.876,
+      "r2_sync_p95_ms": 61.38,
+      "r2_npu_mean_ms": 59.83,
+      "npu_p95_ms": null
+    },
+    {
+      "scene": "日间画质备选",
+      "r2_sync_mean_ms": 63.725,
+      "r2_sync_p95_ms": 65.579,
+      "r2_npu_mean_ms": 63.449,
+      "npu_p95_ms": null
+    },
+    {
+      "scene": "轻度",
+      "r2_sync_mean_ms": 40.21,
+      "r2_sync_p95_ms": 41.271,
+      "r2_npu_mean_ms": 39.911,
+      "npu_p95_ms": null
+    },
+    {
+      "scene": "中度",
+      "r2_sync_mean_ms": 40.253,
+      "r2_sync_p95_ms": 41.465,
+      "r2_npu_mean_ms": 39.914,
+      "npu_p95_ms": null
+    },
+    {
+      "scene": "重度",
+      "r2_sync_mean_ms": 40.168,
+      "r2_sync_p95_ms": 41.36,
+      "r2_npu_mean_ms": 39.905,
+      "npu_p95_ms": null
+    },
+    {
+      "scene": "C32",
+      "r2_sync_mean_ms": 39.097,
+      "r2_sync_p95_ms": 40.449,
+      "r2_npu_mean_ms": 38.859,
+      "npu_p95_ms": null
+    }
+  ],
+  "passes": false,
+  "evidence": "Captured board measurements, not a new board execution; pure NPU P95 is absent."
+}

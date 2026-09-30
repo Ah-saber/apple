@@ -1,0 +1,11 @@
+{
+  "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/release/models/light_fused.pt",
+  "precision": "fp16",
+  "shape": [
+    1,
+    1,
+    3072,
+    3840
+  ],
+  "sample": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/deployment_corrected/weather_light/test_00.npz"
+}

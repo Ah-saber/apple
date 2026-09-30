@@ -1,0 +1,13 @@
+GPU weather_light source_half 0.31188031981388725
+GPU weather_light equivalent_half 0.33356031984090806
+GPU weather_light compact_quarter 0.3427938126524289
+GPU weather_medium source_half 0.30649994691212973
+GPU weather_medium equivalent_half 0.33290986667076744
+GPU weather_medium compact_quarter 0.33581909388303754
+GPU weather_heavy source_half 0.2989929602543513
+GPU weather_heavy equivalent_half 0.3242599465449651
+GPU weather_heavy compact_quarter 0.32136778682470324
+GPU weather_heavy_c32 source_half 0.30175647884607315
+GPU weather_heavy_c32 equivalent_half 0.322946666876475
+GPU weather_heavy_c32 compact_quarter 0.3240219725171725
+FINALIZATION_COMPLETE
