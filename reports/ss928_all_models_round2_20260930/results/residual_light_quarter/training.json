@@ -1,0 +1,141 @@
+{
+  "group": "light",
+  "kind": "quarter",
+  "steps": 8000,
+  "seed": 930,
+  "precision": "FP32; TF32 disabled",
+  "cache": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-QUARTER-LIGHT-20260929/train_cache.pt",
+  "cache_sha256": "cc619a54422be0ad6b2e2c9d549684ba60e395a8fae2fe7deb2f14807a4b78ee",
+  "features_sha256": "463ddb3ff71d1602d5abe271019bf7680ff0b889da5a7f366b3bccdd0bb329bc",
+  "original_denoiser_frozen": true,
+  "zero_initial_residual_control": "all train cache predicted phases agree with original native within .01 gray",
+  "independent_baseline_control": {
+    "old_graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_temporal/onnx/weather_light/weather_light_compact_fp32_phases.onnx",
+    "old_graph_sha256": "c87e3568873fa9fc2b62e083f8a3093eb92b9ba6652a9e1483d8c9e454788e84",
+    "mean_gray": 1.3740982467425056e-05,
+    "max_gray": 0.0002288818359375,
+    "late_reference": false,
+    "weights_sha256": "e404c37dfbea9c5eff05495255b02cb118a1731923ee36ce72c087e4934c9453"
+  },
+  "target_mask": "training GT signed coherent component change; same limits as train_fp32",
+  "logs": [
+    {
+      "step": 0,
+      "validation": {
+        "weather_light": {
+          "psnr_db": 29.494511214290167,
+          "mae_gray": 6.633157173637301
+        },
+        "weather_medium": {
+          "psnr_db": 31.759621055556547,
+          "mae_gray": 5.022515393793583
+        }
+      }
+    },
+    {
+      "step": 1,
+      "loss": 24.90938377380371,
+      "motion_mae": 5.509329795837402,
+      "static_anchor": 0.0,
+      "elapsed_seconds": 9.427562730852515
+    },
+    {
+      "step": 1000,
+      "loss": 24.485776901245117,
+      "motion_mae": 5.17274284362793,
+      "static_anchor": 0.40172964334487915,
+      "elapsed_seconds": 10.893768180627376
+    },
+    {
+      "step": 2000,
+      "loss": 24.160226821899414,
+      "motion_mae": 4.9518561363220215,
+      "static_anchor": 0.5138457417488098,
+      "elapsed_seconds": 12.370912381913513,
+      "validation": {
+        "weather_light": {
+          "psnr_db": 29.586848879973854,
+          "mae_gray": 6.565744555555284
+        },
+        "weather_medium": {
+          "psnr_db": 31.924540301716203,
+          "mae_gray": 4.933418447617441
+        }
+      }
+    },
+    {
+      "step": 3000,
+      "loss": 25.222631454467773,
+      "motion_mae": 5.31254243850708,
+      "static_anchor": 0.5444515943527222,
+      "elapsed_seconds": 23.192426924593747
+    },
+    {
+      "step": 4000,
+      "loss": 21.499475479125977,
+      "motion_mae": 4.491676330566406,
+      "static_anchor": 0.256971150636673,
+      "elapsed_seconds": 24.649228726048023,
+      "validation": {
+        "weather_light": {
+          "psnr_db": 29.555794534729312,
+          "mae_gray": 6.590752874035388
+        },
+        "weather_medium": {
+          "psnr_db": 31.898497596697357,
+          "mae_gray": 4.946479653008282
+        }
+      }
+    },
+    {
+      "step": 5000,
+      "loss": 24.563711166381836,
+      "motion_mae": 5.0761284828186035,
+      "static_anchor": 0.5590354204177856,
+      "elapsed_seconds": 35.40048099402338
+    },
+    {
+      "step": 6000,
+      "loss": 29.20627784729004,
+      "motion_mae": 6.48947286605835,
+      "static_anchor": 0.625950276851654,
+      "elapsed_seconds": 36.85763911390677,
+      "validation": {
+        "weather_light": {
+          "psnr_db": 29.480115476219353,
+          "mae_gray": 6.654821711126715
+        },
+        "weather_medium": {
+          "psnr_db": 31.844946078822783,
+          "mae_gray": 4.9678906332701445
+        }
+      }
+    },
+    {
+      "step": 7000,
+      "loss": 24.43661880493164,
+      "motion_mae": 5.368002414703369,
+      "static_anchor": 0.2756803035736084,
+      "elapsed_seconds": 47.62898781290278
+    },
+    {
+      "step": 8000,
+      "loss": 25.790678024291992,
+      "motion_mae": 5.490571975708008,
+      "static_anchor": 0.4908015727996826,
+      "elapsed_seconds": 49.10265683196485,
+      "validation": {
+        "weather_light": {
+          "psnr_db": 29.511340851456225,
+          "mae_gray": 6.6286249668337405
+        },
+        "weather_medium": {
+          "psnr_db": 31.869271467135803,
+          "mae_gray": 4.957279346417636
+        }
+      }
+    }
+  ],
+  "packaged": false,
+  "pushed": false
+}

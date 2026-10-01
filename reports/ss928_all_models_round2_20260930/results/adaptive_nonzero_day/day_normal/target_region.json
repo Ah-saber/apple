@@ -1,0 +1,1 @@
+{"roi_y": 0, "roi_x": 0, "polygon": [[0, 18], [110, 134], [220, 280], [350, 345], [600, 393], [930, 464], [1279, 575], [1279, 615], [920, 500], [590, 429], [360, 381], [195, 339], [95, 199], [0, 75]], "valid_native_tlhw": [2, 0, 1020, 1278], "metric_border_pixels": 3, "selection": "bridge polygon inspected on same-scene GT; exclude C32 invalid road"}

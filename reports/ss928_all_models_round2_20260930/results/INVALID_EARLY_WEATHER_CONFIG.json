@@ -1,0 +1,20 @@
+{
+  "reason": "saved late_reference=False was not restored before model construction; prior quarter-model comparisons and weather training do not reproduce v13",
+  "excluded": [
+    "weather quarter entries in speed_five_r2 and duplicated speed_night",
+    "short_light/heavy_*",
+    "anchor_light/heavy_*",
+    "anchor_eval_light/heavy",
+    "targets_anchor_light/heavy",
+    "adaptive_probe",
+    "adaptive_eval_light"
+  ],
+  "unaffected": [
+    "day half source and day training",
+    "five-scene half output/layout timing and controls",
+    "speed_night_actual",
+    "speed_tail_corrected"
+  ],
+  "correction": "baseline_contract.load_group restores all saved options; independent v13 FP32 ONNX phase check required",
+  "original_files_preserved": true
+}

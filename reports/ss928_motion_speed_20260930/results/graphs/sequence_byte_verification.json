@@ -1,0 +1,272 @@
+{
+  "NPU_measured": false,
+  "SDK_uint8_Gather_and_Transpose": "unmeasured",
+  "packaged": false,
+  "pushed": false,
+  "scenes": {
+    "weather_light": {
+      "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_temporal/best.pt",
+      "source_sha256": "e404c37dfbea9c5eff05495255b02cb118a1731923ee36ce72c087e4934c9453",
+      "frames": 120,
+      "same_backend_equal_pixels": true,
+      "graph": {
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/byte_sequence_review/weather_light_quarter_integer_byte_fp16.onnx",
+        "sha256": "1e9a47a4b10609338cb7d321391a9d8cc493239f9ce6333903471c6efc858714",
+        "operators": [
+          "Add",
+          "AveragePool",
+          "Cast",
+          "Clip",
+          "Constant",
+          "Conv",
+          "Div",
+          "Erf",
+          "Gather",
+          "Identity",
+          "Mul",
+          "ReduceMean",
+          "Relu",
+          "Reshape",
+          "Transpose"
+        ],
+        "nodes": 132,
+        "inputs": [
+          {
+            "name": "nine_raw",
+            "type": 10,
+            "shape": [
+              1,
+              9,
+              1024,
+              1280
+            ]
+          },
+          {
+            "name": "reference_thumb",
+            "type": 10,
+            "shape": [
+              1,
+              2,
+              64,
+              64
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "name": "display_gray",
+            "type": 2,
+            "shape": [
+              1,
+              1,
+              3072,
+              3840
+            ]
+          }
+        ]
+      },
+      "ORT_final_frame": 119,
+      "ORT_CPU_vs_PyTorch_GPU_byte_mae": 0.028781890869140625,
+      "ORT_CPU_vs_PyTorch_GPU_byte_max": 1.0,
+      "comparison": "integer early-Cast layout vs FP16 rows32 followed by the same truncating Cast"
+    },
+    "weather_medium": {
+      "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/light_temporal/best.pt",
+      "source_sha256": "e404c37dfbea9c5eff05495255b02cb118a1731923ee36ce72c087e4934c9453",
+      "frames": 120,
+      "same_backend_equal_pixels": true,
+      "graph": {
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/byte_sequence_review/weather_medium_quarter_integer_byte_fp16.onnx",
+        "sha256": "1e9a47a4b10609338cb7d321391a9d8cc493239f9ce6333903471c6efc858714",
+        "operators": [
+          "Add",
+          "AveragePool",
+          "Cast",
+          "Clip",
+          "Constant",
+          "Conv",
+          "Div",
+          "Erf",
+          "Gather",
+          "Identity",
+          "Mul",
+          "ReduceMean",
+          "Relu",
+          "Reshape",
+          "Transpose"
+        ],
+        "nodes": 132,
+        "inputs": [
+          {
+            "name": "nine_raw",
+            "type": 10,
+            "shape": [
+              1,
+              9,
+              1024,
+              1280
+            ]
+          },
+          {
+            "name": "reference_thumb",
+            "type": 10,
+            "shape": [
+              1,
+              2,
+              64,
+              64
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "name": "display_gray",
+            "type": 2,
+            "shape": [
+              1,
+              1,
+              3072,
+              3840
+            ]
+          }
+        ]
+      },
+      "ORT_final_frame": 119,
+      "ORT_CPU_vs_PyTorch_GPU_byte_mae": 0.026639556512236595,
+      "ORT_CPU_vs_PyTorch_GPU_byte_max": 1.0,
+      "comparison": "integer early-Cast layout vs FP16 rows32 followed by the same truncating Cast"
+    },
+    "weather_heavy": {
+      "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/heavy_temporal/best.pt",
+      "source_sha256": "b8b6d4f72694e3ea541e109a038e326d2b104c6ce7a94ebc1e987ffd3603e85e",
+      "frames": 120,
+      "same_backend_equal_pixels": true,
+      "graph": {
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/byte_sequence_review/weather_heavy_quarter_integer_byte_fp16.onnx",
+        "sha256": "c438fdf61a41ae8af39b60cdc094c38e7c36472321830e10211dde4b02fa8065",
+        "operators": [
+          "Add",
+          "AveragePool",
+          "Cast",
+          "Clip",
+          "Constant",
+          "Conv",
+          "Div",
+          "Erf",
+          "Gather",
+          "Identity",
+          "Mul",
+          "ReduceMean",
+          "Relu",
+          "Reshape",
+          "Transpose"
+        ],
+        "nodes": 132,
+        "inputs": [
+          {
+            "name": "nine_raw",
+            "type": 10,
+            "shape": [
+              1,
+              9,
+              1024,
+              1280
+            ]
+          },
+          {
+            "name": "reference_thumb",
+            "type": 10,
+            "shape": [
+              1,
+              1,
+              64,
+              64
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "name": "display_gray",
+            "type": 2,
+            "shape": [
+              1,
+              1,
+              3072,
+              3840
+            ]
+          }
+        ]
+      },
+      "ORT_final_frame": 119,
+      "ORT_CPU_vs_PyTorch_GPU_byte_mae": 0.04897308349609375,
+      "ORT_CPU_vs_PyTorch_GPU_byte_max": 1.0,
+      "comparison": "integer early-Cast layout vs FP16 rows32 followed by the same truncating Cast"
+    },
+    "weather_heavy_c32": {
+      "source_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/heavy_temporal/best.pt",
+      "source_sha256": "b8b6d4f72694e3ea541e109a038e326d2b104c6ce7a94ebc1e987ffd3603e85e",
+      "frames": 120,
+      "same_backend_equal_pixels": true,
+      "graph": {
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/byte_sequence_review/weather_heavy_c32_quarter_integer_byte_fp16.onnx",
+        "sha256": "0b69795ac3935c367713620e689a6572e513101a0449551f04166447bf55eced",
+        "operators": [
+          "Add",
+          "AveragePool",
+          "Cast",
+          "Clip",
+          "Constant",
+          "Conv",
+          "Div",
+          "Erf",
+          "Gather",
+          "Identity",
+          "Mul",
+          "ReduceMean",
+          "Relu",
+          "Reshape",
+          "Transpose"
+        ],
+        "nodes": 132,
+        "inputs": [
+          {
+            "name": "nine_raw",
+            "type": 10,
+            "shape": [
+              1,
+              9,
+              1024,
+              1280
+            ]
+          },
+          {
+            "name": "reference_thumb",
+            "type": 10,
+            "shape": [
+              1,
+              1,
+              64,
+              64
+            ]
+          }
+        ],
+        "outputs": [
+          {
+            "name": "display_gray",
+            "type": 2,
+            "shape": [
+              1,
+              1,
+              3072,
+              3840
+            ]
+          }
+        ]
+      },
+      "ORT_final_frame": 119,
+      "ORT_CPU_vs_PyTorch_GPU_byte_mae": 0.06696395576000214,
+      "ORT_CPU_vs_PyTorch_GPU_byte_max": 1.0,
+      "comparison": "integer early-Cast layout vs FP16 rows32 followed by the same truncating Cast"
+    }
+  }
+}

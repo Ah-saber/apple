@@ -1,0 +1,43 @@
+{
+  "matching_files": [
+    "release/models/baseline/half-day-nine-temporal.pt",
+    "release/models/baseline/half-day-rawskip.pt",
+    "release/models/baseline/half-heavy-temporal.pt",
+    "release/models/baseline/half-light-temporal.pt",
+    "release/models/day.pt",
+    "release/models/day_fused.pt",
+    "release/models/heavy_fused.pt",
+    "release/models/heavy_temporal.pt",
+    "release/models/light_fused.pt",
+    "release/models/light_temporal.pt",
+    "runtime/cast_probe.py",
+    "runtime/compact_model.py",
+    "runtime/compare_layers.py",
+    "runtime/equivalent_model.py",
+    "runtime/finalize_candidates.py",
+    "runtime/materialize_calibration.py",
+    "runtime/package_results.py",
+    "runtime/prepare_deployment.py",
+    "runtime/prepare_night_calibration.py",
+    "runtime/regenerate_reference.py",
+    "runtime/reproduce_model.py",
+    "runtime/run_compact.py",
+    "runtime/verify_night_graphs.py",
+    "runtime/verify_release.py"
+  ],
+  "not_in_existing_local_copy": [],
+  "different_loose_runtime_helpers": [
+    {
+      "path": "runtime/audit_release.py",
+      "local": "debed29a82060340cb769b841596001406d97bed1c38c305ab8f8dbd5461201d",
+      "remote": "5a3d932f9cff06c6455b754277e39517a8f8dd12d0dc44b59602a27c1d13e804"
+    },
+    {
+      "path": "runtime/board_gate.py",
+      "local": "13e6410fb1d9e5cfa312ad14064ddb9a52359334163153fa8d99e82eab1fcf45",
+      "remote": "7c3010faca52815e0af1dc102fabb0d70d33ff1c82fb24840c61f62f20af05f1"
+    }
+  ],
+  "all_existing_release_model_files_match": true,
+  "limits": "loose local runtime contains earlier copies; this comparison does not establish every helper remained unchanged since the initial release"
+}

@@ -1,0 +1,4179 @@
+{
+  "NPU_measured": false,
+  "trained_new_weights": false,
+  "calibration_uses_GT": false,
+  "packaged": false,
+  "pushed": false,
+  "scenes": {
+    "night_ordinary": {
+      "strength": 0.25,
+      "actual_frames": 60,
+      "thresholds_input_units": {
+        "80": 0.00927734375,
+        "90": 0.01169586181640625,
+        "98": 0.0169219970703125
+      },
+      "chosen_percentile": "80",
+      "validation_psnr": {
+        "source": 27.882165105351806,
+        "80": 27.88635738780232,
+        "90": 27.88527680184256,
+        "98": 27.883268208140038
+      },
+      "passed_val_guard": true,
+      "zero_gate_exact_original": true,
+      "summary": {
+        "原夜间九帧": {
+          "psnr_db": 27.868233549846916,
+          "mae_gray": 7.58038150469462,
+          "static_residual_change_gray": 0.9998154983682147,
+          "motion_response_ratio": 0.25279312568195794,
+          "weak_structure_error_gray": 1.3191239813626823
+        },
+        "局部当前夜间": {
+          "psnr_db": 27.873962215563832,
+          "mae_gray": 7.5746032953262326,
+          "static_residual_change_gray": 1.0240679938914412,
+          "motion_response_ratio": 0.35929803423962353,
+          "weak_structure_error_gray": 1.3452756606926353
+        }
+      },
+      "per_frame": [
+        {
+          "frame": 0,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.517928757658613,
+              "mae_gray": 7.994774341583252
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.517928757658613,
+              "mae_gray": 7.994774341583252
+            }
+          }
+        },
+        {
+          "frame": 1,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.584298728878704,
+              "mae_gray": 7.908394813537598,
+              "static_residual_change_gray": 1.0451321601867676,
+              "motion_response_ratio": 0.3456486761569977,
+              "weak_structure_error_gray": 1.3450525999069214
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.602738482349487,
+              "mae_gray": 7.888344764709473,
+              "static_residual_change_gray": 1.08510160446167,
+              "motion_response_ratio": 0.4307953417301178,
+              "weak_structure_error_gray": 1.436704397201538
+            }
+          }
+        },
+        {
+          "frame": 2,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.570791772281854,
+              "mae_gray": 7.925151824951172,
+              "static_residual_change_gray": 1.0325865745544434,
+              "motion_response_ratio": 0.2756504416465759,
+              "weak_structure_error_gray": 1.3293346166610718
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.58497484463513,
+              "mae_gray": 7.909674167633057,
+              "static_residual_change_gray": 1.0970441102981567,
+              "motion_response_ratio": 0.38525351881980896,
+              "weak_structure_error_gray": 1.4158108234405518
+            }
+          }
+        },
+        {
+          "frame": 3,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.622474859747165,
+              "mae_gray": 7.866774559020996,
+              "static_residual_change_gray": 1.0506278276443481,
+              "motion_response_ratio": 0.2687957286834717,
+              "weak_structure_error_gray": 1.357651948928833
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.633316304420852,
+              "mae_gray": 7.854842662811279,
+              "static_residual_change_gray": 1.1151621341705322,
+              "motion_response_ratio": 0.3872338533401489,
+              "weak_structure_error_gray": 1.43864905834198
+            }
+          }
+        },
+        {
+          "frame": 4,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.670065157192223,
+              "mae_gray": 7.812807083129883,
+              "static_residual_change_gray": 1.013965129852295,
+              "motion_response_ratio": 0.2664758861064911,
+              "weak_structure_error_gray": 1.3234432935714722
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.678392099717037,
+              "mae_gray": 7.8038434982299805,
+              "static_residual_change_gray": 1.0705649852752686,
+              "motion_response_ratio": 0.38461363315582275,
+              "weak_structure_error_gray": 1.3996284008026123
+            }
+          }
+        },
+        {
+          "frame": 5,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.650773040245305,
+              "mae_gray": 7.833779335021973,
+              "static_residual_change_gray": 0.9915066361427307,
+              "motion_response_ratio": 0.26218268275260925,
+              "weak_structure_error_gray": 1.306666374206543
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.656885445863274,
+              "mae_gray": 7.827866077423096,
+              "static_residual_change_gray": 1.0479040145874023,
+              "motion_response_ratio": 0.37645193934440613,
+              "weak_structure_error_gray": 1.379814624786377
+            }
+          }
+        },
+        {
+          "frame": 6,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.807714307894585,
+              "mae_gray": 7.641788482666016,
+              "static_residual_change_gray": 1.1434681415557861,
+              "motion_response_ratio": 0.2510491609573364,
+              "weak_structure_error_gray": 1.4401978254318237
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.814368472551287,
+              "mae_gray": 7.635522365570068,
+              "static_residual_change_gray": 1.1794824600219727,
+              "motion_response_ratio": 0.3617674708366394,
+              "weak_structure_error_gray": 1.4859751462936401
+            }
+          }
+        },
+        {
+          "frame": 7,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.879572401407163,
+              "mae_gray": 7.555749416351318,
+              "static_residual_change_gray": 1.1049875020980835,
+              "motion_response_ratio": 0.24885468184947968,
+              "weak_structure_error_gray": 1.3971939086914062
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.884937556907854,
+              "mae_gray": 7.549851417541504,
+              "static_residual_change_gray": 1.127320408821106,
+              "motion_response_ratio": 0.3567744791507721,
+              "weak_structure_error_gray": 1.420364260673523
+            }
+          }
+        },
+        {
+          "frame": 8,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.915647037170004,
+              "mae_gray": 7.491644382476807,
+              "static_residual_change_gray": 1.0713329315185547,
+              "motion_response_ratio": 0.2474364936351776,
+              "weak_structure_error_gray": 1.3688501119613647
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.921203151802622,
+              "mae_gray": 7.48602819442749,
+              "static_residual_change_gray": 1.091909408569336,
+              "motion_response_ratio": 0.3545255661010742,
+              "weak_structure_error_gray": 1.3928676843643188
+            }
+          }
+        },
+        {
+          "frame": 9,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.900829668946464,
+              "mae_gray": 7.544692516326904,
+              "static_residual_change_gray": 1.0876166820526123,
+              "motion_response_ratio": 0.2460383176803589,
+              "weak_structure_error_gray": 1.399824857711792
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.905800195759735,
+              "mae_gray": 7.539858818054199,
+              "static_residual_change_gray": 1.1077088117599487,
+              "motion_response_ratio": 0.35167762637138367,
+              "weak_structure_error_gray": 1.4251517057418823
+            }
+          }
+        },
+        {
+          "frame": 10,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.956375632286843,
+              "mae_gray": 7.492528438568115,
+              "static_residual_change_gray": 1.0105739831924438,
+              "motion_response_ratio": 0.25211432576179504,
+              "weak_structure_error_gray": 1.3390774726867676
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.96182637425634,
+              "mae_gray": 7.486758708953857,
+              "static_residual_change_gray": 1.0319674015045166,
+              "motion_response_ratio": 0.3577795624732971,
+              "weak_structure_error_gray": 1.3621933460235596
+            }
+          }
+        },
+        {
+          "frame": 11,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.91475570420459,
+              "mae_gray": 7.520443916320801,
+              "static_residual_change_gray": 0.94496089220047,
+              "motion_response_ratio": 0.25274401903152466,
+              "weak_structure_error_gray": 1.2833906412124634
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.919663930473,
+              "mae_gray": 7.515013694763184,
+              "static_residual_change_gray": 0.967605471611023,
+              "motion_response_ratio": 0.35814645886421204,
+              "weak_structure_error_gray": 1.3036236763000488
+            }
+          }
+        },
+        {
+          "frame": 12,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.922419509854205,
+              "mae_gray": 7.520754814147949,
+              "static_residual_change_gray": 0.9017900824546814,
+              "motion_response_ratio": 0.2518289387226105,
+              "weak_structure_error_gray": 1.2511550188064575
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.927975130680764,
+              "mae_gray": 7.515151023864746,
+              "static_residual_change_gray": 0.9253195524215698,
+              "motion_response_ratio": 0.3556007444858551,
+              "weak_structure_error_gray": 1.2718602418899536
+            }
+          }
+        },
+        {
+          "frame": 13,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.935120973907644,
+              "mae_gray": 7.532838344573975,
+              "static_residual_change_gray": 0.9701586365699768,
+              "motion_response_ratio": 0.25243431329727173,
+              "weak_structure_error_gray": 1.2915865182876587
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.940141072881374,
+              "mae_gray": 7.527935981750488,
+              "static_residual_change_gray": 0.9911195039749146,
+              "motion_response_ratio": 0.35834354162216187,
+              "weak_structure_error_gray": 1.312493920326233
+            }
+          }
+        },
+        {
+          "frame": 14,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.97234811136303,
+              "mae_gray": 7.477554798126221,
+              "static_residual_change_gray": 1.0621024370193481,
+              "motion_response_ratio": 0.2518586814403534,
+              "weak_structure_error_gray": 1.3663582801818848
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.977280318966713,
+              "mae_gray": 7.4724531173706055,
+              "static_residual_change_gray": 1.0822395086288452,
+              "motion_response_ratio": 0.35985586047172546,
+              "weak_structure_error_gray": 1.392404556274414
+            }
+          }
+        },
+        {
+          "frame": 15,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.893323041666168,
+              "mae_gray": 7.545560836791992,
+              "static_residual_change_gray": 1.0715428590774536,
+              "motion_response_ratio": 0.24826738238334656,
+              "weak_structure_error_gray": 1.3623589277267456
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.897758006898478,
+              "mae_gray": 7.541268825531006,
+              "static_residual_change_gray": 1.0912483930587769,
+              "motion_response_ratio": 0.3560071587562561,
+              "weak_structure_error_gray": 1.3850018978118896
+            }
+          }
+        },
+        {
+          "frame": 16,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.863777997548386,
+              "mae_gray": 7.561975955963135,
+              "static_residual_change_gray": 1.0302287340164185,
+              "motion_response_ratio": 0.2556101679801941,
+              "weak_structure_error_gray": 1.3522764444351196
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.869435329109248,
+              "mae_gray": 7.556465148925781,
+              "static_residual_change_gray": 1.0493395328521729,
+              "motion_response_ratio": 0.36386382579803467,
+              "weak_structure_error_gray": 1.3716065883636475
+            }
+          }
+        },
+        {
+          "frame": 17,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.94041696619711,
+              "mae_gray": 7.5146355628967285,
+              "static_residual_change_gray": 1.0317431688308716,
+              "motion_response_ratio": 0.24973943829536438,
+              "weak_structure_error_gray": 1.3397927284240723
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.94623605423384,
+              "mae_gray": 7.509220123291016,
+              "static_residual_change_gray": 1.0517762899398804,
+              "motion_response_ratio": 0.35514023900032043,
+              "weak_structure_error_gray": 1.3612443208694458
+            }
+          }
+        },
+        {
+          "frame": 18,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.839502720137585,
+              "mae_gray": 7.5871500968933105,
+              "static_residual_change_gray": 0.9495936036109924,
+              "motion_response_ratio": 0.25018003582954407,
+              "weak_structure_error_gray": 1.2974308729171753
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.844918775756984,
+              "mae_gray": 7.582087993621826,
+              "static_residual_change_gray": 0.9713948965072632,
+              "motion_response_ratio": 0.3554421067237854,
+              "weak_structure_error_gray": 1.3156791925430298
+            }
+          }
+        },
+        {
+          "frame": 19,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.838111429749226,
+              "mae_gray": 7.579070091247559,
+              "static_residual_change_gray": 0.9453678727149963,
+              "motion_response_ratio": 0.25183960795402527,
+              "weak_structure_error_gray": 1.2664146423339844
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.843469305836624,
+              "mae_gray": 7.573660373687744,
+              "static_residual_change_gray": 0.9681495428085327,
+              "motion_response_ratio": 0.35869458317756653,
+              "weak_structure_error_gray": 1.2870439291000366
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.881680624507567,
+              "mae_gray": 7.549677848815918,
+              "static_residual_change_gray": 0.9343273043632507,
+              "motion_response_ratio": 0.24627569317817688,
+              "weak_structure_error_gray": 1.2598189115524292
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.886921833268232,
+              "mae_gray": 7.543863773345947,
+              "static_residual_change_gray": 0.9560182690620422,
+              "motion_response_ratio": 0.35353970527648926,
+              "weak_structure_error_gray": 1.2814966440200806
+            }
+          }
+        },
+        {
+          "frame": 21,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.79451590889878,
+              "mae_gray": 7.631646156311035,
+              "static_residual_change_gray": 1.0527654886245728,
+              "motion_response_ratio": 0.24506601691246033,
+              "weak_structure_error_gray": 1.3571226596832275
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.800002001263206,
+              "mae_gray": 7.626187801361084,
+              "static_residual_change_gray": 1.0721155405044556,
+              "motion_response_ratio": 0.3509170413017273,
+              "weak_structure_error_gray": 1.3748140335083008
+            }
+          }
+        },
+        {
+          "frame": 22,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.785132998688567,
+              "mae_gray": 7.630801677703857,
+              "static_residual_change_gray": 0.9844988584518433,
+              "motion_response_ratio": 0.24419236183166504,
+              "weak_structure_error_gray": 1.3157860040664673
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.790267792360865,
+              "mae_gray": 7.626020431518555,
+              "static_residual_change_gray": 1.0051543712615967,
+              "motion_response_ratio": 0.3497790992259979,
+              "weak_structure_error_gray": 1.3335685729980469
+            }
+          }
+        },
+        {
+          "frame": 23,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.793144778209353,
+              "mae_gray": 7.613595962524414,
+              "static_residual_change_gray": 0.9474732279777527,
+              "motion_response_ratio": 0.24997468292713165,
+              "weak_structure_error_gray": 1.2961475849151611
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.798427481214567,
+              "mae_gray": 7.6080193519592285,
+              "static_residual_change_gray": 0.9689027667045593,
+              "motion_response_ratio": 0.3551967740058899,
+              "weak_structure_error_gray": 1.3124254941940308
+            }
+          }
+        },
+        {
+          "frame": 24,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.819703596170022,
+              "mae_gray": 7.576827049255371,
+              "static_residual_change_gray": 0.9406145811080933,
+              "motion_response_ratio": 0.2454821765422821,
+              "weak_structure_error_gray": 1.2832930088043213
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.824514152300978,
+              "mae_gray": 7.571532249450684,
+              "static_residual_change_gray": 0.9627999663352966,
+              "motion_response_ratio": 0.34909671545028687,
+              "weak_structure_error_gray": 1.3026844263076782
+            }
+          }
+        },
+        {
+          "frame": 25,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.837889347821463,
+              "mae_gray": 7.564661502838135,
+              "static_residual_change_gray": 0.9296992421150208,
+              "motion_response_ratio": 0.24748633801937103,
+              "weak_structure_error_gray": 1.2616004943847656
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.84351520502067,
+              "mae_gray": 7.559026718139648,
+              "static_residual_change_gray": 0.9518723487854004,
+              "motion_response_ratio": 0.353421688079834,
+              "weak_structure_error_gray": 1.281090497970581
+            }
+          }
+        },
+        {
+          "frame": 26,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.808673156848496,
+              "mae_gray": 7.6207499504089355,
+              "static_residual_change_gray": 1.007928490638733,
+              "motion_response_ratio": 0.2519497573375702,
+              "weak_structure_error_gray": 1.3318355083465576
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.813455488017173,
+              "mae_gray": 7.6161885261535645,
+              "static_residual_change_gray": 1.028212070465088,
+              "motion_response_ratio": 0.360860675573349,
+              "weak_structure_error_gray": 1.3536816835403442
+            }
+          }
+        },
+        {
+          "frame": 27,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.813074210538037,
+              "mae_gray": 7.610830307006836,
+              "static_residual_change_gray": 0.9468695521354675,
+              "motion_response_ratio": 0.2511539161205292,
+              "weak_structure_error_gray": 1.2814862728118896
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.81841298531376,
+              "mae_gray": 7.605743408203125,
+              "static_residual_change_gray": 0.9687551259994507,
+              "motion_response_ratio": 0.35725876688957214,
+              "weak_structure_error_gray": 1.3014448881149292
+            }
+          }
+        },
+        {
+          "frame": 28,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.803717847068338,
+              "mae_gray": 7.609392166137695,
+              "static_residual_change_gray": 0.9774152040481567,
+              "motion_response_ratio": 0.24810373783111572,
+              "weak_structure_error_gray": 1.3123080730438232
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.80918696797105,
+              "mae_gray": 7.604130268096924,
+              "static_residual_change_gray": 0.998450756072998,
+              "motion_response_ratio": 0.3529190421104431,
+              "weak_structure_error_gray": 1.3318376541137695
+            }
+          }
+        },
+        {
+          "frame": 29,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.87198564175531,
+              "mae_gray": 7.57170295715332,
+              "static_residual_change_gray": 1.0483931303024292,
+              "motion_response_ratio": 0.2509829103946686,
+              "weak_structure_error_gray": 1.3423378467559814
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.87786655340676,
+              "mae_gray": 7.565737724304199,
+              "static_residual_change_gray": 1.0688599348068237,
+              "motion_response_ratio": 0.3566208481788635,
+              "weak_structure_error_gray": 1.3651437759399414
+            }
+          }
+        },
+        {
+          "frame": 30,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.87033051424814,
+              "mae_gray": 7.579981803894043,
+              "static_residual_change_gray": 0.9141142964363098,
+              "motion_response_ratio": 0.25148144364356995,
+              "weak_structure_error_gray": 1.2620912790298462
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.87637542330529,
+              "mae_gray": 7.57465934753418,
+              "static_residual_change_gray": 0.9361545443534851,
+              "motion_response_ratio": 0.3555266559123993,
+              "weak_structure_error_gray": 1.2782971858978271
+            }
+          }
+        },
+        {
+          "frame": 31,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.86749956454054,
+              "mae_gray": 7.58336067199707,
+              "static_residual_change_gray": 0.9006392955780029,
+              "motion_response_ratio": 0.2502247989177704,
+              "weak_structure_error_gray": 1.2457724809646606
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.873815037029615,
+              "mae_gray": 7.577083587646484,
+              "static_residual_change_gray": 0.9233646988868713,
+              "motion_response_ratio": 0.35474079847335815,
+              "weak_structure_error_gray": 1.2649108171463013
+            }
+          }
+        },
+        {
+          "frame": 32,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.882317984770353,
+              "mae_gray": 7.557866096496582,
+              "static_residual_change_gray": 1.0526916980743408,
+              "motion_response_ratio": 0.2502036392688751,
+              "weak_structure_error_gray": 1.3578498363494873
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.88722036742957,
+              "mae_gray": 7.5529255867004395,
+              "static_residual_change_gray": 1.072778344154358,
+              "motion_response_ratio": 0.3557928502559662,
+              "weak_structure_error_gray": 1.376468539237976
+            }
+          }
+        },
+        {
+          "frame": 33,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.859526989692505,
+              "mae_gray": 7.602685928344727,
+              "static_residual_change_gray": 0.9715216755867004,
+              "motion_response_ratio": 0.25032907724380493,
+              "weak_structure_error_gray": 1.3021470308303833
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.86493069090085,
+              "mae_gray": 7.597582817077637,
+              "static_residual_change_gray": 0.9920350909233093,
+              "motion_response_ratio": 0.35353776812553406,
+              "weak_structure_error_gray": 1.3230385780334473
+            }
+          }
+        },
+        {
+          "frame": 34,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.93134767835091,
+              "mae_gray": 7.505790710449219,
+              "static_residual_change_gray": 1.0203967094421387,
+              "motion_response_ratio": 0.25009241700172424,
+              "weak_structure_error_gray": 1.3341784477233887
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.936689448432315,
+              "mae_gray": 7.500490665435791,
+              "static_residual_change_gray": 1.0409581661224365,
+              "motion_response_ratio": 0.35520508885383606,
+              "weak_structure_error_gray": 1.353208303451538
+            }
+          }
+        },
+        {
+          "frame": 35,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.923339899112,
+              "mae_gray": 7.5252580642700195,
+              "static_residual_change_gray": 0.9721630215644836,
+              "motion_response_ratio": 0.24781908094882965,
+              "weak_structure_error_gray": 1.2867772579193115
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.929356290022724,
+              "mae_gray": 7.519407749176025,
+              "static_residual_change_gray": 0.9935770034790039,
+              "motion_response_ratio": 0.3546902537345886,
+              "weak_structure_error_gray": 1.3081181049346924
+            }
+          }
+        },
+        {
+          "frame": 36,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.96055687481292,
+              "mae_gray": 7.493327617645264,
+              "static_residual_change_gray": 1.1122013330459595,
+              "motion_response_ratio": 0.24525871872901917,
+              "weak_structure_error_gray": 1.406785249710083
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.96570376710763,
+              "mae_gray": 7.488030910491943,
+              "static_residual_change_gray": 1.1305458545684814,
+              "motion_response_ratio": 0.3511489927768707,
+              "weak_structure_error_gray": 1.4289436340332031
+            }
+          }
+        },
+        {
+          "frame": 37,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.95729847129524,
+              "mae_gray": 7.505003929138184,
+              "static_residual_change_gray": 0.9628230333328247,
+              "motion_response_ratio": 0.25334879755973816,
+              "weak_structure_error_gray": 1.292047381401062
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.96276631057337,
+              "mae_gray": 7.499453544616699,
+              "static_residual_change_gray": 0.9848377108573914,
+              "motion_response_ratio": 0.3574269413948059,
+              "weak_structure_error_gray": 1.3118035793304443
+            }
+          }
+        },
+        {
+          "frame": 38,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.96471216933614,
+              "mae_gray": 7.479828834533691,
+              "static_residual_change_gray": 1.0264164209365845,
+              "motion_response_ratio": 0.252626895904541,
+              "weak_structure_error_gray": 1.333903431892395
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.970318679053797,
+              "mae_gray": 7.474262714385986,
+              "static_residual_change_gray": 1.0465919971466064,
+              "motion_response_ratio": 0.35903963446617126,
+              "weak_structure_error_gray": 1.3536549806594849
+            }
+          }
+        },
+        {
+          "frame": 39,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.942476889246475,
+              "mae_gray": 7.518856525421143,
+              "static_residual_change_gray": 0.9682952165603638,
+              "motion_response_ratio": 0.24741190671920776,
+              "weak_structure_error_gray": 1.2963433265686035
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.94781521994483,
+              "mae_gray": 7.513459205627441,
+              "static_residual_change_gray": 0.9898750185966492,
+              "motion_response_ratio": 0.3557242751121521,
+              "weak_structure_error_gray": 1.3162555694580078
+            }
+          }
+        },
+        {
+          "frame": 40,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.947267909850932,
+              "mae_gray": 7.51517915725708,
+              "static_residual_change_gray": 0.9457767009735107,
+              "motion_response_ratio": 0.25246039032936096,
+              "weak_structure_error_gray": 1.2699426412582397
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.9533958099628,
+              "mae_gray": 7.509464263916016,
+              "static_residual_change_gray": 0.9670512676239014,
+              "motion_response_ratio": 0.3586979806423187,
+              "weak_structure_error_gray": 1.2882397174835205
+            }
+          }
+        },
+        {
+          "frame": 41,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.892017582987954,
+              "mae_gray": 7.581559658050537,
+              "static_residual_change_gray": 0.9935533404350281,
+              "motion_response_ratio": 0.25702130794525146,
+              "weak_structure_error_gray": 1.3214235305786133
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.89690267600038,
+              "mae_gray": 7.576670169830322,
+              "static_residual_change_gray": 1.0147241353988647,
+              "motion_response_ratio": 0.365655779838562,
+              "weak_structure_error_gray": 1.3400152921676636
+            }
+          }
+        },
+        {
+          "frame": 42,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.9526356701168,
+              "mae_gray": 7.51837158203125,
+              "static_residual_change_gray": 0.9262044429779053,
+              "motion_response_ratio": 0.24372252821922302,
+              "weak_structure_error_gray": 1.265507698059082
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.957957534657304,
+              "mae_gray": 7.512897491455078,
+              "static_residual_change_gray": 0.948809802532196,
+              "motion_response_ratio": 0.3495439291000366,
+              "weak_structure_error_gray": 1.2859197854995728
+            }
+          }
+        },
+        {
+          "frame": 43,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.945743555858442,
+              "mae_gray": 7.545226097106934,
+              "static_residual_change_gray": 1.0102134943008423,
+              "motion_response_ratio": 0.24845904111862183,
+              "weak_structure_error_gray": 1.2959363460540771
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.95135327548354,
+              "mae_gray": 7.539478778839111,
+              "static_residual_change_gray": 1.0302627086639404,
+              "motion_response_ratio": 0.3537440896034241,
+              "weak_structure_error_gray": 1.3158035278320312
+            }
+          }
+        },
+        {
+          "frame": 44,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.9521309980308,
+              "mae_gray": 7.519647121429443,
+              "static_residual_change_gray": 0.9457017779350281,
+              "motion_response_ratio": 0.2473812699317932,
+              "weak_structure_error_gray": 1.2719067335128784
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.957560492722216,
+              "mae_gray": 7.51469612121582,
+              "static_residual_change_gray": 0.9669979214668274,
+              "motion_response_ratio": 0.35377874970436096,
+              "weak_structure_error_gray": 1.2918436527252197
+            }
+          }
+        },
+        {
+          "frame": 45,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.952297307557753,
+              "mae_gray": 7.5280303955078125,
+              "static_residual_change_gray": 0.9587830305099487,
+              "motion_response_ratio": 0.24937677383422852,
+              "weak_structure_error_gray": 1.2800413370132446
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.957329989439703,
+              "mae_gray": 7.522458553314209,
+              "static_residual_change_gray": 0.9804043769836426,
+              "motion_response_ratio": 0.35781949758529663,
+              "weak_structure_error_gray": 1.3001185655593872
+            }
+          }
+        },
+        {
+          "frame": 46,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.908734305987068,
+              "mae_gray": 7.5703043937683105,
+              "static_residual_change_gray": 0.9598857164382935,
+              "motion_response_ratio": 0.25073790550231934,
+              "weak_structure_error_gray": 1.2794724702835083
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.91353424145552,
+              "mae_gray": 7.565714359283447,
+              "static_residual_change_gray": 0.9815297722816467,
+              "motion_response_ratio": 0.35711991786956787,
+              "weak_structure_error_gray": 1.3032660484313965
+            }
+          }
+        },
+        {
+          "frame": 47,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.91670760542223,
+              "mae_gray": 7.535735607147217,
+              "static_residual_change_gray": 0.932717502117157,
+              "motion_response_ratio": 0.25555211305618286,
+              "weak_structure_error_gray": 1.2659101486206055
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.921431114052687,
+              "mae_gray": 7.530862808227539,
+              "static_residual_change_gray": 0.9546353816986084,
+              "motion_response_ratio": 0.36194634437561035,
+              "weak_structure_error_gray": 1.2874903678894043
+            }
+          }
+        },
+        {
+          "frame": 48,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.920533858105564,
+              "mae_gray": 7.525131702423096,
+              "static_residual_change_gray": 0.9236338138580322,
+              "motion_response_ratio": 0.2489832639694214,
+              "weak_structure_error_gray": 1.262657642364502
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.925435349099402,
+              "mae_gray": 7.52019739151001,
+              "static_residual_change_gray": 0.9460952281951904,
+              "motion_response_ratio": 0.3552311956882477,
+              "weak_structure_error_gray": 1.2820134162902832
+            }
+          }
+        },
+        {
+          "frame": 49,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.875691756174735,
+              "mae_gray": 7.55379581451416,
+              "static_residual_change_gray": 1.0262446403503418,
+              "motion_response_ratio": 0.24754492938518524,
+              "weak_structure_error_gray": 1.361370325088501
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.88081531595502,
+              "mae_gray": 7.549009799957275,
+              "static_residual_change_gray": 1.0458059310913086,
+              "motion_response_ratio": 0.35290929675102234,
+              "weak_structure_error_gray": 1.387100100517273
+            }
+          }
+        },
+        {
+          "frame": 50,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.93944666038891,
+              "mae_gray": 7.523963928222656,
+              "static_residual_change_gray": 1.0063929557800293,
+              "motion_response_ratio": 0.24514292180538177,
+              "weak_structure_error_gray": 1.3500537872314453
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.944646034749105,
+              "mae_gray": 7.518924713134766,
+              "static_residual_change_gray": 1.0262757539749146,
+              "motion_response_ratio": 0.3493785560131073,
+              "weak_structure_error_gray": 1.369771957397461
+            }
+          }
+        },
+        {
+          "frame": 51,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.945553049223975,
+              "mae_gray": 7.513670921325684,
+              "static_residual_change_gray": 0.9866650104522705,
+              "motion_response_ratio": 0.24751219153404236,
+              "weak_structure_error_gray": 1.3105292320251465
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.949923786664325,
+              "mae_gray": 7.509247303009033,
+              "static_residual_change_gray": 1.008758783340454,
+              "motion_response_ratio": 0.3546273410320282,
+              "weak_structure_error_gray": 1.3332078456878662
+            }
+          }
+        },
+        {
+          "frame": 52,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.8925987490695,
+              "mae_gray": 7.535755634307861,
+              "static_residual_change_gray": 1.017777442932129,
+              "motion_response_ratio": 0.25056055188179016,
+              "weak_structure_error_gray": 1.3335450887680054
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.89793983352443,
+              "mae_gray": 7.530205249786377,
+              "static_residual_change_gray": 1.03871750831604,
+              "motion_response_ratio": 0.35613852739334106,
+              "weak_structure_error_gray": 1.3537849187850952
+            }
+          }
+        },
+        {
+          "frame": 53,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.896353582066027,
+              "mae_gray": 7.55001974105835,
+              "static_residual_change_gray": 0.9365628361701965,
+              "motion_response_ratio": 0.25563645362854004,
+              "weak_structure_error_gray": 1.279191255569458
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.901666286307098,
+              "mae_gray": 7.544344425201416,
+              "static_residual_change_gray": 0.957820475101471,
+              "motion_response_ratio": 0.3616082966327667,
+              "weak_structure_error_gray": 1.2999343872070312
+            }
+          }
+        },
+        {
+          "frame": 54,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.98702501363694,
+              "mae_gray": 7.461374282836914,
+              "static_residual_change_gray": 1.0832717418670654,
+              "motion_response_ratio": 0.2538180947303772,
+              "weak_structure_error_gray": 1.3767491579055786
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.992115453536343,
+              "mae_gray": 7.456638336181641,
+              "static_residual_change_gray": 1.1017296314239502,
+              "motion_response_ratio": 0.3582296371459961,
+              "weak_structure_error_gray": 1.3945138454437256
+            }
+          }
+        },
+        {
+          "frame": 55,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.94581277533874,
+              "mae_gray": 7.501315116882324,
+              "static_residual_change_gray": 1.1259870529174805,
+              "motion_response_ratio": 0.2536957263946533,
+              "weak_structure_error_gray": 1.410879373550415
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.951584415595608,
+              "mae_gray": 7.495892524719238,
+              "static_residual_change_gray": 1.1438384056091309,
+              "motion_response_ratio": 0.3599752187728882,
+              "weak_structure_error_gray": 1.428932547569275
+            }
+          }
+        },
+        {
+          "frame": 56,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.90021189496198,
+              "mae_gray": 7.533851623535156,
+              "static_residual_change_gray": 1.009289026260376,
+              "motion_response_ratio": 0.24805931746959686,
+              "weak_structure_error_gray": 1.318875789642334
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.905480877230737,
+              "mae_gray": 7.528332233428955,
+              "static_residual_change_gray": 1.0306119918823242,
+              "motion_response_ratio": 0.3548581600189209,
+              "weak_structure_error_gray": 1.339078426361084
+            }
+          }
+        },
+        {
+          "frame": 57,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.910335794701453,
+              "mae_gray": 7.539335250854492,
+              "static_residual_change_gray": 1.0141512155532837,
+              "motion_response_ratio": 0.2484990507364273,
+              "weak_structure_error_gray": 1.3333890438079834
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.9156517670511,
+              "mae_gray": 7.53427267074585,
+              "static_residual_change_gray": 1.0339025259017944,
+              "motion_response_ratio": 0.3549971878528595,
+              "weak_structure_error_gray": 1.3508827686309814
+            }
+          }
+        },
+        {
+          "frame": 58,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.914626449312763,
+              "mae_gray": 7.528114318847656,
+              "static_residual_change_gray": 1.065065622329712,
+              "motion_response_ratio": 0.24394699931144714,
+              "weak_structure_error_gray": 1.3641939163208008
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.92002627392902,
+              "mae_gray": 7.522748947143555,
+              "static_residual_change_gray": 1.0843104124069214,
+              "motion_response_ratio": 0.3502426743507385,
+              "weak_structure_error_gray": 1.3811497688293457
+            }
+          }
+        },
+        {
+          "frame": 59,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 27.93311550777419,
+              "mae_gray": 7.50259256362915,
+              "static_residual_change_gray": 0.9907034039497375,
+              "motion_response_ratio": 0.25847023725509644,
+              "weak_structure_error_gray": 1.299050211906433
+            },
+            "局部当前夜间": {
+              "psnr_db": 27.936171101717107,
+              "mae_gray": 7.499713897705078,
+              "static_residual_change_gray": 1.0135120153427124,
+              "motion_response_ratio": 0.37167051434516907,
+              "weak_structure_error_gray": 1.3271923065185547
+            }
+          }
+        }
+      ],
+      "GPU": {
+        "mean_ms": 0.40450911939144135,
+        "p95_ms": 0.4121280014514923,
+        "samples_ms": [
+          0.408735990524292,
+          0.4079039990901947,
+          0.4051840007305145,
+          0.39904001355171204,
+          0.4037120044231415,
+          0.3980160057544708,
+          0.4036479890346527,
+          0.3984000086784363,
+          0.40409600734710693,
+          0.4086720049381256,
+          0.40227198600769043,
+          0.40908798575401306,
+          0.4012799859046936,
+          0.3989120125770569,
+          0.39824000000953674,
+          0.3972800076007843,
+          0.4099839925765991,
+          0.3973439931869507,
+          0.4020160138607025,
+          0.39846399426460266,
+          0.400160014629364,
+          0.3980160057544708,
+          0.4012480080127716,
+          0.4078719913959503,
+          0.401311993598938,
+          0.3991360068321228,
+          0.4074240028858185,
+          0.39900800585746765,
+          0.4025920033454895,
+          0.3961920142173767,
+          0.4017280042171478,
+          0.4002879858016968,
+          0.3988479971885681,
+          0.39763200283050537,
+          0.4108160138130188,
+          0.39721599221229553,
+          0.40083199739456177,
+          0.40591999888420105,
+          0.4004479944705963,
+          0.3978880047798157,
+          0.4118080139160156,
+          0.39798399806022644,
+          0.4094719886779785,
+          0.39907199144363403,
+          0.41065600514411926,
+          0.4081920087337494,
+          0.4009599983692169,
+          0.40435200929641724,
+          0.41308799386024475,
+          0.4065279960632324,
+          0.40217599272727966,
+          0.39763200283050537,
+          0.40227198600769043,
+          0.39817601442337036,
+          0.41171199083328247,
+          0.40720000863075256,
+          0.4101119935512543,
+          0.40198400616645813,
+          0.40083199739456177,
+          0.3984000086784363,
+          0.405023992061615,
+          0.40860798954963684,
+          0.4004479944705963,
+          0.4047679901123047,
+          0.40358400344848633,
+          0.4020479917526245,
+          0.41097599267959595,
+          0.3983359932899475,
+          0.4100480079650879,
+          0.4071039855480194,
+          0.40880000591278076,
+          0.3975679874420166,
+          0.4020479917526245,
+          0.40911999344825745,
+          0.40227198600769043,
+          0.4082239866256714,
+          0.40911999344825745,
+          0.40880000591278076,
+          0.41177600622177124,
+          0.40483200550079346,
+          0.4123519957065582,
+          0.39795199036598206,
+          0.40143999457359314,
+          0.3991039991378784,
+          0.4121280014514923,
+          0.40515199303627014,
+          0.4015359878540039,
+          0.39718401432037354,
+          0.40086400508880615,
+          0.39737600088119507,
+          0.4049600064754486,
+          0.4096960127353668,
+          0.4102720022201538,
+          0.40092799067497253,
+          0.4108799993991852,
+          0.399616003036499,
+          0.4073280096054077,
+          0.3993920087814331,
+          0.4121600091457367,
+          0.4060479998588562,
+          0.41126400232315063,
+          0.4060159921646118,
+          0.4014720022678375,
+          0.396479994058609,
+          0.4094719886779785,
+          0.39827200770378113,
+          0.40060800313949585,
+          0.3962239921092987,
+          0.4097920060157776,
+          0.4000000059604645,
+          0.4078400135040283,
+          0.3991039991378784,
+          0.40915200114250183,
+          0.40217599272727966,
+          0.4010559916496277,
+          0.3968000113964081,
+          0.41443198919296265,
+          0.398144006729126,
+          0.401856005191803,
+          0.40988799929618835,
+          0.4000000059604645,
+          0.4089600145816803,
+          0.40934398770332336,
+          0.4100480079650879,
+          0.41020798683166504,
+          0.3984319865703583,
+          0.412992000579834,
+          0.4073919951915741,
+          0.3707199990749359,
+          0.3985919952392578,
+          0.39926400780677795,
+          0.4089280068874359,
+          0.41145598888397217,
+          0.40057599544525146,
+          0.39955198764801025,
+          0.3993920087814331,
+          0.40214401483535767,
+          0.4142400026321411,
+          0.4103679955005646,
+          0.40038400888442993,
+          0.4148479998111725,
+          0.4062719941139221,
+          0.4086399972438812,
+          0.39817601442337036,
+          0.4015040099620819,
+          0.3980799913406372,
+          0.4100160002708435,
+          0.4108160138130188,
+          0.4028159976005554,
+          0.3988479971885681,
+          0.40169599652290344,
+          0.40825599431991577,
+          0.40438398718833923,
+          0.40639999508857727,
+          0.40809598565101624,
+          0.3967359960079193,
+          0.40143999457359314,
+          0.4060800075531006,
+          0.40140798687934875,
+          0.3963199853897095,
+          0.41017600893974304,
+          0.39881598949432373,
+          0.4020479917526245,
+          0.4021120071411133,
+          0.4004800021648407,
+          0.4068799912929535,
+          0.41225600242614746,
+          0.39740800857543945,
+          0.4029119908809662,
+          0.3986879885196686,
+          0.40412798523902893,
+          0.40700799226760864,
+          0.40956801176071167,
+          0.4057599902153015,
+          0.41100800037384033,
+          0.41094401478767395,
+          0.4091840088367462,
+          0.4148479998111725,
+          0.40166398882865906,
+          0.40835198760032654,
+          0.4121600091457367,
+          0.40806400775909424,
+          0.40041598677635193,
+          0.4071039855480194,
+          0.4102399945259094,
+          0.4002560079097748,
+          0.3999359905719757,
+          0.3999359905719757,
+          0.4108160138130188,
+          0.3972800076007843,
+          0.41100800037384033,
+          0.4060800075531006,
+          0.4013440012931824,
+          0.4079360067844391,
+          0.40041598677635193,
+          0.40672001242637634,
+          0.4057599902153015,
+          0.4047360122203827,
+          0.41017600893974304,
+          0.40748798847198486,
+          0.40908798575401306,
+          0.39983999729156494,
+          0.4110719859600067,
+          0.4115520119667053,
+          0.41065600514411926,
+          0.40614399313926697,
+          0.40195199847221375,
+          0.407584011554718,
+          0.4013440012931824,
+          0.40694400668144226,
+          0.41065600514411926,
+          0.4085119962692261,
+          0.4084160029888153,
+          0.40803200006484985,
+          0.4095360040664673,
+          0.401311993598938,
+          0.41206398606300354,
+          0.4086399972438812,
+          0.3999679982662201,
+          0.4065920114517212,
+          0.4041920006275177,
+          0.4055039882659912,
+          0.41203200817108154,
+          0.39721599221229553,
+          0.4015359878540039,
+          0.4071039855480194,
+          0.4002240002155304,
+          0.40137600898742676,
+          0.40166398882865906,
+          0.4031040072441101,
+          0.4018239974975586,
+          0.4079039990901947,
+          0.4023680090904236,
+          0.3997119963169098,
+          0.4007039964199066,
+          0.40620800852775574,
+          0.4152640104293823,
+          0.41071999073028564,
+          0.4103359878063202,
+          0.40799999237060547,
+          0.4134080111980438,
+          0.40796801447868347,
+          0.3997119963169098,
+          0.4089919924736023,
+          0.40326398611068726,
+          0.399616003036499,
+          0.4121280014514923,
+          0.40675199031829834,
+          0.40412798523902893,
+          0.40771201252937317,
+          0.40108799934387207,
+          0.41075199842453003,
+          0.40143999457359314,
+          0.40569600462913513,
+          0.4097920060157776,
+          0.4020160138607025,
+          0.41020798683166504,
+          0.4057280123233795,
+          0.41276800632476807,
+          0.40639999508857727,
+          0.4012160003185272,
+          0.40883201360702515,
+          0.40057599544525146,
+          0.4082239866256714,
+          0.4020479917526245,
+          0.4086720049381256,
+          0.4111039936542511,
+          0.41391998529434204,
+          0.41200000047683716,
+          0.4037120044231415,
+          0.4100480079650879,
+          0.40009599924087524,
+          0.41043201088905334,
+          0.40617600083351135,
+          0.40374401211738586,
+          0.3994239866733551,
+          0.40544000267982483,
+          0.4076479971408844,
+          0.40931200981140137,
+          0.39711999893188477,
+          0.40937599539756775,
+          0.3999679982662201,
+          0.4021120071411133,
+          0.4012160003185272,
+          0.40166398882865906,
+          0.3994239866733551,
+          0.4002240002155304,
+          0.3967680037021637,
+          0.4047999978065491,
+          0.40620800852775574,
+          0.3999679982662201,
+          0.4089919924736023,
+          0.40249601006507874,
+          0.3957119882106781,
+          0.409280002117157,
+          0.39711999893188477,
+          0.4116800129413605,
+          0.4062719941139221,
+          0.3994559943675995,
+          0.39846399426460266
+        ],
+        "warmup": 30,
+        "iterations": 300,
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "device": "NVIDIA GeForce RTX 5090",
+        "precision": "original mixed dtype preserved",
+        "compile": "default",
+        "cuda_graph": false,
+        "TF32": false,
+        "boundary": "prepared GPU input through complete display output"
+      },
+      "video": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ALL-MODELS-ROUND2-20260930/night_motion_weak/night_ordinary/full60_history_intervention.mp4",
+      "video_sha256": "cee6e57a518db0d622d22ac27e3708640002becac055cc624cbd85f48f1876be",
+      "graph": {
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ALL-MODELS-ROUND2-20260930/night_motion_weak/night_ordinary/night_ordinary_adaptive_front_integer.onnx",
+        "sha256": "d262166c2442765856e446ab867c0f0d0836a63b392acd0c4135f0ba60d4eb47",
+        "retains_original_night_Resize": true
+      },
+      "calibration": [
+        {
+          "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/train_00.npz",
+          "sha256": "2e28c879b124d7720a083faabc4d775ad3525c3abe5d2c263d56be5c5b862a90"
+        },
+        {
+          "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/train_01.npz",
+          "sha256": "2b6bee20ba5b0df759d9556af98047be459e88ddbcc52828e902d9c5c3e5827f"
+        },
+        {
+          "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/train_02.npz",
+          "sha256": "264fc0c02115d2988827571206ffe7cf94fbaeace5cdbcf67044acd24cda771e"
+        },
+        {
+          "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_ordinary/train_03.npz",
+          "sha256": "30c5be0fb2ba806607dbf34314bf2ec23db7e13e0c91b49afc40945deb908bbc"
+        }
+      ]
+    },
+    "night_special": {
+      "strength": 0.25,
+      "actual_frames": 120,
+      "thresholds_input_units": {
+        "80": 0.0272713303565979,
+        "90": 0.03408597409725189,
+        "98": 0.04767269268631935
+      },
+      "chosen_percentile": "80",
+      "validation_psnr": {
+        "source": 24.44806750565948,
+        "80": 24.444734459411567,
+        "90": 24.44719193003188,
+        "98": 24.44811842082517
+      },
+      "passed_val_guard": true,
+      "zero_gate_exact_original": true,
+      "summary": {
+        "原夜间九帧": {
+          "psnr_db": 25.919312130554662,
+          "mae_gray": 8.793321601549785,
+          "static_residual_change_gray": 1.1064590806720638,
+          "motion_response_ratio": 0.37932744246571004,
+          "weak_structure_error_gray": 1.2591946966507856
+        },
+        "局部当前夜间": {
+          "psnr_db": 25.910065638435466,
+          "mae_gray": 8.806116628646851,
+          "static_residual_change_gray": 1.2347036399761169,
+          "motion_response_ratio": 0.5667992654968711,
+          "weak_structure_error_gray": 1.504350031123442
+        }
+      },
+      "per_frame": [
+        {
+          "frame": 0,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.013594411455273,
+              "mae_gray": 10.239912033081055
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.013594411455273,
+              "mae_gray": 10.239912033081055
+            }
+          }
+        },
+        {
+          "frame": 1,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.313388151403515,
+              "mae_gray": 9.727392196655273,
+              "static_residual_change_gray": 1.3969523906707764,
+              "motion_response_ratio": 0.5222256183624268,
+              "weak_structure_error_gray": 1.5173596143722534
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.353219204043786,
+              "mae_gray": 9.663657188415527,
+              "static_residual_change_gray": 1.5511703491210938,
+              "motion_response_ratio": 0.6831600069999695,
+              "weak_structure_error_gray": 1.8174684047698975
+            }
+          }
+        },
+        {
+          "frame": 2,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.462616086125024,
+              "mae_gray": 9.521302223205566,
+              "static_residual_change_gray": 1.2458173036575317,
+              "motion_response_ratio": 0.41949766874313354,
+              "weak_structure_error_gray": 1.3560833930969238
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.49114160794606,
+              "mae_gray": 9.479107856750488,
+              "static_residual_change_gray": 1.479705572128296,
+              "motion_response_ratio": 0.6166157722473145,
+              "weak_structure_error_gray": 1.728697657585144
+            }
+          }
+        },
+        {
+          "frame": 3,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.593498502204213,
+              "mae_gray": 9.346634864807129,
+              "static_residual_change_gray": 1.193283200263977,
+              "motion_response_ratio": 0.40207183361053467,
+              "weak_structure_error_gray": 1.3447750806808472
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.604781844267933,
+              "mae_gray": 9.329972267150879,
+              "static_residual_change_gray": 1.4095492362976074,
+              "motion_response_ratio": 0.622431755065918,
+              "weak_structure_error_gray": 1.7242166996002197
+            }
+          }
+        },
+        {
+          "frame": 4,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.710801354492745,
+              "mae_gray": 9.143163681030273,
+              "static_residual_change_gray": 1.1871432065963745,
+              "motion_response_ratio": 0.42196476459503174,
+              "weak_structure_error_gray": 1.3237138986587524
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.71005440385691,
+              "mae_gray": 9.138131141662598,
+              "static_residual_change_gray": 1.366969108581543,
+              "motion_response_ratio": 0.6305250525474548,
+              "weak_structure_error_gray": 1.6689337491989136
+            }
+          }
+        },
+        {
+          "frame": 5,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.850473029650672,
+              "mae_gray": 8.944453239440918,
+              "static_residual_change_gray": 1.1626719236373901,
+              "motion_response_ratio": 0.39455753564834595,
+              "weak_structure_error_gray": 1.2631624937057495
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.83592492642137,
+              "mae_gray": 8.955814361572266,
+              "static_residual_change_gray": 1.3248236179351807,
+              "motion_response_ratio": 0.5889996290206909,
+              "weak_structure_error_gray": 1.5645190477371216
+            }
+          }
+        },
+        {
+          "frame": 6,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.930989192114417,
+              "mae_gray": 8.811480522155762,
+              "static_residual_change_gray": 1.1223868131637573,
+              "motion_response_ratio": 0.35906028747558594,
+              "weak_structure_error_gray": 1.2955262660980225
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.92452459459754,
+              "mae_gray": 8.821810722351074,
+              "static_residual_change_gray": 1.264718770980835,
+              "motion_response_ratio": 0.5453627705574036,
+              "weak_structure_error_gray": 1.5453007221221924
+            }
+          }
+        },
+        {
+          "frame": 7,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.98343282202347,
+              "mae_gray": 8.74349594116211,
+              "static_residual_change_gray": 1.0956214666366577,
+              "motion_response_ratio": 0.38195279240608215,
+              "weak_structure_error_gray": 1.239851474761963
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.97565340082038,
+              "mae_gray": 8.753838539123535,
+              "static_residual_change_gray": 1.2257128953933716,
+              "motion_response_ratio": 0.5708467960357666,
+              "weak_structure_error_gray": 1.4748334884643555
+            }
+          }
+        },
+        {
+          "frame": 8,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 26.005468772879105,
+              "mae_gray": 8.700265884399414,
+              "static_residual_change_gray": 1.096699833869934,
+              "motion_response_ratio": 0.372469425201416,
+              "weak_structure_error_gray": 1.2290219068527222
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.99157362052862,
+              "mae_gray": 8.71414566040039,
+              "static_residual_change_gray": 1.2170405387878418,
+              "motion_response_ratio": 0.5522316694259644,
+              "weak_structure_error_gray": 1.476832389831543
+            }
+          }
+        },
+        {
+          "frame": 9,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.980211141739105,
+              "mae_gray": 8.73238468170166,
+              "static_residual_change_gray": 1.0989950895309448,
+              "motion_response_ratio": 0.377386212348938,
+              "weak_structure_error_gray": 1.24472177028656
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.96645602186775,
+              "mae_gray": 8.754714012145996,
+              "static_residual_change_gray": 1.222978949546814,
+              "motion_response_ratio": 0.5615711212158203,
+              "weak_structure_error_gray": 1.4772138595581055
+            }
+          }
+        },
+        {
+          "frame": 10,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.966803878875776,
+              "mae_gray": 8.755585670471191,
+              "static_residual_change_gray": 1.0894910097122192,
+              "motion_response_ratio": 0.38704854249954224,
+              "weak_structure_error_gray": 1.241933822631836
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.96180088273905,
+              "mae_gray": 8.76400375366211,
+              "static_residual_change_gray": 1.2117446660995483,
+              "motion_response_ratio": 0.5744826197624207,
+              "weak_structure_error_gray": 1.4940099716186523
+            }
+          }
+        },
+        {
+          "frame": 11,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.960540680959355,
+              "mae_gray": 8.772626876831055,
+              "static_residual_change_gray": 1.123472809791565,
+              "motion_response_ratio": 0.3788510859012604,
+              "weak_structure_error_gray": 1.2659285068511963
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.9438916559553,
+              "mae_gray": 8.78748893737793,
+              "static_residual_change_gray": 1.254502296447754,
+              "motion_response_ratio": 0.567599892616272,
+              "weak_structure_error_gray": 1.5153759717941284
+            }
+          }
+        },
+        {
+          "frame": 12,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.946132686078023,
+              "mae_gray": 8.755224227905273,
+              "static_residual_change_gray": 1.0898716449737549,
+              "motion_response_ratio": 0.37290000915527344,
+              "weak_structure_error_gray": 1.2388801574707031
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.9395799056187,
+              "mae_gray": 8.767677307128906,
+              "static_residual_change_gray": 1.2169880867004395,
+              "motion_response_ratio": 0.560501754283905,
+              "weak_structure_error_gray": 1.4756932258605957
+            }
+          }
+        },
+        {
+          "frame": 13,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.944426369501553,
+              "mae_gray": 8.785930633544922,
+              "static_residual_change_gray": 1.098362684249878,
+              "motion_response_ratio": 0.3855181038379669,
+              "weak_structure_error_gray": 1.267963171005249
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.93734345313632,
+              "mae_gray": 8.799158096313477,
+              "static_residual_change_gray": 1.2300392389297485,
+              "motion_response_ratio": 0.5722687840461731,
+              "weak_structure_error_gray": 1.4979603290557861
+            }
+          }
+        },
+        {
+          "frame": 14,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.95774212144169,
+              "mae_gray": 8.766589164733887,
+              "static_residual_change_gray": 1.093233346939087,
+              "motion_response_ratio": 0.3715203106403351,
+              "weak_structure_error_gray": 1.2666157484054565
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.945863012207234,
+              "mae_gray": 8.772425651550293,
+              "static_residual_change_gray": 1.2212371826171875,
+              "motion_response_ratio": 0.5595585107803345,
+              "weak_structure_error_gray": 1.5089187622070312
+            }
+          }
+        },
+        {
+          "frame": 15,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.95398862230627,
+              "mae_gray": 8.786449432373047,
+              "static_residual_change_gray": 1.0963366031646729,
+              "motion_response_ratio": 0.3720373213291168,
+              "weak_structure_error_gray": 1.3034355640411377
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.94257858272705,
+              "mae_gray": 8.804834365844727,
+              "static_residual_change_gray": 1.2209519147872925,
+              "motion_response_ratio": 0.5669816136360168,
+              "weak_structure_error_gray": 1.5599972009658813
+            }
+          }
+        },
+        {
+          "frame": 16,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.972433049501987,
+              "mae_gray": 8.75306224822998,
+              "static_residual_change_gray": 1.1108920574188232,
+              "motion_response_ratio": 0.3816348612308502,
+              "weak_structure_error_gray": 1.2734999656677246
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.960026491792313,
+              "mae_gray": 8.765885353088379,
+              "static_residual_change_gray": 1.2419803142547607,
+              "motion_response_ratio": 0.5629897713661194,
+              "weak_structure_error_gray": 1.533327341079712
+            }
+          }
+        },
+        {
+          "frame": 17,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.950286095059724,
+              "mae_gray": 8.802423477172852,
+              "static_residual_change_gray": 1.0965137481689453,
+              "motion_response_ratio": 0.3700973689556122,
+              "weak_structure_error_gray": 1.2468160390853882
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.942310330542064,
+              "mae_gray": 8.817899703979492,
+              "static_residual_change_gray": 1.2177635431289673,
+              "motion_response_ratio": 0.5478290915489197,
+              "weak_structure_error_gray": 1.50127112865448
+            }
+          }
+        },
+        {
+          "frame": 18,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.931980421747056,
+              "mae_gray": 8.807205200195312,
+              "static_residual_change_gray": 1.1160216331481934,
+              "motion_response_ratio": 0.3797580897808075,
+              "weak_structure_error_gray": 1.259788990020752
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.92192048699427,
+              "mae_gray": 8.820953369140625,
+              "static_residual_change_gray": 1.2467912435531616,
+              "motion_response_ratio": 0.5666669607162476,
+              "weak_structure_error_gray": 1.5247811079025269
+            }
+          }
+        },
+        {
+          "frame": 19,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.94307108882786,
+              "mae_gray": 8.745550155639648,
+              "static_residual_change_gray": 1.1092376708984375,
+              "motion_response_ratio": 0.3813733160495758,
+              "weak_structure_error_gray": 1.262654423713684
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.91277961619238,
+              "mae_gray": 8.774271965026855,
+              "static_residual_change_gray": 1.2459945678710938,
+              "motion_response_ratio": 0.5811741352081299,
+              "weak_structure_error_gray": 1.5164240598678589
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.8769097315635,
+              "mae_gray": 8.834497451782227,
+              "static_residual_change_gray": 1.1286330223083496,
+              "motion_response_ratio": 0.39711666107177734,
+              "weak_structure_error_gray": 1.272018551826477
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.872619812401684,
+              "mae_gray": 8.845429420471191,
+              "static_residual_change_gray": 1.2605373859405518,
+              "motion_response_ratio": 0.5973370671272278,
+              "weak_structure_error_gray": 1.5243501663208008
+            }
+          }
+        },
+        {
+          "frame": 21,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.917623716569672,
+              "mae_gray": 8.778316497802734,
+              "static_residual_change_gray": 1.0801154375076294,
+              "motion_response_ratio": 0.37710803747177124,
+              "weak_structure_error_gray": 1.2758018970489502
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.90943705631961,
+              "mae_gray": 8.79146957397461,
+              "static_residual_change_gray": 1.2076406478881836,
+              "motion_response_ratio": 0.5703994035720825,
+              "weak_structure_error_gray": 1.5313142538070679
+            }
+          }
+        },
+        {
+          "frame": 22,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.863508884499332,
+              "mae_gray": 8.81357192993164,
+              "static_residual_change_gray": 1.1028684377670288,
+              "motion_response_ratio": 0.3898095488548279,
+              "weak_structure_error_gray": 1.2636903524398804
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.85832848733466,
+              "mae_gray": 8.826070785522461,
+              "static_residual_change_gray": 1.230468511581421,
+              "motion_response_ratio": 0.58004230260849,
+              "weak_structure_error_gray": 1.5165748596191406
+            }
+          }
+        },
+        {
+          "frame": 23,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.869511156433404,
+              "mae_gray": 8.838542938232422,
+              "static_residual_change_gray": 1.115600824356079,
+              "motion_response_ratio": 0.3771028220653534,
+              "weak_structure_error_gray": 1.2773689031600952
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.863663794293025,
+              "mae_gray": 8.852033615112305,
+              "static_residual_change_gray": 1.2482283115386963,
+              "motion_response_ratio": 0.5632327795028687,
+              "weak_structure_error_gray": 1.5295324325561523
+            }
+          }
+        },
+        {
+          "frame": 24,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.926590495712226,
+              "mae_gray": 8.794209480285645,
+              "static_residual_change_gray": 1.1060941219329834,
+              "motion_response_ratio": 0.3559775948524475,
+              "weak_structure_error_gray": 1.2530664205551147
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.91499867744998,
+              "mae_gray": 8.81015682220459,
+              "static_residual_change_gray": 1.23807954788208,
+              "motion_response_ratio": 0.5432417988777161,
+              "weak_structure_error_gray": 1.5044076442718506
+            }
+          }
+        },
+        {
+          "frame": 25,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.93282965654865,
+              "mae_gray": 8.800787925720215,
+              "static_residual_change_gray": 1.0907646417617798,
+              "motion_response_ratio": 0.3652154505252838,
+              "weak_structure_error_gray": 1.232494831085205
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.921428381265777,
+              "mae_gray": 8.815964698791504,
+              "static_residual_change_gray": 1.2180166244506836,
+              "motion_response_ratio": 0.5492945909500122,
+              "weak_structure_error_gray": 1.4821290969848633
+            }
+          }
+        },
+        {
+          "frame": 26,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.95382082276322,
+              "mae_gray": 8.756260871887207,
+              "static_residual_change_gray": 1.092144250869751,
+              "motion_response_ratio": 0.35787662863731384,
+              "weak_structure_error_gray": 1.2690790891647339
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.947286101482938,
+              "mae_gray": 8.771206855773926,
+              "static_residual_change_gray": 1.2110897302627563,
+              "motion_response_ratio": 0.5362667441368103,
+              "weak_structure_error_gray": 1.4974186420440674
+            }
+          }
+        },
+        {
+          "frame": 27,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.94296657676729,
+              "mae_gray": 8.782013893127441,
+              "static_residual_change_gray": 1.1001728773117065,
+              "motion_response_ratio": 0.36161181330680847,
+              "weak_structure_error_gray": 1.2681055068969727
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.931596602933556,
+              "mae_gray": 8.79435920715332,
+              "static_residual_change_gray": 1.2157068252563477,
+              "motion_response_ratio": 0.539344847202301,
+              "weak_structure_error_gray": 1.502062201499939
+            }
+          }
+        },
+        {
+          "frame": 28,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 26.006441393948677,
+              "mae_gray": 8.74587631225586,
+              "static_residual_change_gray": 1.088780164718628,
+              "motion_response_ratio": 0.37960949540138245,
+              "weak_structure_error_gray": 1.261839747428894
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.988368557191713,
+              "mae_gray": 8.769936561584473,
+              "static_residual_change_gray": 1.2081687450408936,
+              "motion_response_ratio": 0.565891444683075,
+              "weak_structure_error_gray": 1.5221163034439087
+            }
+          }
+        },
+        {
+          "frame": 29,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.98828722679955,
+              "mae_gray": 8.753735542297363,
+              "static_residual_change_gray": 1.0893033742904663,
+              "motion_response_ratio": 0.373270720243454,
+              "weak_structure_error_gray": 1.244996190071106
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.98102825427194,
+              "mae_gray": 8.765358924865723,
+              "static_residual_change_gray": 1.214781403541565,
+              "motion_response_ratio": 0.5505200624465942,
+              "weak_structure_error_gray": 1.4898388385772705
+            }
+          }
+        },
+        {
+          "frame": 30,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.981961073346895,
+              "mae_gray": 8.76688289642334,
+              "static_residual_change_gray": 1.1204233169555664,
+              "motion_response_ratio": 0.403935045003891,
+              "weak_structure_error_gray": 1.2564458847045898
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.977232789963402,
+              "mae_gray": 8.773996353149414,
+              "static_residual_change_gray": 1.2450474500656128,
+              "motion_response_ratio": 0.5986565947532654,
+              "weak_structure_error_gray": 1.5006515979766846
+            }
+          }
+        },
+        {
+          "frame": 31,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.9701026580033,
+              "mae_gray": 8.763789176940918,
+              "static_residual_change_gray": 1.1235398054122925,
+              "motion_response_ratio": 0.38209280371665955,
+              "weak_structure_error_gray": 1.271953821182251
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.953008411400397,
+              "mae_gray": 8.783295631408691,
+              "static_residual_change_gray": 1.2545732259750366,
+              "motion_response_ratio": 0.585848331451416,
+              "weak_structure_error_gray": 1.5126720666885376
+            }
+          }
+        },
+        {
+          "frame": 32,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.972910406061533,
+              "mae_gray": 8.759063720703125,
+              "static_residual_change_gray": 1.1009281873703003,
+              "motion_response_ratio": 0.3928769528865814,
+              "weak_structure_error_gray": 1.2523553371429443
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.965847741679084,
+              "mae_gray": 8.771810531616211,
+              "static_residual_change_gray": 1.2334790229797363,
+              "motion_response_ratio": 0.587803065776825,
+              "weak_structure_error_gray": 1.507851481437683
+            }
+          }
+        },
+        {
+          "frame": 33,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.97370235310281,
+              "mae_gray": 8.744131088256836,
+              "static_residual_change_gray": 1.119498610496521,
+              "motion_response_ratio": 0.3879992961883545,
+              "weak_structure_error_gray": 1.271393895149231
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.962293964833595,
+              "mae_gray": 8.76124095916748,
+              "static_residual_change_gray": 1.2479987144470215,
+              "motion_response_ratio": 0.5828291773796082,
+              "weak_structure_error_gray": 1.5296080112457275
+            }
+          }
+        },
+        {
+          "frame": 34,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.968881132876405,
+              "mae_gray": 8.733458518981934,
+              "static_residual_change_gray": 1.1078039407730103,
+              "motion_response_ratio": 0.379756897687912,
+              "weak_structure_error_gray": 1.2519431114196777
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.953081457982744,
+              "mae_gray": 8.751277923583984,
+              "static_residual_change_gray": 1.2327224016189575,
+              "motion_response_ratio": 0.5684087872505188,
+              "weak_structure_error_gray": 1.4839057922363281
+            }
+          }
+        },
+        {
+          "frame": 35,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.94133995654846,
+              "mae_gray": 8.763936996459961,
+              "static_residual_change_gray": 1.1164053678512573,
+              "motion_response_ratio": 0.40011027455329895,
+              "weak_structure_error_gray": 1.257130742073059
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.924942082634317,
+              "mae_gray": 8.783409118652344,
+              "static_residual_change_gray": 1.2447726726531982,
+              "motion_response_ratio": 0.5900833010673523,
+              "weak_structure_error_gray": 1.496804118156433
+            }
+          }
+        },
+        {
+          "frame": 36,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.96058289622221,
+              "mae_gray": 8.751046180725098,
+              "static_residual_change_gray": 1.1084080934524536,
+              "motion_response_ratio": 0.4003957211971283,
+              "weak_structure_error_gray": 1.260903239250183
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.952237483650016,
+              "mae_gray": 8.762746810913086,
+              "static_residual_change_gray": 1.2414814233779907,
+              "motion_response_ratio": 0.5954683423042297,
+              "weak_structure_error_gray": 1.5396249294281006
+            }
+          }
+        },
+        {
+          "frame": 37,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.965576438348513,
+              "mae_gray": 8.718223571777344,
+              "static_residual_change_gray": 1.0882771015167236,
+              "motion_response_ratio": 0.3943093419075012,
+              "weak_structure_error_gray": 1.2752909660339355
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.95577701345284,
+              "mae_gray": 8.728255271911621,
+              "static_residual_change_gray": 1.2102022171020508,
+              "motion_response_ratio": 0.594200849533081,
+              "weak_structure_error_gray": 1.5390962362289429
+            }
+          }
+        },
+        {
+          "frame": 38,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.987471174792105,
+              "mae_gray": 8.702775001525879,
+              "static_residual_change_gray": 1.0957086086273193,
+              "motion_response_ratio": 0.40026769042015076,
+              "weak_structure_error_gray": 1.2478139400482178
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.975992311763,
+              "mae_gray": 8.722822189331055,
+              "static_residual_change_gray": 1.2264060974121094,
+              "motion_response_ratio": 0.5956302285194397,
+              "weak_structure_error_gray": 1.48512601852417
+            }
+          }
+        },
+        {
+          "frame": 39,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.939278631431968,
+              "mae_gray": 8.716842651367188,
+              "static_residual_change_gray": 1.1077553033828735,
+              "motion_response_ratio": 0.39431893825531006,
+              "weak_structure_error_gray": 1.259860873222351
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.925341265842818,
+              "mae_gray": 8.732830047607422,
+              "static_residual_change_gray": 1.2435177564620972,
+              "motion_response_ratio": 0.5914942026138306,
+              "weak_structure_error_gray": 1.507110834121704
+            }
+          }
+        },
+        {
+          "frame": 40,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.945985224888126,
+              "mae_gray": 8.7068452835083,
+              "static_residual_change_gray": 1.085524082183838,
+              "motion_response_ratio": 0.36842861771583557,
+              "weak_structure_error_gray": 1.2396031618118286
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.939004182038,
+              "mae_gray": 8.722005844116211,
+              "static_residual_change_gray": 1.2219873666763306,
+              "motion_response_ratio": 0.5546715259552002,
+              "weak_structure_error_gray": 1.4652072191238403
+            }
+          }
+        },
+        {
+          "frame": 41,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.928115426021172,
+              "mae_gray": 8.731111526489258,
+              "static_residual_change_gray": 1.0780857801437378,
+              "motion_response_ratio": 0.3517657518386841,
+              "weak_structure_error_gray": 1.2449954748153687
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.924265827986744,
+              "mae_gray": 8.740846633911133,
+              "static_residual_change_gray": 1.2070952653884888,
+              "motion_response_ratio": 0.5198107361793518,
+              "weak_structure_error_gray": 1.4591902494430542
+            }
+          }
+        },
+        {
+          "frame": 42,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.941116609073482,
+              "mae_gray": 8.715516090393066,
+              "static_residual_change_gray": 1.0874141454696655,
+              "motion_response_ratio": 0.36549893021583557,
+              "weak_structure_error_gray": 1.2201437950134277
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.93233271819291,
+              "mae_gray": 8.728795051574707,
+              "static_residual_change_gray": 1.1996347904205322,
+              "motion_response_ratio": 0.5502573847770691,
+              "weak_structure_error_gray": 1.4554409980773926
+            }
+          }
+        },
+        {
+          "frame": 43,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.946046532872565,
+              "mae_gray": 8.724983215332031,
+              "static_residual_change_gray": 1.1116223335266113,
+              "motion_response_ratio": 0.38906440138816833,
+              "weak_structure_error_gray": 1.2707364559173584
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.937934555034445,
+              "mae_gray": 8.741387367248535,
+              "static_residual_change_gray": 1.2298836708068848,
+              "motion_response_ratio": 0.5868990421295166,
+              "weak_structure_error_gray": 1.5198794603347778
+            }
+          }
+        },
+        {
+          "frame": 44,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.972427808547177,
+              "mae_gray": 8.748719215393066,
+              "static_residual_change_gray": 1.1133965253829956,
+              "motion_response_ratio": 0.3760184049606323,
+              "weak_structure_error_gray": 1.2538504600524902
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.960586112640016,
+              "mae_gray": 8.763285636901855,
+              "static_residual_change_gray": 1.2380459308624268,
+              "motion_response_ratio": 0.5703373551368713,
+              "weak_structure_error_gray": 1.479140281677246
+            }
+          }
+        },
+        {
+          "frame": 45,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.92905371173736,
+              "mae_gray": 8.760749816894531,
+              "static_residual_change_gray": 1.0948257446289062,
+              "motion_response_ratio": 0.38668879866600037,
+              "weak_structure_error_gray": 1.26325261592865
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.928427899345685,
+              "mae_gray": 8.76342487335205,
+              "static_residual_change_gray": 1.2158498764038086,
+              "motion_response_ratio": 0.5754787921905518,
+              "weak_structure_error_gray": 1.508143424987793
+            }
+          }
+        },
+        {
+          "frame": 46,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.934673698894002,
+              "mae_gray": 8.781851768493652,
+              "static_residual_change_gray": 1.101541519165039,
+              "motion_response_ratio": 0.38782668113708496,
+              "weak_structure_error_gray": 1.2785987854003906
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.92271674051286,
+              "mae_gray": 8.798739433288574,
+              "static_residual_change_gray": 1.222680687904358,
+              "motion_response_ratio": 0.5823769569396973,
+              "weak_structure_error_gray": 1.5529639720916748
+            }
+          }
+        },
+        {
+          "frame": 47,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.97284992724342,
+              "mae_gray": 8.731504440307617,
+              "static_residual_change_gray": 1.0876449346542358,
+              "motion_response_ratio": 0.4047538936138153,
+              "weak_structure_error_gray": 1.2378801107406616
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.962656773868964,
+              "mae_gray": 8.747947692871094,
+              "static_residual_change_gray": 1.2105389833450317,
+              "motion_response_ratio": 0.6017370820045471,
+              "weak_structure_error_gray": 1.5018749237060547
+            }
+          }
+        },
+        {
+          "frame": 48,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.976410338353123,
+              "mae_gray": 8.755758285522461,
+              "static_residual_change_gray": 1.1097395420074463,
+              "motion_response_ratio": 0.39752504229545593,
+              "weak_structure_error_gray": 1.2450757026672363
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.9621037234285,
+              "mae_gray": 8.775158882141113,
+              "static_residual_change_gray": 1.2432031631469727,
+              "motion_response_ratio": 0.6028723120689392,
+              "weak_structure_error_gray": 1.5007209777832031
+            }
+          }
+        },
+        {
+          "frame": 49,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.973549920300655,
+              "mae_gray": 8.752100944519043,
+              "static_residual_change_gray": 1.1106679439544678,
+              "motion_response_ratio": 0.377957820892334,
+              "weak_structure_error_gray": 1.255906581878662
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.961797263256923,
+              "mae_gray": 8.765192985534668,
+              "static_residual_change_gray": 1.2549294233322144,
+              "motion_response_ratio": 0.5698548555374146,
+              "weak_structure_error_gray": 1.4868313074111938
+            }
+          }
+        },
+        {
+          "frame": 50,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.97339991229012,
+              "mae_gray": 8.777079582214355,
+              "static_residual_change_gray": 1.0957869291305542,
+              "motion_response_ratio": 0.3616023361682892,
+              "weak_structure_error_gray": 1.2441298961639404
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.966084038952285,
+              "mae_gray": 8.794515609741211,
+              "static_residual_change_gray": 1.2262839078903198,
+              "motion_response_ratio": 0.5393222570419312,
+              "weak_structure_error_gray": 1.489920973777771
+            }
+          }
+        },
+        {
+          "frame": 51,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 26.008435663814105,
+              "mae_gray": 8.720979690551758,
+              "static_residual_change_gray": 1.106207013130188,
+              "motion_response_ratio": 0.3764488101005554,
+              "weak_structure_error_gray": 1.245238184928894
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.991929164791227,
+              "mae_gray": 8.732965469360352,
+              "static_residual_change_gray": 1.2319148778915405,
+              "motion_response_ratio": 0.5551912784576416,
+              "weak_structure_error_gray": 1.4750818014144897
+            }
+          }
+        },
+        {
+          "frame": 52,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.9930603779058,
+              "mae_gray": 8.743280410766602,
+              "static_residual_change_gray": 1.112581491470337,
+              "motion_response_ratio": 0.3690897524356842,
+              "weak_structure_error_gray": 1.2639455795288086
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.985626418635324,
+              "mae_gray": 8.758052825927734,
+              "static_residual_change_gray": 1.241172194480896,
+              "motion_response_ratio": 0.5474694967269897,
+              "weak_structure_error_gray": 1.4760994911193848
+            }
+          }
+        },
+        {
+          "frame": 53,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.99709229012671,
+              "mae_gray": 8.735548973083496,
+              "static_residual_change_gray": 1.1144298315048218,
+              "motion_response_ratio": 0.3952525854110718,
+              "weak_structure_error_gray": 1.2807217836380005
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.980113405502294,
+              "mae_gray": 8.752251625061035,
+              "static_residual_change_gray": 1.2382631301879883,
+              "motion_response_ratio": 0.5780935883522034,
+              "weak_structure_error_gray": 1.5160459280014038
+            }
+          }
+        },
+        {
+          "frame": 54,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.99047437109087,
+              "mae_gray": 8.734235763549805,
+              "static_residual_change_gray": 1.0989162921905518,
+              "motion_response_ratio": 0.38579821586608887,
+              "weak_structure_error_gray": 1.2562071084976196
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.978242301915557,
+              "mae_gray": 8.753927230834961,
+              "static_residual_change_gray": 1.2220755815505981,
+              "motion_response_ratio": 0.5743637681007385,
+              "weak_structure_error_gray": 1.517517328262329
+            }
+          }
+        },
+        {
+          "frame": 55,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.953589607220554,
+              "mae_gray": 8.769227027893066,
+              "static_residual_change_gray": 1.1076319217681885,
+              "motion_response_ratio": 0.39828357100486755,
+              "weak_structure_error_gray": 1.2353299856185913
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.938293734724077,
+              "mae_gray": 8.781192779541016,
+              "static_residual_change_gray": 1.239722728729248,
+              "motion_response_ratio": 0.5860642194747925,
+              "weak_structure_error_gray": 1.51521897315979
+            }
+          }
+        },
+        {
+          "frame": 56,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.95786426706859,
+              "mae_gray": 8.712949752807617,
+              "static_residual_change_gray": 1.1079305410385132,
+              "motion_response_ratio": 0.3738657832145691,
+              "weak_structure_error_gray": 1.2618945837020874
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.945570917797998,
+              "mae_gray": 8.730640411376953,
+              "static_residual_change_gray": 1.22981595993042,
+              "motion_response_ratio": 0.5585343837738037,
+              "weak_structure_error_gray": 1.5039763450622559
+            }
+          }
+        },
+        {
+          "frame": 57,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.93547309375955,
+              "mae_gray": 8.760723114013672,
+              "static_residual_change_gray": 1.1205544471740723,
+              "motion_response_ratio": 0.3938012719154358,
+              "weak_structure_error_gray": 1.256608247756958
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.924103558486607,
+              "mae_gray": 8.779402732849121,
+              "static_residual_change_gray": 1.2429614067077637,
+              "motion_response_ratio": 0.5776562094688416,
+              "weak_structure_error_gray": 1.486502766609192
+            }
+          }
+        },
+        {
+          "frame": 58,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.908299606621608,
+              "mae_gray": 8.79260540008545,
+              "static_residual_change_gray": 1.1053400039672852,
+              "motion_response_ratio": 0.3881203532218933,
+              "weak_structure_error_gray": 1.2700897455215454
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.903827785176485,
+              "mae_gray": 8.803369522094727,
+              "static_residual_change_gray": 1.226722002029419,
+              "motion_response_ratio": 0.5744805335998535,
+              "weak_structure_error_gray": 1.5076497793197632
+            }
+          }
+        },
+        {
+          "frame": 59,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.908491080966535,
+              "mae_gray": 8.781192779541016,
+              "static_residual_change_gray": 1.0939990282058716,
+              "motion_response_ratio": 0.37378165125846863,
+              "weak_structure_error_gray": 1.2567065954208374
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.900433816227224,
+              "mae_gray": 8.790743827819824,
+              "static_residual_change_gray": 1.2195852994918823,
+              "motion_response_ratio": 0.5582332611083984,
+              "weak_structure_error_gray": 1.5147141218185425
+            }
+          }
+        },
+        {
+          "frame": 60,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.938324534365364,
+              "mae_gray": 8.738214492797852,
+              "static_residual_change_gray": 1.0948816537857056,
+              "motion_response_ratio": 0.3759736716747284,
+              "weak_structure_error_gray": 1.2647390365600586
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.92666788639333,
+              "mae_gray": 8.754789352416992,
+              "static_residual_change_gray": 1.2286611795425415,
+              "motion_response_ratio": 0.562774658203125,
+              "weak_structure_error_gray": 1.524243712425232
+            }
+          }
+        },
+        {
+          "frame": 61,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.931320641794198,
+              "mae_gray": 8.75110912322998,
+              "static_residual_change_gray": 1.0991008281707764,
+              "motion_response_ratio": 0.38134920597076416,
+              "weak_structure_error_gray": 1.2590566873550415
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.919565260233664,
+              "mae_gray": 8.766130447387695,
+              "static_residual_change_gray": 1.2308175563812256,
+              "motion_response_ratio": 0.5650741457939148,
+              "weak_structure_error_gray": 1.491949200630188
+            }
+          }
+        },
+        {
+          "frame": 62,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.974337144046622,
+              "mae_gray": 8.709016799926758,
+              "static_residual_change_gray": 1.0833806991577148,
+              "motion_response_ratio": 0.3732977509498596,
+              "weak_structure_error_gray": 1.2797958850860596
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.968238680858583,
+              "mae_gray": 8.720645904541016,
+              "static_residual_change_gray": 1.200204610824585,
+              "motion_response_ratio": 0.5465826392173767,
+              "weak_structure_error_gray": 1.5218205451965332
+            }
+          }
+        },
+        {
+          "frame": 63,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.968178669818233,
+              "mae_gray": 8.71902084350586,
+              "static_residual_change_gray": 1.0988810062408447,
+              "motion_response_ratio": 0.379410058259964,
+              "weak_structure_error_gray": 1.2732350826263428
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.95995172032994,
+              "mae_gray": 8.732337951660156,
+              "static_residual_change_gray": 1.2098352909088135,
+              "motion_response_ratio": 0.567840576171875,
+              "weak_structure_error_gray": 1.520127534866333
+            }
+          }
+        },
+        {
+          "frame": 64,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.915138724367196,
+              "mae_gray": 8.791054725646973,
+              "static_residual_change_gray": 1.0981794595718384,
+              "motion_response_ratio": 0.372487336397171,
+              "weak_structure_error_gray": 1.261539101600647
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.90943705631961,
+              "mae_gray": 8.800739288330078,
+              "static_residual_change_gray": 1.2141070365905762,
+              "motion_response_ratio": 0.5558391213417053,
+              "weak_structure_error_gray": 1.496288776397705
+            }
+          }
+        },
+        {
+          "frame": 65,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.9570739974386,
+              "mae_gray": 8.743659973144531,
+              "static_residual_change_gray": 1.090632677078247,
+              "motion_response_ratio": 0.359022855758667,
+              "weak_structure_error_gray": 1.2479335069656372
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.95062463662893,
+              "mae_gray": 8.756848335266113,
+              "static_residual_change_gray": 1.2016561031341553,
+              "motion_response_ratio": 0.5389177799224854,
+              "weak_structure_error_gray": 1.461262822151184
+            }
+          }
+        },
+        {
+          "frame": 66,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.95925150384462,
+              "mae_gray": 8.719781875610352,
+              "static_residual_change_gray": 1.1057652235031128,
+              "motion_response_ratio": 0.3598814308643341,
+              "weak_structure_error_gray": 1.2676969766616821
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.947355845244257,
+              "mae_gray": 8.735515594482422,
+              "static_residual_change_gray": 1.2215272188186646,
+              "motion_response_ratio": 0.5463613271713257,
+              "weak_structure_error_gray": 1.4845216274261475
+            }
+          }
+        },
+        {
+          "frame": 67,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.96521056796703,
+              "mae_gray": 8.706868171691895,
+              "static_residual_change_gray": 1.1134732961654663,
+              "motion_response_ratio": 0.39094874262809753,
+              "weak_structure_error_gray": 1.2594341039657593
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.95624089478879,
+              "mae_gray": 8.719972610473633,
+              "static_residual_change_gray": 1.2375319004058838,
+              "motion_response_ratio": 0.5884257555007935,
+              "weak_structure_error_gray": 1.5197488069534302
+            }
+          }
+        },
+        {
+          "frame": 68,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.950271254386198,
+              "mae_gray": 8.76392936706543,
+              "static_residual_change_gray": 1.1077617406845093,
+              "motion_response_ratio": 0.373104453086853,
+              "weak_structure_error_gray": 1.2558542490005493
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.9412799157758,
+              "mae_gray": 8.777987480163574,
+              "static_residual_change_gray": 1.2321290969848633,
+              "motion_response_ratio": 0.5602192878723145,
+              "weak_structure_error_gray": 1.4672267436981201
+            }
+          }
+        },
+        {
+          "frame": 69,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.92539909262682,
+              "mae_gray": 8.803565979003906,
+              "static_residual_change_gray": 1.0737310647964478,
+              "motion_response_ratio": 0.37646928429603577,
+              "weak_structure_error_gray": 1.2527738809585571
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.927542018137295,
+              "mae_gray": 8.804729461669922,
+              "static_residual_change_gray": 1.1955385208129883,
+              "motion_response_ratio": 0.5692034959793091,
+              "weak_structure_error_gray": 1.4821962118148804
+            }
+          }
+        },
+        {
+          "frame": 70,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.952736704952876,
+              "mae_gray": 8.780245780944824,
+              "static_residual_change_gray": 1.091874361038208,
+              "motion_response_ratio": 0.39351850748062134,
+              "weak_structure_error_gray": 1.2496980428695679
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.939675533534988,
+              "mae_gray": 8.789387702941895,
+              "static_residual_change_gray": 1.2080769538879395,
+              "motion_response_ratio": 0.5860348343849182,
+              "weak_structure_error_gray": 1.5023906230926514
+            }
+          }
+        },
+        {
+          "frame": 71,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.93643855920923,
+              "mae_gray": 8.789511680603027,
+              "static_residual_change_gray": 1.1012450456619263,
+              "motion_response_ratio": 0.37597864866256714,
+              "weak_structure_error_gray": 1.2333685159683228
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.92820561397025,
+              "mae_gray": 8.797781944274902,
+              "static_residual_change_gray": 1.2255338430404663,
+              "motion_response_ratio": 0.5612544417381287,
+              "weak_structure_error_gray": 1.4766602516174316
+            }
+          }
+        },
+        {
+          "frame": 72,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.975645735283493,
+              "mae_gray": 8.766044616699219,
+              "static_residual_change_gray": 1.0894535779953003,
+              "motion_response_ratio": 0.3564414381980896,
+              "weak_structure_error_gray": 1.2446746826171875
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.961774742102573,
+              "mae_gray": 8.778072357177734,
+              "static_residual_change_gray": 1.2079111337661743,
+              "motion_response_ratio": 0.5450549721717834,
+              "weak_structure_error_gray": 1.4834836721420288
+            }
+          }
+        },
+        {
+          "frame": 73,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.9619850781457,
+              "mae_gray": 8.770551681518555,
+              "static_residual_change_gray": 1.0790513753890991,
+              "motion_response_ratio": 0.36562997102737427,
+              "weak_structure_error_gray": 1.2216064929962158
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.94889851085643,
+              "mae_gray": 8.786865234375,
+              "static_residual_change_gray": 1.1982650756835938,
+              "motion_response_ratio": 0.546421229839325,
+              "weak_structure_error_gray": 1.4501949548721313
+            }
+          }
+        },
+        {
+          "frame": 74,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.955303945685742,
+              "mae_gray": 8.761069297790527,
+              "static_residual_change_gray": 1.0883119106292725,
+              "motion_response_ratio": 0.3602226972579956,
+              "weak_structure_error_gray": 1.2283995151519775
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.949478354840565,
+              "mae_gray": 8.774067878723145,
+              "static_residual_change_gray": 1.2020790576934814,
+              "motion_response_ratio": 0.5392411947250366,
+              "weak_structure_error_gray": 1.463173270225525
+            }
+          }
+        },
+        {
+          "frame": 75,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.943193623412192,
+              "mae_gray": 8.780938148498535,
+              "static_residual_change_gray": 1.105663537979126,
+              "motion_response_ratio": 0.3713081479072571,
+              "weak_structure_error_gray": 1.2782667875289917
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.92954308961126,
+              "mae_gray": 8.798073768615723,
+              "static_residual_change_gray": 1.22360360622406,
+              "motion_response_ratio": 0.5517071485519409,
+              "weak_structure_error_gray": 1.5168613195419312
+            }
+          }
+        },
+        {
+          "frame": 76,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.96666457168287,
+              "mae_gray": 8.74594497680664,
+              "static_residual_change_gray": 1.0815762281417847,
+              "motion_response_ratio": 0.36556822061538696,
+              "weak_structure_error_gray": 1.2411073446273804
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.95923060359521,
+              "mae_gray": 8.758223533630371,
+              "static_residual_change_gray": 1.2059563398361206,
+              "motion_response_ratio": 0.5435740947723389,
+              "weak_structure_error_gray": 1.4673293828964233
+            }
+          }
+        },
+        {
+          "frame": 77,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.935249248364826,
+              "mae_gray": 8.762238502502441,
+              "static_residual_change_gray": 1.1084530353546143,
+              "motion_response_ratio": 0.3628592789173126,
+              "weak_structure_error_gray": 1.2487620115280151
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.924358328301913,
+              "mae_gray": 8.7775297164917,
+              "static_residual_change_gray": 1.226671576499939,
+              "motion_response_ratio": 0.5390592813491821,
+              "weak_structure_error_gray": 1.48916494846344
+            }
+          }
+        },
+        {
+          "frame": 78,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.932716202590296,
+              "mae_gray": 8.745532989501953,
+              "static_residual_change_gray": 1.0907163619995117,
+              "motion_response_ratio": 0.3903314471244812,
+              "weak_structure_error_gray": 1.2467584609985352
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.91886037474903,
+              "mae_gray": 8.762552261352539,
+              "static_residual_change_gray": 1.217454433441162,
+              "motion_response_ratio": 0.5790284276008606,
+              "weak_structure_error_gray": 1.4873024225234985
+            }
+          }
+        },
+        {
+          "frame": 79,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.89033781542121,
+              "mae_gray": 8.781935691833496,
+              "static_residual_change_gray": 1.1089911460876465,
+              "motion_response_ratio": 0.38712218403816223,
+              "weak_structure_error_gray": 1.2307876348495483
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.882575935759537,
+              "mae_gray": 8.797660827636719,
+              "static_residual_change_gray": 1.2395360469818115,
+              "motion_response_ratio": 0.5794374942779541,
+              "weak_structure_error_gray": 1.4684619903564453
+            }
+          }
+        },
+        {
+          "frame": 80,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.86813300057176,
+              "mae_gray": 8.803179740905762,
+              "static_residual_change_gray": 1.0959166288375854,
+              "motion_response_ratio": 0.3733043074607849,
+              "weak_structure_error_gray": 1.2694065570831299
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.858113687741305,
+              "mae_gray": 8.817852973937988,
+              "static_residual_change_gray": 1.2233928442001343,
+              "motion_response_ratio": 0.566826343536377,
+              "weak_structure_error_gray": 1.511934757232666
+            }
+          }
+        },
+        {
+          "frame": 81,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.8808845350721,
+              "mae_gray": 8.812923431396484,
+              "static_residual_change_gray": 1.0983545780181885,
+              "motion_response_ratio": 0.3614789545536041,
+              "weak_structure_error_gray": 1.236185073852539
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.87273998123613,
+              "mae_gray": 8.817883491516113,
+              "static_residual_change_gray": 1.228830099105835,
+              "motion_response_ratio": 0.54642653465271,
+              "weak_structure_error_gray": 1.483565092086792
+            }
+          }
+        },
+        {
+          "frame": 82,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.933430133012457,
+              "mae_gray": 8.743529319763184,
+              "static_residual_change_gray": 1.075697898864746,
+              "motion_response_ratio": 0.3555740416049957,
+              "weak_structure_error_gray": 1.2464308738708496
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.93049805416422,
+              "mae_gray": 8.756779670715332,
+              "static_residual_change_gray": 1.194521427154541,
+              "motion_response_ratio": 0.5492646098136902,
+              "weak_structure_error_gray": 1.4724856615066528
+            }
+          }
+        },
+        {
+          "frame": 83,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.91297645785399,
+              "mae_gray": 8.773755073547363,
+              "static_residual_change_gray": 1.0986487865447998,
+              "motion_response_ratio": 0.3881250023841858,
+              "weak_structure_error_gray": 1.2638438940048218
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.903886913562314,
+              "mae_gray": 8.788899421691895,
+              "static_residual_change_gray": 1.2233442068099976,
+              "motion_response_ratio": 0.5734378695487976,
+              "weak_structure_error_gray": 1.5068111419677734
+            }
+          }
+        },
+        {
+          "frame": 84,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.92523917353833,
+              "mae_gray": 8.730081558227539,
+              "static_residual_change_gray": 1.1239049434661865,
+              "motion_response_ratio": 0.38961678743362427,
+              "weak_structure_error_gray": 1.2717934846878052
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.910785059657066,
+              "mae_gray": 8.74832534790039,
+              "static_residual_change_gray": 1.25333833694458,
+              "motion_response_ratio": 0.5778872966766357,
+              "weak_structure_error_gray": 1.5262432098388672
+            }
+          }
+        },
+        {
+          "frame": 85,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.93163614149387,
+              "mae_gray": 8.72296142578125,
+              "static_residual_change_gray": 1.0891685485839844,
+              "motion_response_ratio": 0.39608827233314514,
+              "weak_structure_error_gray": 1.237265706062317
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.917444577651043,
+              "mae_gray": 8.73770523071289,
+              "static_residual_change_gray": 1.2109328508377075,
+              "motion_response_ratio": 0.5890728831291199,
+              "weak_structure_error_gray": 1.4787399768829346
+            }
+          }
+        },
+        {
+          "frame": 86,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.932951902511128,
+              "mae_gray": 8.716453552246094,
+              "static_residual_change_gray": 1.0990402698516846,
+              "motion_response_ratio": 0.37845438718795776,
+              "weak_structure_error_gray": 1.240405797958374
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.91376630017692,
+              "mae_gray": 8.740234375,
+              "static_residual_change_gray": 1.2185395956039429,
+              "motion_response_ratio": 0.5657898783683777,
+              "weak_structure_error_gray": 1.4639559984207153
+            }
+          }
+        },
+        {
+          "frame": 87,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.907811027771842,
+              "mae_gray": 8.746541976928711,
+              "static_residual_change_gray": 1.1096528768539429,
+              "motion_response_ratio": 0.376485675573349,
+              "weak_structure_error_gray": 1.2565054893493652
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.903103230200678,
+              "mae_gray": 8.757018089294434,
+              "static_residual_change_gray": 1.2374558448791504,
+              "motion_response_ratio": 0.5614091157913208,
+              "weak_structure_error_gray": 1.5031490325927734
+            }
+          }
+        },
+        {
+          "frame": 88,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.94144402918742,
+              "mae_gray": 8.70313835144043,
+              "static_residual_change_gray": 1.1019423007965088,
+              "motion_response_ratio": 0.37726059556007385,
+              "weak_structure_error_gray": 1.2440630197525024
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.93408983393438,
+              "mae_gray": 8.714120864868164,
+              "static_residual_change_gray": 1.2281607389450073,
+              "motion_response_ratio": 0.5611822009086609,
+              "weak_structure_error_gray": 1.4769601821899414
+            }
+          }
+        },
+        {
+          "frame": 89,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.91753414618671,
+              "mae_gray": 8.715374946594238,
+              "static_residual_change_gray": 1.10093355178833,
+              "motion_response_ratio": 0.3585091531276703,
+              "weak_structure_error_gray": 1.2528222799301147
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.908035449442703,
+              "mae_gray": 8.73223876953125,
+              "static_residual_change_gray": 1.225999116897583,
+              "motion_response_ratio": 0.5463111400604248,
+              "weak_structure_error_gray": 1.4711380004882812
+            }
+          }
+        },
+        {
+          "frame": 90,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.92060407968468,
+              "mae_gray": 8.736645698547363,
+              "static_residual_change_gray": 1.1187262535095215,
+              "motion_response_ratio": 0.35744282603263855,
+              "weak_structure_error_gray": 1.2606061697006226
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.90741702698009,
+              "mae_gray": 8.753467559814453,
+              "static_residual_change_gray": 1.2488538026809692,
+              "motion_response_ratio": 0.5389446020126343,
+              "weak_structure_error_gray": 1.481238842010498
+            }
+          }
+        },
+        {
+          "frame": 91,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.91677227548326,
+              "mae_gray": 8.741119384765625,
+              "static_residual_change_gray": 1.094623327255249,
+              "motion_response_ratio": 0.3794953525066376,
+              "weak_structure_error_gray": 1.2395366430282593
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.898314129907586,
+              "mae_gray": 8.763775825500488,
+              "static_residual_change_gray": 1.2235370874404907,
+              "motion_response_ratio": 0.56788569688797,
+              "weak_structure_error_gray": 1.4852017164230347
+            }
+          }
+        },
+        {
+          "frame": 92,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.89016731457199,
+              "mae_gray": 8.764530181884766,
+              "static_residual_change_gray": 1.0952558517456055,
+              "motion_response_ratio": 0.39685699343681335,
+              "weak_structure_error_gray": 1.2407197952270508
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.89352080348293,
+              "mae_gray": 8.77159309387207,
+              "static_residual_change_gray": 1.2157747745513916,
+              "motion_response_ratio": 0.5931085348129272,
+              "weak_structure_error_gray": 1.4855148792266846
+            }
+          }
+        },
+        {
+          "frame": 93,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.899357788549977,
+              "mae_gray": 8.768828392028809,
+              "static_residual_change_gray": 1.0899848937988281,
+              "motion_response_ratio": 0.3761141300201416,
+              "weak_structure_error_gray": 1.2841894626617432
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.887858498186127,
+              "mae_gray": 8.780901908874512,
+              "static_residual_change_gray": 1.2078156471252441,
+              "motion_response_ratio": 0.5582910776138306,
+              "weak_structure_error_gray": 1.5452967882156372
+            }
+          }
+        },
+        {
+          "frame": 94,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.91838533850227,
+              "mae_gray": 8.756901741027832,
+              "static_residual_change_gray": 1.1000086069107056,
+              "motion_response_ratio": 0.3515487015247345,
+              "weak_structure_error_gray": 1.2587324380874634
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.909034961819273,
+              "mae_gray": 8.775012016296387,
+              "static_residual_change_gray": 1.2265329360961914,
+              "motion_response_ratio": 0.5291197896003723,
+              "weak_structure_error_gray": 1.5063964128494263
+            }
+          }
+        },
+        {
+          "frame": 95,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.9425245305807,
+              "mae_gray": 8.757953643798828,
+              "static_residual_change_gray": 1.1130905151367188,
+              "motion_response_ratio": 0.3534892499446869,
+              "weak_structure_error_gray": 1.2424423694610596
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.92064630689627,
+              "mae_gray": 8.7821626663208,
+              "static_residual_change_gray": 1.2393876314163208,
+              "motion_response_ratio": 0.5400574207305908,
+              "weak_structure_error_gray": 1.4611376523971558
+            }
+          }
+        },
+        {
+          "frame": 96,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.926811900558448,
+              "mae_gray": 8.739445686340332,
+              "static_residual_change_gray": 1.0868278741836548,
+              "motion_response_ratio": 0.3613162040710449,
+              "weak_structure_error_gray": 1.2286789417266846
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.917373720296,
+              "mae_gray": 8.748435974121094,
+              "static_residual_change_gray": 1.210863471031189,
+              "motion_response_ratio": 0.5504666566848755,
+              "weak_structure_error_gray": 1.4462175369262695
+            }
+          }
+        },
+        {
+          "frame": 97,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.929929521544402,
+              "mae_gray": 8.738669395446777,
+              "static_residual_change_gray": 1.095706582069397,
+              "motion_response_ratio": 0.3690221309661865,
+              "weak_structure_error_gray": 1.263764500617981
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.920282210281307,
+              "mae_gray": 8.754700660705566,
+              "static_residual_change_gray": 1.2139517068862915,
+              "motion_response_ratio": 0.5505096912384033,
+              "weak_structure_error_gray": 1.4955226182937622
+            }
+          }
+        },
+        {
+          "frame": 98,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.935430322408557,
+              "mae_gray": 8.728103637695312,
+              "static_residual_change_gray": 1.1003090143203735,
+              "motion_response_ratio": 0.36713922023773193,
+              "weak_structure_error_gray": 1.2251839637756348
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.925756838192466,
+              "mae_gray": 8.742596626281738,
+              "static_residual_change_gray": 1.2307742834091187,
+              "motion_response_ratio": 0.54826819896698,
+              "weak_structure_error_gray": 1.4670146703720093
+            }
+          }
+        },
+        {
+          "frame": 99,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.924991928682548,
+              "mae_gray": 8.756755828857422,
+              "static_residual_change_gray": 1.0986509323120117,
+              "motion_response_ratio": 0.3677600622177124,
+              "weak_structure_error_gray": 1.2464218139648438
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.92065228247824,
+              "mae_gray": 8.76725959777832,
+              "static_residual_change_gray": 1.2245583534240723,
+              "motion_response_ratio": 0.5528897047042847,
+              "weak_structure_error_gray": 1.489906907081604
+            }
+          }
+        },
+        {
+          "frame": 100,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.944605022556956,
+              "mae_gray": 8.74781608581543,
+              "static_residual_change_gray": 1.1107052564620972,
+              "motion_response_ratio": 0.3613608181476593,
+              "weak_structure_error_gray": 1.220550775527954
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.942459268515297,
+              "mae_gray": 8.756731986999512,
+              "static_residual_change_gray": 1.2433291673660278,
+              "motion_response_ratio": 0.5460641384124756,
+              "weak_structure_error_gray": 1.455977439880371
+            }
+          }
+        },
+        {
+          "frame": 101,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.94959906515644,
+              "mae_gray": 8.727230072021484,
+              "static_residual_change_gray": 1.0955685377120972,
+              "motion_response_ratio": 0.3716414272785187,
+              "weak_structure_error_gray": 1.259519100189209
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.931079040432046,
+              "mae_gray": 8.749659538269043,
+              "static_residual_change_gray": 1.217315912246704,
+              "motion_response_ratio": 0.5602002739906311,
+              "weak_structure_error_gray": 1.492132544517517
+            }
+          }
+        },
+        {
+          "frame": 102,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.96631431033353,
+              "mae_gray": 8.728119850158691,
+              "static_residual_change_gray": 1.0815719366073608,
+              "motion_response_ratio": 0.3862744867801666,
+              "weak_structure_error_gray": 1.2530428171157837
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.962508348327454,
+              "mae_gray": 8.73725700378418,
+              "static_residual_change_gray": 1.2014535665512085,
+              "motion_response_ratio": 0.5729569792747498,
+              "weak_structure_error_gray": 1.4725655317306519
+            }
+          }
+        },
+        {
+          "frame": 103,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.91830252107257,
+              "mae_gray": 8.754620552062988,
+              "static_residual_change_gray": 1.1054123640060425,
+              "motion_response_ratio": 0.3758714497089386,
+              "weak_structure_error_gray": 1.2481062412261963
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.909759315050543,
+              "mae_gray": 8.764199256896973,
+              "static_residual_change_gray": 1.2344056367874146,
+              "motion_response_ratio": 0.5571494698524475,
+              "weak_structure_error_gray": 1.464778184890747
+            }
+          }
+        },
+        {
+          "frame": 104,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.928322940919422,
+              "mae_gray": 8.775148391723633,
+              "static_residual_change_gray": 1.0941416025161743,
+              "motion_response_ratio": 0.374710351228714,
+              "weak_structure_error_gray": 1.2494596242904663
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.9155529236395,
+              "mae_gray": 8.800262451171875,
+              "static_residual_change_gray": 1.224359393119812,
+              "motion_response_ratio": 0.5544469356536865,
+              "weak_structure_error_gray": 1.473378300666809
+            }
+          }
+        },
+        {
+          "frame": 105,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.90818520274312,
+              "mae_gray": 8.820287704467773,
+              "static_residual_change_gray": 1.1070200204849243,
+              "motion_response_ratio": 0.38893836736679077,
+              "weak_structure_error_gray": 1.2550462484359741
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.89911835513183,
+              "mae_gray": 8.829801559448242,
+              "static_residual_change_gray": 1.2273138761520386,
+              "motion_response_ratio": 0.5742150545120239,
+              "weak_structure_error_gray": 1.5080010890960693
+            }
+          }
+        },
+        {
+          "frame": 106,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.883079456047483,
+              "mae_gray": 8.809429168701172,
+              "static_residual_change_gray": 1.1115416288375854,
+              "motion_response_ratio": 0.39439260959625244,
+              "weak_structure_error_gray": 1.2676794528961182
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.87028565072209,
+              "mae_gray": 8.823984146118164,
+              "static_residual_change_gray": 1.246278166770935,
+              "motion_response_ratio": 0.5920795798301697,
+              "weak_structure_error_gray": 1.519968867301941
+            }
+          }
+        },
+        {
+          "frame": 107,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.880998616781532,
+              "mae_gray": 8.820333480834961,
+              "static_residual_change_gray": 1.0891969203948975,
+              "motion_response_ratio": 0.3706754744052887,
+              "weak_structure_error_gray": 1.2345094680786133
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.869644232050728,
+              "mae_gray": 8.834024429321289,
+              "static_residual_change_gray": 1.219255805015564,
+              "motion_response_ratio": 0.5594823360443115,
+              "weak_structure_error_gray": 1.4644246101379395
+            }
+          }
+        },
+        {
+          "frame": 108,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.87006553382257,
+              "mae_gray": 8.837782859802246,
+              "static_residual_change_gray": 1.094547152519226,
+              "motion_response_ratio": 0.3726268410682678,
+              "weak_structure_error_gray": 1.2652910947799683
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.860700628334058,
+              "mae_gray": 8.850870132446289,
+              "static_residual_change_gray": 1.2124699354171753,
+              "motion_response_ratio": 0.5524312257766724,
+              "weak_structure_error_gray": 1.4973018169403076
+            }
+          }
+        },
+        {
+          "frame": 109,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.855814780193363,
+              "mae_gray": 8.81873893737793,
+              "static_residual_change_gray": 1.114790678024292,
+              "motion_response_ratio": 0.3892224431037903,
+              "weak_structure_error_gray": 1.2861789464950562
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.844429665698687,
+              "mae_gray": 8.834095001220703,
+              "static_residual_change_gray": 1.2329494953155518,
+              "motion_response_ratio": 0.5745888352394104,
+              "weak_structure_error_gray": 1.5393800735473633
+            }
+          }
+        },
+        {
+          "frame": 110,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.89336799207953,
+              "mae_gray": 8.792821884155273,
+              "static_residual_change_gray": 1.085970163345337,
+              "motion_response_ratio": 0.3748168349266052,
+              "weak_structure_error_gray": 1.2182902097702026
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.88531065454397,
+              "mae_gray": 8.807940483093262,
+              "static_residual_change_gray": 1.2082611322402954,
+              "motion_response_ratio": 0.5571966767311096,
+              "weak_structure_error_gray": 1.4525961875915527
+            }
+          }
+        },
+        {
+          "frame": 111,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.8926032240891,
+              "mae_gray": 8.751903533935547,
+              "static_residual_change_gray": 1.104842185974121,
+              "motion_response_ratio": 0.36362046003341675,
+              "weak_structure_error_gray": 1.2770276069641113
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.876486582331193,
+              "mae_gray": 8.771037101745605,
+              "static_residual_change_gray": 1.2403268814086914,
+              "motion_response_ratio": 0.5544192790985107,
+              "weak_structure_error_gray": 1.5317951440811157
+            }
+          }
+        },
+        {
+          "frame": 112,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.911326047742087,
+              "mae_gray": 8.765920639038086,
+              "static_residual_change_gray": 1.0952903032302856,
+              "motion_response_ratio": 0.3702941834926605,
+              "weak_structure_error_gray": 1.226589322090149
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.8974129721317,
+              "mae_gray": 8.785090446472168,
+              "static_residual_change_gray": 1.228344202041626,
+              "motion_response_ratio": 0.5578022003173828,
+              "weak_structure_error_gray": 1.4625052213668823
+            }
+          }
+        },
+        {
+          "frame": 113,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.927992518026336,
+              "mae_gray": 8.749616622924805,
+              "static_residual_change_gray": 1.098585844039917,
+              "motion_response_ratio": 0.38639768958091736,
+              "weak_structure_error_gray": 1.2322758436203003
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.918734941018347,
+              "mae_gray": 8.770407676696777,
+              "static_residual_change_gray": 1.225587010383606,
+              "motion_response_ratio": 0.5671963095664978,
+              "weak_structure_error_gray": 1.4589388370513916
+            }
+          }
+        },
+        {
+          "frame": 114,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.951398487726852,
+              "mae_gray": 8.743109703063965,
+              "static_residual_change_gray": 1.0977505445480347,
+              "motion_response_ratio": 0.37427109479904175,
+              "weak_structure_error_gray": 1.2576574087142944
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.945782473927036,
+              "mae_gray": 8.751789093017578,
+              "static_residual_change_gray": 1.2130097150802612,
+              "motion_response_ratio": 0.5603107810020447,
+              "weak_structure_error_gray": 1.479524850845337
+            }
+          }
+        },
+        {
+          "frame": 115,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.975168481395556,
+              "mae_gray": 8.712911605834961,
+              "static_residual_change_gray": 1.0847461223602295,
+              "motion_response_ratio": 0.38277292251586914,
+              "weak_structure_error_gray": 1.2409952878952026
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.967012445396197,
+              "mae_gray": 8.726272583007812,
+              "static_residual_change_gray": 1.1968083381652832,
+              "motion_response_ratio": 0.570769727230072,
+              "weak_structure_error_gray": 1.4553793668746948
+            }
+          }
+        },
+        {
+          "frame": 116,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.96342754198261,
+              "mae_gray": 8.734189987182617,
+              "static_residual_change_gray": 1.0780985355377197,
+              "motion_response_ratio": 0.360914409160614,
+              "weak_structure_error_gray": 1.247353434562683
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.94942181063057,
+              "mae_gray": 8.751545906066895,
+              "static_residual_change_gray": 1.1960431337356567,
+              "motion_response_ratio": 0.5430992245674133,
+              "weak_structure_error_gray": 1.4876316785812378
+            }
+          }
+        },
+        {
+          "frame": 117,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.9644640304067,
+              "mae_gray": 8.736642837524414,
+              "static_residual_change_gray": 1.1000630855560303,
+              "motion_response_ratio": 0.36587440967559814,
+              "weak_structure_error_gray": 1.2304457426071167
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.95948302102758,
+              "mae_gray": 8.74554443359375,
+              "static_residual_change_gray": 1.2183916568756104,
+              "motion_response_ratio": 0.5430985689163208,
+              "weak_structure_error_gray": 1.4519487619400024
+            }
+          }
+        },
+        {
+          "frame": 118,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 26.005325376418273,
+              "mae_gray": 8.686968803405762,
+              "static_residual_change_gray": 1.120788335800171,
+              "motion_response_ratio": 0.3677275478839874,
+              "weak_structure_error_gray": 1.2776212692260742
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.97907115706787,
+              "mae_gray": 8.714996337890625,
+              "static_residual_change_gray": 1.2518961429595947,
+              "motion_response_ratio": 0.5576131939888,
+              "weak_structure_error_gray": 1.509202003479004
+            }
+          }
+        },
+        {
+          "frame": 119,
+          "methods": {
+            "原夜间九帧": {
+              "psnr_db": 25.97671702437356,
+              "mae_gray": 8.701813697814941,
+              "static_residual_change_gray": 1.1503609418869019,
+              "motion_response_ratio": 0.3772948980331421,
+              "weak_structure_error_gray": 1.2958422899246216
+            },
+            "局部当前夜间": {
+              "psnr_db": 25.965218617588803,
+              "mae_gray": 8.724390029907227,
+              "static_residual_change_gray": 1.3123255968093872,
+              "motion_response_ratio": 0.5732939839363098,
+              "weak_structure_error_gray": 1.567292332649231
+            }
+          }
+        }
+      ],
+      "GPU": {
+        "mean_ms": 0.40225226630767186,
+        "p95_ms": 0.40656480342149737,
+        "samples_ms": [
+          0.4032000005245209,
+          0.4031040072441101,
+          0.3957439959049225,
+          0.39375999569892883,
+          0.397024005651474,
+          0.4020160138607025,
+          0.3943040072917938,
+          0.3932799994945526,
+          0.40140798687934875,
+          0.4033919870853424,
+          0.4047999978065491,
+          0.3957439959049225,
+          0.39638400077819824,
+          0.40191999077796936,
+          0.40556800365448,
+          0.40326398611068726,
+          0.40563198924064636,
+          0.404448002576828,
+          0.39577600359916687,
+          0.39718401432037354,
+          0.40511998534202576,
+          0.40300801396369934,
+          0.40300801396369934,
+          0.40406399965286255,
+          0.40224000811576843,
+          0.40329599380493164,
+          0.4052160084247589,
+          0.39606401324272156,
+          0.40560001134872437,
+          0.39609599113464355,
+          0.4057280123233795,
+          0.4021120071411133,
+          0.4023039937019348,
+          0.40454399585723877,
+          0.4044800102710724,
+          0.40486401319503784,
+          0.39504000544548035,
+          0.4049600064754486,
+          0.40400001406669617,
+          0.40799999237060547,
+          0.3953920006752014,
+          0.39340800046920776,
+          0.40198400616645813,
+          0.3953920006752014,
+          0.3957119882106781,
+          0.4034560024738312,
+          0.4074240028858185,
+          0.40380799770355225,
+          0.4002879858016968,
+          0.4036479890346527,
+          0.40463998913764954,
+          0.4039359986782074,
+          0.4031040072441101,
+          0.3980480134487152,
+          0.39532798528671265,
+          0.40563198924064636,
+          0.4004800021648407,
+          0.4047679901123047,
+          0.4057599902153015,
+          0.4017919898033142,
+          0.40463998913764954,
+          0.4034239947795868,
+          0.4049600064754486,
+          0.3952000141143799,
+          0.40463998913764954,
+          0.3945600092411041,
+          0.4017919898033142,
+          0.40092799067497253,
+          0.404448002576828,
+          0.4012160003185272,
+          0.40534400939941406,
+          0.40435200929641724,
+          0.4118080139160156,
+          0.3949440121650696,
+          0.4039359986782074,
+          0.40409600734710693,
+          0.3967359960079193,
+          0.3933440148830414,
+          0.403872013092041,
+          0.4063040018081665,
+          0.4052160084247589,
+          0.40303999185562134,
+          0.4052799940109253,
+          0.4031679928302765,
+          0.40537598729133606,
+          0.40278398990631104,
+          0.40143999457359314,
+          0.3948479890823364,
+          0.4042240083217621,
+          0.39583998918533325,
+          0.4033919870853424,
+          0.39526399970054626,
+          0.40358400344848633,
+          0.4005120098590851,
+          0.39289599657058716,
+          0.4041599929332733,
+          0.4052799940109253,
+          0.40380799770355225,
+          0.39446398615837097,
+          0.3996480107307434,
+          0.40508800745010376,
+          0.4017280042171478,
+          0.40351998805999756,
+          0.39897599816322327,
+          0.4023039937019348,
+          0.40380799770355225,
+          0.4059840142726898,
+          0.4051840007305145,
+          0.3964160084724426,
+          0.39340800046920776,
+          0.4057599902153015,
+          0.40064001083374023,
+          0.407039999961853,
+          0.4007039964199066,
+          0.40220800042152405,
+          0.4089600145816803,
+          0.3948799967765808,
+          0.39689600467681885,
+          0.40614399313926697,
+          0.3968000113964081,
+          0.3922559916973114,
+          0.4012480080127716,
+          0.4054720103740692,
+          0.3940480053424835,
+          0.3952319920063019,
+          0.4025599956512451,
+          0.4047679901123047,
+          0.40560001134872437,
+          0.40569600462913513,
+          0.3948479890823364,
+          0.40403199195861816,
+          0.3951359987258911,
+          0.403872013092041,
+          0.4020160138607025,
+          0.39587199687957764,
+          0.40428799390792847,
+          0.4063679873943329,
+          0.4012480080127716,
+          0.40623998641967773,
+          0.40351998805999756,
+          0.4047679901123047,
+          0.404448002576828,
+          0.4036479890346527,
+          0.3935360014438629,
+          0.40400001406669617,
+          0.403903990983963,
+          0.40227198600769043,
+          0.40220800042152405,
+          0.4057919979095459,
+          0.39238399267196655,
+          0.4047999978065491,
+          0.39852800965309143,
+          0.40412798523902893,
+          0.40432000160217285,
+          0.4060159921646118,
+          0.39558398723602295,
+          0.4034560024738312,
+          0.40380799770355225,
+          0.40412798523902893,
+          0.4047679901123047,
+          0.40751999616622925,
+          0.405023992061615,
+          0.3978880047798157,
+          0.4021120071411133,
+          0.39667201042175293,
+          0.40400001406669617,
+          0.3986240029335022,
+          0.40537598729133606,
+          0.4052479863166809,
+          0.4033919870853424,
+          0.40585601329803467,
+          0.40771201252937317,
+          0.40463998913764954,
+          0.3930880129337311,
+          0.4055359959602356,
+          0.40243199467658997,
+          0.3959360122680664,
+          0.40620800852775574,
+          0.4094719886779785,
+          0.4033919870853424,
+          0.4047999978065491,
+          0.39555200934410095,
+          0.40432000160217285,
+          0.401311993598938,
+          0.4047999978065491,
+          0.4061119854450226,
+          0.4062719941139221,
+          0.4026559889316559,
+          0.40614399313926697,
+          0.4047040045261383,
+          0.3949759900569916,
+          0.4063040018081665,
+          0.40569600462913513,
+          0.4042559862136841,
+          0.4025920033454895,
+          0.4050559997558594,
+          0.4050559997558594,
+          0.4066559970378876,
+          0.40649598836898804,
+          0.3969919979572296,
+          0.4059840142726898,
+          0.393887996673584,
+          0.3969919979572296,
+          0.39692801237106323,
+          0.4036799967288971,
+          0.40489599108695984,
+          0.4045119881629944,
+          0.4054720103740692,
+          0.4066559970378876,
+          0.39446398615837097,
+          0.3973119854927063,
+          0.4026559889316559,
+          0.4062719941139221,
+          0.396479994058609,
+          0.4031679928302765,
+          0.40249601006507874,
+          0.39552000164985657,
+          0.403872013092041,
+          0.4081920087337494,
+          0.4028159976005554,
+          0.4020799994468689,
+          0.39638400077819824,
+          0.40585601329803467,
+          0.3978880047798157,
+          0.40544000267982483,
+          0.4073599874973297,
+          0.40348801016807556,
+          0.40374401211738586,
+          0.40374401211738586,
+          0.4012160003185272,
+          0.40380799770355225,
+          0.4031359851360321,
+          0.40646401047706604,
+          0.3959360122680664,
+          0.3965440094470978,
+          0.40511998534202576,
+          0.39478400349617004,
+          0.40224000811576843,
+          0.40454399585723877,
+          0.4049279987812042,
+          0.40409600734710693,
+          0.4028480052947998,
+          0.40639999508857727,
+          0.3968000113964081,
+          0.4036479890346527,
+          0.4028480052947998,
+          0.4053120017051697,
+          0.40563198924064636,
+          0.4046719968318939,
+          0.40563198924064636,
+          0.40489599108695984,
+          0.405023992061615,
+          0.404992014169693,
+          0.4031040072441101,
+          0.4052160084247589,
+          0.4044159948825836,
+          0.40643200278282166,
+          0.4047679901123047,
+          0.39366400241851807,
+          0.40409600734710693,
+          0.4041920006275177,
+          0.40540799498558044,
+          0.4076800048351288,
+          0.4044800102710724,
+          0.4060479998588562,
+          0.4068480134010315,
+          0.40489599108695984,
+          0.40460801124572754,
+          0.40454399585723877,
+          0.3959679901599884,
+          0.3967359960079193,
+          0.4025920033454895,
+          0.4078400135040283,
+          0.4032000005245209,
+          0.4052799940109253,
+          0.40438398718833923,
+          0.4047679901123047,
+          0.40355199575424194,
+          0.40355199575424194,
+          0.40268799662590027,
+          0.403872013092041,
+          0.4042240083217621,
+          0.4039680063724518,
+          0.40508800745010376,
+          0.3951680064201355,
+          0.40595200657844543,
+          0.4045119881629944,
+          0.40454399585723877,
+          0.4065600037574768,
+          0.405023992061615,
+          0.4049600064754486,
+          0.40406399965286255,
+          0.40329599380493164,
+          0.39340800046920776,
+          0.4044800102710724,
+          0.3949759900569916,
+          0.40432000160217285,
+          0.40540799498558044,
+          0.4036799967288971,
+          0.4028480052947998
+        ],
+        "warmup": 30,
+        "iterations": 300,
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ],
+        "device": "NVIDIA GeForce RTX 5090",
+        "precision": "original mixed dtype preserved",
+        "compile": "default",
+        "cuda_graph": false,
+        "TF32": false,
+        "boundary": "prepared GPU input through complete display output"
+      },
+      "video": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ALL-MODELS-ROUND2-20260930/night_motion_weak/night_special/full120_history_intervention.mp4",
+      "video_sha256": "c14f41d74fa3ab58df197a632d992383eece788b755910e806ba5bc4e306336d",
+      "graph": {
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ALL-MODELS-ROUND2-20260930/night_motion_weak/night_special/night_special_adaptive_front_integer.onnx",
+        "sha256": "08f3aa6d5563bd7e2a0c5015c076a0679b315cf1c8780cba1a4374b05cfd65c6",
+        "retains_original_night_Resize": true
+      },
+      "calibration": [
+        {
+          "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_special/train_00.npz",
+          "sha256": "df3de447dd5f80c3bfbdd7c62536d0896fb8990d85a9a889401150f13feb1d36"
+        },
+        {
+          "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_special/train_01.npz",
+          "sha256": "dd91952d8bfe0c402d0d8716954122fe207616465dbc993da555b22f962efc73"
+        },
+        {
+          "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_special/train_02.npz",
+          "sha256": "01a270f6e84105d2eba96a5d3ddfee945e1e1bfce612927b067d979778705109"
+        },
+        {
+          "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/night_calibration_final/night_special/train_03.npz",
+          "sha256": "a9aad4630e4c46ec8c622da403f0a2e7aa2711d701e2778c98f2879ff0c713ea"
+        }
+      ]
+    }
+  }
+}

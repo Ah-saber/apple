@@ -1,0 +1,1 @@
+{"roi_y": 680, "roi_x": 0, "polygon": [[0, 70], [1279, 282], [1279, 344], [0, 132]], "valid_native_tlhw": [2, 1088, 1020, 192], "metric_border_pixels": 3, "selection": "bridge polygon inspected on same-scene GT; intersect actual label ROI; special only right192 pixels valid"}

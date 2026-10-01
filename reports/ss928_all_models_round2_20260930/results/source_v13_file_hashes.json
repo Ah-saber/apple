@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "relative_to_v13": "release/models/baseline/half-day-nine-temporal.pt",
+      "sha256": "c79211d20d1f3cb24fa5e19a38ab75922459d8fff240ed47f08dca7bd303a50a"
+    },
+    {
+      "relative_to_v13": "release/models/baseline/half-day-rawskip.pt",
+      "sha256": "3684e75a56fa22f425a26635f33f07f7dad02093cc16bcd8ea18a9f6a5fa5c22"
+    },
+    {
+      "relative_to_v13": "release/models/baseline/half-heavy-temporal.pt",
+      "sha256": "a6bd5869ec2556886b0672a831896b1e6092826b29c6230cb4f7fb30017bc6ba"
+    },
+    {
+      "relative_to_v13": "release/models/baseline/half-light-temporal.pt",
+      "sha256": "11b6a196057275b1563f08e29124f7c326031633bcc9d33ab51b4d191ba843e1"
+    },
+    {
+      "relative_to_v13": "release/models/day.pt",
+      "sha256": "9e27204f1640b891f9694d5e6ed96300f7fbff626a0e1bcb8ca86f9f5fe12e93"
+    },
+    {
+      "relative_to_v13": "release/models/day_fused.pt",
+      "sha256": "87797d94efbafa533545bc9f68367cbd80fcc819fc84e813aa8aa030d80b00d5"
+    },
+    {
+      "relative_to_v13": "release/models/heavy_fused.pt",
+      "sha256": "e57a1eb84c44206e90238a1a50b6f38b92d59b9c26ef6ca3c5316e00cf7bfb4e"
+    },
+    {
+      "relative_to_v13": "release/models/heavy_temporal.pt",
+      "sha256": "b8b6d4f72694e3ea541e109a038e326d2b104c6ce7a94ebc1e987ffd3603e85e"
+    },
+    {
+      "relative_to_v13": "release/models/light_fused.pt",
+      "sha256": "37d70387061c6944c88373cf6ebe893381398789c6daf37f34044ddba6e2cf3f"
+    },
+    {
+      "relative_to_v13": "release/models/light_temporal.pt",
+      "sha256": "e404c37dfbea9c5eff05495255b02cb118a1731923ee36ce72c087e4934c9453"
+    },
+    {
+      "relative_to_v13": "runtime/audit_release.py",
+      "sha256": "5a3d932f9cff06c6455b754277e39517a8f8dd12d0dc44b59602a27c1d13e804"
+    },
+    {
+      "relative_to_v13": "runtime/board_gate.py",
+      "sha256": "7c3010faca52815e0af1dc102fabb0d70d33ff1c82fb24840c61f62f20af05f1"
+    },
+    {
+      "relative_to_v13": "runtime/cast_probe.py",
+      "sha256": "6707aa9847bef1c2b2e6cf99105e9d940ce2c7ed7d62ed4f448d5345319b59ac"
+    },
+    {
+      "relative_to_v13": "runtime/compact_model.py",
+      "sha256": "de444944404de3567994397973c73bb0bdeb2e363a0d647655fe101969bd9781"
+    },
+    {
+      "relative_to_v13": "runtime/compare_layers.py",
+      "sha256": "2b1897ce2cdb7b47603f6f9d107be7c69f548cc1b1744b36ca71a5543ed7c651"
+    },
+    {
+      "relative_to_v13": "runtime/equivalent_model.py",
+      "sha256": "7c303a5d2881c90d26020e5307f04899557fd69e974d87fdc259e94457b7c1d4"
+    },
+    {
+      "relative_to_v13": "runtime/finalize_candidates.py",
+      "sha256": "70694e2947aa01a9dbb70643600105e2382f54456469d6827685fc681fa70dc2"
+    },
+    {
+      "relative_to_v13": "runtime/materialize_calibration.py",
+      "sha256": "b905a6a2fd9a783317f4fed3a09804446e5bfecd2415b4572f1ebeb2fc64407d"
+    },
+    {
+      "relative_to_v13": "runtime/package_results.py",
+      "sha256": "fd6a533e329be548a5623de5c421d0c11d8c0ad8f0de5422b2b7af16f208bb47"
+    },
+    {
+      "relative_to_v13": "runtime/prepare_deployment.py",
+      "sha256": "a4ac8a61e60dd3a51608bfdf0e57eb748423922a31e345567df023811fc288a8"
+    },
+    {
+      "relative_to_v13": "runtime/prepare_night_calibration.py",
+      "sha256": "95fd62f190f213790857fa2dd91bff06520d5ac46366e83183ea1a8284343e02"
+    },
+    {
+      "relative_to_v13": "runtime/regenerate_reference.py",
+      "sha256": "497a83300a1c84dd9863d3761ecaf769c5b46e3b88523ff07f21a09d94b960d2"
+    },
+    {
+      "relative_to_v13": "runtime/reproduce_model.py",
+      "sha256": "032febfd1dc2a6751e23ecd9312b3d1df764a0c91662d6242892a6976ae0e9b2"
+    },
+    {
+      "relative_to_v13": "runtime/run_compact.py",
+      "sha256": "0cefaefa34549552a666d27ff9c89e4eea784d352f62cb069be133dccced9734"
+    },
+    {
+      "relative_to_v13": "runtime/verify_night_graphs.py",
+      "sha256": "f45e183be55a231c98354bc164bb7594bdcb1514960aae56d300878cffbbb94d"
+    },
+    {
+      "relative_to_v13": "runtime/verify_release.py",
+      "sha256": "7693ddf7517464fdcaf39cdadb89ee77d5ec6826425b4c013c104cd3c72687b4"
+    }
+  ],
+  "original_paths_retained": true
+}

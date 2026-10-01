@@ -1,0 +1,1426 @@
+{
+  "authorization_date": "2026-10-01",
+  "user_authorized_git_push": true,
+  "branch": "codex/ss928-night-nine-factor24-20260926",
+  "previous_delivery_commit": "44dd59587ac6cca46923b37f86459316119932d2",
+  "path_base": "repository_root",
+  "NPU_measured": false,
+  "target_mean_ms": 16.7,
+  "target_p95_ms": 16.7,
+  "models": [
+    {
+      "scene": "day_normal",
+      "role": "original_float",
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/day_normal/day_normal_equivalent_fp16_rows32.onnx",
+      "sha256": "53c9b69d57615f8fe97f59667dd14ff997b5610088f407e695b77b7bf42cdc8d",
+      "bytes": 182815,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/day_normal",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "day_normal",
+      "role": "layout_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/exact_layout_five_r2/day_normal_half_float_repeat_integer.onnx",
+      "sha256": "9ef9a2b5de1348a9875fb5c9db644a8a5d10801342c58a5c4d75b2b55a4f478f",
+      "bytes": 109469,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/day_normal",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "day_normal",
+      "role": "motion_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/candidate_float_exports/day_normal_motion_float.onnx",
+      "sha256": "7f52e8d373657ead4d0d9ae0fcbebcc9f0a1741b2bfd78c075cbb304fee1cfe9",
+      "bytes": 115463,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Abs",
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Max",
+        "MaxPool",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Sub",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/day_normal",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": true,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_light",
+      "role": "original_float",
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_light/weather_light_equivalent_fp16_rows32.onnx",
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b",
+      "bytes": 157431,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_light",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_light",
+      "role": "layout_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/exact_layout_five_r2/weather_light_half_float_repeat_integer.onnx",
+      "sha256": "f2da0ed32b0c99cb68f43b39f8fe72b2a48aba6fb3dd869afca9bd14913220f7",
+      "bytes": 83881,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_light",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_light",
+      "role": "motion_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/candidate_float_exports/weather_light_motion_float.onnx",
+      "sha256": "6d52123b99c79e0a3b8f3a09e36e05473fc34f8cad2182d6b87ab8873396703c",
+      "bytes": 84348,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_light",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": true,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_medium",
+      "role": "original_float",
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_medium/weather_medium_equivalent_fp16_rows32.onnx",
+      "sha256": "d30df21b72d7cc05f767a573a7ac6450d7ea32557a25d1df7ad1973f16433b7b",
+      "bytes": 157431,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_medium",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_medium",
+      "role": "layout_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/exact_layout_five_r2/weather_medium_half_float_repeat_integer.onnx",
+      "sha256": "f2da0ed32b0c99cb68f43b39f8fe72b2a48aba6fb3dd869afca9bd14913220f7",
+      "bytes": 83881,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_medium",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_medium",
+      "role": "motion_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/candidate_float_exports/weather_medium_motion_float.onnx",
+      "sha256": "6d52123b99c79e0a3b8f3a09e36e05473fc34f8cad2182d6b87ab8873396703c",
+      "bytes": 84348,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_medium",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": true,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_heavy",
+      "role": "original_float",
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy/weather_heavy_equivalent_fp16_rows32.onnx",
+      "sha256": "9d6cee00dbd473de55b26619332584ef3117f0067fecf4150214707f50bd5b09",
+      "bytes": 156567,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_heavy",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_heavy",
+      "role": "layout_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/exact_layout_five_r2/weather_heavy_half_float_repeat_integer.onnx",
+      "sha256": "069d4f13d84f230938815df3fb090afa0b1d0a835bb6e4e1b92e66d0508fee63",
+      "bytes": 83017,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_heavy",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_heavy",
+      "role": "motion_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/candidate_float_exports/weather_heavy_motion_float.onnx",
+      "sha256": "1619a8800d0e64ee62fd73c8acc0b256e2bdde3a475da24c94951b590de1bb69",
+      "bytes": 83484,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_heavy",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": true,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "role": "original_float",
+      "path": "releases/ss928-board-v13-20260930/onnx/equivalent/weather_heavy_c32/weather_heavy_c32_equivalent_fp16_rows32.onnx",
+      "sha256": "e25433b8254e9d8dc376b99e69b04d5323d70b60add540eb68ae007eb515c350",
+      "bytes": 156567,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Div",
+        "Erf",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_heavy_c32",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "role": "layout_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/exact_layout_five_r2/weather_heavy_c32_half_float_repeat_integer.onnx",
+      "sha256": "639d0377909dd57e9de32edf457f80822188e8ea9aa90586a1dcc987fe4b9312",
+      "bytes": 83017,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_heavy_c32",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "role": "motion_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/candidate_float_exports/weather_heavy_c32_motion_float.onnx",
+      "sha256": "8a07e1134e2f07e34ad3ea280e874cbe249bf0dcf85cd7fb0fa6e7d11742180e",
+      "bytes": 83484,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Erf",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "deployment_corrected/weather_heavy_c32",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": true,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "night_ordinary",
+      "role": "original_float",
+      "path": "releases/ss928-board-v13-20260930/onnx/night_preserved/ordinary_reference_after12_rows32.onnx",
+      "sha256": "0a7f7b25f44f97692b8f0794ed4f1e7829da3b67e9464372cc3c84f1aa205d1e",
+      "bytes": 123549,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Resize",
+        "Shape",
+        "Slice",
+        "Transpose"
+      ],
+      "calibration_directory_in_existing_data_bundle": "night_calibration_final/night_ordinary",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "night_ordinary",
+      "role": "layout_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/exact_layout_night_r2/night_ordinary_float_repeat_integer.onnx",
+      "sha256": "58c2a8fd7b854b817ba694e05b9f0a9889838d8cd15ba1f2e665f5e740d5631b",
+      "bytes": 60976,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Equal",
+        "Expand",
+        "Gather",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Resize",
+        "Shape",
+        "Slice",
+        "Transpose",
+        "Unsqueeze",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "night_calibration_final/night_ordinary",
+      "interface_record": "original declaration retained",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "night_ordinary",
+      "role": "motion_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/candidate_float_exports/night_ordinary_motion_float.onnx",
+      "sha256": "1b7c8b817dcf26588590587b82883c21cf9705c302aa4d157aeb3fa9319a108a",
+      "bytes": 66003,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Abs",
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Max",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Resize",
+        "Shape",
+        "Slice",
+        "Sub",
+        "Transpose",
+        "Unsqueeze",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "night_calibration_final/night_ordinary",
+      "interface_record": "original declaration retained",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "night_special",
+      "role": "original_float",
+      "path": "releases/ss928-board-v13-20260930/onnx/night_preserved/special_lowref_k5_rows32.onnx",
+      "sha256": "168e4f65b205acf8599f292738ccd7299213925908f07939ecd614a2170353a0",
+      "bytes": 118773,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "Conv",
+        "ConvTranspose",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Resize",
+        "Shape",
+        "Slice",
+        "Transpose"
+      ],
+      "calibration_directory_in_existing_data_bundle": "night_calibration_final/night_special",
+      "interface_record": "export metadata",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "night_special",
+      "role": "layout_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/exact_layout_night_r2/night_special_float_repeat_integer.onnx",
+      "sha256": "6305a44e96a4425a1213509c0630f925947a6a428ba244848e74cb54ffbb24b2",
+      "bytes": 54277,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Add",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Equal",
+        "Expand",
+        "Gather",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Resize",
+        "Shape",
+        "Slice",
+        "Transpose",
+        "Unsqueeze",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "night_calibration_final/night_special",
+      "interface_record": "original declaration retained",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    },
+    {
+      "scene": "night_special",
+      "role": "motion_float",
+      "path": "reports/ss928_all_models_round2_20260930/results/candidate_float_exports/night_special_motion_float.onnx",
+      "sha256": "b82643e789bb3b0bf16e563c2faf701e2aa17d4349188c5691138aa6daafa0a4",
+      "bytes": 59307,
+      "inputs": [
+        {
+          "name": "nine_raw",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "reference_thumb",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ],
+      "operators": [
+        "Abs",
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "ConstantOfShape",
+        "Conv",
+        "Div",
+        "Equal",
+        "Expand",
+        "Gather",
+        "Identity",
+        "Max",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Resize",
+        "Shape",
+        "Slice",
+        "Sub",
+        "Transpose",
+        "Unsqueeze",
+        "Where"
+      ],
+      "calibration_directory_in_existing_data_bundle": "night_calibration_final/night_special",
+      "interface_record": "original declaration retained",
+      "NPU_measured": false,
+      "weights_changed": false,
+      "input_future_frames_or_GT": false
+    }
+  ]
+}

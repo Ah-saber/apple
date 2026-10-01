@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "sha256": "a1cbf03665f446736e60774bc138a94349129bcee48ec0d26d93381c6cff34f9"
+    },
+    {
+      "path": "RESULTS.md",
+      "sha256": "82e174cb62d98393173a218288c54660fa337158c34f9129d8378de5f0d9e6e1"
+    },
+    {
+      "path": "BOARD-VALIDATION.md",
+      "sha256": "94a1df4ca2f1fdf75aab194b3dbdfbd99a15a7a800423e409984f1fc7d2c9e7c"
+    },
+    {
+      "path": "build_review.py",
+      "sha256": "97aafde7f50f7fd6fe24ec05f7ec305a3e3080913750619075bbbccabd9074c7"
+    },
+    {
+      "path": "build_results.py",
+      "sha256": "b242d2ca257e603f556d52f6ba448b78b908f43d24ea1f780c7fda56fb3d236c"
+    },
+    {
+      "path": "inspect_day_lane.png",
+      "sha256": "ff061c45400d064f47b9589954bd273d9152f77e80f452670924dd5d3262272b"
+    },
+    {
+      "path": "local_file_verification.json",
+      "sha256": "01df33bb5cf75975801feb9a19bda8535edbf0ced10efef555d0b158fd442562"
+    },
+    {
+      "path": "source_v13_local_comparison.json",
+      "sha256": "c75ae9e87d75f8bc278d5fae7fca4d560f5d35008e1c0fe687385d33e8f1a1de"
+    }
+  ],
+  "verified_local_links": 25,
+  "limits": "local report helpers format Windows paths; frozen server experiment-source copies and 520-file manifest remain separately retained",
+  "packaged": false,
+  "committed": false,
+  "pushed": false
+}

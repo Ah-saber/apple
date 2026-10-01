@@ -1,0 +1,100 @@
+{
+  "graphs_verified": {
+    "weather_light": {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/graphs/weather_light_quarter_integer_byte_fp16.onnx",
+      "sha256": "1e9a47a4b10609338cb7d321391a9d8cc493239f9ce6333903471c6efc858714"
+    },
+    "weather_medium": {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/graphs/weather_medium_quarter_integer_byte_fp16.onnx",
+      "sha256": "1e9a47a4b10609338cb7d321391a9d8cc493239f9ce6333903471c6efc858714"
+    },
+    "weather_heavy": {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/graphs/weather_heavy_quarter_integer_byte_fp16.onnx",
+      "sha256": "c438fdf61a41ae8af39b60cdc094c38e7c36472321830e10211dde4b02fa8065"
+    },
+    "weather_heavy_c32": {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/graphs/weather_heavy_c32_quarter_integer_byte_fp16.onnx",
+      "sha256": "0b69795ac3935c367713620e689a6572e513101a0449551f04166447bf55eced"
+    }
+  },
+  "videos_verified": [
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/history/weather_light/full120_history_intervention.mp4",
+      "sha256": "64dc80fa19ad24ecef5bba70fb0904eb51231693dc2a75221039352868e84d8b",
+      "decoded_frames": 120
+    },
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/history/weather_medium/full120_history_intervention.mp4",
+      "sha256": "01c1dd5efe57eeb6a3be29a9a67155c47d429585e65fda879f9ad0ff4f77763a",
+      "decoded_frames": 120
+    },
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/history/weather_heavy/full120_history_intervention.mp4",
+      "sha256": "345bc9f004bae9d3cb89644486f33da47feb6c78795f67b45ce7c0d3578b216d",
+      "decoded_frames": 120
+    },
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/coarse/weather_heavy/full120_history_intervention.mp4",
+      "sha256": "5e5bb149e584346a123a78178c0f59dcc77dc0a2430ba696601fdb4be43e5060",
+      "decoded_frames": 120
+    },
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/coarse/weather_light/full120_history_intervention.mp4",
+      "sha256": "f7c9bea098c4a6e0c228961e95d493da3860aa0b8440f4a8cb40794f558ed4fb",
+      "decoded_frames": 120
+    },
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/coarse/weather_medium/full120_history_intervention.mp4",
+      "sha256": "074d3a37967a73ccd30715de2b454c2762395efbbc2af18e40bd2ca2c6ac9a48",
+      "decoded_frames": 120
+    },
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/native/weather_heavy/full120_history_intervention.mp4",
+      "sha256": "f2660e10569205e89eda294ab996f61bf47483f9c5f5536da47a6e9cd7e97db8",
+      "decoded_frames": 120
+    },
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/native/weather_light/full120_history_intervention.mp4",
+      "sha256": "574bc393c581204ffe07d8ce1859784aff4077f36c60d53e7eae1401b83cae6b",
+      "decoded_frames": 120
+    },
+    {
+      "path": "/mnt/d/work_project/rawIR/reports/ss928_motion_speed_20260930/results/native/weather_medium/full120_history_intervention.mp4",
+      "sha256": "98851cbcea4c7fdde95fb5960a9da02a9d7eaa46afae5bcab6ec61df5f43a69f",
+      "decoded_frames": 120
+    }
+  ],
+  "pictures": [
+    "review_images/history/weather_heavy/target_074_eight_frames.png",
+    "review_images/history/weather_heavy/target_098_eight_frames.png",
+    "review_images/history/weather_heavy/target_112_eight_frames.png",
+    "review_images/history/weather_light/target_044_eight_frames.png",
+    "review_images/history/weather_light/target_072_eight_frames.png",
+    "review_images/history/weather_light/target_094_eight_frames.png",
+    "review_images/history/weather_medium/target_070_eight_frames.png",
+    "review_images/history/weather_medium/target_086_eight_frames.png",
+    "review_images/history/weather_medium/target_114_eight_frames.png",
+    "review_images/coarse/weather_heavy/target_074_eight_frames.png",
+    "review_images/coarse/weather_heavy/target_098_eight_frames.png",
+    "review_images/coarse/weather_heavy/target_112_eight_frames.png",
+    "review_images/coarse/weather_light/target_044_eight_frames.png",
+    "review_images/coarse/weather_light/target_072_eight_frames.png",
+    "review_images/coarse/weather_light/target_094_eight_frames.png",
+    "review_images/coarse/weather_medium/target_070_eight_frames.png",
+    "review_images/coarse/weather_medium/target_086_eight_frames.png",
+    "review_images/coarse/weather_medium/target_114_eight_frames.png",
+    "review_images/native/weather_heavy/target_074_eight_frames.png",
+    "review_images/native/weather_heavy/target_098_eight_frames.png",
+    "review_images/native/weather_heavy/target_112_eight_frames.png",
+    "review_images/native/weather_light/target_044_eight_frames.png",
+    "review_images/native/weather_light/target_072_eight_frames.png",
+    "review_images/native/weather_light/target_094_eight_frames.png",
+    "review_images/native/weather_medium/target_070_eight_frames.png",
+    "review_images/native/weather_medium/target_086_eight_frames.png",
+    "review_images/native/weather_medium/target_114_eight_frames.png"
+  ],
+  "display_source": "Previously generated compressed review video crops; no image metrics recomputed",
+  "original_results_preserved": true,
+  "packaged": false,
+  "pushed": false
+}

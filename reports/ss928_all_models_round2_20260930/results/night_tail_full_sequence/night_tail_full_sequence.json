@@ -1,0 +1,1963 @@
+{
+  "NPU_measured": false,
+  "packaged": false,
+  "pushed": false,
+  "scenes": {
+    "night_ordinary": {
+      "actual_frames": 60,
+      "per_frame": [
+        {
+          "frame": 0,
+          "mean_gray": 0.03529815748333931,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03529815748333931
+        },
+        {
+          "frame": 1,
+          "mean_gray": 0.035596467554569244,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035596467554569244
+        },
+        {
+          "frame": 2,
+          "mean_gray": 0.035340119153261185,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035340119153261185
+        },
+        {
+          "frame": 3,
+          "mean_gray": 0.035681914538145065,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035681914538145065
+        },
+        {
+          "frame": 4,
+          "mean_gray": 0.03580932691693306,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03580932691693306
+        },
+        {
+          "frame": 5,
+          "mean_gray": 0.03560486063361168,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03560486063361168
+        },
+        {
+          "frame": 6,
+          "mean_gray": 0.035620879381895065,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035620879381895065
+        },
+        {
+          "frame": 7,
+          "mean_gray": 0.036046601831912994,
+          "max_gray": 1.0,
+          "changed_fraction": 0.036046601831912994
+        },
+        {
+          "frame": 8,
+          "mean_gray": 0.03560486063361168,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03560486063361168
+        },
+        {
+          "frame": 9,
+          "mean_gray": 0.03525390848517418,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03525390848517418
+        },
+        {
+          "frame": 10,
+          "mean_gray": 0.03550110012292862,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03550110012292862
+        },
+        {
+          "frame": 11,
+          "mean_gray": 0.03574981912970543,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03574981912970543
+        },
+        {
+          "frame": 12,
+          "mean_gray": 0.035628508776426315,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035628508776426315
+        },
+        {
+          "frame": 13,
+          "mean_gray": 0.035236358642578125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035236358642578125
+        },
+        {
+          "frame": 14,
+          "mean_gray": 0.03527374193072319,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03527374193072319
+        },
+        {
+          "frame": 15,
+          "mean_gray": 0.03578338772058487,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03578338772058487
+        },
+        {
+          "frame": 16,
+          "mean_gray": 0.03547821193933487,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03547821193933487
+        },
+        {
+          "frame": 17,
+          "mean_gray": 0.035781096667051315,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035781096667051315
+        },
+        {
+          "frame": 18,
+          "mean_gray": 0.03541717678308487,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03541717678308487
+        },
+        {
+          "frame": 19,
+          "mean_gray": 0.035532381385564804,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035532381385564804
+        },
+        {
+          "frame": 20,
+          "mean_gray": 0.03555450588464737,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03555450588464737
+        },
+        {
+          "frame": 21,
+          "mean_gray": 0.03582916408777237,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03582916408777237
+        },
+        {
+          "frame": 22,
+          "mean_gray": 0.03566894680261612,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03566894680261612
+        },
+        {
+          "frame": 23,
+          "mean_gray": 0.03551330789923668,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03551330789923668
+        },
+        {
+          "frame": 24,
+          "mean_gray": 0.03575287014245987,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03575287014245987
+        },
+        {
+          "frame": 25,
+          "mean_gray": 0.035651396960020065,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035651396960020065
+        },
+        {
+          "frame": 26,
+          "mean_gray": 0.036003876477479935,
+          "max_gray": 1.0,
+          "changed_fraction": 0.036003876477479935
+        },
+        {
+          "frame": 27,
+          "mean_gray": 0.03549652174115181,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03549652174115181
+        },
+        {
+          "frame": 28,
+          "mean_gray": 0.03567047044634819,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03567047044634819
+        },
+        {
+          "frame": 29,
+          "mean_gray": 0.035491943359375,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035491943359375
+        },
+        {
+          "frame": 30,
+          "mean_gray": 0.03569488599896431,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03569488599896431
+        },
+        {
+          "frame": 31,
+          "mean_gray": 0.035585787147283554,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035585787147283554
+        },
+        {
+          "frame": 32,
+          "mean_gray": 0.03557434305548668,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03557434305548668
+        },
+        {
+          "frame": 33,
+          "mean_gray": 0.03589630126953125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03589630126953125
+        },
+        {
+          "frame": 34,
+          "mean_gray": 0.03559417650103569,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03559417650103569
+        },
+        {
+          "frame": 35,
+          "mean_gray": 0.035646822303533554,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035646822303533554
+        },
+        {
+          "frame": 36,
+          "mean_gray": 0.035474397242069244,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035474397242069244
+        },
+        {
+          "frame": 37,
+          "mean_gray": 0.035710908472537994,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035710908472537994
+        },
+        {
+          "frame": 38,
+          "mean_gray": 0.03581695631146431,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03581695631146431
+        },
+        {
+          "frame": 39,
+          "mean_gray": 0.03572387620806694,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03572387620806694
+        },
+        {
+          "frame": 40,
+          "mean_gray": 0.035663604736328125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035663604736328125
+        },
+        {
+          "frame": 41,
+          "mean_gray": 0.03552093729376793,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03552093729376793
+        },
+        {
+          "frame": 42,
+          "mean_gray": 0.03584900125861168,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03584900125861168
+        },
+        {
+          "frame": 43,
+          "mean_gray": 0.03564148023724556,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03564148023724556
+        },
+        {
+          "frame": 44,
+          "mean_gray": 0.03547516092658043,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03547516092658043
+        },
+        {
+          "frame": 45,
+          "mean_gray": 0.03593902662396431,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03593902662396431
+        },
+        {
+          "frame": 46,
+          "mean_gray": 0.03563995286822319,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03563995286822319
+        },
+        {
+          "frame": 47,
+          "mean_gray": 0.035338591784238815,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035338591784238815
+        },
+        {
+          "frame": 48,
+          "mean_gray": 0.035543061792850494,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035543061792850494
+        },
+        {
+          "frame": 49,
+          "mean_gray": 0.03552856668829918,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03552856668829918
+        },
+        {
+          "frame": 50,
+          "mean_gray": 0.035575103014707565,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035575103014707565
+        },
+        {
+          "frame": 51,
+          "mean_gray": 0.03566131740808487,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03566131740808487
+        },
+        {
+          "frame": 52,
+          "mean_gray": 0.035651396960020065,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035651396960020065
+        },
+        {
+          "frame": 53,
+          "mean_gray": 0.035419464111328125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035419464111328125
+        },
+        {
+          "frame": 54,
+          "mean_gray": 0.035657502710819244,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035657502710819244
+        },
+        {
+          "frame": 55,
+          "mean_gray": 0.03534546121954918,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03534546121954918
+        },
+        {
+          "frame": 56,
+          "mean_gray": 0.03564758226275444,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03564758226275444
+        },
+        {
+          "frame": 57,
+          "mean_gray": 0.03545379638671875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.03545379638671875
+        },
+        {
+          "frame": 58,
+          "mean_gray": 0.035552214831113815,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035552214831113815
+        },
+        {
+          "frame": 59,
+          "mean_gray": 0.035562898963689804,
+          "max_gray": 1.0,
+          "changed_fraction": 0.035562898963689804
+        }
+      ],
+      "mean_gray": 0.035604274335006875,
+      "max_gray": 1.0,
+      "source_profile": {
+        "convolution_MAC": 4859563776,
+        "largest_convolution_output_bytes": 15728640,
+        "layers": [
+          {
+            "name": "front.temporal_conv",
+            "operator": "Conv2d",
+            "MAC": 70778880,
+            "learned_parameters": true,
+            "output_bytes": 15728640,
+            "output_shape": [
+              1,
+              6,
+              1024,
+              1280
+            ]
+          },
+          {
+            "name": "front.first",
+            "operator": "Conv2d",
+            "MAC": 1132462080,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "front.last",
+            "operator": "Conv2d",
+            "MAC": 188743680,
+            "learned_parameters": true,
+            "output_bytes": 2621440,
+            "output_shape": [
+              1,
+              4,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.head.0",
+            "operator": "Conv2d",
+            "MAC": 188743680,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.body.0",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.body.2",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.body.4",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.global_reference.encoder.0",
+            "operator": "Conv2d",
+            "MAC": 442368,
+            "learned_parameters": true,
+            "output_bytes": 98304,
+            "output_shape": [
+              1,
+              12,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "core.model.global_reference.encoder.2",
+            "operator": "Conv2d",
+            "MAC": 5308416,
+            "learned_parameters": true,
+            "output_bytes": 98304,
+            "output_shape": [
+              1,
+              12,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "core.model.global_reference.pyramid.0.1",
+            "operator": "Conv2d",
+            "MAC": 110592,
+            "learned_parameters": true,
+            "output_bytes": 24576,
+            "output_shape": [
+              1,
+              12,
+              32,
+              32
+            ]
+          },
+          {
+            "name": "core.model.global_reference.pyramid.0.3",
+            "operator": "Conv2d",
+            "MAC": 1327104,
+            "learned_parameters": true,
+            "output_bytes": 24576,
+            "output_shape": [
+              1,
+              12,
+              32,
+              32
+            ]
+          },
+          {
+            "name": "core.model.global_reference.pyramid.2.1",
+            "operator": "Conv2d",
+            "MAC": 6912,
+            "learned_parameters": true,
+            "output_bytes": 1536,
+            "output_shape": [
+              1,
+              12,
+              8,
+              8
+            ]
+          },
+          {
+            "name": "core.model.global_reference.pyramid.2.3",
+            "operator": "Conv2d",
+            "MAC": 82944,
+            "learned_parameters": true,
+            "output_bytes": 1536,
+            "output_shape": [
+              1,
+              12,
+              8,
+              8
+            ]
+          },
+          {
+            "name": "core.model.global_reference.project",
+            "operator": "Conv2d",
+            "MAC": 62914560,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.tail.1.rep_conv",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "output.conv",
+            "operator": "Conv2d",
+            "MAC": 188743680,
+            "learned_parameters": true,
+            "output_bytes": 2621440,
+            "output_shape": [
+              1,
+              4,
+              512,
+              640
+            ]
+          }
+        ],
+        "limits": "convolution arithmetic accounting, padded positions included; excludes resize/layout memory and is not NPU latency or peak memory"
+      },
+      "fused_profile": {
+        "convolution_MAC": 4440870656,
+        "largest_convolution_output_bytes": 15728640,
+        "layers": [
+          {
+            "name": "source.front.temporal_conv",
+            "operator": "Conv2d",
+            "MAC": 70778880,
+            "learned_parameters": true,
+            "output_bytes": 15728640,
+            "output_shape": [
+              1,
+              6,
+              1024,
+              1280
+            ]
+          },
+          {
+            "name": "source.front.first",
+            "operator": "Conv2d",
+            "MAC": 1132462080,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.front.last",
+            "operator": "Conv2d",
+            "MAC": 188743680,
+            "learned_parameters": true,
+            "output_bytes": 2621440,
+            "output_shape": [
+              1,
+              4,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.head.0",
+            "operator": "Conv2d",
+            "MAC": 188743680,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.body.0",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.body.2",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.body.4",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.encoder.0",
+            "operator": "Conv2d",
+            "MAC": 442368,
+            "learned_parameters": true,
+            "output_bytes": 98304,
+            "output_shape": [
+              1,
+              12,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.encoder.2",
+            "operator": "Conv2d",
+            "MAC": 5308416,
+            "learned_parameters": true,
+            "output_bytes": 98304,
+            "output_shape": [
+              1,
+              12,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.pyramid.0.1",
+            "operator": "Conv2d",
+            "MAC": 110592,
+            "learned_parameters": true,
+            "output_bytes": 24576,
+            "output_shape": [
+              1,
+              12,
+              32,
+              32
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.pyramid.0.3",
+            "operator": "Conv2d",
+            "MAC": 1327104,
+            "learned_parameters": true,
+            "output_bytes": 24576,
+            "output_shape": [
+              1,
+              12,
+              32,
+              32
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.pyramid.2.1",
+            "operator": "Conv2d",
+            "MAC": 6912,
+            "learned_parameters": true,
+            "output_bytes": 1536,
+            "output_shape": [
+              1,
+              12,
+              8,
+              8
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.pyramid.2.3",
+            "operator": "Conv2d",
+            "MAC": 82944,
+            "learned_parameters": true,
+            "output_bytes": 1536,
+            "output_shape": [
+              1,
+              12,
+              8,
+              8
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.project",
+            "operator": "Conv2d",
+            "MAC": 62914560,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "fused.conv",
+            "operator": "Conv2d",
+            "MAC": 524288000,
+            "learned_parameters": true,
+            "output_bytes": 2621440,
+            "output_shape": [
+              1,
+              4,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "fused.top",
+            "operator": "Conv2d",
+            "MAC": 204800,
+            "learned_parameters": true,
+            "output_bytes": 5120,
+            "output_shape": [
+              1,
+              4,
+              1,
+              640
+            ]
+          },
+          {
+            "name": "fused.bottom",
+            "operator": "Conv2d",
+            "MAC": 204800,
+            "learned_parameters": true,
+            "output_bytes": 5120,
+            "output_shape": [
+              1,
+              4,
+              1,
+              640
+            ]
+          },
+          {
+            "name": "fused.left",
+            "operator": "Conv2d",
+            "MAC": 163840,
+            "learned_parameters": true,
+            "output_bytes": 4096,
+            "output_shape": [
+              1,
+              4,
+              512,
+              1
+            ]
+          },
+          {
+            "name": "fused.right",
+            "operator": "Conv2d",
+            "MAC": 163840,
+            "learned_parameters": true,
+            "output_bytes": 4096,
+            "output_shape": [
+              1,
+              4,
+              512,
+              1
+            ]
+          }
+        ],
+        "limits": "convolution arithmetic accounting, padded positions included; excludes resize/layout memory and is not NPU latency or peak memory"
+      },
+      "limits": "floating point algebra holds before rounding; FP16 arithmetic order and fixed reference sampling can change integer output; GPU previously slower; keep only as board-test alternative"
+    },
+    "night_special": {
+      "actual_frames": 120,
+      "per_frame": [
+        {
+          "frame": 0,
+          "mean_gray": 0.045665740966796875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045665740966796875
+        },
+        {
+          "frame": 1,
+          "mean_gray": 0.04564819484949112,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04564819484949112
+        },
+        {
+          "frame": 2,
+          "mean_gray": 0.04568176344037056,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04568176344037056
+        },
+        {
+          "frame": 3,
+          "mean_gray": 0.045561980456113815,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045561980456113815
+        },
+        {
+          "frame": 4,
+          "mean_gray": 0.045594025403261185,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045594025403261185
+        },
+        {
+          "frame": 5,
+          "mean_gray": 0.045429229736328125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045429229736328125
+        },
+        {
+          "frame": 6,
+          "mean_gray": 0.04552612453699112,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04552612453699112
+        },
+        {
+          "frame": 7,
+          "mean_gray": 0.045531462877988815,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045531462877988815
+        },
+        {
+          "frame": 8,
+          "mean_gray": 0.045305635780096054,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045305635780096054
+        },
+        {
+          "frame": 9,
+          "mean_gray": 0.045487213879823685,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045487213879823685
+        },
+        {
+          "frame": 10,
+          "mean_gray": 0.04551238939166069,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04551238939166069
+        },
+        {
+          "frame": 11,
+          "mean_gray": 0.045654296875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045654296875
+        },
+        {
+          "frame": 12,
+          "mean_gray": 0.045485686510801315,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045485686510801315
+        },
+        {
+          "frame": 13,
+          "mean_gray": 0.045429229736328125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045429229736328125
+        },
+        {
+          "frame": 14,
+          "mean_gray": 0.04519043117761612,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04519043117761612
+        },
+        {
+          "frame": 15,
+          "mean_gray": 0.045441437512636185,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045441437512636185
+        },
+        {
+          "frame": 16,
+          "mean_gray": 0.045603182166814804,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045603182166814804
+        },
+        {
+          "frame": 17,
+          "mean_gray": 0.045423127710819244,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045423127710819244
+        },
+        {
+          "frame": 18,
+          "mean_gray": 0.045269012451171875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045269012451171875
+        },
+        {
+          "frame": 19,
+          "mean_gray": 0.04527587816119194,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04527587816119194
+        },
+        {
+          "frame": 20,
+          "mean_gray": 0.04514312744140625,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04514312744140625
+        },
+        {
+          "frame": 21,
+          "mean_gray": 0.045328523963689804,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045328523963689804
+        },
+        {
+          "frame": 22,
+          "mean_gray": 0.045418549329042435,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045418549329042435
+        },
+        {
+          "frame": 23,
+          "mean_gray": 0.045574188232421875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045574188232421875
+        },
+        {
+          "frame": 24,
+          "mean_gray": 0.045323945581912994,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045323945581912994
+        },
+        {
+          "frame": 25,
+          "mean_gray": 0.045398712158203125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045398712158203125
+        },
+        {
+          "frame": 26,
+          "mean_gray": 0.045223236083984375,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045223236083984375
+        },
+        {
+          "frame": 27,
+          "mean_gray": 0.04557647928595543,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04557647928595543
+        },
+        {
+          "frame": 28,
+          "mean_gray": 0.04554596170783043,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04554596170783043
+        },
+        {
+          "frame": 29,
+          "mean_gray": 0.045418549329042435,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045418549329042435
+        },
+        {
+          "frame": 30,
+          "mean_gray": 0.04552764818072319,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04552764818072319
+        },
+        {
+          "frame": 31,
+          "mean_gray": 0.04559478908777237,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04559478908777237
+        },
+        {
+          "frame": 32,
+          "mean_gray": 0.04548492655158043,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04548492655158043
+        },
+        {
+          "frame": 33,
+          "mean_gray": 0.045433808118104935,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045433808118104935
+        },
+        {
+          "frame": 34,
+          "mean_gray": 0.04525604471564293,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04525604471564293
+        },
+        {
+          "frame": 35,
+          "mean_gray": 0.045394133776426315,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045394133776426315
+        },
+        {
+          "frame": 36,
+          "mean_gray": 0.04534759745001793,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04534759745001793
+        },
+        {
+          "frame": 37,
+          "mean_gray": 0.045275118201971054,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045275118201971054
+        },
+        {
+          "frame": 38,
+          "mean_gray": 0.045436859130859375,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045436859130859375
+        },
+        {
+          "frame": 39,
+          "mean_gray": 0.045627593994140625,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045627593994140625
+        },
+        {
+          "frame": 40,
+          "mean_gray": 0.04532165452837944,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04532165452837944
+        },
+        {
+          "frame": 41,
+          "mean_gray": 0.04529266431927681,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04529266431927681
+        },
+        {
+          "frame": 42,
+          "mean_gray": 0.045420076698064804,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045420076698064804
+        },
+        {
+          "frame": 43,
+          "mean_gray": 0.04534607008099556,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04534607008099556
+        },
+        {
+          "frame": 44,
+          "mean_gray": 0.04567108303308487,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04567108303308487
+        },
+        {
+          "frame": 45,
+          "mean_gray": 0.045409392565488815,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045409392565488815
+        },
+        {
+          "frame": 46,
+          "mean_gray": 0.045772552490234375,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045772552490234375
+        },
+        {
+          "frame": 47,
+          "mean_gray": 0.045613862574100494,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045613862574100494
+        },
+        {
+          "frame": 48,
+          "mean_gray": 0.04557190090417862,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04557190090417862
+        },
+        {
+          "frame": 49,
+          "mean_gray": 0.04523468017578125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04523468017578125
+        },
+        {
+          "frame": 50,
+          "mean_gray": 0.0452423095703125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.0452423095703125
+        },
+        {
+          "frame": 51,
+          "mean_gray": 0.045479584485292435,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045479584485292435
+        },
+        {
+          "frame": 52,
+          "mean_gray": 0.04562835767865181,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04562835767865181
+        },
+        {
+          "frame": 53,
+          "mean_gray": 0.04531250149011612,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04531250149011612
+        },
+        {
+          "frame": 54,
+          "mean_gray": 0.045746613293886185,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045746613293886185
+        },
+        {
+          "frame": 55,
+          "mean_gray": 0.04544220119714737,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04544220119714737
+        },
+        {
+          "frame": 56,
+          "mean_gray": 0.045647431164979935,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045647431164979935
+        },
+        {
+          "frame": 57,
+          "mean_gray": 0.04534454271197319,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04534454271197319
+        },
+        {
+          "frame": 58,
+          "mean_gray": 0.045470427721738815,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045470427721738815
+        },
+        {
+          "frame": 59,
+          "mean_gray": 0.04564819484949112,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04564819484949112
+        },
+        {
+          "frame": 60,
+          "mean_gray": 0.04586944729089737,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04586944729089737
+        },
+        {
+          "frame": 61,
+          "mean_gray": 0.04519348219037056,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04519348219037056
+        },
+        {
+          "frame": 62,
+          "mean_gray": 0.045421600341796875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045421600341796875
+        },
+        {
+          "frame": 63,
+          "mean_gray": 0.0457000732421875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.0457000732421875
+        },
+        {
+          "frame": 64,
+          "mean_gray": 0.045584868639707565,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045584868639707565
+        },
+        {
+          "frame": 65,
+          "mean_gray": 0.045359041541814804,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045359041541814804
+        },
+        {
+          "frame": 66,
+          "mean_gray": 0.04520568996667862,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04520568996667862
+        },
+        {
+          "frame": 67,
+          "mean_gray": 0.045462798327207565,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045462798327207565
+        },
+        {
+          "frame": 68,
+          "mean_gray": 0.04570770263671875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04570770263671875
+        },
+        {
+          "frame": 69,
+          "mean_gray": 0.04541168361902237,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04541168361902237
+        },
+        {
+          "frame": 70,
+          "mean_gray": 0.04522552713751793,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04522552713751793
+        },
+        {
+          "frame": 71,
+          "mean_gray": 0.045034028589725494,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045034028589725494
+        },
+        {
+          "frame": 72,
+          "mean_gray": 0.04550018534064293,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04550018534064293
+        },
+        {
+          "frame": 73,
+          "mean_gray": 0.04547424241900444,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04547424241900444
+        },
+        {
+          "frame": 74,
+          "mean_gray": 0.045380402356386185,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045380402356386185
+        },
+        {
+          "frame": 75,
+          "mean_gray": 0.045406341552734375,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045406341552734375
+        },
+        {
+          "frame": 76,
+          "mean_gray": 0.045568086206912994,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045568086206912994
+        },
+        {
+          "frame": 77,
+          "mean_gray": 0.045497894287109375,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045497894287109375
+        },
+        {
+          "frame": 78,
+          "mean_gray": 0.04539794847369194,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04539794847369194
+        },
+        {
+          "frame": 79,
+          "mean_gray": 0.0454559326171875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.0454559326171875
+        },
+        {
+          "frame": 80,
+          "mean_gray": 0.04530487209558487,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04530487209558487
+        },
+        {
+          "frame": 81,
+          "mean_gray": 0.045168306678533554,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045168306678533554
+        },
+        {
+          "frame": 82,
+          "mean_gray": 0.045514680445194244,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045514680445194244
+        },
+        {
+          "frame": 83,
+          "mean_gray": 0.045516204088926315,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045516204088926315
+        },
+        {
+          "frame": 84,
+          "mean_gray": 0.04544677957892418,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04544677957892418
+        },
+        {
+          "frame": 85,
+          "mean_gray": 0.0453338623046875,
+          "max_gray": 1.0,
+          "changed_fraction": 0.0453338623046875
+        },
+        {
+          "frame": 86,
+          "mean_gray": 0.04561767727136612,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04561767727136612
+        },
+        {
+          "frame": 87,
+          "mean_gray": 0.04529419168829918,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04529419168829918
+        },
+        {
+          "frame": 88,
+          "mean_gray": 0.045462798327207565,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045462798327207565
+        },
+        {
+          "frame": 89,
+          "mean_gray": 0.045380402356386185,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045380402356386185
+        },
+        {
+          "frame": 90,
+          "mean_gray": 0.045430757105350494,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045430757105350494
+        },
+        {
+          "frame": 91,
+          "mean_gray": 0.045578766614198685,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045578766614198685
+        },
+        {
+          "frame": 92,
+          "mean_gray": 0.04537506029009819,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04537506029009819
+        },
+        {
+          "frame": 93,
+          "mean_gray": 0.04541168361902237,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04541168361902237
+        },
+        {
+          "frame": 94,
+          "mean_gray": 0.045178987085819244,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045178987085819244
+        },
+        {
+          "frame": 95,
+          "mean_gray": 0.04545440897345543,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04545440897345543
+        },
+        {
+          "frame": 96,
+          "mean_gray": 0.04546661302447319,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04546661302447319
+        },
+        {
+          "frame": 97,
+          "mean_gray": 0.045659638941287994,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045659638941287994
+        },
+        {
+          "frame": 98,
+          "mean_gray": 0.045017242431640625,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045017242431640625
+        },
+        {
+          "frame": 99,
+          "mean_gray": 0.045301057398319244,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045301057398319244
+        },
+        {
+          "frame": 100,
+          "mean_gray": 0.045386504381895065,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045386504381895065
+        },
+        {
+          "frame": 101,
+          "mean_gray": 0.04549865797162056,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04549865797162056
+        },
+        {
+          "frame": 102,
+          "mean_gray": 0.045108795166015625,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045108795166015625
+        },
+        {
+          "frame": 103,
+          "mean_gray": 0.04531097412109375,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04531097412109375
+        },
+        {
+          "frame": 104,
+          "mean_gray": 0.04541015625,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04541015625
+        },
+        {
+          "frame": 105,
+          "mean_gray": 0.045719146728515625,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045719146728515625
+        },
+        {
+          "frame": 106,
+          "mean_gray": 0.045298006385564804,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045298006385564804
+        },
+        {
+          "frame": 107,
+          "mean_gray": 0.045439910143613815,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045439910143613815
+        },
+        {
+          "frame": 108,
+          "mean_gray": 0.045601654797792435,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045601654797792435
+        },
+        {
+          "frame": 109,
+          "mean_gray": 0.045430757105350494,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045430757105350494
+        },
+        {
+          "frame": 110,
+          "mean_gray": 0.045429229736328125,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045429229736328125
+        },
+        {
+          "frame": 111,
+          "mean_gray": 0.045423127710819244,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045423127710819244
+        },
+        {
+          "frame": 112,
+          "mean_gray": 0.04541931301355362,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04541931301355362
+        },
+        {
+          "frame": 113,
+          "mean_gray": 0.04556884989142418,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04556884989142418
+        },
+        {
+          "frame": 114,
+          "mean_gray": 0.04552764818072319,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04552764818072319
+        },
+        {
+          "frame": 115,
+          "mean_gray": 0.045261383056640625,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045261383056640625
+        },
+        {
+          "frame": 116,
+          "mean_gray": 0.04546661302447319,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04546661302447319
+        },
+        {
+          "frame": 117,
+          "mean_gray": 0.045439910143613815,
+          "max_gray": 1.0,
+          "changed_fraction": 0.045439910143613815
+        },
+        {
+          "frame": 118,
+          "mean_gray": 0.04527587816119194,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04527587816119194
+        },
+        {
+          "frame": 119,
+          "mean_gray": 0.04528503492474556,
+          "max_gray": 1.0,
+          "changed_fraction": 0.04528503492474556
+        }
+      ],
+      "mean_gray": 0.045439453795552254,
+      "max_gray": 1.0,
+      "source_profile": {
+        "convolution_MAC": 5132763136,
+        "largest_convolution_output_bytes": 15728640,
+        "layers": [
+          {
+            "name": "front.temporal_conv",
+            "operator": "Conv2d",
+            "MAC": 70778880,
+            "learned_parameters": true,
+            "output_bytes": 15728640,
+            "output_shape": [
+              1,
+              6,
+              1024,
+              1280
+            ]
+          },
+          {
+            "name": "front.first",
+            "operator": "Conv2d",
+            "MAC": 1415577600,
+            "learned_parameters": true,
+            "output_bytes": 13107200,
+            "output_shape": [
+              1,
+              20,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "front.last",
+            "operator": "Conv2d",
+            "MAC": 235929600,
+            "learned_parameters": true,
+            "output_bytes": 2621440,
+            "output_shape": [
+              1,
+              4,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.head.0",
+            "operator": "Conv2d",
+            "MAC": 188743680,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.body.0",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.body.2",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.body.4",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "core.model.global_reference.encoder.0",
+            "operator": "Conv2d",
+            "MAC": 442368,
+            "learned_parameters": true,
+            "output_bytes": 98304,
+            "output_shape": [
+              1,
+              12,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "core.model.global_reference.encoder.2",
+            "operator": "Conv2d",
+            "MAC": 5308416,
+            "learned_parameters": true,
+            "output_bytes": 98304,
+            "output_shape": [
+              1,
+              12,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "core.model.global_reference.project",
+            "operator": "Conv2d",
+            "MAC": 786432,
+            "learned_parameters": true,
+            "output_bytes": 131072,
+            "output_shape": [
+              1,
+              16,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "low_ref",
+            "operator": "Conv2d",
+            "MAC": 6553600,
+            "learned_parameters": true,
+            "output_bytes": 32768,
+            "output_shape": [
+              1,
+              4,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "core.model.tail.1.rep_conv",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "output.conv",
+            "operator": "Conv2d",
+            "MAC": 188743680,
+            "learned_parameters": true,
+            "output_bytes": 2621440,
+            "output_shape": [
+              1,
+              4,
+              512,
+              640
+            ]
+          }
+        ],
+        "limits": "convolution arithmetic accounting, padded positions included; excludes resize/layout memory and is not NPU latency or peak memory"
+      },
+      "fused_profile": {
+        "convolution_MAC": 4714070016,
+        "largest_convolution_output_bytes": 15728640,
+        "layers": [
+          {
+            "name": "source.front.temporal_conv",
+            "operator": "Conv2d",
+            "MAC": 70778880,
+            "learned_parameters": true,
+            "output_bytes": 15728640,
+            "output_shape": [
+              1,
+              6,
+              1024,
+              1280
+            ]
+          },
+          {
+            "name": "source.front.first",
+            "operator": "Conv2d",
+            "MAC": 1415577600,
+            "learned_parameters": true,
+            "output_bytes": 13107200,
+            "output_shape": [
+              1,
+              20,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.front.last",
+            "operator": "Conv2d",
+            "MAC": 235929600,
+            "learned_parameters": true,
+            "output_bytes": 2621440,
+            "output_shape": [
+              1,
+              4,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.head.0",
+            "operator": "Conv2d",
+            "MAC": 188743680,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.body.0",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.body.2",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.body.4",
+            "operator": "Conv2d",
+            "MAC": 754974720,
+            "learned_parameters": true,
+            "output_bytes": 10485760,
+            "output_shape": [
+              1,
+              16,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.encoder.0",
+            "operator": "Conv2d",
+            "MAC": 442368,
+            "learned_parameters": true,
+            "output_bytes": 98304,
+            "output_shape": [
+              1,
+              12,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.encoder.2",
+            "operator": "Conv2d",
+            "MAC": 5308416,
+            "learned_parameters": true,
+            "output_bytes": 98304,
+            "output_shape": [
+              1,
+              12,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "source.core.model.global_reference.project",
+            "operator": "Conv2d",
+            "MAC": 786432,
+            "learned_parameters": true,
+            "output_bytes": 131072,
+            "output_shape": [
+              1,
+              16,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "source.low_ref",
+            "operator": "Conv2d",
+            "MAC": 6553600,
+            "learned_parameters": true,
+            "output_bytes": 32768,
+            "output_shape": [
+              1,
+              4,
+              64,
+              64
+            ]
+          },
+          {
+            "name": "fused.conv",
+            "operator": "Conv2d",
+            "MAC": 524288000,
+            "learned_parameters": true,
+            "output_bytes": 2621440,
+            "output_shape": [
+              1,
+              4,
+              512,
+              640
+            ]
+          },
+          {
+            "name": "fused.top",
+            "operator": "Conv2d",
+            "MAC": 204800,
+            "learned_parameters": true,
+            "output_bytes": 5120,
+            "output_shape": [
+              1,
+              4,
+              1,
+              640
+            ]
+          },
+          {
+            "name": "fused.bottom",
+            "operator": "Conv2d",
+            "MAC": 204800,
+            "learned_parameters": true,
+            "output_bytes": 5120,
+            "output_shape": [
+              1,
+              4,
+              1,
+              640
+            ]
+          },
+          {
+            "name": "fused.left",
+            "operator": "Conv2d",
+            "MAC": 163840,
+            "learned_parameters": true,
+            "output_bytes": 4096,
+            "output_shape": [
+              1,
+              4,
+              512,
+              1
+            ]
+          },
+          {
+            "name": "fused.right",
+            "operator": "Conv2d",
+            "MAC": 163840,
+            "learned_parameters": true,
+            "output_bytes": 4096,
+            "output_shape": [
+              1,
+              4,
+              512,
+              1
+            ]
+          }
+        ],
+        "limits": "convolution arithmetic accounting, padded positions included; excludes resize/layout memory and is not NPU latency or peak memory"
+      },
+      "limits": "floating point algebra holds before rounding; FP16 arithmetic order and fixed reference sampling can change integer output; GPU previously slower; keep only as board-test alternative"
+    }
+  }
+}

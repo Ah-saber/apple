@@ -1,0 +1,116 @@
+{
+  "group": "day",
+  "kind": "half",
+  "steps": 8000,
+  "seed": 930,
+  "precision": "FP32; TF32 disabled",
+  "cache": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-QUARTER-DAY-20260929/train_cache.pt",
+  "cache_sha256": "ca117412e23f30adfe179b3ff78a1dc7e5230d569423aa48d45ff3854dfee85c",
+  "features_sha256": "bb1b0c217bde058d995057295bdde724b6c415048e661e3ba1385950b502831d",
+  "original_denoiser_frozen": true,
+  "zero_initial_residual_control": "all train cache predicted phases agree with original native within .01 gray",
+  "independent_baseline_control": {
+    "kind": "preserved half architecture; quarter unused"
+  },
+  "target_mask": "training GT signed coherent component change; same limits as train_fp32",
+  "logs": [
+    {
+      "step": 0,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 24.837960916047095,
+          "mae_gray": 10.976338726468384
+        }
+      }
+    },
+    {
+      "step": 1,
+      "loss": 51.57735824584961,
+      "motion_mae": 9.632701873779297,
+      "static_anchor": 0.0,
+      "elapsed_seconds": 4.7788370358757675
+    },
+    {
+      "step": 1000,
+      "loss": 53.702423095703125,
+      "motion_mae": 10.414820671081543,
+      "static_anchor": 0.1390170454978943,
+      "elapsed_seconds": 6.504993125796318
+    },
+    {
+      "step": 2000,
+      "loss": 56.01443862915039,
+      "motion_mae": 10.805665969848633,
+      "static_anchor": 0.21126259863376617,
+      "elapsed_seconds": 8.246278658974916,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 24.951497013711684,
+          "mae_gray": 10.88122040964663
+        }
+      }
+    },
+    {
+      "step": 3000,
+      "loss": 54.63365173339844,
+      "motion_mae": 10.428483963012695,
+      "static_anchor": 0.18855150043964386,
+      "elapsed_seconds": 14.57515064906329
+    },
+    {
+      "step": 4000,
+      "loss": 47.887325286865234,
+      "motion_mae": 8.815513610839844,
+      "static_anchor": 0.24269413948059082,
+      "elapsed_seconds": 16.319108029827476,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 24.962336382078874,
+          "mae_gray": 10.861943648196757
+        }
+      }
+    },
+    {
+      "step": 5000,
+      "loss": 47.8809928894043,
+      "motion_mae": 8.612342834472656,
+      "static_anchor": 0.2622412443161011,
+      "elapsed_seconds": 22.412704876158386
+    },
+    {
+      "step": 6000,
+      "loss": 48.16898727416992,
+      "motion_mae": 8.675019264221191,
+      "static_anchor": 0.2718394696712494,
+      "elapsed_seconds": 23.921848829835653,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 24.96177975889843,
+          "mae_gray": 10.85822420194745
+        }
+      }
+    },
+    {
+      "step": 7000,
+      "loss": 50.04252624511719,
+      "motion_mae": 9.323312759399414,
+      "static_anchor": 0.2231653779745102,
+      "elapsed_seconds": 29.77169006690383
+    },
+    {
+      "step": 8000,
+      "loss": 49.12991714477539,
+      "motion_mae": 8.893831253051758,
+      "static_anchor": 0.2641032934188843,
+      "elapsed_seconds": 31.281760771758854,
+      "validation": {
+        "day_normal": {
+          "psnr_db": 24.96323426671376,
+          "mae_gray": 10.854783565737307
+        }
+      }
+    }
+  ],
+  "packaged": false,
+  "pushed": false
+}

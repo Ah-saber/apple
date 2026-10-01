@@ -1,0 +1,141 @@
+{
+  "group": "heavy",
+  "kind": "half",
+  "steps": 8000,
+  "seed": 930,
+  "precision": "FP32; TF32 disabled",
+  "cache": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-QUARTER-HEAVY-20260929/train_cache.pt",
+  "cache_sha256": "a45716d1889249aac7014bfedd2c6455967d60dfea58ce75dbc33e77f327b76a",
+  "features_sha256": "dce661d0549018556849d52df8185edf120db2e5ee290eecfda8df0a8354f5f2",
+  "original_denoiser_frozen": true,
+  "zero_initial_residual_control": "all train cache predicted phases agree with original native within .01 gray",
+  "independent_baseline_control": {
+    "old_graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/heavy_temporal/onnx/weather_heavy/weather_heavy_compact_fp32_phases.onnx",
+    "old_graph_sha256": "006779c7f6c0b1638bff583615e2004c41ad90d681b8e30a914af1da414fa3ee",
+    "mean_gray": 2.0157884137006477e-05,
+    "max_gray": 0.0002288818359375,
+    "late_reference": false,
+    "weights_sha256": "b8b6d4f72694e3ea541e109a038e326d2b104c6ce7a94ebc1e987ffd3603e85e"
+  },
+  "target_mask": "training GT signed coherent component change; same limits as train_fp32",
+  "logs": [
+    {
+      "step": 0,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 30.39564956518447,
+          "mae_gray": 5.323964697308838
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.116424517138018,
+          "mae_gray": 25.960858017206192
+        }
+      }
+    },
+    {
+      "step": 1,
+      "loss": 21.4649600982666,
+      "motion_mae": 4.617110729217529,
+      "static_anchor": 0.0,
+      "elapsed_seconds": 9.017411718145013
+    },
+    {
+      "step": 1000,
+      "loss": 24.658201217651367,
+      "motion_mae": 4.984442710876465,
+      "static_anchor": 0.1368158608675003,
+      "elapsed_seconds": 10.523790579289198
+    },
+    {
+      "step": 2000,
+      "loss": 26.27666664123535,
+      "motion_mae": 5.8474321365356445,
+      "static_anchor": 0.08603038638830185,
+      "elapsed_seconds": 12.026006690226495,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 30.42193235872827,
+          "mae_gray": 5.304491533897817
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.113144107543274,
+          "mae_gray": 25.967242466285825
+        }
+      }
+    },
+    {
+      "step": 3000,
+      "loss": 25.617406845092773,
+      "motion_mae": 5.481390476226807,
+      "static_anchor": 0.09951665997505188,
+      "elapsed_seconds": 22.23301153536886
+    },
+    {
+      "step": 4000,
+      "loss": 27.807710647583008,
+      "motion_mae": 6.235729217529297,
+      "static_anchor": 0.09424295276403427,
+      "elapsed_seconds": 23.73628092929721,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 30.409510571081785,
+          "mae_gray": 5.314329047687352
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.121898665703345,
+          "mae_gray": 25.939700435847044
+        }
+      }
+    },
+    {
+      "step": 5000,
+      "loss": 23.10712432861328,
+      "motion_mae": 4.924149513244629,
+      "static_anchor": 0.11747559159994125,
+      "elapsed_seconds": 33.89799335738644
+    },
+    {
+      "step": 6000,
+      "loss": 22.244836807250977,
+      "motion_mae": 4.693664073944092,
+      "static_anchor": 0.11586983501911163,
+      "elapsed_seconds": 35.48150009009987,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 30.387603487582158,
+          "mae_gray": 5.330027588643134
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.1500117376049,
+          "mae_gray": 25.841558510437608
+        }
+      }
+    },
+    {
+      "step": 7000,
+      "loss": 24.834402084350586,
+      "motion_mae": 5.098081111907959,
+      "static_anchor": 0.08369946479797363,
+      "elapsed_seconds": 45.65465502534062
+    },
+    {
+      "step": 8000,
+      "loss": 22.378097534179688,
+      "motion_mae": 4.741520881652832,
+      "static_anchor": 0.12191212177276611,
+      "elapsed_seconds": 47.158825423102826,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 30.39887222625269,
+          "mae_gray": 5.321657112799585
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.1378405927171,
+          "mae_gray": 25.883286921307445
+        }
+      }
+    }
+  ],
+  "packaged": false,
+  "pushed": false
+}

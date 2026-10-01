@@ -1,0 +1,2498 @@
+{
+  "summary": {
+    "原夜间九帧": {
+      "current_target_signal_mae_gray": 10.949735679626464,
+      "historical_only_signal_mae_gray": 1.827189028263092,
+      "road_static_residual_change_gray": 1.0015316972365746,
+      "current_target_signed_contrast_ratio": 0.24224158346652985,
+      "local_target_centroid_error_pixels": 4.534911854053573,
+      "historical_only_signed_excess_gray": 1.4946474778873808
+    },
+    "局部当前夜间": {
+      "current_target_signal_mae_gray": 5.912532215118408,
+      "historical_only_signal_mae_gray": 1.8052219335849469,
+      "road_static_residual_change_gray": 1.1526727768091054,
+      "current_target_signed_contrast_ratio": 0.5975407159328461,
+      "local_target_centroid_error_pixels": 1.6669279210785433,
+      "historical_only_signed_excess_gray": 1.3716505537347399
+    }
+  },
+  "per_frame": [
+    {
+      "frame": 8,
+      "current_pixels": 34,
+      "historical_only_pixels": 293,
+      "GT_boxes": [
+        [
+          412,
+          332,
+          3,
+          2,
+          5,
+          1
+        ],
+        [
+          604,
+          1041,
+          7,
+          2,
+          13,
+          1
+        ],
+        [
+          467,
+          570,
+          4,
+          3,
+          8,
+          -1
+        ],
+        [
+          646,
+          1179,
+          4,
+          3,
+          8,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.3104950189590454,
+          "current_target_signal_mae_gray": 9.166359901428223,
+          "historical_only_signed_excess_gray": 1.7000319965870307,
+          "historical_only_signal_mae_gray": 1.9225682020187378,
+          "road_static_residual_change_gray": 0.9866067171096802,
+          "local_target_centroid_error_pixels": 2.2588451296457412
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5469441413879395,
+          "current_target_signal_mae_gray": 6.022977828979492,
+          "historical_only_signed_excess_gray": 1.5538609215017065,
+          "historical_only_signal_mae_gray": 1.9311540126800537,
+          "road_static_residual_change_gray": 1.1466926336288452,
+          "local_target_centroid_error_pixels": 0.8279676630747246
+        }
+      }
+    },
+    {
+      "frame": 9,
+      "current_pixels": 23,
+      "historical_only_pixels": 320,
+      "GT_boxes": [
+        [
+          455,
+          451,
+          4,
+          6,
+          13,
+          -1
+        ],
+        [
+          531,
+          755,
+          2,
+          3,
+          4,
+          -1
+        ],
+        [
+          667,
+          1265,
+          3,
+          3,
+          6,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.4111635088920593,
+          "current_target_signal_mae_gray": 9.336956977844238,
+          "historical_only_signed_excess_gray": 1.356982421875,
+          "historical_only_signal_mae_gray": 1.683251976966858,
+          "road_static_residual_change_gray": 1.1995294094085693,
+          "local_target_centroid_error_pixels": 1.9168615370465296
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.7389937043190002,
+          "current_target_signal_mae_gray": 4.8722825050354,
+          "historical_only_signed_excess_gray": 1.215869140625,
+          "historical_only_signal_mae_gray": 1.8286621570587158,
+          "road_static_residual_change_gray": 1.3314948081970215,
+          "local_target_centroid_error_pixels": 0.9191303099079358
+        }
+      }
+    },
+    {
+      "frame": 10,
+      "current_pixels": 31,
+      "historical_only_pixels": 366,
+      "GT_boxes": [
+        [
+          440,
+          396,
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          480,
+          559,
+          4,
+          3,
+          7,
+          1
+        ],
+        [
+          519,
+          862,
+          4,
+          3,
+          8,
+          1
+        ],
+        [
+          450,
+          429,
+          2,
+          4,
+          6,
+          -1
+        ],
+        [
+          669,
+          1266,
+          2,
+          4,
+          6,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.2766501307487488,
+          "current_target_signal_mae_gray": 10.575604438781738,
+          "historical_only_signed_excess_gray": 1.3360228825136613,
+          "historical_only_signal_mae_gray": 1.7632769346237183,
+          "road_static_residual_change_gray": 1.0519815683364868,
+          "local_target_centroid_error_pixels": 1.2411654812737987
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6851635575294495,
+          "current_target_signal_mae_gray": 5.129032135009766,
+          "historical_only_signed_excess_gray": 1.2583247950819672,
+          "historical_only_signal_mae_gray": 1.7274162769317627,
+          "road_static_residual_change_gray": 1.2114973068237305,
+          "local_target_centroid_error_pixels": 0.502621809588326
+        }
+      }
+    },
+    {
+      "frame": 11,
+      "current_pixels": 4,
+      "historical_only_pixels": 437,
+      "GT_boxes": [
+        [
+          473,
+          541,
+          2,
+          3,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.1880081295967102,
+          "current_target_signal_mae_gray": 12.484375,
+          "historical_only_signed_excess_gray": 1.5770523455377574,
+          "historical_only_signal_mae_gray": 1.8425700664520264,
+          "road_static_residual_change_gray": 0.9863051176071167
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.602642297744751,
+          "current_target_signal_mae_gray": 6.109375,
+          "historical_only_signed_excess_gray": 1.5669693935926774,
+          "historical_only_signal_mae_gray": 1.8904104232788086,
+          "road_static_residual_change_gray": 1.146034836769104,
+          "local_target_centroid_error_pixels": 3.7066892058994427
+        }
+      }
+    },
+    {
+      "frame": 12,
+      "current_pixels": 4,
+      "historical_only_pixels": 389,
+      "GT_boxes": [
+        [
+          566,
+          1005,
+          2,
+          2,
+          4,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.4071022868156433,
+          "current_target_signal_mae_gray": 8.15234375,
+          "historical_only_signed_excess_gray": 1.3553582904884318,
+          "historical_only_signal_mae_gray": 1.8096481561660767,
+          "road_static_residual_change_gray": 0.9353901147842407,
+          "local_target_centroid_error_pixels": 0.7817381281819068
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6338068246841431,
+          "current_target_signal_mae_gray": 5.03515625,
+          "historical_only_signed_excess_gray": 1.3660025706940875,
+          "historical_only_signal_mae_gray": 1.8020565509796143,
+          "road_static_residual_change_gray": 1.1015431880950928,
+          "local_target_centroid_error_pixels": 0.5251652182986439
+        }
+      }
+    },
+    {
+      "frame": 13,
+      "current_pixels": 4,
+      "historical_only_pixels": 328,
+      "GT_boxes": [
+        [
+          603,
+          1124,
+          2,
+          3,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.3802083432674408,
+          "current_target_signal_mae_gray": 9.296875,
+          "historical_only_signed_excess_gray": 1.5315834603658536,
+          "historical_only_signal_mae_gray": 1.9449790716171265,
+          "road_static_residual_change_gray": 0.982388436794281,
+          "local_target_centroid_error_pixels": 1.7273505597021332
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6973958611488342,
+          "current_target_signal_mae_gray": 4.5390625,
+          "historical_only_signed_excess_gray": 1.3118807164634145,
+          "historical_only_signal_mae_gray": 1.854563593864441,
+          "road_static_residual_change_gray": 1.1457197666168213,
+          "local_target_centroid_error_pixels": 0.8922340475393973
+        }
+      }
+    },
+    {
+      "frame": 14,
+      "current_pixels": 8,
+      "historical_only_pixels": 284,
+      "GT_boxes": [
+        [
+          134,
+          16,
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          388,
+          257,
+          2,
+          2,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.20297619700431824,
+          "current_target_signal_mae_gray": 10.4609375,
+          "historical_only_signed_excess_gray": 1.9967539612676057,
+          "historical_only_signal_mae_gray": 2.328510046005249,
+          "road_static_residual_change_gray": 1.0769745111465454,
+          "local_target_centroid_error_pixels": 5.721629355724827
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6116071343421936,
+          "current_target_signal_mae_gray": 5.09765625,
+          "historical_only_signed_excess_gray": 1.6637323943661972,
+          "historical_only_signal_mae_gray": 2.0207417011260986,
+          "road_static_residual_change_gray": 1.2332196235656738,
+          "local_target_centroid_error_pixels": 0.8822001044207495
+        }
+      }
+    },
+    {
+      "frame": 15,
+      "current_pixels": 6,
+      "historical_only_pixels": 293,
+      "GT_boxes": [
+        [
+          590,
+          1061,
+          3,
+          2,
+          6,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.20749999582767487,
+          "current_target_signal_mae_gray": 9.90625,
+          "historical_only_signed_excess_gray": 1.6673954778156996,
+          "historical_only_signal_mae_gray": 2.034822940826416,
+          "road_static_residual_change_gray": 1.0618726015090942
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6141666769981384,
+          "current_target_signal_mae_gray": 4.822916507720947,
+          "historical_only_signed_excess_gray": 1.682060580204778,
+          "historical_only_signal_mae_gray": 2.1706485748291016,
+          "road_static_residual_change_gray": 1.2019035816192627,
+          "local_target_centroid_error_pixels": 2.6973239966818365
+        }
+      }
+    },
+    {
+      "frame": 16,
+      "current_pixels": 31,
+      "historical_only_pixels": 283,
+      "GT_boxes": [
+        [
+          436,
+          469,
+          3,
+          2,
+          6,
+          1
+        ],
+        [
+          610,
+          1099,
+          4,
+          3,
+          8,
+          1
+        ],
+        [
+          288,
+          118,
+          4,
+          2,
+          7,
+          -1
+        ],
+        [
+          541,
+          855,
+          5,
+          3,
+          10,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.18697915971279144,
+          "current_target_signal_mae_gray": 11.015120506286621,
+          "historical_only_signed_excess_gray": 1.3001877208480566,
+          "historical_only_signal_mae_gray": 1.718694806098938,
+          "road_static_residual_change_gray": 1.0714163780212402,
+          "local_target_centroid_error_pixels": 5.87836109847971
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6101190447807312,
+          "current_target_signal_mae_gray": 5.282258033752441,
+          "historical_only_signed_excess_gray": 1.0768551236749118,
+          "historical_only_signal_mae_gray": 1.683359146118164,
+          "road_static_residual_change_gray": 1.2014116048812866,
+          "local_target_centroid_error_pixels": 2.3721634522027886
+        }
+      }
+    },
+    {
+      "frame": 17,
+      "current_pixels": 8,
+      "historical_only_pixels": 275,
+      "GT_boxes": [
+        [
+          528,
+          843,
+          2,
+          3,
+          4,
+          -1
+        ],
+        [
+          609,
+          1108,
+          3,
+          2,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.23634709417819977,
+          "current_target_signal_mae_gray": 9.83203125,
+          "historical_only_signed_excess_gray": 1.349034090909091,
+          "historical_only_signal_mae_gray": 1.602556824684143,
+          "road_static_residual_change_gray": 0.9716961979866028
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5967839956283569,
+          "current_target_signal_mae_gray": 5.44921875,
+          "historical_only_signed_excess_gray": 1.244715909090909,
+          "historical_only_signal_mae_gray": 1.6280113458633423,
+          "road_static_residual_change_gray": 1.1099529266357422,
+          "local_target_centroid_error_pixels": 3.2750910899849046
+        }
+      }
+    },
+    {
+      "frame": 18,
+      "current_pixels": 7,
+      "historical_only_pixels": 252,
+      "GT_boxes": [
+        [
+          642,
+          1224,
+          3,
+          3,
+          7,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.2523026168346405,
+          "current_target_signal_mae_gray": 10.147321701049805,
+          "historical_only_signed_excess_gray": 1.3586929563492063,
+          "historical_only_signal_mae_gray": 1.8090897798538208,
+          "road_static_residual_change_gray": 0.9473517537117004
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5200657844543457,
+          "current_target_signal_mae_gray": 6.513392925262451,
+          "historical_only_signed_excess_gray": 1.1157614087301588,
+          "historical_only_signal_mae_gray": 1.8454240560531616,
+          "road_static_residual_change_gray": 1.0968927145004272,
+          "local_target_centroid_error_pixels": 9.15328835412437
+        }
+      }
+    },
+    {
+      "frame": 19,
+      "current_pixels": 21,
+      "historical_only_pixels": 191,
+      "GT_boxes": [
+        [
+          148,
+          27,
+          7,
+          6,
+          21,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.1079854816198349,
+          "current_target_signal_mae_gray": 11.702381134033203,
+          "historical_only_signed_excess_gray": 1.275850785340314,
+          "historical_only_signal_mae_gray": 1.6350622177124023,
+          "road_static_residual_change_gray": 0.9391397833824158
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.3591197729110718,
+          "current_target_signal_mae_gray": 8.407737731933594,
+          "historical_only_signed_excess_gray": 1.2108147905759161,
+          "historical_only_signal_mae_gray": 1.5882689952850342,
+          "road_static_residual_change_gray": 1.0892360210418701,
+          "local_target_centroid_error_pixels": 1.270855952119425
+        }
+      }
+    },
+    {
+      "frame": 20,
+      "current_pixels": 11,
+      "historical_only_pixels": 221,
+      "GT_boxes": [
+        [
+          301,
+          147,
+          5,
+          3,
+          11,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.21339285373687744,
+          "current_target_signal_mae_gray": 10.011363983154297,
+          "historical_only_signed_excess_gray": 0.9968891402714932,
+          "historical_only_signal_mae_gray": 1.3353365659713745,
+          "road_static_residual_change_gray": 0.8896095156669617
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5678571462631226,
+          "current_target_signal_mae_gray": 5.5,
+          "historical_only_signed_excess_gray": 0.9869909502262444,
+          "historical_only_signal_mae_gray": 1.5750141143798828,
+          "road_static_residual_change_gray": 1.054882287979126,
+          "local_target_centroid_error_pixels": 0.4747767736906422
+        }
+      }
+    },
+    {
+      "frame": 21,
+      "current_pixels": 0,
+      "historical_only_pixels": 233,
+      "GT_boxes": [],
+      "methods": {
+        "原夜间九帧": {
+          "historical_only_signed_excess_gray": 1.3565584763948497,
+          "historical_only_signal_mae_gray": 1.662352442741394,
+          "road_static_residual_change_gray": 1.0405163764953613
+        },
+        "局部当前夜间": {
+          "historical_only_signed_excess_gray": 1.3890826180257512,
+          "historical_only_signal_mae_gray": 1.8336910009384155,
+          "road_static_residual_change_gray": 1.1942037343978882
+        }
+      }
+    },
+    {
+      "frame": 22,
+      "current_pixels": 8,
+      "historical_only_pixels": 223,
+      "GT_boxes": [
+        [
+          474,
+          552,
+          3,
+          5,
+          8,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.19263392686843872,
+          "current_target_signal_mae_gray": 14.12890625,
+          "historical_only_signed_excess_gray": 1.0419002242152466,
+          "historical_only_signal_mae_gray": 1.6285734176635742,
+          "road_static_residual_change_gray": 1.0027166604995728,
+          "local_target_centroid_error_pixels": 0.9287537190336996
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5305803418159485,
+          "current_target_signal_mae_gray": 8.73046875,
+          "historical_only_signed_excess_gray": 1.0381165919282511,
+          "historical_only_signal_mae_gray": 1.543161392211914,
+          "road_static_residual_change_gray": 1.1473569869995117,
+          "local_target_centroid_error_pixels": 1.9948831043854387
+        }
+      }
+    },
+    {
+      "frame": 23,
+      "current_pixels": 25,
+      "historical_only_pixels": 213,
+      "GT_boxes": [
+        [
+          184,
+          56,
+          4,
+          2,
+          6,
+          1
+        ],
+        [
+          399,
+          266,
+          2,
+          2,
+          4,
+          1
+        ],
+        [
+          475,
+          558,
+          7,
+          4,
+          15,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.18530559539794922,
+          "current_target_signal_mae_gray": 12.529999732971191,
+          "historical_only_signed_excess_gray": 1.4245158450704225,
+          "historical_only_signal_mae_gray": 1.5575851202011108,
+          "road_static_residual_change_gray": 1.0440301895141602,
+          "local_target_centroid_error_pixels": 0.6848997018494434
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5304778814315796,
+          "current_target_signal_mae_gray": 7.221250057220459,
+          "historical_only_signed_excess_gray": 1.387030516431925,
+          "historical_only_signal_mae_gray": 1.5881749391555786,
+          "road_static_residual_change_gray": 1.187230110168457,
+          "local_target_centroid_error_pixels": 1.1856346136857303
+        }
+      }
+    },
+    {
+      "frame": 24,
+      "current_pixels": 29,
+      "historical_only_pixels": 264,
+      "GT_boxes": [
+        [
+          446,
+          545,
+          2,
+          3,
+          5,
+          1
+        ],
+        [
+          384,
+          220,
+          3,
+          2,
+          6,
+          -1
+        ],
+        [
+          463,
+          584,
+          3,
+          5,
+          13,
+          -1
+        ],
+        [
+          507,
+          655,
+          2,
+          3,
+          5,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.16795367002487183,
+          "current_target_signal_mae_gray": 11.146552085876465,
+          "historical_only_signed_excess_gray": 1.2339607007575757,
+          "historical_only_signal_mae_gray": 1.5703716278076172,
+          "road_static_residual_change_gray": 0.9214109778404236
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5768983364105225,
+          "current_target_signal_mae_gray": 5.668103218078613,
+          "historical_only_signed_excess_gray": 1.3075284090909092,
+          "historical_only_signal_mae_gray": 1.6543560028076172,
+          "road_static_residual_change_gray": 1.0683817863464355,
+          "local_target_centroid_error_pixels": 1.933073599171564
+        }
+      }
+    },
+    {
+      "frame": 25,
+      "current_pixels": 23,
+      "historical_only_pixels": 257,
+      "GT_boxes": [
+        [
+          461,
+          592,
+          7,
+          3,
+          18,
+          1
+        ],
+        [
+          600,
+          973,
+          2,
+          3,
+          5,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.26710304617881775,
+          "current_target_signal_mae_gray": 9.4320650100708,
+          "historical_only_signed_excess_gray": 0.9978112840466926,
+          "historical_only_signal_mae_gray": 1.4163423776626587,
+          "road_static_residual_change_gray": 0.9665123820304871,
+          "local_target_centroid_error_pixels": 6.1942570296791635
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.7222339510917664,
+          "current_target_signal_mae_gray": 3.99320650100708,
+          "historical_only_signed_excess_gray": 0.8050826848249028,
+          "historical_only_signal_mae_gray": 1.4315418004989624,
+          "road_static_residual_change_gray": 1.1247221231460571,
+          "local_target_centroid_error_pixels": 0.4097698494127987
+        }
+      }
+    },
+    {
+      "frame": 26,
+      "current_pixels": 4,
+      "historical_only_pixels": 286,
+      "GT_boxes": [
+        [
+          456,
+          599,
+          2,
+          2,
+          4,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.28125,
+          "current_target_signal_mae_gray": 8.984375,
+          "historical_only_signed_excess_gray": 1.3035948426573427,
+          "historical_only_signal_mae_gray": 1.455310344696045,
+          "road_static_residual_change_gray": 1.1185452938079834
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6787499785423279,
+          "current_target_signal_mae_gray": 4.015625,
+          "historical_only_signed_excess_gray": 1.1333041958041958,
+          "historical_only_signal_mae_gray": 1.455310344696045,
+          "road_static_residual_change_gray": 1.2647665739059448,
+          "local_target_centroid_error_pixels": 4.639855112864354
+        }
+      }
+    },
+    {
+      "frame": 27,
+      "current_pixels": 20,
+      "historical_only_pixels": 280,
+      "GT_boxes": [
+        [
+          363,
+          205,
+          2,
+          3,
+          5,
+          1
+        ],
+        [
+          567,
+          911,
+          3,
+          4,
+          11,
+          -1
+        ],
+        [
+          635,
+          1215,
+          2,
+          2,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.22486412525177002,
+          "current_target_signal_mae_gray": 8.9140625,
+          "historical_only_signed_excess_gray": 1.4580357142857143,
+          "historical_only_signal_mae_gray": 1.7441964149475098,
+          "road_static_residual_change_gray": 0.9859710335731506
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6290760636329651,
+          "current_target_signal_mae_gray": 4.265625,
+          "historical_only_signed_excess_gray": 1.2493303571428571,
+          "historical_only_signal_mae_gray": 1.5566964149475098,
+          "road_static_residual_change_gray": 1.1479710340499878,
+          "local_target_centroid_error_pixels": 1.2449776404338015
+        }
+      }
+    },
+    {
+      "frame": 28,
+      "current_pixels": 8,
+      "historical_only_pixels": 285,
+      "GT_boxes": [
+        [
+          446,
+          506,
+          3,
+          3,
+          8,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.3374439477920532,
+          "current_target_signal_mae_gray": 9.234375,
+          "historical_only_signed_excess_gray": 1.031469298245614,
+          "historical_only_signal_mae_gray": 1.3026316165924072,
+          "road_static_residual_change_gray": 0.9681994915008545,
+          "local_target_centroid_error_pixels": 1.434656693883186
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.7015134692192078,
+          "current_target_signal_mae_gray": 4.16015625,
+          "historical_only_signed_excess_gray": 0.9775219298245614,
+          "historical_only_signal_mae_gray": 1.3278508186340332,
+          "road_static_residual_change_gray": 1.1302540302276611,
+          "local_target_centroid_error_pixels": 1.0506301728081182
+        }
+      }
+    },
+    {
+      "frame": 29,
+      "current_pixels": 10,
+      "historical_only_pixels": 280,
+      "GT_boxes": [
+        [
+          479,
+          596,
+          2,
+          3,
+          5,
+          1
+        ],
+        [
+          540,
+          806,
+          3,
+          2,
+          5,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.23223039507865906,
+          "current_target_signal_mae_gray": 11.746874809265137,
+          "historical_only_signed_excess_gray": 1.1885044642857143,
+          "historical_only_signal_mae_gray": 1.4638392925262451,
+          "road_static_residual_change_gray": 1.0667539834976196
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6078431606292725,
+          "current_target_signal_mae_gray": 6.0,
+          "historical_only_signed_excess_gray": 1.20078125,
+          "historical_only_signal_mae_gray": 1.5553570985794067,
+          "road_static_residual_change_gray": 1.222495436668396,
+          "local_target_centroid_error_pixels": 0.1516621519925473
+        }
+      }
+    },
+    {
+      "frame": 30,
+      "current_pixels": 13,
+      "historical_only_pixels": 308,
+      "GT_boxes": [
+        [
+          537,
+          798,
+          4,
+          1,
+          4,
+          1
+        ],
+        [
+          604,
+          1127,
+          3,
+          6,
+          9,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.11896783113479614,
+          "current_target_signal_mae_gray": 12.639423370361328,
+          "historical_only_signed_excess_gray": 1.6184050324675325,
+          "historical_only_signal_mae_gray": 2.163656711578369,
+          "road_static_residual_change_gray": 0.9675906300544739,
+          "local_target_centroid_error_pixels": 9.04233084059211
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.4708445072174072,
+          "current_target_signal_mae_gray": 7.591346263885498,
+          "historical_only_signed_excess_gray": 1.499594155844156,
+          "historical_only_signal_mae_gray": 1.9748376607894897,
+          "road_static_residual_change_gray": 1.133758783340454,
+          "local_target_centroid_error_pixels": 2.119341327705465
+        }
+      }
+    },
+    {
+      "frame": 31,
+      "current_pixels": 22,
+      "historical_only_pixels": 302,
+      "GT_boxes": [
+        [
+          604,
+          1125,
+          3,
+          7,
+          15,
+          1
+        ],
+        [
+          517,
+          702,
+          3,
+          3,
+          7,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.1834564059972763,
+          "current_target_signal_mae_gray": 13.194602012634277,
+          "historical_only_signed_excess_gray": 1.3702400662251655,
+          "historical_only_signal_mae_gray": 1.6715645790100098,
+          "road_static_residual_change_gray": 0.8808621168136597,
+          "local_target_centroid_error_pixels": 2.9566849802343382
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5074718594551086,
+          "current_target_signal_mae_gray": 7.958806991577148,
+          "historical_only_signed_excess_gray": 1.3206746688741722,
+          "historical_only_signal_mae_gray": 1.6929842233657837,
+          "road_static_residual_change_gray": 1.0496101379394531,
+          "local_target_centroid_error_pixels": 0.23593676969828037
+        }
+      }
+    },
+    {
+      "frame": 32,
+      "current_pixels": 12,
+      "historical_only_pixels": 266,
+      "GT_boxes": [
+        [
+          603,
+          1122,
+          3,
+          6,
+          12,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.19367647171020508,
+          "current_target_signal_mae_gray": 14.278645515441895,
+          "historical_only_signed_excess_gray": 1.1956062030075187,
+          "historical_only_signal_mae_gray": 1.5085761547088623,
+          "road_static_residual_change_gray": 1.0753012895584106,
+          "local_target_centroid_error_pixels": 6.524047549129317
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.47720587253570557,
+          "current_target_signal_mae_gray": 9.2578125,
+          "historical_only_signed_excess_gray": 1.1785714285714286,
+          "historical_only_signal_mae_gray": 1.7048872709274292,
+          "road_static_residual_change_gray": 1.2167260646820068,
+          "local_target_centroid_error_pixels": 1.3907207405435282
+        }
+      }
+    },
+    {
+      "frame": 33,
+      "current_pixels": 26,
+      "historical_only_pixels": 198,
+      "GT_boxes": [
+        [
+          473,
+          549,
+          2,
+          4,
+          6,
+          1
+        ],
+        [
+          557,
+          979,
+          3,
+          2,
+          5,
+          1
+        ],
+        [
+          603,
+          1123,
+          3,
+          5,
+          8,
+          1
+        ],
+        [
+          608,
+          1138,
+          4,
+          2,
+          7,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.25435712933540344,
+          "current_target_signal_mae_gray": 12.546875,
+          "historical_only_signed_excess_gray": 1.3072916666666667,
+          "historical_only_signal_mae_gray": 1.7536300420761108,
+          "road_static_residual_change_gray": 0.9978252053260803,
+          "local_target_centroid_error_pixels": 0.8433069998941668
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5771428346633911,
+          "current_target_signal_mae_gray": 7.199519157409668,
+          "historical_only_signed_excess_gray": 1.152935606060606,
+          "historical_only_signal_mae_gray": 1.5108901262283325,
+          "road_static_residual_change_gray": 1.1555570363998413,
+          "local_target_centroid_error_pixels": 1.0201725107347945
+        }
+      }
+    },
+    {
+      "frame": 34,
+      "current_pixels": 37,
+      "historical_only_pixels": 197,
+      "GT_boxes": [
+        [
+          434,
+          378,
+          3,
+          2,
+          4,
+          1
+        ],
+        [
+          485,
+          655,
+          2,
+          5,
+          8,
+          1
+        ],
+        [
+          602,
+          1121,
+          4,
+          6,
+          15,
+          1
+        ],
+        [
+          384,
+          218,
+          2,
+          2,
+          4,
+          -1
+        ],
+        [
+          462,
+          600,
+          3,
+          3,
+          6,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.23929981887340546,
+          "current_target_signal_mae_gray": 11.70861530303955,
+          "historical_only_signed_excess_gray": 1.4168781725888324,
+          "historical_only_signal_mae_gray": 1.8551713228225708,
+          "road_static_residual_change_gray": 0.9761807322502136,
+          "local_target_centroid_error_pixels": 11.862909929091266
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5849429368972778,
+          "current_target_signal_mae_gray": 6.388513565063477,
+          "historical_only_signed_excess_gray": 1.3551713197969544,
+          "historical_only_signal_mae_gray": 1.836135745048523,
+          "road_static_residual_change_gray": 1.1305851936340332,
+          "local_target_centroid_error_pixels": 0.7801536784510921
+        }
+      }
+    },
+    {
+      "frame": 35,
+      "current_pixels": 27,
+      "historical_only_pixels": 232,
+      "GT_boxes": [
+        [
+          484,
+          658,
+          3,
+          3,
+          6,
+          1
+        ],
+        [
+          601,
+          1118,
+          4,
+          5,
+          12,
+          1
+        ],
+        [
+          473,
+          546,
+          2,
+          3,
+          5,
+          -1
+        ],
+        [
+          515,
+          694,
+          2,
+          3,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.14740297198295593,
+          "current_target_signal_mae_gray": 13.831018447875977,
+          "historical_only_signed_excess_gray": 1.6899245689655173,
+          "historical_only_signal_mae_gray": 1.8473868370056152,
+          "road_static_residual_change_gray": 0.934812068939209,
+          "local_target_centroid_error_pixels": 4.959324608019696
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.533747136592865,
+          "current_target_signal_mae_gray": 7.598379611968994,
+          "historical_only_signed_excess_gray": 1.5529364224137931,
+          "historical_only_signal_mae_gray": 1.8585667610168457,
+          "road_static_residual_change_gray": 1.0956662893295288,
+          "local_target_centroid_error_pixels": 1.1713838000686494
+        }
+      }
+    },
+    {
+      "frame": 36,
+      "current_pixels": 20,
+      "historical_only_pixels": 226,
+      "GT_boxes": [
+        [
+          471,
+          545,
+          3,
+          3,
+          7,
+          1
+        ],
+        [
+          601,
+          1118,
+          3,
+          5,
+          9,
+          1
+        ],
+        [
+          494,
+          656,
+          2,
+          2,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.19877897202968597,
+          "current_target_signal_mae_gray": 12.098437309265137,
+          "historical_only_signed_excess_gray": 2.0554480088495577,
+          "historical_only_signal_mae_gray": 2.2110066413879395,
+          "road_static_residual_change_gray": 1.1384506225585938,
+          "local_target_centroid_error_pixels": 4.944102278528978
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5561879277229309,
+          "current_target_signal_mae_gray": 6.701562404632568,
+          "historical_only_signed_excess_gray": 1.8000553097345133,
+          "historical_only_signal_mae_gray": 2.0801990032196045,
+          "road_static_residual_change_gray": 1.2771811485290527,
+          "local_target_centroid_error_pixels": 3.0000361732712313
+        }
+      }
+    },
+    {
+      "frame": 37,
+      "current_pixels": 0,
+      "historical_only_pixels": 263,
+      "GT_boxes": [],
+      "methods": {
+        "原夜间九帧": {
+          "historical_only_signed_excess_gray": 1.71518536121673,
+          "historical_only_signal_mae_gray": 2.0942251682281494,
+          "road_static_residual_change_gray": 1.0151538848876953
+        },
+        "局部当前夜间": {
+          "historical_only_signed_excess_gray": 1.682865969581749,
+          "historical_only_signal_mae_gray": 2.0147337913513184,
+          "road_static_residual_change_gray": 1.1670178174972534
+        }
+      }
+    },
+    {
+      "frame": 38,
+      "current_pixels": 8,
+      "historical_only_pixels": 235,
+      "GT_boxes": [
+        [
+          603,
+          1113,
+          4,
+          3,
+          8,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.34606480598449707,
+          "current_target_signal_mae_gray": 8.828125,
+          "historical_only_signed_excess_gray": 1.613031914893617,
+          "historical_only_signal_mae_gray": 1.8481383323669434,
+          "road_static_residual_change_gray": 1.0782009363174438,
+          "local_target_centroid_error_pixels": 2.715499101089511
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.7106481194496155,
+          "current_target_signal_mae_gray": 4.0703125,
+          "historical_only_signed_excess_gray": 1.3849734042553192,
+          "historical_only_signal_mae_gray": 1.7401596307754517,
+          "road_static_residual_change_gray": 1.2092678546905518,
+          "local_target_centroid_error_pixels": 0.7343108888941217
+        }
+      }
+    },
+    {
+      "frame": 39,
+      "current_pixels": 25,
+      "historical_only_pixels": 220,
+      "GT_boxes": [
+        [
+          599,
+          1112,
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          251,
+          73,
+          3,
+          2,
+          5,
+          -1
+        ],
+        [
+          577,
+          978,
+          2,
+          3,
+          5,
+          -1
+        ],
+        [
+          604,
+          1112,
+          2,
+          3,
+          6,
+          -1
+        ],
+        [
+          650,
+          1260,
+          3,
+          2,
+          5,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.25777605175971985,
+          "current_target_signal_mae_gray": 9.545000076293945,
+          "historical_only_signed_excess_gray": 1.8163352272727273,
+          "historical_only_signal_mae_gray": 1.9747159481048584,
+          "road_static_residual_change_gray": 1.0133389234542847,
+          "local_target_centroid_error_pixels": 6.295585090453578
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6294712424278259,
+          "current_target_signal_mae_gray": 4.764999866485596,
+          "historical_only_signed_excess_gray": 1.7947443181818181,
+          "historical_only_signal_mae_gray": 2.0132102966308594,
+          "road_static_residual_change_gray": 1.157778263092041,
+          "local_target_centroid_error_pixels": 2.2668482248127595
+        }
+      }
+    },
+    {
+      "frame": 40,
+      "current_pixels": 25,
+      "historical_only_pixels": 236,
+      "GT_boxes": [
+        [
+          519,
+          703,
+          2,
+          2,
+          4,
+          1
+        ],
+        [
+          539,
+          818,
+          3,
+          2,
+          5,
+          1
+        ],
+        [
+          392,
+          296,
+          2,
+          3,
+          5,
+          -1
+        ],
+        [
+          603,
+          1111,
+          2,
+          4,
+          6,
+          -1
+        ],
+        [
+          614,
+          1037,
+          2,
+          4,
+          5,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.2237192690372467,
+          "current_target_signal_mae_gray": 9.470624923706055,
+          "historical_only_signed_excess_gray": 1.8673199152542372,
+          "historical_only_signal_mae_gray": 2.200211763381958,
+          "road_static_residual_change_gray": 0.8988492488861084,
+          "local_target_centroid_error_pixels": 2.4486404391008496
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5733094215393066,
+          "current_target_signal_mae_gray": 5.205625057220459,
+          "historical_only_signed_excess_gray": 1.9182997881355932,
+          "historical_only_signal_mae_gray": 2.328787088394165,
+          "road_static_residual_change_gray": 1.0658314228057861,
+          "local_target_centroid_error_pixels": 1.5207500322663905
+        }
+      }
+    },
+    {
+      "frame": 41,
+      "current_pixels": 12,
+      "historical_only_pixels": 312,
+      "GT_boxes": [
+        [
+          661,
+          1263,
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          393,
+          291,
+          3,
+          3,
+          8,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.26826298236846924,
+          "current_target_signal_mae_gray": 9.390625,
+          "historical_only_signed_excess_gray": 1.2779947916666667,
+          "historical_only_signal_mae_gray": 1.6723757982254028,
+          "road_static_residual_change_gray": 1.012315273284912,
+          "local_target_centroid_error_pixels": 6.895902163428221
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.692573070526123,
+          "current_target_signal_mae_gray": 3.9453125,
+          "historical_only_signed_excess_gray": 1.0744190705128205,
+          "historical_only_signal_mae_gray": 1.7362279891967773,
+          "road_static_residual_change_gray": 1.1483486890792847,
+          "local_target_centroid_error_pixels": 2.613561065722374
+        }
+      }
+    },
+    {
+      "frame": 42,
+      "current_pixels": 20,
+      "historical_only_pixels": 299,
+      "GT_boxes": [
+        [
+          159,
+          22,
+          3,
+          5,
+          12,
+          -1
+        ],
+        [
+          541,
+          815,
+          2,
+          2,
+          4,
+          -1
+        ],
+        [
+          619,
+          1093,
+          3,
+          2,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.31006768345832825,
+          "current_target_signal_mae_gray": 10.193750381469727,
+          "historical_only_signed_excess_gray": 1.1811245819397993,
+          "historical_only_signal_mae_gray": 1.531877040863037,
+          "road_static_residual_change_gray": 0.930542528629303,
+          "local_target_centroid_error_pixels": 7.737446153119337
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.7018824219703674,
+          "current_target_signal_mae_gray": 4.4296875,
+          "historical_only_signed_excess_gray": 0.9372909698996655,
+          "historical_only_signal_mae_gray": 1.5085179805755615,
+          "road_static_residual_change_gray": 1.0787450075149536,
+          "local_target_centroid_error_pixels": 2.310418306507597
+        }
+      }
+    },
+    {
+      "frame": 43,
+      "current_pixels": 17,
+      "historical_only_pixels": 284,
+      "GT_boxes": [
+        [
+          346,
+          164,
+          3,
+          2,
+          5,
+          -1
+        ],
+        [
+          454,
+          448,
+          2,
+          4,
+          8,
+          -1
+        ],
+        [
+          523,
+          724,
+          2,
+          3,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.22775423526763916,
+          "current_target_signal_mae_gray": 10.720588684082031,
+          "historical_only_signed_excess_gray": 1.4695202464788732,
+          "historical_only_signal_mae_gray": 1.740977168083191,
+          "road_static_residual_change_gray": 0.937242865562439,
+          "local_target_centroid_error_pixels": 8.717142660992812
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.7039194703102112,
+          "current_target_signal_mae_gray": 4.110294342041016,
+          "historical_only_signed_excess_gray": 1.3223481514084507,
+          "historical_only_signal_mae_gray": 1.6818331480026245,
+          "road_static_residual_change_gray": 1.0833005905151367,
+          "local_target_centroid_error_pixels": 0.31783142803161574
+        }
+      }
+    },
+    {
+      "frame": 44,
+      "current_pixels": 22,
+      "historical_only_pixels": 285,
+      "GT_boxes": [
+        [
+          336,
+          168,
+          2,
+          3,
+          5,
+          1
+        ],
+        [
+          492,
+          656,
+          3,
+          3,
+          8,
+          1
+        ],
+        [
+          525,
+          731,
+          2,
+          3,
+          4,
+          -1
+        ],
+        [
+          602,
+          1104,
+          2,
+          4,
+          5,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.17201922833919525,
+          "current_target_signal_mae_gray": 12.231534004211426,
+          "historical_only_signed_excess_gray": 1.8643640350877193,
+          "historical_only_signal_mae_gray": 2.0935306549072266,
+          "road_static_residual_change_gray": 0.9508959054946899,
+          "local_target_centroid_error_pixels": 7.852288651403286
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5375000238418579,
+          "current_target_signal_mae_gray": 6.832386493682861,
+          "historical_only_signed_excess_gray": 1.765844298245614,
+          "historical_only_signal_mae_gray": 2.187225818634033,
+          "road_static_residual_change_gray": 1.0932632684707642,
+          "local_target_centroid_error_pixels": 3.397071173845001
+        }
+      }
+    },
+    {
+      "frame": 45,
+      "current_pixels": 12,
+      "historical_only_pixels": 311,
+      "GT_boxes": [
+        [
+          642,
+          1128,
+          2,
+          4,
+          6,
+          1
+        ],
+        [
+          206,
+          55,
+          3,
+          3,
+          6,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.17142857611179352,
+          "current_target_signal_mae_gray": 10.875,
+          "historical_only_signed_excess_gray": 1.6948352090032155,
+          "historical_only_signal_mae_gray": 1.9233319759368896,
+          "road_static_residual_change_gray": 0.9766392111778259
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6007936596870422,
+          "current_target_signal_mae_gray": 5.239583492279053,
+          "historical_only_signed_excess_gray": 1.48141077170418,
+          "historical_only_signal_mae_gray": 1.8546522855758667,
+          "road_static_residual_change_gray": 1.1280804872512817,
+          "local_target_centroid_error_pixels": 0.40039158022509547
+        }
+      }
+    },
+    {
+      "frame": 46,
+      "current_pixels": 7,
+      "historical_only_pixels": 340,
+      "GT_boxes": [
+        [
+          600,
+          1098,
+          2,
+          4,
+          7,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.2845052182674408,
+          "current_target_signal_mae_gray": 9.8125,
+          "historical_only_signed_excess_gray": 1.4348345588235294,
+          "historical_only_signal_mae_gray": 1.826332688331604,
+          "road_static_residual_change_gray": 0.9490423202514648,
+          "local_target_centroid_error_pixels": 6.658552675393671
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.697265625,
+          "current_target_signal_mae_gray": 4.151785850524902,
+          "historical_only_signed_excess_gray": 1.290625,
+          "historical_only_signal_mae_gray": 1.7060202360153198,
+          "road_static_residual_change_gray": 1.1177152395248413,
+          "local_target_centroid_error_pixels": 5.167334349599562
+        }
+      }
+    },
+    {
+      "frame": 47,
+      "current_pixels": 21,
+      "historical_only_pixels": 338,
+      "GT_boxes": [
+        [
+          598,
+          1095,
+          5,
+          5,
+          17,
+          -1
+        ],
+        [
+          640,
+          1184,
+          3,
+          2,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.23059210181236267,
+          "current_target_signal_mae_gray": 10.441964149475098,
+          "historical_only_signed_excess_gray": 1.4445728550295858,
+          "historical_only_signal_mae_gray": 1.6757118701934814,
+          "road_static_residual_change_gray": 0.9222361445426941,
+          "local_target_centroid_error_pixels": 2.370397096540844
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5992324352264404,
+          "current_target_signal_mae_gray": 5.438988208770752,
+          "historical_only_signed_excess_gray": 1.1371116863905326,
+          "historical_only_signal_mae_gray": 1.4744360446929932,
+          "road_static_residual_change_gray": 1.0795841217041016,
+          "local_target_centroid_error_pixels": 1.5425093449907312
+        }
+      }
+    },
+    {
+      "frame": 48,
+      "current_pixels": 13,
+      "historical_only_pixels": 303,
+      "GT_boxes": [
+        [
+          598,
+          1094,
+          4,
+          4,
+          13,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.22755028307437897,
+          "current_target_signal_mae_gray": 10.338942527770996,
+          "historical_only_signed_excess_gray": 1.3819100660066006,
+          "historical_only_signal_mae_gray": 1.6518667936325073,
+          "road_static_residual_change_gray": 0.9644566178321838
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5332255959510803,
+          "current_target_signal_mae_gray": 6.247596263885498,
+          "historical_only_signed_excess_gray": 1.3745874587458746,
+          "historical_only_signal_mae_gray": 1.586736798286438,
+          "road_static_residual_change_gray": 1.1183815002441406,
+          "local_target_centroid_error_pixels": 0.31993740549809685
+        }
+      }
+    },
+    {
+      "frame": 49,
+      "current_pixels": 26,
+      "historical_only_pixels": 249,
+      "GT_boxes": [
+        [
+          453,
+          537,
+          4,
+          1,
+          4,
+          1
+        ],
+        [
+          514,
+          684,
+          3,
+          2,
+          5,
+          1
+        ],
+        [
+          597,
+          1090,
+          4,
+          6,
+          17,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.15029548108577728,
+          "current_target_signal_mae_gray": 11.405649185180664,
+          "historical_only_signed_excess_gray": 1.4620356425702812,
+          "historical_only_signal_mae_gray": 1.8787022829055786,
+          "road_static_residual_change_gray": 1.0468801259994507,
+          "local_target_centroid_error_pixels": 3.63923767614797
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5233703255653381,
+          "current_target_signal_mae_gray": 6.397836685180664,
+          "historical_only_signed_excess_gray": 1.2063880522088353,
+          "historical_only_signal_mae_gray": 1.9883910417556763,
+          "road_static_residual_change_gray": 1.1874864101409912,
+          "local_target_centroid_error_pixels": 1.4784129441574712
+        }
+      }
+    },
+    {
+      "frame": 50,
+      "current_pixels": 37,
+      "historical_only_pixels": 238,
+      "GT_boxes": [
+        [
+          515,
+          689,
+          2,
+          2,
+          4,
+          1
+        ],
+        [
+          554,
+          952,
+          2,
+          2,
+          4,
+          -1
+        ],
+        [
+          596,
+          1088,
+          5,
+          9,
+          29,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.3344861567020416,
+          "current_target_signal_mae_gray": 9.101351737976074,
+          "historical_only_signed_excess_gray": 1.4621848739495797,
+          "historical_only_signal_mae_gray": 1.697479009628296,
+          "road_static_residual_change_gray": 0.952366292476654,
+          "local_target_centroid_error_pixels": 3.0468799912554663
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5874505639076233,
+          "current_target_signal_mae_gray": 5.641891956329346,
+          "historical_only_signed_excess_gray": 1.4503019957983194,
+          "historical_only_signal_mae_gray": 1.8303571939468384,
+          "road_static_residual_change_gray": 1.1161019802093506,
+          "local_target_centroid_error_pixels": 0.9419738693660511
+        }
+      }
+    },
+    {
+      "frame": 51,
+      "current_pixels": 15,
+      "historical_only_pixels": 250,
+      "GT_boxes": [
+        [
+          478,
+          617,
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          596,
+          1089,
+          3,
+          3,
+          6,
+          -1
+        ],
+        [
+          669,
+          1274,
+          5,
+          1,
+          5,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.22782258689403534,
+          "current_target_signal_mae_gray": 9.574999809265137,
+          "historical_only_signed_excess_gray": 1.290375,
+          "historical_only_signal_mae_gray": 1.7133749723434448,
+          "road_static_residual_change_gray": 1.036338210105896
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5021841526031494,
+          "current_target_signal_mae_gray": 6.172916889190674,
+          "historical_only_signed_excess_gray": 1.3045625,
+          "historical_only_signal_mae_gray": 1.778749942779541,
+          "road_static_residual_change_gray": 1.1912434101104736,
+          "local_target_centroid_error_pixels": 1.6587896686197168
+        }
+      }
+    },
+    {
+      "frame": 52,
+      "current_pixels": 16,
+      "historical_only_pixels": 247,
+      "GT_boxes": [
+        [
+          658,
+          1264,
+          3,
+          3,
+          5,
+          1
+        ],
+        [
+          565,
+          964,
+          2,
+          3,
+          6,
+          -1
+        ],
+        [
+          597,
+          1086,
+          3,
+          3,
+          5,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.23144298791885376,
+          "current_target_signal_mae_gray": 10.111328125,
+          "historical_only_signed_excess_gray": 1.5508603238866396,
+          "historical_only_signal_mae_gray": 1.893092155456543,
+          "road_static_residual_change_gray": 0.9887612462043762,
+          "local_target_centroid_error_pixels": 6.662836213468532
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6736935973167419,
+          "current_target_signal_mae_gray": 4.36328125,
+          "historical_only_signed_excess_gray": 1.426998987854251,
+          "historical_only_signal_mae_gray": 1.8562753200531006,
+          "road_static_residual_change_gray": 1.1456178426742554,
+          "local_target_centroid_error_pixels": 1.754971653349158
+        }
+      }
+    },
+    {
+      "frame": 53,
+      "current_pixels": 28,
+      "historical_only_pixels": 202,
+      "GT_boxes": [
+        [
+          533,
+          797,
+          2,
+          2,
+          4,
+          1
+        ],
+        [
+          597,
+          1084,
+          5,
+          7,
+          24,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.33544498682022095,
+          "current_target_signal_mae_gray": 9.600446701049805,
+          "historical_only_signed_excess_gray": 1.7937809405940595,
+          "historical_only_signal_mae_gray": 1.974938154220581,
+          "road_static_residual_change_gray": 0.9056942462921143,
+          "local_target_centroid_error_pixels": 1.037383729149034
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.5948702096939087,
+          "current_target_signal_mae_gray": 5.8526787757873535,
+          "historical_only_signed_excess_gray": 1.6571008663366336,
+          "historical_only_signal_mae_gray": 1.9460086822509766,
+          "road_static_residual_change_gray": 1.0593576431274414,
+          "local_target_centroid_error_pixels": 0.8729150476295923
+        }
+      }
+    },
+    {
+      "frame": 54,
+      "current_pixels": 42,
+      "historical_only_pixels": 226,
+      "GT_boxes": [
+        [
+          398,
+          273,
+          2,
+          2,
+          4,
+          1
+        ],
+        [
+          513,
+          742,
+          2,
+          2,
+          4,
+          1
+        ],
+        [
+          590,
+          1082,
+          6,
+          6,
+          30,
+          1
+        ],
+        [
+          595,
+          1059,
+          2,
+          3,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.16727028787136078,
+          "current_target_signal_mae_gray": 11.975446701049805,
+          "historical_only_signed_excess_gray": 2.379079092920354,
+          "historical_only_signal_mae_gray": 2.608614444732666,
+          "road_static_residual_change_gray": 1.1415693759918213,
+          "local_target_centroid_error_pixels": 17.411353108337043
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6117032170295715,
+          "current_target_signal_mae_gray": 5.58407735824585,
+          "historical_only_signed_excess_gray": 2.118708517699115,
+          "historical_only_signal_mae_gray": 2.3546736240386963,
+          "road_static_residual_change_gray": 1.2880109548568726,
+          "local_target_centroid_error_pixels": 1.8648708339591071
+        }
+      }
+    },
+    {
+      "frame": 55,
+      "current_pixels": 47,
+      "historical_only_pixels": 263,
+      "GT_boxes": [
+        [
+          472,
+          540,
+          3,
+          2,
+          4,
+          1
+        ],
+        [
+          522,
+          750,
+          2,
+          2,
+          4,
+          1
+        ],
+        [
+          589,
+          1079,
+          8,
+          6,
+          35,
+          1
+        ],
+        [
+          667,
+          1264,
+          3,
+          2,
+          4,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.30861130356788635,
+          "current_target_signal_mae_gray": 12.402925491333008,
+          "historical_only_signed_excess_gray": 2.094522338403042,
+          "historical_only_signal_mae_gray": 2.551865577697754,
+          "road_static_residual_change_gray": 1.1794610023498535,
+          "local_target_centroid_error_pixels": 1.8364149425060698
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6436417698860168,
+          "current_target_signal_mae_gray": 7.234707355499268,
+          "historical_only_signed_excess_gray": 1.717740019011407,
+          "historical_only_signal_mae_gray": 2.327590227127075,
+          "road_static_residual_change_gray": 1.3204573392868042,
+          "local_target_centroid_error_pixels": 0.5563577687183188
+        }
+      }
+    },
+    {
+      "frame": 56,
+      "current_pixels": 72,
+      "historical_only_pixels": 270,
+      "GT_boxes": [
+        [
+          472,
+          539,
+          3,
+          4,
+          7,
+          1
+        ],
+        [
+          483,
+          645,
+          2,
+          2,
+          4,
+          1
+        ],
+        [
+          588,
+          1077,
+          8,
+          8,
+          45,
+          1
+        ],
+        [
+          621,
+          1158,
+          4,
+          3,
+          8,
+          -1
+        ],
+        [
+          640,
+          1121,
+          3,
+          3,
+          8,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.21140967309474945,
+          "current_target_signal_mae_gray": 12.77625846862793,
+          "historical_only_signed_excess_gray": 2.0933449074074075,
+          "historical_only_signal_mae_gray": 2.3361690044403076,
+          "road_static_residual_change_gray": 0.9810082316398621,
+          "local_target_centroid_error_pixels": 4.6440979609389075
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.47886306047439575,
+          "current_target_signal_mae_gray": 8.44314193725586,
+          "historical_only_signed_excess_gray": 1.6710069444444444,
+          "historical_only_signal_mae_gray": 1.9526041746139526,
+          "road_static_residual_change_gray": 1.119504451751709,
+          "local_target_centroid_error_pixels": 2.051881166234245
+        }
+      }
+    },
+    {
+      "frame": 57,
+      "current_pixels": 28,
+      "historical_only_pixels": 363,
+      "GT_boxes": [
+        [
+          473,
+          548,
+          2,
+          4,
+          6,
+          1
+        ],
+        [
+          590,
+          1076,
+          6,
+          5,
+          22,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.2703359127044678,
+          "current_target_signal_mae_gray": 13.915736198425293,
+          "historical_only_signed_excess_gray": 1.2965306473829201,
+          "historical_only_signal_mae_gray": 1.9661242961883545,
+          "road_static_residual_change_gray": 0.9121036529541016,
+          "local_target_centroid_error_pixels": 1.5744172774076188
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6087898015975952,
+          "current_target_signal_mae_gray": 7.4609375,
+          "historical_only_signed_excess_gray": 1.2671745867768596,
+          "historical_only_signal_mae_gray": 2.0286242961883545,
+          "road_static_residual_change_gray": 1.06480872631073,
+          "local_target_centroid_error_pixels": 0.49443474465000625
+        }
+      }
+    },
+    {
+      "frame": 58,
+      "current_pixels": 46,
+      "historical_only_pixels": 356,
+      "GT_boxes": [
+        [
+          588,
+          1072,
+          8,
+          9,
+          46,
+          1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.26793840527534485,
+          "current_target_signal_mae_gray": 13.11345100402832,
+          "historical_only_signed_excess_gray": 1.2674683988764044,
+          "historical_only_signal_mae_gray": 1.829002857208252,
+          "road_static_residual_change_gray": 1.0876235961914062,
+          "local_target_centroid_error_pixels": 1.9142932981877807
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6017900705337524,
+          "current_target_signal_mae_gray": 7.133152008056641,
+          "historical_only_signed_excess_gray": 1.221120084269663,
+          "historical_only_signal_mae_gray": 1.9425913095474243,
+          "road_static_residual_change_gray": 1.2158238887786865,
+          "local_target_centroid_error_pixels": 0.44217868332283183
+        }
+      }
+    },
+    {
+      "frame": 59,
+      "current_pixels": 61,
+      "historical_only_pixels": 310,
+      "GT_boxes": [
+        [
+          586,
+          1070,
+          10,
+          9,
+          57,
+          1
+        ],
+        [
+          471,
+          536,
+          2,
+          2,
+          4,
+          -1
+        ]
+      ],
+      "methods": {
+        "原夜间九帧": {
+          "current_target_signed_contrast_ratio": 0.28144583106040955,
+          "current_target_signal_mae_gray": 13.157787322998047,
+          "historical_only_signed_excess_gray": 1.7784778225806452,
+          "historical_only_signal_mae_gray": 2.088608980178833,
+          "road_static_residual_change_gray": 1.0129872560501099,
+          "local_target_centroid_error_pixels": 4.432144751071703
+        },
+        "局部当前夜间": {
+          "current_target_signed_contrast_ratio": 0.6012757420539856,
+          "current_target_signal_mae_gray": 7.3739752769470215,
+          "historical_only_signed_excess_gray": 1.518649193548387,
+          "historical_only_signal_mae_gray": 1.88276207447052,
+          "road_static_residual_change_gray": 1.1663097143173218,
+          "local_target_centroid_error_pixels": 0.8109066507667395
+        }
+      }
+    }
+  ],
+  "bright_counts": [
+    1,
+    0,
+    1,
+    3,
+    2,
+    1,
+    1,
+    0,
+    2,
+    0,
+    3,
+    0,
+    1,
+    0,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    2,
+    1,
+    1,
+    0,
+    2,
+    2,
+    1,
+    1,
+    3,
+    3,
+    2,
+    2,
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1,
+    1,
+    1,
+    1,
+    3,
+    4,
+    3,
+    2,
+    1,
+    1
+  ],
+  "dark_counts": [
+    1,
+    1,
+    2,
+    2,
+    3,
+    4,
+    1,
+    2,
+    2,
+    3,
+    2,
+    1,
+    0,
+    1,
+    1,
+    0,
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    3,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    2,
+    2,
+    1,
+    0,
+    1,
+    4,
+    3,
+    1,
+    3,
+    3,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    0,
+    2,
+    0,
+    0,
+    1
+  ],
+  "valid_ROI": {
+    "roi_y": 0,
+    "roi_x": 0,
+    "polygon": [
+      [
+        0,
+        80
+      ],
+      [
+        80,
+        208
+      ],
+      [
+        175,
+        336
+      ],
+      [
+        270,
+        387
+      ],
+      [
+        600,
+        452
+      ],
+      [
+        900,
+        526
+      ],
+      [
+        1279,
+        657
+      ],
+      [
+        1279,
+        710
+      ],
+      [
+        880,
+        570
+      ],
+      [
+        550,
+        480
+      ],
+      [
+        260,
+        416
+      ],
+      [
+        155,
+        363
+      ],
+      [
+        70,
+        250
+      ],
+      [
+        0,
+        120
+      ]
+    ],
+    "valid_native_tlhw": [
+      2,
+      0,
+      1020,
+      1278
+    ],
+    "metric_border_pixels": 3,
+    "selection": "bridge polygon inspected on same-scene GT; intersect actual label ROI; special only right192 pixels valid"
+  },
+  "limits": "GT threshold-assisted evaluation, not human target annotations; road static statistic excludes target histories; whole-image quality not measured by this probe"
+}

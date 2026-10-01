@@ -1,0 +1,141 @@
+{
+  "group": "heavy",
+  "kind": "quarter",
+  "steps": 8000,
+  "seed": 930,
+  "precision": "FP32; TF32 disabled",
+  "cache": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-QUARTER-HEAVY-20260929/train_cache.pt",
+  "cache_sha256": "a45716d1889249aac7014bfedd2c6455967d60dfea58ce75dbc33e77f327b76a",
+  "features_sha256": "8f24f6f01d0393dc262decd49b0db0c6e779a1e6f94be6bd61060e5c7a45c4fd",
+  "original_denoiser_frozen": true,
+  "zero_initial_residual_control": "all train cache predicted phases agree with original native within .01 gray",
+  "independent_baseline_control": {
+    "old_graph": "/data/zhangbenzhuang/huawei_sr/runs/SS928-BOARD-V13-20260930/heavy_temporal/onnx/weather_heavy/weather_heavy_compact_fp32_phases.onnx",
+    "old_graph_sha256": "006779c7f6c0b1638bff583615e2004c41ad90d681b8e30a914af1da414fa3ee",
+    "mean_gray": 2.0157884137006477e-05,
+    "max_gray": 0.0002288818359375,
+    "late_reference": false,
+    "weights_sha256": "b8b6d4f72694e3ea541e109a038e326d2b104c6ce7a94ebc1e987ffd3603e85e"
+  },
+  "target_mask": "training GT signed coherent component change; same limits as train_fp32",
+  "logs": [
+    {
+      "step": 0,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 29.919728024108583,
+          "mae_gray": 5.464847362600267
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.038791640577596,
+          "mae_gray": 26.07529061846435
+        }
+      }
+    },
+    {
+      "step": 1,
+      "loss": 22.968929290771484,
+      "motion_mae": 4.986939907073975,
+      "static_anchor": 0.0,
+      "elapsed_seconds": 9.030936317052692
+    },
+    {
+      "step": 1000,
+      "loss": 24.32990264892578,
+      "motion_mae": 4.760681629180908,
+      "static_anchor": 0.3810717463493347,
+      "elapsed_seconds": 10.487218749243766
+    },
+    {
+      "step": 2000,
+      "loss": 24.405200958251953,
+      "motion_mae": 5.134459495544434,
+      "static_anchor": 0.30713337659835815,
+      "elapsed_seconds": 11.928429576102644,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 30.03161839437045,
+          "mae_gray": 5.37727702409029
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.049088515820575,
+          "mae_gray": 26.05445871129632
+        }
+      }
+    },
+    {
+      "step": 3000,
+      "loss": 25.586288452148438,
+      "motion_mae": 5.330064296722412,
+      "static_anchor": 0.3266605734825134,
+      "elapsed_seconds": 22.120411690324545
+    },
+    {
+      "step": 4000,
+      "loss": 27.220407485961914,
+      "motion_mae": 5.87505578994751,
+      "static_anchor": 0.3698526918888092,
+      "elapsed_seconds": 23.565284073352814,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 30.00887286124345,
+          "mae_gray": 5.397044869605452
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.067053156778776,
+          "mae_gray": 25.99800498224795
+        }
+      }
+    },
+    {
+      "step": 5000,
+      "loss": 22.056427001953125,
+      "motion_mae": 4.412753105163574,
+      "static_anchor": 0.42795252799987793,
+      "elapsed_seconds": 33.647877308074385
+    },
+    {
+      "step": 6000,
+      "loss": 22.98670768737793,
+      "motion_mae": 4.7865214347839355,
+      "static_anchor": 0.3262110948562622,
+      "elapsed_seconds": 35.105233159381896,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 29.981538528908462,
+          "mae_gray": 5.4183597466908395
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.09178049136489,
+          "mae_gray": 25.909758992493153
+        }
+      }
+    },
+    {
+      "step": 7000,
+      "loss": 23.943635940551758,
+      "motion_mae": 4.722289562225342,
+      "static_anchor": 0.25048312544822693,
+      "elapsed_seconds": 45.25435359030962
+    },
+    {
+      "step": 8000,
+      "loss": 22.753833770751953,
+      "motion_mae": 4.675259590148926,
+      "static_anchor": 0.3992829918861389,
+      "elapsed_seconds": 46.692137017380446,
+      "validation": {
+        "weather_heavy": {
+          "psnr_db": 30.005611616851073,
+          "mae_gray": 5.398391897324473
+        },
+        "weather_heavy_c32": {
+          "psnr_db": 19.072065371577754,
+          "mae_gray": 25.97675778903067
+        }
+      }
+    }
+  ],
+  "packaged": false,
+  "pushed": false
+}

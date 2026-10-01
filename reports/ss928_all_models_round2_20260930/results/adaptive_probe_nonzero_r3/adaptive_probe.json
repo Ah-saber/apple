@@ -1,0 +1,388 @@
+{
+  "NPU_measured": false,
+  "trained_new_weights": false,
+  "uses_only_current_and_past_inputs": true,
+  "groups": {
+    "day": {
+      "calibration_cache": "/data/zhangbenzhuang/huawei_sr/runs/SS928-FIVE-SCENE-QUARTER-DAY-20260929/train_cache.pt",
+      "calibration_sha256": "ca117412e23f30adfe179b3ff78a1dc7e5230d569423aa48d45ff3854dfee85c",
+      "calibration_audit": {
+        "static_pixels": 65536,
+        "zero_fraction": 1.0,
+        "positive_conditioning": false,
+        "training_GT_scalar_drift_removed": true,
+        "fallback": "all_training_RAW_pixels",
+        "reason": "GT static filter retained only repeated beginning frames; full training RAW percentiles include moving regions and are conservative signal thresholds, not measured noise standard deviation"
+      },
+      "input_unit_thresholds": {
+        "80": 0.003200954757630825,
+        "90": 0.00494384765625,
+        "98": 0.011474609375
+      },
+      "kinds": {
+        "half": {
+          "baseline_val": {
+            "summary": {
+              "day_normal": {
+                "psnr_db": 24.837960959061437,
+                "mae_gray": 10.976338647305965
+              }
+            },
+            "samples": {
+              "day_normal": [
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000000@val",
+                  "psnr_db": 25.406415988935027,
+                  "mae_gray": 10.061346162110567,
+                  "bias_gray": 1.446002908051014
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000010@val",
+                  "psnr_db": 25.21184363000687,
+                  "mae_gray": 10.268789380788803,
+                  "bias_gray": 1.4457091363146901
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000021@val",
+                  "psnr_db": 25.262567170882043,
+                  "mae_gray": 10.21739998832345,
+                  "bias_gray": 1.6688773361966014
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000032@val",
+                  "psnr_db": 25.24526126584933,
+                  "mae_gray": 10.254503097385168,
+                  "bias_gray": 1.8238261342048645
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000043@val",
+                  "psnr_db": 25.240896195357358,
+                  "mae_gray": 10.239024627953768,
+                  "bias_gray": 1.8707811646163464
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000054@val",
+                  "psnr_db": 25.228234002923745,
+                  "mae_gray": 10.189039260149002,
+                  "bias_gray": 1.0190833476372063
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000064@val",
+                  "psnr_db": 25.412708905783823,
+                  "mae_gray": 9.99618535861373,
+                  "bias_gray": 1.0269471444189548
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000075@val",
+                  "psnr_db": 24.178958499344567,
+                  "mae_gray": 12.144665122032166,
+                  "bias_gray": 3.8809659238904715
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000086@val",
+                  "psnr_db": 24.06940107166948,
+                  "mae_gray": 12.245463263243437,
+                  "bias_gray": 4.163603782653809
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000097@val",
+                  "psnr_db": 24.177456702892925,
+                  "mae_gray": 12.221294660121202,
+                  "bias_gray": 4.385622069239616
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000108@val",
+                  "psnr_db": 24.352666575086246,
+                  "mae_gray": 11.831636019051075,
+                  "bias_gray": 3.3207434602081776
+                },
+                {
+                  "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000119@val",
+                  "psnr_db": 24.269121500005816,
+                  "mae_gray": 12.046716827899218,
+                  "bias_gray": 3.916522515937686
+                }
+              ]
+            }
+          },
+          "validation_trials": {
+            "80": {
+              "summary": {
+                "day_normal": {
+                  "psnr_db": 24.8585096473419,
+                  "mae_gray": 10.95689311157912
+                }
+              },
+              "samples": {
+                "day_normal": [
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000000@val",
+                    "psnr_db": 25.406415988935027,
+                    "mae_gray": 10.061346162110567,
+                    "bias_gray": 1.4460035017691553
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000010@val",
+                    "psnr_db": 25.23751888135658,
+                    "mae_gray": 10.245859511196613,
+                    "bias_gray": 1.4461108460091054
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000021@val",
+                    "psnr_db": 25.287169726661595,
+                    "mae_gray": 10.195517912507057,
+                    "bias_gray": 1.6692556533962488
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000032@val",
+                    "psnr_db": 25.2742181439972,
+                    "mae_gray": 10.228477343916893,
+                    "bias_gray": 1.8250417127273977
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000043@val",
+                    "psnr_db": 25.267814794634035,
+                    "mae_gray": 10.214352551847696,
+                    "bias_gray": 1.8710603308863938
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000054@val",
+                    "psnr_db": 25.248439420796952,
+                    "mae_gray": 10.171680841594934,
+                    "bias_gray": 1.0202302923426032
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000064@val",
+                    "psnr_db": 25.412708905783823,
+                    "mae_gray": 9.996184408664703,
+                    "bias_gray": 1.0269470256753266
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000075@val",
+                    "psnr_db": 24.20734157833089,
+                    "mae_gray": 12.11729709059,
+                    "bias_gray": 3.882072614505887
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000086@val",
+                    "psnr_db": 24.09035055388364,
+                    "mae_gray": 12.224400043487549,
+                    "bias_gray": 4.163564834743738
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000097@val",
+                    "psnr_db": 24.200642947393504,
+                    "mae_gray": 12.197850868105888,
+                    "bias_gray": 4.386078994721174
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000108@val",
+                    "psnr_db": 24.375871865591773,
+                    "mae_gray": 11.808760296553373,
+                    "bias_gray": 3.321782941929996
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000119@val",
+                    "psnr_db": 24.293622960737768,
+                    "mae_gray": 12.020990308374166,
+                    "bias_gray": 3.9162073703482747
+                  }
+                ]
+              }
+            },
+            "90": {
+              "summary": {
+                "day_normal": {
+                  "psnr_db": 24.84653249167789,
+                  "mae_gray": 10.968408868648112
+                }
+              },
+              "samples": {
+                "day_normal": [
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000000@val",
+                    "psnr_db": 25.406415988935027,
+                    "mae_gray": 10.061346162110567,
+                    "bias_gray": 1.4460035017691553
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000010@val",
+                    "psnr_db": 25.221627154651713,
+                    "mae_gray": 10.26000615209341,
+                    "bias_gray": 1.4457628084346652
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000021@val",
+                    "psnr_db": 25.271381181009325,
+                    "mae_gray": 10.209790896624327,
+                    "bias_gray": 1.668913196772337
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000032@val",
+                    "psnr_db": 25.25794680527445,
+                    "mae_gray": 10.243328846991062,
+                    "bias_gray": 1.824657458346337
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000043@val",
+                    "psnr_db": 25.25268261532129,
+                    "mae_gray": 10.228100214153528,
+                    "bias_gray": 1.8707707151770592
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000054@val",
+                    "psnr_db": 25.23316563062245,
+                    "mae_gray": 10.184697043150663,
+                    "bias_gray": 1.019797946792096
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000064@val",
+                    "psnr_db": 25.412708905783823,
+                    "mae_gray": 9.996184408664703,
+                    "bias_gray": 1.0269470256753266
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000075@val",
+                    "psnr_db": 24.19213090905945,
+                    "mae_gray": 12.133521270006895,
+                    "bias_gray": 3.88100225944072
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000086@val",
+                    "psnr_db": 24.07682273834849,
+                    "mae_gray": 12.238043211400509,
+                    "bias_gray": 4.16245624423027
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000097@val",
+                    "psnr_db": 24.18863138841896,
+                    "mae_gray": 12.210818622261286,
+                    "bias_gray": 4.386337380856276
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000108@val",
+                    "psnr_db": 24.362189354795394,
+                    "mae_gray": 11.822583954781294,
+                    "bias_gray": 3.3212027605623007
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000119@val",
+                    "psnr_db": 24.282687227914295,
+                    "mae_gray": 12.032485641539097,
+                    "bias_gray": 3.916336800903082
+                  }
+                ]
+              }
+            },
+            "98": {
+              "summary": {
+                "day_normal": {
+                  "psnr_db": 24.836771339730408,
+                  "mae_gray": 10.976603999733925
+                }
+              },
+              "samples": {
+                "day_normal": [
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000000@val",
+                    "psnr_db": 25.406415988935027,
+                    "mae_gray": 10.061346162110567,
+                    "bias_gray": 1.4460035017691553
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000010@val",
+                    "psnr_db": 25.21071466824887,
+                    "mae_gray": 10.269081965088844,
+                    "bias_gray": 1.4457287290133536
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000021@val",
+                    "psnr_db": 25.260040282136526,
+                    "mae_gray": 10.218692868947983,
+                    "bias_gray": 1.6697577014565468
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000032@val",
+                    "psnr_db": 25.24439148635714,
+                    "mae_gray": 10.254332106560469,
+                    "bias_gray": 1.8244837364181876
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000043@val",
+                    "psnr_db": 25.238383231763677,
+                    "mae_gray": 10.239192768931389,
+                    "bias_gray": 1.8711926112882793
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000054@val",
+                    "psnr_db": 25.224435158791113,
+                    "mae_gray": 10.190828014165163,
+                    "bias_gray": 1.0198401007801294
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000064@val",
+                    "psnr_db": 25.412708905783823,
+                    "mae_gray": 9.996184408664703,
+                    "bias_gray": 1.0269470256753266
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000075@val",
+                    "psnr_db": 24.18006976603388,
+                    "mae_gray": 12.144003957509995,
+                    "bias_gray": 3.880597106181085
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000086@val",
+                    "psnr_db": 24.06694633470937,
+                    "mae_gray": 12.246978431940079,
+                    "bias_gray": 4.163133557885885
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000097@val",
+                    "psnr_db": 24.1769077175219,
+                    "mae_gray": 12.22172973677516,
+                    "bias_gray": 4.38620581291616
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000108@val",
+                    "psnr_db": 24.350592700995463,
+                    "mae_gray": 11.832212638109922,
+                    "bias_gray": 3.3211336517706513
+                  },
+                  {
+                    "sample_id": "normal/vi_pipe2_5120x1024_Raw8_120_04-25-10-02-50_001/000119@val",
+                    "psnr_db": 24.269649835488103,
+                    "mae_gray": 12.044664938002825,
+                    "bias_gray": 3.9171302458271384
+                  }
+                ]
+              }
+            }
+          },
+          "chosen_percentile": "80",
+          "chosen_threshold": 0.003200954757630825,
+          "passed_mean_val_guard": true,
+          "endpoint_controls": [
+            {
+              "force": 0.0,
+              "mae_gray": 1.0417492376291193e-05,
+              "max_gray": 0.00012159347534179688
+            },
+            {
+              "force": 1.0,
+              "mae_gray": 3.4031327231787145e-05,
+              "max_gray": 0.0003647804260253906
+            }
+          ],
+          "precision_probe": {
+            "BF16_vs_FP32_crop_mean_gray": 0.544153094291687,
+            "max_gray": 4.514659404754639
+          }
+        }
+      },
+      "independent_baseline_control": {
+        "kind": "preserved half architecture; quarter unused"
+      }
+    }
+  }
+}

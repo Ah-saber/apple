@@ -1,0 +1,4286 @@
+{
+  "NPU_measured": false,
+  "packaged": false,
+  "pushed": false,
+  "scenes": {
+    "day_normal": {
+      "summary": {
+        "原半网格九帧": {
+          "psnr_db": 25.48431183645352,
+          "mae_gray": 9.740586511294048,
+          "bias_gray": 3.9963172316551208,
+          "static_residual_change_gray": 1.742983712869532,
+          "motion_response_ratio": 0.3335235251598999,
+          "weak_structure_error_gray": 3.113467384787167
+        },
+        "最近三帧训练": {
+          "psnr_db": 25.35310684525739,
+          "mae_gray": 9.939494363466899,
+          "bias_gray": 4.716259348392486,
+          "static_residual_change_gray": 1.7035580242381376,
+          "motion_response_ratio": 0.33191996938040275,
+          "weak_structure_error_gray": 3.0305304927986207
+        },
+        "九帧偏重当前训练": {
+          "psnr_db": 25.533499632368343,
+          "mae_gray": 9.711050152778625,
+          "bias_gray": 4.166005559762319,
+          "static_residual_change_gray": 1.699402537666449,
+          "motion_response_ratio": 0.34669495305093395,
+          "weak_structure_error_gray": 3.002329495774598
+        }
+      },
+      "per_frame": [
+        {
+          "frame": 0,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.675977029876805,
+              "mae_gray": 9.551279067993164,
+              "bias_gray": 4.12859582901001
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.498353596804535,
+              "mae_gray": 9.787859916687012,
+              "bias_gray": 4.84869909286499
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.653770804322534,
+              "mae_gray": 9.58895492553711,
+              "bias_gray": 4.302178382873535
+            }
+          }
+        },
+        {
+          "frame": 1,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.610095158978435,
+              "mae_gray": 9.624505043029785,
+              "bias_gray": 3.5377018451690674,
+              "static_residual_change_gray": 1.7939021587371826,
+              "motion_response_ratio": 0.2811462879180908,
+              "weak_structure_error_gray": 2.9622082710266113
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.48506285498234,
+              "mae_gray": 9.802660942077637,
+              "bias_gray": 4.253817558288574,
+              "static_residual_change_gray": 1.8005800247192383,
+              "motion_response_ratio": 0.29172617197036743,
+              "weak_structure_error_gray": 2.956831455230713
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.650778551685892,
+              "mae_gray": 9.598751068115234,
+              "bias_gray": 3.704069137573242,
+              "static_residual_change_gray": 1.8017760515213013,
+              "motion_response_ratio": 0.29913341999053955,
+              "weak_structure_error_gray": 2.948425054550171
+            }
+          }
+        },
+        {
+          "frame": 2,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.349546676878166,
+              "mae_gray": 9.969267845153809,
+              "bias_gray": 4.368718147277832,
+              "static_residual_change_gray": 2.0761308670043945,
+              "motion_response_ratio": 0.3031853139400482,
+              "weak_structure_error_gray": 3.254196882247925
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.21593409384693,
+              "mae_gray": 10.172683715820312,
+              "bias_gray": 5.087340831756592,
+              "static_residual_change_gray": 2.0274159908294678,
+              "motion_response_ratio": 0.30269959568977356,
+              "weak_structure_error_gray": 3.18212628364563
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.390801383872834,
+              "mae_gray": 9.944921493530273,
+              "bias_gray": 4.538783073425293,
+              "static_residual_change_gray": 2.053642749786377,
+              "motion_response_ratio": 0.3168574273586273,
+              "weak_structure_error_gray": 3.191612720489502
+            }
+          }
+        },
+        {
+          "frame": 3,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.432862602507225,
+              "mae_gray": 9.840765953063965,
+              "bias_gray": 4.048128604888916,
+              "static_residual_change_gray": 2.026289939880371,
+              "motion_response_ratio": 0.2821110785007477,
+              "weak_structure_error_gray": 3.176544666290283
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.315665903302115,
+              "mae_gray": 10.020132064819336,
+              "bias_gray": 4.7671732902526855,
+              "static_residual_change_gray": 1.9797725677490234,
+              "motion_response_ratio": 0.2805878221988678,
+              "weak_structure_error_gray": 3.109264850616455
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.481635431913414,
+              "mae_gray": 9.806760787963867,
+              "bias_gray": 4.218804359436035,
+              "static_residual_change_gray": 2.0106446743011475,
+              "motion_response_ratio": 0.29612699151039124,
+              "weak_structure_error_gray": 3.111510992050171
+            }
+          }
+        },
+        {
+          "frame": 4,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.406203501899675,
+              "mae_gray": 9.893071174621582,
+              "bias_gray": 3.932610511779785,
+              "static_residual_change_gray": 2.027521848678589,
+              "motion_response_ratio": 0.30211639404296875,
+              "weak_structure_error_gray": 3.2405712604522705
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.284065514551784,
+              "mae_gray": 10.080466270446777,
+              "bias_gray": 4.648466110229492,
+              "static_residual_change_gray": 1.9837899208068848,
+              "motion_response_ratio": 0.3010968267917633,
+              "weak_structure_error_gray": 3.1706106662750244
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.452202052905676,
+              "mae_gray": 9.864721298217773,
+              "bias_gray": 4.1006951332092285,
+              "static_residual_change_gray": 1.9943547248840332,
+              "motion_response_ratio": 0.3164779841899872,
+              "weak_structure_error_gray": 3.164834976196289
+            }
+          }
+        },
+        {
+          "frame": 5,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.40917419899493,
+              "mae_gray": 9.84354019165039,
+              "bias_gray": 3.8764548301696777,
+              "static_residual_change_gray": 2.009864568710327,
+              "motion_response_ratio": 0.28628504276275635,
+              "weak_structure_error_gray": 3.154798984527588
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.29737820123875,
+              "mae_gray": 10.020094871520996,
+              "bias_gray": 4.596937656402588,
+              "static_residual_change_gray": 1.9625617265701294,
+              "motion_response_ratio": 0.2845902740955353,
+              "weak_structure_error_gray": 3.0800538063049316
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.456387366112516,
+              "mae_gray": 9.815166473388672,
+              "bias_gray": 4.049081325531006,
+              "static_residual_change_gray": 1.982202172279358,
+              "motion_response_ratio": 0.30039870738983154,
+              "weak_structure_error_gray": 3.0812196731567383
+            }
+          }
+        },
+        {
+          "frame": 6,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.50583610123994,
+              "mae_gray": 9.715137481689453,
+              "bias_gray": 3.797410488128662,
+              "static_residual_change_gray": 1.9297832250595093,
+              "motion_response_ratio": 0.31444433331489563,
+              "weak_structure_error_gray": 3.2013065814971924
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.39511074688606,
+              "mae_gray": 9.889154434204102,
+              "bias_gray": 4.512842178344727,
+              "static_residual_change_gray": 1.9060059785842896,
+              "motion_response_ratio": 0.31369271874427795,
+              "weak_structure_error_gray": 3.14433217048645
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.560150704037095,
+              "mae_gray": 9.679889678955078,
+              "bias_gray": 3.9650330543518066,
+              "static_residual_change_gray": 1.9082542657852173,
+              "motion_response_ratio": 0.32824698090553284,
+              "weak_structure_error_gray": 3.1265947818756104
+            }
+          }
+        },
+        {
+          "frame": 7,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.4981486542283,
+              "mae_gray": 9.755941390991211,
+              "bias_gray": 4.291691303253174,
+              "static_residual_change_gray": 1.7395069599151611,
+              "motion_response_ratio": 0.29019513726234436,
+              "weak_structure_error_gray": 2.9857332706451416
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.35842651446771,
+              "mae_gray": 9.973258972167969,
+              "bias_gray": 5.009481430053711,
+              "static_residual_change_gray": 1.7086236476898193,
+              "motion_response_ratio": 0.2882676422595978,
+              "weak_structure_error_gray": 2.9171788692474365
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.53628219650307,
+              "mae_gray": 9.74002742767334,
+              "bias_gray": 4.462216854095459,
+              "static_residual_change_gray": 1.7061142921447754,
+              "motion_response_ratio": 0.30376166105270386,
+              "weak_structure_error_gray": 2.901663064956665
+            }
+          }
+        },
+        {
+          "frame": 8,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.53673983109721,
+              "mae_gray": 9.66819953918457,
+              "bias_gray": 3.7300570011138916,
+              "static_residual_change_gray": 1.6846388578414917,
+              "motion_response_ratio": 0.2873038649559021,
+              "weak_structure_error_gray": 2.9232771396636963
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.41660807049567,
+              "mae_gray": 9.852707862854004,
+              "bias_gray": 4.448686599731445,
+              "static_residual_change_gray": 1.6521841287612915,
+              "motion_response_ratio": 0.286172091960907,
+              "weak_structure_error_gray": 2.851396083831787
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.579914571471576,
+              "mae_gray": 9.642638206481934,
+              "bias_gray": 3.9004642963409424,
+              "static_residual_change_gray": 1.6528760194778442,
+              "motion_response_ratio": 0.30158430337905884,
+              "weak_structure_error_gray": 2.8403379917144775
+            }
+          }
+        },
+        {
+          "frame": 9,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.5329773552537,
+              "mae_gray": 9.659078598022461,
+              "bias_gray": 3.675846815109253,
+              "static_residual_change_gray": 1.6870368719100952,
+              "motion_response_ratio": 0.31527063250541687,
+              "weak_structure_error_gray": 3.0368049144744873
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.416133127314858,
+              "mae_gray": 9.8369140625,
+              "bias_gray": 4.396434783935547,
+              "static_residual_change_gray": 1.653642177581787,
+              "motion_response_ratio": 0.31506404280662537,
+              "weak_structure_error_gray": 2.9575774669647217
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.58103512011175,
+              "mae_gray": 9.627107620239258,
+              "bias_gray": 3.8467493057250977,
+              "static_residual_change_gray": 1.6501739025115967,
+              "motion_response_ratio": 0.3291786313056946,
+              "weak_structure_error_gray": 2.938723564147949
+            }
+          }
+        },
+        {
+          "frame": 10,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.354380662392117,
+              "mae_gray": 9.954230308532715,
+              "bias_gray": 4.727296352386475,
+              "static_residual_change_gray": 1.6794297695159912,
+              "motion_response_ratio": 0.29339703917503357,
+              "weak_structure_error_gray": 2.9679219722747803
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.20515880564203,
+              "mae_gray": 10.187195777893066,
+              "bias_gray": 5.452397346496582,
+              "static_residual_change_gray": 1.6412440538406372,
+              "motion_response_ratio": 0.29171663522720337,
+              "weak_structure_error_gray": 2.8913943767547607
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.381995579009114,
+              "mae_gray": 9.947513580322266,
+              "bias_gray": 4.901030540466309,
+              "static_residual_change_gray": 1.6446301937103271,
+              "motion_response_ratio": 0.306753009557724,
+              "weak_structure_error_gray": 2.877498149871826
+            }
+          }
+        },
+        {
+          "frame": 11,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.4452540489863,
+              "mae_gray": 9.820842742919922,
+              "bias_gray": 4.312516212463379,
+              "static_residual_change_gray": 1.6780837774276733,
+              "motion_response_ratio": 0.31412774324417114,
+              "weak_structure_error_gray": 3.019745349884033
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.292524133846644,
+              "mae_gray": 10.04633903503418,
+              "bias_gray": 5.034750938415527,
+              "static_residual_change_gray": 1.6366021633148193,
+              "motion_response_ratio": 0.313678503036499,
+              "weak_structure_error_gray": 2.9453930854797363
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.478756542316425,
+              "mae_gray": 9.807547569274902,
+              "bias_gray": 4.482889175415039,
+              "static_residual_change_gray": 1.6380505561828613,
+              "motion_response_ratio": 0.3279809355735779,
+              "weak_structure_error_gray": 2.923650026321411
+            }
+          }
+        },
+        {
+          "frame": 12,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.539370615470727,
+              "mae_gray": 9.701414108276367,
+              "bias_gray": 4.068841457366943,
+              "static_residual_change_gray": 1.6710118055343628,
+              "motion_response_ratio": 0.3083718717098236,
+              "weak_structure_error_gray": 2.99960994720459
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.395194401061573,
+              "mae_gray": 9.908223152160645,
+              "bias_gray": 4.792044639587402,
+              "static_residual_change_gray": 1.6393018960952759,
+              "motion_response_ratio": 0.30731531977653503,
+              "weak_structure_error_gray": 2.9237875938415527
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.57926344525646,
+              "mae_gray": 9.679079055786133,
+              "bias_gray": 4.240546703338623,
+              "static_residual_change_gray": 1.6381231546401978,
+              "motion_response_ratio": 0.3226602375507355,
+              "weak_structure_error_gray": 2.9031097888946533
+            }
+          }
+        },
+        {
+          "frame": 13,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.510702319692946,
+              "mae_gray": 9.751670837402344,
+              "bias_gray": 4.162911415100098,
+              "static_residual_change_gray": 1.6750478744506836,
+              "motion_response_ratio": 0.29430824518203735,
+              "weak_structure_error_gray": 2.928661823272705
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.37359357007916,
+              "mae_gray": 9.955360412597656,
+              "bias_gray": 4.880180835723877,
+              "static_residual_change_gray": 1.6412937641143799,
+              "motion_response_ratio": 0.2929203510284424,
+              "weak_structure_error_gray": 2.8518941402435303
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.55111036042372,
+              "mae_gray": 9.730192184448242,
+              "bias_gray": 4.330166816711426,
+              "static_residual_change_gray": 1.6441066265106201,
+              "motion_response_ratio": 0.30852171778678894,
+              "weak_structure_error_gray": 2.8379006385803223
+            }
+          }
+        },
+        {
+          "frame": 14,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.480168752312796,
+              "mae_gray": 9.811921119689941,
+              "bias_gray": 4.313269138336182,
+              "static_residual_change_gray": 1.722158670425415,
+              "motion_response_ratio": 0.31741636991500854,
+              "weak_structure_error_gray": 3.0665204524993896
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.329509142970224,
+              "mae_gray": 10.032711029052734,
+              "bias_gray": 5.033912658691406,
+              "static_residual_change_gray": 1.6832472085952759,
+              "motion_response_ratio": 0.3164450526237488,
+              "weak_structure_error_gray": 2.9889535903930664
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.517667681849797,
+              "mae_gray": 9.79569149017334,
+              "bias_gray": 4.482741355895996,
+              "static_residual_change_gray": 1.6875540018081665,
+              "motion_response_ratio": 0.33163151144981384,
+              "weak_structure_error_gray": 2.969493865966797
+            }
+          }
+        },
+        {
+          "frame": 15,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.540177460570177,
+              "mae_gray": 9.701583862304688,
+              "bias_gray": 3.824605703353882,
+              "static_residual_change_gray": 1.6455999612808228,
+              "motion_response_ratio": 0.295136958360672,
+              "weak_structure_error_gray": 2.943861246109009
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.417334241623443,
+              "mae_gray": 9.88928508758545,
+              "bias_gray": 4.546217918395996,
+              "static_residual_change_gray": 1.6095530986785889,
+              "motion_response_ratio": 0.29326319694519043,
+              "weak_structure_error_gray": 2.8608477115631104
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.58844124862837,
+              "mae_gray": 9.67479133605957,
+              "bias_gray": 3.995924949645996,
+              "static_residual_change_gray": 1.610424518585205,
+              "motion_response_ratio": 0.30855685472488403,
+              "weak_structure_error_gray": 2.8454971313476562
+            }
+          }
+        },
+        {
+          "frame": 16,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.624348450466048,
+              "mae_gray": 9.54771614074707,
+              "bias_gray": 3.124807357788086,
+              "static_residual_change_gray": 1.7374781370162964,
+              "motion_response_ratio": 0.3245067596435547,
+              "weak_structure_error_gray": 3.073288679122925
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.527565721430264,
+              "mae_gray": 9.697402000427246,
+              "bias_gray": 3.841099500656128,
+              "static_residual_change_gray": 1.6979358196258545,
+              "motion_response_ratio": 0.3240158259868622,
+              "weak_structure_error_gray": 2.9944159984588623
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.686117279025265,
+              "mae_gray": 9.504018783569336,
+              "bias_gray": 3.2906956672668457,
+              "static_residual_change_gray": 1.6925805807113647,
+              "motion_response_ratio": 0.33860868215560913,
+              "weak_structure_error_gray": 2.9703152179718018
+            }
+          }
+        },
+        {
+          "frame": 17,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.340411338068556,
+              "mae_gray": 9.956942558288574,
+              "bias_gray": 4.666015148162842,
+              "static_residual_change_gray": 1.6877304315567017,
+              "motion_response_ratio": 0.30215317010879517,
+              "weak_structure_error_gray": 2.997968912124634
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.194607688339786,
+              "mae_gray": 10.184281349182129,
+              "bias_gray": 5.384187698364258,
+              "static_residual_change_gray": 1.6583753824234009,
+              "motion_response_ratio": 0.30159810185432434,
+              "weak_structure_error_gray": 2.926975965499878
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.382561828642686,
+              "mae_gray": 9.936457633972168,
+              "bias_gray": 4.833974361419678,
+              "static_residual_change_gray": 1.6511852741241455,
+              "motion_response_ratio": 0.3157200217247009,
+              "weak_structure_error_gray": 2.902632236480713
+            }
+          }
+        },
+        {
+          "frame": 18,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.360175110911097,
+              "mae_gray": 9.915268898010254,
+              "bias_gray": 4.444777965545654,
+              "static_residual_change_gray": 1.683738112449646,
+              "motion_response_ratio": 0.32344600558280945,
+              "weak_structure_error_gray": 3.0909576416015625
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.221983114520228,
+              "mae_gray": 10.132318496704102,
+              "bias_gray": 5.160432815551758,
+              "static_residual_change_gray": 1.6495048999786377,
+              "motion_response_ratio": 0.3220784366130829,
+              "weak_structure_error_gray": 3.009380578994751
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.406307187196337,
+              "mae_gray": 9.889025688171387,
+              "bias_gray": 4.613296031951904,
+              "static_residual_change_gray": 1.649425983428955,
+              "motion_response_ratio": 0.337724894285202,
+              "weak_structure_error_gray": 2.9872426986694336
+            }
+          }
+        },
+        {
+          "frame": 19,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.474723979702894,
+              "mae_gray": 9.716032981872559,
+              "bias_gray": 3.535968542098999,
+              "static_residual_change_gray": 1.7226753234863281,
+              "motion_response_ratio": 0.3362021744251251,
+              "weak_structure_error_gray": 3.166628122329712
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.368897093233397,
+              "mae_gray": 9.880290031433105,
+              "bias_gray": 4.258080959320068,
+              "static_residual_change_gray": 1.677216649055481,
+              "motion_response_ratio": 0.3368207514286041,
+              "weak_structure_error_gray": 3.07871413230896
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.53693566238513,
+              "mae_gray": 9.668672561645508,
+              "bias_gray": 3.7083070278167725,
+              "static_residual_change_gray": 1.6757323741912842,
+              "motion_response_ratio": 0.3504509925842285,
+              "weak_structure_error_gray": 3.0541720390319824
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.57427790606279,
+              "mae_gray": 9.606250762939453,
+              "bias_gray": 3.7948567867279053,
+              "static_residual_change_gray": 1.6964565515518188,
+              "motion_response_ratio": 0.31221428513526917,
+              "weak_structure_error_gray": 3.0135231018066406
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.462755902238673,
+              "mae_gray": 9.77911376953125,
+              "bias_gray": 4.5141520500183105,
+              "static_residual_change_gray": 1.6648876667022705,
+              "motion_response_ratio": 0.310070276260376,
+              "weak_structure_error_gray": 2.937485933303833
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.63509232889607,
+              "mae_gray": 9.56254768371582,
+              "bias_gray": 3.964406728744507,
+              "static_residual_change_gray": 1.660495638847351,
+              "motion_response_ratio": 0.32556211948394775,
+              "weak_structure_error_gray": 2.912785291671753
+            }
+          }
+        },
+        {
+          "frame": 21,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.413839659418418,
+              "mae_gray": 9.826592445373535,
+              "bias_gray": 4.263637065887451,
+              "static_residual_change_gray": 1.7449809312820435,
+              "motion_response_ratio": 0.3402518928050995,
+              "weak_structure_error_gray": 3.1440927982330322
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.26986749036122,
+              "mae_gray": 10.04149055480957,
+              "bias_gray": 4.986261367797852,
+              "static_residual_change_gray": 1.700455904006958,
+              "motion_response_ratio": 0.3398806154727936,
+              "weak_structure_error_gray": 3.061749219894409
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.458342394855883,
+              "mae_gray": 9.801483154296875,
+              "bias_gray": 4.43532657623291,
+              "static_residual_change_gray": 1.693358063697815,
+              "motion_response_ratio": 0.35443177819252014,
+              "weak_structure_error_gray": 3.031841993331909
+            }
+          }
+        },
+        {
+          "frame": 22,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.360124691066588,
+              "mae_gray": 9.92420768737793,
+              "bias_gray": 4.587383270263672,
+              "static_residual_change_gray": 1.7043430805206299,
+              "motion_response_ratio": 0.3319476544857025,
+              "weak_structure_error_gray": 3.1143381595611572
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.211584294235113,
+              "mae_gray": 10.14847183227539,
+              "bias_gray": 5.309499263763428,
+              "static_residual_change_gray": 1.6651860475540161,
+              "motion_response_ratio": 0.32997846603393555,
+              "weak_structure_error_gray": 3.0274910926818848
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.403351180856717,
+              "mae_gray": 9.901386260986328,
+              "bias_gray": 4.760343074798584,
+              "static_residual_change_gray": 1.6628618240356445,
+              "motion_response_ratio": 0.3453027606010437,
+              "weak_structure_error_gray": 2.9995641708374023
+            }
+          }
+        },
+        {
+          "frame": 23,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.50382990303445,
+              "mae_gray": 9.704453468322754,
+              "bias_gray": 3.8285837173461914,
+              "static_residual_change_gray": 1.7411456108093262,
+              "motion_response_ratio": 0.3388175070285797,
+              "weak_structure_error_gray": 3.1404452323913574
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.379703884405078,
+              "mae_gray": 9.891983985900879,
+              "bias_gray": 4.5501179695129395,
+              "static_residual_change_gray": 1.7025680541992188,
+              "motion_response_ratio": 0.3379236161708832,
+              "weak_structure_error_gray": 3.055023670196533
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.557466999980505,
+              "mae_gray": 9.670493125915527,
+              "bias_gray": 3.998838186264038,
+              "static_residual_change_gray": 1.6958650350570679,
+              "motion_response_ratio": 0.35201767086982727,
+              "weak_structure_error_gray": 3.0262861251831055
+            }
+          }
+        },
+        {
+          "frame": 24,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.594026500472886,
+              "mae_gray": 9.592845916748047,
+              "bias_gray": 3.4961750507354736,
+              "static_residual_change_gray": 1.6948444843292236,
+              "motion_response_ratio": 0.32606804370880127,
+              "weak_structure_error_gray": 3.0673229694366455
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.48938493821253,
+              "mae_gray": 9.751254081726074,
+              "bias_gray": 4.2155375480651855,
+              "static_residual_change_gray": 1.6514778137207031,
+              "motion_response_ratio": 0.3232981860637665,
+              "weak_structure_error_gray": 2.981724739074707
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.65735823195674,
+              "mae_gray": 9.54687213897705,
+              "bias_gray": 3.663795232772827,
+              "static_residual_change_gray": 1.6444151401519775,
+              "motion_response_ratio": 0.3387926518917084,
+              "weak_structure_error_gray": 2.953381299972534
+            }
+          }
+        },
+        {
+          "frame": 25,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.574483897959738,
+              "mae_gray": 9.603309631347656,
+              "bias_gray": 3.7153406143188477,
+              "static_residual_change_gray": 1.7189719676971436,
+              "motion_response_ratio": 0.34123513102531433,
+              "weak_structure_error_gray": 3.1109158992767334
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.464408582916363,
+              "mae_gray": 9.77227783203125,
+              "bias_gray": 4.431407451629639,
+              "static_residual_change_gray": 1.684402585029602,
+              "motion_response_ratio": 0.33923056721687317,
+              "weak_structure_error_gray": 3.0288901329040527
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.637585197350408,
+              "mae_gray": 9.559774398803711,
+              "bias_gray": 3.8833167552948,
+              "static_residual_change_gray": 1.6779139041900635,
+              "motion_response_ratio": 0.354014128446579,
+              "weak_structure_error_gray": 2.9964749813079834
+            }
+          }
+        },
+        {
+          "frame": 26,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.536810941996322,
+              "mae_gray": 9.660754203796387,
+              "bias_gray": 3.75496244430542,
+              "static_residual_change_gray": 1.7283931970596313,
+              "motion_response_ratio": 0.34260064363479614,
+              "weak_structure_error_gray": 3.1178627014160156
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.431757921669963,
+              "mae_gray": 9.828167915344238,
+              "bias_gray": 4.468624591827393,
+              "static_residual_change_gray": 1.6806646585464478,
+              "motion_response_ratio": 0.3418522775173187,
+              "weak_structure_error_gray": 3.0356242656707764
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.607294433950155,
+              "mae_gray": 9.611665725708008,
+              "bias_gray": 3.922022581100464,
+              "static_residual_change_gray": 1.6749403476715088,
+              "motion_response_ratio": 0.35546037554740906,
+              "weak_structure_error_gray": 3.001455068588257
+            }
+          }
+        },
+        {
+          "frame": 27,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.438156722354922,
+              "mae_gray": 9.803887367248535,
+              "bias_gray": 4.1805596351623535,
+              "static_residual_change_gray": 1.740654468536377,
+              "motion_response_ratio": 0.3292296230792999,
+              "weak_structure_error_gray": 3.0923173427581787
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.31456810920257,
+              "mae_gray": 10.002384185791016,
+              "bias_gray": 4.899672508239746,
+              "static_residual_change_gray": 1.6923465728759766,
+              "motion_response_ratio": 0.3275085985660553,
+              "weak_structure_error_gray": 3.0119285583496094
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.49261452543601,
+              "mae_gray": 9.772292137145996,
+              "bias_gray": 4.350021839141846,
+              "static_residual_change_gray": 1.69135582447052,
+              "motion_response_ratio": 0.3425862789154053,
+              "weak_structure_error_gray": 2.9788620471954346
+            }
+          }
+        },
+        {
+          "frame": 28,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.42794051724077,
+              "mae_gray": 9.815042495727539,
+              "bias_gray": 4.356121063232422,
+              "static_residual_change_gray": 1.7099734544754028,
+              "motion_response_ratio": 0.33761438727378845,
+              "weak_structure_error_gray": 3.112337589263916
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.278750333187837,
+              "mae_gray": 10.038728713989258,
+              "bias_gray": 5.081653118133545,
+              "static_residual_change_gray": 1.6731796264648438,
+              "motion_response_ratio": 0.33534878492355347,
+              "weak_structure_error_gray": 3.0237607955932617
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.46876902620895,
+              "mae_gray": 9.795634269714355,
+              "bias_gray": 4.528634548187256,
+              "static_residual_change_gray": 1.6665507555007935,
+              "motion_response_ratio": 0.3503137230873108,
+              "weak_structure_error_gray": 2.994598388671875
+            }
+          }
+        },
+        {
+          "frame": 29,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.527095589661997,
+              "mae_gray": 9.701913833618164,
+              "bias_gray": 4.019756317138672,
+              "static_residual_change_gray": 1.7210832834243774,
+              "motion_response_ratio": 0.320444256067276,
+              "weak_structure_error_gray": 3.0752553939819336
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.3893428492251,
+              "mae_gray": 9.909126281738281,
+              "bias_gray": 4.7430925369262695,
+              "static_residual_change_gray": 1.6926108598709106,
+              "motion_response_ratio": 0.319641649723053,
+              "weak_structure_error_gray": 2.993394613265991
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.571231470528147,
+              "mae_gray": 9.67934799194336,
+              "bias_gray": 4.192698001861572,
+              "static_residual_change_gray": 1.6867934465408325,
+              "motion_response_ratio": 0.3337879776954651,
+              "weak_structure_error_gray": 2.966249704360962
+            }
+          }
+        },
+        {
+          "frame": 30,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.554915683887202,
+              "mae_gray": 9.66358470916748,
+              "bias_gray": 3.6667163372039795,
+              "static_residual_change_gray": 1.7136977910995483,
+              "motion_response_ratio": 0.3347383141517639,
+              "weak_structure_error_gray": 3.094435453414917
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.421329111810373,
+              "mae_gray": 9.855813980102539,
+              "bias_gray": 4.387279510498047,
+              "static_residual_change_gray": 1.6762433052062988,
+              "motion_response_ratio": 0.3326855003833771,
+              "weak_structure_error_gray": 3.01271653175354
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.600478138200216,
+              "mae_gray": 9.637056350708008,
+              "bias_gray": 3.8397281169891357,
+              "static_residual_change_gray": 1.6692618131637573,
+              "motion_response_ratio": 0.34812310338020325,
+              "weak_structure_error_gray": 2.982154130935669
+            }
+          }
+        },
+        {
+          "frame": 31,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.534240749123093,
+              "mae_gray": 9.677491188049316,
+              "bias_gray": 3.8034024238586426,
+              "static_residual_change_gray": 1.6907117366790771,
+              "motion_response_ratio": 0.30361467599868774,
+              "weak_structure_error_gray": 3.005228281021118
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.415877055531254,
+              "mae_gray": 9.859662055969238,
+              "bias_gray": 4.523820400238037,
+              "static_residual_change_gray": 1.654849648475647,
+              "motion_response_ratio": 0.30288493633270264,
+              "weak_structure_error_gray": 2.929084062576294
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.588208762486836,
+              "mae_gray": 9.643938064575195,
+              "bias_gray": 3.9745306968688965,
+              "static_residual_change_gray": 1.6548511981964111,
+              "motion_response_ratio": 0.31749287247657776,
+              "weak_structure_error_gray": 2.9056358337402344
+            }
+          }
+        },
+        {
+          "frame": 32,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.476658149810266,
+              "mae_gray": 9.778651237487793,
+              "bias_gray": 4.1947479248046875,
+              "static_residual_change_gray": 1.7569043636322021,
+              "motion_response_ratio": 0.3479838967323303,
+              "weak_structure_error_gray": 3.1626107692718506
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.34197974793228,
+              "mae_gray": 9.991328239440918,
+              "bias_gray": 4.916351318359375,
+              "static_residual_change_gray": 1.716185212135315,
+              "motion_response_ratio": 0.3475751280784607,
+              "weak_structure_error_gray": 3.0811820030212402
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.526942771409814,
+              "mae_gray": 9.752965927124023,
+              "bias_gray": 4.365921974182129,
+              "static_residual_change_gray": 1.7095961570739746,
+              "motion_response_ratio": 0.36185047030448914,
+              "weak_structure_error_gray": 3.049051523208618
+            }
+          }
+        },
+        {
+          "frame": 33,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.624346217870762,
+              "mae_gray": 9.572578430175781,
+              "bias_gray": 3.4546780586242676,
+              "static_residual_change_gray": 1.7722877264022827,
+              "motion_response_ratio": 0.3530781865119934,
+              "weak_structure_error_gray": 3.1881093978881836
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.503799502250978,
+              "mae_gray": 9.748184204101562,
+              "bias_gray": 4.178441524505615,
+              "static_residual_change_gray": 1.7252330780029297,
+              "motion_response_ratio": 0.3511682450771332,
+              "weak_structure_error_gray": 3.098454713821411
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.68213269796258,
+              "mae_gray": 9.531131744384766,
+              "bias_gray": 3.627751588821411,
+              "static_residual_change_gray": 1.7203696966171265,
+              "motion_response_ratio": 0.3657359778881073,
+              "weak_structure_error_gray": 3.067760467529297
+            }
+          }
+        },
+        {
+          "frame": 34,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.583766240812103,
+              "mae_gray": 9.634370803833008,
+              "bias_gray": 3.669645309448242,
+              "static_residual_change_gray": 1.798018217086792,
+              "motion_response_ratio": 0.360117107629776,
+              "weak_structure_error_gray": 3.2086405754089355
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.448543879587984,
+              "mae_gray": 9.830198287963867,
+              "bias_gray": 4.391144752502441,
+              "static_residual_change_gray": 1.7517861127853394,
+              "motion_response_ratio": 0.35734477639198303,
+              "weak_structure_error_gray": 3.118420124053955
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.635836942591524,
+              "mae_gray": 9.601655006408691,
+              "bias_gray": 3.8412139415740967,
+              "static_residual_change_gray": 1.7511175870895386,
+              "motion_response_ratio": 0.37203535437583923,
+              "weak_structure_error_gray": 3.079953670501709
+            }
+          }
+        },
+        {
+          "frame": 35,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.408743265282187,
+              "mae_gray": 9.85173225402832,
+              "bias_gray": 4.391859531402588,
+              "static_residual_change_gray": 1.7777950763702393,
+              "motion_response_ratio": 0.34964844584465027,
+              "weak_structure_error_gray": 3.1795389652252197
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.25688866909722,
+              "mae_gray": 10.070743560791016,
+              "bias_gray": 5.112465858459473,
+              "static_residual_change_gray": 1.7401951551437378,
+              "motion_response_ratio": 0.3477872312068939,
+              "weak_structure_error_gray": 3.1019446849823
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.45529493851454,
+              "mae_gray": 9.823187828063965,
+              "bias_gray": 4.561129093170166,
+              "static_residual_change_gray": 1.7238332033157349,
+              "motion_response_ratio": 0.3616302013397217,
+              "weak_structure_error_gray": 3.0597481727600098
+            }
+          }
+        },
+        {
+          "frame": 36,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.543150688362765,
+              "mae_gray": 9.647064208984375,
+              "bias_gray": 3.6686089038848877,
+              "static_residual_change_gray": 1.8072028160095215,
+              "motion_response_ratio": 0.35542845726013184,
+              "weak_structure_error_gray": 3.179995059967041
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.429430574414305,
+              "mae_gray": 9.824237823486328,
+              "bias_gray": 4.389269828796387,
+              "static_residual_change_gray": 1.7653580904006958,
+              "motion_response_ratio": 0.35162821412086487,
+              "weak_structure_error_gray": 3.0920603275299072
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.601147627861213,
+              "mae_gray": 9.608059883117676,
+              "bias_gray": 3.836371660232544,
+              "static_residual_change_gray": 1.7636926174163818,
+              "motion_response_ratio": 0.36686477065086365,
+              "weak_structure_error_gray": 3.056187868118286
+            }
+          }
+        },
+        {
+          "frame": 37,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.494503593724566,
+              "mae_gray": 9.741024017333984,
+              "bias_gray": 4.147976398468018,
+              "static_residual_change_gray": 1.7374162673950195,
+              "motion_response_ratio": 0.3461577594280243,
+              "weak_structure_error_gray": 3.161161184310913
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.36648010172911,
+              "mae_gray": 9.942300796508789,
+              "bias_gray": 4.868062973022461,
+              "static_residual_change_gray": 1.6979352235794067,
+              "motion_response_ratio": 0.3444459140300751,
+              "weak_structure_error_gray": 3.0690104961395264
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.5478212747612,
+              "mae_gray": 9.711308479309082,
+              "bias_gray": 4.316592693328857,
+              "static_residual_change_gray": 1.6927434206008911,
+              "motion_response_ratio": 0.35839134454727173,
+              "weak_structure_error_gray": 3.0386664867401123
+            }
+          }
+        },
+        {
+          "frame": 38,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.591130135428635,
+              "mae_gray": 9.582696914672852,
+              "bias_gray": 3.659662961959839,
+              "static_residual_change_gray": 1.7743827104568481,
+              "motion_response_ratio": 0.35666075348854065,
+              "weak_structure_error_gray": 3.213179349899292
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.475913721367153,
+              "mae_gray": 9.766071319580078,
+              "bias_gray": 4.3769073486328125,
+              "static_residual_change_gray": 1.7349905967712402,
+              "motion_response_ratio": 0.3549147844314575,
+              "weak_structure_error_gray": 3.1300899982452393
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.651422517065484,
+              "mae_gray": 9.545170783996582,
+              "bias_gray": 3.8255558013916016,
+              "static_residual_change_gray": 1.72295343875885,
+              "motion_response_ratio": 0.36899828910827637,
+              "weak_structure_error_gray": 3.0938217639923096
+            }
+          }
+        },
+        {
+          "frame": 39,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.515936544403644,
+              "mae_gray": 9.69822883605957,
+              "bias_gray": 4.081386089324951,
+              "static_residual_change_gray": 1.7386054992675781,
+              "motion_response_ratio": 0.3506523668766022,
+              "weak_structure_error_gray": 3.126628875732422
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.37327818296592,
+              "mae_gray": 9.904104232788086,
+              "bias_gray": 4.8044281005859375,
+              "static_residual_change_gray": 1.6986005306243896,
+              "motion_response_ratio": 0.3475268483161926,
+              "weak_structure_error_gray": 3.0376744270324707
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.56160613952077,
+              "mae_gray": 9.668769836425781,
+              "bias_gray": 4.251710891723633,
+              "static_residual_change_gray": 1.6827126741409302,
+              "motion_response_ratio": 0.36231833696365356,
+              "weak_structure_error_gray": 3.0002975463867188
+            }
+          }
+        },
+        {
+          "frame": 40,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.4674143513131,
+              "mae_gray": 9.742392539978027,
+              "bias_gray": 4.024778366088867,
+              "static_residual_change_gray": 1.7655085325241089,
+              "motion_response_ratio": 0.36199310421943665,
+              "weak_structure_error_gray": 3.1904544830322266
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.32407662507658,
+              "mae_gray": 9.945528984069824,
+              "bias_gray": 4.7443084716796875,
+              "static_residual_change_gray": 1.7208729982376099,
+              "motion_response_ratio": 0.35919806361198425,
+              "weak_structure_error_gray": 3.0965237617492676
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.510461996456538,
+              "mae_gray": 9.712851524353027,
+              "bias_gray": 4.194807052612305,
+              "static_residual_change_gray": 1.7112879753112793,
+              "motion_response_ratio": 0.3740094304084778,
+              "weak_structure_error_gray": 3.0609540939331055
+            }
+          }
+        },
+        {
+          "frame": 41,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.403967615937965,
+              "mae_gray": 9.831147193908691,
+              "bias_gray": 4.211214065551758,
+              "static_residual_change_gray": 1.790239930152893,
+              "motion_response_ratio": 0.36323457956314087,
+              "weak_structure_error_gray": 3.1922643184661865
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.257565705356523,
+              "mae_gray": 10.046282768249512,
+              "bias_gray": 4.929624557495117,
+              "static_residual_change_gray": 1.7427699565887451,
+              "motion_response_ratio": 0.359525591135025,
+              "weak_structure_error_gray": 3.094559669494629
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.444398244285228,
+              "mae_gray": 9.807988166809082,
+              "bias_gray": 4.37962007522583,
+              "static_residual_change_gray": 1.7326263189315796,
+              "motion_response_ratio": 0.3749104142189026,
+              "weak_structure_error_gray": 3.0628767013549805
+            }
+          }
+        },
+        {
+          "frame": 42,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.310431351059282,
+              "mae_gray": 10.017205238342285,
+              "bias_gray": 4.731152057647705,
+              "static_residual_change_gray": 1.740647792816162,
+              "motion_response_ratio": 0.34044188261032104,
+              "weak_structure_error_gray": 3.091161012649536
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.15608320195197,
+              "mae_gray": 10.249829292297363,
+              "bias_gray": 5.451904296875,
+              "static_residual_change_gray": 1.696982979774475,
+              "motion_response_ratio": 0.33800196647644043,
+              "weak_structure_error_gray": 2.9984514713287354
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.351571598913672,
+              "mae_gray": 9.995118141174316,
+              "bias_gray": 4.900424480438232,
+              "static_residual_change_gray": 1.690276026725769,
+              "motion_response_ratio": 0.3532382845878601,
+              "weak_structure_error_gray": 2.9705164432525635
+            }
+          }
+        },
+        {
+          "frame": 43,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.503253410137113,
+              "mae_gray": 9.691012382507324,
+              "bias_gray": 3.6310341358184814,
+              "static_residual_change_gray": 1.7919456958770752,
+              "motion_response_ratio": 0.36944693326950073,
+              "weak_structure_error_gray": 3.240522861480713
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.372393605695112,
+              "mae_gray": 9.877278327941895,
+              "bias_gray": 4.351769924163818,
+              "static_residual_change_gray": 1.754612684249878,
+              "motion_response_ratio": 0.368238240480423,
+              "weak_structure_error_gray": 3.157331943511963
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.558096542917845,
+              "mae_gray": 9.650856971740723,
+              "bias_gray": 3.8002164363861084,
+              "static_residual_change_gray": 1.7452507019042969,
+              "motion_response_ratio": 0.38220641016960144,
+              "weak_structure_error_gray": 3.1206653118133545
+            }
+          }
+        },
+        {
+          "frame": 44,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.361926163078948,
+              "mae_gray": 9.898191452026367,
+              "bias_gray": 4.33896541595459,
+              "static_residual_change_gray": 1.7819554805755615,
+              "motion_response_ratio": 0.3560141324996948,
+              "weak_structure_error_gray": 3.1831016540527344
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.229230179766702,
+              "mae_gray": 10.101871490478516,
+              "bias_gray": 5.06130313873291,
+              "static_residual_change_gray": 1.7371141910552979,
+              "motion_response_ratio": 0.3544532358646393,
+              "weak_structure_error_gray": 3.098710536956787
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.416417945109032,
+              "mae_gray": 9.861006736755371,
+              "bias_gray": 4.511199951171875,
+              "static_residual_change_gray": 1.731484293937683,
+              "motion_response_ratio": 0.3685069978237152,
+              "weak_structure_error_gray": 3.059474468231201
+            }
+          }
+        },
+        {
+          "frame": 45,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.45893086610032,
+              "mae_gray": 9.721596717834473,
+              "bias_gray": 3.700404644012451,
+              "static_residual_change_gray": 1.7580169439315796,
+              "motion_response_ratio": 0.36193767189979553,
+              "weak_structure_error_gray": 3.1866908073425293
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.354902755545695,
+              "mae_gray": 9.892584800720215,
+              "bias_gray": 4.423207759857178,
+              "static_residual_change_gray": 1.7160375118255615,
+              "motion_response_ratio": 0.359428733587265,
+              "weak_structure_error_gray": 3.10172176361084
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.52387626376412,
+              "mae_gray": 9.675299644470215,
+              "bias_gray": 3.8709287643432617,
+              "static_residual_change_gray": 1.707659363746643,
+              "motion_response_ratio": 0.37396740913391113,
+              "weak_structure_error_gray": 3.05733060836792
+            }
+          }
+        },
+        {
+          "frame": 46,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.451378132036744,
+              "mae_gray": 9.73233413696289,
+              "bias_gray": 3.737372636795044,
+              "static_residual_change_gray": 1.735564112663269,
+              "motion_response_ratio": 0.3406302332878113,
+              "weak_structure_error_gray": 3.121912956237793
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.346275118380426,
+              "mae_gray": 9.90725040435791,
+              "bias_gray": 4.463737487792969,
+              "static_residual_change_gray": 1.7009457349777222,
+              "motion_response_ratio": 0.3376717269420624,
+              "weak_structure_error_gray": 3.0319035053253174
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.512399097366256,
+              "mae_gray": 9.691874504089355,
+              "bias_gray": 3.9113078117370605,
+              "static_residual_change_gray": 1.6921323537826538,
+              "motion_response_ratio": 0.3532203137874603,
+              "weak_structure_error_gray": 3.0004019737243652
+            }
+          }
+        },
+        {
+          "frame": 47,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.35660585191044,
+              "mae_gray": 9.8804349899292,
+              "bias_gray": 4.577233791351318,
+              "static_residual_change_gray": 1.8380051851272583,
+              "motion_response_ratio": 0.3793075680732727,
+              "weak_structure_error_gray": 3.2968952655792236
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.190405789437165,
+              "mae_gray": 10.127019882202148,
+              "bias_gray": 5.301894187927246,
+              "static_residual_change_gray": 1.788426399230957,
+              "motion_response_ratio": 0.3771674931049347,
+              "weak_structure_error_gray": 3.1996800899505615
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.404507024201273,
+              "mae_gray": 9.853919982910156,
+              "bias_gray": 4.748664379119873,
+              "static_residual_change_gray": 1.7820311784744263,
+              "motion_response_ratio": 0.39190152287483215,
+              "weak_structure_error_gray": 3.1638383865356445
+            }
+          }
+        },
+        {
+          "frame": 48,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.356666026905135,
+              "mae_gray": 9.886717796325684,
+              "bias_gray": 4.5114336013793945,
+              "static_residual_change_gray": 1.7611087560653687,
+              "motion_response_ratio": 0.36568328738212585,
+              "weak_structure_error_gray": 3.197248935699463
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.21562249942338,
+              "mae_gray": 10.106250762939453,
+              "bias_gray": 5.235546112060547,
+              "static_residual_change_gray": 1.721971869468689,
+              "motion_response_ratio": 0.3631744384765625,
+              "weak_structure_error_gray": 3.1000547409057617
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.410167598580166,
+              "mae_gray": 9.85422134399414,
+              "bias_gray": 4.684309959411621,
+              "static_residual_change_gray": 1.7079027891159058,
+              "motion_response_ratio": 0.3777772784233093,
+              "weak_structure_error_gray": 3.060638904571533
+            }
+          }
+        },
+        {
+          "frame": 49,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.45264411654919,
+              "mae_gray": 9.718503952026367,
+              "bias_gray": 3.754038095474243,
+              "static_residual_change_gray": 1.7216229438781738,
+              "motion_response_ratio": 0.3509182333946228,
+              "weak_structure_error_gray": 3.1419804096221924
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.347196980617788,
+              "mae_gray": 9.888875007629395,
+              "bias_gray": 4.477609634399414,
+              "static_residual_change_gray": 1.6801507472991943,
+              "motion_response_ratio": 0.3475172221660614,
+              "weak_structure_error_gray": 3.053654432296753
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.519179406806984,
+              "mae_gray": 9.669768333435059,
+              "bias_gray": 3.9253978729248047,
+              "static_residual_change_gray": 1.6714805364608765,
+              "motion_response_ratio": 0.36294278502464294,
+              "weak_structure_error_gray": 3.0197274684906006
+            }
+          }
+        },
+        {
+          "frame": 50,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.428047923696283,
+              "mae_gray": 9.742717742919922,
+              "bias_gray": 3.669490337371826,
+              "static_residual_change_gray": 1.789368748664856,
+              "motion_response_ratio": 0.3745417892932892,
+              "weak_structure_error_gray": 3.224083662033081
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.315834339450227,
+              "mae_gray": 9.919448852539062,
+              "bias_gray": 4.392264366149902,
+              "static_residual_change_gray": 1.7443073987960815,
+              "motion_response_ratio": 0.3717576861381531,
+              "weak_structure_error_gray": 3.1310338973999023
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.48885003289026,
+              "mae_gray": 9.700722694396973,
+              "bias_gray": 3.8407793045043945,
+              "static_residual_change_gray": 1.7369558811187744,
+              "motion_response_ratio": 0.38687336444854736,
+              "weak_structure_error_gray": 3.093775749206543
+            }
+          }
+        },
+        {
+          "frame": 51,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.23584520194366,
+              "mae_gray": 10.031424522399902,
+              "bias_gray": 4.844951629638672,
+              "static_residual_change_gray": 1.7525793313980103,
+              "motion_response_ratio": 0.3471040725708008,
+              "weak_structure_error_gray": 3.160107374191284
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.066519953823722,
+              "mae_gray": 10.283205032348633,
+              "bias_gray": 5.5681257247924805,
+              "static_residual_change_gray": 1.716333031654358,
+              "motion_response_ratio": 0.34412020444869995,
+              "weak_structure_error_gray": 3.0763885974884033
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.267203366178105,
+              "mae_gray": 10.020183563232422,
+              "bias_gray": 5.01951265335083,
+              "static_residual_change_gray": 1.7066538333892822,
+              "motion_response_ratio": 0.35916653275489807,
+              "weak_structure_error_gray": 3.0355069637298584
+            }
+          }
+        },
+        {
+          "frame": 52,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.41694506691147,
+              "mae_gray": 9.797802925109863,
+              "bias_gray": 3.993774652481079,
+              "static_residual_change_gray": 1.7489136457443237,
+              "motion_response_ratio": 0.35169655084609985,
+              "weak_structure_error_gray": 3.203329086303711
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.267620823917927,
+              "mae_gray": 10.019639015197754,
+              "bias_gray": 4.716698169708252,
+              "static_residual_change_gray": 1.708431601524353,
+              "motion_response_ratio": 0.349855899810791,
+              "weak_structure_error_gray": 3.120012044906616
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.456419942714188,
+              "mae_gray": 9.778666496276855,
+              "bias_gray": 4.165733337402344,
+              "static_residual_change_gray": 1.7034125328063965,
+              "motion_response_ratio": 0.3645199239253998,
+              "weak_structure_error_gray": 3.0825350284576416
+            }
+          }
+        },
+        {
+          "frame": 53,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.411152722861786,
+              "mae_gray": 9.811137199401855,
+              "bias_gray": 3.9963929653167725,
+              "static_residual_change_gray": 1.747449278831482,
+              "motion_response_ratio": 0.3412855267524719,
+              "weak_structure_error_gray": 3.136476993560791
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.29272718332608,
+              "mae_gray": 10.000043869018555,
+              "bias_gray": 4.723433494567871,
+              "static_residual_change_gray": 1.7027024030685425,
+              "motion_response_ratio": 0.3399035334587097,
+              "weak_structure_error_gray": 3.0457351207733154
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.46856403899102,
+              "mae_gray": 9.774616241455078,
+              "bias_gray": 4.166794300079346,
+              "static_residual_change_gray": 1.691077709197998,
+              "motion_response_ratio": 0.35422778129577637,
+              "weak_structure_error_gray": 3.0105764865875244
+            }
+          }
+        },
+        {
+          "frame": 54,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.529793717223413,
+              "mae_gray": 9.6381254196167,
+              "bias_gray": 3.5641121864318848,
+              "static_residual_change_gray": 1.742021083831787,
+              "motion_response_ratio": 0.3477465808391571,
+              "weak_structure_error_gray": 3.14402437210083
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.41839799820281,
+              "mae_gray": 9.817549705505371,
+              "bias_gray": 4.289389610290527,
+              "static_residual_change_gray": 1.703372597694397,
+              "motion_response_ratio": 0.34533411264419556,
+              "weak_structure_error_gray": 3.054964780807495
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.58597457791466,
+              "mae_gray": 9.603404998779297,
+              "bias_gray": 3.737933397293091,
+              "static_residual_change_gray": 1.6961390972137451,
+              "motion_response_ratio": 0.3608606457710266,
+              "weak_structure_error_gray": 3.0232346057891846
+            }
+          }
+        },
+        {
+          "frame": 55,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.44079015282685,
+              "mae_gray": 9.776177406311035,
+              "bias_gray": 4.006839752197266,
+              "static_residual_change_gray": 1.7214956283569336,
+              "motion_response_ratio": 0.3267817795276642,
+              "weak_structure_error_gray": 3.0745091438293457
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.304046768189863,
+              "mae_gray": 9.985706329345703,
+              "bias_gray": 4.726221084594727,
+              "static_residual_change_gray": 1.6780046224594116,
+              "motion_response_ratio": 0.32427769899368286,
+              "weak_structure_error_gray": 2.991532564163208
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.485191503549576,
+              "mae_gray": 9.752578735351562,
+              "bias_gray": 4.1760454177856445,
+              "static_residual_change_gray": 1.6790415048599243,
+              "motion_response_ratio": 0.33934706449508667,
+              "weak_structure_error_gray": 2.96065092086792
+            }
+          }
+        },
+        {
+          "frame": 56,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.412197248240634,
+              "mae_gray": 9.810254096984863,
+              "bias_gray": 3.942460060119629,
+              "static_residual_change_gray": 1.7845677137374878,
+              "motion_response_ratio": 0.36690786480903625,
+              "weak_structure_error_gray": 3.2124624252319336
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.285595462039293,
+              "mae_gray": 10.007607460021973,
+              "bias_gray": 4.66038703918457,
+              "static_residual_change_gray": 1.7474285364151,
+              "motion_response_ratio": 0.36548006534576416,
+              "weak_structure_error_gray": 3.127870798110962
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.467468903450403,
+              "mae_gray": 9.775063514709473,
+              "bias_gray": 4.112863063812256,
+              "static_residual_change_gray": 1.7419499158859253,
+              "motion_response_ratio": 0.37915128469467163,
+              "weak_structure_error_gray": 3.0897042751312256
+            }
+          }
+        },
+        {
+          "frame": 57,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.59245599574835,
+              "mae_gray": 9.570722579956055,
+              "bias_gray": 3.267228126525879,
+              "static_residual_change_gray": 1.730352759361267,
+              "motion_response_ratio": 0.34380456805229187,
+              "weak_structure_error_gray": 3.1334359645843506
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.4917219088402,
+              "mae_gray": 9.729511260986328,
+              "bias_gray": 3.985515594482422,
+              "static_residual_change_gray": 1.6879849433898926,
+              "motion_response_ratio": 0.3397778570652008,
+              "weak_structure_error_gray": 3.0386953353881836
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.656356512268065,
+              "mae_gray": 9.52757740020752,
+              "bias_gray": 3.4321560859680176,
+              "static_residual_change_gray": 1.6823875904083252,
+              "motion_response_ratio": 0.3554239869117737,
+              "weak_structure_error_gray": 3.009695529937744
+            }
+          }
+        },
+        {
+          "frame": 58,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.542370676269872,
+              "mae_gray": 9.690791130065918,
+              "bias_gray": 4.116270542144775,
+              "static_residual_change_gray": 1.6698672771453857,
+              "motion_response_ratio": 0.3177630305290222,
+              "weak_structure_error_gray": 3.049802303314209
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.40770700404114,
+              "mae_gray": 9.902632713317871,
+              "bias_gray": 4.840256690979004,
+              "static_residual_change_gray": 1.6327729225158691,
+              "motion_response_ratio": 0.31547820568084717,
+              "weak_structure_error_gray": 2.9655609130859375
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.585418792762535,
+              "mae_gray": 9.672127723693848,
+              "bias_gray": 4.288658618927002,
+              "static_residual_change_gray": 1.6359692811965942,
+              "motion_response_ratio": 0.3301278352737427,
+              "weak_structure_error_gray": 2.9403371810913086
+            }
+          }
+        },
+        {
+          "frame": 59,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.575042700180347,
+              "mae_gray": 9.601792335510254,
+              "bias_gray": 3.8057079315185547,
+              "static_residual_change_gray": 1.7550593614578247,
+              "motion_response_ratio": 0.34234490990638733,
+              "weak_structure_error_gray": 3.117499351501465
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.446430743360338,
+              "mae_gray": 9.797212600708008,
+              "bias_gray": 4.523229598999023,
+              "static_residual_change_gray": 1.7183113098144531,
+              "motion_response_ratio": 0.34092384576797485,
+              "weak_structure_error_gray": 3.0275838375091553
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.628459115839604,
+              "mae_gray": 9.571120262145996,
+              "bias_gray": 3.973187208175659,
+              "static_residual_change_gray": 1.7039521932601929,
+              "motion_response_ratio": 0.3555537164211273,
+              "weak_structure_error_gray": 2.9968154430389404
+            }
+          }
+        },
+        {
+          "frame": 60,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.42392890415912,
+              "mae_gray": 9.805647850036621,
+              "bias_gray": 4.245543479919434,
+              "static_residual_change_gray": 1.7026007175445557,
+              "motion_response_ratio": 0.33201974630355835,
+              "weak_structure_error_gray": 3.063448905944824
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.27238123936154,
+              "mae_gray": 10.030476570129395,
+              "bias_gray": 4.962594032287598,
+              "static_residual_change_gray": 1.662520170211792,
+              "motion_response_ratio": 0.33059442043304443,
+              "weak_structure_error_gray": 2.977971315383911
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.46457428010448,
+              "mae_gray": 9.787139892578125,
+              "bias_gray": 4.412947654724121,
+              "static_residual_change_gray": 1.6616926193237305,
+              "motion_response_ratio": 0.34560272097587585,
+              "weak_structure_error_gray": 2.9509117603302
+            }
+          }
+        },
+        {
+          "frame": 61,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.426815754233914,
+              "mae_gray": 9.790218353271484,
+              "bias_gray": 4.129383563995361,
+              "static_residual_change_gray": 1.7395005226135254,
+              "motion_response_ratio": 0.3441263735294342,
+              "weak_structure_error_gray": 3.1273951530456543
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.279854577039195,
+              "mae_gray": 10.005594253540039,
+              "bias_gray": 4.844266891479492,
+              "static_residual_change_gray": 1.695746660232544,
+              "motion_response_ratio": 0.3413447439670563,
+              "weak_structure_error_gray": 3.0402169227600098
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.46930505427703,
+              "mae_gray": 9.766712188720703,
+              "bias_gray": 4.296496391296387,
+              "static_residual_change_gray": 1.6919883489608765,
+              "motion_response_ratio": 0.35692140460014343,
+              "weak_structure_error_gray": 3.010193109512329
+            }
+          }
+        },
+        {
+          "frame": 62,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.618395594252185,
+              "mae_gray": 9.549211502075195,
+              "bias_gray": 3.098865032196045,
+              "static_residual_change_gray": 1.6934505701065063,
+              "motion_response_ratio": 0.3024483919143677,
+              "weak_structure_error_gray": 3.0110297203063965
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.5263839390188,
+              "mae_gray": 9.695374488830566,
+              "bias_gray": 3.8173201084136963,
+              "static_residual_change_gray": 1.6521657705307007,
+              "motion_response_ratio": 0.2996236979961395,
+              "weak_structure_error_gray": 2.9225499629974365
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.679829329976695,
+              "mae_gray": 9.50464916229248,
+              "bias_gray": 3.2674102783203125,
+              "static_residual_change_gray": 1.647826910018921,
+              "motion_response_ratio": 0.3152981698513031,
+              "weak_structure_error_gray": 2.903627872467041
+            }
+          }
+        },
+        {
+          "frame": 63,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.364136999102875,
+              "mae_gray": 9.899253845214844,
+              "bias_gray": 4.453386306762695,
+              "static_residual_change_gray": 1.7511996030807495,
+              "motion_response_ratio": 0.33941617608070374,
+              "weak_structure_error_gray": 3.169221878051758
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.209524830657273,
+              "mae_gray": 10.128235816955566,
+              "bias_gray": 5.168456077575684,
+              "static_residual_change_gray": 1.7134941816329956,
+              "motion_response_ratio": 0.3387402594089508,
+              "weak_structure_error_gray": 3.0880801677703857
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.40452188098343,
+              "mae_gray": 9.878793716430664,
+              "bias_gray": 4.619348049163818,
+              "static_residual_change_gray": 1.7053337097167969,
+              "motion_response_ratio": 0.3527382016181946,
+              "weak_structure_error_gray": 3.0520167350769043
+            }
+          }
+        },
+        {
+          "frame": 64,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.48839272845739,
+              "mae_gray": 9.718381881713867,
+              "bias_gray": 3.860844373703003,
+              "static_residual_change_gray": 1.685266375541687,
+              "motion_response_ratio": 0.3145507574081421,
+              "weak_structure_error_gray": 3.039630174636841
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.367377854764463,
+              "mae_gray": 9.907283782958984,
+              "bias_gray": 4.580869197845459,
+              "static_residual_change_gray": 1.6479805707931519,
+              "motion_response_ratio": 0.31319460272789,
+              "weak_structure_error_gray": 2.9597175121307373
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.536805107212036,
+              "mae_gray": 9.688106536865234,
+              "bias_gray": 4.030073642730713,
+              "static_residual_change_gray": 1.6493782997131348,
+              "motion_response_ratio": 0.32777780294418335,
+              "weak_structure_error_gray": 2.933683395385742
+            }
+          }
+        },
+        {
+          "frame": 65,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.502881426466004,
+              "mae_gray": 9.719386100769043,
+              "bias_gray": 4.1268696784973145,
+              "static_residual_change_gray": 1.7142517566680908,
+              "motion_response_ratio": 0.33087649941444397,
+              "weak_structure_error_gray": 3.073920965194702
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.361823181672825,
+              "mae_gray": 9.932303428649902,
+              "bias_gray": 4.844686985015869,
+              "static_residual_change_gray": 1.6713725328445435,
+              "motion_response_ratio": 0.3293324112892151,
+              "weak_structure_error_gray": 2.995706081390381
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.54548316127406,
+              "mae_gray": 9.697713851928711,
+              "bias_gray": 4.293722152709961,
+              "static_residual_change_gray": 1.66806161403656,
+              "motion_response_ratio": 0.34418606758117676,
+              "weak_structure_error_gray": 2.9693005084991455
+            }
+          }
+        },
+        {
+          "frame": 66,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.558295538508506,
+              "mae_gray": 9.6586275100708,
+              "bias_gray": 3.9493753910064697,
+              "static_residual_change_gray": 1.685274362564087,
+              "motion_response_ratio": 0.3236519992351532,
+              "weak_structure_error_gray": 3.0461626052856445
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.427252040932096,
+              "mae_gray": 9.859236717224121,
+              "bias_gray": 4.66430139541626,
+              "static_residual_change_gray": 1.6465638875961304,
+              "motion_response_ratio": 0.3223884105682373,
+              "weak_structure_error_gray": 2.9590206146240234
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.60730221741821,
+              "mae_gray": 9.632058143615723,
+              "bias_gray": 4.1141815185546875,
+              "static_residual_change_gray": 1.6415663957595825,
+              "motion_response_ratio": 0.33700060844421387,
+              "weak_structure_error_gray": 2.9327304363250732
+            }
+          }
+        },
+        {
+          "frame": 67,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.462750883120805,
+              "mae_gray": 9.730127334594727,
+              "bias_gray": 3.9608402252197266,
+              "static_residual_change_gray": 1.6983776092529297,
+              "motion_response_ratio": 0.3262846767902374,
+              "weak_structure_error_gray": 3.0790345668792725
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.32806027037254,
+              "mae_gray": 9.93130874633789,
+              "bias_gray": 4.676087856292725,
+              "static_residual_change_gray": 1.6574095487594604,
+              "motion_response_ratio": 0.3250218331813812,
+              "weak_structure_error_gray": 2.9924705028533936
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.50598817858573,
+              "mae_gray": 9.705060958862305,
+              "bias_gray": 4.128238677978516,
+              "static_residual_change_gray": 1.6548714637756348,
+              "motion_response_ratio": 0.3398539125919342,
+              "weak_structure_error_gray": 2.97127103805542
+            }
+          }
+        },
+        {
+          "frame": 68,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.372384476420482,
+              "mae_gray": 9.843984603881836,
+              "bias_gray": 4.333464622497559,
+              "static_residual_change_gray": 1.716016173362732,
+              "motion_response_ratio": 0.3285283148288727,
+              "weak_structure_error_gray": 3.0776617527008057
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.230144517097493,
+              "mae_gray": 10.058765411376953,
+              "bias_gray": 5.051564693450928,
+              "static_residual_change_gray": 1.6789791584014893,
+              "motion_response_ratio": 0.32652750611305237,
+              "weak_structure_error_gray": 2.9913411140441895
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.415341197928896,
+              "mae_gray": 9.820738792419434,
+              "bias_gray": 4.502383232116699,
+              "static_residual_change_gray": 1.6736630201339722,
+              "motion_response_ratio": 0.34202343225479126,
+              "weak_structure_error_gray": 2.9682374000549316
+            }
+          }
+        },
+        {
+          "frame": 69,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.469474169961668,
+              "mae_gray": 9.766748428344727,
+              "bias_gray": 4.284333229064941,
+              "static_residual_change_gray": 1.7028133869171143,
+              "motion_response_ratio": 0.31835174560546875,
+              "weak_structure_error_gray": 3.0554909706115723
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.32023644291271,
+              "mae_gray": 9.988545417785645,
+              "bias_gray": 5.003678798675537,
+              "static_residual_change_gray": 1.6650731563568115,
+              "motion_response_ratio": 0.31634315848350525,
+              "weak_structure_error_gray": 2.9682486057281494
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.508610902128698,
+              "mae_gray": 9.748261451721191,
+              "bias_gray": 4.455279350280762,
+              "static_residual_change_gray": 1.6582238674163818,
+              "motion_response_ratio": 0.3322273790836334,
+              "weak_structure_error_gray": 2.9503931999206543
+            }
+          }
+        },
+        {
+          "frame": 70,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.546318918783978,
+              "mae_gray": 9.622441291809082,
+              "bias_gray": 3.706266403198242,
+              "static_residual_change_gray": 1.7076497077941895,
+              "motion_response_ratio": 0.3023722469806671,
+              "weak_structure_error_gray": 2.974761962890625
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.430617579195033,
+              "mae_gray": 9.804442405700684,
+              "bias_gray": 4.426426410675049,
+              "static_residual_change_gray": 1.6684707403182983,
+              "motion_response_ratio": 0.30054721236228943,
+              "weak_structure_error_gray": 2.890132427215576
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.59876953848585,
+              "mae_gray": 9.591473579406738,
+              "bias_gray": 3.8766276836395264,
+              "static_residual_change_gray": 1.6674749851226807,
+              "motion_response_ratio": 0.3158164918422699,
+              "weak_structure_error_gray": 2.872349500656128
+            }
+          }
+        },
+        {
+          "frame": 71,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.531370129453617,
+              "mae_gray": 9.652527809143066,
+              "bias_gray": 3.6986796855926514,
+              "static_residual_change_gray": 1.7169145345687866,
+              "motion_response_ratio": 0.3217965066432953,
+              "weak_structure_error_gray": 3.063159227371216
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.405754817273408,
+              "mae_gray": 9.839348793029785,
+              "bias_gray": 4.417365550994873,
+              "static_residual_change_gray": 1.6792458295822144,
+              "motion_response_ratio": 0.32027873396873474,
+              "weak_structure_error_gray": 2.9806063175201416
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.578100278904003,
+              "mae_gray": 9.624176979064941,
+              "bias_gray": 3.867595911026001,
+              "static_residual_change_gray": 1.6789292097091675,
+              "motion_response_ratio": 0.3354117274284363,
+              "weak_structure_error_gray": 2.960089921951294
+            }
+          }
+        },
+        {
+          "frame": 72,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.58991764154726,
+              "mae_gray": 9.598811149597168,
+              "bias_gray": 3.682605504989624,
+              "static_residual_change_gray": 1.700900912284851,
+              "motion_response_ratio": 0.32200637459754944,
+              "weak_structure_error_gray": 3.043583631515503
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.452605487834713,
+              "mae_gray": 9.792876243591309,
+              "bias_gray": 4.401508808135986,
+              "static_residual_change_gray": 1.6610219478607178,
+              "motion_response_ratio": 0.3198948800563812,
+              "weak_structure_error_gray": 2.959869623184204
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.63226686827228,
+              "mae_gray": 9.572675704956055,
+              "bias_gray": 3.8522796630859375,
+              "static_residual_change_gray": 1.6570619344711304,
+              "motion_response_ratio": 0.33561450242996216,
+              "weak_structure_error_gray": 2.939455509185791
+            }
+          }
+        },
+        {
+          "frame": 73,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.41638070137203,
+              "mae_gray": 9.826416969299316,
+              "bias_gray": 4.148000717163086,
+              "static_residual_change_gray": 1.7082067728042603,
+              "motion_response_ratio": 0.3105567991733551,
+              "weak_structure_error_gray": 3.015907049179077
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.275183478820832,
+              "mae_gray": 10.036226272583008,
+              "bias_gray": 4.865502834320068,
+              "static_residual_change_gray": 1.6730601787567139,
+              "motion_response_ratio": 0.30756035447120667,
+              "weak_structure_error_gray": 2.934779405593872
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.455803534609313,
+              "mae_gray": 9.805327415466309,
+              "bias_gray": 4.3175811767578125,
+              "static_residual_change_gray": 1.675486445426941,
+              "motion_response_ratio": 0.3241680860519409,
+              "weak_structure_error_gray": 2.9162349700927734
+            }
+          }
+        },
+        {
+          "frame": 74,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.323446080203414,
+              "mae_gray": 9.987725257873535,
+              "bias_gray": 4.767993927001953,
+              "static_residual_change_gray": 1.6725648641586304,
+              "motion_response_ratio": 0.29213467240333557,
+              "weak_structure_error_gray": 2.9550423622131348
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.16269505670143,
+              "mae_gray": 10.224854469299316,
+              "bias_gray": 5.488548755645752,
+              "static_residual_change_gray": 1.632002353668213,
+              "motion_response_ratio": 0.2893221378326416,
+              "weak_structure_error_gray": 2.8685696125030518
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.351706487507958,
+              "mae_gray": 9.978025436401367,
+              "bias_gray": 4.939452171325684,
+              "static_residual_change_gray": 1.6271998882293701,
+              "motion_response_ratio": 0.30579888820648193,
+              "weak_structure_error_gray": 2.857599973678589
+            }
+          }
+        },
+        {
+          "frame": 75,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.554918247271715,
+              "mae_gray": 9.646848678588867,
+              "bias_gray": 3.6198995113372803,
+              "static_residual_change_gray": 1.6854372024536133,
+              "motion_response_ratio": 0.3094988465309143,
+              "weak_structure_error_gray": 3.0127387046813965
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.434297718750614,
+              "mae_gray": 9.824524879455566,
+              "bias_gray": 4.336308002471924,
+              "static_residual_change_gray": 1.644805669784546,
+              "motion_response_ratio": 0.30841130018234253,
+              "weak_structure_error_gray": 2.9335806369781494
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.603505911966046,
+              "mae_gray": 9.614916801452637,
+              "bias_gray": 3.788398027420044,
+              "static_residual_change_gray": 1.6503044366836548,
+              "motion_response_ratio": 0.3231520354747772,
+              "weak_structure_error_gray": 2.914475917816162
+            }
+          }
+        },
+        {
+          "frame": 76,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.500228167680525,
+              "mae_gray": 9.732880592346191,
+              "bias_gray": 3.910795211791992,
+              "static_residual_change_gray": 1.7041095495224,
+              "motion_response_ratio": 0.3186442255973816,
+              "weak_structure_error_gray": 3.0451672077178955
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.363981748361276,
+              "mae_gray": 9.933822631835938,
+              "bias_gray": 4.634809494018555,
+              "static_residual_change_gray": 1.6617255210876465,
+              "motion_response_ratio": 0.3169463574886322,
+              "weak_structure_error_gray": 2.957887887954712
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.538497888053936,
+              "mae_gray": 9.71144962310791,
+              "bias_gray": 4.083093643188477,
+              "static_residual_change_gray": 1.6551393270492554,
+              "motion_response_ratio": 0.3317067325115204,
+              "weak_structure_error_gray": 2.93978214263916
+            }
+          }
+        },
+        {
+          "frame": 77,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.43300538067075,
+              "mae_gray": 9.803000450134277,
+              "bias_gray": 4.015538215637207,
+              "static_residual_change_gray": 1.6645041704177856,
+              "motion_response_ratio": 0.29950350522994995,
+              "weak_structure_error_gray": 2.960850715637207
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.299628578521197,
+              "mae_gray": 10.008180618286133,
+              "bias_gray": 4.735058784484863,
+              "static_residual_change_gray": 1.628274917602539,
+              "motion_response_ratio": 0.2965640723705292,
+              "weak_structure_error_gray": 2.880436658859253
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.470584177532892,
+              "mae_gray": 9.785928726196289,
+              "bias_gray": 4.184866428375244,
+              "static_residual_change_gray": 1.626528024673462,
+              "motion_response_ratio": 0.31290897727012634,
+              "weak_structure_error_gray": 2.8657541275024414
+            }
+          }
+        },
+        {
+          "frame": 78,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.46523067524455,
+              "mae_gray": 9.754293441772461,
+              "bias_gray": 3.922973871231079,
+              "static_residual_change_gray": 1.6712700128555298,
+              "motion_response_ratio": 0.30716273188591003,
+              "weak_structure_error_gray": 2.9960556030273438
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.332715900943143,
+              "mae_gray": 9.950845718383789,
+              "bias_gray": 4.640074253082275,
+              "static_residual_change_gray": 1.6360962390899658,
+              "motion_response_ratio": 0.30564820766448975,
+              "weak_structure_error_gray": 2.914914846420288
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.506815645074987,
+              "mae_gray": 9.731730461120605,
+              "bias_gray": 4.091667652130127,
+              "static_residual_change_gray": 1.6314536333084106,
+              "motion_response_ratio": 0.32084351778030396,
+              "weak_structure_error_gray": 2.8989017009735107
+            }
+          }
+        },
+        {
+          "frame": 79,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.585782423842222,
+              "mae_gray": 9.610795974731445,
+              "bias_gray": 3.5863521099090576,
+              "static_residual_change_gray": 1.6727696657180786,
+              "motion_response_ratio": 0.3208020329475403,
+              "weak_structure_error_gray": 3.046638011932373
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.462549764670747,
+              "mae_gray": 9.791337013244629,
+              "bias_gray": 4.304623126983643,
+              "static_residual_change_gray": 1.6278982162475586,
+              "motion_response_ratio": 0.31943628191947937,
+              "weak_structure_error_gray": 2.9669158458709717
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.63138645500494,
+              "mae_gray": 9.58156681060791,
+              "bias_gray": 3.756624698638916,
+              "static_residual_change_gray": 1.6358132362365723,
+              "motion_response_ratio": 0.33446818590164185,
+              "weak_structure_error_gray": 2.945366382598877
+            }
+          }
+        },
+        {
+          "frame": 80,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.433558378801393,
+              "mae_gray": 9.803144454956055,
+              "bias_gray": 4.19083833694458,
+              "static_residual_change_gray": 1.694231629371643,
+              "motion_response_ratio": 0.3292381763458252,
+              "weak_structure_error_gray": 3.074843645095825
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.295552589928395,
+              "mae_gray": 10.00928020477295,
+              "bias_gray": 4.907407283782959,
+              "static_residual_change_gray": 1.6565817594528198,
+              "motion_response_ratio": 0.32734963297843933,
+              "weak_structure_error_gray": 2.9885501861572266
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.47795563034019,
+              "mae_gray": 9.777493476867676,
+              "bias_gray": 4.359459400177002,
+              "static_residual_change_gray": 1.6519840955734253,
+              "motion_response_ratio": 0.3417380154132843,
+              "weak_structure_error_gray": 2.9670612812042236
+            }
+          }
+        },
+        {
+          "frame": 81,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.424766113482548,
+              "mae_gray": 9.820448875427246,
+              "bias_gray": 4.318030834197998,
+              "static_residual_change_gray": 1.7256840467453003,
+              "motion_response_ratio": 0.3359411060810089,
+              "weak_structure_error_gray": 3.110572576522827
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.276255219517548,
+              "mae_gray": 10.041526794433594,
+              "bias_gray": 5.03873348236084,
+              "static_residual_change_gray": 1.6849100589752197,
+              "motion_response_ratio": 0.3340431749820709,
+              "weak_structure_error_gray": 3.0298380851745605
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.464576432057594,
+              "mae_gray": 9.80029010772705,
+              "bias_gray": 4.489233493804932,
+              "static_residual_change_gray": 1.6825296878814697,
+              "motion_response_ratio": 0.3484041094779968,
+              "weak_structure_error_gray": 3.002060651779175
+            }
+          }
+        },
+        {
+          "frame": 82,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.524713328060162,
+              "mae_gray": 9.68488883972168,
+              "bias_gray": 3.763068199157715,
+              "static_residual_change_gray": 1.657119631767273,
+              "motion_response_ratio": 0.3094322681427002,
+              "weak_structure_error_gray": 2.9842710494995117
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.40108601191376,
+              "mae_gray": 9.867757797241211,
+              "bias_gray": 4.484008312225342,
+              "static_residual_change_gray": 1.6206660270690918,
+              "motion_response_ratio": 0.3076488673686981,
+              "weak_structure_error_gray": 2.9065446853637695
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.57261377631214,
+              "mae_gray": 9.655037879943848,
+              "bias_gray": 3.934915781021118,
+              "static_residual_change_gray": 1.6230394840240479,
+              "motion_response_ratio": 0.32264745235443115,
+              "weak_structure_error_gray": 2.885378360748291
+            }
+          }
+        },
+        {
+          "frame": 83,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.60701572085896,
+              "mae_gray": 9.583064079284668,
+              "bias_gray": 3.7151288986206055,
+              "static_residual_change_gray": 1.6950159072875977,
+              "motion_response_ratio": 0.3248344659805298,
+              "weak_structure_error_gray": 3.0607519149780273
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.476847334086624,
+              "mae_gray": 9.774724006652832,
+              "bias_gray": 4.435867786407471,
+              "static_residual_change_gray": 1.6552188396453857,
+              "motion_response_ratio": 0.32342320680618286,
+              "weak_structure_error_gray": 2.9821510314941406
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.652626089745745,
+              "mae_gray": 9.554948806762695,
+              "bias_gray": 3.886512279510498,
+              "static_residual_change_gray": 1.6515706777572632,
+              "motion_response_ratio": 0.33852580189704895,
+              "weak_structure_error_gray": 2.9613049030303955
+            }
+          }
+        },
+        {
+          "frame": 84,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.466357538883937,
+              "mae_gray": 9.781939506530762,
+              "bias_gray": 4.094714641571045,
+              "static_residual_change_gray": 1.740673542022705,
+              "motion_response_ratio": 0.3415493965148926,
+              "weak_structure_error_gray": 3.0985236167907715
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.321039323878672,
+              "mae_gray": 9.990169525146484,
+              "bias_gray": 4.812221050262451,
+              "static_residual_change_gray": 1.701741099357605,
+              "motion_response_ratio": 0.3403342068195343,
+              "weak_structure_error_gray": 3.0150134563446045
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.511153641344894,
+              "mae_gray": 9.754837036132812,
+              "bias_gray": 4.262717247009277,
+              "static_residual_change_gray": 1.6955984830856323,
+              "motion_response_ratio": 0.35464993119239807,
+              "weak_structure_error_gray": 2.9914095401763916
+            }
+          }
+        },
+        {
+          "frame": 85,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.442646816126356,
+              "mae_gray": 9.815863609313965,
+              "bias_gray": 4.381740093231201,
+              "static_residual_change_gray": 1.7439372539520264,
+              "motion_response_ratio": 0.3519091010093689,
+              "weak_structure_error_gray": 3.1690611839294434
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.28210208031186,
+              "mae_gray": 10.053786277770996,
+              "bias_gray": 5.101283073425293,
+              "static_residual_change_gray": 1.7058138847351074,
+              "motion_response_ratio": 0.3485570251941681,
+              "weak_structure_error_gray": 3.07985782623291
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.478098099837595,
+              "mae_gray": 9.80390739440918,
+              "bias_gray": 4.5521674156188965,
+              "static_residual_change_gray": 1.6946099996566772,
+              "motion_response_ratio": 0.36384961009025574,
+              "weak_structure_error_gray": 3.049531936645508
+            }
+          }
+        },
+        {
+          "frame": 86,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.61449602603616,
+              "mae_gray": 9.597992897033691,
+              "bias_gray": 3.664907932281494,
+              "static_residual_change_gray": 1.729651927947998,
+              "motion_response_ratio": 0.3344290554523468,
+              "weak_structure_error_gray": 3.0906033515930176
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.48601069151712,
+              "mae_gray": 9.788352012634277,
+              "bias_gray": 4.3878302574157715,
+              "static_residual_change_gray": 1.6829293966293335,
+              "motion_response_ratio": 0.33130744099617004,
+              "weak_structure_error_gray": 3.0003321170806885
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.665758971294398,
+              "mae_gray": 9.566492080688477,
+              "bias_gray": 3.8386600017547607,
+              "static_residual_change_gray": 1.6852035522460938,
+              "motion_response_ratio": 0.34713900089263916,
+              "weak_structure_error_gray": 2.9727847576141357
+            }
+          }
+        },
+        {
+          "frame": 87,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.536007638891796,
+              "mae_gray": 9.686309814453125,
+              "bias_gray": 3.8393516540527344,
+              "static_residual_change_gray": 1.709354043006897,
+              "motion_response_ratio": 0.3366462290287018,
+              "weak_structure_error_gray": 3.0743515491485596
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.41298009832447,
+              "mae_gray": 9.870985984802246,
+              "bias_gray": 4.558169841766357,
+              "static_residual_change_gray": 1.67909574508667,
+              "motion_response_ratio": 0.3344601094722748,
+              "weak_structure_error_gray": 2.9955227375030518
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.59314161321285,
+              "mae_gray": 9.648341178894043,
+              "bias_gray": 4.008842945098877,
+              "static_residual_change_gray": 1.6667182445526123,
+              "motion_response_ratio": 0.34909117221832275,
+              "weak_structure_error_gray": 2.9590513706207275
+            }
+          }
+        },
+        {
+          "frame": 88,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.402118573121474,
+              "mae_gray": 9.896711349487305,
+              "bias_gray": 4.552562713623047,
+              "static_residual_change_gray": 1.7261836528778076,
+              "motion_response_ratio": 0.3233835995197296,
+              "weak_structure_error_gray": 3.077909231185913
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.247554966321562,
+              "mae_gray": 10.129834175109863,
+              "bias_gray": 5.275557518005371,
+              "static_residual_change_gray": 1.6816020011901855,
+              "motion_response_ratio": 0.32232579588890076,
+              "weak_structure_error_gray": 2.994760274887085
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.43787083182759,
+              "mae_gray": 9.881044387817383,
+              "bias_gray": 4.725650787353516,
+              "static_residual_change_gray": 1.6848444938659668,
+              "motion_response_ratio": 0.33689725399017334,
+              "weak_structure_error_gray": 2.9694981575012207
+            }
+          }
+        },
+        {
+          "frame": 89,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.590338505450166,
+              "mae_gray": 9.61351490020752,
+              "bias_gray": 3.6414997577667236,
+              "static_residual_change_gray": 1.7479666471481323,
+              "motion_response_ratio": 0.3287314772605896,
+              "weak_structure_error_gray": 3.149690866470337
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.465095801259817,
+              "mae_gray": 9.8023681640625,
+              "bias_gray": 4.358452796936035,
+              "static_residual_change_gray": 1.7033048868179321,
+              "motion_response_ratio": 0.3276679813861847,
+              "weak_structure_error_gray": 3.0707404613494873
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.640432048251597,
+              "mae_gray": 9.583460807800293,
+              "bias_gray": 3.810673713684082,
+              "static_residual_change_gray": 1.7032121419906616,
+              "motion_response_ratio": 0.34246641397476196,
+              "weak_structure_error_gray": 3.040984630584717
+            }
+          }
+        },
+        {
+          "frame": 90,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.639081008170372,
+              "mae_gray": 9.576745986938477,
+              "bias_gray": 3.9176669120788574,
+              "static_residual_change_gray": 1.6970337629318237,
+              "motion_response_ratio": 0.3312160074710846,
+              "weak_structure_error_gray": 3.090120792388916
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.496080974115877,
+              "mae_gray": 9.785097122192383,
+              "bias_gray": 4.63824987411499,
+              "static_residual_change_gray": 1.6635996103286743,
+              "motion_response_ratio": 0.3292895555496216,
+              "weak_structure_error_gray": 3.0000009536743164
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.687727313896836,
+              "mae_gray": 9.548663139343262,
+              "bias_gray": 4.087718963623047,
+              "static_residual_change_gray": 1.655051827430725,
+              "motion_response_ratio": 0.34469160437583923,
+              "weak_structure_error_gray": 2.9718637466430664
+            }
+          }
+        },
+        {
+          "frame": 91,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.45011323138887,
+              "mae_gray": 9.83501148223877,
+              "bias_gray": 4.668060302734375,
+              "static_residual_change_gray": 1.662474274635315,
+              "motion_response_ratio": 0.29251646995544434,
+              "weak_structure_error_gray": 2.956526517868042
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.290764309792774,
+              "mae_gray": 10.071327209472656,
+              "bias_gray": 5.390965461730957,
+              "static_residual_change_gray": 1.61835777759552,
+              "motion_response_ratio": 0.28962019085884094,
+              "weak_structure_error_gray": 2.8757359981536865
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.487391010527833,
+              "mae_gray": 9.820178985595703,
+              "bias_gray": 4.840586185455322,
+              "static_residual_change_gray": 1.6224876642227173,
+              "motion_response_ratio": 0.30638349056243896,
+              "weak_structure_error_gray": 2.8585190773010254
+            }
+          }
+        },
+        {
+          "frame": 92,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.60692492058973,
+              "mae_gray": 9.587060928344727,
+              "bias_gray": 3.4545156955718994,
+              "static_residual_change_gray": 1.7481751441955566,
+              "motion_response_ratio": 0.3273611068725586,
+              "weak_structure_error_gray": 3.10102915763855
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.491249506286223,
+              "mae_gray": 9.757049560546875,
+              "bias_gray": 4.171389579772949,
+              "static_residual_change_gray": 1.7101376056671143,
+              "motion_response_ratio": 0.3272753059864044,
+              "weak_structure_error_gray": 3.0227839946746826
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.66415780960964,
+              "mae_gray": 9.545400619506836,
+              "bias_gray": 3.6220903396606445,
+              "static_residual_change_gray": 1.7067004442214966,
+              "motion_response_ratio": 0.34105896949768066,
+              "weak_structure_error_gray": 2.9939353466033936
+            }
+          }
+        },
+        {
+          "frame": 93,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.537581931820146,
+              "mae_gray": 9.684438705444336,
+              "bias_gray": 3.7344729900360107,
+              "static_residual_change_gray": 1.7447065114974976,
+              "motion_response_ratio": 0.34570568799972534,
+              "weak_structure_error_gray": 3.1227729320526123
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.424664829579942,
+              "mae_gray": 9.861732482910156,
+              "bias_gray": 4.452595233917236,
+              "static_residual_change_gray": 1.7030208110809326,
+              "motion_response_ratio": 0.3433706760406494,
+              "weak_structure_error_gray": 3.033109188079834
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.596712563050378,
+              "mae_gray": 9.645299911499023,
+              "bias_gray": 3.902233123779297,
+              "static_residual_change_gray": 1.6951924562454224,
+              "motion_response_ratio": 0.35844239592552185,
+              "weak_structure_error_gray": 3.006439685821533
+            }
+          }
+        },
+        {
+          "frame": 94,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.52988910867387,
+              "mae_gray": 9.706896781921387,
+              "bias_gray": 4.0549445152282715,
+              "static_residual_change_gray": 1.7279778718948364,
+              "motion_response_ratio": 0.3303733468055725,
+              "weak_structure_error_gray": 3.069014072418213
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.395599281804962,
+              "mae_gray": 9.912418365478516,
+              "bias_gray": 4.772134780883789,
+              "static_residual_change_gray": 1.6781489849090576,
+              "motion_response_ratio": 0.3279275894165039,
+              "weak_structure_error_gray": 2.984238386154175
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.578885262347008,
+              "mae_gray": 9.68026351928711,
+              "bias_gray": 4.222303867340088,
+              "static_residual_change_gray": 1.6862218379974365,
+              "motion_response_ratio": 0.3434310853481293,
+              "weak_structure_error_gray": 2.957951307296753
+            }
+          }
+        },
+        {
+          "frame": 95,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.527120696031993,
+              "mae_gray": 9.702413558959961,
+              "bias_gray": 4.049807071685791,
+              "static_residual_change_gray": 1.7585368156433105,
+              "motion_response_ratio": 0.3415420353412628,
+              "weak_structure_error_gray": 3.15038800239563
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.38934531672116,
+              "mae_gray": 9.905634880065918,
+              "bias_gray": 4.767201900482178,
+              "static_residual_change_gray": 1.7222038507461548,
+              "motion_response_ratio": 0.338800311088562,
+              "weak_structure_error_gray": 3.0628037452697754
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.577732504799158,
+              "mae_gray": 9.670807838439941,
+              "bias_gray": 4.219170093536377,
+              "static_residual_change_gray": 1.7168169021606445,
+              "motion_response_ratio": 0.3546062409877777,
+              "weak_structure_error_gray": 3.0338542461395264
+            }
+          }
+        },
+        {
+          "frame": 96,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.482428739714397,
+              "mae_gray": 9.779192924499512,
+              "bias_gray": 4.183343410491943,
+              "static_residual_change_gray": 1.7602698802947998,
+              "motion_response_ratio": 0.3502833843231201,
+              "weak_structure_error_gray": 3.157649517059326
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.33198078075372,
+              "mae_gray": 9.999695777893066,
+              "bias_gray": 4.903233051300049,
+              "static_residual_change_gray": 1.7178754806518555,
+              "motion_response_ratio": 0.34914830327033997,
+              "weak_structure_error_gray": 3.0789129734039307
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.52728552841336,
+              "mae_gray": 9.754544258117676,
+              "bias_gray": 4.352978229522705,
+              "static_residual_change_gray": 1.7079389095306396,
+              "motion_response_ratio": 0.36386239528656006,
+              "weak_structure_error_gray": 3.044712781906128
+            }
+          }
+        },
+        {
+          "frame": 97,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.497600742381607,
+              "mae_gray": 9.74610424041748,
+              "bias_gray": 4.177493095397949,
+              "static_residual_change_gray": 1.7057462930679321,
+              "motion_response_ratio": 0.3341369032859802,
+              "weak_structure_error_gray": 3.0692739486694336
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.362700002844882,
+              "mae_gray": 9.95383358001709,
+              "bias_gray": 4.899724960327148,
+              "static_residual_change_gray": 1.6672419309616089,
+              "motion_response_ratio": 0.33131492137908936,
+              "weak_structure_error_gray": 2.98893666267395
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.54329202577012,
+              "mae_gray": 9.72182846069336,
+              "bias_gray": 4.348486423492432,
+              "static_residual_change_gray": 1.6645671129226685,
+              "motion_response_ratio": 0.346879243850708,
+              "weak_structure_error_gray": 2.960066556930542
+            }
+          }
+        },
+        {
+          "frame": 98,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.46976861213265,
+              "mae_gray": 9.785680770874023,
+              "bias_gray": 4.283543586730957,
+              "static_residual_change_gray": 1.7292323112487793,
+              "motion_response_ratio": 0.3355202376842499,
+              "weak_structure_error_gray": 3.080021619796753
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.336940121488205,
+              "mae_gray": 9.996596336364746,
+              "bias_gray": 5.003656387329102,
+              "static_residual_change_gray": 1.6861839294433594,
+              "motion_response_ratio": 0.334697425365448,
+              "weak_structure_error_gray": 3.002303123474121
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.524998810423526,
+              "mae_gray": 9.756569862365723,
+              "bias_gray": 4.4497857093811035,
+              "static_residual_change_gray": 1.682304859161377,
+              "motion_response_ratio": 0.34942373633384705,
+              "weak_structure_error_gray": 2.9740469455718994
+            }
+          }
+        },
+        {
+          "frame": 99,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.56548197818742,
+              "mae_gray": 9.624892234802246,
+              "bias_gray": 3.804828643798828,
+              "static_residual_change_gray": 1.8774170875549316,
+              "motion_response_ratio": 0.40752238035202026,
+              "weak_structure_error_gray": 3.415297031402588
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.42213669592917,
+              "mae_gray": 9.826279640197754,
+              "bias_gray": 4.528894424438477,
+              "static_residual_change_gray": 1.8384071588516235,
+              "motion_response_ratio": 0.408176451921463,
+              "weak_structure_error_gray": 3.333617687225342
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.62645094831547,
+              "mae_gray": 9.5820894241333,
+              "bias_gray": 3.974159002304077,
+              "static_residual_change_gray": 1.814942479133606,
+              "motion_response_ratio": 0.4196586310863495,
+              "weak_structure_error_gray": 3.277167797088623
+            }
+          }
+        },
+        {
+          "frame": 100,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.40906761239565,
+              "mae_gray": 9.844565391540527,
+              "bias_gray": 4.505165100097656,
+              "static_residual_change_gray": 1.755735993385315,
+              "motion_response_ratio": 0.35640886425971985,
+              "weak_structure_error_gray": 3.1836609840393066
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.273908791749335,
+              "mae_gray": 10.058150291442871,
+              "bias_gray": 5.221081256866455,
+              "static_residual_change_gray": 1.7228095531463623,
+              "motion_response_ratio": 0.35433050990104675,
+              "weak_structure_error_gray": 3.0961432456970215
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.46824993549408,
+              "mae_gray": 9.80764102935791,
+              "bias_gray": 4.674575328826904,
+              "static_residual_change_gray": 1.7093102931976318,
+              "motion_response_ratio": 0.3684842586517334,
+              "weak_structure_error_gray": 3.0515623092651367
+            }
+          }
+        },
+        {
+          "frame": 101,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.47702465686957,
+              "mae_gray": 9.737547874450684,
+              "bias_gray": 3.858163833618164,
+              "static_residual_change_gray": 1.779052495956421,
+              "motion_response_ratio": 0.35902082920074463,
+              "weak_structure_error_gray": 3.216675281524658
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.357440329564717,
+              "mae_gray": 9.921939849853516,
+              "bias_gray": 4.574097633361816,
+              "static_residual_change_gray": 1.7474128007888794,
+              "motion_response_ratio": 0.35710829496383667,
+              "weak_structure_error_gray": 3.1392745971679688
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.53877953509387,
+              "mae_gray": 9.696054458618164,
+              "bias_gray": 4.029081344604492,
+              "static_residual_change_gray": 1.7297762632369995,
+              "motion_response_ratio": 0.3718675971031189,
+              "weak_structure_error_gray": 3.088961601257324
+            }
+          }
+        },
+        {
+          "frame": 102,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.46703501757092,
+              "mae_gray": 9.779048919677734,
+              "bias_gray": 4.37750768661499,
+              "static_residual_change_gray": 1.7188125848770142,
+              "motion_response_ratio": 0.3264089822769165,
+              "weak_structure_error_gray": 3.0614261627197266
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.33693629050255,
+              "mae_gray": 9.991308212280273,
+              "bias_gray": 5.096663951873779,
+              "static_residual_change_gray": 1.6786341667175293,
+              "motion_response_ratio": 0.32530999183654785,
+              "weak_structure_error_gray": 2.980365037918091
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.522772545507383,
+              "mae_gray": 9.749323844909668,
+              "bias_gray": 4.547450065612793,
+              "static_residual_change_gray": 1.6661090850830078,
+              "motion_response_ratio": 0.3394613265991211,
+              "weak_structure_error_gray": 2.945141553878784
+            }
+          }
+        },
+        {
+          "frame": 103,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.425875415655614,
+              "mae_gray": 9.83076286315918,
+              "bias_gray": 4.371898174285889,
+              "static_residual_change_gray": 1.7836498022079468,
+              "motion_response_ratio": 0.36075374484062195,
+              "weak_structure_error_gray": 3.2081520557403564
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.28079785730276,
+              "mae_gray": 10.055493354797363,
+              "bias_gray": 5.097716331481934,
+              "static_residual_change_gray": 1.7415614128112793,
+              "motion_response_ratio": 0.3598754405975342,
+              "weak_structure_error_gray": 3.1169679164886475
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.470026444963448,
+              "mae_gray": 9.809223175048828,
+              "bias_gray": 4.544404029846191,
+              "static_residual_change_gray": 1.7365084886550903,
+              "motion_response_ratio": 0.3734282851219177,
+              "weak_structure_error_gray": 3.0827009677886963
+            }
+          }
+        },
+        {
+          "frame": 104,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.51384478180433,
+              "mae_gray": 9.68566608428955,
+              "bias_gray": 4.039310932159424,
+              "static_residual_change_gray": 1.7851781845092773,
+              "motion_response_ratio": 0.37418240308761597,
+              "weak_structure_error_gray": 3.2710278034210205
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.367317881882787,
+              "mae_gray": 9.905577659606934,
+              "bias_gray": 4.760768890380859,
+              "static_residual_change_gray": 1.7464945316314697,
+              "motion_response_ratio": 0.37547340989112854,
+              "weak_structure_error_gray": 3.1871116161346436
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.562912743201988,
+              "mae_gray": 9.659666061401367,
+              "bias_gray": 4.210434436798096,
+              "static_residual_change_gray": 1.7399696111679077,
+              "motion_response_ratio": 0.3878064453601837,
+              "weak_structure_error_gray": 3.1416757106781006
+            }
+          }
+        },
+        {
+          "frame": 105,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.554343720776757,
+              "mae_gray": 9.601983070373535,
+              "bias_gray": 3.7455594539642334,
+              "static_residual_change_gray": 1.8116016387939453,
+              "motion_response_ratio": 0.37302476167678833,
+              "weak_structure_error_gray": 3.261420726776123
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.415106093985962,
+              "mae_gray": 9.797654151916504,
+              "bias_gray": 4.466087341308594,
+              "static_residual_change_gray": 1.7668569087982178,
+              "motion_response_ratio": 0.3704952597618103,
+              "weak_structure_error_gray": 3.1736342906951904
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.610543205254576,
+              "mae_gray": 9.561406135559082,
+              "bias_gray": 3.915045976638794,
+              "static_residual_change_gray": 1.7614048719406128,
+              "motion_response_ratio": 0.3850359618663788,
+              "weak_structure_error_gray": 3.1286261081695557
+            }
+          }
+        },
+        {
+          "frame": 106,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.53012723235362,
+              "mae_gray": 9.667153358459473,
+              "bias_gray": 3.887646436691284,
+              "static_residual_change_gray": 1.8054805994033813,
+              "motion_response_ratio": 0.3740420341491699,
+              "weak_structure_error_gray": 3.286388874053955
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.376286531781197,
+              "mae_gray": 9.884020805358887,
+              "bias_gray": 4.6142802238464355,
+              "static_residual_change_gray": 1.7641493082046509,
+              "motion_response_ratio": 0.37100961804389954,
+              "weak_structure_error_gray": 3.1952099800109863
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.580418451062474,
+              "mae_gray": 9.635845184326172,
+              "bias_gray": 4.061398029327393,
+              "static_residual_change_gray": 1.7532240152359009,
+              "motion_response_ratio": 0.3865933418273926,
+              "weak_structure_error_gray": 3.145089864730835
+            }
+          }
+        },
+        {
+          "frame": 107,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.492436564986704,
+              "mae_gray": 9.743014335632324,
+              "bias_gray": 4.029768466949463,
+              "static_residual_change_gray": 1.7215285301208496,
+              "motion_response_ratio": 0.3435751795768738,
+              "weak_structure_error_gray": 3.1491808891296387
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.36313480084846,
+              "mae_gray": 9.941128730773926,
+              "bias_gray": 4.752816677093506,
+              "static_residual_change_gray": 1.681504249572754,
+              "motion_response_ratio": 0.3404780626296997,
+              "weak_structure_error_gray": 3.0582587718963623
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.547259018410337,
+              "mae_gray": 9.706923484802246,
+              "bias_gray": 4.198307991027832,
+              "static_residual_change_gray": 1.673375129699707,
+              "motion_response_ratio": 0.35582995414733887,
+              "weak_structure_error_gray": 3.019171714782715
+            }
+          }
+        },
+        {
+          "frame": 108,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.56173744239276,
+              "mae_gray": 9.629053115844727,
+              "bias_gray": 3.460629463195801,
+              "static_residual_change_gray": 1.7134393453598022,
+              "motion_response_ratio": 0.3484378755092621,
+              "weak_structure_error_gray": 3.12551212310791
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.448610702185803,
+              "mae_gray": 9.801530838012695,
+              "bias_gray": 4.177515029907227,
+              "static_residual_change_gray": 1.673261284828186,
+              "motion_response_ratio": 0.3474273979663849,
+              "weak_structure_error_gray": 3.047736883163452
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.62181073055168,
+              "mae_gray": 9.587825775146484,
+              "bias_gray": 3.627067804336548,
+              "static_residual_change_gray": 1.6601213216781616,
+              "motion_response_ratio": 0.3613039255142212,
+              "weak_structure_error_gray": 3.002013683319092
+            }
+          }
+        },
+        {
+          "frame": 109,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.621953535566114,
+              "mae_gray": 9.547318458557129,
+              "bias_gray": 3.3270199298858643,
+              "static_residual_change_gray": 1.71148681640625,
+              "motion_response_ratio": 0.33389270305633545,
+              "weak_structure_error_gray": 3.0928211212158203
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.522460312489713,
+              "mae_gray": 9.704391479492188,
+              "bias_gray": 4.044350624084473,
+              "static_residual_change_gray": 1.6744009256362915,
+              "motion_response_ratio": 0.33281075954437256,
+              "weak_structure_error_gray": 3.0042734146118164
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.68930659610013,
+              "mae_gray": 9.499632835388184,
+              "bias_gray": 3.4944534301757812,
+              "static_residual_change_gray": 1.6668002605438232,
+              "motion_response_ratio": 0.3479771912097931,
+              "weak_structure_error_gray": 2.977992534637451
+            }
+          }
+        },
+        {
+          "frame": 110,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.53017129030672,
+              "mae_gray": 9.658018112182617,
+              "bias_gray": 3.731729745864868,
+              "static_residual_change_gray": 1.7510474920272827,
+              "motion_response_ratio": 0.35177817940711975,
+              "weak_structure_error_gray": 3.161306619644165
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.40093827074998,
+              "mae_gray": 9.850640296936035,
+              "bias_gray": 4.448765754699707,
+              "static_residual_change_gray": 1.7186444997787476,
+              "motion_response_ratio": 0.35087481141090393,
+              "weak_structure_error_gray": 3.076899290084839
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.581145643531134,
+              "mae_gray": 9.625060081481934,
+              "bias_gray": 3.898404359817505,
+              "static_residual_change_gray": 1.7047358751296997,
+              "motion_response_ratio": 0.3654651343822479,
+              "weak_structure_error_gray": 3.0416693687438965
+            }
+          }
+        },
+        {
+          "frame": 111,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.562886328454113,
+              "mae_gray": 9.599188804626465,
+              "bias_gray": 3.3533530235290527,
+              "static_residual_change_gray": 1.6964877843856812,
+              "motion_response_ratio": 0.33135759830474854,
+              "weak_structure_error_gray": 3.083163022994995
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.465742947586012,
+              "mae_gray": 9.755615234375,
+              "bias_gray": 4.075460433959961,
+              "static_residual_change_gray": 1.6590523719787598,
+              "motion_response_ratio": 0.3278326988220215,
+              "weak_structure_error_gray": 2.992546796798706
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.623523212606166,
+              "mae_gray": 9.558464050292969,
+              "bias_gray": 3.5224668979644775,
+              "static_residual_change_gray": 1.653461217880249,
+              "motion_response_ratio": 0.3434227406978607,
+              "weak_structure_error_gray": 2.962458372116089
+            }
+          }
+        },
+        {
+          "frame": 112,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.4976068861286,
+              "mae_gray": 9.741836547851562,
+              "bias_gray": 4.096029281616211,
+              "static_residual_change_gray": 1.7969417572021484,
+              "motion_response_ratio": 0.3403739035129547,
+              "weak_structure_error_gray": 3.189380645751953
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.373730549344554,
+              "mae_gray": 9.942033767700195,
+              "bias_gray": 4.8158488273620605,
+              "static_residual_change_gray": 1.7539606094360352,
+              "motion_response_ratio": 0.3375718891620636,
+              "weak_structure_error_gray": 3.09273362159729
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.548994277850035,
+              "mae_gray": 9.711841583251953,
+              "bias_gray": 4.263071537017822,
+              "static_residual_change_gray": 1.74889075756073,
+              "motion_response_ratio": 0.35284459590911865,
+              "weak_structure_error_gray": 3.06482195854187
+            }
+          }
+        },
+        {
+          "frame": 113,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.447870708202352,
+              "mae_gray": 9.777643203735352,
+              "bias_gray": 4.1788763999938965,
+              "static_residual_change_gray": 1.7421314716339111,
+              "motion_response_ratio": 0.34993305802345276,
+              "weak_structure_error_gray": 3.192915439605713
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.322030465494187,
+              "mae_gray": 9.97604751586914,
+              "bias_gray": 4.899418830871582,
+              "static_residual_change_gray": 1.6974537372589111,
+              "motion_response_ratio": 0.3503669798374176,
+              "weak_structure_error_gray": 3.1098408699035645
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.506818904554507,
+              "mae_gray": 9.739519119262695,
+              "bias_gray": 4.343467712402344,
+              "static_residual_change_gray": 1.6879419088363647,
+              "motion_response_ratio": 0.3640502095222473,
+              "weak_structure_error_gray": 3.0737738609313965
+            }
+          }
+        },
+        {
+          "frame": 114,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.394134194770672,
+              "mae_gray": 9.854140281677246,
+              "bias_gray": 4.523963451385498,
+              "static_residual_change_gray": 1.7520784139633179,
+              "motion_response_ratio": 0.3597545921802521,
+              "weak_structure_error_gray": 3.215015172958374
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.243166238896908,
+              "mae_gray": 10.088066101074219,
+              "bias_gray": 5.245201110839844,
+              "static_residual_change_gray": 1.7073101997375488,
+              "motion_response_ratio": 0.3579990267753601,
+              "weak_structure_error_gray": 3.117527484893799
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.441703400684297,
+              "mae_gray": 9.830371856689453,
+              "bias_gray": 4.6937055587768555,
+              "static_residual_change_gray": 1.7028311491012573,
+              "motion_response_ratio": 0.3736390471458435,
+              "weak_structure_error_gray": 3.0856335163116455
+            }
+          }
+        },
+        {
+          "frame": 115,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.381729548116528,
+              "mae_gray": 9.849562644958496,
+              "bias_gray": 4.307532787322998,
+              "static_residual_change_gray": 1.7223371267318726,
+              "motion_response_ratio": 0.3322421610355377,
+              "weak_structure_error_gray": 3.10387921333313
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.24652678110752,
+              "mae_gray": 10.059139251708984,
+              "bias_gray": 5.02830171585083,
+              "static_residual_change_gray": 1.6787322759628296,
+              "motion_response_ratio": 0.33055204153060913,
+              "weak_structure_error_gray": 3.0206449031829834
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.436977634306675,
+              "mae_gray": 9.815055847167969,
+              "bias_gray": 4.476071834564209,
+              "static_residual_change_gray": 1.6713536977767944,
+              "motion_response_ratio": 0.34592512249946594,
+              "weak_structure_error_gray": 2.983320713043213
+            }
+          }
+        },
+        {
+          "frame": 116,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.520879863679426,
+              "mae_gray": 9.66552734375,
+              "bias_gray": 3.8810272216796875,
+              "static_residual_change_gray": 1.7216397523880005,
+              "motion_response_ratio": 0.3392169773578644,
+              "weak_structure_error_gray": 3.101041793823242
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.40822103235044,
+              "mae_gray": 9.844686508178711,
+              "bias_gray": 4.599768161773682,
+              "static_residual_change_gray": 1.6898409128189087,
+              "motion_response_ratio": 0.3378310203552246,
+              "weak_structure_error_gray": 3.0259366035461426
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.58414484901381,
+              "mae_gray": 9.621868133544922,
+              "bias_gray": 4.0476789474487305,
+              "static_residual_change_gray": 1.6762900352478027,
+              "motion_response_ratio": 0.3526272177696228,
+              "weak_structure_error_gray": 2.987698554992676
+            }
+          }
+        },
+        {
+          "frame": 117,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.447508082150584,
+              "mae_gray": 9.76287841796875,
+              "bias_gray": 4.040663242340088,
+              "static_residual_change_gray": 1.7402828931808472,
+              "motion_response_ratio": 0.3408457040786743,
+              "weak_structure_error_gray": 3.1363418102264404
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.341196692344173,
+              "mae_gray": 9.94409465789795,
+              "bias_gray": 4.759268283843994,
+              "static_residual_change_gray": 1.6922866106033325,
+              "motion_response_ratio": 0.3417914807796478,
+              "weak_structure_error_gray": 3.0547776222229004
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.52105681337298,
+              "mae_gray": 9.715072631835938,
+              "bias_gray": 4.206028938293457,
+              "static_residual_change_gray": 1.6922640800476074,
+              "motion_response_ratio": 0.35497358441352844,
+              "weak_structure_error_gray": 3.0189075469970703
+            }
+          }
+        },
+        {
+          "frame": 118,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.374376868776352,
+              "mae_gray": 9.825512886047363,
+              "bias_gray": 3.686115026473999,
+              "static_residual_change_gray": 1.7659685611724854,
+              "motion_response_ratio": 0.36211973428726196,
+              "weak_structure_error_gray": 3.2285563945770264
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.28091062463013,
+              "mae_gray": 9.987752914428711,
+              "bias_gray": 4.403239727020264,
+              "static_residual_change_gray": 1.7245057821273804,
+              "motion_response_ratio": 0.3638245463371277,
+              "weak_structure_error_gray": 3.1466450691223145
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.450211535787773,
+              "mae_gray": 9.77107048034668,
+              "bias_gray": 3.8509645462036133,
+              "static_residual_change_gray": 1.7189515829086304,
+              "motion_response_ratio": 0.37635931372642517,
+              "weak_structure_error_gray": 3.106761932373047
+            }
+          }
+        },
+        {
+          "frame": 119,
+          "methods": {
+            "原半网格九帧": {
+              "psnr_db": 25.31163543547497,
+              "mae_gray": 9.964742660522461,
+              "bias_gray": 4.434438228607178,
+              "static_residual_change_gray": 1.7939252853393555,
+              "motion_response_ratio": 0.35571303963661194,
+              "weak_structure_error_gray": 3.278670310974121
+            },
+            "最近三帧训练": {
+              "psnr_db": 25.174197239390104,
+              "mae_gray": 10.177706718444824,
+              "bias_gray": 5.151040077209473,
+              "static_residual_change_gray": 1.7460423707962036,
+              "motion_response_ratio": 0.3533245623111725,
+              "weak_structure_error_gray": 3.1870219707489014
+            },
+            "九帧偏重当前训练": {
+              "psnr_db": 25.366146297151523,
+              "mae_gray": 9.930510520935059,
+              "bias_gray": 4.601877689361572,
+              "static_residual_change_gray": 1.738844633102417,
+              "motion_response_ratio": 0.36822062730789185,
+              "weak_structure_error_gray": 3.148761749267578
+            }
+          }
+        }
+      ],
+      "video": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ALL-MODELS-ROUND2-20260930/anchor_eval_day/day_normal/full120_history_intervention.mp4",
+      "video_sha256": "6e51eb772b1cccedb00afa806ef23c935b1ba5513371c829a2a57ae0259fa81b",
+      "models": {
+        "3": {
+          "GPU": {
+            "mean_ms": 0.32027839998404184,
+            "p95_ms": 0.32743519097566604,
+            "samples_ms": [
+              0.3298879861831665,
+              0.32742398977279663,
+              0.3283199965953827,
+              0.32236799597740173,
+              0.3221760094165802,
+              0.32396799325942993,
+              0.3197120130062103,
+              0.3165760040283203,
+              0.32438400387763977,
+              0.324288010597229,
+              0.3160000145435333,
+              0.31676799058914185,
+              0.3184320032596588,
+              0.324288010597229,
+              0.32598400115966797,
+              0.31571200489997864,
+              0.3224000036716461,
+              0.31830400228500366,
+              0.32284799218177795,
+              0.3242560029029846,
+              0.325408011674881,
+              0.3230080008506775,
+              0.3256320059299469,
+              0.3232319951057434,
+              0.31536000967025757,
+              0.31750398874282837,
+              0.3160640001296997,
+              0.3245440125465393,
+              0.3192319869995117,
+              0.3237760066986084,
+              0.32124799489974976,
+              0.32688000798225403,
+              0.3144960105419159,
+              0.312032014131546,
+              0.31459200382232666,
+              0.31513598561286926,
+              0.312608003616333,
+              0.3251520097255707,
+              0.31513598561286926,
+              0.3404799997806549,
+              0.3184640109539032,
+              0.32207998633384705,
+              0.3165760040283203,
+              0.3142400085926056,
+              0.3158720135688782,
+              0.32067200541496277,
+              0.31836798787117004,
+              0.31299200654029846,
+              0.3256320059299469,
+              0.3162879943847656,
+              0.3227840065956116,
+              0.3284800052642822,
+              0.32204800844192505,
+              0.3213759958744049,
+              0.3171519935131073,
+              0.3227199912071228,
+              0.3153280019760132,
+              0.3187839984893799,
+              0.32547199726104736,
+              0.3242560029029846,
+              0.3178879916667938,
+              0.3155519962310791,
+              0.3173759877681732,
+              0.32182401418685913,
+              0.3234559893608093,
+              0.3192319869995117,
+              0.3158400058746338,
+              0.32342401146888733,
+              0.3269760012626648,
+              0.31775999069213867,
+              0.3232319951057434,
+              0.32764801383018494,
+              0.3142719864845276,
+              0.31385600566864014,
+              0.3242560029029846,
+              0.3197439908981323,
+              0.32233598828315735,
+              0.3169279992580414,
+              0.3234559893608093,
+              0.321152001619339,
+              0.32550400495529175,
+              0.32179200649261475,
+              0.31542399525642395,
+              0.31696000695228577,
+              0.3134399950504303,
+              0.31308799982070923,
+              0.313728004693985,
+              0.31334400177001953,
+              0.32073599100112915,
+              0.3132160007953644,
+              0.31379199028015137,
+              0.3214400112628937,
+              0.31407999992370605,
+              0.31174400448799133,
+              0.3174079954624176,
+              0.31164801120758057,
+              0.3134399950504303,
+              0.3192319869995117,
+              0.31382399797439575,
+              0.3134720027446747,
+              0.32201600074768066,
+              0.3224320113658905,
+              0.31200000643730164,
+              0.3226880133152008,
+              0.3253760039806366,
+              0.3149760067462921,
+              0.3195520043373108,
+              0.3160319924354553,
+              0.32390400767326355,
+              0.31539198756217957,
+              0.3248960077762604,
+              0.3224000036716461,
+              0.3229759931564331,
+              0.3144319951534271,
+              0.312032014131546,
+              0.31356799602508545,
+              0.3240000009536743,
+              0.3202880024909973,
+              0.32227200269699097,
+              0.31193599104881287,
+              0.32550400495529175,
+              0.3240000009536743,
+              0.3235520124435425,
+              0.321727991104126,
+              0.3227840065956116,
+              0.3202880024909973,
+              0.32607999444007874,
+              0.3261440098285675,
+              0.3144640028476715,
+              0.32067200541496277,
+              0.323199987411499,
+              0.32182401418685913,
+              0.3214080035686493,
+              0.329120010137558,
+              0.3247680068016052,
+              0.31545600295066833,
+              0.31494399905204773,
+              0.32041600346565247,
+              0.3201279938220978,
+              0.3215999901294708,
+              0.3190400004386902,
+              0.3216640055179596,
+              0.321152001619339,
+              0.3146879971027374,
+              0.31308799982070923,
+              0.3176960051059723,
+              0.32156801223754883,
+              0.32201600074768066,
+              0.3224000036716461,
+              0.31494399905204773,
+              0.3145599961280823,
+              0.32310399413108826,
+              0.3192639946937561,
+              0.3134079873561859,
+              0.32713600993156433,
+              0.32975998520851135,
+              0.3230400085449219,
+              0.31632000207901,
+              0.3166080117225647,
+              0.31327998638153076,
+              0.32092800736427307,
+              0.3185279965400696,
+              0.32342401146888733,
+              0.32073599100112915,
+              0.31756800413131714,
+              0.3240959942340851,
+              0.32582399249076843,
+              0.317440003156662,
+              0.32287999987602234,
+              0.3154880106449127,
+              0.3230080008506775,
+              0.3136320114135742,
+              0.32713600993156433,
+              0.31385600566864014,
+              0.3123520016670227,
+              0.3261120021343231,
+              0.31488001346588135,
+              0.32310399413108826,
+              0.3235200047492981,
+              0.3229759931564331,
+              0.3259199857711792,
+              0.32742398977279663,
+              0.3149760067462921,
+              0.3205440044403076,
+              0.32716798782348633,
+              0.316864013671875,
+              0.3169279992580414,
+              0.32019200921058655,
+              0.323743999004364,
+              0.3203200101852417,
+              0.31494399905204773,
+              0.32044801115989685,
+              0.3229759931564331,
+              0.3125759959220886,
+              0.3262079954147339,
+              0.32467201352119446,
+              0.32556799054145813,
+              0.314303994178772,
+              0.3256320059299469,
+              0.31750398874282837,
+              0.32310399413108826,
+              0.3187839984893799,
+              0.32438400387763977,
+              0.3150399923324585,
+              0.3266560137271881,
+              0.31536000967025757,
+              0.3229120075702667,
+              0.3267199993133545,
+              0.324319988489151,
+              0.3229439854621887,
+              0.3192000091075897,
+              0.3202880024909973,
+              0.3150720000267029,
+              0.3166399896144867,
+              0.324288010597229,
+              0.32284799218177795,
+              0.3144319951534271,
+              0.3232640027999878,
+              0.32153600454330444,
+              0.32307198643684387,
+              0.32576000690460205,
+              0.32950401306152344,
+              0.32841598987579346,
+              0.3240320086479187,
+              0.31993600726127625,
+              0.3264960050582886,
+              0.32201600074768066,
+              0.3267520070075989,
+              0.32444798946380615,
+              0.3242560029029846,
+              0.3259199857711792,
+              0.3155519962310791,
+              0.32185599207878113,
+              0.3247680068016052,
+              0.3234879970550537,
+              0.32528001070022583,
+              0.31571200489997864,
+              0.32121598720550537,
+              0.32387199997901917,
+              0.31353598833084106,
+              0.3162879943847656,
+              0.32819199562072754,
+              0.3248319923877716,
+              0.32204800844192505,
+              0.3194560110569,
+              0.3235839903354645,
+              0.3253439962863922,
+              0.32601600885391235,
+              0.31254398822784424,
+              0.3210879862308502,
+              0.3246400058269501,
+              0.31225600838661194,
+              0.31200000643730164,
+              0.320032000541687,
+              0.31411200761795044,
+              0.3147200047969818,
+              0.3262079954147339,
+              0.3248319923877716,
+              0.3251839876174927,
+              0.31462401151657104,
+              0.3142719864845276,
+              0.32582399249076843,
+              0.31542399525642395,
+              0.31542399525642395,
+              0.3243519961833954,
+              0.3160640001296997,
+              0.3194560110569,
+              0.31404799222946167,
+              0.3155840039253235,
+              0.3160319924354553,
+              0.33052799105644226,
+              0.3272959887981415,
+              0.328031986951828,
+              0.31747201085090637,
+              0.32368001341819763,
+              0.31145599484443665,
+              0.3282240033149719,
+              0.3104960024356842,
+              0.3210879862308502,
+              0.31564798951148987,
+              0.3250879943370819,
+              0.32124799489974976,
+              0.32815998792648315,
+              0.3235839903354645,
+              0.3131519854068756,
+              0.32262399792671204,
+              0.3132160007953644,
+              0.31379199028015137,
+              0.32844799757003784,
+              0.3099839985370636,
+              0.31244799494743347,
+              0.3161279857158661,
+              0.3256320059299469,
+              0.3166719973087311,
+              0.3148159980773926,
+              0.3112640082836151,
+              0.32252800464630127,
+              0.3232319951057434,
+              0.3248319923877716,
+              0.3234879970550537
+            ],
+            "warmup": 30,
+            "iterations": 300,
+            "shape": [
+              1,
+              1,
+              3072,
+              3840
+            ],
+            "device": "NVIDIA GeForce RTX 5090",
+            "precision": "FP16",
+            "compile": "default",
+            "cuda_graph": false,
+            "TF32": false,
+            "boundary": "prepared GPU input through complete display output"
+          },
+          "precision_control": {
+            "FP16_vs_FP32_byte_mean_gray": 0.07681961357593536,
+            "max_gray": 1.0
+          },
+          "graph": {
+            "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ALL-MODELS-ROUND2-20260930/anchor_eval_day/day_normal/day_normal_short3_integer.onnx",
+            "sha256": "1a0de86c746544e4af8c56037d627ed8a2fc6f0a2b9c2bcc3c1103f2e7b88027",
+            "operators": [
+              "Add",
+              "AveragePool",
+              "Cast",
+              "Clip",
+              "Constant",
+              "ConstantOfShape",
+              "Conv",
+              "Div",
+              "Equal",
+              "Erf",
+              "Expand",
+              "Gather",
+              "Identity",
+              "Mul",
+              "ReduceMean",
+              "Relu",
+              "Reshape",
+              "Slice",
+              "Transpose",
+              "Where"
+            ],
+            "nodes": 157,
+            "inputs": [
+              {
+                "name": "nine_raw",
+                "type": 10,
+                "shape": [
+                  1,
+                  9,
+                  1024,
+                  1280
+                ]
+              },
+              {
+                "name": "reference_thumb",
+                "type": 10,
+                "shape": [
+                  1,
+                  1,
+                  64,
+                  64
+                ]
+              }
+            ],
+            "outputs": [
+              {
+                "name": "display_gray",
+                "type": 2,
+                "shape": [
+                  1,
+                  1,
+                  3072,
+                  3840
+                ]
+              }
+            ]
+          }
+        },
+        "9": {
+          "GPU": {
+            "mean_ms": 0.32214698642492295,
+            "p95_ms": 0.3273327961564064,
+            "samples_ms": [
+              0.3352000117301941,
+              0.32016000151634216,
+              0.32099199295043945,
+              0.32364800572395325,
+              0.3158400058746338,
+              0.3251839876174927,
+              0.31724798679351807,
+              0.3142080008983612,
+              0.31564798951148987,
+              0.31705600023269653,
+              0.3184959888458252,
+              0.32444798946380615,
+              0.324319988489151,
+              0.32627201080322266,
+              0.3238080143928528,
+              0.32419198751449585,
+              0.32412800192832947,
+              0.3235200047492981,
+              0.3234879970550537,
+              0.32182401418685913,
+              0.35791999101638794,
+              0.320576012134552,
+              0.32521599531173706,
+              0.32550400495529175,
+              0.315775990486145,
+              0.3243519961833954,
+              0.32841598987579346,
+              0.3245440125465393,
+              0.3266879916191101,
+              0.3165760040283203,
+              0.3230400085449219,
+              0.3178560137748718,
+              0.3232640027999878,
+              0.31804800033569336,
+              0.31350401043891907,
+              0.32371199131011963,
+              0.3258560001850128,
+              0.3240000009536743,
+              0.3229759931564331,
+              0.3132160007953644,
+              0.3142719864845276,
+              0.3235839903354645,
+              0.32262399792671204,
+              0.32604798674583435,
+              0.31862398982048035,
+              0.32339200377464294,
+              0.3296320140361786,
+              0.31839999556541443,
+              0.31619200110435486,
+              0.3251839876174927,
+              0.3222079873085022,
+              0.3222399950027466,
+              0.33404800295829773,
+              0.31596800684928894,
+              0.31679999828338623,
+              0.32256001234054565,
+              0.3136959969997406,
+              0.3229120075702667,
+              0.32393598556518555,
+              0.31513598561286926,
+              0.31513598561286926,
+              0.31516799330711365,
+              0.32339200377464294,
+              0.31561601161956787,
+              0.32441601157188416,
+              0.3166399896144867,
+              0.3263680040836334,
+              0.3144640028476715,
+              0.32499200105667114,
+              0.31491199135780334,
+              0.3237760066986084,
+              0.32396799325942993,
+              0.3229120075702667,
+              0.32307198643684387,
+              0.3218879997730255,
+              0.3186880052089691,
+              0.3173440098762512,
+              0.31673601269721985,
+              0.3168320059776306,
+              0.31513598561286926,
+              0.32310399413108826,
+              0.31439998745918274,
+              0.3256320059299469,
+              0.32153600454330444,
+              0.31705600023269653,
+              0.31484800577163696,
+              0.3174079954624176,
+              0.31520000100135803,
+              0.3210879862308502,
+              0.32310399413108826,
+              0.32470399141311646,
+              0.3232960104942322,
+              0.3245759904384613,
+              0.3141759932041168,
+              0.3232319951057434,
+              0.3226880133152008,
+              0.3189440071582794,
+              0.32627201080322266,
+              0.32624000310897827,
+              0.32342401146888733,
+              0.32467201352119446,
+              0.3256640136241913,
+              0.3248000144958496,
+              0.32335999608039856,
+              0.3250559866428375,
+              0.3234559893608093,
+              0.31248000264167786,
+              0.3238080143928528,
+              0.31564798951148987,
+              0.3222079873085022,
+              0.3221440017223358,
+              0.32470399141311646,
+              0.3248000144958496,
+              0.3259199857711792,
+              0.3240639865398407,
+              0.3243519961833954,
+              0.32335999608039856,
+              0.32601600885391235,
+              0.32335999608039856,
+              0.31564798951148987,
+              0.32419198751449585,
+              0.3213759958744049,
+              0.3266879916191101,
+              0.3227519989013672,
+              0.32310399413108826,
+              0.32630398869514465,
+              0.3147839903831482,
+              0.3255999982357025,
+              0.31676799058914185,
+              0.32604798674583435,
+              0.3132160007953644,
+              0.32572799921035767,
+              0.32473599910736084,
+              0.3258560001850128,
+              0.3149760067462921,
+              0.32310399413108826,
+              0.3264960050582886,
+              0.3134720027446747,
+              0.32553601264953613,
+              0.31913599371910095,
+              0.32598400115966797,
+              0.31644800305366516,
+              0.32918399572372437,
+              0.323743999004364,
+              0.3245440125465393,
+              0.32601600885391235,
+              0.32281601428985596,
+              0.32313600182533264,
+              0.3232319951057434,
+              0.3181439936161041,
+              0.32368001341819763,
+              0.31651198863983154,
+              0.3262079954147339,
+              0.327455997467041,
+              0.3264960050582886,
+              0.32256001234054565,
+              0.3136320114135742,
+              0.32547199726104736,
+              0.32396799325942993,
+              0.31439998745918274,
+              0.3144640028476715,
+              0.32284799218177795,
+              0.3181439936161041,
+              0.323743999004364,
+              0.32252800464630127,
+              0.3162879943847656,
+              0.31632000207901,
+              0.33049601316452026,
+              0.31564798951148987,
+              0.3193280100822449,
+              0.3197439908981323,
+              0.33504000306129456,
+              0.3229439854621887,
+              0.3132160007953644,
+              0.32310399413108826,
+              0.32659199833869934,
+              0.32579201459884644,
+              0.32412800192832947,
+              0.32742398977279663,
+              0.3184959888458252,
+              0.3237760066986084,
+              0.32307198643684387,
+              0.3140160143375397,
+              0.32390400767326355,
+              0.3221440017223358,
+              0.3145599961280823,
+              0.3227519989013672,
+              0.32387199997901917,
+              0.32073599100112915,
+              0.32419198751449585,
+              0.32521599531173706,
+              0.3247680068016052,
+              0.3248000144958496,
+              0.3248319923877716,
+              0.32281601428985596,
+              0.32207998633384705,
+              0.3251839876174927,
+              0.3214719891548157,
+              0.3248319923877716,
+              0.33510398864746094,
+              0.3251839876174927,
+              0.3232640027999878,
+              0.3266560137271881,
+              0.3219519853591919,
+              0.324288010597229,
+              0.3343999981880188,
+              0.32899200916290283,
+              0.32438400387763977,
+              0.3155199885368347,
+              0.31833600997924805,
+              0.3226880133152008,
+              0.32412800192832947,
+              0.3153280019760132,
+              0.31705600023269653,
+              0.3160640001296997,
+              0.32396799325942993,
+              0.3152959942817688,
+              0.3150720000267029,
+              0.3251839876174927,
+              0.3266560137271881,
+              0.31376001238822937,
+              0.32371199131011963,
+              0.3165760040283203,
+              0.32438400387763977,
+              0.3187519907951355,
+              0.3271999955177307,
+              0.3224639892578125,
+              0.3240320086479187,
+              0.32607999444007874,
+              0.3160000145435333,
+              0.3238080143928528,
+              0.31910398602485657,
+              0.32556799054145813,
+              0.31484800577163696,
+              0.3238080143928528,
+              0.31676799058914185,
+              0.3266240060329437,
+              0.32732799649238586,
+              0.3249279856681824,
+              0.3256320059299469,
+              0.3187519907951355,
+              0.3253760039806366,
+              0.31699201464653015,
+              0.317984014749527,
+              0.32390400767326355,
+              0.32204800844192505,
+              0.32422399520874023,
+              0.3248960077762604,
+              0.3248000144958496,
+              0.326911985874176,
+              0.3155519962310791,
+              0.3224320113658905,
+              0.32556799054145813,
+              0.32256001234054565,
+              0.3309119939804077,
+              0.32521599531173706,
+              0.32495999336242676,
+              0.32419198751449585,
+              0.32412800192832947,
+              0.3256640136241913,
+              0.32950401306152344,
+              0.321727991104126,
+              0.315744012594223,
+              0.3160000145435333,
+              0.3219839930534363,
+              0.3177280128002167,
+              0.31939199566841125,
+              0.32256001234054565,
+              0.3256640136241913,
+              0.3160640001296997,
+              0.32499200105667114,
+              0.3240000009536743,
+              0.3144319951534271,
+              0.3266560137271881,
+              0.32684800028800964,
+              0.3176319897174835,
+              0.32716798782348633,
+              0.3198400139808655,
+              0.325408011674881,
+              0.3214080035686493,
+              0.31651198863983154,
+              0.3258560001850128,
+              0.32419198751449585,
+              0.3240320086479187,
+              0.3166080117225647,
+              0.3253760039806366,
+              0.3233279883861542,
+              0.324288010597229,
+              0.3235200047492981,
+              0.32175999879837036,
+              0.32582399249076843,
+              0.3230080008506775,
+              0.3229120075702667,
+              0.32422399520874023,
+              0.3136639893054962,
+              0.3245120048522949,
+              0.3234559893608093,
+              0.32579201459884644,
+              0.3226560056209564,
+              0.32495999336242676
+            ],
+            "warmup": 30,
+            "iterations": 300,
+            "shape": [
+              1,
+              1,
+              3072,
+              3840
+            ],
+            "device": "NVIDIA GeForce RTX 5090",
+            "precision": "FP16",
+            "compile": "default",
+            "cuda_graph": false,
+            "TF32": false,
+            "boundary": "prepared GPU input through complete display output"
+          },
+          "precision_control": {
+            "FP16_vs_FP32_byte_mean_gray": 0.06685485690832138,
+            "max_gray": 1.0
+          },
+          "graph": {
+            "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ALL-MODELS-ROUND2-20260930/anchor_eval_day/day_normal/day_normal_short9_integer.onnx",
+            "sha256": "6fc144aa606ee3698c6abbf8a298da3686dcbcb33b2c0c553ac5d2fb232269f7",
+            "operators": [
+              "Add",
+              "AveragePool",
+              "Cast",
+              "Clip",
+              "Constant",
+              "ConstantOfShape",
+              "Conv",
+              "Div",
+              "Equal",
+              "Erf",
+              "Expand",
+              "Gather",
+              "Identity",
+              "Mul",
+              "ReduceMean",
+              "Relu",
+              "Reshape",
+              "Slice",
+              "Transpose",
+              "Where"
+            ],
+            "nodes": 157,
+            "inputs": [
+              {
+                "name": "nine_raw",
+                "type": 10,
+                "shape": [
+                  1,
+                  9,
+                  1024,
+                  1280
+                ]
+              },
+              {
+                "name": "reference_thumb",
+                "type": 10,
+                "shape": [
+                  1,
+                  1,
+                  64,
+                  64
+                ]
+              }
+            ],
+            "outputs": [
+              {
+                "name": "display_gray",
+                "type": 2,
+                "shape": [
+                  1,
+                  1,
+                  3072,
+                  3840
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

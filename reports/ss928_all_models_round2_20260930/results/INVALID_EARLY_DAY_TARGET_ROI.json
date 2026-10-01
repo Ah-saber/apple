@@ -1,0 +1,31 @@
+{
+  "reason": "day polygon included upper buildings and parked cars; corrected to actual straight driving lane x>=350 after same-scene GT picture inspection",
+  "excluded_target_folders": [
+    "targets_adaptive_day",
+    "targets_adaptive_nonzero_day",
+    "targets_residual_day",
+    "targets_half3_day",
+    "targets_half1_day",
+    "targets_tiny_adaptive_day",
+    "targets_tiny_residual_day",
+    "targets_tiny_half3_day",
+    "targets_tiny_half1_day"
+  ],
+  "unaffected": [
+    "all whole-image PSNR/static/weak-structure measures",
+    "GPU timing",
+    "weather and night target statistics",
+    "model weights and inference"
+  ],
+  "replacement": [
+    "targets_lane_day_adaptive",
+    "targets_lane_day_residual",
+    "targets_lane_day_three",
+    "targets_lane_day_one",
+    "targets_tiny_lane_day_adaptive",
+    "targets_tiny_lane_day_residual",
+    "targets_tiny_lane_day_three",
+    "targets_tiny_lane_day_one"
+  ],
+  "old_files_retained": true
+}

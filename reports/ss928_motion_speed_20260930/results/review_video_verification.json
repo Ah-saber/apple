@@ -1,0 +1,81 @@
+{
+  "videos": [
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/history_probe/weather_light/full120_history_intervention.mp4",
+      "sha256": "64dc80fa19ad24ecef5bba70fb0904eb51231693dc2a75221039352868e84d8b",
+      "width": 6400,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/history_probe/weather_medium/full120_history_intervention.mp4",
+      "sha256": "01c1dd5efe57eeb6a3be29a9a67155c47d429585e65fda879f9ad0ff4f77763a",
+      "width": 6400,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/history_heavy/weather_heavy/full120_history_intervention.mp4",
+      "sha256": "345bc9f004bae9d3cb89644486f33da47feb6c78795f67b45ce7c0d3578b216d",
+      "width": 6400,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/reliable_evaluation/weather_heavy/full120_history_intervention.mp4",
+      "sha256": "5e5bb149e584346a123a78178c0f59dcc77dc0a2430ba696601fdb4be43e5060",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/reliable_evaluation/weather_light/full120_history_intervention.mp4",
+      "sha256": "f7c9bea098c4a6e0c228961e95d493da3860aa0b8440f4a8cb40794f558ed4fb",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/reliable_evaluation/weather_medium/full120_history_intervention.mp4",
+      "sha256": "074d3a37967a73ccd30715de2b454c2762395efbbc2af18e40bd2ca2c6ac9a48",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/native_evaluation/weather_heavy/full120_history_intervention.mp4",
+      "sha256": "f2660e10569205e89eda294ab996f61bf47483f9c5f5536da47a6e9cd7e97db8",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/native_evaluation/weather_light/full120_history_intervention.mp4",
+      "sha256": "574bc393c581204ffe07d8ce1859784aff4077f36c60d53e7eae1401b83cae6b",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    },
+    {
+      "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-MOTION-SPEED-20260930/native_evaluation/weather_medium/full120_history_intervention.mp4",
+      "sha256": "98851cbcea4c7fdde95fb5960a9da02a9d7eaa46afae5bcab6ec61df5f43a69f",
+      "width": 5120,
+      "height": 1080,
+      "avg_frame_rate": "12/1",
+      "nb_read_frames": "120"
+    }
+  ],
+  "total_decoded_frames": 1080,
+  "display_fps_is_capture_fps": false,
+  "manual_all_frames_reviewed": false,
+  "packaged": false,
+  "pushed": false
+}
