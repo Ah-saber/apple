@@ -1,0 +1,50 @@
+[
+  {
+    "scene": "day_normal",
+    "residue_reduction_pct": 0.418577035349299,
+    "residue_vs_R3_change_pct": 0.0016045620515825476,
+    "road_static_change_pct": -0.2914945631010246,
+    "centroid_reduction_pct": 0.7165116918810055,
+    "contrast_ratio": 0.6820037982293538
+  },
+  {
+    "scene": "weather_light",
+    "residue_reduction_pct": 3.4750580657590624,
+    "residue_vs_R3_change_pct": 0.045817041827267424,
+    "road_static_change_pct": 1.1507515348088138,
+    "centroid_reduction_pct": 2.4536630644210633,
+    "contrast_ratio": 0.8885277153125831
+  },
+  {
+    "scene": "weather_medium",
+    "residue_reduction_pct": 2.2357072398884625,
+    "residue_vs_R3_change_pct": -0.0035027435764334314,
+    "road_static_change_pct": 0.8878535452901959,
+    "centroid_reduction_pct": 4.134465659628561,
+    "contrast_ratio": 0.9975239155547959
+  },
+  {
+    "scene": "weather_heavy",
+    "residue_reduction_pct": 2.883966874413202,
+    "residue_vs_R3_change_pct": -0.005316445396352787,
+    "road_static_change_pct": 2.287601600344935,
+    "centroid_reduction_pct": 4.508435970154645,
+    "contrast_ratio": 0.9165889716574124
+  },
+  {
+    "scene": "night_ordinary",
+    "residue_reduction_pct": 2.5306536461347395,
+    "residue_vs_R3_change_pct": 0.39440378309274493,
+    "road_static_change_pct": 1.6982708314822181,
+    "centroid_reduction_pct": 39.115003631112856,
+    "contrast_ratio": 0.31026120007038116
+  },
+  {
+    "scene": "night_special",
+    "residue_reduction_pct": 2.430114281049489,
+    "residue_vs_R3_change_pct": 0.03869270110021805,
+    "road_static_change_pct": 12.390681525644109,
+    "centroid_reduction_pct": 38.134413278741285,
+    "contrast_ratio": 0.4125499238773268
+  }
+]

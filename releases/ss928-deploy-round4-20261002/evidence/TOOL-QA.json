@@ -1,0 +1,262 @@
+{
+  "test_environment": "/home/ahs/miniconda3/envs/test/bin/python",
+  "CPU_models_tested": [
+    {
+      "scene": "day_normal",
+      "role": "control",
+      "model_sha256": "e85c0129b2133b947e029d66b029810808d14567f5aa0906d0df137a3de8b45c",
+      "sample_sha256": "ea8137b9bb7f2b4d91d6cf1806d0db1dcf4dd65befb2d312d0c345641ffe7347",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "day_normal",
+      "role": "candidate",
+      "model_sha256": "a2ce56473cdf8b03ee7526c5d1efb12867999e9addd7754a49d9f00710cf07d5",
+      "sample_sha256": "ea8137b9bb7f2b4d91d6cf1806d0db1dcf4dd65befb2d312d0c345641ffe7347",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "weather_light",
+      "role": "control",
+      "model_sha256": "7c961a5f97508a991c236db9a7d2d08502ec244a67d1813e14567b51e5731a8c",
+      "sample_sha256": "90b14d106139ad93bb6eb5eb9351958f39141d5fae23c0d2a72aa1f8ec2bd93c",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "weather_light",
+      "role": "candidate",
+      "model_sha256": "2e5a92b24f866684e2714bbfafd6a6831910fab797db1f445cda7b3df4fdd6ba",
+      "sample_sha256": "90b14d106139ad93bb6eb5eb9351958f39141d5fae23c0d2a72aa1f8ec2bd93c",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "weather_medium",
+      "role": "control",
+      "model_sha256": "7c961a5f97508a991c236db9a7d2d08502ec244a67d1813e14567b51e5731a8c",
+      "sample_sha256": "c3a44bb3413e838667f2e8b66af518ed8b97fe83d84cf14e50e835bef8ffa815",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "weather_medium",
+      "role": "candidate",
+      "model_sha256": "2e5a92b24f866684e2714bbfafd6a6831910fab797db1f445cda7b3df4fdd6ba",
+      "sample_sha256": "c3a44bb3413e838667f2e8b66af518ed8b97fe83d84cf14e50e835bef8ffa815",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "weather_heavy",
+      "role": "control",
+      "model_sha256": "7492eb04b1ca13d1c7812ffee38302cd1f7bc0dcbbee518bf51b99779a9d0c43",
+      "sample_sha256": "c5a97c094b56fafcde3360185c0b68eff339749c7c83782123b3ab255b5b007c",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "weather_heavy",
+      "role": "candidate",
+      "model_sha256": "c7eae4316323cd6cb92cd9f6f471c12949c2c8ed18d2fcb26359bad4dccd4c85",
+      "sample_sha256": "c5a97c094b56fafcde3360185c0b68eff339749c7c83782123b3ab255b5b007c",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "role": "control",
+      "model_sha256": "dec37381d4af4280c11a14ed22409e8d9c9b1a3fd9644a0a65a3488ed183d74d",
+      "sample_sha256": "afa09073e449b1a464cabd6f3e2fc48b6268b1f82be238374fe5adb44afa3c69",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "role": "candidate",
+      "model_sha256": "c9f9dd05affb667edb5205a8bc55da11e57fd515d2d3022a08fcd931e0c19ae1",
+      "sample_sha256": "afa09073e449b1a464cabd6f3e2fc48b6268b1f82be238374fe5adb44afa3c69",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "night_ordinary",
+      "role": "control",
+      "model_sha256": "4e5900efe5e34a0399bab6b9b49ac4d1a8a5769a718ac529b60d3bf31009f822",
+      "sample_sha256": "4c3c1bd189dff5fcf49ab6909171f7bc3fd7f3027a5a03dea8e8a53b0928b71f",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "night_ordinary",
+      "role": "candidate",
+      "model_sha256": "b4a98fd2df7903dd3b8882856138713eb3af0a8d50f673caa2dec842342f71e3",
+      "sample_sha256": "4c3c1bd189dff5fcf49ab6909171f7bc3fd7f3027a5a03dea8e8a53b0928b71f",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "night_special",
+      "role": "control",
+      "model_sha256": "cb97103ddeb6cc6510616606b758466a5742e888ed47df5ce3f9e65bd288d0bb",
+      "sample_sha256": "44f0ad9790c14634252e3bf18a77f445492b184c6fed8c3bfc59143c8951b7b3",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    },
+    {
+      "scene": "night_special",
+      "role": "candidate",
+      "model_sha256": "8506096b49f8e61389fcc97d161b06751a8d6f9b4a2d121166fdf58591ace9d0",
+      "sample_sha256": "44f0ad9790c14634252e3bf18a77f445492b184c6fed8c3bfc59143c8951b7b3",
+      "input_BIN_exact": true,
+      "output_shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "output_dtype": "float16"
+    }
+  ],
+  "comparison_pairs": [
+    {
+      "scene": "day_normal",
+      "cpu_control_vs_candidate_max_gray": 0.125,
+      "cpu_control_vs_candidate_mean_gray": 6.382202172972029E-06,
+      "source_sample_sha256": "ea8137b9bb7f2b4d91d6cf1806d0db1dcf4dd65befb2d312d0c345641ffe7347",
+      "board_output_in_this_test_was_CPU_fixture": true
+    },
+    {
+      "scene": "weather_light",
+      "cpu_control_vs_candidate_max_gray": 0.125,
+      "cpu_control_vs_candidate_mean_gray": 4.023313522338867E-06,
+      "source_sample_sha256": "90b14d106139ad93bb6eb5eb9351958f39141d5fae23c0d2a72aa1f8ec2bd93c",
+      "board_output_in_this_test_was_CPU_fixture": true
+    },
+    {
+      "scene": "weather_medium",
+      "cpu_control_vs_candidate_max_gray": 0.125,
+      "cpu_control_vs_candidate_mean_gray": 4.824995812668931E-06,
+      "source_sample_sha256": "c3a44bb3413e838667f2e8b66af518ed8b97fe83d84cf14e50e835bef8ffa815",
+      "board_output_in_this_test_was_CPU_fixture": true
+    },
+    {
+      "scene": "weather_heavy",
+      "cpu_control_vs_candidate_max_gray": 0.125,
+      "cpu_control_vs_candidate_mean_gray": 6.014108748786384E-06,
+      "source_sample_sha256": "c5a97c094b56fafcde3360185c0b68eff339749c7c83782123b3ab255b5b007c",
+      "board_output_in_this_test_was_CPU_fixture": true
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "cpu_control_vs_candidate_max_gray": 0.125,
+      "cpu_control_vs_candidate_mean_gray": 6.812811079726089E-06,
+      "source_sample_sha256": "afa09073e449b1a464cabd6f3e2fc48b6268b1f82be238374fe5adb44afa3c69",
+      "board_output_in_this_test_was_CPU_fixture": true
+    },
+    {
+      "scene": "night_ordinary",
+      "cpu_control_vs_candidate_max_gray": 0.125,
+      "cpu_control_vs_candidate_mean_gray": 2.995902377733728E-06,
+      "source_sample_sha256": "4c3c1bd189dff5fcf49ab6909171f7bc3fd7f3027a5a03dea8e8a53b0928b71f",
+      "board_output_in_this_test_was_CPU_fixture": true
+    },
+    {
+      "scene": "night_special",
+      "cpu_control_vs_candidate_max_gray": 0.0,
+      "cpu_control_vs_candidate_mean_gray": 0.0,
+      "source_sample_sha256": "44f0ad9790c14634252e3bf18a77f445492b184c6fed8c3bfc59143c8951b7b3",
+      "board_output_in_this_test_was_CPU_fixture": true
+    }
+  ],
+  "negative_checks": [
+    "wrong output byte count rejected",
+    "PC/source sample mismatch rejected",
+    "wrong source NPZ hash rejected before writing",
+    "existing output directory protected"
+  ],
+  "NPU_measured": false,
+  "SDK_compiled": false,
+  "original_archive_modified": false,
+  "new_delivery_archive_created": false
+}

@@ -1,0 +1,7 @@
+{
+  "graphs": 55,
+  "torch_controls": 660,
+  "max_gray": 0,
+  "byte_max_gray": 0,
+  "local_graph_hashes_all_match": true
+}

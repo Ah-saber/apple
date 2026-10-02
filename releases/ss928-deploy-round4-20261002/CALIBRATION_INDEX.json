@@ -1,0 +1,1968 @@
+{
+  "archive": "SS928-V13-REAL-CALIBRATION-AND-GT-20260930.tar",
+  "archive_bytes": 8420392960,
+  "archive_sha256": "d748b9582cca5aab1cd85760c866e351de8925ff916590515cf7b9be74483a59",
+  "scene_data": {
+    "day_normal": {
+      "calibration": 4,
+      "test": 12,
+      "nine_distinct_calibration_frames": true,
+      "causal": true,
+      "checks": [
+        {
+          "member": "deployment_corrected/day_normal/train_00.npz",
+          "sha256": "baac21122b1d32d2e667bf102c1d3e1c739bfed439373536c72342480d2abc98",
+          "split": "calibration",
+          "frame": 8,
+          "history_frame_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/train_01.npz",
+          "sha256": "049b02f4d374ac08e3e45bf827da42397784db1a1b1c68aa150304380d09f273",
+          "split": "calibration",
+          "frame": 47,
+          "history_frame_ids": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/train_02.npz",
+          "sha256": "967797879442009f4a037d2db44b462584513d633bfbd4480b2f8ef9cb442431",
+          "split": "calibration",
+          "frame": 89,
+          "history_frame_ids": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/train_03.npz",
+          "sha256": "b69ebaf9883559d609a2853aff402878b54d65c6b455077a2ec87da4668928b8",
+          "split": "calibration",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_00.npz",
+          "sha256": "7d5d597cb2f8a2695ca9be73661989ce2259155e7564a956adfba3861fddd4bd",
+          "split": "test",
+          "frame": 0,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_01.npz",
+          "sha256": "6cce430ff94db9f782c92f348845a4df611fd8ddd1106501a2e8cf05ffe845cc",
+          "split": "test",
+          "frame": 10,
+          "history_frame_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_02.npz",
+          "sha256": "724a7a15ea1f121e336894664c1243c91cd1823a55c243f3fb99d65d3dda6e7e",
+          "split": "test",
+          "frame": 21,
+          "history_frame_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_03.npz",
+          "sha256": "64e82eb3ac83092577a6cf002e33acaec8c33d37bdb95d0ab627461da1a4c8bb",
+          "split": "test",
+          "frame": 32,
+          "history_frame_ids": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_04.npz",
+          "sha256": "eadac5603e7d4ace24df707e5032e58f1e2f933069b2f715357ff420a6f3785a",
+          "split": "test",
+          "frame": 43,
+          "history_frame_ids": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_05.npz",
+          "sha256": "9c588c5604e2eb52897cf8a88a971632757844b4099a7b25b17ac54746466fcf",
+          "split": "test",
+          "frame": 54,
+          "history_frame_ids": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_06.npz",
+          "sha256": "d7a451bd080163cbd7f05976300bd21da410608bea6645b2483d1fa9e078d142",
+          "split": "test",
+          "frame": 64,
+          "history_frame_ids": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_07.npz",
+          "sha256": "ade3127cf0a8510f582701cf5a2a49b1f76eec4e426984726444c64109ba2cd1",
+          "split": "test",
+          "frame": 75,
+          "history_frame_ids": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_08.npz",
+          "sha256": "dea47892b4c4ff3f023db8e96274e64c102a9ceefe36d6b0d04b4ea84ca55784",
+          "split": "test",
+          "frame": 86,
+          "history_frame_ids": [
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_09.npz",
+          "sha256": "ac3c77d85103dc09008381b6f52b92013ee39136186b5241ddcd29946064dc07",
+          "split": "test",
+          "frame": 97,
+          "history_frame_ids": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_10.npz",
+          "sha256": "7d756cbcb09f19c96a550a901cb4de8cc5f701476130e9bcbab2a46d24d674bd",
+          "split": "test",
+          "frame": 108,
+          "history_frame_ids": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ]
+        },
+        {
+          "member": "deployment_corrected/day_normal/test_11.npz",
+          "sha256": "ea8137b9bb7f2b4d91d6cf1806d0db1dcf4dd65befb2d312d0c345641ffe7347",
+          "split": "test",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        }
+      ]
+    },
+    "weather_light": {
+      "calibration": 4,
+      "test": 12,
+      "nine_distinct_calibration_frames": true,
+      "causal": true,
+      "checks": [
+        {
+          "member": "deployment_corrected/weather_light/train_00.npz",
+          "sha256": "38ec65285f443a20cfd0947148de1af944bbfc9f2c2aab4bc5a2946bf802f04b",
+          "split": "calibration",
+          "frame": 8,
+          "history_frame_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/train_01.npz",
+          "sha256": "6fd051547c320f80a17a4c1bc4ffaa6e86db1b2f7d76fa863fc5635359f0bd51",
+          "split": "calibration",
+          "frame": 82,
+          "history_frame_ids": [
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/train_02.npz",
+          "sha256": "9476fdd80a22770540a9707c92bbe8271275f16fe2f9e01527dd01f9f175d145",
+          "split": "calibration",
+          "frame": 44,
+          "history_frame_ids": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/train_03.npz",
+          "sha256": "f37ecbc17bcdd38c64c191770bd1e7dd730832a2470c4326bfe985af21181c81",
+          "split": "calibration",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_00.npz",
+          "sha256": "c677879cb156cbd685f969a27f3636c49825c7005d653e9e8f3c2e13be1134d0",
+          "split": "test",
+          "frame": 0,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_01.npz",
+          "sha256": "395a3a4ff6d8ff7e5bf3b4802b9226ed31ef64e2b648d85333ec84165d5d19de",
+          "split": "test",
+          "frame": 10,
+          "history_frame_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_02.npz",
+          "sha256": "5d43f696b31df0384a0c4db355dc1b5d93e6620e96475c53f5156195d1dfe181",
+          "split": "test",
+          "frame": 21,
+          "history_frame_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_03.npz",
+          "sha256": "1324e757c96a0d191b139200dbe90d17d228046287404461b4263a5c9f0d8e29",
+          "split": "test",
+          "frame": 32,
+          "history_frame_ids": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_04.npz",
+          "sha256": "80bcfb9a10d13eb3086b3e826ea9a7e52e17e29a32f784ed1fe9d0b24b701a61",
+          "split": "test",
+          "frame": 43,
+          "history_frame_ids": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_05.npz",
+          "sha256": "c746f4297b79546e76e41857b3021562a77e8eb4819f38cf8a471e3f74120bb3",
+          "split": "test",
+          "frame": 54,
+          "history_frame_ids": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_06.npz",
+          "sha256": "305e5159c8575030e5c66c3e82a85ef6784aa25dde41874beaa103dd3ec05835",
+          "split": "test",
+          "frame": 64,
+          "history_frame_ids": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_07.npz",
+          "sha256": "0de77547342b0bcf9113318ecfc9efddb91d2aec5a318cf764e61fa0efcc6ccf",
+          "split": "test",
+          "frame": 75,
+          "history_frame_ids": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_08.npz",
+          "sha256": "cd13d32b8036ddaa563f6c4eaadbcbd902ccc79f8213af64e3781413f18eabb2",
+          "split": "test",
+          "frame": 86,
+          "history_frame_ids": [
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_09.npz",
+          "sha256": "01dee754db7e2e6f83f0f97cc4dad987ec44ccbc5c935aef047a6a61bd32e2e9",
+          "split": "test",
+          "frame": 97,
+          "history_frame_ids": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_10.npz",
+          "sha256": "7a3b4c20830d146c28d4373bedf8a6319f5d5df5de806b92e9a9fa884c3d8f4f",
+          "split": "test",
+          "frame": 108,
+          "history_frame_ids": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_light/test_11.npz",
+          "sha256": "90b14d106139ad93bb6eb5eb9351958f39141d5fae23c0d2a72aa1f8ec2bd93c",
+          "split": "test",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        }
+      ]
+    },
+    "weather_medium": {
+      "calibration": 4,
+      "test": 12,
+      "nine_distinct_calibration_frames": true,
+      "causal": true,
+      "checks": [
+        {
+          "member": "deployment_corrected/weather_medium/train_00.npz",
+          "sha256": "c3f6b123bfc894ee91b55aad720a77d03d7c714a6309a46c057fb9f1e28346ad",
+          "split": "calibration",
+          "frame": 8,
+          "history_frame_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/train_01.npz",
+          "sha256": "1dd7e444722642e03bd60b492f34b3c18dbeccfd628f55f96dab2ee402f6acff",
+          "split": "calibration",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/train_02.npz",
+          "sha256": "906c6fd7a5ea8a2434fa0d11378aa801f8e1782d964b5643f36a3081a8240e61",
+          "split": "calibration",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/train_03.npz",
+          "sha256": "1b41e85ff5bc08a8d391cb224231c83bedec3d1b74aadf10c2f65ddba136128c",
+          "split": "calibration",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_00.npz",
+          "sha256": "192145d0c5dca72c6cc442a6aa4308b606f7b2d39cedc3c0568a54f8923e3811",
+          "split": "test",
+          "frame": 0,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_01.npz",
+          "sha256": "e94f8fd2cf5a00081790315e2c91171bffee07ae99975b466484ae71d637c2d6",
+          "split": "test",
+          "frame": 10,
+          "history_frame_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_02.npz",
+          "sha256": "16541a0d192c17e0cd57d16f5b44093e7e85cac20c5909fcd4a512794d0d4c03",
+          "split": "test",
+          "frame": 21,
+          "history_frame_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_03.npz",
+          "sha256": "7c05d4561e32edc2ce37957b4c2a8c639e70cf0d88516e03b64db4d4541a82b4",
+          "split": "test",
+          "frame": 32,
+          "history_frame_ids": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_04.npz",
+          "sha256": "f62efbd68491c026237820458a611c13c952533ce9c90fbf5faec12c782f33e9",
+          "split": "test",
+          "frame": 43,
+          "history_frame_ids": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_05.npz",
+          "sha256": "9cf19892aedfdcd4eb69ad23140e8910f5828407b64870ec10aa401825ab2590",
+          "split": "test",
+          "frame": 54,
+          "history_frame_ids": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_06.npz",
+          "sha256": "44be5d90ae3b04699061b4621cefa5464cd9c9f8d0493a7408315b614c5fff4a",
+          "split": "test",
+          "frame": 64,
+          "history_frame_ids": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_07.npz",
+          "sha256": "850f8ee9ed2631ac0de39eed14b7dbb6b79c99aa97bbb15758de2b3290a522da",
+          "split": "test",
+          "frame": 75,
+          "history_frame_ids": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_08.npz",
+          "sha256": "355db99dbbbe3ce59c9bec2e0fe83e9d7acc9b58adb2823421d1924d2738bc7f",
+          "split": "test",
+          "frame": 86,
+          "history_frame_ids": [
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_09.npz",
+          "sha256": "c6ab30fddce400db0dbbb8adf5d9142a76d4804f91a4b47713e1afba054b1220",
+          "split": "test",
+          "frame": 97,
+          "history_frame_ids": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_10.npz",
+          "sha256": "c40a292c835d7df864ed917a8ce75c347117a0e05f35057429eada155c1ab7c1",
+          "split": "test",
+          "frame": 108,
+          "history_frame_ids": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_medium/test_11.npz",
+          "sha256": "c3a44bb3413e838667f2e8b66af518ed8b97fe83d84cf14e50e835bef8ffa815",
+          "split": "test",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        }
+      ]
+    },
+    "weather_heavy": {
+      "calibration": 4,
+      "test": 12,
+      "nine_distinct_calibration_frames": true,
+      "causal": true,
+      "checks": [
+        {
+          "member": "deployment_corrected/weather_heavy/train_00.npz",
+          "sha256": "d47624ca250b6fa05a8f495f5f149935bd32bb3f7cc4b5d392b012c337d2a5ea",
+          "split": "calibration",
+          "frame": 8,
+          "history_frame_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/train_01.npz",
+          "sha256": "56f5f932296fe17ae67f4ba0c36a43ee11e2269a587af02714fea21009ec7053",
+          "split": "calibration",
+          "frame": 82,
+          "history_frame_ids": [
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/train_02.npz",
+          "sha256": "a5d733fff8dd1cf9031daa55cbc6edfe48129c13c9d9ebd7a3613044f6f7abb5",
+          "split": "calibration",
+          "frame": 44,
+          "history_frame_ids": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/train_03.npz",
+          "sha256": "d9f9e4ce6df826a779ab24875c1764ea536daeb09b489a2575875de9a60aaf78",
+          "split": "calibration",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_00.npz",
+          "sha256": "c6f3c30de5770c642aec92e910e2d799d0ba4a5f2f2a5af622c9c389757246ef",
+          "split": "test",
+          "frame": 0,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_01.npz",
+          "sha256": "ffa0a417888c54c55c6e1a0a607cbc76167f1a7882abff96e44ee0ceff171179",
+          "split": "test",
+          "frame": 10,
+          "history_frame_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_02.npz",
+          "sha256": "2f17180f8909566c21ae09461001bc02c5014625c0d5ac6f623da4d00cf77540",
+          "split": "test",
+          "frame": 21,
+          "history_frame_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_03.npz",
+          "sha256": "0a45d0ba74469dc3c9f28acefc32732af7f78b2d23d69a161aa3f699e73791f9",
+          "split": "test",
+          "frame": 32,
+          "history_frame_ids": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_04.npz",
+          "sha256": "28f1a6b7024ae20b0f40711c3aab5c6e124d7f3977f9aba3b43e6c3d0b409e57",
+          "split": "test",
+          "frame": 43,
+          "history_frame_ids": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_05.npz",
+          "sha256": "3604dd11d91e479ea146e7cb72816d4c61fb164337a14ae8aed72341e542b70e",
+          "split": "test",
+          "frame": 54,
+          "history_frame_ids": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_06.npz",
+          "sha256": "cce99d07e77a80a7fb1191d80f3dc9664b1e5ffefcea9f71ecc38e22db385b27",
+          "split": "test",
+          "frame": 64,
+          "history_frame_ids": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_07.npz",
+          "sha256": "42cd320df6e4d5f79b8548df382e8e47b559e883a4038d6f7baa2dd9468dfdb7",
+          "split": "test",
+          "frame": 75,
+          "history_frame_ids": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_08.npz",
+          "sha256": "5c7eb6a4019910f56ba92661957cb7b95e97d472c02560b23cea8974c6d84a8a",
+          "split": "test",
+          "frame": 86,
+          "history_frame_ids": [
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_09.npz",
+          "sha256": "c60aa33dbfe068a6940a2c66bc73935bbd40ce7ba2360ebb18e70d78610d5682",
+          "split": "test",
+          "frame": 97,
+          "history_frame_ids": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_10.npz",
+          "sha256": "757979b745db83addb2f34df958415f0806457a77bc3a09933fad251dea14afc",
+          "split": "test",
+          "frame": 108,
+          "history_frame_ids": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy/test_11.npz",
+          "sha256": "c5a97c094b56fafcde3360185c0b68eff339749c7c83782123b3ab255b5b007c",
+          "split": "test",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        }
+      ]
+    },
+    "weather_heavy_c32": {
+      "calibration": 4,
+      "test": 12,
+      "nine_distinct_calibration_frames": true,
+      "causal": true,
+      "checks": [
+        {
+          "member": "deployment_corrected/weather_heavy_c32/train_00.npz",
+          "sha256": "69f4a0ead5999d44678c598c1636cdbbc8c1dd246a8587be4bb52ce8edf4db8b",
+          "split": "calibration",
+          "frame": 8,
+          "history_frame_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/train_01.npz",
+          "sha256": "7241e2bbfb578620baec61e6940fd717db20a6d6c3795874ab57e2c18e8bcfef",
+          "split": "calibration",
+          "frame": 82,
+          "history_frame_ids": [
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/train_02.npz",
+          "sha256": "5d8fe11a01cc2e6a5b094a45659f7e9847681d9dbc73976f0acbc362b280feea",
+          "split": "calibration",
+          "frame": 44,
+          "history_frame_ids": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/train_03.npz",
+          "sha256": "40f8ed6e0d283bfca2cebc1a23b2474f59f72aa99a2319495413dcb4b516a940",
+          "split": "calibration",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_00.npz",
+          "sha256": "f388233b48f282c811b670ea1e1e9030e1487877a6012786a6a5d9ebd1652ea6",
+          "split": "test",
+          "frame": 0,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_01.npz",
+          "sha256": "78d672ba339c2d73149276de28a380f69d04d63ee906461a2aef76e184996e99",
+          "split": "test",
+          "frame": 23,
+          "history_frame_ids": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_02.npz",
+          "sha256": "8c7afd8c09ab6c115f487f51ab7c6eaaea6496d751069624528ba46e63f2e46d",
+          "split": "test",
+          "frame": 47,
+          "history_frame_ids": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_03.npz",
+          "sha256": "9dacd1737d05ab461ffaca124e8c82d3a64a7eb27a6aba0b16efc1ec2f5181c8",
+          "split": "test",
+          "frame": 71,
+          "history_frame_ids": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_04.npz",
+          "sha256": "215db1876e9648073f7d870f04cfed21c9750bdc062ee23869cd6372adf7d096",
+          "split": "test",
+          "frame": 95,
+          "history_frame_ids": [
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_05.npz",
+          "sha256": "c4a1ff6d64be2dd4f18a30826c3f63d5356a419e969eb09048a7bba747f61cab",
+          "split": "test",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_06.npz",
+          "sha256": "404976e818082910e17401719b9a7a8d63af2c439a3ac82c604e4d7829b68ce8",
+          "split": "test",
+          "frame": 0,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_07.npz",
+          "sha256": "194a692e38884c049a258863f0505ae6105519a95e12da9d6bca11b537e6e6cf",
+          "split": "test",
+          "frame": 23,
+          "history_frame_ids": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_08.npz",
+          "sha256": "8c4ed22c92e401080f301d5048294b750371445d62ca1d84248d5dc3caa44ecb",
+          "split": "test",
+          "frame": 47,
+          "history_frame_ids": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_09.npz",
+          "sha256": "14741d754a6cc1fd8c1c656bc62276aa8b9d1e3895c58d29c76fc446d530af0f",
+          "split": "test",
+          "frame": 71,
+          "history_frame_ids": [
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_10.npz",
+          "sha256": "a22b7e3878804a5a93c3b7ebbddb6b9867368bdc8b9dc9d14d343af910b90e3a",
+          "split": "test",
+          "frame": 95,
+          "history_frame_ids": [
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ]
+        },
+        {
+          "member": "deployment_corrected/weather_heavy_c32/test_11.npz",
+          "sha256": "afa09073e449b1a464cabd6f3e2fc48b6268b1f82be238374fe5adb44afa3c69",
+          "split": "test",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        }
+      ]
+    },
+    "night_ordinary": {
+      "calibration": 4,
+      "test": 12,
+      "nine_distinct_calibration_frames": true,
+      "causal": true,
+      "checks": [
+        {
+          "member": "night_calibration_final/night_ordinary/train_00.npz",
+          "sha256": "2e28c879b124d7720a083faabc4d775ad3525c3abe5d2c263d56be5c5b862a90",
+          "split": "calibration",
+          "frame": 8,
+          "history_frame_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/train_01.npz",
+          "sha256": "2b6bee20ba5b0df759d9556af98047be459e88ddbcc52828e902d9c5c3e5827f",
+          "split": "calibration",
+          "frame": 59,
+          "history_frame_ids": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/train_02.npz",
+          "sha256": "264fc0c02115d2988827571206ffe7cf94fbaeace5cdbcf67044acd24cda771e",
+          "split": "calibration",
+          "frame": 59,
+          "history_frame_ids": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/train_03.npz",
+          "sha256": "30c5be0fb2ba806607dbf34314bf2ec23db7e13e0c91b49afc40945deb908bbc",
+          "split": "calibration",
+          "frame": 59,
+          "history_frame_ids": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_00.npz",
+          "sha256": "041427be640f1660cbaaffee4cb3c6e153155247bf2f2dc9168542ad3540e10e",
+          "split": "test",
+          "frame": 0,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_01.npz",
+          "sha256": "a4bcb3927504a3d6763e980bfdb3c3d7c37a6c82114895fbc43e91b1ffb38f9f",
+          "split": "test",
+          "frame": 5,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_02.npz",
+          "sha256": "a9537c0a67c641f877074484faa8597589ea0ea8363bd18f617f5f5561bb6fdc",
+          "split": "test",
+          "frame": 10,
+          "history_frame_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_03.npz",
+          "sha256": "69686080b625d705a43974860df737879d2a2f766be544b8b8328973f95f7950",
+          "split": "test",
+          "frame": 16,
+          "history_frame_ids": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_04.npz",
+          "sha256": "58f557a2a7c68588dbc1dfa03b5c8030cb0c90149e20048ff9f1c774b9451ed1",
+          "split": "test",
+          "frame": 21,
+          "history_frame_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_05.npz",
+          "sha256": "72655cdbd481a0e8fabb15f8b502661be1c9e34f65065f3e8021168e302890fc",
+          "split": "test",
+          "frame": 26,
+          "history_frame_ids": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_06.npz",
+          "sha256": "80a3aa13785ee0414709ab9d1ef7e4a31a59a25ee80dd8577932f97bc8c157ac",
+          "split": "test",
+          "frame": 32,
+          "history_frame_ids": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_07.npz",
+          "sha256": "1c5bbb4a7e33fb3aad86fa85320d40d83a579f1c2b03a3456c1b2236eb9c1962",
+          "split": "test",
+          "frame": 37,
+          "history_frame_ids": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_08.npz",
+          "sha256": "983c37f23e2b186d4069ea8e3c5a8dbaee198f31d55d1acdc61d38362dd3504a",
+          "split": "test",
+          "frame": 42,
+          "history_frame_ids": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_09.npz",
+          "sha256": "40442ddf0eeb2edae30a1397fb657399966293b673b8d98470c34f351d36ff8e",
+          "split": "test",
+          "frame": 48,
+          "history_frame_ids": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_10.npz",
+          "sha256": "b6c0dd5ab2a7f8dc218af64c0d59ac215ab2d8a8760526b3190c31d042c9f7ae",
+          "split": "test",
+          "frame": 53,
+          "history_frame_ids": [
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_ordinary/test_11.npz",
+          "sha256": "4c3c1bd189dff5fcf49ab6909171f7bc3fd7f3027a5a03dea8e8a53b0928b71f",
+          "split": "test",
+          "frame": 59,
+          "history_frame_ids": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ]
+        }
+      ]
+    },
+    "night_special": {
+      "calibration": 4,
+      "test": 12,
+      "nine_distinct_calibration_frames": true,
+      "causal": true,
+      "checks": [
+        {
+          "member": "night_calibration_final/night_special/train_00.npz",
+          "sha256": "df3de447dd5f80c3bfbdd7c62536d0896fb8990d85a9a889401150f13feb1d36",
+          "split": "calibration",
+          "frame": 8,
+          "history_frame_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/train_01.npz",
+          "sha256": "dd91952d8bfe0c402d0d8716954122fe207616465dbc993da555b22f962efc73",
+          "split": "calibration",
+          "frame": 45,
+          "history_frame_ids": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/train_02.npz",
+          "sha256": "01a270f6e84105d2eba96a5d3ddfee945e1e1bfce612927b067d979778705109",
+          "split": "calibration",
+          "frame": 82,
+          "history_frame_ids": [
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/train_03.npz",
+          "sha256": "a9aad4630e4c46ec8c622da403f0a2e7aa2711d701e2778c98f2879ff0c713ea",
+          "split": "calibration",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_00.npz",
+          "sha256": "149a085f2f6810f942598381219833885df4c8d1ade2b2125eb209fed9e05acc",
+          "split": "test",
+          "frame": 0,
+          "history_frame_ids": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_01.npz",
+          "sha256": "a7a94270afeb9758ed41442a5f841b0c15890ef776a64d4ba339938e45587a86",
+          "split": "test",
+          "frame": 10,
+          "history_frame_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_02.npz",
+          "sha256": "d35cea4ef6dc76af042525eee98495ed6e23fef7dc3319b92bddd45f85438e67",
+          "split": "test",
+          "frame": 21,
+          "history_frame_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_03.npz",
+          "sha256": "f989565aa861abbac0cc7b759a422b2e64bddadda46aaefe059317494a048343",
+          "split": "test",
+          "frame": 32,
+          "history_frame_ids": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_04.npz",
+          "sha256": "58005e86bf065a64472929d281a9ff79d0199952f7918201bcc72fc7897f221b",
+          "split": "test",
+          "frame": 43,
+          "history_frame_ids": [
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_05.npz",
+          "sha256": "eac68681ac17d994e7ddf0f1a0a3784ce41121cefbe64fbab683d8cad6319294",
+          "split": "test",
+          "frame": 54,
+          "history_frame_ids": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_06.npz",
+          "sha256": "84d8f215c2829500c603edbe5081d3ace74b4bcce6400982ef71fc7f38a92de6",
+          "split": "test",
+          "frame": 64,
+          "history_frame_ids": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_07.npz",
+          "sha256": "6626c16312e94e29e3ae63364a13acfcfb05247bf71fe777b4dc53cfec32bda4",
+          "split": "test",
+          "frame": 75,
+          "history_frame_ids": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_08.npz",
+          "sha256": "ffda34a743efa72e0b955a4ab4a618240bd32e6f4c2af99cdb5c7634dd05d73b",
+          "split": "test",
+          "frame": 86,
+          "history_frame_ids": [
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_09.npz",
+          "sha256": "aab4b315eeb14b491d157555f4dbf5d3cf086393eb3e65602f7f4f14ed9fd2df",
+          "split": "test",
+          "frame": 97,
+          "history_frame_ids": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_10.npz",
+          "sha256": "365704b499c003756ad45efc6932927374a591d0983fedba97b30e005e70acd8",
+          "split": "test",
+          "frame": 108,
+          "history_frame_ids": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ]
+        },
+        {
+          "member": "night_calibration_final/night_special/test_11.npz",
+          "sha256": "44f0ad9790c14634252e3bf18a77f445492b184c6fed8c3bfc59143c8951b7b3",
+          "split": "test",
+          "frame": 119,
+          "history_frame_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ]
+        }
+      ]
+    }
+  },
+  "new_archive_created": false
+}

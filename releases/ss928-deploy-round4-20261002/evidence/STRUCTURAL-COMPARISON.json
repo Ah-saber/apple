@@ -1,0 +1,101 @@
+[
+  {
+    "scene": "day_normal",
+    "baseline_MAC": 7177521920,
+    "new_MAC": 6658054400,
+    "reduction_pct": 7.23742157516114,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.625
+  },
+  {
+    "scene": "weather_light",
+    "baseline_MAC": 2929934848,
+    "new_MAC": 2566901760,
+    "reduction_pct": 12.390483298555587,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.375
+  },
+  {
+    "scene": "weather_light_quarter",
+    "baseline_MAC": 1030963712,
+    "new_MAC": 895471616,
+    "reduction_pct": 13.142275952385795,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.25
+  },
+  {
+    "scene": "weather_medium",
+    "baseline_MAC": 2929934848,
+    "new_MAC": 2566901760,
+    "reduction_pct": 12.390483298555587,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.375
+  },
+  {
+    "scene": "weather_medium_quarter",
+    "baseline_MAC": 1030963712,
+    "new_MAC": 895471616,
+    "reduction_pct": 13.142275952385795,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.25
+  },
+  {
+    "scene": "weather_heavy",
+    "baseline_MAC": 2929347328,
+    "new_MAC": 2566314240,
+    "reduction_pct": 12.39296837660624,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.375
+  },
+  {
+    "scene": "weather_heavy_quarter",
+    "baseline_MAC": 1030376192,
+    "new_MAC": 894884096,
+    "reduction_pct": 13.149769671696765,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.25
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "baseline_MAC": 2929347328,
+    "new_MAC": 2561726720,
+    "reduction_pct": 12.549573909727918,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.375
+  },
+  {
+    "scene": "weather_heavy_c32_quarter",
+    "baseline_MAC": 1030376192,
+    "new_MAC": 893737216,
+    "reduction_pct": 13.26107659133491,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.375
+  },
+  {
+    "scene": "night_ordinary",
+    "baseline_MAC": 5233561344,
+    "new_MAC": 4949498112,
+    "reduction_pct": 5.427723367103809,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.5
+  },
+  {
+    "scene": "night_special",
+    "baseline_MAC": 5319409664,
+    "new_MAC": 5194006528,
+    "reduction_pct": 2.3574634014125073,
+    "max_gray": 0.0,
+    "byte_max_gray": 0.0,
+    "ort_max_gray": 0.375
+  }
+]

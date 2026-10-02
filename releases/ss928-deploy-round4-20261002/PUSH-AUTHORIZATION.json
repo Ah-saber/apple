@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-02",
+  "user_instruction": "我要你推送的是部署需要的东西，问题和文档，我们部署试试",
+  "authorized_action": "推送本独立部署目录的14张图、输入与对比工具、问题与部署文档",
+  "branch": "codex/ss928-night-nine-factor24-20260926",
+  "scope": "releases/ss928-deploy-round4-20261002",
+  "research_directories_included": false,
+  "pending_training_scripts_included": false,
+  "new_compressed_archive_created": false,
+  "board_deployment_performed": false,
+  "SDK_compiled": false,
+  "NPU_measured": false
+}

@@ -1,0 +1,632 @@
+[
+  {
+    "scene": "day_normal",
+    "role": "control",
+    "path": "models/day_normal/control.onnx",
+    "sha256": "e85c0129b2133b947e029d66b029810808d14567f5aa0906d0df137a3de8b45c",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 7177521920,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_board_feedback_round3_20261001/server_results/minimal_rows/day_normal/half_matrix_weighted_rows4.onnx"
+  },
+  {
+    "scene": "day_normal",
+    "role": "candidate",
+    "path": "models/day_normal/candidate.onnx",
+    "sha256": "a2ce56473cdf8b03ee7526c5d1efb12867999e9addd7754a49d9f00710cf07d5",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 6658054400,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_local_round4_pending_20261001/server_results/structural/day_normal/block8_copy_output.onnx"
+  },
+  {
+    "scene": "weather_light",
+    "role": "control",
+    "path": "models/weather_light/control.onnx",
+    "sha256": "7c961a5f97508a991c236db9a7d2d08502ec244a67d1813e14567b51e5731a8c",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          2,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 2929934848,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_board_feedback_round3_20261001/server_results/minimal_rows/weather_light/half_matrix_weighted_rows4.onnx"
+  },
+  {
+    "scene": "weather_light",
+    "role": "candidate",
+    "path": "models/weather_light/candidate.onnx",
+    "sha256": "2e5a92b24f866684e2714bbfafd6a6831910fab797db1f445cda7b3df4fdd6ba",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          2,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 2566901760,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_local_round4_pending_20261001/server_results/structural/weather_light/block8_copy_output.onnx"
+  },
+  {
+    "scene": "weather_medium",
+    "role": "control",
+    "path": "models/weather_medium/control.onnx",
+    "sha256": "7c961a5f97508a991c236db9a7d2d08502ec244a67d1813e14567b51e5731a8c",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          2,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 2929934848,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_board_feedback_round3_20261001/server_results/minimal_rows/weather_medium/half_matrix_weighted_rows4.onnx"
+  },
+  {
+    "scene": "weather_medium",
+    "role": "candidate",
+    "path": "models/weather_medium/candidate.onnx",
+    "sha256": "2e5a92b24f866684e2714bbfafd6a6831910fab797db1f445cda7b3df4fdd6ba",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          2,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 2566901760,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_local_round4_pending_20261001/server_results/structural/weather_medium/block8_copy_output.onnx"
+  },
+  {
+    "scene": "weather_heavy",
+    "role": "control",
+    "path": "models/weather_heavy/control.onnx",
+    "sha256": "7492eb04b1ca13d1c7812ffee38302cd1f7bc0dcbbee518bf51b99779a9d0c43",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 2929347328,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_board_feedback_round3_20261001/server_results/minimal_rows/weather_heavy/half_matrix_weighted_rows4.onnx"
+  },
+  {
+    "scene": "weather_heavy",
+    "role": "candidate",
+    "path": "models/weather_heavy/candidate.onnx",
+    "sha256": "c7eae4316323cd6cb92cd9f6f471c12949c2c8ed18d2fcb26359bad4dccd4c85",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 2566314240,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_local_round4_pending_20261001/server_results/structural/weather_heavy/block8_copy_output.onnx"
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "role": "control",
+    "path": "models/weather_heavy_c32/control.onnx",
+    "sha256": "dec37381d4af4280c11a14ed22409e8d9c9b1a3fd9644a0a65a3488ed183d74d",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 2929347328,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_board_feedback_round3_20261001/server_results/minimal_rows/weather_heavy_c32/half_matrix_weighted_rows4.onnx"
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "role": "candidate",
+    "path": "models/weather_heavy_c32/candidate.onnx",
+    "sha256": "c9f9dd05affb667edb5205a8bc55da11e57fd515d2d3022a08fcd931e0c19ae1",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 2561726720,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_local_round4_pending_20261001/server_results/structural/weather_heavy_c32/block8_copy_output.onnx"
+  },
+  {
+    "scene": "night_ordinary",
+    "role": "control",
+    "path": "models/night_ordinary/control.onnx",
+    "sha256": "4e5900efe5e34a0399bab6b9b49ac4d1a8a5769a718ac529b60d3bf31009f822",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 5233561344,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_board_feedback_round3_20261001/server_results/minimal_rows/night_ordinary/night_matrix_weighted_rows4.onnx"
+  },
+  {
+    "scene": "night_ordinary",
+    "role": "candidate",
+    "path": "models/night_ordinary/candidate.onnx",
+    "sha256": "b4a98fd2df7903dd3b8882856138713eb3af0a8d50f673caa2dec842342f71e3",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 4949498112,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_local_round4_pending_20261001/server_results/structural/night_ordinary/block8_copy_output.onnx"
+  },
+  {
+    "scene": "night_special",
+    "role": "control",
+    "path": "models/night_special/control.onnx",
+    "sha256": "cb97103ddeb6cc6510616606b758466a5742e888ed47df5ce3f9e65bd288d0bb",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 5319409664,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_board_feedback_round3_20261001/server_results/minimal_rows/night_special/night_matrix_weighted_rows4.onnx"
+  },
+  {
+    "scene": "night_special",
+    "role": "candidate",
+    "path": "models/night_special/candidate.onnx",
+    "sha256": "8506096b49f8e61389fcc97d161b06751a8d6f9b4a2d121166fdf58591ace9d0",
+    "inputs": [
+      {
+        "name": "nine_raw",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          9,
+          1024,
+          1280
+        ]
+      },
+      {
+        "name": "reference_thumb",
+        "dtype": "FLOAT",
+        "shape": [
+          1,
+          1,
+          64,
+          64
+        ]
+      }
+    ],
+    "outputs": [
+      {
+        "name": "display_gray",
+        "dtype": "FLOAT16",
+        "shape": [
+          1,
+          1,
+          3072,
+          3840
+        ]
+      }
+    ],
+    "all_dense_conv_macs": 5194006528,
+    "SDK_compiled": false,
+    "NPU_measured": false,
+    "source_weights_changed": false,
+    "source_record": "reports/ss928_local_round4_pending_20261001/server_results/structural/night_special/block8_copy_output.onnx"
+  }
+]
