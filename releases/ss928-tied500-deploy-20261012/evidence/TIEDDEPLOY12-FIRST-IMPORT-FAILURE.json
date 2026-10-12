@@ -1,0 +1,9 @@
+{
+  "scope": "First deployment exporter import failure before any model or inputs were generated",
+  "failed_script": "export_tied_deploy12.py",
+  "error": "onnx imported before target_residual configured the existing TASK-019-export-dependencies path",
+  "original_preserved": true,
+  "new_script": "export_tied_deploy12_fix.py",
+  "dependency_installation": false,
+  "training_repeated": false
+}

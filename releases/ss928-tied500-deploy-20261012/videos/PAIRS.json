@@ -1,0 +1,212 @@
+{
+  "status": "complete",
+  "records": [
+    {
+      "scene": "night_ordinary",
+      "file": "night_ordinary_GT_vs_TIED.mp4",
+      "preview": "night_ordinary_preview.png",
+      "frames": 60,
+      "fps": 15,
+      "width": 2560,
+      "height": 1088,
+      "bytes": 1922359,
+      "GT_full_frame_display": true,
+      "GT_shape": [
+        1024,
+        1280
+      ],
+      "GT_source_dir": "/data/zhangbenzhuang/huawei_sr/data/targets/v8_snapshot_20260921/night/raw_20260805_201926",
+      "metric_roi_tlhw": [
+        2,
+        0,
+        1020,
+        1278
+      ],
+      "metric_roi_not_GT_missing_region": true,
+      "previous_evaluation_GT_exact_pixel_match": true,
+      "left": "Full sourceGT",
+      "right": "TIEDDECODE500",
+      "model_inference": false,
+      "model_weights_changed": false,
+      "metrics_changed": false
+    },
+    {
+      "scene": "day_normal",
+      "file": "day_normal_GT_vs_TIED.mp4",
+      "preview": "day_normal_preview.png",
+      "frames": 120,
+      "fps": 15,
+      "width": 2560,
+      "height": 1088,
+      "bytes": 41410535,
+      "GT_full_frame_display": true,
+      "GT_shape": [
+        1024,
+        1280
+      ],
+      "GT_source_dir": "/data/zhangbenzhuang/huawei_sr/data/targets/camera_jpeg_v1/normal/vi_pipe2_5120x1024_Raw8_120_04-25-09-28-07_001",
+      "metric_roi_tlhw": [
+        2,
+        0,
+        1020,
+        1278
+      ],
+      "metric_roi_not_GT_missing_region": true,
+      "previous_evaluation_GT_exact_pixel_match": true,
+      "left": "Full sourceGT",
+      "right": "TIEDDECODE500",
+      "model_inference": false,
+      "model_weights_changed": false,
+      "metrics_changed": false
+    },
+    {
+      "scene": "weather_light",
+      "file": "weather_light_GT_vs_TIED.mp4",
+      "preview": "weather_light_preview.png",
+      "frames": 120,
+      "fps": 15,
+      "width": 2560,
+      "height": 1088,
+      "bytes": 2316023,
+      "GT_full_frame_display": true,
+      "GT_shape": [
+        1024,
+        1280
+      ],
+      "GT_source_dir": "/data/zhangbenzhuang/huawei_sr/data/targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-01-48_001",
+      "metric_roi_tlhw": [
+        2,
+        0,
+        1020,
+        1278
+      ],
+      "metric_roi_not_GT_missing_region": true,
+      "previous_evaluation_GT_exact_pixel_match": true,
+      "left": "Full sourceGT",
+      "right": "TIEDDECODE500",
+      "model_inference": false,
+      "model_weights_changed": false,
+      "metrics_changed": false
+    },
+    {
+      "scene": "weather_medium",
+      "file": "weather_medium_GT_vs_TIED.mp4",
+      "preview": "weather_medium_preview.png",
+      "frames": 120,
+      "fps": 15,
+      "width": 2560,
+      "height": 1088,
+      "bytes": 2359958,
+      "GT_full_frame_display": true,
+      "GT_shape": [
+        1024,
+        1280
+      ],
+      "GT_source_dir": "/data/zhangbenzhuang/huawei_sr/data/targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-09-58-35_001",
+      "metric_roi_tlhw": [
+        2,
+        0,
+        1020,
+        1278
+      ],
+      "metric_roi_not_GT_missing_region": true,
+      "previous_evaluation_GT_exact_pixel_match": true,
+      "left": "Full sourceGT",
+      "right": "TIEDDECODE500",
+      "model_inference": false,
+      "model_weights_changed": false,
+      "metrics_changed": false
+    },
+    {
+      "scene": "weather_heavy",
+      "file": "weather_heavy_GT_vs_TIED.mp4",
+      "preview": "weather_heavy_preview.png",
+      "frames": 120,
+      "fps": 15,
+      "width": 2560,
+      "height": 1088,
+      "bytes": 3780377,
+      "GT_full_frame_display": true,
+      "GT_shape": [
+        1024,
+        1280
+      ],
+      "GT_source_dir": "/data/zhangbenzhuang/huawei_sr/data/targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-47-32_001",
+      "metric_roi_tlhw": [
+        2,
+        0,
+        1020,
+        1278
+      ],
+      "metric_roi_not_GT_missing_region": true,
+      "previous_evaluation_GT_exact_pixel_match": true,
+      "left": "Full sourceGT",
+      "right": "TIEDDECODE500",
+      "model_inference": false,
+      "model_weights_changed": false,
+      "metrics_changed": false
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "file": "weather_heavy_c32_GT_vs_TIED.mp4",
+      "preview": "weather_heavy_c32_preview.png",
+      "frames": 120,
+      "fps": 15,
+      "width": 2560,
+      "height": 1088,
+      "bytes": 3704531,
+      "GT_full_frame_display": true,
+      "GT_shape": [
+        1024,
+        1280
+      ],
+      "GT_source_dir": "/data/zhangbenzhuang/huawei_sr/data/targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-15-26-52_001",
+      "metric_roi_tlhw": [
+        2,
+        1088,
+        1020,
+        192
+      ],
+      "metric_roi_not_GT_missing_region": true,
+      "previous_evaluation_GT_exact_pixel_match": true,
+      "left": "Full sourceGT",
+      "right": "TIEDDECODE500",
+      "model_inference": false,
+      "model_weights_changed": false,
+      "metrics_changed": false
+    },
+    {
+      "scene": "night_special",
+      "file": "night_special_GT_vs_TIED.mp4",
+      "preview": "night_special_preview.png",
+      "frames": 120,
+      "fps": 15,
+      "width": 2560,
+      "height": 1088,
+      "bytes": 5354236,
+      "GT_full_frame_display": true,
+      "GT_shape": [
+        1024,
+        1280
+      ],
+      "GT_source_dir": "/data/zhangbenzhuang/huawei_sr/data/targets/v8_snapshot_20260921/night/vi_pipe2_5120x1024_Raw8_120_1-2026-07-10-16-18-00",
+      "metric_roi_tlhw": [
+        2,
+        1088,
+        1020,
+        192
+      ],
+      "metric_roi_not_GT_missing_region": true,
+      "previous_evaluation_GT_exact_pixel_match": true,
+      "left": "Full sourceGT",
+      "right": "TIEDDECODE500",
+      "model_inference": false,
+      "model_weights_changed": false,
+      "metrics_changed": false
+    }
+  ],
+  "cpu_pid": 489578,
+  "correction": "Previously masked outside eval_crop_tlhw, incorrectly described as missingGT. Original GT full images exist. Restore visual whole image; preserve metric crops and old videos.",
+  "model_inference": false,
+  "training": false
+}

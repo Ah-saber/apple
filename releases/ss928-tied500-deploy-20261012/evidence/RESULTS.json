@@ -1,0 +1,252 @@
+{
+  "checkpoint": "tieddecode11 fixed500",
+  "scenes": [
+    {
+      "scene": "night_ordinary",
+      "title": "\u666e\u901a\u591c\u666f",
+      "input_frames": 5,
+      "frames": 60,
+      "GPU_mean_ms": 1.1994428810477258,
+      "GPU_P95_ms": 3.2785953044891354,
+      "original_GPU_mean_ms": 0.8598380786180496,
+      "original_PSNR": 27.89466277839473,
+      "candidate_PSNR": 27.862908701129633,
+      "tiny_observations": 4,
+      "tiny_gap_error": 6.396703720092773,
+      "tiny_inversions": 2,
+      "original_tiny_gap_error": 6.766490936279297,
+      "static_before": 1.067976214117923,
+      "static_after": 1.4694359423750538,
+      "same_ghost": 0.46434421677674564,
+      "opposite_ghost": 1.6178561316004823,
+      "videos": {
+        "comparison.mp4": {
+          "frames": 60,
+          "width": 3840,
+          "height": 1088,
+          "bytes": 3365201,
+          "fps": 15
+        },
+        "candidate_full_sr.mp4": {
+          "frames": 60,
+          "width": 3840,
+          "height": 3072,
+          "bytes": 15081154,
+          "fps": 15
+        }
+      }
+    },
+    {
+      "scene": "day_normal",
+      "title": "\u65e5\u666f",
+      "input_frames": 5,
+      "frames": 120,
+      "GPU_mean_ms": 1.171765758395195,
+      "GPU_P95_ms": 3.232582366466522,
+      "original_GPU_mean_ms": 0.8549011209607125,
+      "original_PSNR": 25.50450448393436,
+      "candidate_PSNR": 25.476939145548112,
+      "tiny_observations": 29,
+      "tiny_gap_error": 8.218666602825296,
+      "tiny_inversions": 0,
+      "original_tiny_gap_error": 8.812863053946659,
+      "static_before": 7.735792941405993,
+      "static_after": 7.736712848438936,
+      "same_ghost": 5.971091783374821,
+      "opposite_ghost": 3.2423730979271985,
+      "videos": {
+        "comparison.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 1088,
+          "bytes": 56320106,
+          "fps": 15
+        },
+        "candidate_full_sr.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 3072,
+          "bytes": 88218571,
+          "fps": 15
+        }
+      }
+    },
+    {
+      "scene": "weather_light",
+      "title": "\u8f7b\u5929\u6c14",
+      "input_frames": 3,
+      "frames": 120,
+      "GPU_mean_ms": 1.166613601744175,
+      "GPU_P95_ms": 5.077953505516052,
+      "original_GPU_mean_ms": 1.006057757139206,
+      "original_PSNR": 34.334602656818454,
+      "candidate_PSNR": 34.297135946895,
+      "tiny_observations": 0,
+      "tiny_gap_error": null,
+      "tiny_inversions": null,
+      "original_tiny_gap_error": null,
+      "static_before": 0.9125798620095774,
+      "static_after": 1.050349250561049,
+      "same_ghost": 1.5017090821051382,
+      "opposite_ghost": 0.5381562699068776,
+      "videos": {
+        "comparison.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 1088,
+          "bytes": 4482648,
+          "fps": 15
+        },
+        "candidate_full_sr.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 3072,
+          "bytes": 22093086,
+          "fps": 15
+        }
+      }
+    },
+    {
+      "scene": "weather_medium",
+      "title": "\u4e2d\u5929\u6c14",
+      "input_frames": 3,
+      "frames": 120,
+      "GPU_mean_ms": 1.2353505617380143,
+      "GPU_P95_ms": 5.1189454555511364,
+      "original_GPU_mean_ms": 1.0039014419913292,
+      "original_PSNR": 33.8759858928917,
+      "candidate_PSNR": 33.779969517523725,
+      "tiny_observations": 13,
+      "tiny_gap_error": 2.926311786358173,
+      "tiny_inversions": 0,
+      "original_tiny_gap_error": 2.957064995398888,
+      "static_before": 0.9055264226528776,
+      "static_after": 1.088532597076993,
+      "same_ghost": 3.522126853466034,
+      "opposite_ghost": 0.7774890578455391,
+      "videos": {
+        "comparison.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 1088,
+          "bytes": 4610017,
+          "fps": 15
+        },
+        "candidate_full_sr.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 3072,
+          "bytes": 23398813,
+          "fps": 15
+        }
+      }
+    },
+    {
+      "scene": "weather_heavy",
+      "title": "\u91cd\u5929\u6c14",
+      "input_frames": 3,
+      "frames": 120,
+      "GPU_mean_ms": 0.9707783988118172,
+      "GPU_P95_ms": 2.988206350803375,
+      "original_GPU_mean_ms": 0.6853855991363526,
+      "original_PSNR": 30.391098903294086,
+      "candidate_PSNR": 30.354377862906304,
+      "tiny_observations": 0,
+      "tiny_gap_error": null,
+      "tiny_inversions": null,
+      "original_tiny_gap_error": null,
+      "static_before": 1.293518824737613,
+      "static_after": 1.699671225387509,
+      "same_ghost": 2.428089328509356,
+      "opposite_ghost": 1.0502077017777736,
+      "videos": {
+        "comparison.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 1088,
+          "bytes": 7309225,
+          "fps": 15
+        },
+        "candidate_full_sr.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 3072,
+          "bytes": 32061967,
+          "fps": 15
+        }
+      }
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "title": "\u91cd\u5929\u6c14C32",
+      "input_frames": 3,
+      "frames": 120,
+      "GPU_mean_ms": 1.3293201622366906,
+      "GPU_P95_ms": 4.908820748329163,
+      "original_GPU_mean_ms": 1.964942405819893,
+      "original_PSNR": 23.81139924450995,
+      "candidate_PSNR": 23.795306970817858,
+      "tiny_observations": 0,
+      "tiny_gap_error": null,
+      "tiny_inversions": null,
+      "original_tiny_gap_error": null,
+      "static_before": 1.322029239991132,
+      "static_after": 1.674271040603894,
+      "same_ghost": null,
+      "opposite_ghost": null,
+      "videos": {
+        "comparison.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 1088,
+          "bytes": 6407601,
+          "fps": 15
+        },
+        "candidate_full_sr.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 3072,
+          "bytes": 32225029,
+          "fps": 15
+        }
+      }
+    },
+    {
+      "scene": "night_special",
+      "title": "\u7279\u6b8a\u591c\u666f",
+      "input_frames": 5,
+      "frames": 120,
+      "GPU_mean_ms": 0.7387081599235534,
+      "GPU_P95_ms": 0.8212735891342163,
+      "original_GPU_mean_ms": 0.6000582399964333,
+      "original_PSNR": 25.826236702672585,
+      "candidate_PSNR": 25.824656444210124,
+      "tiny_observations": 0,
+      "tiny_gap_error": null,
+      "tiny_inversions": null,
+      "original_tiny_gap_error": null,
+      "static_before": 1.396744446594174,
+      "static_after": 2.0598296237592937,
+      "same_ghost": 2.5212875604629517,
+      "opposite_ghost": 0.3670002818107605,
+      "videos": {
+        "comparison.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 1088,
+          "bytes": 8453510,
+          "fps": 15
+        },
+        "candidate_full_sr.mp4": {
+          "frames": 120,
+          "width": 3840,
+          "height": 3072,
+          "bytes": 41167763,
+          "fps": 15
+        }
+      }
+    }
+  ],
+  "NPU_measured": false,
+  "GitHub_upload_held": true
+}

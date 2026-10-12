@@ -1,3 +1,7 @@
+# 2026-10-12：TIED500 七景部署试测
+
+[本轮模型、真实校准输入与PC参考](releases/ss928-tied500-deploy-20261012/README.md)，[部署步骤](releases/ss928-tied500-deploy-20261012/DEPLOYMENT.md)，[已知画质问题](releases/ss928-tied500-deploy-20261012/KNOWN-ISSUES.md)。固定用户已查看的TIED500权重，包含14张完整图和七景完整GT视频。SS928 SDK及纯NPU mean/P95仍待本轮实测，目标各≤16.7ms。
+
 # v0.8 九帧完整推理：极限速度候选与部署诊断
 
 ## 2026-09-30：v0.13 板测驱动优化

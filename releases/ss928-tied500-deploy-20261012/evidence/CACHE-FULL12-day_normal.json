@@ -1,0 +1,175 @@
+{
+  "scene": "day_normal",
+  "split": "train",
+  "summary": {
+    "crops": 4,
+    "tiny_observations": 4,
+    "RAW_max_gray": 0.0,
+    "mean_main_MAE_gray": 0.03726976737380028,
+    "mean_candidate_MAE_gray": 0.04018658306449652,
+    "mean_correction_MAE_gray": 1.8745484098303677e-07
+  },
+  "records": [
+    {
+      "cache_index": 0,
+      "source_tile": 198,
+      "geometry": [
+        3,
+        568,
+        322,
+        1
+      ],
+      "input_frames": 5,
+      "GT_crop_match_max_gray": 0.0,
+      "RAW_cache_vs_full": {
+        "MAE_gray": 0.0,
+        "max_error_gray": 0.0
+      },
+      "main_cache_vs_full": {
+        "MAE_gray": 0.03500571846961975,
+        "max_error_gray": 0.31005859375
+      },
+      "candidate_cache_vs_full": {
+        "MAE_gray": 0.03700312599539757,
+        "max_error_gray": 0.306640625
+      },
+      "correction_local_half_vs_full": {
+        "MAE_gray": 9.346290141820646e-08,
+        "max_error_gray": 0.000244140625
+      },
+      "tiny_gaps": [
+        {
+          "GT_gray": 32.0,
+          "cache_main_gray": 49.92919921875,
+          "full_main_gray": 50.03125,
+          "cache_candidate_gray": 54.1937255859375,
+          "full_candidate_gray": 54.28125
+        }
+      ]
+    },
+    {
+      "cache_index": 137,
+      "source_tile": 335,
+      "geometry": [
+        40,
+        412,
+        512,
+        1
+      ],
+      "input_frames": 5,
+      "GT_crop_match_max_gray": 0.0,
+      "RAW_cache_vs_full": {
+        "MAE_gray": 0.0,
+        "max_error_gray": 0.0
+      },
+      "main_cache_vs_full": {
+        "MAE_gray": 0.040871281176805496,
+        "max_error_gray": 0.310546875
+      },
+      "candidate_cache_vs_full": {
+        "MAE_gray": 0.04518868401646614,
+        "max_error_gray": 0.31103515625
+      },
+      "correction_local_half_vs_full": {
+        "MAE_gray": 2.5957999127967923e-07,
+        "max_error_gray": 0.001953125
+      },
+      "tiny_gaps": [
+        {
+          "GT_gray": 58.5,
+          "cache_main_gray": 61.2286376953125,
+          "full_main_gray": 61.15625,
+          "cache_candidate_gray": 66.177978515625,
+          "full_candidate_gray": 66.21875
+        }
+      ]
+    },
+    {
+      "cache_index": 274,
+      "source_tile": 472,
+      "geometry": [
+        76,
+        572,
+        466,
+        1
+      ],
+      "input_frames": 5,
+      "GT_crop_match_max_gray": 0.0,
+      "RAW_cache_vs_full": {
+        "MAE_gray": 0.0,
+        "max_error_gray": 0.0
+      },
+      "main_cache_vs_full": {
+        "MAE_gray": 0.03654583916068077,
+        "max_error_gray": 0.287109375
+      },
+      "candidate_cache_vs_full": {
+        "MAE_gray": 0.03873005136847496,
+        "max_error_gray": 0.349609375
+      },
+      "correction_local_half_vs_full": {
+        "MAE_gray": 0.0,
+        "max_error_gray": 0.0
+      },
+      "tiny_gaps": [
+        {
+          "GT_gray": 66.20000457763672,
+          "cache_main_gray": 72.254150390625,
+          "full_main_gray": 72.2874984741211,
+          "cache_candidate_gray": 79.301513671875,
+          "full_candidate_gray": 79.3375015258789
+        }
+      ]
+    },
+    {
+      "cache_index": 410,
+      "source_tile": 608,
+      "geometry": [
+        119,
+        856,
+        0,
+        1
+      ],
+      "input_frames": 5,
+      "GT_crop_match_max_gray": 0.0,
+      "RAW_cache_vs_full": {
+        "MAE_gray": 0.0,
+        "max_error_gray": 0.0
+      },
+      "main_cache_vs_full": {
+        "MAE_gray": 0.03665623068809509,
+        "max_error_gray": 0.3046875
+      },
+      "candidate_cache_vs_full": {
+        "MAE_gray": 0.0398244708776474,
+        "max_error_gray": 0.310546875
+      },
+      "correction_local_half_vs_full": {
+        "MAE_gray": 3.967764712342614e-07,
+        "max_error_gray": 0.001953125
+      },
+      "tiny_gaps": [
+        {
+          "GT_gray": -16.333332061767578,
+          "cache_main_gray": -76.3671875,
+          "full_main_gray": -76.39583587646484,
+          "cache_candidate_gray": -77.73681640625,
+          "full_candidate_gray": -77.79166412353516
+        }
+      ]
+    }
+  ],
+  "checkpoint": "fixed EXCESSHINT500",
+  "selection": "Four cache index positions chosen before inference: first, one-third, two-thirds and last own real train tiles.",
+  "scope": "Same nativeGT coordinates and complete real input generation versus saved tile cache. Interior12px comparison separates crop padding. RAW mismatch, reference conversion and crop context remain separate observations, not assumed causes.",
+  "cached_main": "original float training reference/autocast cache",
+  "full_main": "same retained reference with actual deployed FP16 interpolation and optimized graph",
+  "full_output_gray": "Complete board output sampled every3 pixels; same native1024x1280 grid asGT",
+  "training_steps": 0,
+  "weights_changed": false,
+  "validation_used": false,
+  "test_used": false,
+  "checkpoint_selection": false,
+  "NPU_measured": false,
+  "pushed": false
+}

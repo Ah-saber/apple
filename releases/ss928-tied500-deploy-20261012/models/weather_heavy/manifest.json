@@ -1,0 +1,355 @@
+{
+  "scene": "weather_heavy",
+  "status": "ready_for_external_SDK_and_board_measurement",
+  "checkpoint": "tieddecode11 fixed500",
+  "training_repeated": false,
+  "input_frames": 3,
+  "profile": "streamCachedFast4Past",
+  "graphs": {
+    "retained_original": {
+      "file": "retained_original.onnx",
+      "inputs": [
+        {
+          "name": "raw_stack",
+          "shape": [
+            1,
+            3,
+            1024,
+            1280
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 7864320
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 8192
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 23592960
+        }
+      ],
+      "opset": 17,
+      "operators": {
+        "Identity": 3,
+        "Constant": 264,
+        "Slice": 61,
+        "Cast": 14,
+        "Conv": 22,
+        "Relu": 3,
+        "Div": 5,
+        "Erf": 5,
+        "Add": 10,
+        "Mul": 11,
+        "AveragePool": 3,
+        "Transpose": 13,
+        "Concat": 8,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "Reshape": 2
+      },
+      "onnx_checker_passed": true,
+      "PC_backend": "onnxruntime CPU",
+      "PC_output": "retained_original_pc_output.npz",
+      "direct_PyTorch_vs_PC_MAE_gray": 0.03299594670534134,
+      "direct_PyTorch_vs_PC_max_gray": 0.375,
+      "smoke_frame": 37,
+      "weights_embedded": true,
+      "SDK_compiled": false,
+      "NPU_measured": false
+    },
+    "tied500": {
+      "file": "tied500.onnx",
+      "inputs": [
+        {
+          "name": "raw_stack",
+          "shape": [
+            1,
+            3,
+            1024,
+            1280
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 7864320
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 8192
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 23592960
+        }
+      ],
+      "opset": 17,
+      "operators": {
+        "Identity": 3,
+        "Constant": 374,
+        "Slice": 88,
+        "Cast": 18,
+        "Concat": 14,
+        "Sub": 2,
+        "Mul": 13,
+        "Conv": 24,
+        "Relu": 4,
+        "Div": 5,
+        "Erf": 5,
+        "Add": 11,
+        "AveragePool": 3,
+        "Transpose": 13,
+        "ReduceMean": 1,
+        "Clip": 1,
+        "Reshape": 2
+      },
+      "onnx_checker_passed": true,
+      "PC_backend": "onnxruntime CPU",
+      "PC_output": "tied500_pc_output.npz",
+      "direct_PyTorch_vs_PC_MAE_gray": 0.03723397105932236,
+      "direct_PyTorch_vs_PC_max_gray": 0.375,
+      "smoke_frame": 37,
+      "weights_embedded": true,
+      "SDK_compiled": false,
+      "NPU_measured": false
+    }
+  },
+  "calibration": [
+    {
+      "file": "calibration_00.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/000008@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001",
+        "frame_id": 8,
+        "group_id": "adverse_capture_06",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/raw_u16.npy",
+          "index": 8,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/000008.png",
+          "sha256": "a509bb6f52fc6be6efdd85d6236d2b52eee4062aca6a1b819ba31336f03c49ba",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/enhanced/0008.png",
+          "source_sha256": "a509bb6f52fc6be6efdd85d6236d2b52eee4062aca6a1b819ba31336f03c49ba",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6D",
+          "frame_id": 8
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/000008",
+        "split": "train",
+        "scene_id": "weather_heavy",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          256,
+          1024,
+          768
+        ]
+      },
+      "input_frames": 3,
+      "profile": "streamCachedFast4Past"
+    },
+    {
+      "file": "calibration_01.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/000082@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001",
+        "frame_id": 82,
+        "group_id": "adverse_capture_06",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/raw_u16.npy",
+          "index": 82,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/000082.png",
+          "sha256": "474bafe284c784c45b1722e4cbbd297ad327fea6543d25a3fbd84b928b5e5d8a",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/enhanced/0082.png",
+          "source_sha256": "474bafe284c784c45b1722e4cbbd297ad327fea6543d25a3fbd84b928b5e5d8a",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6D",
+          "frame_id": 82
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-13-57_001/000082",
+        "split": "train",
+        "scene_id": "weather_heavy",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          256,
+          1024,
+          768
+        ]
+      },
+      "input_frames": 3,
+      "profile": "streamCachedFast4Past"
+    },
+    {
+      "file": "calibration_02.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/000044@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001",
+        "frame_id": 44,
+        "group_id": "adverse_capture_09",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/raw_u16.npy",
+          "index": 44,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/000044.png",
+          "sha256": "fcdd84f3f28b586ceed89365004d6b101cc6f3950a46b776b0cbb0d71f629de1",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/enhanced/0044.png",
+          "source_sha256": "fcdd84f3f28b586ceed89365004d6b101cc6f3950a46b776b0cbb0d71f629de1",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6D",
+          "frame_id": 44
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/000044",
+        "split": "train",
+        "scene_id": "weather_heavy",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "input_frames": 3,
+      "profile": "streamCachedFast4Past"
+    },
+    {
+      "file": "calibration_03.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/000119@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001",
+        "frame_id": 119,
+        "group_id": "adverse_capture_09",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/raw_u16.npy",
+          "index": 119,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/000119.png",
+          "sha256": "19a7003bbb04e9c9becd38e69267569c7c2f162ffeed5778f59e83f505736a5b",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/enhanced/0119.png",
+          "source_sha256": "19a7003bbb04e9c9becd38e69267569c7c2f162ffeed5778f59e83f505736a5b",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6D",
+          "frame_id": 119
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-17-01-08_001/000119",
+        "split": "train",
+        "scene_id": "weather_heavy",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "input_frames": 3,
+      "profile": "streamCachedFast4Past"
+    }
+  ],
+  "smoke": {
+    "file": "smoke_inputs.npz",
+    "split": "test",
+    "sample": {
+      "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-47-32_001/000000@test",
+      "domain": "adverse",
+      "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-16-47-32_001",
+      "frame_id": 37,
+      "group_id": "adverse_capture_08",
+      "raw": {
+        "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-47-32_001/raw_u16.npy",
+        "index": 0,
+        "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+      },
+      "target": {
+        "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-47-32_001/000000.png",
+        "sha256": "dffad084960607084d6a9d4e581b2e03a18f6496b136e5d967ae4b6fb87a415b",
+        "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-47-32_001/enhanced/0000.png",
+        "source_sha256": "dffad084960607084d6a9d4e581b2e03a18f6496b136e5d967ae4b6fb87a415b",
+        "teacher_version": "v6",
+        "source_experiment": "EXP-TASK-013-WP2A",
+        "frame_id": 0
+      },
+      "pair_status": "source_identity_and_index_verified",
+      "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+      "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-47-32_001/000000",
+      "split": "test",
+      "scene_id": "weather_heavy",
+      "evaluation_scope": "capture_group_development",
+      "eval_crop_tlhw": [
+        2,
+        0,
+        1020,
+        1278
+      ]
+    },
+    "GT": "smoke_GT.png",
+    "metric_roi_tlhw": [
+      2,
+      0,
+      1020,
+      1278
+    ],
+    "GT_full_frame": true
+  },
+  "checkpoint_branch_only": true,
+  "ONNX_is_self_contained": true,
+  "quality_qualified": false,
+  "SDK_compiled": false,
+  "NPU_measured": false
+}

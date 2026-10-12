@@ -1,0 +1,71 @@
+{
+  "source": "Existing lossless frame037 GT/source comparison PNGs; no video redecoding or model inference",
+  "records": [
+    {
+      "scene": "weather_heavy",
+      "frame": 37,
+      "region": "full frame minus12px edge; display diagnosis, not independent test score",
+      "statistics": {
+        "GT": {
+          "mean_gray": 101.25601512738854,
+          "std_gray": 46.00685706002066,
+          "P5_gray": 33.0,
+          "P50_gray": 97.0,
+          "P95_gray": 184.0,
+          "P95_minus_P5_gray": 151.0
+        },
+        "retained_original": {
+          "mean_gray": 104.4982356687898,
+          "std_gray": 43.95705658162585,
+          "P5_gray": 38.0,
+          "P50_gray": 101.0,
+          "P95_gray": 182.0,
+          "P95_minus_P5_gray": 144.0
+        },
+        "TIED500": {
+          "mean_gray": 104.49021656050955,
+          "std_gray": 43.97274097518028,
+          "P5_gray": 38.0,
+          "P50_gray": 101.0,
+          "P95_gray": 182.0,
+          "P95_minus_P5_gray": 144.0
+        }
+      },
+      "TIED_minus_original_MAE_gray": 0.49519267515923565,
+      "TIED_minus_original_mean_gray": -0.008019108280254776
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "frame": 37,
+      "region": "full frame minus12px edge; display diagnosis, not independent test score",
+      "statistics": {
+        "GT": {
+          "mean_gray": 108.19202786624204,
+          "std_gray": 50.00996762410025,
+          "P5_gray": 38.0,
+          "P50_gray": 101.0,
+          "P95_gray": 202.0,
+          "P95_minus_P5_gray": 164.0
+        },
+        "retained_original": {
+          "mean_gray": 138.6171520700637,
+          "std_gray": 54.11085057173193,
+          "P5_gray": 53.0,
+          "P50_gray": 140.0,
+          "P95_gray": 228.0,
+          "P95_minus_P5_gray": 175.0
+        },
+        "TIED500": {
+          "mean_gray": 138.63502547770702,
+          "std_gray": 54.119213498652464,
+          "P5_gray": 53.0,
+          "P50_gray": 140.0,
+          "P95_gray": 228.0,
+          "P95_minus_P5_gray": 175.0
+        }
+      },
+      "TIED_minus_original_MAE_gray": 0.5276488853503185,
+      "TIED_minus_original_mean_gray": 0.017873407643312102
+    }
+  ]
+}

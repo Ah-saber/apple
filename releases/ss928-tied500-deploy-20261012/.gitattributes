@@ -1,0 +1,8 @@
+*.onnx binary
+*.pt binary
+*.npz binary
+*.mp4 binary
+*.png binary
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
