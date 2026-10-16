@@ -1,0 +1,349 @@
+{
+  "id": "graph_004",
+  "scene": "weather_heavy_c32",
+  "module_id": "module_04",
+  "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.history_model",
+  "module_type": "history_residual71.HistoryResidual71",
+  "folder": "models/weather_heavy_c32/graph_004",
+  "argument_spec": {
+    "args": {
+      "kind": "tuple",
+      "items": [
+        {
+          "kind": "dict",
+          "items": [
+            [
+              "baseline",
+              {
+                "tensor": "input_000",
+                "shape": [
+                  1,
+                  1,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.baseline"
+              }
+            ],
+            [
+              "current_only",
+              {
+                "tensor": "input_001",
+                "shape": [
+                  1,
+                  1,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.current_only"
+              }
+            ],
+            [
+              "gated_history",
+              {
+                "tensor": "input_002",
+                "shape": [
+                  1,
+                  1,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.gated_history"
+              }
+            ],
+            [
+              "past_background",
+              {
+                "tensor": "input_003",
+                "shape": [
+                  1,
+                  1,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.past_background"
+              }
+            ],
+            [
+              "activity",
+              {
+                "tensor": "input_004",
+                "shape": [
+                  1,
+                  1,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.activity"
+              }
+            ],
+            [
+              "occupancy",
+              {
+                "tensor": "input_005",
+                "shape": [
+                  1,
+                  1,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.occupancy"
+              }
+            ],
+            [
+              "plain_current116",
+              {
+                "tensor": "input_006",
+                "shape": [
+                  1,
+                  1,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.plain_current116"
+              }
+            ],
+            [
+              "crop53",
+              {
+                "kind": "tuple",
+                "items": [
+                  {
+                    "kind": "constant",
+                    "value": 176
+                  },
+                  {
+                    "kind": "constant",
+                    "value": 0
+                  },
+                  {
+                    "kind": "constant",
+                    "value": 478
+                  },
+                  {
+                    "kind": "constant",
+                    "value": 1280
+                  }
+                ]
+              }
+            ],
+            [
+              "raw50",
+              {
+                "tensor": "input_007",
+                "shape": [
+                  1,
+                  13,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.raw50"
+              }
+            ],
+            [
+              "history71",
+              {
+                "tensor": "input_008",
+                "shape": [
+                  1,
+                  4,
+                  478,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.history71"
+              }
+            ]
+          ]
+        },
+        {
+          "tensor": "input_009",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ],
+          "dtype": "float32",
+          "source": "args.1"
+        },
+        {
+          "tensor": "input_010",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ],
+          "dtype": "float32",
+          "source": "args.2"
+        }
+      ]
+    },
+    "kwargs": {
+      "kind": "dict",
+      "items": []
+    }
+  },
+  "cases": {
+    "val": {
+      "frame": 0,
+      "split": "val",
+      "source": "original RAW path; no GT in inputs"
+    },
+    "train": {
+      "frame": 0,
+      "split": "train",
+      "source": "original RAW path; no GT in inputs"
+    }
+  },
+  "ONNX_exported": true,
+  "ONNX_file": "model.onnx",
+  "inputs": [
+    {
+      "name": "input_000",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        478,
+        1280
+      ]
+    },
+    {
+      "name": "input_001",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        478,
+        1280
+      ]
+    },
+    {
+      "name": "input_003",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        478,
+        1280
+      ]
+    },
+    {
+      "name": "input_004",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        478,
+        1280
+      ]
+    },
+    {
+      "name": "input_005",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        478,
+        1280
+      ]
+    },
+    {
+      "name": "input_007",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        13,
+        478,
+        1280
+      ]
+    },
+    {
+      "name": "input_008",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        4,
+        478,
+        1280
+      ]
+    },
+    {
+      "name": "input_009",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        478,
+        1280
+      ]
+    },
+    {
+      "name": "input_010",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        478,
+        1280
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output_000",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        478,
+        1280
+      ]
+    }
+  ],
+  "operators": {
+    "Constant": 11,
+    "Div": 7,
+    "AveragePool": 3,
+    "Sub": 6,
+    "Concat": 1,
+    "Clip": 1,
+    "Conv": 3,
+    "Relu": 2,
+    "Tanh": 1,
+    "Mul": 2
+  },
+  "checker_passed": true,
+  "PC_runtime": "onnxruntime CPU",
+  "PC_case": "val",
+  "PyTorch_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 1.0469153494341299e-05,
+      "max_absolute": 0.0011749863624572754,
+      "P95_absolute": 7.557868957519531e-05
+    }
+  ],
+  "SDK_compiled": false,
+  "NPU_measured": false,
+  "full_pipeline": false,
+  "CPU_tracking_and_fusion_outside_graph": true,
+  "runtime_noise_scalars_are_explicit_inputs": true,
+  "observed_GPU_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 1.0469153494341299e-05,
+      "max_absolute": 0.0011749863624572754
+    }
+  ]
+}

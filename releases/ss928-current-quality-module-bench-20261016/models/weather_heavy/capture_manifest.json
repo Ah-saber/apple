@@ -1,0 +1,534 @@
+{
+  "scene": "weather_heavy",
+  "neural_modules": [
+    {
+      "id": "module_00",
+      "path": "SR.primary",
+      "type": "historydisplay_phase11.CurrentRouteBoard"
+    },
+    {
+      "id": "module_01",
+      "path": "controller.model",
+      "type": "repair_motion15.Repair"
+    }
+  ],
+  "graphs": [
+    {
+      "id": "graph_000",
+      "scene": "weather_heavy",
+      "module_id": "module_00",
+      "module_path": "SR.primary",
+      "module_type": "historydisplay_phase11.CurrentRouteBoard",
+      "folder": "models/weather_heavy/graph_000",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                3,
+                1024,
+                1280
+              ],
+              "dtype": "float16",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                64,
+                64
+              ],
+              "dtype": "float16",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_001",
+      "scene": "weather_heavy",
+      "module_id": "module_01",
+      "module_path": "controller.model",
+      "module_type": "repair_motion15.Repair",
+      "folder": "models/weather_heavy/graph_001",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_008",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_009",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_010",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_011",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.occupancy"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_012",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": [
+            [
+              "initial",
+              {
+                "kind": "constant",
+                "value": true
+              }
+            ]
+          ]
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_002",
+      "scene": "weather_heavy",
+      "module_id": "module_01",
+      "module_path": "controller.model",
+      "module_type": "repair_motion15.Repair",
+      "folder": "models/weather_heavy/graph_002",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_008",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_009",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_010",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_011",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.occupancy"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_012",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": [
+            [
+              "initial",
+              {
+                "kind": "constant",
+                "value": false
+              }
+            ]
+          ]
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 1,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 1,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    }
+  ],
+  "modules_without_observed_call": [],
+  "frames_captured": 20,
+  "calibration_split": "train",
+  "smoke_split": "val",
+  "fixed_SR_geometry": "current continuous validation geometry; training RAW supplies calibration values"
+}

@@ -1,0 +1,479 @@
+{
+  "id": "graph_002",
+  "scene": "night_special",
+  "module_id": "module_01",
+  "module_path": "controller.model",
+  "module_type": "raw_stable27.RawStable27",
+  "folder": "models/night_special/graph_002",
+  "argument_spec": {
+    "args": {
+      "kind": "tuple",
+      "items": [
+        {
+          "kind": "dict",
+          "items": [
+            [
+              "baseline",
+              {
+                "tensor": "input_000",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.baseline"
+              }
+            ],
+            [
+              "current_only",
+              {
+                "tensor": "input_001",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.current_only"
+              }
+            ],
+            [
+              "gated_history",
+              {
+                "tensor": "input_002",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.gated_history"
+              }
+            ],
+            [
+              "past_background",
+              {
+                "tensor": "input_003",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.past_background"
+              }
+            ],
+            [
+              "activity",
+              {
+                "tensor": "input_004",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.activity"
+              }
+            ],
+            [
+              "occupancy",
+              {
+                "tensor": "input_005",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.occupancy"
+              }
+            ],
+            [
+              "raw24",
+              {
+                "tensor": "input_006",
+                "shape": [
+                  1,
+                  9,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.0.raw24"
+              }
+            ]
+          ]
+        },
+        {
+          "kind": "dict",
+          "items": [
+            [
+              "baseline",
+              {
+                "tensor": "input_007",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.1.baseline"
+              }
+            ],
+            [
+              "current_only",
+              {
+                "tensor": "input_008",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.1.current_only"
+              }
+            ],
+            [
+              "gated_history",
+              {
+                "tensor": "input_009",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.1.gated_history"
+              }
+            ],
+            [
+              "past_background",
+              {
+                "tensor": "input_010",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.1.past_background"
+              }
+            ],
+            [
+              "activity",
+              {
+                "tensor": "input_011",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.1.activity"
+              }
+            ],
+            [
+              "occupancy",
+              {
+                "tensor": "input_012",
+                "shape": [
+                  1,
+                  1,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.1.occupancy"
+              }
+            ],
+            [
+              "raw24",
+              {
+                "tensor": "input_013",
+                "shape": [
+                  1,
+                  9,
+                  1024,
+                  1280
+                ],
+                "dtype": "float32",
+                "source": "args.1.raw24"
+              }
+            ]
+          ]
+        },
+        {
+          "tensor": "input_014",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ],
+          "dtype": "float32",
+          "source": "args.2"
+        }
+      ]
+    },
+    "kwargs": {
+      "kind": "dict",
+      "items": [
+        [
+          "initial",
+          {
+            "kind": "constant",
+            "value": false
+          }
+        ]
+      ]
+    }
+  },
+  "cases": {
+    "val": {
+      "frame": 1,
+      "split": "val",
+      "source": "original RAW path; no GT in inputs"
+    },
+    "train": {
+      "frame": 1,
+      "split": "train",
+      "source": "original RAW path; no GT in inputs"
+    }
+  },
+  "ONNX_exported": true,
+  "ONNX_file": "model.onnx",
+  "inputs": [
+    {
+      "name": "input_000",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_001",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_002",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_003",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_004",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_005",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_006",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        9,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_007",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_008",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_014",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output_000",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "output_001",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "output_002",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "output_003",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        1024,
+        1280
+      ]
+    }
+  ],
+  "operators": {
+    "Constant": 30,
+    "Div": 8,
+    "Sub": 10,
+    "AveragePool": 3,
+    "Concat": 2,
+    "Clip": 1,
+    "Conv": 4,
+    "Relu": 2,
+    "Tanh": 3,
+    "Mul": 7,
+    "Add": 4,
+    "Slice": 4,
+    "Sigmoid": 2
+  },
+  "checker_passed": true,
+  "PC_runtime": "onnxruntime CPU",
+  "PC_case": "val",
+  "PyTorch_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 2.2026397346053272e-06,
+      "max_absolute": 6.103515625e-05,
+      "P95_absolute": 1.52587890625e-05
+    },
+    {
+      "output": "output_001",
+      "MAE": 5.5107136631704634e-08,
+      "max_absolute": 5.960464477539062e-07,
+      "P95_absolute": 1.7881393432617188e-07
+    },
+    {
+      "output": "output_002",
+      "MAE": 5.7503520167756506e-08,
+      "max_absolute": 5.662441253662109e-07,
+      "P95_absolute": 1.7136335372924805e-07
+    },
+    {
+      "output": "output_003",
+      "MAE": 4.3605678001767956e-07,
+      "max_absolute": 4.57763671875e-05,
+      "P95_absolute": 4.76837158203125e-07
+    }
+  ],
+  "SDK_compiled": false,
+  "NPU_measured": false,
+  "full_pipeline": false,
+  "CPU_tracking_and_fusion_outside_graph": true,
+  "runtime_noise_scalars_are_explicit_inputs": true,
+  "observed_GPU_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 2.2026397346053272e-06,
+      "max_absolute": 6.103515625e-05
+    },
+    {
+      "output": "output_001",
+      "MAE": 5.5107136631704634e-08,
+      "max_absolute": 5.960464477539062e-07
+    },
+    {
+      "output": "output_002",
+      "MAE": 5.7503520167756506e-08,
+      "max_absolute": 5.662441253662109e-07
+    },
+    {
+      "output": "output_003",
+      "MAE": 4.3605678001767956e-07,
+      "max_absolute": 4.57763671875e-05
+    }
+  ],
+  "smoke_inputs": "shared_graph_inputs.npz",
+  "calibration_files": [
+    "shared_graph_inputs.npz"
+  ],
+  "shared_input_reason": "Real train and val replay tensor arrays are exactly equal; use one stored asset. Calibration provenance remains train.",
+  "independent_train_val_quality_samples": false
+}

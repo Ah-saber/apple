@@ -1,0 +1,110 @@
+{
+  "best": {
+    "negative_increment": 0.10000000149011612,
+    "enabled": true,
+    "metrics": {
+      "body": 4.710588455200195,
+      "tiny_body": 4.740401268005371,
+      "tiny_raw": 5.4896392822265625
+    },
+    "eligible": true,
+    "score": 13.863990375421753
+  },
+  "rows": [
+    {
+      "negative_increment": -1.0,
+      "enabled": false,
+      "metrics": {
+        "body": 4.799907684326172,
+        "tiny_body": 4.787631511688232,
+        "tiny_raw": 5.49291467666626
+      },
+      "eligible": true,
+      "score": 14.0
+    },
+    {
+      "negative_increment": 0.0,
+      "enabled": true,
+      "metrics": {
+        "body": 4.73909854888916,
+        "tiny_body": 4.745607376098633,
+        "tiny_raw": 5.491755485534668
+      },
+      "eligible": true,
+      "score": 13.895814733060206
+    },
+    {
+      "negative_increment": 0.05000000074505806,
+      "enabled": true,
+      "metrics": {
+        "body": 4.716723442077637,
+        "tiny_body": 4.743246555328369,
+        "tiny_raw": 5.490697860717773
+      },
+      "eligible": true,
+      "score": 13.873439628531768
+    },
+    {
+      "negative_increment": 0.10000000149011612,
+      "enabled": true,
+      "metrics": {
+        "body": 4.710588455200195,
+        "tiny_body": 4.740401268005371,
+        "tiny_raw": 5.4896392822265625
+      },
+      "eligible": true,
+      "score": 13.863990375421753
+    },
+    {
+      "negative_increment": 0.15000000596046448,
+      "enabled": true,
+      "metrics": {
+        "body": 4.712404251098633,
+        "tiny_body": 4.74006986618042,
+        "tiny_raw": 5.488581657409668
+      },
+      "eligible": true,
+      "score": 13.864318071447565
+    },
+    {
+      "negative_increment": 0.20000000298023224,
+      "enabled": true,
+      "metrics": {
+        "body": 4.7197370529174805,
+        "tiny_body": 4.7441725730896,
+        "tiny_raw": 5.489987373352051
+      },
+      "eligible": true,
+      "score": 13.876594147172106
+    },
+    {
+      "negative_increment": 0.25,
+      "enabled": true,
+      "metrics": {
+        "body": 4.7294135093688965,
+        "tiny_body": 4.747398376464844,
+        "tiny_raw": 5.4921555519104
+      },
+      "eligible": true,
+      "score": 13.890279578341001
+    }
+  ],
+  "fit_split": "train",
+  "GT_ROIs": [
+    [
+      0,
+      256,
+      1024,
+      768
+    ],
+    [
+      0,
+      256,
+      1024,
+      768
+    ]
+  ],
+  "validation_used": false,
+  "test_used": false,
+  "final_exact_flicker_selection_required": true
+}

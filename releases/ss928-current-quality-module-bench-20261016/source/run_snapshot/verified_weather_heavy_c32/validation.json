@@ -1,0 +1,62 @@
+{
+  "scene": "weather_heavy_c32",
+  "metrics": {
+    "weather_heavy_c32": {
+      "original9": {
+        "frames": {
+          "static_temporal_error_gray": 1.5645804007848103,
+          "psnr_db": 18.884553348228835,
+          "old_position_pixels": 0.0,
+          "weak_structure_error_gray": 1.2543857097625732,
+          "mae_gray": 26.654229402542114,
+          "bias_gray": -26.5647029876709
+        },
+        "targets": {},
+        "target_observations": 0
+      },
+      "recent5": {
+        "frames": {
+          "static_temporal_error_gray": 1.5390971104303997,
+          "psnr_db": 18.886039764470617,
+          "old_position_pixels": 0.0,
+          "weak_structure_error_gray": 1.2664911150932312,
+          "mae_gray": 26.648858308792114,
+          "bias_gray": -26.560022115707397
+        },
+        "targets": {},
+        "target_observations": 0
+      },
+      "grid5": {
+        "frames": {
+          "static_temporal_error_gray": 1.6175132791201274,
+          "psnr_db": 18.885416867514092,
+          "old_position_pixels": 0.0,
+          "weak_structure_error_gray": 1.2665040493011475,
+          "mae_gray": 26.64983630180359,
+          "bias_gray": -26.560185432434082
+        },
+        "targets": {},
+        "target_observations": 0
+      },
+      "trained3": {
+        "frames": {
+          "static_temporal_error_gray": 1.4747835397720337,
+          "psnr_db": 18.886337632799165,
+          "old_position_pixels": 0.0,
+          "weak_structure_error_gray": 1.2965044577916462,
+          "mae_gray": 26.645174741744995,
+          "bias_gray": -26.55765175819397
+        },
+        "targets": {},
+        "target_observations": 0
+      }
+    }
+  },
+  "eligible": {
+    "original9": true,
+    "recent5": true,
+    "grid5": true,
+    "trained3": true
+  },
+  "selection": "validation only; actual FP16 display graph; GT departure and arrival masks"
+}

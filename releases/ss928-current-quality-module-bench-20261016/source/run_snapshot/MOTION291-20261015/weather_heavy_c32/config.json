@@ -1,0 +1,7 @@
+{
+  "parent": 283,
+  "model_round": 286,
+  "model_strength": "selected original-train strength",
+  "foreground": "active195",
+  "background_kernel": 63
+}

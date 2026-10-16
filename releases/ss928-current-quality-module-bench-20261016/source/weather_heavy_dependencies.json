@@ -1,0 +1,38 @@
+[
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION15-20261013/weather_heavy/last_step500.pt",
+    "packaged": "source/run_snapshot/MOTION15-20261013/weather_heavy/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION18-20261013/weather_heavy-fit.json",
+    "packaged": "source/run_snapshot/MOTION18-20261013/weather_heavy-fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION40-20261014/weather_heavy/fit.json",
+    "packaged": "source/run_snapshot/MOTION40-20261014/weather_heavy/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/TARGET-RESIDUAL-DECISIONS.json",
+    "packaged": "source/run_snapshot/TARGET-RESIDUAL-DECISIONS.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/combined_front_weather_heavy/summary.json",
+    "packaged": "source/run_snapshot/combined_front_weather_heavy/summary.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/multiscale_front_weather_heavy/best.pt",
+    "packaged": "source/run_snapshot/multiscale_front_weather_heavy/best.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/quietpair11_weights_weather_heavy/last_step500.pt",
+    "packaged": "source/run_snapshot/quietpair11_weights_weather_heavy/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/tieddecode11_weights_weather_heavy/last_step500.pt",
+    "packaged": "source/run_snapshot/tieddecode11_weights_weather_heavy/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/verified_weather_heavy/validation.json",
+    "packaged": "source/run_snapshot/verified_weather_heavy/validation.json"
+  }
+]

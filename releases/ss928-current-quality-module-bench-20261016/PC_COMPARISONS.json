@@ -1,0 +1,943 @@
+[
+  {
+    "scene": "weather_heavy",
+    "graph": "graph_000",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.03617926687002182,
+        "max_absolute": 0.375
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy",
+    "graph": "graph_001",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 7.38441372050147e-07,
+        "max_absolute": 3.0517578125e-05
+      },
+      {
+        "output": "output_001",
+        "MAE": 4.8798643348391124e-08,
+        "max_absolute": 5.364418029785156e-07
+      },
+      {
+        "output": "output_002",
+        "MAE": 4.0701081616134616e-08,
+        "max_absolute": 3.5762786865234375e-07
+      },
+      {
+        "output": "output_003",
+        "MAE": 7.38441372050147e-07,
+        "max_absolute": 3.0517578125e-05
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy",
+    "graph": "graph_002",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 2.8280840069783153e-06,
+        "max_absolute": 6.103515625e-05
+      },
+      {
+        "output": "output_001",
+        "MAE": 6.397658580681309e-08,
+        "max_absolute": 5.960464477539062e-07
+      },
+      {
+        "output": "output_002",
+        "MAE": 4.819634114028304e-08,
+        "max_absolute": 4.172325134277344e-07
+      },
+      {
+        "output": "output_003",
+        "MAE": 7.455253694388375e-07,
+        "max_absolute": 3.0517578125e-05
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_000",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.05968521907925606,
+        "max_absolute": 0.5
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_001",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.06039959192276001,
+        "max_absolute": 0.5
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_002",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 1.6178198336547212e-07,
+        "max_absolute": 3.0517578125e-05
+      },
+      {
+        "output": "output_001",
+        "MAE": 3.650925606279998e-08,
+        "max_absolute": 5.364418029785156e-07
+      },
+      {
+        "output": "output_002",
+        "MAE": 3.235792433997631e-08,
+        "max_absolute": 3.725290298461914e-07
+      },
+      {
+        "output": "output_003",
+        "MAE": 1.6178198336547212e-07,
+        "max_absolute": 3.0517578125e-05
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_003",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 3.0002745177171164e-08,
+        "max_absolute": 6.183981895446777e-06
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_004",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 1.0469153494341299e-05,
+        "max_absolute": 0.0011749863624572754
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_005",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_006",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_007",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_008",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_009",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_010",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_011",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 2.305553152837092e-06,
+        "max_absolute": 6.103515625e-05
+      },
+      {
+        "output": "output_001",
+        "MAE": 5.446523942964632e-08,
+        "max_absolute": 5.960464477539062e-07
+      },
+      {
+        "output": "output_002",
+        "MAE": 4.0686067848128005e-08,
+        "max_absolute": 3.5762786865234375e-07
+      },
+      {
+        "output": "output_003",
+        "MAE": 2.5410628268218716e-07,
+        "max_absolute": 3.0517578125e-05
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_012",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 2.5410628268218716e-07,
+        "max_absolute": 3.0517578125e-05
+      },
+      {
+        "output": "output_001",
+        "MAE": 5.446523942964632e-08,
+        "max_absolute": 5.960464477539062e-07
+      },
+      {
+        "output": "output_002",
+        "MAE": 4.0686067848128005e-08,
+        "max_absolute": 3.5762786865234375e-07
+      },
+      {
+        "output": "output_003",
+        "MAE": 2.5410628268218716e-07,
+        "max_absolute": 3.0517578125e-05
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_013",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 4.5291423589333135e-07,
+        "max_absolute": 0.003650188446044922
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_014",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 5.801451266052027e-07,
+        "max_absolute": 0.0024404823780059814
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_015",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 5.036514494349831e-07,
+        "max_absolute": 0.001809239387512207
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_016",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_017",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_018",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_019",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_020",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_021",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_022",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_023",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_024",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_025",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_026",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_027",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_028",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_029",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_030",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_031",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_032",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_033",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_034",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_035",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_036",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_037",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_038",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_039",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_040",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.00024265558749902993,
+        "max_absolute": 0.025033950805664062
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_041",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0004405117069836706,
+        "max_absolute": 0.025974273681640625
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_042",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0003468726936262101,
+        "max_absolute": 0.029397964477539062
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_043",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.00011092205386376008,
+        "max_absolute": 0.016167163848876953
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_044",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.00021429650951176882,
+        "max_absolute": 0.015709877014160156
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_045",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.00015818906831555068,
+        "max_absolute": 0.013434886932373047
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_046",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 9.616434545023367e-05,
+        "max_absolute": 0.01911640167236328
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_047",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.00017822234076447785,
+        "max_absolute": 0.02393209934234619
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_048",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 9.239194332621992e-05,
+        "max_absolute": 0.012166261672973633
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_049",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_050",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_051",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_052",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_053",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 5.276573119772365e-06,
+        "max_absolute": 0.047777652740478516
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_054",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_055",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_056",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 1.3541375665226951e-06,
+        "max_absolute": 0.007840156555175781
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_057",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_058",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_059",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 1.1838181990242447e-07,
+        "max_absolute": 0.0023227930068969727
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_060",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_061",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_062",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 2.0241500919837563e-07,
+        "max_absolute": 0.0055637359619140625
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_063",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_064",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_065",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 9.546931778459111e-07,
+        "max_absolute": 0.015746593475341797
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_066",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "night_special",
+    "graph": "graph_000",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.05885561928153038,
+        "max_absolute": 0.5
+      }
+    ]
+  },
+  {
+    "scene": "night_special",
+    "graph": "graph_001",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 1.6135521718751988e-07,
+        "max_absolute": 3.0517578125e-05
+      },
+      {
+        "output": "output_001",
+        "MAE": 2.3826611794675046e-08,
+        "max_absolute": 3.5762786865234375e-07
+      },
+      {
+        "output": "output_002",
+        "MAE": 3.5172888601664454e-08,
+        "max_absolute": 3.2782554626464844e-07
+      },
+      {
+        "output": "output_003",
+        "MAE": 1.6135521718751988e-07,
+        "max_absolute": 3.0517578125e-05
+      }
+    ]
+  },
+  {
+    "scene": "night_special",
+    "graph": "graph_002",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 2.2026397346053272e-06,
+        "max_absolute": 6.103515625e-05
+      },
+      {
+        "output": "output_001",
+        "MAE": 5.5107136631704634e-08,
+        "max_absolute": 5.960464477539062e-07
+      },
+      {
+        "output": "output_002",
+        "MAE": 5.7503520167756506e-08,
+        "max_absolute": 5.662441253662109e-07
+      },
+      {
+        "output": "output_003",
+        "MAE": 4.3605678001767956e-07,
+        "max_absolute": 4.57763671875e-05
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_067",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_068",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  },
+  {
+    "scene": "weather_heavy_c32",
+    "graph": "graph_069",
+    "outputs": [
+      {
+        "output": "output_000",
+        "MAE": 0.0,
+        "max_absolute": 0.0
+      }
+    ]
+  }
+]

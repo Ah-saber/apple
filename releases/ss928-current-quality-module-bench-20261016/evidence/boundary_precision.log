@@ -1,0 +1,1 @@
+{"purpose": "FP64 temporary interface to FP32; original captured GPU output compared after float32 cast", "max_absolute": 1.4901161193847656e-08, "nonzero_interface_cases": 5, "training": false, "SDK_compiled": false, "full_pipeline_quality_check": false}

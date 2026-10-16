@@ -1,0 +1,12 @@
+{
+  "scene": "night_ordinary",
+  "split": "test",
+  "frame": 19,
+  "calls": [
+    "graph_base"
+  ],
+  "counts": {
+    "graph_base": 1
+  },
+  "full_pipeline": false
+}

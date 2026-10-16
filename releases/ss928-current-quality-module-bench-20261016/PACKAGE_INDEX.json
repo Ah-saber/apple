@@ -1,0 +1,4432 @@
+{
+  "name": "current quality seven-scene neural-module timing package",
+  "date": "2026-10-16",
+  "status": "ONNX_and_real_cases_prepared_for_external_SDK",
+  "scenes": [
+    {
+      "scene": "night_ordinary",
+      "static_graphs": 1,
+      "calls_in_frame19": 1,
+      "unused_allocated_modules": [],
+      "current_full_pipeline_NPU_ready": false
+    },
+    {
+      "scene": "day_normal",
+      "static_graphs": 1,
+      "calls_in_frame19": 1,
+      "unused_allocated_modules": [],
+      "current_full_pipeline_NPU_ready": false
+    },
+    {
+      "scene": "weather_light",
+      "static_graphs": 1,
+      "calls_in_frame19": 1,
+      "unused_allocated_modules": [],
+      "current_full_pipeline_NPU_ready": false
+    },
+    {
+      "scene": "weather_medium",
+      "static_graphs": 1,
+      "calls_in_frame19": 1,
+      "unused_allocated_modules": [],
+      "current_full_pipeline_NPU_ready": false
+    },
+    {
+      "scene": "weather_heavy",
+      "static_graphs": 3,
+      "calls_in_frame19": 5,
+      "unused_allocated_modules": [],
+      "current_full_pipeline_NPU_ready": false
+    },
+    {
+      "scene": "weather_heavy_c32",
+      "static_graphs": 70,
+      "calls_in_frame19": 228,
+      "unused_allocated_modules": [],
+      "current_full_pipeline_NPU_ready": false
+    },
+    {
+      "scene": "night_special",
+      "static_graphs": 3,
+      "calls_in_frame19": 5,
+      "unused_allocated_modules": [],
+      "current_full_pipeline_NPU_ready": false
+    }
+  ],
+  "graphs": [
+    {
+      "key": "night_ordinary/graph_base",
+      "scene": "night_ordinary",
+      "id": "graph_base",
+      "folder": "models/night_ordinary/graph_base",
+      "module_type": "FrozenTiedSR",
+      "module_path": "unchanged frozen SR",
+      "inputs": [
+        {
+          "name": "raw_stack",
+          "shape": [
+            1,
+            5,
+            1024,
+            1280
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 13107200
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 8192
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 23592960
+        }
+      ]
+    },
+    {
+      "key": "day_normal/graph_base",
+      "scene": "day_normal",
+      "id": "graph_base",
+      "folder": "models/day_normal/graph_base",
+      "module_type": "FrozenTiedSR",
+      "module_path": "unchanged frozen SR",
+      "inputs": [
+        {
+          "name": "raw_stack",
+          "shape": [
+            1,
+            5,
+            1024,
+            1280
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 13107200
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 8192
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 23592960
+        }
+      ]
+    },
+    {
+      "key": "weather_light/graph_base",
+      "scene": "weather_light",
+      "id": "graph_base",
+      "folder": "models/weather_light/graph_base",
+      "module_type": "FrozenTiedSR",
+      "module_path": "unchanged frozen SR",
+      "inputs": [
+        {
+          "name": "raw_stack",
+          "shape": [
+            1,
+            3,
+            1024,
+            1280
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 7864320
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 16384
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 23592960
+        }
+      ]
+    },
+    {
+      "key": "weather_medium/graph_base",
+      "scene": "weather_medium",
+      "id": "graph_base",
+      "folder": "models/weather_medium/graph_base",
+      "module_type": "FrozenTiedSR",
+      "module_path": "unchanged frozen SR",
+      "inputs": [
+        {
+          "name": "raw_stack",
+          "shape": [
+            1,
+            3,
+            1024,
+            1280
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 7864320
+        },
+        {
+          "name": "reference_thumb",
+          "shape": [
+            1,
+            2,
+            64,
+            64
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 16384
+        }
+      ],
+      "outputs": [
+        {
+          "name": "display_gray",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ],
+          "dtype": "FLOAT16",
+          "bytes": 23592960
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy/graph_000",
+      "scene": "weather_heavy",
+      "id": "graph_000",
+      "folder": "models/weather_heavy/graph_000",
+      "module_type": "historydisplay_phase11.CurrentRouteBoard",
+      "module_path": "SR.primary",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            3,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy/graph_001",
+      "scene": "weather_heavy",
+      "id": "graph_001",
+      "folder": "models/weather_heavy/graph_001",
+      "module_type": "repair_motion15.Repair",
+      "module_path": "controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_006",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy/graph_002",
+      "scene": "weather_heavy",
+      "id": "graph_002",
+      "folder": "models/weather_heavy/graph_002",
+      "module_type": "repair_motion15.Repair",
+      "module_path": "controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_006",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_012",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_000",
+      "scene": "weather_heavy_c32",
+      "id": "graph_000",
+      "folder": "models/weather_heavy_c32/graph_000",
+      "module_type": "historydisplay_phase11.CurrentRouteBoard",
+      "module_path": "SR.primary",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            3,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_001",
+      "scene": "weather_heavy_c32",
+      "id": "graph_001",
+      "folder": "models/weather_heavy_c32/graph_001",
+      "module_type": "historydisplay_phase11.CurrentRouteBoard",
+      "module_path": "SR.edge",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            3,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_002",
+      "scene": "weather_heavy_c32",
+      "id": "graph_002",
+      "folder": "models/weather_heavy_c32/graph_002",
+      "module_type": "repair_motion15.Repair",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.parent.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_008",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_003",
+      "scene": "weather_heavy_c32",
+      "id": "graph_003",
+      "folder": "models/weather_heavy_c32/graph_003",
+      "module_type": "road_residual53.RoadResidual53",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.contrast",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_008",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_009",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_004",
+      "scene": "weather_heavy_c32",
+      "id": "graph_004",
+      "folder": "models/weather_heavy_c32/graph_004",
+      "module_type": "history_residual71.HistoryResidual71",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.history_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_008",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_009",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_010",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_005",
+      "scene": "weather_heavy_c32",
+      "id": "graph_005",
+      "folder": "models/weather_heavy_c32/graph_005",
+      "module_type": "body_gain77.BodyGain77",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.body_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_009",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_010",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_011",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_012",
+          "dtype": "FLOAT",
+          "shape": [
+            2
+          ]
+        },
+        {
+          "name": "input_013",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_016",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_017",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_006",
+      "scene": "weather_heavy_c32",
+      "id": "graph_006",
+      "folder": "models/weather_heavy_c32/graph_006",
+      "module_type": "body_temporal81.BodyTemporal81",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.model",
+      "inputs": [
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_009",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_010",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_011",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_012",
+          "dtype": "FLOAT",
+          "shape": [
+            2
+          ]
+        },
+        {
+          "name": "input_013",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_014",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_015",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_016",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        },
+        {
+          "name": "input_017",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            478,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_007",
+      "scene": "weather_heavy_c32",
+      "id": "graph_007",
+      "folder": "models/weather_heavy_c32/graph_007",
+      "module_type": "adaptive_static270.AdaptiveStatic270",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            8,
+            144,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_008",
+      "scene": "weather_heavy_c32",
+      "id": "graph_008",
+      "folder": "models/weather_heavy_c32/graph_008",
+      "module_type": "adaptive_static270.AdaptiveStatic270",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            8,
+            160,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_009",
+      "scene": "weather_heavy_c32",
+      "id": "graph_009",
+      "folder": "models/weather_heavy_c32/graph_009",
+      "module_type": "adaptive_static270.AdaptiveStatic270",
+      "module_path": "controller.foreground.source_controller.background.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            8,
+            144,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_010",
+      "scene": "weather_heavy_c32",
+      "id": "graph_010",
+      "folder": "models/weather_heavy_c32/graph_010",
+      "module_type": "adaptive_static270.AdaptiveStatic270",
+      "module_path": "controller.foreground.source_controller.background.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            8,
+            160,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_011",
+      "scene": "weather_heavy_c32",
+      "id": "graph_011",
+      "folder": "models/weather_heavy_c32/graph_011",
+      "module_type": "repair_motion15.Repair",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.parent.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_008",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_014",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_012",
+      "scene": "weather_heavy_c32",
+      "id": "graph_012",
+      "folder": "models/weather_heavy_c32/graph_012",
+      "module_type": "repair_motion15.Repair",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.parent.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_008",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_013",
+      "scene": "weather_heavy_c32",
+      "id": "graph_013",
+      "folder": "models/weather_heavy_c32/graph_013",
+      "module_type": "body_current116.CurrentRepair116",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            136,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            136,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            136,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_014",
+      "scene": "weather_heavy_c32",
+      "id": "graph_014",
+      "folder": "models/weather_heavy_c32/graph_014",
+      "module_type": "body_current116.CurrentRepair116",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            144,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_015",
+      "scene": "weather_heavy_c32",
+      "id": "graph_015",
+      "folder": "models/weather_heavy_c32/graph_015",
+      "module_type": "body_current116.CurrentRepair116",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            102,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            102,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            102,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_016",
+      "scene": "weather_heavy_c32",
+      "id": "graph_016",
+      "folder": "models/weather_heavy_c32/graph_016",
+      "module_type": "quality_surround216.CaptureFeatures",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.small_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            136,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            136,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            136,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_017",
+      "scene": "weather_heavy_c32",
+      "id": "graph_017",
+      "folder": "models/weather_heavy_c32/graph_017",
+      "module_type": "quality_surround216.CaptureFeatures",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.small_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            144,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_018",
+      "scene": "weather_heavy_c32",
+      "id": "graph_018",
+      "folder": "models/weather_heavy_c32/graph_018",
+      "module_type": "quality_surround216.CaptureFeatures",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.small_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            13,
+            102,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            102,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            102,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_019",
+      "scene": "weather_heavy_c32",
+      "id": "graph_019",
+      "folder": "models/weather_heavy_c32/graph_019",
+      "module_type": "context_refine213.ContextRefine213",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.context_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            18,
+            136,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            136,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            136,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_020",
+      "scene": "weather_heavy_c32",
+      "id": "graph_020",
+      "folder": "models/weather_heavy_c32/graph_020",
+      "module_type": "context_refine213.ContextRefine213",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.context_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            18,
+            144,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            144,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_021",
+      "scene": "weather_heavy_c32",
+      "id": "graph_021",
+      "folder": "models/weather_heavy_c32/graph_021",
+      "module_type": "context_refine213.ContextRefine213",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.context_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            18,
+            102,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            102,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            102,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_022",
+      "scene": "weather_heavy_c32",
+      "id": "graph_022",
+      "folder": "models/weather_heavy_c32/graph_022",
+      "module_type": "context_wide220.ContextWide220",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.next_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            18,
+            160,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_023",
+      "scene": "weather_heavy_c32",
+      "id": "graph_023",
+      "folder": "models/weather_heavy_c32/graph_023",
+      "module_type": "context_wide220.ContextWide220",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.next_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            18,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_024",
+      "scene": "weather_heavy_c32",
+      "id": "graph_024",
+      "folder": "models/weather_heavy_c32/graph_024",
+      "module_type": "context_wide220.ContextWide220",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.next_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            18,
+            126,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            126,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            126,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_025",
+      "scene": "weather_heavy_c32",
+      "id": "graph_025",
+      "folder": "models/weather_heavy_c32/graph_025",
+      "module_type": "small_context227.SmallContext227",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            160,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_026",
+      "scene": "weather_heavy_c32",
+      "id": "graph_026",
+      "folder": "models/weather_heavy_c32/graph_026",
+      "module_type": "small_context227.SmallContext227",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_027",
+      "scene": "weather_heavy_c32",
+      "id": "graph_027",
+      "folder": "models/weather_heavy_c32/graph_027",
+      "module_type": "small_context227.SmallContext227",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            126,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            126,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            126,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_028",
+      "scene": "weather_heavy_c32",
+      "id": "graph_028",
+      "folder": "models/weather_heavy_c32/graph_028",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_029",
+      "scene": "weather_heavy_c32",
+      "id": "graph_029",
+      "folder": "models/weather_heavy_c32/graph_029",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_030",
+      "scene": "weather_heavy_c32",
+      "id": "graph_030",
+      "folder": "models/weather_heavy_c32/graph_030",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_031",
+      "scene": "weather_heavy_c32",
+      "id": "graph_031",
+      "folder": "models/weather_heavy_c32/graph_031",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_032",
+      "scene": "weather_heavy_c32",
+      "id": "graph_032",
+      "folder": "models/weather_heavy_c32/graph_032",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_033",
+      "scene": "weather_heavy_c32",
+      "id": "graph_033",
+      "folder": "models/weather_heavy_c32/graph_033",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_034",
+      "scene": "weather_heavy_c32",
+      "id": "graph_034",
+      "folder": "models/weather_heavy_c32/graph_034",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_035",
+      "scene": "weather_heavy_c32",
+      "id": "graph_035",
+      "folder": "models/weather_heavy_c32/graph_035",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_036",
+      "scene": "weather_heavy_c32",
+      "id": "graph_036",
+      "folder": "models/weather_heavy_c32/graph_036",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_037",
+      "scene": "weather_heavy_c32",
+      "id": "graph_037",
+      "folder": "models/weather_heavy_c32/graph_037",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_038",
+      "scene": "weather_heavy_c32",
+      "id": "graph_038",
+      "folder": "models/weather_heavy_c32/graph_038",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_039",
+      "scene": "weather_heavy_c32",
+      "id": "graph_039",
+      "folder": "models/weather_heavy_c32/graph_039",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_040",
+      "scene": "weather_heavy_c32",
+      "id": "graph_040",
+      "folder": "models/weather_heavy_c32/graph_040",
+      "module_type": "joint_context279.JointContext279",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_041",
+      "scene": "weather_heavy_c32",
+      "id": "graph_041",
+      "folder": "models/weather_heavy_c32/graph_041",
+      "module_type": "joint_context279.JointContext279",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_042",
+      "scene": "weather_heavy_c32",
+      "id": "graph_042",
+      "folder": "models/weather_heavy_c32/graph_042",
+      "module_type": "joint_context279.JointContext279",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_043",
+      "scene": "weather_heavy_c32",
+      "id": "graph_043",
+      "folder": "models/weather_heavy_c32/graph_043",
+      "module_type": "tail_context284.TailContext284",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_044",
+      "scene": "weather_heavy_c32",
+      "id": "graph_044",
+      "folder": "models/weather_heavy_c32/graph_044",
+      "module_type": "tail_context284.TailContext284",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_045",
+      "scene": "weather_heavy_c32",
+      "id": "graph_045",
+      "folder": "models/weather_heavy_c32/graph_045",
+      "module_type": "tail_context284.TailContext284",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_046",
+      "scene": "weather_heavy_c32",
+      "id": "graph_046",
+      "folder": "models/weather_heavy_c32/graph_046",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "module_path": "controller.foreground.source_controller.foreground.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            24,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_047",
+      "scene": "weather_heavy_c32",
+      "id": "graph_047",
+      "folder": "models/weather_heavy_c32/graph_047",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "module_path": "controller.foreground.source_controller.foreground.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            24,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_048",
+      "scene": "weather_heavy_c32",
+      "id": "graph_048",
+      "folder": "models/weather_heavy_c32/graph_048",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "module_path": "controller.foreground.source_controller.foreground.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            24,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_049",
+      "scene": "weather_heavy_c32",
+      "id": "graph_049",
+      "folder": "models/weather_heavy_c32/graph_049",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "module_path": "controller.foreground.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            24,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_050",
+      "scene": "weather_heavy_c32",
+      "id": "graph_050",
+      "folder": "models/weather_heavy_c32/graph_050",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "module_path": "controller.foreground.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            24,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_051",
+      "scene": "weather_heavy_c32",
+      "id": "graph_051",
+      "folder": "models/weather_heavy_c32/graph_051",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "module_path": "controller.foreground.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            24,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_052",
+      "scene": "weather_heavy_c32",
+      "id": "graph_052",
+      "folder": "models/weather_heavy_c32/graph_052",
+      "module_type": "small_context227.SmallContext227",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            160,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            160,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_053",
+      "scene": "weather_heavy_c32",
+      "id": "graph_053",
+      "folder": "models/weather_heavy_c32/graph_053",
+      "module_type": "small_context227.SmallContext227",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_054",
+      "scene": "weather_heavy_c32",
+      "id": "graph_054",
+      "folder": "models/weather_heavy_c32/graph_054",
+      "module_type": "small_context227.SmallContext227",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            126,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            126,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            126,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_055",
+      "scene": "weather_heavy_c32",
+      "id": "graph_055",
+      "folder": "models/weather_heavy_c32/graph_055",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_056",
+      "scene": "weather_heavy_c32",
+      "id": "graph_056",
+      "folder": "models/weather_heavy_c32/graph_056",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_057",
+      "scene": "weather_heavy_c32",
+      "id": "graph_057",
+      "folder": "models/weather_heavy_c32/graph_057",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_058",
+      "scene": "weather_heavy_c32",
+      "id": "graph_058",
+      "folder": "models/weather_heavy_c32/graph_058",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_059",
+      "scene": "weather_heavy_c32",
+      "id": "graph_059",
+      "folder": "models/weather_heavy_c32/graph_059",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_060",
+      "scene": "weather_heavy_c32",
+      "id": "graph_060",
+      "folder": "models/weather_heavy_c32/graph_060",
+      "module_type": "small_residual249.SmallResidual249",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_061",
+      "scene": "weather_heavy_c32",
+      "id": "graph_061",
+      "folder": "models/weather_heavy_c32/graph_061",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_062",
+      "scene": "weather_heavy_c32",
+      "id": "graph_062",
+      "folder": "models/weather_heavy_c32/graph_062",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_063",
+      "scene": "weather_heavy_c32",
+      "id": "graph_063",
+      "folder": "models/weather_heavy_c32/graph_063",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_064",
+      "scene": "weather_heavy_c32",
+      "id": "graph_064",
+      "folder": "models/weather_heavy_c32/graph_064",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_065",
+      "scene": "weather_heavy_c32",
+      "id": "graph_065",
+      "folder": "models/weather_heavy_c32/graph_065",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_066",
+      "scene": "weather_heavy_c32",
+      "id": "graph_066",
+      "folder": "models/weather_heavy_c32/graph_066",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            23,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_067",
+      "scene": "weather_heavy_c32",
+      "id": "graph_067",
+      "folder": "models/weather_heavy_c32/graph_067",
+      "module_type": "background_call_deploy.BackgroundCall",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247.background",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            192,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            192,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            192,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_068",
+      "scene": "weather_heavy_c32",
+      "id": "graph_068",
+      "folder": "models/weather_heavy_c32/graph_068",
+      "module_type": "background_call_deploy.BackgroundCall",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247.background",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            256,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            256,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            256,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "weather_heavy_c32/graph_069",
+      "scene": "weather_heavy_c32",
+      "id": "graph_069",
+      "folder": "models/weather_heavy_c32/graph_069",
+      "module_type": "background_call_deploy.BackgroundCall",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247.background",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            19,
+            158,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            4,
+            158,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            158,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "night_special/graph_000",
+      "scene": "night_special",
+      "id": "graph_000",
+      "folder": "models/night_special/graph_000",
+      "module_type": "historydisplay_phase11.CurrentRouteBoard",
+      "module_path": "SR.primary",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            5,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT16",
+          "shape": [
+            1,
+            1,
+            3072,
+            3840
+          ]
+        }
+      ]
+    },
+    {
+      "key": "night_special/graph_001",
+      "scene": "night_special",
+      "id": "graph_001",
+      "folder": "models/night_special/graph_001",
+      "module_type": "raw_stable27.RawStable27",
+      "module_path": "controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_006",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_008",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "key": "night_special/graph_002",
+      "scene": "night_special",
+      "id": "graph_002",
+      "folder": "models/night_special/graph_002",
+      "module_type": "raw_stable27.RawStable27",
+      "module_path": "controller.model",
+      "inputs": [
+        {
+          "name": "input_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_004",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_005",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_006",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            9,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_007",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_008",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "input_014",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output_000",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_001",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_002",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        },
+        {
+          "name": "output_003",
+          "dtype": "FLOAT",
+          "shape": [
+            1,
+            1,
+            1024,
+            1280
+          ]
+        }
+      ]
+    }
+  ],
+  "new_training": false,
+  "current_weights_unchanged": true,
+  "complete_frame_pipeline": false,
+  "CPU_state_tracking_and_fusion_ported": false,
+  "SDK_compiled": false,
+  "board_test_run": false,
+  "scope": "Neural module output checks and NPU/SDK timing; explicit PC-prepared real tensor inputs",
+  "full_pipeline_timing_must_not_be_inferred_from_component_sum": true
+}

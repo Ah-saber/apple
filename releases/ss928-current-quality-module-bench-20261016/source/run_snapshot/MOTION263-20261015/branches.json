@@ -1,0 +1,10 @@
+{
+  "parent": 254,
+  "target": 258,
+  "static": 259,
+  "strengths": {
+    "258": 0.75,
+    "259": 0.5
+  },
+  "GT_used": false
+}

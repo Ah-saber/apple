@@ -1,0 +1,240 @@
+{
+  "id": "graph_base",
+  "scene": "weather_medium",
+  "module_type": "FrozenTiedSR",
+  "module_path": "unchanged frozen SR",
+  "ONNX_exported": true,
+  "ONNX_file": "model.onnx",
+  "inputs": [
+    {
+      "name": "raw_stack",
+      "shape": [
+        1,
+        3,
+        1024,
+        1280
+      ],
+      "dtype": "FLOAT16",
+      "bytes": 7864320
+    },
+    {
+      "name": "reference_thumb",
+      "shape": [
+        1,
+        2,
+        64,
+        64
+      ],
+      "dtype": "FLOAT16",
+      "bytes": 16384
+    }
+  ],
+  "outputs": [
+    {
+      "name": "display_gray",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "dtype": "FLOAT16",
+      "bytes": 23592960
+    }
+  ],
+  "operators": {
+    "Identity": 3,
+    "Constant": 374,
+    "Slice": 88,
+    "Cast": 18,
+    "Concat": 14,
+    "Sub": 2,
+    "Mul": 13,
+    "Conv": 25,
+    "Relu": 4,
+    "Div": 5,
+    "Erf": 5,
+    "Add": 11,
+    "AveragePool": 3,
+    "Transpose": 13,
+    "ReduceMean": 1,
+    "Clip": 1,
+    "Reshape": 2
+  },
+  "smoke_inputs": "smoke_inputs.npz",
+  "calibration_files": [
+    "calibration_00.npz",
+    "calibration_01.npz",
+    "calibration_02.npz",
+    "calibration_03.npz"
+  ],
+  "PC_case": "test",
+  "unchanged_since_takeover": true,
+  "source": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/TIED500-DEPLOY-20261012-FIX/weather_medium",
+  "calibration": [
+    {
+      "file": "calibration_00.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000008@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001",
+        "frame_id": 8,
+        "group_id": "adverse_capture_02",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/raw_u16.npy",
+          "index": 8,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000008.png",
+          "sha256": "d23f3cb96c0816ebf56a067cf466b4fcdfae054ade43ee3fdbf75f5a4d0d5b75",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/enhanced/0008.png",
+          "source_sha256": "d23f3cb96c0816ebf56a067cf466b4fcdfae054ade43ee3fdbf75f5a4d0d5b75",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-WP2B",
+          "frame_id": 8
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-10-34-02_001/000008",
+        "split": "train",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "input_frames": 3,
+      "profile": "streamCachedFast4"
+    },
+    {
+      "file": "calibration_01.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000119@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001",
+        "frame_id": 119,
+        "group_id": "adverse_capture_03",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/raw_u16.npy",
+          "index": 119,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000119.png",
+          "sha256": "24254c88f4b85eacfd9a61fa4d6541bc4dea04da013f70ac28590b873bbd1a73",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/enhanced/0119.png",
+          "source_sha256": "24254c88f4b85eacfd9a61fa4d6541bc4dea04da013f70ac28590b873bbd1a73",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6C",
+          "frame_id": 119
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-14-17-43_001/000119",
+        "split": "train",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "input_frames": 3,
+      "profile": "streamCachedFast4"
+    },
+    {
+      "file": "calibration_02.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000119@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001",
+        "frame_id": 119,
+        "group_id": "adverse_capture_05",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/raw_u16.npy",
+          "index": 119,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000119.png",
+          "sha256": "4901f82f5e2bf1768e845ca225d75d8b24612f0fdd0017f1778dad0ecce5400f",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/enhanced/0119.png",
+          "source_sha256": "4901f82f5e2bf1768e845ca225d75d8b24612f0fdd0017f1778dad0ecce5400f",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6C",
+          "frame_id": 119
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-15-20-57_001/000119",
+        "split": "train",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          256,
+          1024,
+          768
+        ]
+      },
+      "input_frames": 3,
+      "profile": "streamCachedFast4"
+    },
+    {
+      "file": "calibration_03.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000119@train",
+        "domain": "adverse",
+        "sequence_id": "vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001",
+        "frame_id": 119,
+        "group_id": "adverse_capture_06",
+        "raw": {
+          "path": "decoded/raw_v1/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/raw_u16.npy",
+          "index": 119,
+          "format_id": "WEATHER-RAW-U16LE-CANDIDATE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000119.png",
+          "sha256": "8b2da0c229d3e4fdf58c455391c9da078d18d05366a2293628a29e3694370149",
+          "source_path": "incoming/v8_snapshot_20260921/adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/enhanced/0119.png",
+          "source_sha256": "8b2da0c229d3e4fdf58c455391c9da078d18d05366a2293628a29e3694370149",
+          "teacher_version": "v6",
+          "source_experiment": "EXP-TASK-013-W6D",
+          "frame_id": 119
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "adverse/vi_pipe2_5120x1024_Raw8_120_1-16-10-36_001/000119",
+        "split": "train",
+        "scene_id": "weather_medium",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          256,
+          1024,
+          768
+        ]
+      },
+      "input_frames": 3,
+      "profile": "streamCachedFast4"
+    }
+  ],
+  "original_PC_comparison": {
+    "MAE": 0.026799747720360756,
+    "max_absolute": 0.5
+  },
+  "checker_passed": true,
+  "SDK_compiled_for_this_package": false,
+  "current_board_measurement": false,
+  "full_pipeline": false
+}

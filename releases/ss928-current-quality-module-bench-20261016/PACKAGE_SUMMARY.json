@@ -1,0 +1,16 @@
+{
+  "scenes": 7,
+  "static_graphs": 80,
+  "prepared_cases": 80,
+  "files": 931,
+  "bytes": 1401260476,
+  "largest_file": {
+    "file": "models/night_special/graph_002/shared_graph_inputs.npz",
+    "bytes": 27448001
+  },
+  "SDK_compiled": false,
+  "ARM_runner_built": false,
+  "board_run": false,
+  "full_pipeline": false,
+  "ready_for": "external SDK compilation and neural module measurements"
+}

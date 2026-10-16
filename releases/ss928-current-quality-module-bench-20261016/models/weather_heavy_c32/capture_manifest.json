@@ -1,0 +1,5310 @@
+{
+  "scene": "weather_heavy_c32",
+  "neural_modules": [
+    {
+      "id": "module_00",
+      "path": "SR.primary",
+      "type": "historydisplay_phase11.CurrentRouteBoard"
+    },
+    {
+      "id": "module_01",
+      "path": "SR.edge",
+      "type": "historydisplay_phase11.CurrentRouteBoard"
+    },
+    {
+      "id": "module_02",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.parent.model",
+      "type": "repair_motion15.Repair"
+    },
+    {
+      "id": "module_03",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.contrast",
+      "type": "road_residual53.RoadResidual53"
+    },
+    {
+      "id": "module_04",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.history_model",
+      "type": "history_residual71.HistoryResidual71"
+    },
+    {
+      "id": "module_05",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.body_model",
+      "type": "body_gain77.BodyGain77"
+    },
+    {
+      "id": "module_06",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.model",
+      "type": "body_temporal81.BodyTemporal81"
+    },
+    {
+      "id": "module_07",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "type": "body_current116.CurrentRepair116"
+    },
+    {
+      "id": "module_08",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.small_model",
+      "type": "quality_surround216.CaptureFeatures"
+    },
+    {
+      "id": "module_09",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.context_model",
+      "type": "context_refine213.ContextRefine213"
+    },
+    {
+      "id": "module_10",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.next_model",
+      "type": "context_wide220.ContextWide220"
+    },
+    {
+      "id": "module_11",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "type": "small_context227.SmallContext227"
+    },
+    {
+      "id": "module_12",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247",
+      "type": "learned_background243.LearnedBackground243"
+    },
+    {
+      "id": "module_13",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "type": "small_residual249.SmallResidual249"
+    },
+    {
+      "id": "module_14",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "type": "small_residual249.SmallResidual249"
+    },
+    {
+      "id": "module_15",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "type": "small_temporal258.SmallTemporal258"
+    },
+    {
+      "id": "module_16",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "type": "small_temporal258.SmallTemporal258"
+    },
+    {
+      "id": "module_17",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.model",
+      "type": "adaptive_static270.AdaptiveStatic270"
+    },
+    {
+      "id": "module_18",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.model",
+      "type": "joint_context279.JointContext279"
+    },
+    {
+      "id": "module_19",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.model",
+      "type": "tail_context284.TailContext284"
+    },
+    {
+      "id": "module_20",
+      "path": "controller.foreground.source_controller.foreground.model",
+      "type": "foreground_shape300.ForegroundShape300"
+    },
+    {
+      "id": "module_21",
+      "path": "controller.foreground.source_controller.background.model",
+      "type": "adaptive_static270.AdaptiveStatic270"
+    },
+    {
+      "id": "module_22",
+      "path": "controller.foreground.model",
+      "type": "foreground_shape300.ForegroundShape300"
+    },
+    {
+      "id": "module_23",
+      "path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247.background",
+      "type": "background_call_deploy.BackgroundCall"
+    }
+  ],
+  "graphs": [
+    {
+      "id": "graph_000",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_00",
+      "module_path": "SR.primary",
+      "module_type": "historydisplay_phase11.CurrentRouteBoard",
+      "folder": "models/weather_heavy_c32/graph_000",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                3,
+                1024,
+                1280
+              ],
+              "dtype": "float16",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                64,
+                64
+              ],
+              "dtype": "float16",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_001",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_01",
+      "module_path": "SR.edge",
+      "module_type": "historydisplay_phase11.CurrentRouteBoard",
+      "folder": "models/weather_heavy_c32/graph_001",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                3,
+                1024,
+                1280
+              ],
+              "dtype": "float16",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                64,
+                64
+              ],
+              "dtype": "float16",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_002",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_02",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.parent.model",
+      "module_type": "repair_motion15.Repair",
+      "folder": "models/weather_heavy_c32/graph_002",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.plain_current116"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_008",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_009",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_010",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_011",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_012",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_013",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.plain_current116"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_014",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": [
+            [
+              "initial",
+              {
+                "kind": "constant",
+                "value": true
+              }
+            ]
+          ]
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_003",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_03",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.contrast",
+      "module_type": "road_residual53.RoadResidual53",
+      "folder": "models/weather_heavy_c32/graph_003",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.plain_current116"
+                  }
+                ],
+                [
+                  "raw50",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      13,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.raw50"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_008",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            },
+            {
+              "tensor": "input_009",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_004",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_04",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.history_model",
+      "module_type": "history_residual71.HistoryResidual71",
+      "folder": "models/weather_heavy_c32/graph_004",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.plain_current116"
+                  }
+                ],
+                [
+                  "crop53",
+                  {
+                    "kind": "tuple",
+                    "items": [
+                      {
+                        "kind": "constant",
+                        "value": 176
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 0
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 478
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 1280
+                      }
+                    ]
+                  }
+                ],
+                [
+                  "raw50",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      13,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.raw50"
+                  }
+                ],
+                [
+                  "history71",
+                  {
+                    "tensor": "input_008",
+                    "shape": [
+                      1,
+                      4,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.history71"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_009",
+              "shape": [
+                1,
+                1,
+                478,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            },
+            {
+              "tensor": "input_010",
+              "shape": [
+                1,
+                1,
+                478,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_005",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_05",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.body_model",
+      "module_type": "body_gain77.BodyGain77",
+      "folder": "models/weather_heavy_c32/graph_005",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.plain_current116"
+                  }
+                ],
+                [
+                  "crop53",
+                  {
+                    "kind": "tuple",
+                    "items": [
+                      {
+                        "kind": "constant",
+                        "value": 176
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 0
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 478
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 1280
+                      }
+                    ]
+                  }
+                ],
+                [
+                  "raw50",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      13,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.raw50"
+                  }
+                ],
+                [
+                  "history71",
+                  {
+                    "tensor": "input_008",
+                    "shape": [
+                      1,
+                      4,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.history71"
+                  }
+                ],
+                [
+                  "presence76",
+                  {
+                    "tensor": "input_009",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.presence76"
+                  }
+                ],
+                [
+                  "instant_presence76",
+                  {
+                    "tensor": "input_010",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.instant_presence76"
+                  }
+                ],
+                [
+                  "coherent76",
+                  {
+                    "tensor": "input_011",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.coherent76"
+                  }
+                ],
+                [
+                  "noise76",
+                  {
+                    "tensor": "input_012",
+                    "shape": [
+                      2
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.noise76"
+                  }
+                ],
+                [
+                  "history76",
+                  {
+                    "tensor": "input_013",
+                    "shape": [
+                      1,
+                      4,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.history76"
+                  }
+                ],
+                [
+                  "aligned78",
+                  {
+                    "tensor": "input_014",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.aligned78"
+                  }
+                ],
+                [
+                  "signed_gate80",
+                  {
+                    "tensor": "input_015",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.signed_gate80"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_016",
+              "shape": [
+                1,
+                1,
+                478,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            },
+            {
+              "tensor": "input_017",
+              "shape": [
+                1,
+                1,
+                478,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_006",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_06",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.model",
+      "module_type": "body_temporal81.BodyTemporal81",
+      "folder": "models/weather_heavy_c32/graph_006",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.plain_current116"
+                  }
+                ],
+                [
+                  "crop53",
+                  {
+                    "kind": "tuple",
+                    "items": [
+                      {
+                        "kind": "constant",
+                        "value": 176
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 0
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 478
+                      },
+                      {
+                        "kind": "constant",
+                        "value": 1280
+                      }
+                    ]
+                  }
+                ],
+                [
+                  "raw50",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      13,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.raw50"
+                  }
+                ],
+                [
+                  "history71",
+                  {
+                    "tensor": "input_008",
+                    "shape": [
+                      1,
+                      4,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.history71"
+                  }
+                ],
+                [
+                  "presence76",
+                  {
+                    "tensor": "input_009",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.presence76"
+                  }
+                ],
+                [
+                  "instant_presence76",
+                  {
+                    "tensor": "input_010",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.instant_presence76"
+                  }
+                ],
+                [
+                  "coherent76",
+                  {
+                    "tensor": "input_011",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.coherent76"
+                  }
+                ],
+                [
+                  "noise76",
+                  {
+                    "tensor": "input_012",
+                    "shape": [
+                      2
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.noise76"
+                  }
+                ],
+                [
+                  "history76",
+                  {
+                    "tensor": "input_013",
+                    "shape": [
+                      1,
+                      4,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.history76"
+                  }
+                ],
+                [
+                  "aligned78",
+                  {
+                    "tensor": "input_014",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.aligned78"
+                  }
+                ],
+                [
+                  "signed_gate80",
+                  {
+                    "tensor": "input_015",
+                    "shape": [
+                      1,
+                      1,
+                      478,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.signed_gate80"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_016",
+              "shape": [
+                1,
+                1,
+                478,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            },
+            {
+              "tensor": "input_017",
+              "shape": [
+                1,
+                1,
+                478,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_007",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_17",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "adaptive_static270.AdaptiveStatic270",
+      "folder": "models/weather_heavy_c32/graph_007",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                8,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_008",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_17",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "adaptive_static270.AdaptiveStatic270",
+      "folder": "models/weather_heavy_c32/graph_008",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                8,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_009",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_21",
+      "module_path": "controller.foreground.source_controller.background.model",
+      "module_type": "adaptive_static270.AdaptiveStatic270",
+      "folder": "models/weather_heavy_c32/graph_009",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                8,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_010",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_21",
+      "module_path": "controller.foreground.source_controller.background.model",
+      "module_type": "adaptive_static270.AdaptiveStatic270",
+      "folder": "models/weather_heavy_c32/graph_010",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                8,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 0,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 0,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_011",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_02",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.parent.model",
+      "module_type": "repair_motion15.Repair",
+      "folder": "models/weather_heavy_c32/graph_011",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.plain_current116"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_008",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_009",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_010",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_011",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_012",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_013",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.plain_current116"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_014",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": [
+            [
+              "initial",
+              {
+                "kind": "constant",
+                "value": false
+              }
+            ]
+          ]
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 1,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 1,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_012",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_02",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.parent.parent.parent.parent.parent.parent.model",
+      "module_type": "repair_motion15.Repair",
+      "folder": "models/weather_heavy_c32/graph_012",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_000",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_001",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_002",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_003",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_004",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_005",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_006",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.0.plain_current116"
+                  }
+                ]
+              ]
+            },
+            {
+              "kind": "dict",
+              "items": [
+                [
+                  "baseline",
+                  {
+                    "tensor": "input_007",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.baseline"
+                  }
+                ],
+                [
+                  "current_only",
+                  {
+                    "tensor": "input_008",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.current_only"
+                  }
+                ],
+                [
+                  "gated_history",
+                  {
+                    "tensor": "input_009",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.gated_history"
+                  }
+                ],
+                [
+                  "past_background",
+                  {
+                    "tensor": "input_010",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.past_background"
+                  }
+                ],
+                [
+                  "activity",
+                  {
+                    "tensor": "input_011",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.activity"
+                  }
+                ],
+                [
+                  "occupancy",
+                  {
+                    "tensor": "input_012",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.occupancy"
+                  }
+                ],
+                [
+                  "plain_current116",
+                  {
+                    "tensor": "input_013",
+                    "shape": [
+                      1,
+                      1,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.plain_current116"
+                  }
+                ],
+                [
+                  "raw50",
+                  {
+                    "tensor": "input_014",
+                    "shape": [
+                      1,
+                      13,
+                      1024,
+                      1280
+                    ],
+                    "dtype": "float32",
+                    "source": "args.1.raw50"
+                  }
+                ]
+              ]
+            },
+            {
+              "tensor": "input_015",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.2"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": [
+            [
+              "initial",
+              {
+                "kind": "constant",
+                "value": true
+              }
+            ]
+          ]
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 1,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 1,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_013",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_07",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "body_current116.CurrentRepair116",
+      "folder": "models/weather_heavy_c32/graph_013",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                13,
+                136,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                136,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_014",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_07",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "body_current116.CurrentRepair116",
+      "folder": "models/weather_heavy_c32/graph_014",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                13,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_015",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_07",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "body_current116.CurrentRepair116",
+      "folder": "models/weather_heavy_c32/graph_015",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                13,
+                102,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                102,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_016",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_08",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.small_model",
+      "module_type": "quality_surround216.CaptureFeatures",
+      "folder": "models/weather_heavy_c32/graph_016",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                13,
+                136,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                136,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_017",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_08",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.small_model",
+      "module_type": "quality_surround216.CaptureFeatures",
+      "folder": "models/weather_heavy_c32/graph_017",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                13,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_018",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_08",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.small_model",
+      "module_type": "quality_surround216.CaptureFeatures",
+      "folder": "models/weather_heavy_c32/graph_018",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                13,
+                102,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                102,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_019",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_09",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.context_model",
+      "module_type": "context_refine213.ContextRefine213",
+      "folder": "models/weather_heavy_c32/graph_019",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                18,
+                136,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                136,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_020",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_09",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.context_model",
+      "module_type": "context_refine213.ContextRefine213",
+      "folder": "models/weather_heavy_c32/graph_020",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                18,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                144,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_021",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_09",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.context_model",
+      "module_type": "context_refine213.ContextRefine213",
+      "folder": "models/weather_heavy_c32/graph_021",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                18,
+                102,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                102,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_022",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_10",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.next_model",
+      "module_type": "context_wide220.ContextWide220",
+      "folder": "models/weather_heavy_c32/graph_022",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                18,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_023",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_10",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.next_model",
+      "module_type": "context_wide220.ContextWide220",
+      "folder": "models/weather_heavy_c32/graph_023",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                18,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_024",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_10",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.next_model",
+      "module_type": "context_wide220.ContextWide220",
+      "folder": "models/weather_heavy_c32/graph_024",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                18,
+                126,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                126,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_025",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_11",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "module_type": "small_context227.SmallContext227",
+      "folder": "models/weather_heavy_c32/graph_025",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_026",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_11",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "module_type": "small_context227.SmallContext227",
+      "folder": "models/weather_heavy_c32/graph_026",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_027",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_11",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "module_type": "small_context227.SmallContext227",
+      "folder": "models/weather_heavy_c32/graph_027",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                126,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                126,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_028",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_13",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_028",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_029",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_13",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_029",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_030",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_13",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_030",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_031",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_14",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_031",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_032",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_14",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_032",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_033",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_14",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_033",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_034",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_15",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_034",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_035",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_15",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_035",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_036",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_15",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_036",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_037",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_16",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_037",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_038",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_16",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_038",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_039",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_16",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_039",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_040",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_18",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.model",
+      "module_type": "joint_context279.JointContext279",
+      "folder": "models/weather_heavy_c32/graph_040",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_041",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_18",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.model",
+      "module_type": "joint_context279.JointContext279",
+      "folder": "models/weather_heavy_c32/graph_041",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_042",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_18",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.model",
+      "module_type": "joint_context279.JointContext279",
+      "folder": "models/weather_heavy_c32/graph_042",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_043",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_19",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.model",
+      "module_type": "tail_context284.TailContext284",
+      "folder": "models/weather_heavy_c32/graph_043",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_044",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_19",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.model",
+      "module_type": "tail_context284.TailContext284",
+      "folder": "models/weather_heavy_c32/graph_044",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_045",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_19",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.model",
+      "module_type": "tail_context284.TailContext284",
+      "folder": "models/weather_heavy_c32/graph_045",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_046",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_20",
+      "module_path": "controller.foreground.source_controller.foreground.model",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "folder": "models/weather_heavy_c32/graph_046",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                24,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_047",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_20",
+      "module_path": "controller.foreground.source_controller.foreground.model",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "folder": "models/weather_heavy_c32/graph_047",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                24,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_048",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_20",
+      "module_path": "controller.foreground.source_controller.foreground.model",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "folder": "models/weather_heavy_c32/graph_048",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                24,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_049",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_22",
+      "module_path": "controller.foreground.model",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "folder": "models/weather_heavy_c32/graph_049",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                24,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_050",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_22",
+      "module_path": "controller.foreground.model",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "folder": "models/weather_heavy_c32/graph_050",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                24,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_051",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_22",
+      "module_path": "controller.foreground.model",
+      "module_type": "foreground_shape300.ForegroundShape300",
+      "folder": "models/weather_heavy_c32/graph_051",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                24,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_052",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_11",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "module_type": "small_context227.SmallContext227",
+      "folder": "models/weather_heavy_c32/graph_052",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                160,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                160,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_053",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_11",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "module_type": "small_context227.SmallContext227",
+      "folder": "models/weather_heavy_c32/graph_053",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_054",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_11",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+      "module_type": "small_context227.SmallContext227",
+      "folder": "models/weather_heavy_c32/graph_054",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                126,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                126,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_055",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_13",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_055",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_056",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_13",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_056",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_057",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_13",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.251",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_057",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_058",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_14",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_058",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_059",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_14",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_059",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_060",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_14",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_residual249.SmallResidual249",
+      "folder": "models/weather_heavy_c32/graph_060",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_061",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_15",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_061",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_062",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_15",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_062",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_063",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_15",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_063",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_064",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_16",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_064",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                192,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_065",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_16",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_065",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                256,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_066",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_16",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.model",
+      "module_type": "small_temporal258.SmallTemporal258",
+      "folder": "models/weather_heavy_c32/graph_066",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                23,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                158,
+                1280
+              ],
+              "dtype": "float64",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 23,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 23,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_067",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_23",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247.background",
+      "module_type": "background_call_deploy.BackgroundCall",
+      "folder": "models/weather_heavy_c32/graph_067",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                4,
+                192,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_068",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_23",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247.background",
+      "module_type": "background_call_deploy.BackgroundCall",
+      "folder": "models/weather_heavy_c32/graph_068",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                4,
+                256,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    },
+    {
+      "id": "graph_069",
+      "scene": "weather_heavy_c32",
+      "module_id": "module_23",
+      "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247.background",
+      "module_type": "background_call_deploy.BackgroundCall",
+      "folder": "models/weather_heavy_c32/graph_069",
+      "argument_spec": {
+        "args": {
+          "kind": "tuple",
+          "items": [
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                19,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0"
+            },
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                4,
+                158,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.1"
+            }
+          ]
+        },
+        "kwargs": {
+          "kind": "dict",
+          "items": []
+        }
+      },
+      "cases": {
+        "val": {
+          "frame": 16,
+          "split": "val",
+          "source": "original RAW path; no GT in inputs"
+        },
+        "train": {
+          "frame": 16,
+          "split": "train",
+          "source": "original RAW path; no GT in inputs"
+        }
+      },
+      "ONNX_exported": false
+    }
+  ],
+  "modules_used_via_background_method": [
+    "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.incremental_models.247"
+  ],
+  "modules_without_observed_call": [],
+  "frames_captured": 24,
+  "calibration_split": "train",
+  "smoke_split": "val",
+  "fixed_SR_geometry": "current continuous validation geometry; training RAW supplies calibration values"
+}

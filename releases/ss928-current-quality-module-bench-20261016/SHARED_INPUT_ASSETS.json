@@ -1,0 +1,9 @@
+{
+  "shared": [
+    "models/night_special/graph_002",
+    "models/night_special/graph_000",
+    "models/night_special/graph_001"
+  ],
+  "bytes_saved": 53339999,
+  "method": "array equality for storage only; no model or input values changed"
+}

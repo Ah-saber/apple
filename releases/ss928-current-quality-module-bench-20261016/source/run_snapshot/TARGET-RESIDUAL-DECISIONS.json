@@ -1,0 +1,2040 @@
+{
+  "night_ordinary": {
+    "scene": "night_ordinary",
+    "candidates": [
+      {
+        "family": "target_residual_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_night_ordinary",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_night_ordinary/last.pt",
+        "validation_selected": false,
+        "validation_score": 4.429475569299289,
+        "full_test_guards": false,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "bias_gray": -1.5184473911921184,
+            "old_position_error_gray": 1.5644800194672175,
+            "static_temporal_error_gray": 1.0258099426657468,
+            "weak_structure_error_gray": 1.0851320816298662,
+            "old_position_pixels": 4.4576271186440675,
+            "mae_gray": 7.551177740097046,
+            "old_position_signed_ghost_gray": 0.5725723121847425,
+            "psnr_db": 27.89180426917881
+          },
+          "targets": {
+            "gap_gray": 5.322018214634487,
+            "gap_ratio_to_gt": 0.27933939748930064,
+            "gap_error_gray": 7.717888968331473,
+            "background_std_gray": 29.776328223092214,
+            "contrast_to_noise": 0.16199112769100815,
+            "polarity_inverted": 0.2857142857142857
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 9.293899536132812,
+              "polarity_inverted": 0.75
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 7.788206312391493,
+              "polarity_inverted": 0.4444444444444444
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "bias_gray": -1.515701061487198,
+            "old_position_error_gray": 1.9781507509095329,
+            "static_temporal_error_gray": 1.548081066648839,
+            "weak_structure_error_gray": 1.2787989095105963,
+            "old_position_pixels": 4.4576271186440675,
+            "mae_gray": 7.624897217750549,
+            "old_position_signed_ghost_gray": 0.4980192163160869,
+            "psnr_db": 27.83703869350939
+          },
+          "targets": {
+            "gap_gray": 9.785567692347936,
+            "gap_ratio_to_gt": 0.6606520316884804,
+            "gap_error_gray": 3.350048065185547,
+            "background_std_gray": 30.67681884765625,
+            "contrast_to_noise": 0.3038789429548316,
+            "polarity_inverted": 0.07142857142857142
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 5.920387268066406,
+              "polarity_inverted": 0.25
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 4.155448913574219,
+              "polarity_inverted": 0.1111111111111111
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 0.9768110926946004,
+              "p95_ms": 0.9910320162773132
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 0.9867859866666667,
+              "p95_ms": 1.00091185
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.0134451206525166,
+              "p95_ms": 1.031119966506958
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.02331038,
+              "p95_ms": 1.0418847
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_guarded_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_guarded_night_ordinary",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_guarded_night_ordinary/best.pt",
+        "validation_selected": true,
+        "validation_score": 6.561153557470867,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "old_position_signed_ghost_gray": 0.5725723121847425,
+            "mae_gray": 7.551177740097046,
+            "static_temporal_error_gray": 1.0258099426657468,
+            "weak_structure_error_gray": 1.0851320816298662,
+            "bias_gray": -1.5184473911921184,
+            "old_position_pixels": 4.4576271186440675,
+            "psnr_db": 27.89180426917881,
+            "old_position_error_gray": 1.5644800194672175
+          },
+          "targets": {
+            "gap_gray": 5.322018214634487,
+            "gap_ratio_to_gt": 0.27933939748930064,
+            "gap_error_gray": 7.717888968331473,
+            "background_std_gray": 29.776328223092214,
+            "contrast_to_noise": 0.16199112769100815,
+            "polarity_inverted": 0.2857142857142857
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 9.293899536132812,
+              "polarity_inverted": 0.75
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 7.788206312391493,
+              "polarity_inverted": 0.4444444444444444
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_signed_ghost_gray": 0.40288491267710924,
+            "mae_gray": 7.552920325597127,
+            "static_temporal_error_gray": 1.0979314840446084,
+            "weak_structure_error_gray": 1.104583376545017,
+            "bias_gray": -1.5178030967712401,
+            "old_position_pixels": 4.4576271186440675,
+            "psnr_db": 27.891637238238165,
+            "old_position_error_gray": 1.3638374933174677
+          },
+          "targets": {
+            "gap_gray": 6.377783094133649,
+            "gap_ratio_to_gt": 0.371992902019212,
+            "gap_error_gray": 6.66212408883231,
+            "background_std_gray": 29.98899664197649,
+            "contrast_to_noise": 0.19677170608366026,
+            "polarity_inverted": 0.14285714285714285
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 8.353424072265625,
+              "polarity_inverted": 0.5
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 6.849036322699653,
+              "polarity_inverted": 0.2222222222222222
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.000756910641988,
+              "p95_ms": 1.0237248063087463
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.01105476,
+              "p95_ms": 1.03798865
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.0307628830273947,
+              "p95_ms": 1.0499615967273712
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.0409864599999998,
+              "p95_ms": 1.0607375499999998
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_shrink_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_shrink_night_ordinary",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_shrink_night_ordinary/best.pt",
+        "validation_selected": true,
+        "validation_score": 5.16120157624994,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "old_position_error_gray": 1.5644800194672175,
+            "weak_structure_error_gray": 1.0851320816298662,
+            "old_position_signed_ghost_gray": 0.5725723121847425,
+            "old_position_pixels": 4.4576271186440675,
+            "psnr_db": 27.89180426917881,
+            "mae_gray": 7.551177740097046,
+            "bias_gray": -1.5184473911921184,
+            "static_temporal_error_gray": 1.0258099426657468
+          },
+          "targets": {
+            "gap_gray": 5.322018214634487,
+            "gap_ratio_to_gt": 0.27933939748930064,
+            "gap_error_gray": 7.717888968331473,
+            "background_std_gray": 29.776328223092214,
+            "contrast_to_noise": 0.16199112769100815,
+            "polarity_inverted": 0.2857142857142857
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 9.293899536132812,
+              "polarity_inverted": 0.75
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 7.788206312391493,
+              "polarity_inverted": 0.4444444444444444
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_error_gray": 1.4510061059679304,
+            "weak_structure_error_gray": 1.0948719331773662,
+            "old_position_signed_ghost_gray": 0.3190196944134576,
+            "old_position_pixels": 4.4576271186440675,
+            "psnr_db": 27.892913551412658,
+            "mae_gray": 7.550858561197916,
+            "bias_gray": -1.5178978542486827,
+            "static_temporal_error_gray": 1.062753886489545
+          },
+          "targets": {
+            "gap_gray": 7.9474029541015625,
+            "gap_ratio_to_gt": 0.49959376542260303,
+            "gap_error_gray": 5.092504228864398,
+            "background_std_gray": 30.306918007986887,
+            "contrast_to_noise": 0.24573771731930175,
+            "polarity_inverted": 0.14285714285714285
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 7.5360870361328125,
+              "polarity_inverted": 0.5
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 5.529711405436198,
+              "polarity_inverted": 0.2222222222222222
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 0.9655195732911428,
+              "p95_ms": 0.9949631959199905
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 0.9916460533333334,
+              "p95_ms": 1.01619975
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.0166088517506917,
+              "p95_ms": 1.0459648191928863
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.04266824,
+              "p95_ms": 1.07308255
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_spatial_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_spatial_night_ordinary",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_spatial_night_ordinary/last.pt",
+        "validation_selected": false,
+        "validation_score": 4.368962294714791,
+        "full_test_guards": false,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "old_position_signed_ghost_gray": 0.5725723121847425,
+            "psnr_db": 27.89180426917881,
+            "old_position_error_gray": 1.5644800194672175,
+            "bias_gray": -1.5184473911921184,
+            "weak_structure_error_gray": 1.0851320816298662,
+            "static_temporal_error_gray": 1.0258099426657468,
+            "old_position_pixels": 4.4576271186440675,
+            "mae_gray": 7.551177740097046
+          },
+          "targets": {
+            "gap_gray": 5.322018214634487,
+            "gap_ratio_to_gt": 0.27933939748930064,
+            "gap_error_gray": 7.717888968331473,
+            "background_std_gray": 29.776328223092214,
+            "contrast_to_noise": 0.16199112769100815,
+            "polarity_inverted": 0.2857142857142857
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 9.293899536132812,
+              "polarity_inverted": 0.75
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 7.788206312391493,
+              "polarity_inverted": 0.4444444444444444
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_signed_ghost_gray": 0.2880359834858349,
+            "psnr_db": 27.837605604467647,
+            "old_position_error_gray": 2.148261717387608,
+            "bias_gray": -1.5196345547835033,
+            "weak_structure_error_gray": 1.2471170405210075,
+            "static_temporal_error_gray": 1.6326431561324557,
+            "old_position_pixels": 4.4576271186440675,
+            "mae_gray": 7.624511170387268
+          },
+          "targets": {
+            "gap_gray": 10.852896009172712,
+            "gap_ratio_to_gt": 0.751750442452867,
+            "gap_error_gray": 2.452423640659877,
+            "background_std_gray": 30.72511945452009,
+            "contrast_to_noise": 0.3385722607675467,
+            "polarity_inverted": 0.0
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 5.014883041381836,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 3.3334774441189237,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 0.9673478388786316,
+              "p95_ms": 0.97568319439888
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 0.9936346133333332,
+              "p95_ms": 1.0014166
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.0333617075284323,
+              "p95_ms": 1.0413616120815277
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.0597446,
+              "p95_ms": 1.0673051
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_spatial_shrink_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_spatial_shrink_night_ordinary",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_spatial_shrink_night_ordinary/best.pt",
+        "validation_selected": true,
+        "validation_score": 4.741693431564739,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "bias_gray": -1.5184473911921184,
+            "old_position_pixels": 4.4576271186440675,
+            "static_temporal_error_gray": 1.0258099426657468,
+            "old_position_error_gray": 1.5644800194672175,
+            "mae_gray": 7.551177740097046,
+            "weak_structure_error_gray": 1.0851320816298662,
+            "old_position_signed_ghost_gray": 0.5725723121847425,
+            "psnr_db": 27.89180426917881
+          },
+          "targets": {
+            "gap_gray": 5.322018214634487,
+            "gap_ratio_to_gt": 0.27933939748930064,
+            "gap_error_gray": 7.717888968331473,
+            "background_std_gray": 29.776328223092214,
+            "contrast_to_noise": 0.16199112769100815,
+            "polarity_inverted": 0.2857142857142857
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 9.293899536132812,
+              "polarity_inverted": 0.75
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 7.788206312391493,
+              "polarity_inverted": 0.4444444444444444
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "bias_gray": -1.5184604167938232,
+            "old_position_pixels": 4.4576271186440675,
+            "static_temporal_error_gray": 1.0673213409165205,
+            "old_position_error_gray": 1.7764491140842438,
+            "mae_gray": 7.54897665977478,
+            "weak_structure_error_gray": 1.0943716663425251,
+            "old_position_signed_ghost_gray": 0.2738284851823534,
+            "psnr_db": 27.89461296146886
+          },
+          "targets": {
+            "gap_gray": 8.813231876918248,
+            "gap_ratio_to_gt": 0.5710361680985708,
+            "gap_error_gray": 4.226675306047712,
+            "background_std_gray": 30.369982310703822,
+            "contrast_to_noise": 0.27387590490353875,
+            "polarity_inverted": 0.14285714285714285
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 4,
+              "gap_error_gray": 6.751985549926758,
+              "polarity_inverted": 0.5
+            },
+            "weak": {
+              "count": 9,
+              "gap_error_gray": 4.844353569878472,
+              "polarity_inverted": 0.2222222222222222
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 0.965125117301941,
+              "p95_ms": 0.97914077937603
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 0.9912859666666668,
+              "p95_ms": 1.0049956
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.0501425075531006,
+              "p95_ms": 1.061671996116638
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.0761572133333333,
+              "p95_ms": 1.0874788
+            }
+          }
+        }
+      }
+    ],
+    "preferred_by_validation": "target_residual_spatial_shrink_",
+    "review_candidate": "target_residual_spatial_shrink_",
+    "automatically_adopted": false,
+    "NPU_measured": false,
+    "SDK_compiled": false,
+    "packaged": false,
+    "pushed": false,
+    "graph_gate": {
+      "passes_observed_pattern_gate": true,
+      "violations": [],
+      "max_inferred_rank": 5,
+      "all_dense_conv_macs": 5138241792,
+      "ops": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "Conv",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "compiler_and_NPU_verified": false
+    },
+    "initializer_aliases_materialized": [
+      {
+        "node": "/resizes.0/y/Conv_2",
+        "input": 1,
+        "original": "board.resizes.0.y.weights.2",
+        "initializer": "_resizes.0_y_Conv_2_frozen_1"
+      },
+      {
+        "node": "/resizes.0/y/Conv_3",
+        "input": 1,
+        "original": "board.resizes.0.y.weights.3",
+        "initializer": "_resizes.0_y_Conv_3_frozen_1"
+      },
+      {
+        "node": "/resizes.0/y/Conv_4",
+        "input": 1,
+        "original": "board.resizes.0.y.weights.4",
+        "initializer": "_resizes.0_y_Conv_4_frozen_1"
+      },
+      {
+        "node": "/resizes.0/y/Conv_5",
+        "input": 1,
+        "original": "board.resizes.0.y.weights.5",
+        "initializer": "_resizes.0_y_Conv_5_frozen_1"
+      },
+      {
+        "node": "/resizes.0/y/Conv_6",
+        "input": 1,
+        "original": "board.resizes.0.y.weights.6",
+        "initializer": "_resizes.0_y_Conv_6_frozen_1"
+      },
+      {
+        "node": "/resizes.0/x/Conv",
+        "input": 1,
+        "original": "board.resizes.0.x.weights.0",
+        "initializer": "_resizes.0_x_Conv_frozen_1"
+      },
+      {
+        "node": "/resizes.0/x/Conv_1",
+        "input": 1,
+        "original": "board.resizes.0.x.weights.1",
+        "initializer": "_resizes.0_x_Conv_1_frozen_1"
+      },
+      {
+        "node": "/resizes.0/x/Conv_2",
+        "input": 1,
+        "original": "board.resizes.0.x.weights.2",
+        "initializer": "_resizes.0_x_Conv_2_frozen_1"
+      },
+      {
+        "node": "/resizes.0/x/Conv_3",
+        "input": 1,
+        "original": "board.resizes.0.x.weights.3",
+        "initializer": "_resizes.0_x_Conv_3_frozen_1"
+      },
+      {
+        "node": "/resizes.0/x/Conv_4",
+        "input": 1,
+        "original": "board.resizes.0.x.weights.4",
+        "initializer": "_resizes.0_x_Conv_4_frozen_1"
+      },
+      {
+        "node": "/resizes.0/x/Conv_5",
+        "input": 1,
+        "original": "board.resizes.0.x.weights.5",
+        "initializer": "_resizes.0_x_Conv_5_frozen_1"
+      },
+      {
+        "node": "/resizes.0/x/Conv_6",
+        "input": 1,
+        "original": "board.resizes.0.x.weights.6",
+        "initializer": "_resizes.0_x_Conv_6_frozen_1"
+      },
+      {
+        "node": "/resizes.0/x/Conv_7",
+        "input": 1,
+        "original": "board.resizes.0.x.weights.7",
+        "initializer": "_resizes.0_x_Conv_7_frozen_1"
+      },
+      {
+        "node": "/resizes.2/y/Conv_2",
+        "input": 1,
+        "original": "board.resizes.2.y.weights.2",
+        "initializer": "_resizes.2_y_Conv_2_frozen_1"
+      },
+      {
+        "node": "/resizes.2/y/Conv_3",
+        "input": 1,
+        "original": "board.resizes.2.y.weights.3",
+        "initializer": "_resizes.2_y_Conv_3_frozen_1"
+      },
+      {
+        "node": "/resizes.2/y/Conv_4",
+        "input": 1,
+        "original": "board.resizes.2.y.weights.4",
+        "initializer": "_resizes.2_y_Conv_4_frozen_1"
+      },
+      {
+        "node": "/resizes.2/y/Conv_5",
+        "input": 1,
+        "original": "board.resizes.2.y.weights.5",
+        "initializer": "_resizes.2_y_Conv_5_frozen_1"
+      },
+      {
+        "node": "/resizes.2/y/Conv_6",
+        "input": 1,
+        "original": "board.resizes.2.y.weights.6",
+        "initializer": "_resizes.2_y_Conv_6_frozen_1"
+      },
+      {
+        "node": "/resizes.2/x/Conv",
+        "input": 1,
+        "original": "board.resizes.2.x.weights.0",
+        "initializer": "_resizes.2_x_Conv_frozen_1"
+      },
+      {
+        "node": "/resizes.2/x/Conv_1",
+        "input": 1,
+        "original": "board.resizes.2.x.weights.1",
+        "initializer": "_resizes.2_x_Conv_1_frozen_1"
+      },
+      {
+        "node": "/resizes.2/x/Conv_2",
+        "input": 1,
+        "original": "board.resizes.2.x.weights.2",
+        "initializer": "_resizes.2_x_Conv_2_frozen_1"
+      },
+      {
+        "node": "/resizes.2/x/Conv_3",
+        "input": 1,
+        "original": "board.resizes.2.x.weights.3",
+        "initializer": "_resizes.2_x_Conv_3_frozen_1"
+      },
+      {
+        "node": "/resizes.2/x/Conv_4",
+        "input": 1,
+        "original": "board.resizes.2.x.weights.4",
+        "initializer": "_resizes.2_x_Conv_4_frozen_1"
+      },
+      {
+        "node": "/resizes.2/x/Conv_5",
+        "input": 1,
+        "original": "board.resizes.2.x.weights.5",
+        "initializer": "_resizes.2_x_Conv_5_frozen_1"
+      },
+      {
+        "node": "/resizes.2/x/Conv_6",
+        "input": 1,
+        "original": "board.resizes.2.x.weights.6",
+        "initializer": "_resizes.2_x_Conv_6_frozen_1"
+      },
+      {
+        "node": "/resizes.2/x/Conv_7",
+        "input": 1,
+        "original": "board.resizes.2.x.weights.7",
+        "initializer": "_resizes.2_x_Conv_7_frozen_1"
+      },
+      {
+        "node": "/sample/y/Conv_2",
+        "input": 1,
+        "original": "board.sample.y.weights.2",
+        "initializer": "_sample_y_Conv_2_frozen_1"
+      },
+      {
+        "node": "/sample/y/Conv_3",
+        "input": 1,
+        "original": "board.sample.y.weights.3",
+        "initializer": "_sample_y_Conv_3_frozen_1"
+      },
+      {
+        "node": "/sample/y/Conv_4",
+        "input": 1,
+        "original": "board.sample.y.weights.4",
+        "initializer": "_sample_y_Conv_4_frozen_1"
+      },
+      {
+        "node": "/sample/y/Conv_5",
+        "input": 1,
+        "original": "board.sample.y.weights.5",
+        "initializer": "_sample_y_Conv_5_frozen_1"
+      },
+      {
+        "node": "/sample/y/Conv_6",
+        "input": 1,
+        "original": "board.sample.y.weights.6",
+        "initializer": "_sample_y_Conv_6_frozen_1"
+      },
+      {
+        "node": "/sample/x/Conv_2",
+        "input": 1,
+        "original": "board.sample.x.weights.2",
+        "initializer": "_sample_x_Conv_2_frozen_1"
+      },
+      {
+        "node": "/sample/x/Conv_3",
+        "input": 1,
+        "original": "board.sample.x.weights.3",
+        "initializer": "_sample_x_Conv_3_frozen_1"
+      },
+      {
+        "node": "/sample/x/Conv_5",
+        "input": 1,
+        "original": "board.sample.x.weights.5",
+        "initializer": "_sample_x_Conv_5_frozen_1"
+      },
+      {
+        "node": "/sample/x/Conv_6",
+        "input": 1,
+        "original": "board.sample.x.weights.6",
+        "initializer": "_sample_x_Conv_6_frozen_1"
+      }
+    ],
+    "graph_path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_spatial_shrink_night_ordinary/review_candidate.onnx",
+    "raw_channels": 5,
+    "profile": "streamCachedFast4Past",
+    "output_shape": [
+      3072,
+      3840
+    ],
+    "output_dtype": "FP16"
+  },
+  "weather_light": {
+    "scene": "weather_light",
+    "candidates": [
+      {
+        "family": "target_residual_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_weather_light",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_weather_light/best.pt",
+        "validation_selected": true,
+        "validation_score": 5.711111841882978,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "bias_gray": -0.27012942925405997,
+            "old_position_error_gray": 2.0034853504584715,
+            "static_temporal_error_gray": 0.9125244492242316,
+            "weak_structure_error_gray": 0.8377802777691048,
+            "old_position_pixels": 141.48739495798318,
+            "mae_gray": 3.855645547310511,
+            "old_position_signed_ghost_gray": 1.4637068434878513,
+            "psnr_db": 34.33461549648348
+          },
+          "targets": {
+            "gap_gray": 24.694076734506663,
+            "gap_ratio_to_gt": 0.8135697033581585,
+            "gap_error_gray": 4.249478265198912,
+            "background_std_gray": 21.076665135256967,
+            "contrast_to_noise": 1.2164787625903568,
+            "polarity_inverted": 0.01084010840108401
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 54,
+              "gap_error_gray": 3.4989664996111833,
+              "polarity_inverted": 0.05555555555555555
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "bias_gray": -0.26988889621182655,
+            "old_position_error_gray": 2.0127147812027113,
+            "static_temporal_error_gray": 0.9564635277796192,
+            "weak_structure_error_gray": 0.8452586040777319,
+            "old_position_pixels": 141.48739495798318,
+            "mae_gray": 3.8592096149921415,
+            "old_position_signed_ghost_gray": 1.4680552622219463,
+            "psnr_db": 34.32768840072258
+          },
+          "targets": {
+            "gap_gray": 24.83458118387031,
+            "gap_ratio_to_gt": 0.8212047642965371,
+            "gap_error_gray": 4.104663972932149,
+            "background_std_gray": 21.07786924341507,
+            "contrast_to_noise": 1.2244895234462074,
+            "polarity_inverted": 0.008130081300813009
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 54,
+              "gap_error_gray": 3.2889767399540655,
+              "polarity_inverted": 0.037037037037037035
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1438681594530742,
+              "p95_ms": 1.1503072082996368
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1537018999999997,
+              "p95_ms": 1.1600153
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.1484221895535787,
+              "p95_ms": 1.1712976157665254
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1581501933333334,
+              "p95_ms": 1.18097305
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_guarded_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_guarded_weather_light",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_guarded_weather_light/best.pt",
+        "validation_selected": true,
+        "validation_score": 5.711106097272465,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "old_position_signed_ghost_gray": 1.4637068434878513,
+            "mae_gray": 3.855645547310511,
+            "static_temporal_error_gray": 0.9125244492242316,
+            "weak_structure_error_gray": 0.8377802777691048,
+            "bias_gray": -0.27012942925405997,
+            "old_position_pixels": 141.48739495798318,
+            "psnr_db": 34.33461549648348,
+            "old_position_error_gray": 2.0034853504584715
+          },
+          "targets": {
+            "gap_gray": 24.694076734506663,
+            "gap_ratio_to_gt": 0.8135697033581585,
+            "gap_error_gray": 4.249478265198912,
+            "background_std_gray": 21.076665135256967,
+            "contrast_to_noise": 1.2164787625903568,
+            "polarity_inverted": 0.01084010840108401
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 54,
+              "gap_error_gray": 3.4989664996111833,
+              "polarity_inverted": 0.05555555555555555
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_signed_ghost_gray": 1.4659319117262557,
+            "mae_gray": 3.857200938463211,
+            "static_temporal_error_gray": 0.9332348914707408,
+            "weak_structure_error_gray": 0.8411079499901843,
+            "bias_gray": -0.27001756889900813,
+            "old_position_pixels": 141.48739495798318,
+            "psnr_db": 34.331704323128626,
+            "old_position_error_gray": 2.007547282420837
+          },
+          "targets": {
+            "gap_gray": 24.761868401917663,
+            "gap_ratio_to_gt": 0.8172940422731066,
+            "gap_error_gray": 4.178491783658987,
+            "background_std_gray": 21.077217903240587,
+            "contrast_to_noise": 1.220367907801488,
+            "polarity_inverted": 0.008130081300813009
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 54,
+              "gap_error_gray": 3.3937403361002603,
+              "polarity_inverted": 0.037037037037037035
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1550075753529867,
+              "p95_ms": 1.1844768404960633
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1655186800000001,
+              "p95_ms": 1.1990372
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.1731050634384155,
+              "p95_ms": 1.2025743663311004
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.18365544,
+              "p95_ms": 1.213568
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_shrink_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_shrink_weather_light",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_shrink_weather_light/best.pt",
+        "validation_selected": true,
+        "validation_score": 5.710389743106706,
+        "full_test_guards": true,
+        "meaningful_gain": false,
+        "currentK": {
+          "frames": {
+            "old_position_error_gray": 2.0034853504584715,
+            "weak_structure_error_gray": 0.8377802777691048,
+            "old_position_signed_ghost_gray": 1.4637068434878513,
+            "old_position_pixels": 141.48739495798318,
+            "psnr_db": 34.33461549648348,
+            "mae_gray": 3.855645547310511,
+            "bias_gray": -0.27012942925405997,
+            "static_temporal_error_gray": 0.9125244492242316
+          },
+          "targets": {
+            "gap_gray": 24.694076734506663,
+            "gap_ratio_to_gt": 0.8135697033581585,
+            "gap_error_gray": 4.249478265198912,
+            "background_std_gray": 21.076665135256967,
+            "contrast_to_noise": 1.2164787625903568,
+            "polarity_inverted": 0.01084010840108401
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 54,
+              "gap_error_gray": 3.4989664996111833,
+              "polarity_inverted": 0.05555555555555555
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_error_gray": 2.003620094544179,
+            "weak_structure_error_gray": 0.837780396477515,
+            "old_position_signed_ghost_gray": 1.4640820617074366,
+            "old_position_pixels": 141.48739495798318,
+            "psnr_db": 34.33495390664209,
+            "mae_gray": 3.855595608552297,
+            "bias_gray": -0.27013410557992756,
+            "static_temporal_error_gray": 0.9125265008261224
+          },
+          "targets": {
+            "gap_gray": 24.710940384283298,
+            "gap_ratio_to_gt": 0.8141492767549674,
+            "gap_error_gray": 4.2329716255994345,
+            "background_std_gray": 21.076692530779333,
+            "contrast_to_noise": 1.2172959972819462,
+            "polarity_inverted": 0.01084010840108401
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 54,
+              "gap_error_gray": 3.494686550564236,
+              "polarity_inverted": 0.05555555555555555
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1274052270253498,
+              "p95_ms": 1.1526095986366272
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1537453266666666,
+              "p95_ms": 1.17927055
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.170401492913564,
+              "p95_ms": 1.1969615876674653
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1963445333333333,
+              "p95_ms": 1.22262995
+            }
+          }
+        }
+      }
+    ],
+    "preferred_by_validation": "target_residual_shrink_",
+    "review_candidate": null,
+    "automatically_adopted": false,
+    "NPU_measured": false,
+    "SDK_compiled": false,
+    "packaged": false,
+    "pushed": false
+  },
+  "weather_medium": {
+    "scene": "weather_medium",
+    "candidates": [
+      {
+        "family": "target_residual_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_weather_medium",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_weather_medium/best.pt",
+        "validation_selected": true,
+        "validation_score": 12.938903122714587,
+        "full_test_guards": true,
+        "meaningful_gain": false,
+        "currentK": {
+          "frames": {
+            "old_position_signed_ghost_gray": 3.4369626744753785,
+            "static_temporal_error_gray": 0.8598284420846891,
+            "weak_structure_error_gray": 0.8385059377726387,
+            "psnr_db": 33.80747343623705,
+            "old_position_pixels": 40.08403361344538,
+            "mae_gray": 3.9982414662837984,
+            "bias_gray": -1.9403521776199342,
+            "old_position_error_gray": 4.264088613291581
+          },
+          "targets": {
+            "gap_gray": 26.66698226928711,
+            "gap_ratio_to_gt": 0.9547944463988142,
+            "gap_error_gray": 3.9901220364040797,
+            "background_std_gray": 28.928784747653538,
+            "contrast_to_noise": 1.0554577796061928,
+            "polarity_inverted": 0.0
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 13,
+              "gap_error_gray": 3.7471099266639123,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 67,
+              "gap_error_gray": 2.4933807031432194,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_signed_ghost_gray": 3.400660321530369,
+            "static_temporal_error_gray": 0.9272723097761139,
+            "weak_structure_error_gray": 0.8517270058143038,
+            "psnr_db": 33.79674629808105,
+            "old_position_pixels": 40.08403361344538,
+            "mae_gray": 4.005777752399444,
+            "bias_gray": -1.9405663808186848,
+            "old_position_error_gray": 4.226313124928209
+          },
+          "targets": {
+            "gap_gray": 26.939589928521052,
+            "gap_ratio_to_gt": 0.9677723495455848,
+            "gap_error_gray": 3.834231533474392,
+            "background_std_gray": 28.937897832658557,
+            "contrast_to_noise": 1.0687226003500634,
+            "polarity_inverted": 0.0
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 13,
+              "gap_error_gray": 3.585832742544321,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 67,
+              "gap_error_gray": 2.3744820552085764,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1300134404500326,
+              "p95_ms": 1.148499196767807
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1450209533333335,
+              "p95_ms": 1.1638742
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.1514835182825724,
+              "p95_ms": 1.1657039940357208
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1667824,
+              "p95_ms": 1.18209735
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_guarded_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_guarded_weather_medium",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_guarded_weather_medium/best.pt",
+        "validation_selected": true,
+        "validation_score": 13.046879041194915,
+        "full_test_guards": true,
+        "meaningful_gain": false,
+        "currentK": {
+          "frames": {
+            "old_position_signed_ghost_gray": 3.4369626744753785,
+            "mae_gray": 3.9982414662837984,
+            "static_temporal_error_gray": 0.8598284420846891,
+            "weak_structure_error_gray": 0.8385059377726387,
+            "bias_gray": -1.9403521776199342,
+            "old_position_pixels": 40.08403361344538,
+            "psnr_db": 33.80747343623705,
+            "old_position_error_gray": 4.264088613291581
+          },
+          "targets": {
+            "gap_gray": 26.66698226928711,
+            "gap_ratio_to_gt": 0.9547944463988142,
+            "gap_error_gray": 3.9901220364040797,
+            "background_std_gray": 28.928784747653538,
+            "contrast_to_noise": 1.0554577796061928,
+            "polarity_inverted": 0.0
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 13,
+              "gap_error_gray": 3.7471099266639123,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 67,
+              "gap_error_gray": 2.4933807031432194,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_signed_ghost_gray": 3.408781633608871,
+            "mae_gray": 4.003434121608734,
+            "static_temporal_error_gray": 0.9066633772449333,
+            "weak_structure_error_gray": 0.8475353883094147,
+            "bias_gray": -1.9408310025930404,
+            "old_position_pixels": 40.08403361344538,
+            "psnr_db": 33.80040839623961,
+            "old_position_error_gray": 4.2333678719070225
+          },
+          "targets": {
+            "gap_gray": 26.86743925306532,
+            "gap_ratio_to_gt": 0.9641333317118991,
+            "gap_error_gray": 3.871075202094184,
+            "background_std_gray": 28.935161624484593,
+            "contrast_to_noise": 1.0650866526470777,
+            "polarity_inverted": 0.0
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 13,
+              "gap_error_gray": 3.630952688363882,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 67,
+              "gap_error_gray": 2.406256262935809,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1444085327784221,
+              "p95_ms": 1.1696576118469237
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.15482576,
+              "p95_ms": 1.1823776
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.1618446962038675,
+              "p95_ms": 1.1896912395954131
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.17222112,
+              "p95_ms": 1.20040915
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_shrink_",
+        "validation_selected": false,
+        "selection": {
+          "selected": false,
+          "reason": "No validation strength improves score while preserving all guards",
+          "packaged": false,
+          "pushed": false
+        }
+      }
+    ],
+    "preferred_by_validation": "target_residual_",
+    "review_candidate": null,
+    "automatically_adopted": false,
+    "NPU_measured": false,
+    "SDK_compiled": false,
+    "packaged": false,
+    "pushed": false
+  },
+  "weather_heavy": {
+    "scene": "weather_heavy",
+    "candidates": [
+      {
+        "family": "target_residual_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_weather_heavy",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_weather_heavy/last.pt",
+        "validation_selected": false,
+        "validation_score": 1.6030453400952476,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "bias_gray": 3.038691133260727,
+            "old_position_error_gray": 3.4169965322528566,
+            "static_temporal_error_gray": 1.2934924864969333,
+            "weak_structure_error_gray": 1.1037075138893448,
+            "old_position_pixels": 82.3109243697479,
+            "mae_gray": 5.729196560382843,
+            "old_position_signed_ghost_gray": 2.391130662257118,
+            "psnr_db": 30.391023233579322
+          },
+          "targets": {
+            "gap_gray": 31.740757851056006,
+            "gap_ratio_to_gt": 0.8058445110215695,
+            "gap_error_gray": 6.665904563067954,
+            "background_std_gray": 33.38340201855817,
+            "contrast_to_noise": 0.9618680271293075,
+            "polarity_inverted": 0.013986013986013986
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 102,
+              "gap_error_gray": 5.230936723596909,
+              "polarity_inverted": 0.058823529411764705
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "bias_gray": 3.03693576057752,
+            "old_position_error_gray": 3.4091778227261136,
+            "static_temporal_error_gray": 1.3941389652861267,
+            "weak_structure_error_gray": 1.1254401687814408,
+            "old_position_pixels": 82.3109243697479,
+            "mae_gray": 5.7333807945251465,
+            "old_position_signed_ghost_gray": 2.3854509118245915,
+            "psnr_db": 30.389145112254653
+          },
+          "targets": {
+            "gap_gray": 32.20898980805368,
+            "gap_ratio_to_gt": 0.8311310177327633,
+            "gap_error_gray": 6.2580853886815495,
+            "background_std_gray": 33.396758015061316,
+            "contrast_to_noise": 0.9829676831667375,
+            "polarity_inverted": 0.006993006993006993
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 102,
+              "gap_error_gray": 4.565865834554036,
+              "polarity_inverted": 0.029411764705882353
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1251052840550742,
+              "p95_ms": 1.1612448155879975
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.134898453333333,
+              "p95_ms": 1.1708566
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.144977490901947,
+              "p95_ms": 1.1676880359649657
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1547296333333332,
+              "p95_ms": 1.17733905
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_guarded_",
+        "validation_selected": false,
+        "selection": {
+          "selected": false,
+          "reason": "No validation strength improves score while preserving all guards",
+          "packaged": false,
+          "pushed": false
+        }
+      },
+      {
+        "family": "target_residual_shrink_",
+        "validation_selected": false,
+        "selection": {
+          "selected": false,
+          "reason": "No validation strength improves score while preserving all guards",
+          "packaged": false,
+          "pushed": false
+        }
+      }
+    ],
+    "preferred_by_validation": null,
+    "review_candidate": null,
+    "automatically_adopted": false,
+    "NPU_measured": false,
+    "SDK_compiled": false,
+    "packaged": false,
+    "pushed": false
+  },
+  "weather_heavy_c32": {
+    "scene": "weather_heavy_c32",
+    "candidates": [
+      {
+        "family": "target_residual_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_weather_heavy_c32",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_weather_heavy_c32/last.pt",
+        "validation_selected": false,
+        "validation_score": 6.816791961590449,
+        "full_test_guards": true,
+        "meaningful_gain": false,
+        "currentK": {
+          "frames": {
+            "static_temporal_error_gray": 1.3328781658861817,
+            "weak_structure_error_gray": 1.24321747527403,
+            "psnr_db": 23.85654512966269,
+            "old_position_pixels": 0.0,
+            "mae_gray": 14.393820746739705,
+            "bias_gray": 13.743569215138754
+          },
+          "targets": {},
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "static_temporal_error_gray": 1.4312931770036201,
+            "weak_structure_error_gray": 1.267730701871279,
+            "psnr_db": 23.85134328702349,
+            "old_position_pixels": 0.0,
+            "mae_gray": 14.398395450909932,
+            "bias_gray": 13.744376063346863
+          },
+          "targets": {},
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1283010121186574,
+              "p95_ms": 1.1439168155193329
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1722741333333335,
+              "p95_ms": 1.17296275
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.1582566436131796,
+              "p95_ms": 1.170900785923004
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1847593200000002,
+              "p95_ms": 1.1968538
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_guarded_",
+        "validation_selected": false,
+        "selection": {
+          "selected": false,
+          "reason": "No validation strength improves score while preserving all guards",
+          "packaged": false,
+          "pushed": false
+        }
+      },
+      {
+        "family": "target_residual_shrink_",
+        "validation_selected": false,
+        "selection": {
+          "selected": false,
+          "reason": "No validation strength improves score while preserving all guards",
+          "packaged": false,
+          "pushed": false
+        }
+      }
+    ],
+    "preferred_by_validation": null,
+    "review_candidate": null,
+    "automatically_adopted": false,
+    "NPU_measured": false,
+    "SDK_compiled": false,
+    "packaged": false,
+    "pushed": false
+  },
+  "day_normal": {
+    "scene": "day_normal",
+    "candidates": [
+      {
+        "family": "target_residual_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_day_normal",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_day_normal/best.pt",
+        "validation_selected": true,
+        "validation_score": 16.53399176938193,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "old_position_signed_ghost_gray": 6.297664086753075,
+            "static_temporal_error_gray": 7.7286202847456735,
+            "weak_structure_error_gray": 3.6181015206986116,
+            "psnr_db": 25.499742396425358,
+            "old_position_pixels": 19.873949579831933,
+            "mae_gray": 9.739509224891663,
+            "bias_gray": 4.033609010775884,
+            "old_position_error_gray": 9.268425144186807
+          },
+          "targets": {
+            "gap_gray": 56.285590656733106,
+            "gap_ratio_to_gt": 0.8802562194459342,
+            "gap_error_gray": 8.17178253804223,
+            "background_std_gray": 39.0398436067468,
+            "contrast_to_noise": 2.0849701747108065,
+            "polarity_inverted": 0.00423728813559322
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 29,
+              "gap_error_gray": 9.696324052481815,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 1,
+              "gap_error_gray": 13.612503051757812,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_signed_ghost_gray": 5.9015404992147324,
+            "static_temporal_error_gray": 7.735795854520397,
+            "weak_structure_error_gray": 3.6310403447191253,
+            "psnr_db": 25.50451443478296,
+            "old_position_pixels": 19.873949579831933,
+            "mae_gray": 9.735137701034546,
+            "bias_gray": 4.032059115171433,
+            "old_position_error_gray": 9.211490203481201
+          },
+          "targets": {
+            "gap_gray": 59.627931756488344,
+            "gap_ratio_to_gt": 0.9368436584509232,
+            "gap_error_gray": 6.676693314212864,
+            "background_std_gray": 39.211877002554424,
+            "contrast_to_noise": 2.1712012355193604,
+            "polarity_inverted": 0.00211864406779661
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 29,
+              "gap_error_gray": 8.80590583538187,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 1,
+              "gap_error_gray": 12.224998474121094,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1975466593106587,
+              "p95_ms": 1.2351999640464781
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.224109686666667,
+              "p95_ms": 1.2626457
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.223500374952952,
+              "p95_ms": 1.2523183584213258
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.249769513333333,
+              "p95_ms": 1.27903705
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_guarded_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_guarded_day_normal",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_guarded_day_normal/best.pt",
+        "validation_selected": true,
+        "validation_score": 20.431879016408672,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "old_position_signed_ghost_gray": 6.297664086753075,
+            "mae_gray": 9.739509224891663,
+            "static_temporal_error_gray": 7.7286202847456735,
+            "weak_structure_error_gray": 3.6181015206986116,
+            "bias_gray": 4.033609010775884,
+            "old_position_pixels": 19.873949579831933,
+            "psnr_db": 25.499742396425358,
+            "old_position_error_gray": 9.268425144186807
+          },
+          "targets": {
+            "gap_gray": 56.285590656733106,
+            "gap_ratio_to_gt": 0.8802562194459342,
+            "gap_error_gray": 8.17178253804223,
+            "background_std_gray": 39.0398436067468,
+            "contrast_to_noise": 2.0849701747108065,
+            "polarity_inverted": 0.00423728813559322
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 29,
+              "gap_error_gray": 9.696324052481815,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 1,
+              "gap_error_gray": 13.612503051757812,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_signed_ghost_gray": 6.086382541087789,
+            "mae_gray": 9.735418121019999,
+            "static_temporal_error_gray": 7.729435976813821,
+            "weak_structure_error_gray": 3.62371457725012,
+            "bias_gray": 4.032844736178716,
+            "old_position_pixels": 19.873949579831933,
+            "psnr_db": 25.50434159024855,
+            "old_position_error_gray": 9.214107008155333
+          },
+          "targets": {
+            "gap_gray": 57.96438771183208,
+            "gap_ratio_to_gt": 0.9086257386708216,
+            "gap_error_gray": 7.258582268731069,
+            "background_std_gray": 39.12372536174322,
+            "contrast_to_noise": 2.128644901026202,
+            "polarity_inverted": 0.00211864406779661
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 29,
+              "gap_error_gray": 9.171164677060883,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 1,
+              "gap_error_gray": 12.949996948242188,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1890918358167013,
+              "p95_ms": 1.206662380695343
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.1991874399999998,
+              "p95_ms": 1.2172006499999999
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.2147667201360066,
+              "p95_ms": 1.2329200088977814
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.22584988,
+              "p95_ms": 1.2446471000000001
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_shrink_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_shrink_day_normal",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_shrink_day_normal/best.pt",
+        "validation_selected": true,
+        "validation_score": 17.761851354465858,
+        "full_test_guards": true,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "old_position_error_gray": 9.268425144186807,
+            "weak_structure_error_gray": 3.6181015206986116,
+            "old_position_signed_ghost_gray": 6.297664086753075,
+            "old_position_pixels": 19.873949579831933,
+            "psnr_db": 25.499742396425358,
+            "mae_gray": 9.739509224891663,
+            "bias_gray": 4.033609010775884,
+            "static_temporal_error_gray": 7.7286202847456735
+          },
+          "targets": {
+            "gap_gray": 56.285590656733106,
+            "gap_ratio_to_gt": 0.8802562194459342,
+            "gap_error_gray": 8.17178253804223,
+            "background_std_gray": 39.0398436067468,
+            "contrast_to_noise": 2.0849701747108065,
+            "polarity_inverted": 0.00423728813559322
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 29,
+              "gap_error_gray": 9.696324052481815,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 1,
+              "gap_error_gray": 13.612503051757812,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_error_gray": 9.21951852697845,
+            "weak_structure_error_gray": 3.619936955075304,
+            "old_position_signed_ghost_gray": 6.072088547256015,
+            "old_position_pixels": 19.873949579831933,
+            "psnr_db": 25.504413961692006,
+            "mae_gray": 9.735182452201844,
+            "bias_gray": 4.03278161684672,
+            "static_temporal_error_gray": 7.729768043806573
+          },
+          "targets": {
+            "gap_gray": 58.94001499273009,
+            "gap_ratio_to_gt": 0.9242221886063944,
+            "gap_error_gray": 6.877346091351266,
+            "background_std_gray": 39.13052845102246,
+            "contrast_to_noise": 2.1592930327264384,
+            "polarity_inverted": 0.00211864406779661
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 29,
+              "gap_error_gray": 8.981189596241919,
+              "polarity_inverted": 0.0
+            },
+            "weak": {
+              "count": 1,
+              "gap_error_gray": 13.043746948242188,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 1.1819716310501098,
+              "p95_ms": 1.2145599901676178
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.2084801533333334,
+              "p95_ms": 1.24247415
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 1.230310186545054,
+              "p95_ms": 1.263649594783783
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 1.2563425333333336,
+              "p95_ms": 1.29092805
+            }
+          }
+        }
+      }
+    ],
+    "preferred_by_validation": "target_residual_",
+    "review_candidate": "target_residual_",
+    "automatically_adopted": false,
+    "NPU_measured": false,
+    "SDK_compiled": false,
+    "packaged": false,
+    "pushed": false,
+    "graph_gate": {
+      "passes_observed_pattern_gate": true,
+      "violations": [],
+      "max_inferred_rank": 5,
+      "all_dense_conv_macs": 6180952320,
+      "ops": [
+        "Add",
+        "AveragePool",
+        "Cast",
+        "Clip",
+        "Concat",
+        "Constant",
+        "Conv",
+        "Div",
+        "Erf",
+        "Identity",
+        "Mul",
+        "ReduceMean",
+        "Relu",
+        "Reshape",
+        "Slice",
+        "Transpose"
+      ],
+      "compiler_and_NPU_verified": false
+    },
+    "initializer_aliases_materialized": [],
+    "graph_path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_day_normal/review_candidate.onnx",
+    "raw_channels": 5,
+    "profile": "streamCachedFast4Past",
+    "output_shape": [
+      3072,
+      3840
+    ],
+    "output_dtype": "FP16"
+  },
+  "night_special": {
+    "scene": "night_special",
+    "candidates": [
+      {
+        "family": "target_residual_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_night_special",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_night_special/last.pt",
+        "validation_selected": false,
+        "validation_score": 3.0898129642009735,
+        "full_test_guards": false,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "bias_gray": 5.895855180422465,
+            "old_position_error_gray": 4.033599331974983,
+            "static_temporal_error_gray": 1.116284845256004,
+            "weak_structure_error_gray": 1.3694985924648637,
+            "old_position_pixels": 2.0,
+            "mae_gray": 8.7933211962382,
+            "old_position_signed_ghost_gray": 3.951109930872917,
+            "psnr_db": 25.91931265748958
+          },
+          "targets": {
+            "gap_gray": 5.509573618570964,
+            "gap_ratio_to_gt": 0.486567220301467,
+            "gap_error_gray": 5.110741933186849,
+            "background_std_gray": 9.612012068430582,
+            "contrast_to_noise": 0.5825907935051712,
+            "polarity_inverted": 0.16666666666666666
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 4,
+              "gap_error_gray": 4.202430725097656,
+              "polarity_inverted": 0.25
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "bias_gray": 5.893906152248382,
+            "old_position_error_gray": 2.9788080602884293,
+            "static_temporal_error_gray": 1.85400452433514,
+            "weak_structure_error_gray": 1.5957499261663741,
+            "old_position_pixels": 2.0,
+            "mae_gray": 8.876259859402975,
+            "old_position_signed_ghost_gray": 2.7608496695756912,
+            "psnr_db": 25.876085822775007
+          },
+          "targets": {
+            "gap_gray": 8.260208129882812,
+            "gap_ratio_to_gt": 0.7784801199021157,
+            "gap_error_gray": 3.4397379557291665,
+            "background_std_gray": 9.808845599492392,
+            "contrast_to_noise": 0.8824120840609267,
+            "polarity_inverted": 0.0
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 4,
+              "gap_error_gray": 2.9765758514404297,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 0.4951677868763606,
+              "p95_ms": 0.5052368074655533
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 0.5044997333333333,
+              "p95_ms": 0.51494915
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 0.5607217085361481,
+              "p95_ms": 0.5691120147705078
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 0.5700478266666666,
+              "p95_ms": 0.57857275
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_guarded_",
+        "validation_selected": false,
+        "selection": {
+          "selected": false,
+          "reason": "No validation strength improves score while preserving all guards",
+          "packaged": false,
+          "pushed": false
+        }
+      },
+      {
+        "family": "target_residual_shrink_",
+        "validation_selected": false,
+        "selection": {
+          "selected": false,
+          "reason": "No validation strength improves score while preserving all guards",
+          "packaged": false,
+          "pushed": false
+        }
+      },
+      {
+        "family": "target_residual_spatial_",
+        "path": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_spatial_night_special",
+        "checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/target_residual_spatial_night_special/last.pt",
+        "validation_selected": false,
+        "validation_score": 3.1530575283936093,
+        "full_test_guards": false,
+        "meaningful_gain": true,
+        "currentK": {
+          "frames": {
+            "old_position_signed_ghost_gray": 3.951109930872917,
+            "psnr_db": 25.91931265748958,
+            "old_position_error_gray": 4.033599331974983,
+            "bias_gray": 5.895855180422465,
+            "weak_structure_error_gray": 1.3694985924648637,
+            "static_temporal_error_gray": 1.116284845256004,
+            "old_position_pixels": 2.0,
+            "mae_gray": 8.7933211962382
+          },
+          "targets": {
+            "gap_gray": 5.509573618570964,
+            "gap_ratio_to_gt": 0.486567220301467,
+            "gap_error_gray": 5.110741933186849,
+            "background_std_gray": 9.612012068430582,
+            "contrast_to_noise": 0.5825907935051712,
+            "polarity_inverted": 0.16666666666666666
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 4,
+              "gap_error_gray": 4.202430725097656,
+              "polarity_inverted": 0.25
+            }
+          }
+        },
+        "candidate": {
+          "frames": {
+            "old_position_signed_ghost_gray": 2.234534367918968,
+            "psnr_db": 25.797332975810654,
+            "old_position_error_gray": 2.615308493375778,
+            "bias_gray": 5.900748415788015,
+            "weak_structure_error_gray": 1.7608853999306173,
+            "static_temporal_error_gray": 2.602254128255764,
+            "old_position_pixels": 2.0,
+            "mae_gray": 9.01899548371633
+          },
+          "targets": {
+            "gap_gray": 10.234601338704428,
+            "gap_ratio_to_gt": 0.985261485408032,
+            "gap_error_gray": 2.6454391479492188,
+            "background_std_gray": 9.907299280166626,
+            "contrast_to_noise": 1.0872539702528672,
+            "polarity_inverted": 0.0
+          },
+          "cohorts": {
+            "tiny": {
+              "count": 0,
+              "gap_error_gray": null,
+              "polarity_inverted": null
+            },
+            "weak": {
+              "count": 4,
+              "gap_error_gray": 2.8622055053710938,
+              "polarity_inverted": 0.0
+            }
+          }
+        },
+        "timing": {
+          "currentK": {
+            "gpu_event": {
+              "mean_ms": 0.490072319706281,
+              "p95_ms": 0.49909440129995347
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 0.5075308799999999,
+              "p95_ms": 0.5152530999999999
+            }
+          },
+          "candidate": {
+            "gpu_event": {
+              "mean_ms": 0.6055744008223216,
+              "p95_ms": 0.6136032164096832
+            },
+            "full_synchronized_wall": {
+              "mean_ms": 0.62666306,
+              "p95_ms": 0.6321893
+            }
+          }
+        }
+      },
+      {
+        "family": "target_residual_spatial_shrink_",
+        "validation_selected": false,
+        "selection": {
+          "selected": false,
+          "reason": "No validation strength improves score while preserving all guards",
+          "packaged": false,
+          "pushed": false
+        }
+      }
+    ],
+    "preferred_by_validation": null,
+    "review_candidate": null,
+    "automatically_adopted": false,
+    "NPU_measured": false,
+    "SDK_compiled": false,
+    "packaged": false,
+    "pushed": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "gain": 0.9182093307706045,
+  "records": 47,
+  "pixels": 543,
+  "fit_split": "train",
+  "GT_ROI": [
+    0,
+    256,
+    1024,
+    768
+  ],
+  "GT_outside_train_ROI_used": false,
+  "validation_used": false,
+  "test_used": false,
+  "foreground": "current GT - available past64 GT, original ROI only",
+  "labels": "BODY_LABEL83 <=16 pixels"
+}

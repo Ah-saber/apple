@@ -1,0 +1,169 @@
+{
+  "valid_crop_tlhw": [
+    2,
+    1088,
+    1020,
+    192
+  ],
+  "border_pixels": 3,
+  "selection": "all valid GT pixels; GT frame differences only; both target polarities; no prediction selected masks",
+  "motion_threshold_gray": "max(3, 2*GT residual MAD sigma)",
+  "weak_motion_threshold_gray": "max(1.5, GT sigma)",
+  "GT_background": "sequence median after Gaussian sigma .7 and per-frame drift removal; evaluation only",
+  "target_residual_threshold": "max(3, 2.5*GT sigma); >=2 strong pixels above max(5, 3*GT sigma)",
+  "component_area_pixels": [
+    2,
+    256
+  ],
+  "raw_region_observations": 2160,
+  "GT_tracks": {
+    "tracks": 0,
+    "observations": 0,
+    "rule": "GT residual appearance cosine>=.6; max6px/frame; same polarity; gap<=2; >=5 observations; net>=2px; net/path>=.5; GT first-to-last departure and arrival >=max(3gray,.35local contrast,1.5GT MAD sigma)",
+    "semantic_person_labels": false
+  },
+  "ghost_selection": "historical masks from online confirmed moving GT tracks only; eight-frame history; current foreground and GT motion excluded",
+  "target_observations": 0,
+  "summary": {
+    "control9": {
+      "frame_metrics": {
+        "old_position_pixels": {
+          "count": 119,
+          "mean": 0.0,
+          "p10": 0.0,
+          "p95": 0.0
+        },
+        "mae_gray": {
+          "count": 120,
+          "mean": 14.42121086915334,
+          "p10": 13.913491916656493,
+          "p95": 15.316750764846802
+        },
+        "static_temporal_error_gray": {
+          "count": 119,
+          "mean": 1.6609215215474618,
+          "p10": 1.5255424976348877,
+          "p95": 1.9498885989189148
+        },
+        "psnr_db": {
+          "count": 120,
+          "mean": 23.824939301107047,
+          "p10": 23.159656625857313,
+          "p95": 24.378189018053945
+        },
+        "weak_structure_error_gray": {
+          "count": 119,
+          "mean": 1.2347586745975399,
+          "p10": 1.196135401725769,
+          "p95": 1.2935508012771606
+        },
+        "bias_gray": {
+          "count": 120,
+          "mean": 13.739084506034851,
+          "p10": 13.053024387359619,
+          "p95": 14.425185251235963
+        }
+      },
+      "target_metrics": {}
+    },
+    "baselineFast": {
+      "frame_metrics": {
+        "old_position_pixels": {
+          "count": 119,
+          "mean": 0.0,
+          "p10": 0.0,
+          "p95": 0.0
+        },
+        "mae_gray": {
+          "count": 120,
+          "mean": 14.406942669550578,
+          "p10": 13.933036994934081,
+          "p95": 15.301717710494994
+        },
+        "static_temporal_error_gray": {
+          "count": 119,
+          "mean": 1.3517358493404228,
+          "p10": 1.1938159704208373,
+          "p95": 1.7746961474418639
+        },
+        "psnr_db": {
+          "count": 120,
+          "mean": 23.841779155698415,
+          "p10": 23.197666391347106,
+          "p95": 24.365715090366297
+        },
+        "weak_structure_error_gray": {
+          "count": 119,
+          "mean": 1.248429097047373,
+          "p10": 1.2123961687088012,
+          "p95": 1.292176043987274
+        },
+        "bias_gray": {
+          "count": 120,
+          "mean": 13.746678256988526,
+          "p10": 13.11238260269165,
+          "p95": 14.42747220993042
+        }
+      },
+      "target_metrics": {}
+    },
+    "streamCachedFast4Past": {
+      "frame_metrics": {
+        "old_position_pixels": {
+          "count": 119,
+          "mean": 0.0,
+          "p10": 0.0,
+          "p95": 0.0
+        },
+        "mae_gray": {
+          "count": 120,
+          "mean": 14.393820746739705,
+          "p10": 13.963145637512207,
+          "p95": 15.304180145263672
+        },
+        "static_temporal_error_gray": {
+          "count": 119,
+          "mean": 1.3328781658861817,
+          "p10": 1.1803051471710204,
+          "p95": 1.663585102558136
+        },
+        "psnr_db": {
+          "count": 120,
+          "mean": 23.85654512966269,
+          "p10": 23.22110498516971,
+          "p95": 24.269044433846837
+        },
+        "weak_structure_error_gray": {
+          "count": 119,
+          "mean": 1.24321747527403,
+          "p10": 1.2092062950134277,
+          "p95": 1.2812923312187194
+        },
+        "bias_gray": {
+          "count": 120,
+          "mean": 13.743569215138754,
+          "p10": 13.130716514587402,
+          "p95": 14.447907447814941
+        }
+      },
+      "target_metrics": {}
+    }
+  },
+  "scene": "weather_heavy_c32",
+  "pipeline": "streamCachedFast4Past",
+  "model_channels": 3,
+  "physical_RAW_dependencies": "K recent plus causal EMA state",
+  "CPU_complete_RAW": {
+    "mean_ms": 14.517575175174185,
+    "p95_ms": 15.12931496836245,
+    "frames": 111
+  },
+  "NPU_measured": false,
+  "packaged": false,
+  "pushed": false,
+  "automatically_adopted": false,
+  "test_used_for_selection": false,
+  "selection_source": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/combined_front_weather_heavy_c32/validation.json",
+  "weight_checkpoint": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/multiscale_front_weather_heavy_c32/best.pt",
+  "timing_scope": "complete CPU RAW input construction; excludes context, inference and transfer"
+}

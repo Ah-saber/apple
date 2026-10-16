@@ -1,0 +1,298 @@
+[
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION104-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION104-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION107-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION107-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION132-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION132-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION132-20261014/weather_heavy_c32/last_step1500.pt",
+    "packaged": "source/run_snapshot/MOTION132-20261014/weather_heavy_c32/last_step1500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION15-20261013/weather_heavy_c32/last_step500.pt",
+    "packaged": "source/run_snapshot/MOTION15-20261013/weather_heavy_c32/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION156-20261014/weather_heavy_c32/response.json",
+    "packaged": "source/run_snapshot/MOTION156-20261014/weather_heavy_c32/response.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION161-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION161-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION170-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION170-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION180-20261014/weather_heavy_c32/head_selection.json",
+    "packaged": "source/run_snapshot/MOTION180-20261014/weather_heavy_c32/head_selection.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION195-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION195-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION195-20261014/weather_heavy_c32/negative_response.json",
+    "packaged": "source/run_snapshot/MOTION195-20261014/weather_heavy_c32/negative_response.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION197-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION197-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION205-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION205-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION205-20261014/weather_heavy_c32/last_step2000.pt",
+    "packaged": "source/run_snapshot/MOTION205-20261014/weather_heavy_c32/last_step2000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION215-20261015/weather_heavy_c32/last_step8000.pt",
+    "packaged": "source/run_snapshot/MOTION215-20261015/weather_heavy_c32/last_step8000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION216-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION216-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION222-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION222-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION222-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION222-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION228-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION228-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION233-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION233-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION236-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION236-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION237-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION237-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION247-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION247-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION247-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION247-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION249-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION249-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION251-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION251-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION252-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION252-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION254-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION254-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION254-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION254-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION258-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION258-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION258-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION258-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION263-20261015/branches.json",
+    "packaged": "source/run_snapshot/MOTION263-20261015/branches.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION263-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION263-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION267-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION267-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION267-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION267-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION270-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION270-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION270-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION270-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION271-20261015/branches.json",
+    "packaged": "source/run_snapshot/MOTION271-20261015/branches.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION271-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION271-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION273-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION273-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION283-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION283-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION283-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION283-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION286-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION286-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION286-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION286-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION291-20261015/weather_heavy_c32/config.json",
+    "packaged": "source/run_snapshot/MOTION291-20261015/weather_heavy_c32/config.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION291-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION291-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION300-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION300-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION300-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION300-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION308-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION308-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION308-20261015/weather_heavy_c32/last_step20000.pt",
+    "packaged": "source/run_snapshot/MOTION308-20261015/weather_heavy_c32/last_step20000.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION311-20261015/weather_heavy_c32/config.json",
+    "packaged": "source/run_snapshot/MOTION311-20261015/weather_heavy_c32/config.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION311-20261015/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION311-20261015/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION40-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION40-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION53-20261014/weather_heavy_c32/last_step500.pt",
+    "packaged": "source/run_snapshot/MOTION53-20261014/weather_heavy_c32/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION55-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION55-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION62-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION62-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION63-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION63-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION65-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION65-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION71-20261014/weather_heavy_c32/last_step500.pt",
+    "packaged": "source/run_snapshot/MOTION71-20261014/weather_heavy_c32/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION75-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION75-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION77-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION77-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION77-20261014/weather_heavy_c32/last_step500.pt",
+    "packaged": "source/run_snapshot/MOTION77-20261014/weather_heavy_c32/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION81-20261014/weather_heavy_c32/last_step500.pt",
+    "packaged": "source/run_snapshot/MOTION81-20261014/weather_heavy_c32/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION82-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION82-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION95-20261014/weather_heavy_c32/response.json",
+    "packaged": "source/run_snapshot/MOTION95-20261014/weather_heavy_c32/response.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION98-20261014/weather_heavy_c32/background.json",
+    "packaged": "source/run_snapshot/MOTION98-20261014/weather_heavy_c32/background.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/MOTION98-20261014/weather_heavy_c32/fit.json",
+    "packaged": "source/run_snapshot/MOTION98-20261014/weather_heavy_c32/fit.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/TARGET-RESIDUAL-DECISIONS.json",
+    "packaged": "source/run_snapshot/TARGET-RESIDUAL-DECISIONS.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/axial_guarded_student_weather_heavy_c32/best.pt",
+    "packaged": "source/run_snapshot/axial_guarded_student_weather_heavy_c32/best.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/budget_profile_weather_heavy_c32/summary.json",
+    "packaged": "source/run_snapshot/budget_profile_weather_heavy_c32/summary.json"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/multiscale_front_weather_heavy_c32/best.pt",
+    "packaged": "source/run_snapshot/multiscale_front_weather_heavy_c32/best.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/quietpair11_weights_weather_heavy_c32/last_step500.pt",
+    "packaged": "source/run_snapshot/quietpair11_weights_weather_heavy_c32/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/tieddecode11_weights_weather_heavy_c32/last_step500.pt",
+    "packaged": "source/run_snapshot/tieddecode11_weights_weather_heavy_c32/last_step500.pt"
+  },
+  {
+    "original": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/verified_weather_heavy_c32/validation.json",
+    "packaged": "source/run_snapshot/verified_weather_heavy_c32/validation.json"
+  }
+]

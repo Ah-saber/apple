@@ -1,0 +1,190 @@
+{
+  "purpose": "FP64 temporary interface to FP32; original captured GPU output compared after float32 cast",
+  "records": [
+    {
+      "graph": "graph_052",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_053",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 4.736951712906159e-15,
+          "max_absolute": 9.313225746154785e-10
+        }
+      ],
+      "max_input_magnitude": 1.0
+    },
+    {
+      "graph": "graph_054",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_055",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_056",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 5.719869158394078e-14,
+          "max_absolute": 1.4901161193847656e-08
+        }
+      ],
+      "max_input_magnitude": 1.0
+    },
+    {
+      "graph": "graph_057",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_058",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_059",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 1.7347235018262012e-19,
+          "max_absolute": 5.684341886080802e-14
+        }
+      ],
+      "max_input_magnitude": 1.0
+    },
+    {
+      "graph": "graph_060",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_061",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_062",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 1.0
+    },
+    {
+      "graph": "graph_063",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_064",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    },
+    {
+      "graph": "graph_065",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 6.938894007304805e-19,
+          "max_absolute": 2.2737367544323206e-13
+        }
+      ],
+      "max_input_magnitude": 1.0
+    },
+    {
+      "graph": "graph_066",
+      "frame": 23,
+      "comparisons": [
+        {
+          "output": "output_000",
+          "MAE": 0.0,
+          "max_absolute": 0.0
+        }
+      ],
+      "max_input_magnitude": 0.0
+    }
+  ],
+  "max_absolute": 1.4901161193847656e-08,
+  "nonzero_interface_cases": 5,
+  "training": false,
+  "SDK_compiled": false,
+  "full_pipeline_quality_check": false
+}

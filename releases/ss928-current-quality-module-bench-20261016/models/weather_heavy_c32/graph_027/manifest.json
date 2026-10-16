@@ -1,0 +1,128 @@
+{
+  "id": "graph_027",
+  "scene": "weather_heavy_c32",
+  "module_id": "module_11",
+  "module_path": "controller.foreground.source_controller.foreground.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.source_controller.foreground_model",
+  "module_type": "small_context227.SmallContext227",
+  "folder": "models/weather_heavy_c32/graph_027",
+  "argument_spec": {
+    "args": {
+      "kind": "tuple",
+      "items": [
+        {
+          "tensor": "input_000",
+          "shape": [
+            1,
+            19,
+            126,
+            1280
+          ],
+          "dtype": "float32",
+          "source": "args.0"
+        },
+        {
+          "tensor": "input_001",
+          "shape": [
+            1,
+            1,
+            126,
+            1280
+          ],
+          "dtype": "float32",
+          "source": "args.1"
+        }
+      ]
+    },
+    "kwargs": {
+      "kind": "dict",
+      "items": []
+    }
+  },
+  "cases": {
+    "val": {
+      "frame": 16,
+      "split": "val",
+      "source": "original RAW path; no GT in inputs"
+    },
+    "train": {
+      "frame": 16,
+      "split": "train",
+      "source": "original RAW path; no GT in inputs"
+    }
+  },
+  "ONNX_exported": true,
+  "ONNX_file": "model.onnx",
+  "inputs": [
+    {
+      "name": "input_000",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        19,
+        126,
+        1280
+      ]
+    },
+    {
+      "name": "input_001",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        126,
+        1280
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output_000",
+      "dtype": "FLOAT",
+      "shape": [
+        1,
+        1,
+        126,
+        1280
+      ]
+    }
+  ],
+  "operators": {
+    "Constant": 43,
+    "Clip": 1,
+    "ConstantOfShape": 5,
+    "Concat": 5,
+    "Reshape": 10,
+    "Slice": 5,
+    "Transpose": 5,
+    "Cast": 5,
+    "Pad": 5,
+    "Conv": 6,
+    "Relu": 5,
+    "Tanh": 1,
+    "Mul": 2
+  },
+  "checker_passed": true,
+  "PC_runtime": "onnxruntime CPU",
+  "PC_case": "val",
+  "PyTorch_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 0.0,
+      "max_absolute": 0.0,
+      "P95_absolute": 0.0
+    }
+  ],
+  "SDK_compiled": false,
+  "NPU_measured": false,
+  "full_pipeline": false,
+  "CPU_tracking_and_fusion_outside_graph": true,
+  "runtime_noise_scalars_are_explicit_inputs": true,
+  "observed_GPU_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 0.0,
+      "max_absolute": 0.0
+    }
+  ],
+  "static_output_declarations_bound_to_PC_shape": true
+}

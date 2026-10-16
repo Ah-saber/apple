@@ -1,0 +1,33 @@
+{
+  "args": {
+    "kind": "tuple",
+    "items": [
+      {
+        "tensor": "input_000",
+        "shape": [
+          1,
+          19,
+          256,
+          1280
+        ],
+        "dtype": "float32",
+        "source": "args.0"
+      },
+      {
+        "tensor": "input_001",
+        "shape": [
+          1,
+          1,
+          256,
+          1280
+        ],
+        "dtype": "float64",
+        "source": "args.1"
+      }
+    ]
+  },
+  "kwargs": {
+    "kind": "dict",
+    "items": []
+  }
+}

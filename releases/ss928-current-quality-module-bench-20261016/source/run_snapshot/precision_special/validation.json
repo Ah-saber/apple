@@ -1,0 +1,142 @@
+{
+  "metrics": {
+    "night_special": {
+      "control9": {
+        "frames": {
+          "old_position_pixels": 0.0,
+          "mae_gray": 10.801517844200134,
+          "bias_gray": 8.23868215084076,
+          "static_temporal_error_gray": 1.0552512747900826,
+          "psnr_db": 24.422364343599316,
+          "weak_structure_error_gray": 1.2893364770071847
+        },
+        "targets": {},
+        "target_observations": 0
+      },
+      "fp16_9": {
+        "frames": {
+          "old_position_pixels": 0.0,
+          "mae_gray": 10.801517844200134,
+          "bias_gray": 8.23868215084076,
+          "static_temporal_error_gray": 1.0552512747900826,
+          "psnr_db": 24.422364343599316,
+          "weak_structure_error_gray": 1.2893364770071847
+        },
+        "targets": {},
+        "target_observations": 0
+      },
+      "fp16_5": {
+        "frames": {
+          "old_position_pixels": 0.0,
+          "mae_gray": 10.933984160423279,
+          "bias_gray": 8.309089303016663,
+          "static_temporal_error_gray": 1.3323206050055367,
+          "psnr_db": 24.351794745081083,
+          "weak_structure_error_gray": 1.4356945582798548
+        },
+        "targets": {},
+        "target_observations": 0
+      },
+      "fp16_7": {
+        "frames": {
+          "old_position_pixels": 0.0,
+          "mae_gray": 10.878868222236633,
+          "bias_gray": 8.281567931175232,
+          "static_temporal_error_gray": 1.5839408465794154,
+          "psnr_db": 24.38090066557889,
+          "weak_structure_error_gray": 1.3705363443919591
+        },
+        "targets": {},
+        "target_observations": 0
+      },
+      "noise5": {
+        "frames": {
+          "old_position_pixels": 0.0,
+          "mae_gray": 10.95287823677063,
+          "bias_gray": 8.31853437423706,
+          "static_temporal_error_gray": 1.3157243728637695,
+          "psnr_db": 24.335820023921116,
+          "weak_structure_error_gray": 1.3901592152459281
+        },
+        "targets": {},
+        "target_observations": 0
+      },
+      "noise7": {
+        "frames": {
+          "old_position_pixels": 0.0,
+          "mae_gray": 10.886676669120789,
+          "bias_gray": 8.281506776809692,
+          "static_temporal_error_gray": 1.5571098157337733,
+          "psnr_db": 24.37333355779392,
+          "weak_structure_error_gray": 1.3450466564723425
+        },
+        "targets": {},
+        "target_observations": 0
+      }
+    }
+  },
+  "eligible": {
+    "control9": true,
+    "fp16_9": true,
+    "fp16_5": false,
+    "fp16_7": false,
+    "noise5": false,
+    "noise7": false
+  },
+  "filters": {
+    "noise5": {
+      "center": [
+        0.1111111119389534,
+        0.6990672945976257,
+        0.6990558505058289,
+        0.1111111119389534,
+        0.6990672945976257,
+        0.6990558505058289
+      ],
+      "original_energy": [
+        1.0,
+        0.1667034775018692,
+        0.33357304334640503,
+        1.0,
+        0.0416758693754673,
+        0.33357304334640503
+      ],
+      "folded_energy": [
+        1.0,
+        0.33339691162109375,
+        0.5511539578437805,
+        1.0,
+        0.08334922790527344,
+        0.5511539578437805
+      ],
+      "rule": "preserve DC; reduce historical spatial noise energy to original nine-frame energy; current frame unchanged"
+    },
+    "noise7": {
+      "center": [
+        0.1111111119389534,
+        0.7687576413154602,
+        1.0,
+        0.1111111119389534,
+        0.7687576413154602,
+        1.0
+      ],
+      "original_energy": [
+        1.0,
+        0.1667034775018692,
+        0.33357304334640503,
+        1.0,
+        0.0416758693754673,
+        0.33357304334640503
+      ],
+      "folded_energy": [
+        1.0,
+        0.27892112731933594,
+        0.33357304334640503,
+        1.0,
+        0.06973028182983398,
+        0.33357304334640503
+      ],
+      "rule": "preserve DC; reduce historical spatial noise energy to original nine-frame energy; current frame unchanged"
+    }
+  }
+}

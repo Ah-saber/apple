@@ -1,0 +1,3726 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 26
+  },
+  {
+    "file": "BOUNDARY_PRECISION.json",
+    "bytes": 3900
+  },
+  {
+    "file": "PACKAGE_INDEX.json",
+    "bytes": 99517
+  },
+  {
+    "file": "PC_COMPARISONS.json",
+    "bytes": 18005
+  },
+  {
+    "file": "PORTING.md",
+    "bytes": 3252
+  },
+  {
+    "file": "PREPARATION.md",
+    "bytes": 1440
+  },
+  {
+    "file": "README.md",
+    "bytes": 5659
+  },
+  {
+    "file": "SHARED_INPUT_ASSETS.json",
+    "bytes": 242
+  },
+  {
+    "file": "STATIC_OUTPUT_SHAPES.json",
+    "bytes": 2223
+  },
+  {
+    "file": "UPLOAD_PLAN.md",
+    "bytes": 653
+  },
+  {
+    "file": "board/build.sh",
+    "bytes": 595
+  },
+  {
+    "file": "board/module_bench.c",
+    "bytes": 9302
+  },
+  {
+    "file": "board/profile_template.csv",
+    "bytes": 34
+  },
+  {
+    "file": "evidence/boundary_precision.log",
+    "bytes": 256
+  },
+  {
+    "file": "evidence/compile_command_preview.json",
+    "bytes": 488
+  },
+  {
+    "file": "evidence/prepare_inputs.log",
+    "bytes": 2923
+  },
+  {
+    "file": "models/day_normal/graph_base/calibration_00.npz",
+    "bytes": 9999345
+  },
+  {
+    "file": "models/day_normal/graph_base/calibration_01.npz",
+    "bytes": 10028122
+  },
+  {
+    "file": "models/day_normal/graph_base/calibration_02.npz",
+    "bytes": 9908015
+  },
+  {
+    "file": "models/day_normal/graph_base/calibration_03.npz",
+    "bytes": 9998430
+  },
+  {
+    "file": "models/day_normal/graph_base/manifest.json",
+    "bytes": 8271
+  },
+  {
+    "file": "models/day_normal/graph_base/model.onnx",
+    "bytes": 159709
+  },
+  {
+    "file": "models/day_normal/graph_base/pc_output.npz",
+    "bytes": 2871721
+  },
+  {
+    "file": "models/day_normal/graph_base/smoke_inputs.npz",
+    "bytes": 9921435
+  },
+  {
+    "file": "models/night_ordinary/graph_base/calibration_00.npz",
+    "bytes": 9705859
+  },
+  {
+    "file": "models/night_ordinary/graph_base/calibration_01.npz",
+    "bytes": 9672203
+  },
+  {
+    "file": "models/night_ordinary/graph_base/calibration_02.npz",
+    "bytes": 9682048
+  },
+  {
+    "file": "models/night_ordinary/graph_base/calibration_03.npz",
+    "bytes": 9636800
+  },
+  {
+    "file": "models/night_ordinary/graph_base/manifest.json",
+    "bytes": 7489
+  },
+  {
+    "file": "models/night_ordinary/graph_base/model.onnx",
+    "bytes": 145110
+  },
+  {
+    "file": "models/night_ordinary/graph_base/pc_output.npz",
+    "bytes": 2713150
+  },
+  {
+    "file": "models/night_ordinary/graph_base/smoke_inputs.npz",
+    "bytes": 9665244
+  },
+  {
+    "file": "models/night_special/capture_manifest.json",
+    "bytes": 15814
+  },
+  {
+    "file": "models/night_special/export_summary.json",
+    "bytes": 123
+  },
+  {
+    "file": "models/night_special/graph_000/argument_spec.json",
+    "bytes": 491
+  },
+  {
+    "file": "models/night_special/graph_000/manifest.json",
+    "bytes": 2639
+  },
+  {
+    "file": "models/night_special/graph_000/model.onnx",
+    "bytes": 125218
+  },
+  {
+    "file": "models/night_special/graph_000/pc_output.npz",
+    "bytes": 2630614
+  },
+  {
+    "file": "models/night_special/graph_000/shared_graph_inputs.npz",
+    "bytes": 9107838
+  },
+  {
+    "file": "models/night_special/graph_001/argument_spec.json",
+    "bytes": 4995
+  },
+  {
+    "file": "models/night_special/graph_001/manifest.json",
+    "bytes": 9815
+  },
+  {
+    "file": "models/night_special/graph_001/model.onnx",
+    "bytes": 50398
+  },
+  {
+    "file": "models/night_special/graph_001/pc_output.npz",
+    "bytes": 17495682
+  },
+  {
+    "file": "models/night_special/graph_001/shared_graph_inputs.npz",
+    "bytes": 16784160
+  },
+  {
+    "file": "models/night_special/graph_002/argument_spec.json",
+    "bytes": 4996
+  },
+  {
+    "file": "models/night_special/graph_002/manifest.json",
+    "bytes": 9964
+  },
+  {
+    "file": "models/night_special/graph_002/model.onnx",
+    "bytes": 50781
+  },
+  {
+    "file": "models/night_special/graph_002/pc_output.npz",
+    "bytes": 18366573
+  },
+  {
+    "file": "models/night_special/graph_002/shared_graph_inputs.npz",
+    "bytes": 27448001
+  },
+  {
+    "file": "models/night_special/module_00.pt",
+    "bytes": 192563
+  },
+  {
+    "file": "models/night_special/module_01.pt",
+    "bytes": 45097
+  },
+  {
+    "file": "models/weather_heavy/capture_manifest.json",
+    "bytes": 14244
+  },
+  {
+    "file": "models/weather_heavy/export_summary.json",
+    "bytes": 123
+  },
+  {
+    "file": "models/weather_heavy/graph_000/argument_spec.json",
+    "bytes": 491
+  },
+  {
+    "file": "models/weather_heavy/graph_000/manifest.json",
+    "bytes": 2394
+  },
+  {
+    "file": "models/weather_heavy/graph_000/model.onnx",
+    "bytes": 135634
+  },
+  {
+    "file": "models/weather_heavy/graph_000/pc_output.npz",
+    "bytes": 2690395
+  },
+  {
+    "file": "models/weather_heavy/graph_000/train_graph_inputs.npz",
+    "bytes": 1634510
+  },
+  {
+    "file": "models/weather_heavy/graph_000/val_graph_inputs.npz",
+    "bytes": 1660234
+  },
+  {
+    "file": "models/weather_heavy/graph_001/argument_spec.json",
+    "bytes": 4381
+  },
+  {
+    "file": "models/weather_heavy/graph_001/manifest.json",
+    "bytes": 8722
+  },
+  {
+    "file": "models/weather_heavy/graph_001/model.onnx",
+    "bytes": 39118
+  },
+  {
+    "file": "models/weather_heavy/graph_001/pc_output.npz",
+    "bytes": 18162325
+  },
+  {
+    "file": "models/weather_heavy/graph_001/train_graph_inputs.npz",
+    "bytes": 14186110
+  },
+  {
+    "file": "models/weather_heavy/graph_001/val_graph_inputs.npz",
+    "bytes": 14449990
+  },
+  {
+    "file": "models/weather_heavy/graph_002/argument_spec.json",
+    "bytes": 4382
+  },
+  {
+    "file": "models/weather_heavy/graph_002/manifest.json",
+    "bytes": 8840
+  },
+  {
+    "file": "models/weather_heavy/graph_002/model.onnx",
+    "bytes": 39501
+  },
+  {
+    "file": "models/weather_heavy/graph_002/pc_output.npz",
+    "bytes": 18304191
+  },
+  {
+    "file": "models/weather_heavy/graph_002/train_graph_inputs.npz",
+    "bytes": 19734045
+  },
+  {
+    "file": "models/weather_heavy/graph_002/val_graph_inputs.npz",
+    "bytes": 20137476
+  },
+  {
+    "file": "models/weather_heavy/module_00.pt",
+    "bytes": 84145
+  },
+  {
+    "file": "models/weather_heavy/module_01.pt",
+    "bytes": 35117
+  },
+  {
+    "file": "models/weather_heavy_c32/capture_manifest.json",
+    "bytes": 148968
+  },
+  {
+    "file": "models/weather_heavy_c32/export_summary.json",
+    "bytes": 129
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_000/argument_spec.json",
+    "bytes": 491
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_000/manifest.json",
+    "bytes": 2398
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_000/model.onnx",
+    "bytes": 129589
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_000/pc_output.npz",
+    "bytes": 2759543
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_000/train_graph_inputs.npz",
+    "bytes": 1852096
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_000/val_graph_inputs.npz",
+    "bytes": 1851484
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_001/argument_spec.json",
+    "bytes": 491
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_001/manifest.json",
+    "bytes": 2395
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_001/model.onnx",
+    "bytes": 129589
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_001/pc_output.npz",
+    "bytes": 2758407
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_001/train_graph_inputs.npz",
+    "bytes": 1851255
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_001/val_graph_inputs.npz",
+    "bytes": 1850643
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_002/argument_spec.json",
+    "bytes": 5039
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_002/manifest.json",
+    "bytes": 9661
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_002/model.onnx",
+    "bytes": 39118
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_002/pc_output.npz",
+    "bytes": 18176716
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_002/train_graph_inputs.npz",
+    "bytes": 14361034
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_002/val_graph_inputs.npz",
+    "bytes": 14833720
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_003/argument_spec.json",
+    "bytes": 3113
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_003/manifest.json",
+    "bytes": 6264
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_003/model.onnx",
+    "bytes": 5288317
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_003/pc_output.npz",
+    "bytes": 480771
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_003/train_graph_inputs.npz",
+    "bytes": 26399975
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_003/val_graph_inputs.npz",
+    "bytes": 26674926
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_004/argument_spec.json",
+    "bytes": 3986
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_004/manifest.json",
+    "bytes": 7345
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_004/model.onnx",
+    "bytes": 2520275
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_004/pc_output.npz",
+    "bytes": 345473
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_004/train_graph_inputs.npz",
+    "bytes": 16670913
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_004/val_graph_inputs.npz",
+    "bytes": 16851297
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_005/argument_spec.json",
+    "bytes": 6148
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_005/manifest.json",
+    "bytes": 10322
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_005/model.onnx",
+    "bytes": 7428442
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_005/pc_output.npz",
+    "bytes": 2624
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_005/train_graph_inputs.npz",
+    "bytes": 16678909
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_005/val_graph_inputs.npz",
+    "bytes": 16859293
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_006/argument_spec.json",
+    "bytes": 6148
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_006/manifest.json",
+    "bytes": 10041
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_006/model.onnx",
+    "bytes": 5050545
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_006/pc_output.npz",
+    "bytes": 2624
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_006/train_graph_inputs.npz",
+    "bytes": 13336960
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_006/val_graph_inputs.npz",
+    "bytes": 13391056
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_007/argument_spec.json",
+    "bytes": 493
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_007/manifest.json",
+    "bytes": 2496
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_007/model.onnx",
+    "bytes": 81056
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_007/pc_output.npz",
+    "bytes": 7920
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_007/train_graph_inputs.npz",
+    "bytes": 1176420
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_007/val_graph_inputs.npz",
+    "bytes": 1182723
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_008/argument_spec.json",
+    "bytes": 493
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_008/manifest.json",
+    "bytes": 2496
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_008/model.onnx",
+    "bytes": 81056
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_008/pc_output.npz",
+    "bytes": 8665
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_008/train_graph_inputs.npz",
+    "bytes": 1327738
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_008/val_graph_inputs.npz",
+    "bytes": 1338952
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_009/argument_spec.json",
+    "bytes": 493
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_009/manifest.json",
+    "bytes": 2424
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_009/model.onnx",
+    "bytes": 81056
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_009/pc_output.npz",
+    "bytes": 2171
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_009/train_graph_inputs.npz",
+    "bytes": 1176420
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_009/val_graph_inputs.npz",
+    "bytes": 1182723
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_010/argument_spec.json",
+    "bytes": 493
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_010/manifest.json",
+    "bytes": 2424
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_010/model.onnx",
+    "bytes": 81056
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_010/pc_output.npz",
+    "bytes": 2561
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_010/train_graph_inputs.npz",
+    "bytes": 1327738
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_010/val_graph_inputs.npz",
+    "bytes": 1338952
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_011/argument_spec.json",
+    "bytes": 5040
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_011/manifest.json",
+    "bytes": 9796
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_011/model.onnx",
+    "bytes": 39501
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_011/pc_output.npz",
+    "bytes": 18333570
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_011/train_graph_inputs.npz",
+    "bytes": 20163791
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_011/val_graph_inputs.npz",
+    "bytes": 20656071
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_012/argument_spec.json",
+    "bytes": 5347
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_012/manifest.json",
+    "bytes": 10002
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_012/model.onnx",
+    "bytes": 39118
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_012/pc_output.npz",
+    "bytes": 18339888
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_012/train_graph_inputs.npz",
+    "bytes": 15551054
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_012/val_graph_inputs.npz",
+    "bytes": 16024272
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_013/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_013/manifest.json",
+    "bytes": 2641
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_013/model.onnx",
+    "bytes": 97932
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_013/pc_output.npz",
+    "bytes": 16972
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_013/train_graph_inputs.npz",
+    "bytes": 3749791
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_013/val_graph_inputs.npz",
+    "bytes": 3778656
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_014/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_014/manifest.json",
+    "bytes": 2641
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_014/model.onnx",
+    "bytes": 97932
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_014/pc_output.npz",
+    "bytes": 19930
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_014/train_graph_inputs.npz",
+    "bytes": 3998327
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_014/val_graph_inputs.npz",
+    "bytes": 4043994
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_015/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_015/manifest.json",
+    "bytes": 2639
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_015/model.onnx",
+    "bytes": 97929
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_015/pc_output.npz",
+    "bytes": 12232
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_015/train_graph_inputs.npz",
+    "bytes": 2850541
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_015/val_graph_inputs.npz",
+    "bytes": 2878710
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_016/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_016/manifest.json",
+    "bytes": 2581
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_016/model.onnx",
+    "bytes": 98940
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_016/pc_output.npz",
+    "bytes": 927
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_016/train_graph_inputs.npz",
+    "bytes": 3226732
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_016/val_graph_inputs.npz",
+    "bytes": 3258566
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_017/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_017/manifest.json",
+    "bytes": 2581
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_017/model.onnx",
+    "bytes": 98940
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_017/pc_output.npz",
+    "bytes": 967
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_017/train_graph_inputs.npz",
+    "bytes": 3418640
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_017/val_graph_inputs.npz",
+    "bytes": 3476778
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_018/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_018/manifest.json",
+    "bytes": 2581
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_018/model.onnx",
+    "bytes": 98937
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_018/pc_output.npz",
+    "bytes": 757
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_018/train_graph_inputs.npz",
+    "bytes": 2464228
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_018/val_graph_inputs.npz",
+    "bytes": 2476878
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_019/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_019/manifest.json",
+    "bytes": 2579
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_019/model.onnx",
+    "bytes": 103694
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_019/pc_output.npz",
+    "bytes": 17809
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_019/train_graph_inputs.npz",
+    "bytes": 4064433
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_019/val_graph_inputs.npz",
+    "bytes": 4094186
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_020/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_020/manifest.json",
+    "bytes": 2579
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_020/model.onnx",
+    "bytes": 103694
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_020/pc_output.npz",
+    "bytes": 19824
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_020/train_graph_inputs.npz",
+    "bytes": 4313722
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_020/val_graph_inputs.npz",
+    "bytes": 4368073
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_021/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_021/manifest.json",
+    "bytes": 2579
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_021/model.onnx",
+    "bytes": 103691
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_021/pc_output.npz",
+    "bytes": 13098
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_021/train_graph_inputs.npz",
+    "bytes": 3086696
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_021/val_graph_inputs.npz",
+    "bytes": 3098216
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_022/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_022/manifest.json",
+    "bytes": 2573
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_022/model.onnx",
+    "bytes": 182819
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_022/pc_output.npz",
+    "bytes": 28059
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_022/train_graph_inputs.npz",
+    "bytes": 4775834
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_022/val_graph_inputs.npz",
+    "bytes": 4813182
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_023/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_023/manifest.json",
+    "bytes": 2573
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_023/model.onnx",
+    "bytes": 182819
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_023/pc_output.npz",
+    "bytes": 33804
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_023/train_graph_inputs.npz",
+    "bytes": 5758985
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_023/val_graph_inputs.npz",
+    "bytes": 5831341
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_024/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_024/manifest.json",
+    "bytes": 2573
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_024/model.onnx",
+    "bytes": 182816
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_024/pc_output.npz",
+    "bytes": 21339
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_024/train_graph_inputs.npz",
+    "bytes": 3811121
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_024/val_graph_inputs.npz",
+    "bytes": 3837898
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_025/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_025/manifest.json",
+    "bytes": 2581
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_025/model.onnx",
+    "bytes": 183971
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_025/pc_output.npz",
+    "bytes": 29638
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_025/train_graph_inputs.npz",
+    "bytes": 4797263
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_025/val_graph_inputs.npz",
+    "bytes": 4831753
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_026/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_026/manifest.json",
+    "bytes": 2581
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_026/model.onnx",
+    "bytes": 183971
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_026/pc_output.npz",
+    "bytes": 36621
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_026/train_graph_inputs.npz",
+    "bytes": 5786619
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_026/val_graph_inputs.npz",
+    "bytes": 5853937
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_027/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_027/manifest.json",
+    "bytes": 2581
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_027/model.onnx",
+    "bytes": 183968
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_027/pc_output.npz",
+    "bytes": 22755
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_027/train_graph_inputs.npz",
+    "bytes": 3827091
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_027/val_graph_inputs.npz",
+    "bytes": 3852729
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_028/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_028/manifest.json",
+    "bytes": 2589
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_028/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_028/pc_output.npz",
+    "bytes": 34473
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_028/train_graph_inputs.npz",
+    "bytes": 5749744
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_028/val_graph_inputs.npz",
+    "bytes": 5799355
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_029/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_029/manifest.json",
+    "bytes": 2589
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_029/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_029/pc_output.npz",
+    "bytes": 48716
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_029/train_graph_inputs.npz",
+    "bytes": 7726601
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_029/val_graph_inputs.npz",
+    "bytes": 7803549
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_030/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_030/manifest.json",
+    "bytes": 2589
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_030/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_030/pc_output.npz",
+    "bytes": 29398
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_030/train_graph_inputs.npz",
+    "bytes": 4785073
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_030/val_graph_inputs.npz",
+    "bytes": 4838737
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_031/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_031/manifest.json",
+    "bytes": 2554
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_031/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_031/pc_output.npz",
+    "bytes": 12266
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_031/train_graph_inputs.npz",
+    "bytes": 5749744
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_031/val_graph_inputs.npz",
+    "bytes": 5799355
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_032/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_032/manifest.json",
+    "bytes": 2554
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_032/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_032/pc_output.npz",
+    "bytes": 20810
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_032/train_graph_inputs.npz",
+    "bytes": 7726601
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_032/val_graph_inputs.npz",
+    "bytes": 7803549
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_033/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_033/manifest.json",
+    "bytes": 2554
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_033/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_033/pc_output.npz",
+    "bytes": 15439
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_033/train_graph_inputs.npz",
+    "bytes": 4785073
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_033/val_graph_inputs.npz",
+    "bytes": 4838737
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_034/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_034/manifest.json",
+    "bytes": 2536
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_034/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_034/pc_output.npz",
+    "bytes": 14097
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_034/train_graph_inputs.npz",
+    "bytes": 5754018
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_034/val_graph_inputs.npz",
+    "bytes": 5803360
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_035/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_035/manifest.json",
+    "bytes": 2536
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_035/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_035/pc_output.npz",
+    "bytes": 23509
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_035/train_graph_inputs.npz",
+    "bytes": 7732131
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_035/val_graph_inputs.npz",
+    "bytes": 7808793
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_036/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_036/manifest.json",
+    "bytes": 2536
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_036/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_036/pc_output.npz",
+    "bytes": 16878
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_036/train_graph_inputs.npz",
+    "bytes": 4788713
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_036/val_graph_inputs.npz",
+    "bytes": 4842222
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_037/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_037/manifest.json",
+    "bytes": 2500
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_037/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_037/pc_output.npz",
+    "bytes": 11429
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_037/train_graph_inputs.npz",
+    "bytes": 5754018
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_037/val_graph_inputs.npz",
+    "bytes": 5803360
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_038/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_038/manifest.json",
+    "bytes": 2500
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_038/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_038/pc_output.npz",
+    "bytes": 20134
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_038/train_graph_inputs.npz",
+    "bytes": 7732131
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_038/val_graph_inputs.npz",
+    "bytes": 7808793
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_039/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_039/manifest.json",
+    "bytes": 2500
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_039/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_039/pc_output.npz",
+    "bytes": 14233
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_039/train_graph_inputs.npz",
+    "bytes": 4788713
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_039/val_graph_inputs.npz",
+    "bytes": 4842222
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_040/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_040/manifest.json",
+    "bytes": 2552
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_040/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_040/pc_output.npz",
+    "bytes": 81081
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_040/train_graph_inputs.npz",
+    "bytes": 6639879
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_040/val_graph_inputs.npz",
+    "bytes": 6692976
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_041/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_041/manifest.json",
+    "bytes": 2550
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_041/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_041/pc_output.npz",
+    "bytes": 205010
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_041/train_graph_inputs.npz",
+    "bytes": 8711287
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_041/val_graph_inputs.npz",
+    "bytes": 8791311
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_042/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_042/manifest.json",
+    "bytes": 2550
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_042/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_042/pc_output.npz",
+    "bytes": 109620
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_042/train_graph_inputs.npz",
+    "bytes": 5453241
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_042/val_graph_inputs.npz",
+    "bytes": 5510216
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_043/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_043/manifest.json",
+    "bytes": 2532
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_043/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_043/pc_output.npz",
+    "bytes": 83032
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_043/train_graph_inputs.npz",
+    "bytes": 6730480
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_043/val_graph_inputs.npz",
+    "bytes": 6781147
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_044/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_044/manifest.json",
+    "bytes": 2532
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_044/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_044/pc_output.npz",
+    "bytes": 208976
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_044/train_graph_inputs.npz",
+    "bytes": 8954447
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_044/val_graph_inputs.npz",
+    "bytes": 9030415
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_045/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_045/manifest.json",
+    "bytes": 2532
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_045/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_045/pc_output.npz",
+    "bytes": 113692
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_045/train_graph_inputs.npz",
+    "bytes": 5576398
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_045/val_graph_inputs.npz",
+    "bytes": 5631337
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_046/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_046/manifest.json",
+    "bytes": 2515
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_046/model.onnx",
+    "bytes": 230415
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_046/pc_output.npz",
+    "bytes": 82281
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_046/train_graph_inputs.npz",
+    "bytes": 6731856
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_046/val_graph_inputs.npz",
+    "bytes": 6783171
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_047/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_047/manifest.json",
+    "bytes": 2516
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_047/model.onnx",
+    "bytes": 230415
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_047/pc_output.npz",
+    "bytes": 205644
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_047/train_graph_inputs.npz",
+    "bytes": 8957643
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_047/val_graph_inputs.npz",
+    "bytes": 9032803
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_048/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_048/manifest.json",
+    "bytes": 2516
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_048/model.onnx",
+    "bytes": 230415
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_048/pc_output.npz",
+    "bytes": 105454
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_048/train_graph_inputs.npz",
+    "bytes": 5579257
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_048/val_graph_inputs.npz",
+    "bytes": 5633347
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_049/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_049/manifest.json",
+    "bytes": 2399
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_049/model.onnx",
+    "bytes": 230415
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_049/pc_output.npz",
+    "bytes": 15397
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_049/train_graph_inputs.npz",
+    "bytes": 6717937
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_049/val_graph_inputs.npz",
+    "bytes": 6770074
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_050/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_050/manifest.json",
+    "bytes": 2399
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_050/model.onnx",
+    "bytes": 230415
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_050/pc_output.npz",
+    "bytes": 23414
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_050/train_graph_inputs.npz",
+    "bytes": 8923906
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_050/val_graph_inputs.npz",
+    "bytes": 8998578
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_051/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_051/manifest.json",
+    "bytes": 2399
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_051/model.onnx",
+    "bytes": 230415
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_051/pc_output.npz",
+    "bytes": 14254
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_051/train_graph_inputs.npz",
+    "bytes": 5558537
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_051/val_graph_inputs.npz",
+    "bytes": 5612414
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_052/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_052/manifest.json",
+    "bytes": 2964
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_052/model.onnx",
+    "bytes": 183971
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_052/pc_output.npz",
+    "bytes": 31149
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_052/train_graph_inputs.npz",
+    "bytes": 4769921
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_052/val_graph_inputs.npz",
+    "bytes": 4803095
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_053/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_053/manifest.json",
+    "bytes": 3070
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_053/model.onnx",
+    "bytes": 183971
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_053/pc_output.npz",
+    "bytes": 39710
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_053/train_graph_inputs.npz",
+    "bytes": 5782433
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_053/val_graph_inputs.npz",
+    "bytes": 5845906
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_054/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_054/manifest.json",
+    "bytes": 2964
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_054/model.onnx",
+    "bytes": 183968
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_054/pc_output.npz",
+    "bytes": 22701
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_054/train_graph_inputs.npz",
+    "bytes": 3819665
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_054/val_graph_inputs.npz",
+    "bytes": 3846130
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_055/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_055/manifest.json",
+    "bytes": 2972
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_055/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_055/pc_output.npz",
+    "bytes": 36411
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_055/train_graph_inputs.npz",
+    "bytes": 5720722
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_055/val_graph_inputs.npz",
+    "bytes": 5765832
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_056/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_056/manifest.json",
+    "bytes": 3081
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_056/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_056/pc_output.npz",
+    "bytes": 52748
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_056/train_graph_inputs.npz",
+    "bytes": 7723173
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_056/val_graph_inputs.npz",
+    "bytes": 7801625
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_057/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_057/manifest.json",
+    "bytes": 2972
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_057/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_057/pc_output.npz",
+    "bytes": 30379
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_057/train_graph_inputs.npz",
+    "bytes": 4771702
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_057/val_graph_inputs.npz",
+    "bytes": 4826346
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_058/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_058/manifest.json",
+    "bytes": 2937
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_058/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_058/pc_output.npz",
+    "bytes": 10953
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_058/train_graph_inputs.npz",
+    "bytes": 5720722
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_058/val_graph_inputs.npz",
+    "bytes": 5765832
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_059/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_059/manifest.json",
+    "bytes": 3048
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_059/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_059/pc_output.npz",
+    "bytes": 21507
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_059/train_graph_inputs.npz",
+    "bytes": 7723223
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_059/val_graph_inputs.npz",
+    "bytes": 7801631
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_060/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_060/manifest.json",
+    "bytes": 2937
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_060/model.onnx",
+    "bytes": 223588
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_060/pc_output.npz",
+    "bytes": 13106
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_060/train_graph_inputs.npz",
+    "bytes": 4771702
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_060/val_graph_inputs.npz",
+    "bytes": 4826346
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_061/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_061/manifest.json",
+    "bytes": 2919
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_061/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_061/pc_output.npz",
+    "bytes": 13784
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_061/train_graph_inputs.npz",
+    "bytes": 5724555
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_061/val_graph_inputs.npz",
+    "bytes": 5770151
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_062/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_062/manifest.json",
+    "bytes": 2993
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_062/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_062/pc_output.npz",
+    "bytes": 25019
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_062/train_graph_inputs.npz",
+    "bytes": 7734484
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_062/val_graph_inputs.npz",
+    "bytes": 7813330
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_063/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_063/manifest.json",
+    "bytes": 2919
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_063/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_063/pc_output.npz",
+    "bytes": 15811
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_063/train_graph_inputs.npz",
+    "bytes": 4775323
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_063/val_graph_inputs.npz",
+    "bytes": 4829659
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_064/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_064/manifest.json",
+    "bytes": 2883
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_064/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_064/pc_output.npz",
+    "bytes": 11157
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_064/train_graph_inputs.npz",
+    "bytes": 5724555
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_064/val_graph_inputs.npz",
+    "bytes": 5770151
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_065/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_065/manifest.json",
+    "bytes": 2990
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_065/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_065/pc_output.npz",
+    "bytes": 21449
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_065/train_graph_inputs.npz",
+    "bytes": 7734484
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_065/val_graph_inputs.npz",
+    "bytes": 7813330
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_066/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_066/manifest.json",
+    "bytes": 2883
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_066/model.onnx",
+    "bytes": 228196
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_066/pc_output.npz",
+    "bytes": 13347
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_066/train_graph_inputs.npz",
+    "bytes": 4775323
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_066/val_graph_inputs.npz",
+    "bytes": 4829659
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_067/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_067/manifest.json",
+    "bytes": 2639
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_067/model.onnx",
+    "bytes": 189520
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_067/pc_output.npz",
+    "bytes": 15258
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_067/train_graph_inputs.npz",
+    "bytes": 6619189
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_067/val_graph_inputs.npz",
+    "bytes": 6668385
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_068/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_068/manifest.json",
+    "bytes": 2639
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_068/model.onnx",
+    "bytes": 189520
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_068/pc_output.npz",
+    "bytes": 21691
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_068/train_graph_inputs.npz",
+    "bytes": 8887127
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_068/val_graph_inputs.npz",
+    "bytes": 8966482
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_069/argument_spec.json",
+    "bytes": 494
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_069/manifest.json",
+    "bytes": 2639
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_069/model.onnx",
+    "bytes": 189520
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_069/pc_output.npz",
+    "bytes": 12187
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_069/train_graph_inputs.npz",
+    "bytes": 5502339
+  },
+  {
+    "file": "models/weather_heavy_c32/graph_069/val_graph_inputs.npz",
+    "bytes": 5559347
+  },
+  {
+    "file": "models/weather_heavy_c32/module_00.pt",
+    "bytes": 86636
+  },
+  {
+    "file": "models/weather_heavy_c32/module_01.pt",
+    "bytes": 86636
+  },
+  {
+    "file": "models/weather_heavy_c32/module_02.pt",
+    "bytes": 35373
+  },
+  {
+    "file": "models/weather_heavy_c32/module_03.pt",
+    "bytes": 44013
+  },
+  {
+    "file": "models/weather_heavy_c32/module_04.pt",
+    "bytes": 71533
+  },
+  {
+    "file": "models/weather_heavy_c32/module_05.pt",
+    "bytes": 73837
+  },
+  {
+    "file": "models/weather_heavy_c32/module_06.pt",
+    "bytes": 136165
+  },
+  {
+    "file": "models/weather_heavy_c32/module_07.pt",
+    "bytes": 93033
+  },
+  {
+    "file": "models/weather_heavy_c32/module_08.pt",
+    "bytes": 93097
+  },
+  {
+    "file": "models/weather_heavy_c32/module_09.pt",
+    "bytes": 98793
+  },
+  {
+    "file": "models/weather_heavy_c32/module_10.pt",
+    "bytes": 173795
+  },
+  {
+    "file": "models/weather_heavy_c32/module_11.pt",
+    "bytes": 175011
+  },
+  {
+    "file": "models/weather_heavy_c32/module_13.pt",
+    "bytes": 212513
+  },
+  {
+    "file": "models/weather_heavy_c32/module_14.pt",
+    "bytes": 212513
+  },
+  {
+    "file": "models/weather_heavy_c32/module_15.pt",
+    "bytes": 217057
+  },
+  {
+    "file": "models/weather_heavy_c32/module_16.pt",
+    "bytes": 217057
+  },
+  {
+    "file": "models/weather_heavy_c32/module_17.pt",
+    "bytes": 73701
+  },
+  {
+    "file": "models/weather_heavy_c32/module_18.pt",
+    "bytes": 216993
+  },
+  {
+    "file": "models/weather_heavy_c32/module_19.pt",
+    "bytes": 216993
+  },
+  {
+    "file": "models/weather_heavy_c32/module_20.pt",
+    "bytes": 218081
+  },
+  {
+    "file": "models/weather_heavy_c32/module_21.pt",
+    "bytes": 73637
+  },
+  {
+    "file": "models/weather_heavy_c32/module_22.pt",
+    "bytes": 218081
+  },
+  {
+    "file": "models/weather_heavy_c32/module_23.pt",
+    "bytes": 175075
+  },
+  {
+    "file": "models/weather_light/graph_base/calibration_00.npz",
+    "bytes": 5911187
+  },
+  {
+    "file": "models/weather_light/graph_base/calibration_01.npz",
+    "bytes": 6064026
+  },
+  {
+    "file": "models/weather_light/graph_base/calibration_02.npz",
+    "bytes": 5863161
+  },
+  {
+    "file": "models/weather_light/graph_base/calibration_03.npz",
+    "bytes": 5699629
+  },
+  {
+    "file": "models/weather_light/graph_base/manifest.json",
+    "bytes": 8144
+  },
+  {
+    "file": "models/weather_light/graph_base/model.onnx",
+    "bytes": 125421
+  },
+  {
+    "file": "models/weather_light/graph_base/pc_output.npz",
+    "bytes": 2725201
+  },
+  {
+    "file": "models/weather_light/graph_base/smoke_inputs.npz",
+    "bytes": 5824356
+  },
+  {
+    "file": "models/weather_medium/graph_base/calibration_00.npz",
+    "bytes": 6000142
+  },
+  {
+    "file": "models/weather_medium/graph_base/calibration_01.npz",
+    "bytes": 5984843
+  },
+  {
+    "file": "models/weather_medium/graph_base/calibration_02.npz",
+    "bytes": 5781012
+  },
+  {
+    "file": "models/weather_medium/graph_base/calibration_03.npz",
+    "bytes": 5577384
+  },
+  {
+    "file": "models/weather_medium/graph_base/manifest.json",
+    "bytes": 8157
+  },
+  {
+    "file": "models/weather_medium/graph_base/model.onnx",
+    "bytes": 124385
+  },
+  {
+    "file": "models/weather_medium/graph_base/pc_output.npz",
+    "bytes": 2750378
+  },
+  {
+    "file": "models/weather_medium/graph_base/smoke_inputs.npz",
+    "bytes": 5896630
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 6
+  },
+  {
+    "file": "source/night_special_dependencies.json",
+    "bytes": 1466
+  },
+  {
+    "file": "source/preparation/archive_fp64_deploy.py",
+    "bytes": 1048
+  },
+  {
+    "file": "source/preparation/audit_deploy_precision.py",
+    "bytes": 2701
+  },
+  {
+    "file": "source/preparation/background_call_deploy.py",
+    "bytes": 393
+  },
+  {
+    "file": "source/preparation/bind_output_shapes.py",
+    "bytes": 1867
+  },
+  {
+    "file": "source/preparation/capture_current_deploy.py",
+    "bytes": 16355
+  },
+  {
+    "file": "source/preparation/compact_current_deploy.py",
+    "bytes": 2016
+  },
+  {
+    "file": "source/preparation/export_current_deploy.py",
+    "bytes": 11197
+  },
+  {
+    "file": "source/preparation/finalize_package_metadata.py",
+    "bytes": 1708
+  },
+  {
+    "file": "source/preparation/finish_current_deploy.py",
+    "bytes": 6987
+  },
+  {
+    "file": "source/preparation/inspect_current_deploy.py",
+    "bytes": 2231
+  },
+  {
+    "file": "source/preparation/refresh_fp32_cases.py",
+    "bytes": 1232
+  },
+  {
+    "file": "source/run_snapshot/MOTION104-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5360
+  },
+  {
+    "file": "source/run_snapshot/MOTION107-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5348
+  },
+  {
+    "file": "source/run_snapshot/MOTION132-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5593
+  },
+  {
+    "file": "source/run_snapshot/MOTION132-20261014/weather_heavy_c32/last_step1500.pt",
+    "bytes": 93345
+  },
+  {
+    "file": "source/run_snapshot/MOTION15-20261013/weather_heavy/last_step500.pt",
+    "bytes": 118197
+  },
+  {
+    "file": "source/run_snapshot/MOTION15-20261013/weather_heavy_c32/last_step500.pt",
+    "bytes": 118197
+  },
+  {
+    "file": "source/run_snapshot/MOTION156-20261014/weather_heavy_c32/response.json",
+    "bytes": 9380
+  },
+  {
+    "file": "source/run_snapshot/MOTION161-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5600
+  },
+  {
+    "file": "source/run_snapshot/MOTION170-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5602
+  },
+  {
+    "file": "source/run_snapshot/MOTION18-20261013/weather_heavy-fit.json",
+    "bytes": 39528
+  },
+  {
+    "file": "source/run_snapshot/MOTION180-20261014/weather_heavy_c32/head_selection.json",
+    "bytes": 5415
+  },
+  {
+    "file": "source/run_snapshot/MOTION195-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5689
+  },
+  {
+    "file": "source/run_snapshot/MOTION195-20261014/weather_heavy_c32/negative_response.json",
+    "bytes": 2467
+  },
+  {
+    "file": "source/run_snapshot/MOTION197-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5698
+  },
+  {
+    "file": "source/run_snapshot/MOTION205-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5682
+  },
+  {
+    "file": "source/run_snapshot/MOTION205-20261014/weather_heavy_c32/last_step2000.pt",
+    "bytes": 93345
+  },
+  {
+    "file": "source/run_snapshot/MOTION215-20261015/weather_heavy_c32/last_step8000.pt",
+    "bytes": 98977
+  },
+  {
+    "file": "source/run_snapshot/MOTION216-20261015/weather_heavy_c32/fit.json",
+    "bytes": 191809
+  },
+  {
+    "file": "source/run_snapshot/MOTION222-20261015/weather_heavy_c32/fit.json",
+    "bytes": 191859
+  },
+  {
+    "file": "source/run_snapshot/MOTION222-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 174205
+  },
+  {
+    "file": "source/run_snapshot/MOTION228-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193161
+  },
+  {
+    "file": "source/run_snapshot/MOTION233-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 175357
+  },
+  {
+    "file": "source/run_snapshot/MOTION236-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193256
+  },
+  {
+    "file": "source/run_snapshot/MOTION237-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193238
+  },
+  {
+    "file": "source/run_snapshot/MOTION247-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193192
+  },
+  {
+    "file": "source/run_snapshot/MOTION247-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 175357
+  },
+  {
+    "file": "source/run_snapshot/MOTION249-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 212933
+  },
+  {
+    "file": "source/run_snapshot/MOTION251-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193351
+  },
+  {
+    "file": "source/run_snapshot/MOTION252-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193307
+  },
+  {
+    "file": "source/run_snapshot/MOTION254-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193311
+  },
+  {
+    "file": "source/run_snapshot/MOTION254-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 212933
+  },
+  {
+    "file": "source/run_snapshot/MOTION258-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193334
+  },
+  {
+    "file": "source/run_snapshot/MOTION258-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 217541
+  },
+  {
+    "file": "source/run_snapshot/MOTION263-20261015/branches.json",
+    "bytes": 127
+  },
+  {
+    "file": "source/run_snapshot/MOTION263-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193374
+  },
+  {
+    "file": "source/run_snapshot/MOTION267-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193350
+  },
+  {
+    "file": "source/run_snapshot/MOTION267-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 217541
+  },
+  {
+    "file": "source/run_snapshot/MOTION270-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193420
+  },
+  {
+    "file": "source/run_snapshot/MOTION270-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 73909
+  },
+  {
+    "file": "source/run_snapshot/MOTION271-20261015/branches.json",
+    "bytes": 77
+  },
+  {
+    "file": "source/run_snapshot/MOTION271-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193384
+  },
+  {
+    "file": "source/run_snapshot/MOTION273-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193371
+  },
+  {
+    "file": "source/run_snapshot/MOTION28-20261014/night_special/last_step500.pt",
+    "bytes": 148031
+  },
+  {
+    "file": "source/run_snapshot/MOTION283-20261015/weather_heavy_c32/fit.json",
+    "bytes": 193581
+  },
+  {
+    "file": "source/run_snapshot/MOTION283-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 217541
+  },
+  {
+    "file": "source/run_snapshot/MOTION286-20261015/weather_heavy_c32/fit.json",
+    "bytes": 194295
+  },
+  {
+    "file": "source/run_snapshot/MOTION286-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 217541
+  },
+  {
+    "file": "source/run_snapshot/MOTION291-20261015/weather_heavy_c32/config.json",
+    "bytes": 153
+  },
+  {
+    "file": "source/run_snapshot/MOTION291-20261015/weather_heavy_c32/fit.json",
+    "bytes": 194324
+  },
+  {
+    "file": "source/run_snapshot/MOTION300-20261015/weather_heavy_c32/fit.json",
+    "bytes": 194493
+  },
+  {
+    "file": "source/run_snapshot/MOTION300-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 218693
+  },
+  {
+    "file": "source/run_snapshot/MOTION308-20261015/weather_heavy_c32/fit.json",
+    "bytes": 194373
+  },
+  {
+    "file": "source/run_snapshot/MOTION308-20261015/weather_heavy_c32/last_step20000.pt",
+    "bytes": 73909
+  },
+  {
+    "file": "source/run_snapshot/MOTION311-20261015/weather_heavy_c32/config.json",
+    "bytes": 177
+  },
+  {
+    "file": "source/run_snapshot/MOTION311-20261015/weather_heavy_c32/fit.json",
+    "bytes": 194519
+  },
+  {
+    "file": "source/run_snapshot/MOTION40-20261014/weather_heavy/fit.json",
+    "bytes": 10098
+  },
+  {
+    "file": "source/run_snapshot/MOTION40-20261014/weather_heavy_c32/fit.json",
+    "bytes": 10094
+  },
+  {
+    "file": "source/run_snapshot/MOTION42-20261014/night_special/fit.json",
+    "bytes": 11372
+  },
+  {
+    "file": "source/run_snapshot/MOTION53-20261014/weather_heavy_c32/last_step500.pt",
+    "bytes": 44113
+  },
+  {
+    "file": "source/run_snapshot/MOTION55-20261014/weather_heavy_c32/fit.json",
+    "bytes": 3755
+  },
+  {
+    "file": "source/run_snapshot/MOTION62-20261014/weather_heavy_c32/fit.json",
+    "bytes": 3754
+  },
+  {
+    "file": "source/run_snapshot/MOTION63-20261014/weather_heavy_c32/fit.json",
+    "bytes": 3752
+  },
+  {
+    "file": "source/run_snapshot/MOTION65-20261014/weather_heavy_c32/fit.json",
+    "bytes": 3740
+  },
+  {
+    "file": "source/run_snapshot/MOTION71-20261014/weather_heavy_c32/last_step500.pt",
+    "bytes": 71633
+  },
+  {
+    "file": "source/run_snapshot/MOTION75-20261014/weather_heavy_c32/fit.json",
+    "bytes": 3753
+  },
+  {
+    "file": "source/run_snapshot/MOTION77-20261014/weather_heavy_c32/fit.json",
+    "bytes": 4598
+  },
+  {
+    "file": "source/run_snapshot/MOTION77-20261014/weather_heavy_c32/last_step500.pt",
+    "bytes": 74001
+  },
+  {
+    "file": "source/run_snapshot/MOTION81-20261014/weather_heavy_c32/last_step500.pt",
+    "bytes": 136469
+  },
+  {
+    "file": "source/run_snapshot/MOTION82-20261014/weather_heavy_c32/fit.json",
+    "bytes": 5489
+  },
+  {
+    "file": "source/run_snapshot/MOTION95-20261014/weather_heavy_c32/response.json",
+    "bytes": 342
+  },
+  {
+    "file": "source/run_snapshot/MOTION98-20261014/weather_heavy_c32/background.json",
+    "bytes": 492
+  },
+  {
+    "file": "source/run_snapshot/MOTION98-20261014/weather_heavy_c32/fit.json",
+    "bytes": 3787
+  },
+  {
+    "file": "source/run_snapshot/TARGET-RESIDUAL-DECISIONS.json",
+    "bytes": 69930
+  },
+  {
+    "file": "source/run_snapshot/axial_guarded_student_weather_heavy_c32/best.pt",
+    "bytes": 161257
+  },
+  {
+    "file": "source/run_snapshot/budget_profile_weather_heavy_c32/summary.json",
+    "bytes": 5176
+  },
+  {
+    "file": "source/run_snapshot/combined_front_weather_heavy/summary.json",
+    "bytes": 9305
+  },
+  {
+    "file": "source/run_snapshot/masked_front_student_night_special/best.pt",
+    "bytes": 363660
+  },
+  {
+    "file": "source/run_snapshot/multiscale_front_weather_heavy/best.pt",
+    "bytes": 8319
+  },
+  {
+    "file": "source/run_snapshot/multiscale_front_weather_heavy_c32/best.pt",
+    "bytes": 8319
+  },
+  {
+    "file": "source/run_snapshot/precision_special/validation.json",
+    "bytes": 3929
+  },
+  {
+    "file": "source/run_snapshot/quietpair11_weights_night_special/last_step500.pt",
+    "bytes": 7824
+  },
+  {
+    "file": "source/run_snapshot/quietpair11_weights_weather_heavy/last_step500.pt",
+    "bytes": 5520
+  },
+  {
+    "file": "source/run_snapshot/quietpair11_weights_weather_heavy_c32/last_step500.pt",
+    "bytes": 5520
+  },
+  {
+    "file": "source/run_snapshot/tieddecode11_weights_night_special/last_step500.pt",
+    "bytes": 7696
+  },
+  {
+    "file": "source/run_snapshot/tieddecode11_weights_weather_heavy/last_step500.pt",
+    "bytes": 5392
+  },
+  {
+    "file": "source/run_snapshot/tieddecode11_weights_weather_heavy_c32/last_step500.pt",
+    "bytes": 5392
+  },
+  {
+    "file": "source/run_snapshot/verified_weather_heavy/validation.json",
+    "bytes": 1856
+  },
+  {
+    "file": "source/run_snapshot/verified_weather_heavy_c32/validation.json",
+    "bytes": 1873
+  },
+  {
+    "file": "source/runtime/adaptive_static270.py",
+    "bytes": 1226
+  },
+  {
+    "file": "source/runtime/axial_front9.py",
+    "bytes": 4192
+  },
+  {
+    "file": "source/runtime/background_call_deploy.py",
+    "bytes": 393
+  },
+  {
+    "file": "source/runtime/background_temporal295.py",
+    "bytes": 1808
+  },
+  {
+    "file": "source/runtime/background_time191.py",
+    "bytes": 637
+  },
+  {
+    "file": "source/runtime/body_current116.py",
+    "bytes": 7385
+  },
+  {
+    "file": "source/runtime/body_gain76.py",
+    "bytes": 3174
+  },
+  {
+    "file": "source/runtime/body_gain77.py",
+    "bytes": 2167
+  },
+  {
+    "file": "source/runtime/body_gain79.py",
+    "bytes": 2216
+  },
+  {
+    "file": "source/runtime/body_gain80.py",
+    "bytes": 2018
+  },
+  {
+    "file": "source/runtime/body_ownership167.py",
+    "bytes": 1289
+  },
+  {
+    "file": "source/runtime/body_temporal81.py",
+    "bytes": 1928
+  },
+  {
+    "file": "source/runtime/body_temporal83.py",
+    "bytes": 2057
+  },
+  {
+    "file": "source/runtime/body_tracks132.py",
+    "bytes": 2053
+  },
+  {
+    "file": "source/runtime/candidate_ops.py",
+    "bytes": 3227
+  },
+  {
+    "file": "source/runtime/capture_current_deploy.py",
+    "bytes": 16355
+  },
+  {
+    "file": "source/runtime/causal_detail.py",
+    "bytes": 4472
+  },
+  {
+    "file": "source/runtime/compact_match93.py",
+    "bytes": 7472
+  },
+  {
+    "file": "source/runtime/compact_student.py",
+    "bytes": 5269
+  },
+  {
+    "file": "source/runtime/context_refine213.py",
+    "bytes": 1141
+  },
+  {
+    "file": "source/runtime/context_wide220.py",
+    "bytes": 901
+  },
+  {
+    "file": "source/runtime/contrast_guard18.py",
+    "bytes": 5136
+  },
+  {
+    "file": "source/runtime/current_input11.py",
+    "bytes": 2380
+  },
+  {
+    "file": "source/runtime/current_raw_phase_features11.py",
+    "bytes": 1315
+  },
+  {
+    "file": "source/runtime/data_guidance_view.py",
+    "bytes": 2275
+  },
+  {
+    "file": "source/runtime/data_guidance_view_v2.py",
+    "bytes": 1800
+  },
+  {
+    "file": "source/runtime/detail_progress.py",
+    "bytes": 4394
+  },
+  {
+    "file": "source/runtime/direct_motion.py",
+    "bytes": 3861
+  },
+  {
+    "file": "source/runtime/edge_reference91.py",
+    "bytes": 3894
+  },
+  {
+    "file": "source/runtime/export_current_deploy.py",
+    "bytes": 11197
+  },
+  {
+    "file": "source/runtime/fit_motion14.py",
+    "bytes": 6519
+  },
+  {
+    "file": "source/runtime/fit_residual50.py",
+    "bytes": 7340
+  },
+  {
+    "file": "source/runtime/fixed_background98.py",
+    "bytes": 4651
+  },
+  {
+    "file": "source/runtime/foreground_shape300.py",
+    "bytes": 1144
+  },
+  {
+    "file": "source/runtime/foreground_support324.py",
+    "bytes": 392
+  },
+  {
+    "file": "source/runtime/gap_metrics_v2.py",
+    "bytes": 9079
+  },
+  {
+    "file": "source/runtime/gap_metrics_v3.py",
+    "bytes": 10074
+  },
+  {
+    "file": "source/runtime/gap_metrics_v4.py",
+    "bytes": 10727
+  },
+  {
+    "file": "source/runtime/gap_metrics_v5.py",
+    "bytes": 624
+  },
+  {
+    "file": "source/runtime/gate205.py",
+    "bytes": 641
+  },
+  {
+    "file": "source/runtime/gate_body80.py",
+    "bytes": 922
+  },
+  {
+    "file": "source/runtime/ghost_objective.py",
+    "bytes": 1276
+  },
+  {
+    "file": "source/runtime/gray_raw_phase_features11.py",
+    "bytes": 769
+  },
+  {
+    "file": "source/runtime/gt_tracks.py",
+    "bytes": 4672
+  },
+  {
+    "file": "source/runtime/gt_tracks_v4.py",
+    "bytes": 3095
+  },
+  {
+    "file": "source/runtime/gt_tracks_v5.py",
+    "bytes": 1469
+  },
+  {
+    "file": "source/runtime/guided_motion.py",
+    "bytes": 4034
+  },
+  {
+    "file": "source/runtime/half_reference11.py",
+    "bytes": 1010
+  },
+  {
+    "file": "source/runtime/halo_weight163.py",
+    "bytes": 574
+  },
+  {
+    "file": "source/runtime/history_residual71.py",
+    "bytes": 1945
+  },
+  {
+    "file": "source/runtime/historydisplay_phase11.py",
+    "bytes": 2154
+  },
+  {
+    "file": "source/runtime/innovation_gate.py",
+    "bytes": 2872
+  },
+  {
+    "file": "source/runtime/input_anchor12.py",
+    "bytes": 1612
+  },
+  {
+    "file": "source/runtime/inspect_current_deploy.py",
+    "bytes": 2231
+  },
+  {
+    "file": "source/runtime/joint_context279.py",
+    "bytes": 898
+  },
+  {
+    "file": "source/runtime/large_temporal275.py",
+    "bytes": 551
+  },
+  {
+    "file": "source/runtime/learned_background243.py",
+    "bytes": 2867
+  },
+  {
+    "file": "source/runtime/linear_motion.py",
+    "bytes": 2403
+  },
+  {
+    "file": "source/runtime/local_rebuild170.py",
+    "bytes": 1560
+  },
+  {
+    "file": "source/runtime/matched_phase_teacher.py",
+    "bytes": 1795
+  },
+  {
+    "file": "source/runtime/matched_positive104.py",
+    "bytes": 8248
+  },
+  {
+    "file": "source/runtime/meancontext_phase11.py",
+    "bytes": 4605
+  },
+  {
+    "file": "source/runtime/mixed_body111.py",
+    "bytes": 8813
+  },
+  {
+    "file": "source/runtime/motion_background226.py",
+    "bytes": 3527
+  },
+  {
+    "file": "source/runtime/nativecontrast_phase11.py",
+    "bytes": 4297
+  },
+  {
+    "file": "source/runtime/npu_graph_candidate.py",
+    "bytes": 3238
+  },
+  {
+    "file": "source/runtime/online_align78.py",
+    "bytes": 2148
+  },
+  {
+    "file": "source/runtime/paired_timing.py",
+    "bytes": 1250
+  },
+  {
+    "file": "source/runtime/peak_guard107.py",
+    "bytes": 8659
+  },
+  {
+    "file": "source/runtime/persistent_body154.py",
+    "bytes": 4592
+  },
+  {
+    "file": "source/runtime/phaseown_model11.py",
+    "bytes": 1816
+  },
+  {
+    "file": "source/runtime/phaseown_phase11.py",
+    "bytes": 2770
+  },
+  {
+    "file": "source/runtime/physical_foreground95.py",
+    "bytes": 9624
+  },
+  {
+    "file": "source/runtime/physical_reference90.py",
+    "bytes": 10182
+  },
+  {
+    "file": "source/runtime/prepare_allframe_targets.py",
+    "bytes": 3403
+  },
+  {
+    "file": "source/runtime/prepare_confidence76.py",
+    "bytes": 3616
+  },
+  {
+    "file": "source/runtime/prepare_gate80.py",
+    "bytes": 1488
+  },
+  {
+    "file": "source/runtime/prepare_motion14.py",
+    "bytes": 7896
+  },
+  {
+    "file": "source/runtime/prepare_native_targets.py",
+    "bytes": 4102
+  },
+  {
+    "file": "source/runtime/prepare_plain115.py",
+    "bytes": 2522
+  },
+  {
+    "file": "source/runtime/prepare_residual50.py",
+    "bytes": 1676
+  },
+  {
+    "file": "source/runtime/project_shape330.py",
+    "bytes": 746
+  },
+  {
+    "file": "source/runtime/project_tail289.py",
+    "bytes": 3424
+  },
+  {
+    "file": "source/runtime/protected_data.py",
+    "bytes": 2824
+  },
+  {
+    "file": "source/runtime/quality_adaptive270.py",
+    "bytes": 4268
+  },
+  {
+    "file": "source/runtime/quality_background298.py",
+    "bytes": 4999
+  },
+  {
+    "file": "source/runtime/quality_c32106.py",
+    "bytes": 6643
+  },
+  {
+    "file": "source/runtime/quality_c32108.py",
+    "bytes": 4108
+  },
+  {
+    "file": "source/runtime/quality_c32109.py",
+    "bytes": 2884
+  },
+  {
+    "file": "source/runtime/quality_c32112.py",
+    "bytes": 1253
+  },
+  {
+    "file": "source/runtime/quality_c32206.py",
+    "bytes": 10763
+  },
+  {
+    "file": "source/runtime/quality_c3267.py",
+    "bytes": 5575
+  },
+  {
+    "file": "source/runtime/quality_c3278.py",
+    "bytes": 7559
+  },
+  {
+    "file": "source/runtime/quality_c3283.py",
+    "bytes": 2250
+  },
+  {
+    "file": "source/runtime/quality_c3292.py",
+    "bytes": 1017
+  },
+  {
+    "file": "source/runtime/quality_combined231.py",
+    "bytes": 2578
+  },
+  {
+    "file": "source/runtime/quality_combined310.py",
+    "bytes": 4309
+  },
+  {
+    "file": "source/runtime/quality_control43.py",
+    "bytes": 3529
+  },
+  {
+    "file": "source/runtime/quality_foreground300.py",
+    "bytes": 4668
+  },
+  {
+    "file": "source/runtime/quality_incremental250.py",
+    "bytes": 4361
+  },
+  {
+    "file": "source/runtime/quality_joint279.py",
+    "bytes": 4490
+  },
+  {
+    "file": "source/runtime/quality_projected291.py",
+    "bytes": 2203
+  },
+  {
+    "file": "source/runtime/quality_residual253.py",
+    "bytes": 3363
+  },
+  {
+    "file": "source/runtime/quality_shape330.py",
+    "bytes": 2158
+  },
+  {
+    "file": "source/runtime/quality_small227.py",
+    "bytes": 4314
+  },
+  {
+    "file": "source/runtime/quality_static259.py",
+    "bytes": 4051
+  },
+  {
+    "file": "source/runtime/quality_surround216.py",
+    "bytes": 8888
+  },
+  {
+    "file": "source/runtime/quality_target271.py",
+    "bytes": 3574
+  },
+  {
+    "file": "source/runtime/quality_temporal258.py",
+    "bytes": 3707
+  },
+  {
+    "file": "source/runtime/raw_aligned269.py",
+    "bytes": 1603
+  },
+  {
+    "file": "source/runtime/raw_gain23.py",
+    "bytes": 1285
+  },
+  {
+    "file": "source/runtime/raw_route22.py",
+    "bytes": 1339
+  },
+  {
+    "file": "source/runtime/raw_stable27.py",
+    "bytes": 1221
+  },
+  {
+    "file": "source/runtime/raw_temporal24.py",
+    "bytes": 2476
+  },
+  {
+    "file": "source/runtime/raw_temporal25.py",
+    "bytes": 827
+  },
+  {
+    "file": "source/runtime/reclaim221.py",
+    "bytes": 1397
+  },
+  {
+    "file": "source/runtime/refine176.py",
+    "bytes": 1052
+  },
+  {
+    "file": "source/runtime/repair_gate17.py",
+    "bytes": 1209
+  },
+  {
+    "file": "source/runtime/repair_motion15.py",
+    "bytes": 13135
+  },
+  {
+    "file": "source/runtime/residual50.py",
+    "bytes": 1786
+  },
+  {
+    "file": "source/runtime/road_residual53.py",
+    "bytes": 1853
+  },
+  {
+    "file": "source/runtime/run_motion.py",
+    "bytes": 12954
+  },
+  {
+    "file": "source/runtime/run_night_precision.py",
+    "bytes": 5585
+  },
+  {
+    "file": "source/runtime/run_reduced_v2.py",
+    "bytes": 11832
+  },
+  {
+    "file": "source/runtime/run_speed.py",
+    "bytes": 9796
+  },
+  {
+    "file": "source/runtime/run_verified.py",
+    "bytes": 8019
+  },
+  {
+    "file": "source/runtime/settled_training9.py",
+    "bytes": 1760
+  },
+  {
+    "file": "source/runtime/shared_reference_axis11.py",
+    "bytes": 1774
+  },
+  {
+    "file": "source/runtime/signed_departure_data9.py",
+    "bytes": 3799
+  },
+  {
+    "file": "source/runtime/slim_body9.py",
+    "bytes": 6796
+  },
+  {
+    "file": "source/runtime/small_context227.py",
+    "bytes": 1239
+  },
+  {
+    "file": "source/runtime/small_residual249.py",
+    "bytes": 567
+  },
+  {
+    "file": "source/runtime/small_route180.py",
+    "bytes": 949
+  },
+  {
+    "file": "source/runtime/small_temporal258.py",
+    "bytes": 3564
+  },
+  {
+    "file": "source/runtime/small_wide244.py",
+    "bytes": 806
+  },
+  {
+    "file": "source/runtime/source_profile40.py",
+    "bytes": 936
+  },
+  {
+    "file": "source/runtime/spatiotime_phase11.py",
+    "bytes": 1844
+  },
+  {
+    "file": "source/runtime/static_highpass259.py",
+    "bytes": 3764
+  },
+  {
+    "file": "source/runtime/static_scatter11.py",
+    "bytes": 837
+  },
+  {
+    "file": "source/runtime/streaming_cached_data.py",
+    "bytes": 3107
+  },
+  {
+    "file": "source/runtime/streaming_data.py",
+    "bytes": 3627
+  },
+  {
+    "file": "source/runtime/streaming_fast_data.py",
+    "bytes": 2399
+  },
+  {
+    "file": "source/runtime/streaming_native_data.py",
+    "bytes": 2816
+  },
+  {
+    "file": "source/runtime/streaming_ring_data.py",
+    "bytes": 5125
+  },
+  {
+    "file": "source/runtime/surround_stable211.py",
+    "bytes": 1580
+  },
+  {
+    "file": "source/runtime/tail_context284.py",
+    "bytes": 350
+  },
+  {
+    "file": "source/runtime/target_mask_capture.py",
+    "bytes": 1425
+  },
+  {
+    "file": "source/runtime/target_residual.py",
+    "bytes": 3422
+  },
+  {
+    "file": "source/runtime/target_training_guidance.py",
+    "bytes": 6024
+  },
+  {
+    "file": "source/runtime/target_validation_long.py",
+    "bytes": 2774
+  },
+  {
+    "file": "source/runtime/target_validation_rows_v2.py",
+    "bytes": 3012
+  },
+  {
+    "file": "source/runtime/target_validation_v3.py",
+    "bytes": 3501
+  },
+  {
+    "file": "source/runtime/temporal_body194.py",
+    "bytes": 3883
+  },
+  {
+    "file": "source/runtime/tieddecode_model11.py",
+    "bytes": 2150
+  },
+  {
+    "file": "source/runtime/tieddecode_phase11.py",
+    "bytes": 834
+  },
+  {
+    "file": "source/runtime/timematch_phase11.py",
+    "bytes": 1834
+  },
+  {
+    "file": "source/runtime/tone40.py",
+    "bytes": 1160
+  },
+  {
+    "file": "source/runtime/train_balanced_detail.py",
+    "bytes": 13934
+  },
+  {
+    "file": "source/runtime/train_guided.py",
+    "bytes": 14823
+  },
+  {
+    "file": "source/runtime/train_innovation_half.py",
+    "bytes": 14669
+  },
+  {
+    "file": "source/runtime/train_nativewidth9.py",
+    "bytes": 19848
+  },
+  {
+    "file": "source/weather_heavy_c32_dependencies.json",
+    "bytes": 16328
+  },
+  {
+    "file": "source/weather_heavy_dependencies.json",
+    "bytes": 1882
+  },
+  {
+    "file": "tools/module_bench.py",
+    "bytes": 9836
+  },
+  {
+    "file": "workloads/day_normal/val_frame_019.json",
+    "bytes": 161
+  },
+  {
+    "file": "workloads/night_ordinary/val_frame_019.json",
+    "bytes": 165
+  },
+  {
+    "file": "workloads/night_special/train_frame_000.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_001.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_002.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_003.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_004.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_005.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_006.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_007.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_008.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_009.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/night_special/train_frame_010.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_011.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_012.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_013.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_014.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_015.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_016.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_017.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_018.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/train_frame_019.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/night_special/val_frame_000.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_001.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_002.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_003.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_004.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_005.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_006.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_007.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_008.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_009.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/night_special/val_frame_010.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_011.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_012.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_013.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_014.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_015.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_016.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_017.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_018.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/night_special/val_frame_019.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_000.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_001.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_002.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_003.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_004.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_005.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_006.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_007.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_008.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_009.json",
+    "bytes": 381
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_010.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_011.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_012.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_013.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_014.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_015.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_016.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_017.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_018.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/train_frame_019.json",
+    "bytes": 382
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_000.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_001.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_002.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_003.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_004.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_005.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_006.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_007.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_008.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_009.json",
+    "bytes": 379
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_010.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_011.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_012.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_013.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_014.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_015.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_016.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_017.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_018.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy/val_frame_019.json",
+    "bytes": 380
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_000.json",
+    "bytes": 3408
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_001.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_002.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_003.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_004.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_005.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_006.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_007.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_008.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_009.json",
+    "bytes": 3428
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_010.json",
+    "bytes": 3429
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_011.json",
+    "bytes": 3429
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_012.json",
+    "bytes": 3429
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_013.json",
+    "bytes": 3429
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_014.json",
+    "bytes": 3429
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_015.json",
+    "bytes": 3429
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_016.json",
+    "bytes": 5221
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_017.json",
+    "bytes": 5221
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_018.json",
+    "bytes": 5221
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_019.json",
+    "bytes": 5221
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_020.json",
+    "bytes": 5221
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_021.json",
+    "bytes": 5221
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_022.json",
+    "bytes": 5221
+  },
+  {
+    "file": "workloads/weather_heavy_c32/train_frame_023.json",
+    "bytes": 5221
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_000.json",
+    "bytes": 3406
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_001.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_002.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_003.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_004.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_005.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_006.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_007.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_008.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_009.json",
+    "bytes": 3426
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_010.json",
+    "bytes": 3427
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_011.json",
+    "bytes": 3427
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_012.json",
+    "bytes": 3427
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_013.json",
+    "bytes": 3427
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_014.json",
+    "bytes": 3427
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_015.json",
+    "bytes": 3427
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_016.json",
+    "bytes": 5219
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_017.json",
+    "bytes": 5219
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_018.json",
+    "bytes": 5219
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_019.json",
+    "bytes": 5219
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_020.json",
+    "bytes": 5219
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_021.json",
+    "bytes": 5219
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_022.json",
+    "bytes": 5219
+  },
+  {
+    "file": "workloads/weather_heavy_c32/val_frame_023.json",
+    "bytes": 5219
+  },
+  {
+    "file": "workloads/weather_light/val_frame_019.json",
+    "bytes": 164
+  },
+  {
+    "file": "workloads/weather_medium/val_frame_019.json",
+    "bytes": 165
+  }
+]

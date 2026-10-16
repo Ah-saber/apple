@@ -1,0 +1,187 @@
+{
+  "scene": "weather_heavy_c32",
+  "parent_delta": 75,
+  "parent_file": "total75.npy",
+  "source": {
+    "gap": 3.3748438471839544,
+    "inversions": 0.013888888888888888,
+    "ghost": 3.9644967149409602,
+    "signed_ghost": 2.0633443211167384,
+    "flicker": 1.1196321653468269
+  },
+  "candidates": [
+    {
+      "alpha": 0.0,
+      "metrics": {
+        "gap": 3.3748438471839544,
+        "inversions": 0.013888888888888888,
+        "ghost": 3.9644967149409602,
+        "signed_ghost": 2.0633443211167384,
+        "flicker": 1.1196321653468269
+      },
+      "capture_flicker": [
+        1.1175856388040952,
+        1.1216786918895585
+      ],
+      "eligible": true,
+      "score": 13.0,
+      "body_gap_error": 4.654027606885342
+    },
+    {
+      "alpha": 0.1,
+      "metrics": {
+        "gap": 3.359949751505776,
+        "inversions": 0.013888888888888888,
+        "ghost": 3.961480550303317,
+        "signed_ghost": 2.0609376151862118,
+        "flicker": 1.1192733400634356
+      },
+      "capture_flicker": [
+        1.1172273755073547,
+        1.1213193046195167
+      ],
+      "eligible": true,
+      "score": 12.919701869786937,
+      "body_gap_error": 4.58599717356814
+    },
+    {
+      "alpha": 0.25,
+      "metrics": {
+        "gap": 3.3409353135124085,
+        "inversions": 0.013888888888888888,
+        "ghost": 3.957600684261425,
+        "signed_ghost": 2.057649744644162,
+        "flicker": 1.11874333396554
+      },
+      "capture_flicker": [
+        1.1166984566620417,
+        1.1207882112690382
+      ],
+      "eligible": true,
+      "score": 12.804043636065693,
+      "body_gap_error": 4.484185727999977
+    },
+    {
+      "alpha": 0.5,
+      "metrics": {
+        "gap": 3.31267854145595,
+        "inversions": 0.013888888888888888,
+        "ghost": 3.9528968716804807,
+        "signed_ghost": 2.0530512838758943,
+        "flicker": 1.1178848136748587
+      },
+      "capture_flicker": [
+        1.11584203264543,
+        1.1199275947042875
+      ],
+      "eligible": true,
+      "score": 12.623002184417643,
+      "body_gap_error": 4.321349039893587
+    },
+    {
+      "alpha": 0.75,
+      "metrics": {
+        "gap": 3.290714070910499,
+        "inversions": 0.013888888888888888,
+        "ghost": 3.9503307017744964,
+        "signed_ghost": 2.049520489428269,
+        "flicker": 1.1170611408139979
+      },
+      "capture_flicker": [
+        1.115021638572216,
+        1.1191006430557795
+      ],
+      "eligible": true,
+      "score": 12.465294207144176,
+      "body_gap_error": 4.174488675277845
+    },
+    {
+      "alpha": 1.0,
+      "metrics": {
+        "gap": 3.284062283379691,
+        "inversions": 0.013888888888888888,
+        "ghost": 3.949835855654306,
+        "signed_ghost": 2.047023996252308,
+        "flicker": 1.1162769592234068
+      },
+      "capture_flicker": [
+        1.1142419331840105,
+        1.1183119852628027
+      ],
+      "eligible": true,
+      "score": 12.339500224616591,
+      "body_gap_error": 4.041220437108943
+    }
+  ],
+  "best": {
+    "alpha": 1.0,
+    "metrics": {
+      "gap": 3.284062283379691,
+      "inversions": 0.013888888888888888,
+      "ghost": 3.949835855654306,
+      "signed_ghost": 2.047023996252308,
+      "flicker": 1.1162769592234068
+    },
+    "capture_flicker": [
+      1.1142419331840105,
+      1.1183119852628027
+    ],
+    "eligible": true,
+    "score": 12.339500224616591,
+    "body_gap_error": 4.041220437108943
+  },
+  "diagnostic_best": {
+    "alpha": 1.0,
+    "metrics": {
+      "gap": 3.284062283379691,
+      "inversions": 0.013888888888888888,
+      "ghost": 3.949835855654306,
+      "signed_ghost": 2.047023996252308,
+      "flicker": 1.1162769592234068
+    },
+    "capture_flicker": [
+      1.1142419331840105,
+      1.1183119852628027
+    ],
+    "eligible": true,
+    "score": 12.339500224616591,
+    "body_gap_error": 4.041220437108943
+  },
+  "status": "passed",
+  "fit_split": "train",
+  "validation_used": false,
+  "test_used": false,
+  "training_ROIs": [
+    [
+      0,
+      256,
+      1024,
+      768
+    ],
+    [
+      0,
+      256,
+      1024,
+      768
+    ]
+  ],
+  "flicker_limit": "each train capture <= 1.005 source",
+  "original_selection": {
+    "alpha": 1.0,
+    "metrics": {
+      "gap": 3.284062283379691,
+      "inversions": 0.013888888888888888,
+      "ghost": 3.949835855654306,
+      "signed_ghost": 2.047023996252308,
+      "flicker": 1.1162769592234068
+    },
+    "capture_flicker": [
+      1.1142419331840105,
+      1.1183119852628027
+    ],
+    "eligible": true,
+    "score": 8.86618998371453
+  },
+  "body_source_gap_error": 4.654027606885342,
+  "body_labels_split": "train"
+}

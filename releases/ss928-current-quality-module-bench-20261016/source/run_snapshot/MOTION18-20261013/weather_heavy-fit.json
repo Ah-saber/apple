@@ -1,0 +1,1667 @@
+{
+  "scene": "weather_heavy",
+  "original": {
+    "gap": 2.2066339011975984,
+    "ghost": 4.664286056799548,
+    "static": 1.469702176217522,
+    "photo": 5.303217166236469,
+    "inversions": 20,
+    "targets": 359
+  },
+  "best": {
+    "parameters": {
+      "parent": "repair15",
+      "activity": 0.1,
+      "tolerance": 0.25,
+      "minimum": 0.5
+    },
+    "metrics": {
+      "gap": 2.051005038046239,
+      "ghost": 4.457548427794661,
+      "static": 0.8900750880794865,
+      "photo": 4.699362248182297,
+      "inversions": 12,
+      "targets": 359
+    },
+    "score": 3.5974638252431346
+  },
+  "all_train_objectives_nonworse": true,
+  "fit_split": "train",
+  "validation_used_for_fit": false,
+  "test_used": false,
+  "new_optimizer_steps": 0,
+  "ranked": [
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 0.25,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.051005038046239,
+        "ghost": 4.457548427794661,
+        "static": 0.8900750880794865,
+        "photo": 4.699362248182297,
+        "inversions": 12,
+        "targets": 359
+      },
+      "score": 3.5974638252431346
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 0.25,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.032468855547042,
+        "ghost": 4.464480610298259,
+        "static": 0.9127423177872386,
+        "photo": 4.707220694848469,
+        "inversions": 8,
+        "targets": 359
+      },
+      "score": 3.597869010360514
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 0.25,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.0422479913759366,
+        "ghost": 4.464216303612504,
+        "static": 0.9084314970033509,
+        "photo": 4.705196167741503,
+        "inversions": 9,
+        "targets": 359
+      },
+      "score": 3.6036662647118183
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 0.25,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.052781034644932,
+        "ghost": 4.467808784118721,
+        "static": 0.8945278331105199,
+        "photo": 4.701087563165596,
+        "inversions": 10,
+        "targets": 359
+      },
+      "score": 3.604368042490434
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 0.25,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.062986999501093,
+        "ghost": 4.45809968188405,
+        "static": 0.8852889266397271,
+        "photo": 4.696920703564372,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6050933266745604
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 0.5,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.0611647377439195,
+        "ghost": 4.460189898099218,
+        "static": 0.8906395312930856,
+        "photo": 4.695810663912978,
+        "inversions": 12,
+        "targets": 359
+      },
+      "score": 3.6074885792970774
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 0.5,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.066563984809812,
+        "ghost": 4.460766256919929,
+        "static": 0.8891085511339563,
+        "photo": 4.695011358175959,
+        "inversions": 12,
+        "targets": 359
+      },
+      "score": 3.6114339595260323
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 0.25,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.0815973374836956,
+        "ghost": 4.460313613925662,
+        "static": 0.8698362849120583,
+        "photo": 4.6923588407891135,
+        "inversions": 15,
+        "targets": 359
+      },
+      "score": 3.61174943640754
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 0.25,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.062914584008432,
+        "ghost": 4.467488077070032,
+        "static": 0.892388583293983,
+        "photo": 4.699745451765401,
+        "inversions": 12,
+        "targets": 359
+      },
+      "score": 3.611977724807807
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 0.5,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.0761106605317265,
+        "ghost": 4.463503043034247,
+        "static": 0.882526217560683,
+        "photo": 4.692778706550598,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6161105324537455
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 0.25,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.062237839180779,
+        "ghost": 4.467289323785475,
+        "static": 0.8994663794125829,
+        "photo": 4.701155115451131,
+        "inversions": 11,
+        "targets": 359
+      },
+      "score": 3.616190705645768
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 0.5,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.0768847837421553,
+        "ghost": 4.463428299341883,
+        "static": 0.8855459120656762,
+        "photo": 4.693293948258672,
+        "inversions": 13,
+        "targets": 359
+      },
+      "score": 3.618870201944619
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 0.25,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.082606391322314,
+        "ghost": 4.460850477218628,
+        "static": 0.878977004970823,
+        "photo": 4.692605164434228,
+        "inversions": 13,
+        "targets": 359
+      },
+      "score": 3.619007827714127
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 0.5,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.0809948092383594,
+        "ghost": 4.463718969907079,
+        "static": 0.8818159526480096,
+        "photo": 4.692267028348787,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6200810445073137
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 0.25,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.0948282244477765,
+        "ghost": 4.460658584322248,
+        "static": 0.867350650419082,
+        "photo": 4.69067643476384,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.622060615902721
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 0.25,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.0870932456842706,
+        "ghost": 4.461083992251328,
+        "static": 0.8785052682672229,
+        "photo": 4.692109350647245,
+        "inversions": 13,
+        "targets": 359
+      },
+      "score": 3.622784914990521
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 0.5,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1008445572388204,
+        "ghost": 4.452494805944817,
+        "static": 0.8660659076912063,
+        "photo": 4.686133359159742,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6247178079570093
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 0.25,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.080652817378137,
+        "ghost": 4.468122925077166,
+        "static": 0.8878765973661628,
+        "photo": 4.697113910956042,
+        "inversions": 12,
+        "targets": 359
+      },
+      "score": 3.6250217771405886
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 0.5,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.0922710065390073,
+        "ghost": 4.459954263908522,
+        "static": 0.8760079257190228,
+        "photo": 4.6887514261262755,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6254097570738533
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 0.25,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.093742924480385,
+        "ghost": 4.461626710636275,
+        "static": 0.8751226016985518,
+        "photo": 4.6918664340462,
+        "inversions": 15,
+        "targets": 359
+      },
+      "score": 3.6266174987158304
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 0.5,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.0947484212997565,
+        "ghost": 4.460212959242718,
+        "static": 0.8758721801319292,
+        "photo": 4.68859173144613,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.627612259236332
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 0.5,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.0909295799340377,
+        "ghost": 4.464335438928434,
+        "static": 0.8801338321396283,
+        "photo": 4.691212187920298,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6280333573293793
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 0.5,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1079460013875724,
+        "ghost": 4.453415207032647,
+        "static": 0.8642085303685495,
+        "photo": 4.685052133032253,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6300470329442893
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 0.25,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.098326471854717,
+        "ghost": 4.459897657590253,
+        "static": 0.875070541032723,
+        "photo": 4.688341049211366,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.630232757191424
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 0.25,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.096410463115299,
+        "ghost": 4.462368900754622,
+        "static": 0.87758044286498,
+        "photo": 4.691135419266565,
+        "inversions": 13,
+        "targets": 359
+      },
+      "score": 3.630839136143339
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 0.25,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.0995196592176857,
+        "ghost": 4.460552351283176,
+        "static": 0.875009763453688,
+        "photo": 4.688203394412994,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.631408030016375
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 0.5,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.100325925768584,
+        "ghost": 4.459704180913312,
+        "static": 0.874595932662487,
+        "photo": 4.686955725508077,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6316283246157175
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 0.5,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1006451914901523,
+        "ghost": 4.4600342607923915,
+        "static": 0.8745819189186607,
+        "photo": 4.686914768602167,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.631977381421136
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 0.5,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.099755774633466,
+        "ghost": 4.460885926016739,
+        "static": 0.8755803001778466,
+        "photo": 4.688249255929675,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6320834803078528
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 1.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1014946895057443,
+        "ghost": 4.459939954004118,
+        "static": 0.8744292679641928,
+        "photo": 4.686314277350903,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6326006001897935
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 1.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1014946895057443,
+        "ghost": 4.459958769381046,
+        "static": 0.8744286080556256,
+        "photo": 4.686313319419112,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.632604148979304
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 1.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.101631157909595,
+        "ghost": 4.459978212203298,
+        "static": 0.8744280897080898,
+        "photo": 4.686307320637362,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6327314277158647
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 1.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1019600613203555,
+        "ghost": 4.459937635276999,
+        "static": 0.8745256140828133,
+        "photo": 4.686516967202936,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633095095364632
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 0.5,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1019845061979585,
+        "ghost": 4.4600423356252055,
+        "static": 0.8745516080941472,
+        "photo": 4.686842617179666,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6331696662194695
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 1.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1021504030254228,
+        "ghost": 4.459972473659685,
+        "static": 0.8745215311646461,
+        "photo": 4.686511852911541,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6332721113115234
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 1.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.101215887202526,
+        "ghost": 4.459182585988726,
+        "static": 0.8760961504387004,
+        "photo": 4.687538641904082,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6333658673958382
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 1.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1015282567165023,
+        "ghost": 4.459312665143183,
+        "static": 0.876018360789333,
+        "photo": 4.687484544302736,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6336219052612613
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 0.25,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.102135149549309,
+        "ghost": 4.460774680865662,
+        "static": 0.8748841463987317,
+        "photo": 4.687946122671876,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633731093055292
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 2.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1028469093662783,
+        "ghost": 4.460275647363493,
+        "static": 0.8744137675634452,
+        "photo": 4.686259024909565,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633885535946705
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 2.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1028469093662783,
+        "ghost": 4.460304043654885,
+        "static": 0.8744192964264325,
+        "photo": 4.686258437378066,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633895363707876
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 2.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1028469093662783,
+        "ghost": 4.46031919707145,
+        "static": 0.8744148662579911,
+        "photo": 4.686258264950344,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633895591692396
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 2.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1028469093662783,
+        "ghost": 4.46031919707145,
+        "static": 0.8744148662579911,
+        "photo": 4.686258264950344,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633895591692396
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 2.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1028469093662783,
+        "ghost": 4.460355001368693,
+        "static": 0.8744201093379941,
+        "photo": 4.686258186187063,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6339068324311654
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 2.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1028469093662783,
+        "ghost": 4.460355001368693,
+        "static": 0.8744201093379941,
+        "photo": 4.686258186187063,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6339068324311654
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 2.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1028985299771876,
+        "ghost": 4.460211322243724,
+        "static": 0.8744193382029023,
+        "photo": 4.686251592423234,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633922041721692
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 2.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1028985299771876,
+        "ghost": 4.460211322243724,
+        "static": 0.8744193382029023,
+        "photo": 4.686251592423234,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633922041721692
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.75,
+        "tolerance": 2.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1028985299771876,
+        "ghost": 4.460217868110964,
+        "static": 0.8744193382029023,
+        "photo": 4.686251475342682,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.633923440707994
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 2.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1028985299771876,
+        "ghost": 4.460231755993196,
+        "static": 0.8744194438414914,
+        "photo": 4.686254533273833,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6339266054028427
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 2.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1028985299771876,
+        "ghost": 4.460232975759676,
+        "static": 0.8744194531547171,
+        "photo": 4.686254761048725,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6339268818416555
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 2.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1028985299771876,
+        "ghost": 4.460232975759676,
+        "static": 0.8744194531547171,
+        "photo": 4.686254761048725,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6339268818416555
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.5,
+        "tolerance": 1.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1028936101865634,
+        "ghost": 4.460090004439865,
+        "static": 0.8745082193719489,
+        "photo": 4.6864857120173316,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6339608776649057
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.1,
+        "tolerance": 1.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1021339063192808,
+        "ghost": 4.460309398493597,
+        "static": 0.8757324008537191,
+        "photo": 4.687303842178413,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.634183150474712
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 1.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1038376388443547,
+        "ghost": 4.46108092474086,
+        "static": 0.8751599184636559,
+        "photo": 4.687082414116178,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.635494879862156
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 1.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.104042793050782,
+        "ghost": 4.4609902533037324,
+        "static": 0.8751308630619731,
+        "photo": 4.68705011584929,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6356403958332537
+    },
+    {
+      "parameters": {
+        "parent": "repair17",
+        "activity": 0.25,
+        "tolerance": 1.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1052073542454117,
+        "ghost": 4.461034075490066,
+        "static": 0.8750099640871797,
+        "photo": 4.686952392969813,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.6366193540116387
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 0.5,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1259211152376905,
+        "ghost": 4.455650116183928,
+        "static": 0.8563901843237025,
+        "photo": 4.682431560541902,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.6413995622979147
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 0.5,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1257261220459154,
+        "ghost": 4.45668894850782,
+        "static": 0.8598369152418205,
+        "photo": 4.6826345803482194,
+        "inversions": 14,
+        "targets": 359
+      },
+      "score": 3.643798395753132
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 0.25,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1232896116782696,
+        "ghost": 4.461765928460019,
+        "static": 0.8619639229561601,
+        "photo": 4.687215920005526,
+        "inversions": 15,
+        "targets": 359
+      },
+      "score": 3.644298538051247
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 0.25,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.13648486203802,
+        "ghost": 4.451716516166925,
+        "static": 0.8512655257114342,
+        "photo": 4.681865504809788,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.6466225364290663
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 0.5,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1325100670285875,
+        "ghost": 4.456292920346771,
+        "static": 0.8554476260074547,
+        "photo": 4.681690448096821,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.646840049044779
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 0.25,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1448453820847537,
+        "ghost": 4.452180754393339,
+        "static": 0.8506410111274038,
+        "photo": 4.681159108877182,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.6538481237315756
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 0.5,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1497135467848074,
+        "ghost": 4.457477745200906,
+        "static": 0.8532020702425923,
+        "photo": 4.680067555180618,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.661097476316897
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 0.5,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1592177003206983,
+        "ghost": 4.450527110270092,
+        "static": 0.847606440207788,
+        "photo": 4.6768201025468965,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.6642916652492095
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 0.5,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1634166486416024,
+        "ghost": 4.450931400592838,
+        "static": 0.8473830079393727,
+        "photo": 4.676528180284159,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.6680210581656705
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 0.25,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1611921700926544,
+        "ghost": 4.4544010662606786,
+        "static": 0.8493740119572196,
+        "photo": 4.6796959947262495,
+        "inversions": 15,
+        "targets": 359
+      },
+      "score": 3.668222930405229
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 0.25,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.169939164663756,
+        "ghost": 4.45077021792531,
+        "static": 0.8459413440099784,
+        "photo": 4.675689909074988,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6728856989319794
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 0.25,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.172916695268041,
+        "ghost": 4.451448854058981,
+        "static": 0.8458360758210931,
+        "photo": 4.67545656647001,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6756494779117803
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 0.5,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.172982615680748,
+        "ghost": 4.45244261143463,
+        "static": 0.8468871475862605,
+        "photo": 4.675866047186511,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.676652884519419
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 0.5,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1774835838912923,
+        "ghost": 4.4503589283142775,
+        "static": 0.8452439403959683,
+        "photo": 4.6735968344977925,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6790820077972928
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 1.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1758285923588576,
+        "ghost": 4.451763076973813,
+        "static": 0.8478183626596417,
+        "photo": 4.6743829016174585,
+        "inversions": 16,
+        "targets": 359
+      },
+      "score": 3.679664343235193
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 1.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1761758015348387,
+        "ghost": 4.451885202633483,
+        "static": 0.8476907299565417,
+        "photo": 4.674280550863061,
+        "inversions": 17,
+        "targets": 359
+      },
+      "score": 3.6799145196329306
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 0.5,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.178882164543386,
+        "ghost": 4.450745016336441,
+        "static": 0.8452084186886039,
+        "photo": 4.673500461237771,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.680404593906284
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 0.25,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1797876796350506,
+        "ghost": 4.452621390244791,
+        "static": 0.8456234117703778,
+        "photo": 4.674980727689607,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6819657906275354
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 0.5,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.182623782197745,
+        "ghost": 4.451484680175781,
+        "static": 0.845133213326335,
+        "photo": 4.673299793686185,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.683895680556024
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 1.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1815539641632675,
+        "ghost": 4.453007881662676,
+        "static": 0.8472388698054212,
+        "photo": 4.67393159866333,
+        "inversions": 17,
+        "targets": 359
+      },
+      "score": 3.684709146348732
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 1.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1855053609460176,
+        "ghost": 4.450981466365712,
+        "static": 0.8448333873280457,
+        "photo": 4.671910721276488,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.686143144938698
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 1.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1838977423218964,
+        "ghost": 4.453405222190278,
+        "static": 0.846365247453962,
+        "photo": 4.673672631382942,
+        "inversions": 17,
+        "targets": 359
+      },
+      "score": 3.6863144482096226
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 1.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1857201315898416,
+        "ghost": 4.450937903885331,
+        "static": 0.8448303195514849,
+        "photo": 4.671903106783118,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6863260899093033
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 1.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1857370798966347,
+        "ghost": 4.451255045299019,
+        "static": 0.8451233841478825,
+        "photo": 4.672545815152781,
+        "inversions": 17,
+        "targets": 359
+      },
+      "score": 3.6866330872040103
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 1.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.184482875972737,
+        "ghost": 4.453314583748579,
+        "static": 0.8463024222957236,
+        "photo": 4.673602141439915,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6867799510144548
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 1.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1863140342627396,
+        "ghost": 4.451202238776854,
+        "static": 0.8448253816791943,
+        "photo": 4.671874865889549,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6869166255463366
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 1.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1862539952843965,
+        "ghost": 4.451246087572405,
+        "static": 0.8451087693018573,
+        "photo": 4.6725233016269545,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6870888839022475
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 2.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.18704965453294,
+        "ghost": 4.451744373887777,
+        "static": 0.8447897210717201,
+        "photo": 4.671527209026473,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6876622168684507
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 2.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.18704965453294,
+        "ghost": 4.451744373887777,
+        "static": 0.8447897210717201,
+        "photo": 4.671527209026473,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6876622168684507
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.75,
+        "tolerance": 2.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.18704965453294,
+        "ghost": 4.451772466834102,
+        "static": 0.8447897210717201,
+        "photo": 4.671526587435177,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.687668216415986
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 2.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.1870620655814252,
+        "ghost": 4.451824413346393,
+        "static": 0.8447931903813567,
+        "photo": 4.671543709933758,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.68769360863718
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 2.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.1870620655814252,
+        "ghost": 4.451824413346393,
+        "static": 0.8447931903813567,
+        "photo": 4.671543709933758,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.68769360863718
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 2.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1870620655814252,
+        "ghost": 4.451837585972888,
+        "static": 0.8447931435491357,
+        "photo": 4.671541981399059,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.687696335730277
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 2.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.187071937040366,
+        "ghost": 4.451966118067503,
+        "static": 0.8447990699538163,
+        "photo": 4.67156865979944,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6877378779600987
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 2.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.187071937040366,
+        "ghost": 4.451959053852728,
+        "static": 0.8448017109185457,
+        "photo": 4.6715720764228275,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6877382892168584
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.1,
+        "tolerance": 2.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.187071937040366,
+        "ghost": 4.451959053852728,
+        "static": 0.8448017109185457,
+        "photo": 4.6715720764228275,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6877382892168584
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 2.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.187071937040366,
+        "ghost": 4.4520346485078335,
+        "static": 0.8447980923312051,
+        "photo": 4.6715609314186235,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6877516139053412
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 2.0,
+        "minimum": 0.5
+      },
+      "metrics": {
+        "gap": 2.187071937040366,
+        "ghost": 4.452060487121344,
+        "static": 0.8447990797992263,
+        "photo": 4.671563539121832,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6877579238043263
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 2.0,
+        "minimum": 1.0
+      },
+      "metrics": {
+        "gap": 2.187071937040366,
+        "ghost": 4.452060487121344,
+        "static": 0.8447990797992263,
+        "photo": 4.671563539121832,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6877579238043263
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.25,
+        "tolerance": 1.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.18868164896633,
+        "ghost": 4.4535372741520405,
+        "static": 0.8460839364145484,
+        "photo": 4.673374265432358,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6904760318365186
+    },
+    {
+      "parameters": {
+        "parent": "repair15",
+        "activity": 0.5,
+        "tolerance": 1.0,
+        "minimum": 2.0
+      },
+      "metrics": {
+        "gap": 2.1899719782858504,
+        "ghost": 4.451649361955268,
+        "static": 0.8450661208480597,
+        "photo": 4.672434888780117,
+        "inversions": 18,
+        "targets": 359
+      },
+      "score": 3.6905128143542876
+    }
+  ]
+}

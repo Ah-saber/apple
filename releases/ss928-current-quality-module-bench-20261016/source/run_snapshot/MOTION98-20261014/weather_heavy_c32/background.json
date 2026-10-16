@@ -1,0 +1,25 @@
+{
+  "coefficients": [
+    0.889775363480853,
+    -0.13365923427041787
+  ],
+  "train_pixels": [
+    35436,
+    34628
+  ],
+  "fit_split": "train",
+  "GT_ROI": [
+    0,
+    256,
+    1024,
+    768
+  ],
+  "GT_outside_train_ROI_used": false,
+  "validation_used": false,
+  "test_used": false,
+  "initialization": "available past16 median; static physical and independent92 backgrounds",
+  "features": [
+    "HP21(physical_background-SR_background)",
+    "HP21(detail1.1_physical-detail1.1_SR)"
+  ]
+}

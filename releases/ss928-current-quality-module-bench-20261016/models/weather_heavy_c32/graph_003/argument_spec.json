@@ -1,0 +1,150 @@
+{
+  "args": {
+    "kind": "tuple",
+    "items": [
+      {
+        "kind": "dict",
+        "items": [
+          [
+            "baseline",
+            {
+              "tensor": "input_000",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0.baseline"
+            }
+          ],
+          [
+            "current_only",
+            {
+              "tensor": "input_001",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0.current_only"
+            }
+          ],
+          [
+            "gated_history",
+            {
+              "tensor": "input_002",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0.gated_history"
+            }
+          ],
+          [
+            "past_background",
+            {
+              "tensor": "input_003",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0.past_background"
+            }
+          ],
+          [
+            "activity",
+            {
+              "tensor": "input_004",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0.activity"
+            }
+          ],
+          [
+            "occupancy",
+            {
+              "tensor": "input_005",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0.occupancy"
+            }
+          ],
+          [
+            "plain_current116",
+            {
+              "tensor": "input_006",
+              "shape": [
+                1,
+                1,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0.plain_current116"
+            }
+          ],
+          [
+            "raw50",
+            {
+              "tensor": "input_007",
+              "shape": [
+                1,
+                13,
+                1024,
+                1280
+              ],
+              "dtype": "float32",
+              "source": "args.0.raw50"
+            }
+          ]
+        ]
+      },
+      {
+        "tensor": "input_008",
+        "shape": [
+          1,
+          1,
+          1024,
+          1280
+        ],
+        "dtype": "float32",
+        "source": "args.1"
+      },
+      {
+        "tensor": "input_009",
+        "shape": [
+          1,
+          1,
+          1024,
+          1280
+        ],
+        "dtype": "float32",
+        "source": "args.2"
+      }
+    ]
+  },
+  "kwargs": {
+    "kind": "dict",
+    "items": []
+  }
+}

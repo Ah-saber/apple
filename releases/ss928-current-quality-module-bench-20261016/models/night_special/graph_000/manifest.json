@@ -1,0 +1,133 @@
+{
+  "id": "graph_000",
+  "scene": "night_special",
+  "module_id": "module_00",
+  "module_path": "SR.primary",
+  "module_type": "historydisplay_phase11.CurrentRouteBoard",
+  "folder": "models/night_special/graph_000",
+  "argument_spec": {
+    "args": {
+      "kind": "tuple",
+      "items": [
+        {
+          "tensor": "input_000",
+          "shape": [
+            1,
+            5,
+            1024,
+            1280
+          ],
+          "dtype": "float16",
+          "source": "args.0"
+        },
+        {
+          "tensor": "input_001",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "dtype": "float16",
+          "source": "args.1"
+        }
+      ]
+    },
+    "kwargs": {
+      "kind": "dict",
+      "items": []
+    }
+  },
+  "cases": {
+    "val": {
+      "frame": 0,
+      "split": "val",
+      "source": "original RAW path; no GT in inputs"
+    },
+    "train": {
+      "frame": 0,
+      "split": "train",
+      "source": "original RAW path; no GT in inputs"
+    }
+  },
+  "ONNX_exported": true,
+  "ONNX_file": "model.onnx",
+  "inputs": [
+    {
+      "name": "input_000",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        5,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_001",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        64,
+        64
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output_000",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ]
+    }
+  ],
+  "operators": {
+    "Constant": 291,
+    "Slice": 71,
+    "Cast": 10,
+    "Concat": 12,
+    "Sub": 4,
+    "Mul": 3,
+    "Conv": 25,
+    "Relu": 8,
+    "ReduceMean": 1,
+    "Add": 3,
+    "Transpose": 4,
+    "Clip": 1,
+    "Reshape": 2
+  },
+  "checker_passed": true,
+  "PC_runtime": "onnxruntime CPU",
+  "PC_case": "val",
+  "PyTorch_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 0.05885561928153038,
+      "max_absolute": 0.5,
+      "P95_absolute": 0.125
+    }
+  ],
+  "SDK_compiled": false,
+  "NPU_measured": false,
+  "full_pipeline": false,
+  "CPU_tracking_and_fusion_outside_graph": true,
+  "runtime_noise_scalars_are_explicit_inputs": true,
+  "observed_GPU_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 0.05885561928153038,
+      "max_absolute": 0.5
+    }
+  ],
+  "smoke_inputs": "shared_graph_inputs.npz",
+  "calibration_files": [
+    "shared_graph_inputs.npz"
+  ],
+  "shared_input_reason": "Real train and val replay tensor arrays are exactly equal; use one stored asset. Calibration provenance remains train.",
+  "independent_train_val_quality_samples": false
+}

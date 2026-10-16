@@ -1,0 +1,238 @@
+{
+  "id": "graph_base",
+  "scene": "night_ordinary",
+  "module_type": "FrozenTiedSR",
+  "module_path": "unchanged frozen SR",
+  "ONNX_exported": true,
+  "ONNX_file": "model.onnx",
+  "inputs": [
+    {
+      "name": "raw_stack",
+      "shape": [
+        1,
+        5,
+        1024,
+        1280
+      ],
+      "dtype": "FLOAT16",
+      "bytes": 13107200
+    },
+    {
+      "name": "reference_thumb",
+      "shape": [
+        1,
+        1,
+        64,
+        64
+      ],
+      "dtype": "FLOAT16",
+      "bytes": 8192
+    }
+  ],
+  "outputs": [
+    {
+      "name": "display_gray",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ],
+      "dtype": "FLOAT16",
+      "bytes": 23592960
+    }
+  ],
+  "operators": {
+    "Identity": 2,
+    "Constant": 399,
+    "Slice": 98,
+    "Cast": 17,
+    "Concat": 16,
+    "Sub": 4,
+    "Mul": 3,
+    "Conv": 34,
+    "Relu": 11,
+    "AveragePool": 2,
+    "Transpose": 10,
+    "Add": 6,
+    "ReduceMean": 1,
+    "Clip": 1,
+    "Reshape": 2
+  },
+  "smoke_inputs": "smoke_inputs.npz",
+  "calibration_files": [
+    "calibration_00.npz",
+    "calibration_01.npz",
+    "calibration_02.npz",
+    "calibration_03.npz"
+  ],
+  "PC_case": "test",
+  "unchanged_since_takeover": true,
+  "source": "/data/zhangbenzhuang/huawei_sr/runs/SS928-ROUND5-20261007/TIED500-DEPLOY-20261012-FIX/night_ordinary",
+  "calibration": [
+    {
+      "file": "calibration_00.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "night/raw_20260805_195608/000008@train",
+        "domain": "night",
+        "sequence_id": "raw_20260805_195608",
+        "frame_id": 8,
+        "group_id": "night_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_195608/raw_u16.npy",
+          "index": 8,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_195608/000008.png",
+          "sha256": "c517aed4d3c47c73358e7204e374d3bd055abf9336bb27a9db163a216fb8c04c",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_195608/enhanced/0008.png",
+          "source_sha256": "c517aed4d3c47c73358e7204e374d3bd055abf9336bb27a9db163a216fb8c04c",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 8
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_195608/000008",
+        "split": "train",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "input_frames": 5,
+      "profile": "streamCachedFast4Past"
+    },
+    {
+      "file": "calibration_01.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "night/raw_20260805_195608/000059@train",
+        "domain": "night",
+        "sequence_id": "raw_20260805_195608",
+        "frame_id": 59,
+        "group_id": "night_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_195608/raw_u16.npy",
+          "index": 59,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_195608/000059.png",
+          "sha256": "4b89e22d73b7a9f75327f2a0649bf17a7486b3beb43b0c7355c23ccb3154f6e3",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_195608/enhanced/0059.png",
+          "source_sha256": "4b89e22d73b7a9f75327f2a0649bf17a7486b3beb43b0c7355c23ccb3154f6e3",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 59
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_195608/000059",
+        "split": "train",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "input_frames": 5,
+      "profile": "streamCachedFast4Past"
+    },
+    {
+      "file": "calibration_02.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "night/raw_20260805_195715/000059@train",
+        "domain": "night",
+        "sequence_id": "raw_20260805_195715",
+        "frame_id": 59,
+        "group_id": "night_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_195715/raw_u16.npy",
+          "index": 59,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_195715/000059.png",
+          "sha256": "9be8e32a5ab8ed2b44d750acc04339e75e6d33b46c2522a1f7d77875368beead",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_195715/enhanced/0059.png",
+          "source_sha256": "9be8e32a5ab8ed2b44d750acc04339e75e6d33b46c2522a1f7d77875368beead",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 59
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_195715/000059",
+        "split": "train",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "input_frames": 5,
+      "profile": "streamCachedFast4Past"
+    },
+    {
+      "file": "calibration_03.npz",
+      "split": "train",
+      "sample": {
+        "sample_id": "night/raw_20260805_200247/000059@train",
+        "domain": "night",
+        "sequence_id": "raw_20260805_200247",
+        "frame_id": 59,
+        "group_id": "night_capture_01",
+        "raw": {
+          "path": "decoded/raw_v1/night/raw_20260805_200247/raw_u16.npy",
+          "index": 59,
+          "format_id": "NIGHT-YRAW-U16LE-V1"
+        },
+        "target": {
+          "path": "targets/v8_snapshot_20260921/night/raw_20260805_200247/000059.png",
+          "sha256": "d13424ba08231067c40d886ee603de61230891763adca91e7befca17adf52dbf",
+          "source_path": "incoming/v8_snapshot_20260921/night/raw_20260805_200247/enhanced/0059.png",
+          "source_sha256": "d13424ba08231067c40d886ee603de61230891763adca91e7befca17adf52dbf",
+          "teacher_version": "v5.1",
+          "source_experiment": "EXP-TASK-010-N51",
+          "frame_id": 59
+        },
+        "pair_status": "source_identity_and_index_verified",
+        "alignment_limit": "coarse spatial checks; capture hardware synchronization not certified",
+        "source_sample_id": "night/raw_20260805_200247/000059",
+        "split": "train",
+        "scene_id": "night_ordinary",
+        "evaluation_scope": "training",
+        "train_roi_tlhw": [
+          0,
+          0,
+          1024,
+          1280
+        ]
+      },
+      "input_frames": 5,
+      "profile": "streamCachedFast4Past"
+    }
+  ],
+  "original_PC_comparison": {
+    "MAE": 0.06556154787540436,
+    "max_absolute": 0.625
+  },
+  "checker_passed": true,
+  "SDK_compiled_for_this_package": false,
+  "current_board_measurement": false,
+  "full_pipeline": false
+}

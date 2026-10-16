@@ -1,0 +1,19 @@
+{
+  "scene": "night_special",
+  "split": "train",
+  "frame": 16,
+  "calls": [
+    "graph_000",
+    "graph_000",
+    "graph_000",
+    "graph_000",
+    "graph_002"
+  ],
+  "counts": {
+    "graph_000": 4,
+    "graph_002": 1
+  },
+  "input_preparation": "PC original pipeline, outside component NPU timing",
+  "full_pipeline": false,
+  "CPU_state_and_fusion_not_executed_on_board": true
+}

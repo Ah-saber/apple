@@ -1,0 +1,130 @@
+{
+  "id": "graph_000",
+  "scene": "weather_heavy",
+  "module_id": "module_00",
+  "module_path": "SR.primary",
+  "module_type": "historydisplay_phase11.CurrentRouteBoard",
+  "folder": "models/weather_heavy/graph_000",
+  "argument_spec": {
+    "args": {
+      "kind": "tuple",
+      "items": [
+        {
+          "tensor": "input_000",
+          "shape": [
+            1,
+            3,
+            1024,
+            1280
+          ],
+          "dtype": "float16",
+          "source": "args.0"
+        },
+        {
+          "tensor": "input_001",
+          "shape": [
+            1,
+            1,
+            64,
+            64
+          ],
+          "dtype": "float16",
+          "source": "args.1"
+        }
+      ]
+    },
+    "kwargs": {
+      "kind": "dict",
+      "items": []
+    }
+  },
+  "cases": {
+    "val": {
+      "frame": 0,
+      "split": "val",
+      "source": "original RAW path; no GT in inputs"
+    },
+    "train": {
+      "frame": 0,
+      "split": "train",
+      "source": "original RAW path; no GT in inputs"
+    }
+  },
+  "ONNX_exported": true,
+  "ONNX_file": "model.onnx",
+  "inputs": [
+    {
+      "name": "input_000",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        3,
+        1024,
+        1280
+      ]
+    },
+    {
+      "name": "input_001",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        64,
+        64
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output_000",
+      "dtype": "FLOAT16",
+      "shape": [
+        1,
+        1,
+        3072,
+        3840
+      ]
+    }
+  ],
+  "operators": {
+    "Constant": 374,
+    "Slice": 88,
+    "Cast": 18,
+    "Concat": 14,
+    "Sub": 2,
+    "Mul": 13,
+    "Conv": 24,
+    "Relu": 4,
+    "Div": 5,
+    "Erf": 5,
+    "Add": 11,
+    "AveragePool": 3,
+    "Transpose": 13,
+    "ReduceMean": 1,
+    "Clip": 1,
+    "Reshape": 2
+  },
+  "checker_passed": true,
+  "PC_runtime": "onnxruntime CPU",
+  "PC_case": "val",
+  "PyTorch_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 0.03617926687002182,
+      "max_absolute": 0.375,
+      "P95_absolute": 0.125
+    }
+  ],
+  "SDK_compiled": false,
+  "NPU_measured": false,
+  "full_pipeline": false,
+  "CPU_tracking_and_fusion_outside_graph": true,
+  "runtime_noise_scalars_are_explicit_inputs": true,
+  "observed_GPU_vs_PC": [
+    {
+      "output": "output_000",
+      "MAE": 0.03617926687002182,
+      "max_absolute": 0.375
+    }
+  ]
+}

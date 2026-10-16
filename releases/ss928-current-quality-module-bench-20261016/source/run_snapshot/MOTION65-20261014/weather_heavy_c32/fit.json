@@ -1,0 +1,160 @@
+{
+  "scene": "weather_heavy_c32",
+  "parent_delta": null,
+  "source": {
+    "gap": 3.9068134020245266,
+    "inversions": 0.015873015873015872,
+    "ghost": 4.049579631117147,
+    "signed_ghost": 2.1516509790911584,
+    "flicker": 1.1123464586479324
+  },
+  "candidates": [
+    {
+      "alpha": 0.0,
+      "metrics": {
+        "gap": 3.9068134020245266,
+        "inversions": 0.015873015873015872,
+        "ghost": 4.049579631117147,
+        "signed_ghost": 2.1516509790911584,
+        "flicker": 1.1123464586479324
+      },
+      "capture_flicker": [
+        1.1103940095220293,
+        1.1142989077738352
+      ],
+      "eligible": true,
+      "score": 9.0
+    },
+    {
+      "alpha": 0.1,
+      "metrics": {
+        "gap": 3.821129083633423,
+        "inversions": 0.015873015873015872,
+        "ghost": 4.03894489457928,
+        "signed_ghost": 2.1445473410027542,
+        "flicker": 1.112444264015981
+      },
+      "capture_flicker": [
+        1.1104875249522073,
+        1.1144010030797549
+      ],
+      "eligible": true,
+      "score": 8.900504606205748
+    },
+    {
+      "alpha": 0.25,
+      "metrics": {
+        "gap": 3.710011300586519,
+        "inversions": 0.015873015873015872,
+        "ghost": 4.02518887924017,
+        "signed_ghost": 2.134988583204151,
+        "flicker": 1.1126939633062907
+      },
+      "capture_flicker": [
+        1.110733290868146,
+        1.1146546357444354
+      ],
+      "eligible": true,
+      "score": 8.771282040965993
+    },
+    {
+      "alpha": 0.5,
+      "metrics": {
+        "gap": 3.565216125003875,
+        "inversions": 0.015873015873015872,
+        "ghost": 4.008415192417703,
+        "signed_ghost": 2.1221337832948186,
+        "flicker": 1.1133635347442967
+      },
+      "capture_flicker": [
+        1.1114014121038573,
+        1.115325657384736
+      ],
+      "eligible": true,
+      "score": 8.603402168327507
+    },
+    {
+      "alpha": 0.75,
+      "metrics": {
+        "gap": 3.4611999723646374,
+        "inversions": 0.013888888888888888,
+        "ghost": 3.9999865576265767,
+        "signed_ghost": 2.1134507508414377,
+        "flicker": 1.1143212180052484
+      },
+      "capture_flicker": [
+        1.1123617504324232,
+        1.1162806855780738
+      ],
+      "eligible": true,
+      "score": 8.485532183306887
+    },
+    {
+      "alpha": 1.0,
+      "metrics": {
+        "gap": 3.406677480727907,
+        "inversions": 0.013888888888888888,
+        "ghost": 4.000284146499915,
+        "signed_ghost": 2.109130106354063,
+        "flicker": 1.115543862006494
+      },
+      "capture_flicker": [
+        1.1135902862463678,
+        1.11749743776662
+      ],
+      "eligible": true,
+      "score": 8.426939213330943
+    }
+  ],
+  "best": {
+    "alpha": 1.0,
+    "metrics": {
+      "gap": 3.406677480727907,
+      "inversions": 0.013888888888888888,
+      "ghost": 4.000284146499915,
+      "signed_ghost": 2.109130106354063,
+      "flicker": 1.115543862006494
+    },
+    "capture_flicker": [
+      1.1135902862463678,
+      1.11749743776662
+    ],
+    "eligible": true,
+    "score": 8.426939213330943
+  },
+  "diagnostic_best": {
+    "alpha": 1.0,
+    "metrics": {
+      "gap": 3.406677480727907,
+      "inversions": 0.013888888888888888,
+      "ghost": 4.000284146499915,
+      "signed_ghost": 2.109130106354063,
+      "flicker": 1.115543862006494
+    },
+    "capture_flicker": [
+      1.1135902862463678,
+      1.11749743776662
+    ],
+    "eligible": true,
+    "score": 8.426939213330943
+  },
+  "status": "passed",
+  "fit_split": "train",
+  "validation_used": false,
+  "test_used": false,
+  "training_ROIs": [
+    [
+      0,
+      256,
+      1024,
+      768
+    ],
+    [
+      0,
+      256,
+      1024,
+      768
+    ]
+  ],
+  "flicker_limit": "each train capture <= 1.005 source"
+}
